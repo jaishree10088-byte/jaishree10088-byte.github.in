@@ -24,6 +24,8 @@
   .card a:active, .card a:hover { color:#ffbe28; }
   .meta { font-size:12px; color:#8fa8d8; margin-top:6px; }
   .htags { color:#7fd4ff; font-size:12.5px; margin-top:8px; line-height:1.6; }
+  .mini img.ph { height:150px; }
+  .catchip { display:inline-block; background:#ffbe28; color:#16295c; font-size:11px; font-weight:700; border-radius:6px; padding:2px 8px; margin-bottom:8px; }
   .tgrid { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
   .tcard { background:#16295c; border-radius:14px; overflow:hidden; text-decoration:none; color:#fff; display:block; }
   .tcard img { width:100%; height:96px; object-fit:cover; display:block; background:#0d1b3e; }
@@ -77,6 +79,10 @@
 
   <h2>🌍 Top Headlines (English)</h2>
   <div id="newsEn"><p class="loading">Headlines loading… (may take a few moments)</p></div>
+
+  <h2>⚡ 100 Taaza Khabrein — Photo ke Sath</h2>
+  <p class="tag" id="feed100Meta">Roz subah ki 100 badi khabrein ikatthe…</p>
+  <div id="feed100"><p class="loading">100 khabrein aa rahi hain…</p></div>
 
   <h2>📚 eBook Library — Free Kitabein</h2>
   <div class="ebook">
@@ -295,6 +301,28 @@
         else renderTrends([]);
       });
   }
+
+  // ---- 100 Taaza Khabrein (roz subah 5 baje naya sangrah) ----
+  var CATLBL = { "bharat-hi": "🇮🇳 Bharat", "bharat-en": "🇮🇳 Bharat", khel: "🏏 Khel", vyapar: "💰 Vyapar", duniya: "🌐 Duniya" };
+  fetch("feed100.json?t=" + Date.now()).then(function (r) {
+    if (!r.ok) throw new Error("no feed");
+    return r.json();
+  }).then(function (d) {
+    var el = document.getElementById("feed100");
+    if (!d.items || !d.items.length) { el.innerHTML = '<p class="loading">Aaj ki 100 khabrein taiyaar ho rahi hain…</p>'; return; }
+    document.getElementById("feed100Meta").textContent = "🗓️ Roz subah 5 baje taaza sangrah • Kul " + d.items.length + " khabrein";
+    el.innerHTML = d.items.map(function (a) {
+      var img = a.img ? '<img class="ph" loading="lazy" src="' + esc(a.img) + '" alt="" onerror="this.style.display=\'none\'">' : "";
+      var meta = [];
+      if (a.d) meta.push(esc(a.d));
+      var ta = timeAgo(parseGdeltDate(a.time));
+      if (ta) meta.push(ta);
+      return '<div class="card mini">' + img + '<span class="catchip">' + (CATLBL[a.cat] || "🗞️ Khabar") + '</span><a href="' + esc(a.u) + '" target="_blank" rel="noopener">' + esc(a.t) + "</a>" +
+        (meta.length ? '<p class="meta">' + meta.join(" • ") + "</p>" : "") + "</div>";
+    }).join("");
+  }).catch(function () {
+    document.getElementById("feed100").innerHTML = '<p class="loading">Aaj ki 100 khabrein taiyaar ho rahi hain…</p>';
+  });
 
   // GDELT ki shart: ek samay par ek hi mang — isiliye antar rakh kar mangte hain
   loadGdelt("newsHi", "hindi", 0, "https://news.google.com/?hl=hi&gl=IN", "Google News par dekho");
