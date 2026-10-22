@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sandipk.qd.je/sitemap.xml
+Sitemap: https://sandipk.qd.je/news-sitemap.xml
