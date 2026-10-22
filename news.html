@@ -30,6 +30,15 @@
   .err { color:#ffb3b3; font-size:14px; }
   .err a { color:#ffbe28; }
   .refresh-note { color:#8fa8d8; font-size:12.5px; text-align:center; margin-top:16px; }
+
+  .langbar { display:flex; gap:8px; margin:10px 0 4px; }
+  .langbtn { background:#16295c; border:1px solid #2c4a8a; color:#cdd9f2; border-radius:999px; padding:7px 15px; font-size:13.5px; font-weight:600; }
+  .langbtn.active { background:#ffbe28; color:#16295c; border-color:#ffbe28; }
+  .story .cat { display:inline-block; background:#ffbe28; color:#16295c; font-size:11px; font-weight:700; border-radius:6px; padding:2px 8px; margin-bottom:8px; }
+  .story h3 { font-size:16.5px; line-height:1.45; margin-bottom:8px; }
+  .story p.body { color:#cdd9f2; font-size:14.5px; line-height:1.65; margin-bottom:8px; }
+  .story .src { font-size:12px; color:#8fa8d8; }
+  .story .src a { color:#ffbe28; font-size:12px; display:inline; font-weight:600; }
   footer { text-align:center; color:#8fa8d8; font-size:13px; padding:24px 10px 34px; }
 </style>
 </head>
@@ -44,6 +53,15 @@
     <a class="wa-btn" id="waShare" href="#" target="_blank" rel="noopener">📲 WhatsApp par Share karo</a>
     <p class="tags">#ताज़ाखबर #TrendingNews #HindiNews #ViralKhabar #IndiaNews #AajKiKhabar</p>
   </div>
+
+
+  <h2>✍️ Apna Akhbaar — Humari Kalam Se</h2>
+  <p class="tag" id="akhbaarEdition">Aaj ka akhbaar aa raha hai…</p>
+  <div class="langbar">
+    <button class="langbtn active" id="btnHi">देवनागरी</button>
+    <button class="langbtn" id="btnEn">English</button>
+  </div>
+  <div id="akhbaar"><p class="loading">Akhbaar load ho raha hai…</p></div>
 
   <h2>🗞️ Aaj ki Badi Khabrein (Hindi)</h2>
   <div id="newsHi"><p class="loading">Khabrein aa rahi hain… (kuch pal lag sakte hain)</p></div>
@@ -153,6 +171,43 @@
     }
     setTimeout(function () { attempt(false); }, delay);
   }
+
+
+  // ---- Apna Akhbaar (khud ka likha hua, roz automatic) ----
+  var akhLang = "hi", akhData = null;
+  var CATNAMES = { bharat: "🇮🇳 Bharat", duniya: "🌐 Duniya", khel: "🏏 Khel", vyapar: "💰 Vyapar", khaas: "⭐ Khaas" };
+  function renderAkhbaar() {
+    var box = document.getElementById("akhbaar");
+    if (!akhData || !akhData.stories || !akhData.stories.length) {
+      box.innerHTML = '<p class="loading">🗞️ Aaj ka akhbaar taiyaar ho raha hai — thodi der me yahan dikhega.</p>';
+      return;
+    }
+    document.getElementById("akhbaarEdition").textContent = "🗓️ " + (akhData.edition || "") + " ka akhbaar • Apne shabdon me likha hua";
+    box.innerHTML = akhData.stories.map(function (st) {
+      var title = akhLang === "hi" ? st.title_hi : st.title_en;
+      var body = akhLang === "hi" ? st.body_hi : st.body_en;
+      var paras = String(body || "").split("\n\n").map(function (x) { return '<p class="body">' + esc(x) + "</p>"; }).join("");
+      var src = st.source ? '<p class="src">Source: ' + esc(st.source) + (st.source_url ? ' • <a href="' + esc(st.source_url) + '" target="_blank" rel="noopener">asar khabar</a>' : "") + "</p>" : "";
+      return '<div class="card story"><span class="cat">' + (CATNAMES[st.cat] || "⭐ Khaas") + "</span><h3>" + esc(title) + "</h3>" + paras + src + "</div>";
+    }).join("");
+  }
+  document.getElementById("btnHi").onclick = function () {
+    akhLang = "hi";
+    document.getElementById("btnHi").className = "langbtn active";
+    document.getElementById("btnEn").className = "langbtn";
+    renderAkhbaar();
+  };
+  document.getElementById("btnEn").onclick = function () {
+    akhLang = "en";
+    document.getElementById("btnEn").className = "langbtn active";
+    document.getElementById("btnHi").className = "langbtn";
+    renderAkhbaar();
+  };
+  fetch("news.json?t=" + Date.now()).then(function (r) {
+    if (!r.ok) throw new Error("no paper yet");
+    return r.json();
+  }).then(function (d) { akhData = d; renderAkhbaar(); })
+    .catch(function () { renderAkhbaar(); });
 
   // GDELT ki shart: ek samay par ek hi mang — isiliye antar rakh kar mangte hain
   loadGdelt("newsHi", "hindi", 0, "https://news.google.com/?hl=hi&gl=IN", "Google News par dekho");
