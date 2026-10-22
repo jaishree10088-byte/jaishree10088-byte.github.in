@@ -6,6 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ताज़ा ख़बर | Apna Akhbaar — Roz ki Badi Khabrein, Trending News, Photo ke Sath</title>
 <meta name="description" content="Bharat aur duniya ki sabse badi khabrein photo ke sath, Google par trending topics, aur humari kalam se likha Apna Akhbaar — Hindi aur English me, roz taaza.">
+<link rel="canonical" href="https://sandipk.qd.je/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#0d1b3e">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Apna Akhbaar">
+<meta property="og:title" content="ताज़ा ख़बर | Apna Akhbaar — Roz ki Badi Khabrein, Photo ke Sath">
+<meta property="og:description" content="Bharat aur duniya ki sabse badi khabrein photo ke sath — Hindi aur English me, roz subah taaza.">
+<meta property="og:url" content="https://sandipk.qd.je/">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsMediaOrganization","name":"Apna Akhbaar","url":"https://sandipk.qd.je/","founder":{"@type":"Person","name":"Sandip Kumar Mahto"}}</script>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: system-ui, sans-serif; background:#0d1b3e; color:#fff; }
@@ -213,7 +223,8 @@
       var paras = String(body || "").split("\n\n").map(function (x) { return '<p class="body">' + esc(x) + "</p>"; }).join("");
       var tags = (st.tags && st.tags.length) ? '<p class="htags">' + st.tags.map(esc).join(" ") + "</p>" : "";
       var src = st.source ? '<p class="src">Source: ' + esc(st.source) + (st.source_url ? ' • <a href="' + esc(st.source_url) + '" target="_blank" rel="noopener">asar khabar</a>' : "") + "</p>" : "";
-      return '<div class="card story">' + img + '<span class="cat">' + (CATNAMES[st.cat] || "⭐ Khaas") + "</span><h3>" + esc(title) + "</h3>" + paras + tags + src + "</div>";
+      var pg = st.page ? '<p class="src">🔗 <a href="' + esc(st.page) + '">Is khabar ka apna page</a> — Google ke liye</p>' : "";
+      return '<div class="card story">' + img + '<span class="cat">' + (CATNAMES[st.cat] || "⭐ Khaas") + "</span><h3>" + esc(title) + "</h3>" + paras + tags + src + pg + "</div>";
     }).join("");
   }
   document.getElementById("btnHi").onclick = function () {
