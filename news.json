@@ -1,168 +1,189 @@
 {
-  "edition": "मंगलवार, 27 अक्टूबर 2026",
-  "updated_at": "2026-10-27T05:00:00+05:30",
+  "edition": "बुधवार, 28 अक्टूबर 2026",
+  "updated_at": "2026-10-28T05:00:00+05:30",
   "stories": [
     {
-      "id": "2026-10-27-bharat-1",
+      "id": "2026-10-28-bharat-1",
       "cat": "bharat",
-      "title_hi": "मानहानि मामले में राहुल गांधी बरी: 2018 में अमित शाह पर टिप्पणी का था मामला",
-      "title_en": "Rahul Gandhi found 'not guilty' in defamation case over 2018 remarks on Amit Shah",
-      "body_hi": "राहुल गांधी को 2018 में अमित शाह पर की गई टिप्पणी से जुड़े मानहानि के मामले में अदालत ने 'दोषी नहीं' करार दिया है। यह मामला उन टिप्पणियों को लेकर था जो शाह के बारे में की गई थीं, जब वे भाजपा के अध्यक्ष थे।\n\nअदालत के इस फैसले से कांग्रेस नेता को बड़ी राहत मिली है। यह मामला कई साल से अदालत में चल रहा था और आज के फैसले के साथ इस पर फैसला आ गया है।",
-      "body_en": "Rahul Gandhi has been found 'not guilty' in a defamation case over remarks he made about Amit Shah in 2018. The case arose from comments concerning Shah, who was then the president of the BJP.\n\nThe court's verdict brings major relief for the Congress leader. The case had been pending in court for several years, and today's decision settles it.",
-      "source": "NDTV",
-      "source_url": "https://www.ndtv.com/education/school-assembly-news-headlines-october-27-top-national-international-sports-news-12238754/amp/1",
-      "img": "https://www.livelaw.in/h-upload/2025/05/05/598682-rahul-gandhi-4.jpg",
+      "title_hi": "चक्रवात अर्नब आज तट से टकराएगा: आंध्र प्रदेश-यनम तट पर तेज हवाएँ, 7 जिलों में रेड अलर्ट",
+      "title_en": "Cyclone Arnab to cross coast today: Red alert in seven Andhra Pradesh districts",
+      "body_hi": "अति गंभीर चक्रवाती तूफान अर्नब आज सुबह के समय आंध्र प्रदेश और यनम तट को पार करने वाला है। मौसम विभाग के अनुसार तूफान बापटला और विशाखापत्तनम के बीच तट से टकराएगा, इस दौरान हवाओं की रफ्तार 115 से 125 किलोमीटर प्रति घंटा रह सकती है और झोंके 140 किलोमीटर प्रति घंटा तक पहुँच सकते हैं।\n\nआंध्र प्रदेश के सात जिलों में रेड अलर्ट जारी किया गया है और ओडिशा के दक्षिणी हिस्से के छह जिलों में स्कूल बंद कर दिए गए हैं। तटीय इलाकों में 15 एनडीआरएफ टीमें तैनात की गई हैं, 30 हजार से ज्यादा मछली पकड़ने वाली नावें बंदरगाह लौट आई हैं और राज्य सरकार ने राहत कार्यों के लिए 27 करोड़ रुपये जारी किए हैं।",
+      "body_en": "Very severe cyclonic storm Arnab is set to cross the Andhra Pradesh and Yanam coasts in the forenoon today. According to the weather department, the storm will make landfall between Bapatla and Visakhapatnam, with winds of 115 to 125 kmph gusting up to 140 kmph.\n\nRed alerts have been issued in seven districts of Andhra Pradesh, and schools in six southern districts of Odisha have been closed as a precaution. Fifteen NDRF teams have been deployed in the coastal districts, more than 30,000 fishing boats have returned to harbour, and the state government has released 27 crore rupees for relief work.",
+      "source": "Jagran Josh",
+      "source_url": "https://www.jagranjosh.com/articles/school-assembly-news-headlines-october-28-2026-indias-sco-dialogue-cyclone-arnab-mlc-election-and-other-news-1800018303-1",
+      "img": "https://www.sangbadpratidin.in/wp-content/uploads/2024/08/Cyclone.jpg",
       "tags": [
-        "#RahulGandhi",
-        "#DefamationCase",
-        "#CourtVerdict",
+        "#CycloneArnab",
+        "#AndhraPradesh",
+        "#IMD",
+        "#WeatherAlert",
         "#TaazaKhabar"
       ],
-      "page": "khabar/2026-10-27-bharat-1.html"
+      "page": "khabar/2026-10-28-bharat-1.html"
     },
     {
-      "id": "2026-10-27-bharat-2",
+      "id": "2026-10-28-bharat-2",
       "cat": "bharat",
-      "title_hi": "इसरो की बड़ी योजना: 2029 तक देश में चार कार्यात्मक लॉन्च पैड",
-      "title_en": "ISRO plans four functional launch pads by 2029",
-      "body_hi": "भारतीय अंतरिक्ष अनुसंधान संगठन (इसरो) के अध्यक्ष वी. नारायणन ने कहा है कि देश में 2029 तक चार कार्यात्मक लॉन्च पैड तैयार करने की योजना है। इसके साथ ही तमिलनाडु के कुलशेखरपट्टिनम में 2,000 एकड़ का स्मॉल सैटेलाइट लॉन्च व्हीकल परिसर भी बनाया जा रहा है।\n\nइस विस्तार का मकसद उपग्रहों की बढ़ती तैनाती की माँग को पूरा करना है। भारत हाल के वर्षों में अंतरिक्ष क्षेत्र में तेज़ी से आगे बढ़ रहा है और नए लॉन्च पैड से छोटे उपग्रहों के प्रक्षेपण की क्षमता और बढ़ेगी।",
-      "body_en": "Indian Space Research Organisation (ISRO) Chairman V Narayanan has said that the country plans to have four functional launch pads by 2029. In addition, a 2,000-acre Small Satellite Launch Vehicle complex is being built at Kulasekarapattinam in Tamil Nadu.\n\nThe expansion aims to cater to the growing demand for satellite deployment. India has been advancing rapidly in the space sector in recent years, and the new launch pads will further increase the capacity to launch small satellites.",
-      "source": "The Indian Express",
-      "source_url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-october-27-2026-ishan-kishan-out-of-third-ind-vs-nz-t20i-isro-eyes-four-launch-pads-by-2029-10936039/lite/",
-      "img": "https://images.indianexpress.com/2026/10/Today-News-Headlines-for-School-Assembly-October-27-2026.jpg",
-      "tags": [
-        "#ISRO",
-        "#Space",
-        "#LaunchPad",
-        "#TaazaKhabar"
-      ],
-      "page": "khabar/2026-10-27-bharat-2.html"
-    },
-    {
-      "id": "2026-10-27-bharat-3",
-      "cat": "bharat",
-      "title_hi": "पीएम मोदी आज करेंगे विज्ञान-प्रौद्योगिकी सम्मेलन का उद्घाटन, तीन दिन तक चलेगा मंथन",
-      "title_en": "PM Modi to inaugurate Emerging Science, Technology and Innovation Conclave 2026 today",
-      "body_hi": "प्रधानमंत्री नरेंद्र मोदी आज 27 अक्टूबर को शाम 5:30 बजे नई दिल्ली के भारत मंडपम में उभरती विज्ञान, प्रौद्योगिकी और नवाचार सम्मेलन 2026 का उद्घाटन करेंगे। तीन दिन का यह सम्मेलन 27 से 29 अक्टूबर तक चलेगा।\n\nसम्मेलन में कृत्रिम बुद्धिमत्ता, जैव प्रौद्योगिकी, उन्नत सामग्री, विनिर्माण, स्वास्थ्य, ऊर्जा, जलवायु और महासागर विज्ञान सहित 12 विषयों पर चर्चा होगी। प्रदर्शनी में करीब 150 डीप-टेक स्टार्टअप अपने नवाचार दिखाएँगे और 300 से अधिक प्रतिभागी ग्लोबल कनेक्ट नेटवर्किंग कार्यक्रम में हिस्सा लेंगे।",
-      "body_en": "Prime Minister Narendra Modi will inaugurate the Emerging Science, Technology and Innovation Conclave 2026 today, October 27, at 5:30 PM at Bharat Mandapam in New Delhi. The three-day conclave will run from October 27 to 29.\n\nDeliberations will span 12 thematic areas, including artificial intelligence, biotechnology, advanced materials, manufacturing, healthcare, energy, climate and ocean sciences. The exhibition will feature around 150 deep-tech startup stalls, and more than 300 participants will take part in the Global Connect networking event.",
-      "source": "DD India",
-      "source_url": "https://ddindia.co.in/2026/10/pm-modi-to-inaugurate-emerging-science-technology-and-innovation-conclave-2026-on-october-27/",
-      "img": "https://ddindia.co.in/wp-content/uploads/2026/10/20261023080L.jpg",
-      "tags": [
-        "#PMModi",
-        "#Science",
-        "#Innovation",
-        "#TaazaKhabar"
-      ],
-      "page": "khabar/2026-10-27-bharat-3.html"
-    },
-    {
-      "id": "2026-10-27-duniya-1",
-      "cat": "duniya",
-      "title_hi": "ब्राज़ील में लूला की रिकॉर्ड चौथी जीत: 51.8% वोटों के साथ फिर राष्ट्रपति",
-      "title_en": "Lula wins record fourth term in Brazil with 51.8% of votes",
-      "body_hi": "ब्राज़ील के राष्ट्रपति लुइज़ इनासियो लूला दा सिल्वा ने राष्ट्रपति चुनाव में फिर जीत दर्ज की है और रिकॉर्ड चौथी बार राष्ट्रपति बनेंगे। चुनाव अदालत के अनुसार सभी वोटों की गिनती के बाद लूला को कुल वोटों का 51.8 प्रतिशत मिला।\n\nलूला ने अपने प्रतिद्वंद्वी सीनेटर फ्लावियो बोल्सोनारो को करीब 44 लाख वोटों के अंतर से हराया। यह जीत ब्राज़ील की राजनीति में लूला की लंबी वापसी का नया अध्याय मानी जा रही है।",
-      "body_en": "Brazil's President Luiz Inácio Lula da Silva has again won the presidential election, securing a record fourth term. With all votes counted, the electoral court said Lula bagged 51.8% of the total votes.\n\nLula defeated his rival, Senator Flávio Bolsonaro, by a lead of nearly 4.4 million votes. The victory marks a new chapter in Lula's long political comeback in Brazil.",
-      "source": "The Indian Express",
-      "source_url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-october-27-2026-ishan-kishan-out-of-third-ind-vs-nz-t20i-isro-eyes-four-launch-pads-by-2029-10936039/lite/",
-      "img": "https://contee.org.br/wp-content/uploads/2025/09/Lula-2-500x281.webp",
-      "tags": [
-        "#Brazil",
-        "#Lula",
-        "#Election",
-        "#WorldNews"
-      ],
-      "page": "khabar/2026-10-27-duniya-1.html"
-    },
-    {
-      "id": "2026-10-27-duniya-2",
-      "cat": "duniya",
-      "title_hi": "यूक्रेन का ओलेश्की में आज से मानवीय संघर्षविराम, नागरिकों को मदद और सुरक्षित निकासी की तैयारी",
-      "title_en": "Ukraine to implement humanitarian ceasefire in Oleshky from today",
-      "body_hi": "यूक्रेन आज 27 अक्टूबर को सुबह 3 बजे (कीव समय) से खेरसॉन क्षेत्र के अस्थायी रूप से कब्ज़े वाले शहर ओलेश्की में एक निर्धारित क्षेत्र में संघर्षविराम लागू कर रहा है। यह कदम मानवीय अभियान के लिए उठाया गया है।\n\nयूक्रेन के सशस्त्र बलों के जनरल स्टाफ के अनुसार, इस संघर्षविराम का मकसद शहर में रह रहे लोगों तक मदद पहुँचाना और नागरिकों की सुरक्षित निकासी की तैयारी करना है। अमेरिका की प्रथम महिला मेलानिया ट्रंप ने कहा है कि उन्होंने रूस और यूक्रेन के बीच इस स्थानीय संघर्षविराम की मध्यस्थता की है।",
-      "body_en": "Starting at 3:00 a.m. on October 27, Kyiv time, Ukraine is implementing a ceasefire in a designated area to conduct a humanitarian operation in the temporarily occupied town of Oleshky in the Kherson region.\n\nAccording to the General Staff of the Armed Forces of Ukraine, the ceasefire is being established exclusively for the humanitarian operation: to deliver aid to residents currently in the city and to prepare for the free movement of the civilian population out of Oleshky. US First Lady Melania Trump said she brokered the local ceasefire between Russia and Ukraine.",
-      "source": "Ukrinform",
-      "source_url": "https://www.ukrinform.net/rubric-ato/4178428-ukraine-to-implement-ceasefire-in-oleshky-area-from-midnight-on-october-27.html",
-      "img": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1774635046-487.jpg",
-      "tags": [
-        "#Ukraine",
-        "#Ceasefire",
-        "#Oleshky",
-        "#WorldNews"
-      ],
-      "page": "khabar/2026-10-27-duniya-2.html"
-    },
-    {
-      "id": "2026-10-27-duniya-3",
-      "cat": "duniya",
-      "title_hi": "नोबेल से चूके ट्रंप का नॉर्वे पर हमला: 'नॉर्वे के लोग अमेरिका में स्वागत योग्य नहीं'",
-      "title_en": "Trump attacks Norway over Nobel snub, says Norwegians not welcome in US",
-      "body_hi": "अमेरिकी राष्ट्रपति डोनाल्ड ट्रंप ने नोबेल शांति पुरस्कार न मिलने पर नॉर्वे पर तीखा हमला बोला है। उन्होंने नोबेल समिति के फैसले को लेकर नॉर्वे की आलोचना की और कहा कि नॉर्वे के लोग अमेरिका में स्वागत योग्य नहीं होंगे।\n\nट्रंप के इस बयान ने अंतरराष्ट्रीय स्तर पर हलचल मचा दी है। नोबेल शांति पुरस्कार नॉर्वे की समिति देती है और ट्रंप लंबे समय से इस पुरस्कार की उम्मीद जता रहे थे।",
-      "body_en": "US President Donald Trump has attacked Norway over the decision to deny him the Nobel Peace Prize, using harsh language to describe the country and saying Norwegian immigrants would not be welcome in the United States.\n\nTrump's remarks have stirred reactions internationally. The Nobel Peace Prize is awarded by a committee in Norway, and Trump had long been voicing his expectation of winning it.",
+      "title_hi": "कर्नाटक की अंतिम मतदाता सूची जारी: विशेष पुनरीक्षण के बाद करीब एक करोड़ नाम हटे",
+      "title_en": "Karnataka publishes final electoral roll: Nearly one crore names deleted after special revision",
+      "body_hi": "कर्नाटक ने विशेष गहन पुनरीक्षण के बाद अपनी अंतिम मतदाता सूची जारी कर दी है। इस प्रक्रिया के बाद सूची से करीब एक करोड़ नाम हटा दिए गए हैं, जिससे राज्य के कुल मतदाताओं की संख्या 5.54 करोड़ से घटकर 4.55 करोड़ रह गई है।\n\nअंतिम सूची मंगलवार को प्रकाशित हुई। मतदाता सूची के इस बड़े बदलाव को लेकर राजनीतिक चर्चा भी तेज हो गई है, क्योंकि यह पुनरीक्षण प्रक्रिया कई राज्यों में सवालों के घेरे में रही है।",
+      "body_en": "Karnataka has published its final electoral roll after the Special Intensive Revision. Nearly one crore names have been deleted from the list, bringing the state's total electorate down from 5.54 crore to 4.55 crore.\n\nThe final list was published on Tuesday. The large change in the voter list has also fuelled political debate, as the revision exercise has faced questions in several states.",
       "source": "Mathrubhumi English",
-      "source_url": "https://english.mathrubhumi.com/amp/education/news/school-assembly-headlines-27-october-2026-national-business-legal-international-news-fy7mqvnm",
-      "img": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1upa24vnyyck0f2h0bq/0/school-assembly-jpg.webp?f=16:9&w=1200&q=1",
+      "source_url": "https://english.mathrubhumi.com/news/india/school-assembly-news-headlines-for-oct-28-2026-top-national-and-international-news-miusfyqq",
+      "img": "https://images.tv9kannada.com/wp-content/uploads/2026/05/voter-list-revision-1.jpg",
       "tags": [
-        "#Trump",
-        "#Norway",
-        "#NobelPrize",
-        "#WorldNews"
+        "#Karnataka",
+        "#VoterList",
+        "#ElectionCommission",
+        "#SIR",
+        "#TaazaKhabar"
       ],
-      "page": "khabar/2026-10-27-duniya-3.html"
+      "page": "khabar/2026-10-28-bharat-2.html"
     },
     {
-      "id": "2026-10-27-khel-1",
-      "cat": "khel",
-      "title_hi": "भारत-न्यूज़ीलैंड तीसरा टी20 आज: ईशान किशन बाहर, वैभव सूर्यवंशी को फिर मौका",
-      "title_en": "India vs New Zealand 3rd T20I today: Ishan Kishan ruled out, Vaibhav Sooryavanshi gets another chance",
-      "body_hi": "भारत और न्यूज़ीलैंड के बीच तीसरा टी20 अंतरराष्ट्रीय मैच आज 27 अक्टूबर को दोपहर 12:30 बजे वेलिंगटन के हनरी स्टेडियम में खेला जाएगा। भारत पाँच मैचों की सीरीज़ में 2-0 से आगे है और आज जीत से सीरीज़ अपने नाम कर सकता है।\n\nविकेटकीपर-बल्लेबाज़ ईशान किशन दाहिने पैर की मांसपेशी में खिंचाव के कारण तीसरे मैच से बाहर हो गए हैं। उनकी जगह 15 वर्षीय बल्लेबाज़ी सनसनी वैभव सूर्यवंशी को फिर नंबर तीन पर मौका मिलने की उम्मीद है। मैच का सीधा प्रसारण सोनी स्पोर्ट्स नेटवर्क और सोनी लिव पर होगा।",
-      "body_en": "The third T20 International between India and New Zealand will be played today, October 27, at 12:30 PM IST at Hnry Stadium in Wellington. India lead the five-match series 2-0 and can seal the series with a win today.\n\nWicketkeeper-batter Ishan Kishan has been ruled out of the match due to a low-grade right adductor strain sustained during the series opener. Teenage batting sensation Vaibhav Sooryavanshi, 15, is expected to get another opportunity at number three in his place. The match will be shown live on Sony Sports Network and streamed on Sony LIV.",
-      "source": "The Economic Times",
-      "source_url": "https://economictimes.indiatimes.com/news/sports/cricket/ind-vs-nz-ishan-kishan-ruled-out-ahead-of-3rd-t20i-as-precautionary-measure/articleshow/135202666.cms",
-      "img": "https://img.etimg.com/thumb/msid-135202728,width-1200,height-900,imgsize-99014,overlay-economictimes/articleshow.jpg",
+      "id": "2026-10-28-bharat-3",
+      "cat": "bharat",
+      "title_hi": "अभिनेता इमरान खान को राहत: बॉम्बे हाई कोर्ट ने 'लीव इंडिया नोटिस' पर 2 नवंबर तक रोक लगाई",
+      "title_en": "Actor Imran Khan gets interim relief as Bombay High Court stays 'Leave India Notice' till November 2",
+      "body_hi": "बॉम्बे हाई कोर्ट ने अभिनेता इमरान खान को जारी किए गए 'लीव इंडिया नोटिस' पर 2 नवंबर तक रोक लगा दी है। यह नोटिस विदेशी क्षेत्रीय पंजीकरण कार्यालय (एफआरआरओ) की ओर से जारी किया गया था और खान ने इसके खिलाफ अदालत में याचिका दायर की थी।\n\nअदालत ने उनकी याचिका पर सुनवाई भी 2 नवंबर तक के लिए टाल दी है। इस अंतरिम राहत से अभिनेता को फिलहाल नोटिस पर अमल से राहत मिली है।",
+      "body_en": "The Bombay High Court has put a hold on the 'Leave India Notice' issued to actor Imran Khan by the Foreigners Regional Registration Office (FRRO) until November 2. Khan had moved the court challenging the notice.\n\nThe court has also adjourned his plea against the notice to November 2. The interim relief gives the actor a temporary reprieve from the notice taking effect.",
+      "source": "The Indian Express",
+      "source_url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-october-28-2026-abhishek-sharma-smashes-a-35-ball-century-in-third-ind-vs-nz-t20i-match-10938673/",
+      "img": "https://media.inshorts.com/inshorts/images/v1/variants/webp/m/2026/10_oct/17_sat/img_1792243090487_159.webp",
       "tags": [
+        "#ImranKhan",
+        "#BombayHighCourt",
+        "#LeaveIndiaNotice",
+        "#TaazaKhabar"
+      ],
+      "page": "khabar/2026-10-28-bharat-3.html"
+    },
+    {
+      "id": "2026-10-28-duniya-1",
+      "cat": "duniya",
+      "title_hi": "इज़राइल में 2023 के हमले के बाद पहला आम चुनाव: दशकों में सबसे ज्यादा मतदान की खबर",
+      "title_en": "Israelis vote in first national election since the October 2023 Hamas attack",
+      "body_hi": "इज़राइल के नागरिकों ने मंगलवार को मतदान किया। यह 7 अक्टूबर 2023 को हुए हमास हमले के बाद देश का पहला आम चुनाव है और शुरुआती खबरों के अनुसार मतदान दशकों में सबसे ज्यादा रहने की उम्मीद है।\n\nचुनाव से पहले के सर्वेक्षणों में प्रधानमंत्री बेंजामिन नेतन्याहू के गठबंधन को करीब 50 सीटें और पूर्व सैन्य प्रमुख गादी आइज़ेनकोट के विपक्षी गठबंधन को करीब 54 सीटें मिलने का अनुमान लगाया गया था। 120 सीटों वाली नेसेट में बहुमत के लिए 61 सीटें चाहिए। चुनाव रात को एग्जिट पोल आने की उम्मीद है, जबकि आधिकारिक प्रमाणित नतीजे 4 नवंबर को प्रकाशित होंगे।",
+      "body_en": "Israelis voted on Tuesday in the first national election since the October 7, 2023 Hamas attack. Early reports said turnout was likely to be among the highest in decades.\n\nPre-poll projections put Prime Minister Benjamin Netanyahu's bloc at around 50 seats against around 54 for former military chief Gadi Eisenkot's opposition bloc, with 61 of the 120 Knesset seats needed for a majority. Exit polls were expected on election night, and the official certified results will be published on November 4.",
+      "source": "Jagran Josh",
+      "source_url": "https://www.jagranjosh.com/articles/school-assembly-news-headlines-october-28-2026-indias-sco-dialogue-cyclone-arnab-mlc-election-and-other-news-1800018303-1",
+      "img": "https://a.jfeed.com/v2/articles/tkc505/og-image.jpeg",
+      "tags": [
+        "#Israel",
+        "#IsraelElection",
+        "#Netanyahu",
+        "#WorldNews"
+      ],
+      "page": "khabar/2026-10-28-duniya-1.html"
+    },
+    {
+      "id": "2026-10-28-duniya-2",
+      "cat": "duniya",
+      "title_hi": "कांगो में इबोला का प्रकोप 10,000 मामलों से ऊपर: रोकथाम के लिए दौड़ जारी",
+      "title_en": "Congo's Ebola outbreak tops 10,000 cases as authorities race to slow its spread",
+      "body_hi": "कांगो में इबोला का प्रकोप 10,000 मामलों का आँकड़ा पार कर गया है। अधिकारी अफ्रीकी देशों में इस बीमारी के फैलाव को धीमा करने के लिए तेजी से काम कर रहे हैं।\n\nस्वास्थ्य अधिकारी प्रकोप वाले इलाकों में निगरानी, संपर्कों का पता लगाने और इलाज की व्यवस्था को मजबूत कर रहे हैं, ताकि संक्रमण की श्रृंखला को तोड़ा जा सके।",
+      "body_en": "Congo's Ebola outbreak has crossed 10,000 cases, with authorities racing to slow its spread across African countries.\n\nHealth officials are strengthening surveillance, contact tracing and treatment arrangements in the affected areas to break the chain of infection.",
+      "source": "The Daily Jagran",
+      "source_url": "https://www.thedailyjagran.com/education/news/todays-school-assembly-news-headline-october-28-check-top-national-international-and-sports-news-here-10334170",
+      "img": "https://www.rescue.org/sites/default/files/styles/widescreen_16x9_1280px_wide/public/2026-05/20180823_KRyan_DRC_Ebola-45.jpg?itok=U-E1SmGg",
+      "tags": [
+        "#Ebola",
+        "#Congo",
+        "#Health",
+        "#WorldNews"
+      ],
+      "page": "khabar/2026-10-28-duniya-2.html"
+    },
+    {
+      "id": "2026-10-28-duniya-3",
+      "cat": "duniya",
+      "title_hi": "तेहरान में ईरान और मक्का समझौता देशों की बातचीत: तनाव कम करने पर सहमति",
+      "title_en": "Iran holds talks with Mecca Pact members in Tehran, agrees to keep dialogue going",
+      "body_hi": "सऊदी अरब, पाकिस्तान और तुर्की ने तेहरान में ईरान के साथ बातचीत की है। बैठक में दोनों पक्षों ने संवाद जारी रखने और क्षेत्रीय तनाव कम करने की दिशा में काम करने पर सहमति जताई।\n\nयह बैठक ईरान और नए बने मक्का समझौता समूह के सदस्यों के बीच पहली बातचीत मानी जा रही है। क्षेत्र में तनाव के बीच इस संवाद को एक अहम कदम के रूप में देखा जा रहा है।",
+      "body_en": "Saudi Arabia, Pakistan and Turkey held talks with Iran in Tehran, agreeing to continue dialogue and work towards easing regional tensions.\n\nThe meeting marked the first talks between Iran and the newly formed Mecca Pact members. The dialogue is being seen as an important step amid tensions in the region.",
+      "source": "The Indian Express",
+      "source_url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-october-28-2026-abhishek-sharma-smashes-a-35-ball-century-in-third-ind-vs-nz-t20i-match-10938673/",
+      "img": "http://livesatyakamnews.com/wp-content/uploads/2026/08/Saudi-Pakistan-Turkiye-Mecca-Defense-Pact.jpg",
+      "tags": [
+        "#Iran",
+        "#MeccaPact",
+        "#Tehran",
+        "#WorldNews"
+      ],
+      "page": "khabar/2026-10-28-duniya-3.html"
+    },
+    {
+      "id": "2026-10-28-khel-1",
+      "cat": "khel",
+      "title_hi": "अभिषेक शर्मा का 35 गेंदों में शतक: भारत ने न्यूजीलैंड को हराकर टी20 सीरीज़ जीती",
+      "title_en": "Abhishek Sharma smashes 35-ball century as India seal T20I series against New Zealand",
+      "body_hi": "अभिषेक शर्मा ने न्यूजीलैंड के खिलाफ तीसरे टी20 मैच में सिर्फ 35 गेंदों में शतक जड़ दिया। उन्होंने 38 गेंदों में 113 रन बनाए और भारत ने वेलिंगटन में छह विकेट से जीत दर्ज करके सीरीज़ अपने नाम कर ली।\n\nयह अभिषेक का टी20 क्रिकेट में 11वाँ शतक है, जो किसी भी भारतीय बल्लेबाज़ के सबसे ज्यादा शतक हैं — उन्होंने विराट कोहली के 10 शतकों का रिकॉर्ड पीछे छोड़ दिया। लक्ष्य का पीछा करते हुए अभिषेक और 14 साल के वैभव सूर्यवंशी ने पहले सात ओवरों में ही 132 रन जोड़ दिए थे।",
+      "body_en": "Abhishek Sharma smashed a 35-ball century in India's third T20I against New Zealand, finishing with 113 runs off just 38 balls as India beat the hosts by six wickets in Wellington to seal the series.\n\nIt was Abhishek's 11th hundred in T20 cricket, making him the Indian with the most centuries in the format — he surpassed Virat Kohli's record of 10. Chasing the target, Abhishek and 14-year-old Vaibhav Sooryavanshi added 132 runs in the first seven overs.",
+      "source": "The Indian Express",
+      "source_url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-october-28-2026-abhishek-sharma-smashes-a-35-ball-century-in-third-ind-vs-nz-t20i-match-10938673/",
+      "img": "https://img.cricketnmore.com/uploads/2026/01/image-of-india-vs-new-zealand-abhishek-sharma-completes-5-thousand-runs-in-t20-cricket.JPG",
+      "tags": [
+        "#AbhishekSharma",
         "#INDvsNZ",
         "#Cricket",
-        "#T20I",
+        "#T20",
         "#TaazaKhabar"
       ],
-      "page": "khabar/2026-10-27-khel-1.html"
+      "page": "khabar/2026-10-28-khel-1.html"
     },
     {
-      "id": "2026-10-27-khel-2",
+      "id": "2026-10-28-khel-2",
       "cat": "khel",
-      "title_hi": "भारत को मिली 2029 भारोत्तोलन विश्व चैंपियनशिप की मेज़बानी, अहमदाबाद में होगा आयोजन",
-      "title_en": "India to host 2029 Weightlifting World Championships in Ahmedabad",
-      "body_hi": "भारत 2029 भारोत्तोलन विश्व चैंपियनशिप की मेज़बानी करेगा। यह आयोजन गुजरात के अहमदाबाद में होगा। यह फैसला चीन के निंगबो में हुई कार्यकारी बोर्ड की बैठक में लिया गया।\n\nभारत ने इसी साल राष्ट्रमंडल चैंपियनशिप और एशियाई चैंपियनशिप की मेज़बानी भी की थी। विश्व चैंपियनशिप की मेज़बानी मिलने से भारतीय भारोत्तोलन को बड़ी पहचान मिलेगी और देश के युवा खिलाड़ियों को विश्व स्तर के खिलाड़ियों को करीब से देखने का मौका मिलेगा।",
-      "body_en": "India is all set to host the 2029 Weightlifting World Championships in Ahmedabad, Gujarat. The decision was taken at the latest Executive board meeting held in Ningbo, China.\n\nIndia hosted the Commonwealth Championship and Asian Championships earlier this year. Hosting the World Championships will give Indian weightlifting a major boost and young lifters in the country a chance to watch world-class athletes up close.",
+      "title_hi": "हैरी केन ने जीता बैलन डी'ओर: 25 साल में यह सम्मान पाने वाले पहले अंग्रेज़",
+      "title_en": "Harry Kane wins Ballon d'Or, first Englishman in 25 years to claim the honour",
+      "body_hi": "इंग्लैंड के कप्तान और बायर्न म्यूनिख के स्ट्राइकर हैरी केन ने बैलन डी'ओर जीत लिया है। उन्होंने किलियन एम्बाप्पे और लामिन यमाल को पीछे छोड़कर यह प्रतिष्ठित सम्मान अपने नाम किया।\n\nकेन ने क्लब और देश के लिए कुल 73 गोल किए और वह 25 साल में यह सम्मान जीतने वाले पहले अंग्रेज़ खिलाड़ी बन गए हैं।",
+      "body_en": "England captain and Bayern Munich striker Harry Kane has won the Ballon d'Or, beating Kylian Mbappé and Lamine Yamal to the honour.\n\nKane scored 73 goals for club and country and became the first Englishman in 25 years to win the award.",
       "source": "The Indian Express",
-      "source_url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-october-27-2026-ishan-kishan-out-of-third-ind-vs-nz-t20i-isro-eyes-four-launch-pads-by-2029-10936039/lite/",
-      "img": "https://feeds.abplive.com/onecms/images/uploaded-images/2022/08/21/87fa648d2571c075e659e231342b26b11661106339585507_original.jpg?impolicy=abp_cdn&imwidth=1200&height=675",
+      "source_url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-october-28-2026-abhishek-sharma-smashes-a-35-ball-century-in-third-ind-vs-nz-t20i-match-10938673/",
+      "img": "https://assets.bundesliga.com/contender/2024/9/GettyImages-2180928573.jpg?crop=483px,0px,4835px,3868px&fit=720,720",
       "tags": [
-        "#Weightlifting",
-        "#Ahmedabad",
-        "#WorldChampionship",
-        "#TaazaKhabar"
+        "#HarryKane",
+        "#BallonDor",
+        "#Football",
+        "#WorldNews"
       ],
-      "page": "khabar/2026-10-27-khel-2.html"
+      "page": "khabar/2026-10-28-khel-2.html"
     },
     {
-      "id": "2026-10-27-vyapar-1",
+      "id": "2026-10-28-vyapar-1",
       "cat": "vyapar",
-      "title_hi": "बाज़ार पर दबाव जारी: निफ्टी 22,753 पर, कच्चा तेल 100 डॉलर के ऊपर, आज F&O एक्सपायरी",
-      "title_en": "Markets under pressure: Nifty at 22,753, crude above $100, F&O expiry today",
-      "body_hi": "भारतीय शेयर बाज़ार पर दबाव बना हुआ है। निफ्टी 50 ने 26 अक्टूबर को 0.68 प्रतिशत की बढ़त के साथ 22,753 पर बंद हुआ, जबकि पिछले हफ्ते इसमें 2.36 प्रतिशत की गिरावट आई थी। आज 27 अक्टूबर को मासिक डेरिवेटिव एक्सपायरी है, इसलिए बाज़ार में सतर्कता बनी हुई है।\n\nब्रेंट कच्चा तेल 100 डॉलर प्रति बैरल के ऊपर बना हुआ है और अमेरिकी फेडरल रिज़र्व की 27-28 अक्टूबर की नीति बैठक पर भी निवेशकों की नज़र है। विशेषज्ञों के अनुसार निफ्टी के लिए 22,800-22,850 का स्तर अहम है, जबकि 22,500-22,400 का दायरा तत्काल सहारा बन सकता है।",
-      "body_en": "Indian equity markets remain under pressure. The Nifty 50 rebounded 0.68 percent on October 26 to close at 22,753, after a 2.36 percent correction in the previous week. Caution persists ahead of the monthly derivatives expiry on October 27.\n\nBrent crude oil remains above $100 a barrel, and investors are also watching the US Federal Reserve's policy meeting on October 27-28. According to market experts, the 22,800-22,850 zone is a key level for the Nifty, while the 22,500-22,400 range may act as immediate support.",
-      "source": "Moneycontrol",
-      "source_url": "https://www.moneycontrol.com/news/business/markets/trade-setup-for-october-27-top-15-things-to-know-before-the-opening-bell-14060547.html/amp",
-      "img": "https://img-mm.manoramaonline.com/content/dam/mm/mo/news/business/images/2023/6/28/Stock-market.jpg?w=315&h=164",
+      "title_hi": "शेयर बाज़ार: एक्सपायरी के दिन सेंसेक्स-निफ्टी लगभग सपाट, कच्चा तेल 116 डॉलर के पास",
+      "title_en": "Markets end almost flat on expiry day as Brent crude stays near $116",
+      "body_hi": "मंगलवार 27 अक्टूबर को भारतीय शेयर बाज़ार में लगभग कोई बदलाव नहीं हुआ। सेंसेक्स 8.08 अंक गिरकर 73,598.67 पर और निफ्टी 50 सिर्फ 3.45 अंक गिरकर 22,749.75 पर बंद हुआ। फार्मा, रियल्टी और मीडिया शेयरों की बढ़त ने आईटी, तेल-गैस और निजी बैंकों के नुकसान की भरपाई कर दी।\n\nब्रॉडर बाज़ार मजबूत रहा — निफ्टी मिडकैप 1 प्रतिशत और स्मॉलकैप 2.7 प्रतिशत चढ़ा। ब्रेंट कच्चा तेल करीब 116 डॉलर प्रति बैरल के पास बना हुआ है, जबकि गिफ्ट निफ्टी 22,749 के आसपास है, जिससे बुधवार को सपाट शुरुआत के संकेत मिल रहे हैं। निवेशकों की नज़र आज आने वाले अमेरिकी फेडरल रिज़र्व के फैसले पर भी है।",
+      "body_en": "Indian equity indices ended almost flat on Tuesday, October 27, on a volatile expiry day. The Sensex declined 8.08 points to 73,598.67, while the Nifty 50 fell 3.45 points to 22,749.75, as gains in pharmaceutical, realty and media stocks offset losses in information technology, oil and gas, and private bank shares.\n\nBroader markets outperformed, with the Nifty Midcap index rising 1 per cent and the Smallcap index gaining 2.7 per cent. Brent crude stayed near $116 a barrel, while Gift Nifty traded near 22,749, signalling a flat open on Wednesday. Investors are also watching the US Federal Reserve's policy decision due today.",
+      "source": "HDFC Sky",
+      "source_url": "https://hdfcsky.com/news/gift-nifty-signals-flat-open-for-sensex-nifty-on-wednesday",
+      "img": "https://images.bhaskarassets.com/thumb/730x382/web2images/5483/2026/01/16/l8lra8jbse-generic-share-market-generic-sensex-gen_1768534211.png",
       "tags": [
         "#Sensex",
         "#Nifty",
-        "#ShareMarket",
+        "#ShareBazaar",
         "#TaazaKhabar"
       ],
-      "page": "khabar/2026-10-27-vyapar-1.html"
+      "page": "khabar/2026-10-28-vyapar-1.html"
+    },
+    {
+      "id": "2026-10-28-vyapar-2",
+      "cat": "vyapar",
+      "title_hi": "माइक्रोसॉफ्ट ने करीब 60,000 कर्मचारियों को स्वैच्छिक विदाई पैकेज की पेशकश की",
+      "title_en": "Microsoft offers voluntary exit packages to around 60,000 employees",
+      "body_hi": "माइक्रोसॉफ्ट ने भारत, अमेरिका, ब्रिटेन और कनाडा में करीब 60,000 योग्य कर्मचारियों को स्वैच्छिक विदाई पैकेज की पेशकश की है। कंपनी अपने कार्यबल को नए सिरे से ढाल रही है और आर्टिफिशियल इंटेलिजेंस में बढ़ते निवेश का प्रबंधन कर रही है।\n\nयह कदम ऐसे समय में आया है जब बड़ी टेक कंपनियाँ एआई पर खर्च बढ़ाते हुए अपनी टीमों की संरचना पर फिर से विचार कर रही हैं।",
+      "body_en": "Microsoft has offered a voluntary exit package to around 60,000 eligible employees across India, the US, UK and Canada, as it reshapes its workforce and manages rising AI investments.\n\nThe move comes as large technology companies increase spending on artificial intelligence while rethinking the structure of their teams.",
+      "source": "The Indian Express",
+      "source_url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-october-28-2026-abhishek-sharma-smashes-a-35-ball-century-in-third-ind-vs-nz-t20i-match-10938673/",
+      "img": "https://esp.md/sites/default/files/styles/list_category_200x255/adaptive-image/public/microsoft-voluntary-buyouts-employees.jpg?itok=udjAPuYD",
+      "tags": [
+        "#Microsoft",
+        "#Jobs",
+        "#AI",
+        "#TaazaKhabar"
+      ],
+      "page": "khabar/2026-10-28-vyapar-2.html"
     }
   ]
 }
