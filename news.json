@@ -1,189 +1,193 @@
 {
-  "edition": "बुधवार, 28 अक्टूबर 2026",
-  "updated_at": "2026-10-28T05:00:00+05:30",
+  "edition": "गुरुवार, 29 अक्टूबर 2026",
+  "updated_at": "2026-10-29T05:04:05+05:30",
   "stories": [
     {
-      "id": "2026-10-28-bharat-1",
+      "id": "2026-10-29-bharat-1",
       "cat": "bharat",
-      "title_hi": "चक्रवात अर्नब आज तट से टकराएगा: आंध्र प्रदेश-यनम तट पर तेज हवाएँ, 7 जिलों में रेड अलर्ट",
-      "title_en": "Cyclone Arnab to cross coast today: Red alert in seven Andhra Pradesh districts",
-      "body_hi": "अति गंभीर चक्रवाती तूफान अर्नब आज सुबह के समय आंध्र प्रदेश और यनम तट को पार करने वाला है। मौसम विभाग के अनुसार तूफान बापटला और विशाखापत्तनम के बीच तट से टकराएगा, इस दौरान हवाओं की रफ्तार 115 से 125 किलोमीटर प्रति घंटा रह सकती है और झोंके 140 किलोमीटर प्रति घंटा तक पहुँच सकते हैं।\n\nआंध्र प्रदेश के सात जिलों में रेड अलर्ट जारी किया गया है और ओडिशा के दक्षिणी हिस्से के छह जिलों में स्कूल बंद कर दिए गए हैं। तटीय इलाकों में 15 एनडीआरएफ टीमें तैनात की गई हैं, 30 हजार से ज्यादा मछली पकड़ने वाली नावें बंदरगाह लौट आई हैं और राज्य सरकार ने राहत कार्यों के लिए 27 करोड़ रुपये जारी किए हैं।",
-      "body_en": "Very severe cyclonic storm Arnab is set to cross the Andhra Pradesh and Yanam coasts in the forenoon today. According to the weather department, the storm will make landfall between Bapatla and Visakhapatnam, with winds of 115 to 125 kmph gusting up to 140 kmph.\n\nRed alerts have been issued in seven districts of Andhra Pradesh, and schools in six southern districts of Odisha have been closed as a precaution. Fifteen NDRF teams have been deployed in the coastal districts, more than 30,000 fishing boats have returned to harbour, and the state government has released 27 crore rupees for relief work.",
-      "source": "Jagran Josh",
-      "source_url": "https://www.jagranjosh.com/articles/school-assembly-news-headlines-october-28-2026-indias-sco-dialogue-cyclone-arnab-mlc-election-and-other-news-1800018303-1",
-      "img": "https://www.sangbadpratidin.in/wp-content/uploads/2024/08/Cyclone.jpg",
+      "title_hi": "चक्रवात अर्नब आंध्र तट से टकराया, ओडिशा में 30 हज़ार से ज़्यादा लोग सुरक्षित जगहों पर",
+      "title_en": "Cyclone Arnab hits Andhra coast; over 30,000 evacuated in Odisha",
+      "body_hi": "चक्रवात अर्नब ने आंध्र प्रदेश के तट से टकराकर पूर्वी भारत में भारी बारिश और तेज़ हवाओं का दौर शुरू कर दिया है। तटीय इलाकों में समुद्र में ऊँची लहरें उठ रही हैं और कई ज़िलों में भारी बारिश दर्ज की गई है।\n\nओडिशा में प्रशासन ने संवेदनशील इलाकों से 30 हज़ार से ज़्यादा लोगों को सुरक्षित स्थानों पर पहुँचाया है। आंध्र प्रदेश में चक्रवात से जुड़ी घटनाओं में पाँच लोगों की मौत की खबर है, जबकि झारखंड और ओडिशा के कुछ हिस्सों में स्कूल बंद कर दिए गए हैं।",
+      "body_en": "Cyclone Arnab made landfall along the Andhra Pradesh coast, bringing heavy rainfall and strong winds to eastern India. High waves were seen along the coast as the storm moved inland.\n\nAuthorities in Odisha evacuated more than 30,000 people from vulnerable areas. Five deaths linked to the cyclone were reported in Andhra Pradesh, and schools were closed in parts of Jharkhand and Odisha as a precaution.",
+      "source": "The Indian Express",
+      "source_url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-october-29-2026-india-invites-pakistan-to-sco-meet-thousands-evacuated-as-cyclone-arnab-hits-eastern-india-10940497/",
+      "img": "https://images.indianexpress.com/2026/10/cyclone-arnab-andhra-1.jpg",
       "tags": [
         "#CycloneArnab",
         "#AndhraPradesh",
-        "#IMD",
-        "#WeatherAlert",
+        "#Odisha",
+        "#Mausam",
         "#TaazaKhabar"
       ],
-      "page": "khabar/2026-10-28-bharat-1.html"
+      "page": "khabar/2026-10-29-bharat-1.html"
     },
     {
-      "id": "2026-10-28-bharat-2",
+      "id": "2026-10-29-bharat-2",
       "cat": "bharat",
-      "title_hi": "कर्नाटक की अंतिम मतदाता सूची जारी: विशेष पुनरीक्षण के बाद करीब एक करोड़ नाम हटे",
-      "title_en": "Karnataka publishes final electoral roll: Nearly one crore names deleted after special revision",
-      "body_hi": "कर्नाटक ने विशेष गहन पुनरीक्षण के बाद अपनी अंतिम मतदाता सूची जारी कर दी है। इस प्रक्रिया के बाद सूची से करीब एक करोड़ नाम हटा दिए गए हैं, जिससे राज्य के कुल मतदाताओं की संख्या 5.54 करोड़ से घटकर 4.55 करोड़ रह गई है।\n\nअंतिम सूची मंगलवार को प्रकाशित हुई। मतदाता सूची के इस बड़े बदलाव को लेकर राजनीतिक चर्चा भी तेज हो गई है, क्योंकि यह पुनरीक्षण प्रक्रिया कई राज्यों में सवालों के घेरे में रही है।",
-      "body_en": "Karnataka has published its final electoral roll after the Special Intensive Revision. Nearly one crore names have been deleted from the list, bringing the state's total electorate down from 5.54 crore to 4.55 crore.\n\nThe final list was published on Tuesday. The large change in the voter list has also fuelled political debate, as the revision exercise has faced questions in several states.",
-      "source": "Mathrubhumi English",
-      "source_url": "https://english.mathrubhumi.com/news/india/school-assembly-news-headlines-for-oct-28-2026-top-national-and-international-news-miusfyqq",
-      "img": "https://images.tv9kannada.com/wp-content/uploads/2026/05/voter-list-revision-1.jpg",
-      "tags": [
-        "#Karnataka",
-        "#VoterList",
-        "#ElectionCommission",
-        "#SIR",
-        "#TaazaKhabar"
-      ],
-      "page": "khabar/2026-10-28-bharat-2.html"
-    },
-    {
-      "id": "2026-10-28-bharat-3",
-      "cat": "bharat",
-      "title_hi": "अभिनेता इमरान खान को राहत: बॉम्बे हाई कोर्ट ने 'लीव इंडिया नोटिस' पर 2 नवंबर तक रोक लगाई",
-      "title_en": "Actor Imran Khan gets interim relief as Bombay High Court stays 'Leave India Notice' till November 2",
-      "body_hi": "बॉम्बे हाई कोर्ट ने अभिनेता इमरान खान को जारी किए गए 'लीव इंडिया नोटिस' पर 2 नवंबर तक रोक लगा दी है। यह नोटिस विदेशी क्षेत्रीय पंजीकरण कार्यालय (एफआरआरओ) की ओर से जारी किया गया था और खान ने इसके खिलाफ अदालत में याचिका दायर की थी।\n\nअदालत ने उनकी याचिका पर सुनवाई भी 2 नवंबर तक के लिए टाल दी है। इस अंतरिम राहत से अभिनेता को फिलहाल नोटिस पर अमल से राहत मिली है।",
-      "body_en": "The Bombay High Court has put a hold on the 'Leave India Notice' issued to actor Imran Khan by the Foreigners Regional Registration Office (FRRO) until November 2. Khan had moved the court challenging the notice.\n\nThe court has also adjourned his plea against the notice to November 2. The interim relief gives the actor a temporary reprieve from the notice taking effect.",
+      "title_hi": "भारत ने पाकिस्तान को दिल्ली में होने वाली एससीओ बैठक के लिए न्योता भेजा",
+      "title_en": "India invites Pakistan to SCO meeting in New Delhi",
+      "body_hi": "भारत ने नई दिल्ली में होने वाली शंघाई सहयोग संगठन (एससीओ) की बैठक के लिए पाकिस्तान को आमंत्रित किया है। यह ऑपरेशन सिंदूर के बाद इस तरह का पहला न्योता माना जा रहा है।\n\nएससीओ क्षेत्रीय सुरक्षा और सहयोग का एक अहम मंच है, जिसमें भारत और पाकिस्तान दोनों सदस्य हैं। बैठक में क्षेत्रीय मुद्दों पर सदस्य देशों के बीच बातचीत होने की उम्मीद है।",
+      "body_en": "India has invited Pakistan to attend a meeting of the Shanghai Cooperation Organisation (SCO) in New Delhi. It is the first such invitation since Operation Sindoor.\n\nThe SCO is an important platform for regional security and cooperation, and both India and Pakistan are members. The meeting is expected to see discussions among member countries on regional issues.",
       "source": "The Indian Express",
-      "source_url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-october-28-2026-abhishek-sharma-smashes-a-35-ball-century-in-third-ind-vs-nz-t20i-match-10938673/",
-      "img": "https://media.inshorts.com/inshorts/images/v1/variants/webp/m/2026/10_oct/17_sat/img_1792243090487_159.webp",
+      "source_url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-october-29-2026-india-invites-pakistan-to-sco-meet-thousands-evacuated-as-cyclone-arnab-hits-eastern-india-10940497/",
+      "img": "https://imagesvs.oneindia.com/img/2023/04/rajnath2-1682682791.jpg",
       "tags": [
-        "#ImranKhan",
-        "#BombayHighCourt",
-        "#LeaveIndiaNotice",
+        "#SCO",
+        "#IndiaPakistan",
+        "#NewDelhi",
+        "#Diplomacy",
         "#TaazaKhabar"
       ],
-      "page": "khabar/2026-10-28-bharat-3.html"
+      "page": "khabar/2026-10-29-bharat-2.html"
     },
     {
-      "id": "2026-10-28-duniya-1",
+      "id": "2026-10-29-bharat-3",
+      "cat": "bharat",
+      "title_hi": "केंद्र सरकार के कर्मचारियों का महँगाई भत्ता 3% बढ़ा, 1 जुलाई 2026 से लागू",
+      "title_en": "Dearness allowance for central government staff raised by 3%, effective July 1, 2026",
+      "body_hi": "केंद्रीय मंत्रिमंडल ने केंद्र सरकार के कर्मचारियों के महँगाई भत्ते (डीए) में 3 प्रतिशत की बढ़ोतरी को मंज़ूरी दे दी है। यह बढ़ोतरी 1 जुलाई 2026 से लागू होगी।\n\nइसके साथ ही पेंशनभोगियों के महँगाई राहत (डीआर) में भी इतनी ही बढ़ोतरी की गई है। इस फैसले से लाखों कर्मचारी और पेंशनभोगी लाभान्वित होंगे।",
+      "body_en": "The Union Cabinet has approved a 3 per cent increase in dearness allowance (DA) for central government employees. The hike is effective from July 1, 2026.\n\nA matching increase in dearness relief (DR) for pensioners has also been approved. The decision will benefit lakhs of employees and pensioners.",
+      "source": "The Indian Express",
+      "source_url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-october-29-2026-india-invites-pakistan-to-sco-meet-thousands-evacuated-as-cyclone-arnab-hits-eastern-india-10940497/",
+      "img": "https://www.staffnews.in/wp-content/uploads/2024/03/da-dr-jan-2024-cabinet-approval.jpg",
+      "tags": [
+        "#DearnessAllowance",
+        "#CentralGovernment",
+        "#Cabinet",
+        "#Employees",
+        "#TaazaKhabar"
+      ],
+      "page": "khabar/2026-10-29-bharat-3.html"
+    },
+    {
+      "id": "2026-10-29-duniya-1",
       "cat": "duniya",
-      "title_hi": "इज़राइल में 2023 के हमले के बाद पहला आम चुनाव: दशकों में सबसे ज्यादा मतदान की खबर",
-      "title_en": "Israelis vote in first national election since the October 2023 Hamas attack",
-      "body_hi": "इज़राइल के नागरिकों ने मंगलवार को मतदान किया। यह 7 अक्टूबर 2023 को हुए हमास हमले के बाद देश का पहला आम चुनाव है और शुरुआती खबरों के अनुसार मतदान दशकों में सबसे ज्यादा रहने की उम्मीद है।\n\nचुनाव से पहले के सर्वेक्षणों में प्रधानमंत्री बेंजामिन नेतन्याहू के गठबंधन को करीब 50 सीटें और पूर्व सैन्य प्रमुख गादी आइज़ेनकोट के विपक्षी गठबंधन को करीब 54 सीटें मिलने का अनुमान लगाया गया था। 120 सीटों वाली नेसेट में बहुमत के लिए 61 सीटें चाहिए। चुनाव रात को एग्जिट पोल आने की उम्मीद है, जबकि आधिकारिक प्रमाणित नतीजे 4 नवंबर को प्रकाशित होंगे।",
-      "body_en": "Israelis voted on Tuesday in the first national election since the October 7, 2023 Hamas attack. Early reports said turnout was likely to be among the highest in decades.\n\nPre-poll projections put Prime Minister Benjamin Netanyahu's bloc at around 50 seats against around 54 for former military chief Gadi Eisenkot's opposition bloc, with 61 of the 120 Knesset seats needed for a majority. Exit polls were expected on election night, and the official certified results will be published on November 4.",
-      "source": "Jagran Josh",
-      "source_url": "https://www.jagranjosh.com/articles/school-assembly-news-headlines-october-28-2026-indias-sco-dialogue-cyclone-arnab-mlc-election-and-other-news-1800018303-1",
-      "img": "https://a.jfeed.com/v2/articles/tkc505/og-image.jpeg",
+      "title_hi": "स्पेन में दो हाई-स्पीड ट्रेनों की टक्कर, दर्जनों लोगों की मौत",
+      "title_en": "Dozens killed as two high-speed trains collide in Spain",
+      "body_hi": "स्पेन में दो हाई-स्पीड ट्रेनों की टक्कर में दर्जनों लोगों की मौत हो गई है। यह हादसा देश के रेल नेटवर्क के लिए एक बड़ा झटका माना जा रहा है।\n\nशुरुआती रिपोर्टों में मानवीय भूल को हादसे की संभावित वजह बताया गया है। राहत और बचाव का काम जारी है और घायलों को अस्पताल पहुँचाया गया है।",
+      "body_en": "Dozens of people were killed in a collision between two high-speed trains in Spain. The crash is a major blow to the country's rail network.\n\nEarly reports point to possible human error as the cause of the collision. Rescue work is under way and the injured have been taken to hospitals.",
+      "source": "NDTV",
+      "source_url": "https://www.ndtv.com/education/school-assembly-news-headlines-october-29-top-national-international-sports-news-12249638",
+      "img": "https://businessbyte.in/wp-content/uploads/2026/01/Spain-train-accident-1024x683.png",
+      "tags": [
+        "#Spain",
+        "#TrainAccident",
+        "#WorldNews",
+        "#TaazaKhabar"
+      ],
+      "page": "khabar/2026-10-29-duniya-1.html"
+    },
+    {
+      "id": "2026-10-29-duniya-2",
+      "cat": "duniya",
+      "title_hi": "इज़रायल चुनाव: एग्ज़िट पोल में किसी को स्पष्ट बहुमत नहीं, लिकुड सबसे बड़ी पार्टी",
+      "title_en": "Israel election: exit polls show no clear majority; Likud remains largest party",
+      "body_hi": "इज़रायल के संसदीय चुनाव में मतदान का प्रतिशत 77.7 रहा, जो 1999 के बाद सबसे ज़्यादा है। तीन बड़े टीवी चैनलों के अपडेटेड एग्ज़िट पोल के अनुसार विपक्षी गुट को 47, प्रधानमंत्री नेतन्याहू के सहयोगियों को 54 और अरब पार्टियों को 19 सीटें मिलने का अनुमान है।\n\nलिकुड फिर भी सबसे बड़ी अकेली पार्टी बनी हुई है। आधिकारिक नतीजे 4 नवंबर को आने की उम्मीद है, और फिलहाल किसी भी पक्ष को स्पष्ट संसदीय बहुमत नहीं मिला है।",
+      "body_en": "Israel's parliamentary election saw a turnout of 77.7 per cent, the highest since 1999. Updated exit polls by three major TV networks project 47 seats for the opposition bloc, 54 for Prime Minister Netanyahu's allies and 19 for Arab parties outside either camp.\n\nLikud nevertheless remains the largest single party. Official results are expected on November 4, and for now neither side has a clear parliamentary majority.",
+      "source": "Disclosure News",
+      "source_url": "https://www.disclosurenews.it/news-burst-29-october-2026-get-the-news/",
+      "img": "https://www.brookings.edu/wp-content/uploads/2016/06/netanyahu010.jpg",
       "tags": [
         "#Israel",
         "#IsraelElection",
         "#Netanyahu",
         "#WorldNews"
       ],
-      "page": "khabar/2026-10-28-duniya-1.html"
+      "page": "khabar/2026-10-29-duniya-2.html"
     },
     {
-      "id": "2026-10-28-duniya-2",
+      "id": "2026-10-29-duniya-3",
       "cat": "duniya",
-      "title_hi": "कांगो में इबोला का प्रकोप 10,000 मामलों से ऊपर: रोकथाम के लिए दौड़ जारी",
-      "title_en": "Congo's Ebola outbreak tops 10,000 cases as authorities race to slow its spread",
-      "body_hi": "कांगो में इबोला का प्रकोप 10,000 मामलों का आँकड़ा पार कर गया है। अधिकारी अफ्रीकी देशों में इस बीमारी के फैलाव को धीमा करने के लिए तेजी से काम कर रहे हैं।\n\nस्वास्थ्य अधिकारी प्रकोप वाले इलाकों में निगरानी, संपर्कों का पता लगाने और इलाज की व्यवस्था को मजबूत कर रहे हैं, ताकि संक्रमण की श्रृंखला को तोड़ा जा सके।",
-      "body_en": "Congo's Ebola outbreak has crossed 10,000 cases, with authorities racing to slow its spread across African countries.\n\nHealth officials are strengthening surveillance, contact tracing and treatment arrangements in the affected areas to break the chain of infection.",
-      "source": "The Daily Jagran",
-      "source_url": "https://www.thedailyjagran.com/education/news/todays-school-assembly-news-headline-october-28-check-top-national-international-and-sports-news-here-10334170",
-      "img": "https://www.rescue.org/sites/default/files/styles/widescreen_16x9_1280px_wide/public/2026-05/20180823_KRyan_DRC_Ebola-45.jpg?itok=U-E1SmGg",
+      "title_hi": "अमेरिकी फेडरल रिज़र्व ने ब्याज़ दरें 3.75–4% पर बरकरार रखीं, 2027 से कम बैठकों में होगा फैसला",
+      "title_en": "US Federal Reserve holds rates at 3.75–4%; fewer rate votes from 2027",
+      "body_hi": "अमेरिकी फेडरल रिज़र्व ने बुधवार को अपनी प्रमुख ब्याज़ दर को 3.75 से 4 प्रतिशत के दायरे में ही बनाए रखा। समिति के 12 मतदाताओं में से दो ने दर बढ़ाने के पक्ष में मत दिया, लेकिन बहुमत ने यथास्थिति का समर्थन किया।\n\nफेड अध्यक्ष केविन वॉर्श ने बताया कि महँगाई अब भी ऊँची बनी हुई है और केंद्रीय बैंक और जानकारी का इंतज़ार करेगा। 2027 से ब्याज़ दरों पर मतदान साल में सात बार और 2028 में छह बार होगा, जबकि अब तक यह आठ बार होता था।",
+      "body_en": "The US Federal Reserve voted on Wednesday to keep its key interest rate in a range of 3.75 to 4 per cent. Two of the 12 committee voters dissented, preferring a rate hike, but the majority backed holding steady.\n\nFed Chairman Kevin Warsh said inflation remains elevated and the central bank will wait for more information. From 2027, the committee will vote on rates seven times a year, and six times in 2028, down from the longstanding eight.",
+      "source": "Peter Lewis Money Talk",
+      "source_url": "https://peterlewismoneytalk.substack.com/p/peters-asian-business-and-finance-0ab",
+      "img": "https://substackcdn.com/image/fetch/$s_!pK_V!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F51a0784f-a45b-4e82-b792-6b5645b2dec0_1050x700.jpeg",
       "tags": [
-        "#Ebola",
-        "#Congo",
-        "#Health",
+        "#USFed",
+        "#InterestRate",
+        "#Economy",
         "#WorldNews"
       ],
-      "page": "khabar/2026-10-28-duniya-2.html"
+      "page": "khabar/2026-10-29-duniya-3.html"
     },
     {
-      "id": "2026-10-28-duniya-3",
-      "cat": "duniya",
-      "title_hi": "तेहरान में ईरान और मक्का समझौता देशों की बातचीत: तनाव कम करने पर सहमति",
-      "title_en": "Iran holds talks with Mecca Pact members in Tehran, agrees to keep dialogue going",
-      "body_hi": "सऊदी अरब, पाकिस्तान और तुर्की ने तेहरान में ईरान के साथ बातचीत की है। बैठक में दोनों पक्षों ने संवाद जारी रखने और क्षेत्रीय तनाव कम करने की दिशा में काम करने पर सहमति जताई।\n\nयह बैठक ईरान और नए बने मक्का समझौता समूह के सदस्यों के बीच पहली बातचीत मानी जा रही है। क्षेत्र में तनाव के बीच इस संवाद को एक अहम कदम के रूप में देखा जा रहा है।",
-      "body_en": "Saudi Arabia, Pakistan and Turkey held talks with Iran in Tehran, agreeing to continue dialogue and work towards easing regional tensions.\n\nThe meeting marked the first talks between Iran and the newly formed Mecca Pact members. The dialogue is being seen as an important step amid tensions in the region.",
-      "source": "The Indian Express",
-      "source_url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-october-28-2026-abhishek-sharma-smashes-a-35-ball-century-in-third-ind-vs-nz-t20i-match-10938673/",
-      "img": "http://livesatyakamnews.com/wp-content/uploads/2026/08/Saudi-Pakistan-Turkiye-Mecca-Defense-Pact.jpg",
-      "tags": [
-        "#Iran",
-        "#MeccaPact",
-        "#Tehran",
-        "#WorldNews"
-      ],
-      "page": "khabar/2026-10-28-duniya-3.html"
-    },
-    {
-      "id": "2026-10-28-khel-1",
+      "id": "2026-10-29-khel-1",
       "cat": "khel",
-      "title_hi": "अभिषेक शर्मा का 35 गेंदों में शतक: भारत ने न्यूजीलैंड को हराकर टी20 सीरीज़ जीती",
-      "title_en": "Abhishek Sharma smashes 35-ball century as India seal T20I series against New Zealand",
-      "body_hi": "अभिषेक शर्मा ने न्यूजीलैंड के खिलाफ तीसरे टी20 मैच में सिर्फ 35 गेंदों में शतक जड़ दिया। उन्होंने 38 गेंदों में 113 रन बनाए और भारत ने वेलिंगटन में छह विकेट से जीत दर्ज करके सीरीज़ अपने नाम कर ली।\n\nयह अभिषेक का टी20 क्रिकेट में 11वाँ शतक है, जो किसी भी भारतीय बल्लेबाज़ के सबसे ज्यादा शतक हैं — उन्होंने विराट कोहली के 10 शतकों का रिकॉर्ड पीछे छोड़ दिया। लक्ष्य का पीछा करते हुए अभिषेक और 14 साल के वैभव सूर्यवंशी ने पहले सात ओवरों में ही 132 रन जोड़ दिए थे।",
-      "body_en": "Abhishek Sharma smashed a 35-ball century in India's third T20I against New Zealand, finishing with 113 runs off just 38 balls as India beat the hosts by six wickets in Wellington to seal the series.\n\nIt was Abhishek's 11th hundred in T20 cricket, making him the Indian with the most centuries in the format — he surpassed Virat Kohli's record of 10. Chasing the target, Abhishek and 14-year-old Vaibhav Sooryavanshi added 132 runs in the first seven overs.",
-      "source": "The Indian Express",
-      "source_url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-october-28-2026-abhishek-sharma-smashes-a-35-ball-century-in-third-ind-vs-nz-t20i-match-10938673/",
-      "img": "https://img.cricketnmore.com/uploads/2026/01/image-of-india-vs-new-zealand-abhishek-sharma-completes-5-thousand-runs-in-t20-cricket.JPG",
+      "title_hi": "रोहित शर्मा पहली बार आईसीसी वनडे बल्लेबाज़ी रैंकिंग में नंबर 1",
+      "title_en": "Rohit Sharma tops ICC ODI batting rankings for the first time",
+      "body_hi": "भारतीय सलामी बल्लेबाज़ रोहित शर्मा अपने करियर में पहली बार आईसीसी पुरुष वनडे बल्लेबाज़ी रैंकिंग में नंबर 1 पर पहुँच गए हैं। ऑस्ट्रेलिया सीरीज़ में एडिलेड में 73 और सिडनी में नाबाद 121 रनों की पारियों के बाद उनके 781 रेटिंग अंक हो गए हैं।\n\nरोहित ने इब्राहिम ज़ादरान (764) और शुभमन गिल (745) को पीछे छोड़ा है। इससे पहले उनका सर्वश्रेष्ठ रैंक जुलाई 2018 में नंबर 2 था, और वह इस सीरीज़ के सर्वश्रेष्ठ खिलाड़ी भी चुने गए थे।",
+      "body_en": "Indian opener Rohit Sharma has climbed to No. 1 in the ICC Men's ODI Batting Rankings for the first time in his career. After scores of 73 in Adelaide and an unbeaten 121 in Sydney in the Australia series, he now has 781 rating points.\n\nRohit moved past Ibrahim Zadran (764) and Shubman Gill (745). His previous career-best ranking was No. 2, achieved in July 2018, and he was also named Player of the Series.",
+      "source": "Glance",
+      "source_url": "https://trends.glance.com/newz/shp/Sports/IN/en/mykhel-english/f-ad3a1c0981-8f09b487-1210-5064-b861-56ce3d2f76dc?summary=false&byte=true",
+      "img": "https://g-mob.glance-cdn.com/public/fc/image/r6pMDu8P4Zv0.webp",
       "tags": [
-        "#AbhishekSharma",
-        "#INDvsNZ",
+        "#RohitSharma",
+        "#ICC",
         "#Cricket",
-        "#T20",
+        "#TeamIndia",
         "#TaazaKhabar"
       ],
-      "page": "khabar/2026-10-28-khel-1.html"
+      "page": "khabar/2026-10-29-khel-1.html"
     },
     {
-      "id": "2026-10-28-khel-2",
+      "id": "2026-10-29-khel-2",
       "cat": "khel",
-      "title_hi": "हैरी केन ने जीता बैलन डी'ओर: 25 साल में यह सम्मान पाने वाले पहले अंग्रेज़",
-      "title_en": "Harry Kane wins Ballon d'Or, first Englishman in 25 years to claim the honour",
-      "body_hi": "इंग्लैंड के कप्तान और बायर्न म्यूनिख के स्ट्राइकर हैरी केन ने बैलन डी'ओर जीत लिया है। उन्होंने किलियन एम्बाप्पे और लामिन यमाल को पीछे छोड़कर यह प्रतिष्ठित सम्मान अपने नाम किया।\n\nकेन ने क्लब और देश के लिए कुल 73 गोल किए और वह 25 साल में यह सम्मान जीतने वाले पहले अंग्रेज़ खिलाड़ी बन गए हैं।",
-      "body_en": "England captain and Bayern Munich striker Harry Kane has won the Ballon d'Or, beating Kylian Mbappé and Lamine Yamal to the honour.\n\nKane scored 73 goals for club and country and became the first Englishman in 25 years to win the award.",
-      "source": "The Indian Express",
-      "source_url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-october-28-2026-abhishek-sharma-smashes-a-35-ball-century-in-third-ind-vs-nz-t20i-match-10938673/",
-      "img": "https://assets.bundesliga.com/contender/2024/9/GettyImages-2180928573.jpg?crop=483px,0px,4835px,3868px&fit=720,720",
+      "title_hi": "श्रीलंका ने पाकिस्तान को 8 विकेट से हराया, ट्राई-सीरीज़ के फाइनल में जगह बनाई",
+      "title_en": "Sri Lanka beat Pakistan by 8 wickets to reach tri-series final",
+      "body_hi": "श्रीलंका ने मेज़बान पाकिस्तान को 8 विकेट से हराकर पाकिस्तान वनडे ट्राई-सीरीज़ के फाइनल में जगह पक्की कर ली है। दिलशान मदुशंका ने 5 विकेट लेकर पाकिस्तान को 110 रन पर समेट दिया, और कामिंदु मेंडिस के अर्धशतक ने श्रीलंका को जीत दिलाई।\n\nअब श्रीलंका 31 अक्टूबर को फाइनल में फिर पाकिस्तान से भिड़ेगा। इससे पहले गुरुवार को लीग चरण के आखिरी मैच में श्रीलंका का सामना इंग्लैंड से होगा, जिसके लिए सिर्फ़ सम्मान दांव पर है।",
+      "body_en": "Sri Lanka sealed their place in the final of the Pakistan ODI Tri-Series with an 8-wicket win over hosts Pakistan. Dilshan Madushanka took 5 wickets to bowl Pakistan out for 110, and a half-century from Kamindu Mendis saw Sri Lanka through.\n\nSri Lanka will now face Pakistan again in the final on October 31. Before that, they meet England on Thursday in the final league-stage match, with only pride at stake for England.",
+      "source": "Sporting News",
+      "source_url": "https://www.sportingnews.com/in/cricket/news/sri-lanka-england-free-live-stream-watch-pakistan-odi-tri-series-india/f52ab5dff402cce3238a1172",
+      "img": "https://library.sportingnews.com/styles/crop_style_16_9_1280_webp/s3/2023-10/madushanka-sri%20lanka-australia-world%20cup.jpg.webp?itok=VwpNmwhA",
       "tags": [
-        "#HarryKane",
-        "#BallonDor",
-        "#Football",
-        "#WorldNews"
+        "#SriLanka",
+        "#Cricket",
+        "#ODI",
+        "#Pakistan",
+        "#TaazaKhabar"
       ],
-      "page": "khabar/2026-10-28-khel-2.html"
+      "page": "khabar/2026-10-29-khel-2.html"
     },
     {
-      "id": "2026-10-28-vyapar-1",
+      "id": "2026-10-29-vyapar-1",
       "cat": "vyapar",
-      "title_hi": "शेयर बाज़ार: एक्सपायरी के दिन सेंसेक्स-निफ्टी लगभग सपाट, कच्चा तेल 116 डॉलर के पास",
-      "title_en": "Markets end almost flat on expiry day as Brent crude stays near $116",
-      "body_hi": "मंगलवार 27 अक्टूबर को भारतीय शेयर बाज़ार में लगभग कोई बदलाव नहीं हुआ। सेंसेक्स 8.08 अंक गिरकर 73,598.67 पर और निफ्टी 50 सिर्फ 3.45 अंक गिरकर 22,749.75 पर बंद हुआ। फार्मा, रियल्टी और मीडिया शेयरों की बढ़त ने आईटी, तेल-गैस और निजी बैंकों के नुकसान की भरपाई कर दी।\n\nब्रॉडर बाज़ार मजबूत रहा — निफ्टी मिडकैप 1 प्रतिशत और स्मॉलकैप 2.7 प्रतिशत चढ़ा। ब्रेंट कच्चा तेल करीब 116 डॉलर प्रति बैरल के पास बना हुआ है, जबकि गिफ्ट निफ्टी 22,749 के आसपास है, जिससे बुधवार को सपाट शुरुआत के संकेत मिल रहे हैं। निवेशकों की नज़र आज आने वाले अमेरिकी फेडरल रिज़र्व के फैसले पर भी है।",
-      "body_en": "Indian equity indices ended almost flat on Tuesday, October 27, on a volatile expiry day. The Sensex declined 8.08 points to 73,598.67, while the Nifty 50 fell 3.45 points to 22,749.75, as gains in pharmaceutical, realty and media stocks offset losses in information technology, oil and gas, and private bank shares.\n\nBroader markets outperformed, with the Nifty Midcap index rising 1 per cent and the Smallcap index gaining 2.7 per cent. Brent crude stayed near $116 a barrel, while Gift Nifty traded near 22,749, signalling a flat open on Wednesday. Investors are also watching the US Federal Reserve's policy decision due today.",
-      "source": "HDFC Sky",
-      "source_url": "https://hdfcsky.com/news/gift-nifty-signals-flat-open-for-sensex-nifty-on-wednesday",
-      "img": "https://images.bhaskarassets.com/thumb/730x382/web2images/5483/2026/01/16/l8lra8jbse-generic-share-market-generic-sensex-gen_1768534211.png",
+      "title_hi": "जियो प्लेटफॉर्म्स की धमाकेदार लिस्टिंग: पहले दिन 26.81% ऊपर बंद, भारत का सबसे बड़ा आईपीओ",
+      "title_en": "Jio Platforms makes blockbuster market debut, closes 26.81% higher",
+      "body_hi": "जियो प्लेटफॉर्म्स ने शेयर बाज़ार में धमाकेदार शुरुआत की है। शेयर ₹1,119 के निर्गम मूल्य के मुकाबले ₹1,358 पर सूचीबद्ध हुआ और दिन के अंत में ₹1,419 पर बंद हुआ, यानी 26.81 प्रतिशत की बढ़त।\n\n₹30,213 करोड़ का यह आईपीओ भारत का अब तक का सबसे बड़ा आईपीओ है। लिस्टिंग के साथ कंपनी दुनिया की सबसे मूल्यवान सूचीबद्ध टेलीकॉम-टेक्नोलॉजी कंपनियों में शामिल हो गई है।",
+      "body_en": "Jio Platforms made a blockbuster stock market debut. The share listed at ₹1,358 against an issue price of ₹1,119 and closed the day at ₹1,419, a gain of 26.81 per cent.\n\nThe ₹30,213-crore IPO is India's largest ever. The listing placed the company among the world's most valuable listed telecom-technology firms.",
+      "source": "Jagran Josh",
+      "source_url": "https://www.jagranjosh.com/lite/articles/school-assembly-news-headlines-for-october-29-2026-jio-ipo-listing-uccc-delhi-meet-chakrawat-and-top-national-international-updates-1800018347-1",
+      "img": "https://www.opindia.com/wp-content/uploads/2026/08/JIO-1.png",
+      "tags": [
+        "#Jio",
+        "#IPO",
+        "#StockMarket",
+        "#Business",
+        "#TaazaKhabar"
+      ],
+      "page": "khabar/2026-10-29-vyapar-1.html"
+    },
+    {
+      "id": "2026-10-29-vyapar-2",
+      "cat": "vyapar",
+      "title_hi": "सेंसेक्स 352 अंक गिरकर 73,246 पर बंद, निफ्टी 22,700 के नीचे",
+      "title_en": "Sensex falls 352 points to 73,246; Nifty ends below 22,700",
+      "body_hi": "बुधवार को भारतीय शेयर बाज़ार गिरावट के साथ बंद हुआ। बीएसई सेंसेक्स 352 अंक यानी 0.48 प्रतिशत गिरकर 73,246 पर बंद हुआ, जबकि निफ्टी 50 भी 22,700 के नीचे 22,698 पर आ गया।\n\nआईटी और तेल शेयरों में सबसे ज़्यादा गिरावट रही। निवेशकों की नज़र अमेरिकी फेडरल रिज़र्व के फैसले और वैश्विक संकेतों पर टिकी हुई थी। यह ख़बर सिर्फ़ जानकारी के लिए है, इसमें कोई निवेश सलाह नहीं है।",
+      "body_en": "Indian equity markets closed lower on Wednesday. The BSE Sensex fell 352 points, or 0.48 per cent, to close at 73,246, while the Nifty 50 ended below 22,700 at 22,698.\n\nIT and oil stocks were among the top losers. Investors were watching the US Federal Reserve's decision and global cues. This report is for information only and carries no investment advice.",
+      "source": "ET Now",
+      "source_url": "https://www.etnownews.com/markets/stock-market-closing-today-sensex-nifty-top-gainers-losers-october-28-article-156421711",
+      "img": "https://images.etnownews.com/thumb/msid-156421711,thumbsize-1583735,width-1280,height-720,resizemode-75/156421711.jpg",
       "tags": [
         "#Sensex",
         "#Nifty",
-        "#ShareBazaar",
+        "#StockMarket",
+        "#Business",
         "#TaazaKhabar"
       ],
-      "page": "khabar/2026-10-28-vyapar-1.html"
-    },
-    {
-      "id": "2026-10-28-vyapar-2",
-      "cat": "vyapar",
-      "title_hi": "माइक्रोसॉफ्ट ने करीब 60,000 कर्मचारियों को स्वैच्छिक विदाई पैकेज की पेशकश की",
-      "title_en": "Microsoft offers voluntary exit packages to around 60,000 employees",
-      "body_hi": "माइक्रोसॉफ्ट ने भारत, अमेरिका, ब्रिटेन और कनाडा में करीब 60,000 योग्य कर्मचारियों को स्वैच्छिक विदाई पैकेज की पेशकश की है। कंपनी अपने कार्यबल को नए सिरे से ढाल रही है और आर्टिफिशियल इंटेलिजेंस में बढ़ते निवेश का प्रबंधन कर रही है।\n\nयह कदम ऐसे समय में आया है जब बड़ी टेक कंपनियाँ एआई पर खर्च बढ़ाते हुए अपनी टीमों की संरचना पर फिर से विचार कर रही हैं।",
-      "body_en": "Microsoft has offered a voluntary exit package to around 60,000 eligible employees across India, the US, UK and Canada, as it reshapes its workforce and manages rising AI investments.\n\nThe move comes as large technology companies increase spending on artificial intelligence while rethinking the structure of their teams.",
-      "source": "The Indian Express",
-      "source_url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-october-28-2026-abhishek-sharma-smashes-a-35-ball-century-in-third-ind-vs-nz-t20i-match-10938673/",
-      "img": "https://esp.md/sites/default/files/styles/list_category_200x255/adaptive-image/public/microsoft-voluntary-buyouts-employees.jpg?itok=udjAPuYD",
-      "tags": [
-        "#Microsoft",
-        "#Jobs",
-        "#AI",
-        "#TaazaKhabar"
-      ],
-      "page": "khabar/2026-10-28-vyapar-2.html"
+      "page": "khabar/2026-10-29-vyapar-2.html"
     }
   ]
 }
