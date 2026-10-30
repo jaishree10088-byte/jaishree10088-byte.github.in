@@ -1,192 +1,185 @@
 {
-  "edition": "शुक्रवार, 30 अक्टूबर 2026",
-  "updated_at": "2026-10-30T05:00:00+05:30",
+  "edition": "शनिवार, 31 अक्टूबर 2026",
+  "updated_at": "2026-10-31T05:00:00+05:30",
   "stories": [
     {
-      "id": "2026-10-30-bharat-1",
+      "id": "2026-10-31-bharat-1",
       "cat": "bharat",
-      "title_hi": "प्रधानमंत्री मोदी आज से दो दिन के गुजरात दौरे पर, ₹14,000 करोड़ से ज़्यादा की परियोजनाओं का उद्घाटन",
-      "title_en": "PM Modi begins two-day Gujarat visit; projects worth over Rs 14,000 crore to be inaugurated",
-      "body_hi": "प्रधानमंत्री नरेंद्र मोदी शुक्रवार से दो दिन के गुजरात दौरे पर रहेंगे। इस दौरान वह ₹14,000 करोड़ से ज़्यादा की विकास परियोजनाओं का उद्घाटन और लोकार्पण करेंगे।\n\nदौरे के दौरान प्रधानमंत्री किसान सम्मान निधि (पीएम-किसान) की 24वीं किस्त भी जारी करेंगे, जिसके तहत करीब 9.34 करोड़ किसानों को ₹2,000-₹2,000 मिलेंगे और कुल ₹19,000 करोड़ जारी होंगे। साथ ही दो ट्रेन सेवाओं को भी हरी झंडी दिखाई जाएगी।",
-      "body_en": "Prime Minister Narendra Modi will be on a two-day visit to Gujarat starting Friday. During the visit he will inaugurate and dedicate development projects worth more than Rs 14,000 crore to the nation.\n\nThe Prime Minister will also release the 24th instalment of the PM-Kisan scheme, under which around 9.34 crore farmers will receive Rs 2,000 each, amounting to Rs 19,000 crore in total. Two train services will also be flagged off during the visit.",
-      "source": "Mathrubhumi",
-      "source_url": "https://english.mathrubhumi.com/amp/education/school-assembly-headlines-30-october-2026-national-world-news-i0t82rhf",
-      "img": "https://images.livemint.com/img/2022/11/06/1600x900/ANI-20221106193-0_1667752487213_1667752487213_1667752502471_1667752502471.jpg",
+      "title_hi": "पीएम-किसान की 24वीं किस्त जारी, 9.34 करोड़ से ज़्यादा किसान परिवारों को ₹18,690 करोड़ से अधिक मिले",
+      "title_en": "PM-KISAN 24th instalment released: over Rs 18,690 crore reaches more than 9.34 crore farmer families",
+      "body_hi": "प्रधानमंत्री नरेंद्र मोदी ने गुजरात के बनासकांठा में पीएम-किसान योजना की 24वीं किस्त जारी की। इसके तहत देश भर के 9.34 करोड़ से ज़्यादा पात्र किसान परिवारों के बैंक खातों में सीधे ₹18,690 करोड़ से अधिक की राशि भेजी गई।\n\nइसी मौके पर कृषि अवसंरचना कोष से बनी 521 इकाइयों और 12 बागवानी क्लस्टरों का भी उद्घाटन हुआ। अधिकारियों के अनुसार, पहली 23 किस्तों के ज़रिए अब तक किसानों को ₹4.47 लाख करोड़ से ज़्यादा की मदद सीधे उनके खातों में पहुँचाई जा चुकी है।",
+      "body_en": "Prime Minister Narendra Modi released the 24th instalment of the PM-KISAN scheme at Banaskantha in Gujarat. Under it, more than Rs 18,690 crore was transferred directly into the bank accounts of over 9.34 crore eligible farmer families across the country.\n\nOn the same occasion, 521 units built with the Agriculture Infrastructure Fund and 12 horticulture clusters were also inaugurated. Officials said the first 23 instalments together have already moved more than Rs 4.47 lakh crore to farmers through direct benefit transfer.",
+      "source": "Jagran Josh",
+      "source_url": "https://www.jagranjosh.com/articles/school-assembly-news-headlines-october-31-2026-new-zealand-vs-india-pm-kisan-ins-vikrant-and-other-news-1800018430-1",
+      "img": "https://img.jagranjosh.com/images/2026/10/30/template/image/School-assembly-news-headlines-for-October-31-1793369238294.webp",
       "tags": [
-        "#PMModi",
+        "#PMKISAN",
+        "#Kisan",
         "#Gujarat",
-        "#PMKisan",
-        "#Vikas",
         "#TaazaKhabar"
       ],
-      "page": "khabar/2026-10-30-bharat-1.html"
+      "page": "khabar/2026-10-31-bharat-1.html"
     },
     {
-      "id": "2026-10-30-bharat-2",
+      "id": "2026-10-31-bharat-2",
       "cat": "bharat",
-      "title_hi": "इसरो आज श्रीहरिकोटा से नेविगेशन उपग्रह एनवीएस-03 लॉन्च करेगा",
-      "title_en": "ISRO to launch navigation satellite NVS-03 from Sriharikota today",
-      "body_hi": "भारतीय अंतरिक्ष अनुसंधान संगठन (इसरो) आज श्रीहरिकोटा से अपना नेविगेशन उपग्रह एनवीएस-03 लॉन्च करेगा। यह उपग्रह जीएसएलवी-एफ18 रॉकेट के ज़रिए अंतरिक्ष में भेजा जाएगा।\n\nएनवीएस-03 भारत की नेविगेशन उपग्रह शृंखला का हिस्सा है, जो देश में सटीक स्थिति और नेविगेशन सेवाओं को मज़बूत करेगा। लॉन्च की तैयारियाँ पूरी हो चुकी हैं और इस पर देश भर की नज़रें टिकी हैं।",
-      "body_en": "The Indian Space Research Organisation (ISRO) will launch its navigation satellite NVS-03 from Sriharikota today. The satellite will be carried into space aboard the GSLV-F18 rocket.\n\nNVS-03 is part of India's navigation satellite series, which strengthens precise positioning and navigation services across the country. Launch preparations are complete and the mission is being watched across the nation.",
-      "source": "The Indian Express",
-      "source_url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-october-30-2026-isro-to-launch-navigation-satellite-nvs-03-tomorrow-netanyahus-bloc-leads-in-israel-election-2026-10941523/lite/",
-      "img": "https://spaceexplored.com/wp-content/uploads/sites/10/2022/10/oneweb-first-idian-launch.jpeg?quality=82&strip=all",
+      "title_hi": "बद्रीनाथ से देहरादून जा रहा हेलीकॉप्टर जोशीमठ के पास दुर्घटनाग्रस्त, सवार सभी 6 लोगों की मौत",
+      "title_en": "Helicopter flying from Badrinath to Dehradun crashes near Joshimath, all six on board killed",
+      "body_hi": "उत्तराखंड के चमोली ज़िले में जोशीमठ के पास एक निजी हेलीकॉप्टर पहाड़ी से टकराकर दुर्घटनाग्रस्त हो गया। हादसे में पायलट समेत सभी छह लोगों की मौत हो गई। हेलीकॉप्टर बद्रीनाथ धाम से देहरादून जा रहा था और उड़ान भरने के कुछ ही मिनट बाद उसका संपर्क टूट गया था।\n\nशुक्रवार दोपहर हुए इस हादसे के बाद राहत और बचाव दल मौके पर पहुँचे। अधिकारियों ने हादसे की पुष्टि करते हुए मृतकों के प्रति शोक जताया है और दुर्घटना के कारणों की जाँच की बात कही जा रही है।",
+      "body_en": "A privately operated helicopter crashed into a hillside near Joshimath in Uttarakhand's Chamoli district, killing all six people on board, including the pilot. The helicopter was flying from Badrinath Dham to Dehradun and lost contact minutes after taking off.\n\nRescue teams reached the site after the crash on Friday afternoon. Officials confirmed the deaths and expressed grief over the tragedy, while the cause of the accident is being looked into.",
+      "source": "Mathrubhumi English",
+      "source_url": "https://english.mathrubhumi.com/education/news/school-assembly-headlines-october-31-2026-s6zd2056",
+      "img": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1usfkd1ynez1hrmuwrq/0/assembly-headline-jpg.jpeg?f=16:9&w=1200&q=0.75",
       "tags": [
-        "#ISRO",
-        "#NVS03",
-        "#GSLV",
-        "#Sriharikota",
+        "#Uttarakhand",
+        "#HelicopterCrash",
+        "#Joshimath",
         "#TaazaKhabar"
       ],
-      "page": "khabar/2026-10-30-bharat-2.html"
+      "page": "khabar/2026-10-31-bharat-2.html"
     },
     {
-      "id": "2026-10-30-bharat-3",
+      "id": "2026-10-31-bharat-3",
       "cat": "bharat",
-      "title_hi": "चक्रवात अर्नब ओडिशा में कमज़ोर पड़ा, गंजम में 300 गाँव अब भी पानी से घिरे",
-      "title_en": "Cyclone Arnab weakens over Odisha; 300 villages still marooned in Ganjam",
-      "body_hi": "चक्रवात अर्नब ओडिशा के ऊपर कमज़ोर पड़ गया है, लेकिन इसका असर अब भी कई इलाकों में दिख रहा है। गंजम ज़िले में करीब 300 गाँव पानी से घिरे हुए हैं और रायगड़ा ज़िला हाई अलर्ट पर है।\n\nमौसम विभाग के अनुसार बंगाल की खाड़ी में एक नया सिस्टम बन रहा है, जिसके आंध्र तट की ओर बढ़ने की आशंका है। प्रशासन राहत और बचाव के काम में जुटा है और प्रभावित इलाकों पर नज़र रखी जा रही है।",
-      "body_en": "Cyclone Arnab has weakened over Odisha, but its impact is still visible in several areas. Around 300 villages in Ganjam district remain marooned by floodwater, and Rayagada district is on high alert.\n\nAccording to weather officials, a new system is forming over the Bay of Bengal and is likely to head towards the Andhra coast. Authorities are engaged in relief work and are keeping a close watch on the affected areas.",
-      "source": "The Daily Jagran",
-      "source_url": "https://www.thedailyjagran.com/education/news/todays-school-assembly-news-headline-october-30-check-top-national-international-and-sports-news-here-10334457",
-      "img": "https://imagesvs.oneindia.com/img/2015/07/31-1438327977-rain-odisha.jpg",
+      "title_hi": "राष्ट्रीय एकता दिवस: सरदार पटेल की 151वीं जयंती पर केवडिया में प्रधानमंत्री मोदी",
+      "title_en": "Rashtriya Ekta Diwas: PM Modi in Kevadia for Sardar Patel's 151st birth anniversary",
+      "body_hi": "31 अक्टूबर को देश राष्ट्रीय एकता दिवस मना रहा है। यह दिन लौह पुरुष सरदार वल्लभभाई पटेल की जयंती के रूप में मनाया जाता है, और इस साल उनकी 151वीं जयंती है। प्रधानमंत्री नरेंद्र मोदी ने गुजरात के केवडिया में एकता दिवस के कार्यक्रमों में हिस्सा लिया।\n\nएकता दिवस का मकसद देश की एकता और अखंडता के प्रति लोगों को जोड़ना है। केवडिया में ही सरदार पटेल की विशाल प्रतिमा, स्टैच्यू ऑफ यूनिटी, स्थित है, जो इस अवसर का केंद्र रहती है।",
+      "body_en": "India marks Rashtriya Ekta Diwas, or National Unity Day, on 31 October. The day is observed as the birth anniversary of Sardar Vallabhbhai Patel, the Iron Man of India, and this year marks his 151st birth anniversary. Prime Minister Narendra Modi took part in the Ekta Diwas celebrations in Kevadia, Gujarat.\n\nThe day aims to bring people together around the unity and integrity of the country. Kevadia is home to the Statue of Unity, the towering statue of Sardar Patel, which remains the centre of the occasion.",
+      "source": "Observer Voice",
+      "source_url": "https://observervoice.com/todays-school-assembly-news-headlines-31-october-243013/",
+      "img": "https://observervoice.com/wp-content/uploads/2026/10/Today-School-Assembly-News-4.png-14.jpg",
       "tags": [
-        "#CycloneArnab",
-        "#Odisha",
-        "#Ganjam",
-        "#Mausam",
+        "#EktaDiwas",
+        "#SardarPatel",
+        "#Kevadia",
         "#TaazaKhabar"
       ],
-      "page": "khabar/2026-10-30-bharat-3.html"
+      "page": "khabar/2026-10-31-bharat-3.html"
     },
     {
-      "id": "2026-10-30-duniya-1",
+      "id": "2026-10-31-duniya-1",
       "cat": "duniya",
-      "title_hi": "स्पेन ट्रेन हादसे में मरने वालों की संख्या 68 हुई, प्रधानमंत्री सांचेज़ ने जाँच के आदेश दिए",
-      "title_en": "Spain train collision death toll reaches 68; PM Sanchez orders investigation",
-      "body_hi": "स्पेन में दो हाई-स्पीड ट्रेनों की टक्कर में मरने वालों की संख्या बढ़कर 68 हो गई है। यह हादसा देश के रेल इतिहास की सबसे बड़ी त्रासदियों में से एक बन गया है।\n\nप्रधानमंत्री पेड्रो सांचेज़ ने हादसे की जाँच के आदेश दिए हैं। हादसे के बाद देश भर में शोक और विरोध की लहर है, और लोग रेल सुरक्षा के मुद्दे पर जवाब माँग रहे हैं।",
-      "body_en": "The death toll in the collision between two high-speed trains in Spain has risen to 68. The crash has become one of the worst tragedies in the country's rail history.\n\nPrime Minister Pedro Sanchez has ordered an investigation into the accident. The crash has triggered grief and protests across the country, with people demanding answers on rail safety.",
-      "source": "PW.live",
-      "source_url": "https://www.pw.live/school-prep/exams/school-assembly-news-headlines-today",
-      "img": "https://businessbyte.in/wp-content/uploads/2026/01/Spain-train-accident-1024x683.png",
+      "title_hi": "ज़ेलेंस्की आज तुर्किये जाएँगे, एर्दोगन से रूस-यूक्रेन युद्ध और काला सागर सुरक्षा पर बातचीत",
+      "title_en": "Zelenskyy to visit Turkiye today for talks with Erdogan on Russia-Ukraine war and Black Sea security",
+      "body_hi": "यूक्रेन के राष्ट्रपति वोलोदिमीर ज़ेलेंस्की शनिवार, 31 अक्टूबर को तुर्किये की कार्य यात्रा पर जाएँगे। तुर्किये के राष्ट्रपति रेचेप तैय्यप एर्दोगन के निमंत्रण पर यह यात्रा हो रही है, और इस्तांबुल में दोनों नेताओं के बीच उच्च स्तरीय बातचीत होगी।\n\nबातचीत में दोनों देशों के बीच सहयोग बढ़ाने के साथ-साथ रूस-यूक्रेन युद्ध और काला सागर क्षेत्र की सुरक्षा स्थिति पर ख़ास ज़ोर रहेगा। क्षेत्रीय घटनाक्रम भी एजेंडे में शामिल है।",
+      "body_en": "Ukrainian President Volodymyr Zelenskyy will pay a working visit to Turkiye on Saturday, 31 October. The visit comes at the invitation of Turkish President Recep Tayyip Erdogan, and high-level talks between the two leaders will take place in Istanbul.\n\nThe talks will focus on steps to strengthen bilateral cooperation between Turkiye and Ukraine, as well as regional developments, with particular emphasis on the Russia-Ukraine war and the security situation in the Black Sea.",
+      "source": "The Tribune",
+      "source_url": "https://www.tribuneindia.com/news/world/zelenskyy-to-visit-turkey-on-october-31-for-talks-with-erdogan-on-russia-ukraine-war-black-sea-security/",
+      "img": "https://www.tribuneindia.com/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9tZWRpYWRiZDIxZGQwLWQ0ODctMTFmMS1iYTAzLTc3OTVjZGZhOTdmZS5qcGc=",
+      "tags": [
+        "#Ukraine",
+        "#Turkiye",
+        "#Zelenskyy",
+        "#WorldNews"
+      ],
+      "page": "khabar/2026-10-31-duniya-1.html"
+    },
+    {
+      "id": "2026-10-31-duniya-2",
+      "cat": "duniya",
+      "title_hi": "भूटान में हिमनद झील फटने से बाढ़ का अलर्ट, बंगाल में 12,000 से ज़्यादा लोग सुरक्षित स्थानों पर पहुँचाए गए",
+      "title_en": "Bhutan glacial lake outburst triggers flood alert; over 12,000 evacuated in Bengal",
+      "body_hi": "भूटान के गासा ज़िले में शिंताफू झील के फटने से 29 अक्टूबर को हिमनद झील विस्फोट हुआ, जिसके बाद भारत के उत्तरी बंगाल और असम में बाढ़ का अलर्ट जारी किया गया। संकॉश नदी के किनारे बसे इलाकों में पानी का स्तर बढ़ने की आशंका जताई गई।\n\nपश्चिम बंगाल में संकॉश नदी के किनारे से 12,000 से ज़्यादा लोगों को सुरक्षित स्थानों पर पहुँचाया गया है। प्रशासन नदी के जलस्तर पर नज़र रख रहा है और सीमा से लगे ज़िलों को सतर्क रहने को कहा गया है।",
+      "body_en": "A glacial lake outburst at Shintaphu Lake in Bhutan's Gasa district on 29 October triggered high flood alerts in northern West Bengal and Assam. Water levels along the Sankosh River were expected to rise following the outburst.\n\nMore than 12,000 people have been evacuated from areas along the Sankosh River in West Bengal. Authorities are monitoring the river's water level and border districts have been asked to stay alert.",
+      "source": "The Daily Jagran",
+      "source_url": "https://www.thedailyjagran.com/education/news/todays-school-assembly-news-headline-october-31-2026-check-top-national-international-and-sports-news-here-10334588",
+      "img": "https://images.thedailyjagran.com/images/2026/10/30/template/image/news-oct-31-1793362431092.webp",
+      "tags": [
+        "#Bhutan",
+        "#FloodAlert",
+        "#Assam",
+        "#WorldNews"
+      ],
+      "page": "khabar/2026-10-31-duniya-2.html"
+    },
+    {
+      "id": "2026-10-31-duniya-3",
+      "cat": "duniya",
+      "title_hi": "स्पेन में भीषण ट्रेन हादसा, कम से कम 68 लोगों की मौत, देश में शोक",
+      "title_en": "Spain mourns after devastating train collision kills at least 68 people",
+      "body_hi": "स्पेन में एक भीषण ट्रेन टक्कर में कम से कम 68 लोगों की मौत हो गई है। हादसे की ख़बर से देश भर में शोक की लहर है और राहत व बचाव कार्य तेज़ी से चलाया गया।\n\nहादसे के कारणों की जाँच की जा रही है। अधिकारियों और स्थानीय प्रशासन ने मृतकों के परिवारों के प्रति संवेदना जताई है और घायलों की मदद के लिए हरसंभव कदम उठाए जा रहे हैं।",
+      "body_en": "Spain is mourning after a devastating train collision killed at least 68 people. Rescue and relief operations were launched swiftly following the accident.\n\nThe cause of the collision is being investigated. Officials and local authorities have expressed condolences to the families of those killed, and every effort is being made to help the injured.",
+      "source": "Studmentor",
+      "source_url": "https://studmentor.in/news-headlines-for-school-assembly-31-october-2026/",
+      "img": "https://studmentor.in/wp-content/uploads/2026/10/News-Headlines-for-School-Assembly-–-31-October-2026.jpg",
       "tags": [
         "#Spain",
         "#TrainAccident",
-        "#WorldNews",
-        "#TaazaKhabar"
+        "#WorldNews"
       ],
-      "page": "khabar/2026-10-30-duniya-1.html"
+      "page": "khabar/2026-10-31-duniya-3.html"
     },
     {
-      "id": "2026-10-30-duniya-2",
-      "cat": "duniya",
-      "title_hi": "उत्तर कोरिया ने पूर्वी तट की ओर करीब 10 बैलिस्टिक मिसाइलें दागीं",
-      "title_en": "North Korea fires around 10 ballistic missiles towards sea off its eastern coast",
-      "body_hi": "उत्तर कोरिया ने अपने पूर्वी तट के पास समुद्र की ओर करीब 10 बैलिस्टिक मिसाइलें दागी हैं। इस घटनाक्रम ने क्षेत्र में तनाव बढ़ा दिया है और पड़ोसी देश सतर्क हो गए हैं।\n\nमिसाइल परीक्षणों की यह शृंखला ऐसे समय में हुई है, जब क्षेत्रीय सुरक्षा को लेकर पहले से ही चिंता बनी हुई है। अंतरराष्ट्रीय समुदाय इस घटनाक्रम पर बारीकी से नज़र रख रहा है।",
-      "body_en": "North Korea has fired around 10 ballistic missiles towards the sea off its eastern coast. The launches have raised tensions in the region and put neighbouring countries on alert.\n\nThe series of missile tests comes at a time when concerns over regional security are already high. The international community is watching the developments closely.",
-      "source": "PW.live",
-      "source_url": "https://www.pw.live/school-prep/exams/school-assembly-news-headlines-today",
-      "img": "https://www.armyrecognition.com/images/stories/news/2026/january/North_Korea_Launches_Multiple_Short-Range_Ballistic_Missiles_into_East_Sea.jpg",
-      "tags": [
-        "#NorthKorea",
-        "#Missile",
-        "#WorldNews",
-        "#TaazaKhabar"
-      ],
-      "page": "khabar/2026-10-30-duniya-2.html"
-    },
-    {
-      "id": "2026-10-30-khel-1",
+      "id": "2026-10-31-khel-1",
       "cat": "khel",
-      "title_hi": "भारत बनाम न्यूज़ीलैंड चौथा टी20 आज ऑकलैंड में, टीम इंडिया की नज़र 4-0 की बढ़त पर",
-      "title_en": "India vs New Zealand 4th T20I today in Auckland; India eye 4-0 series lead",
-      "body_hi": "भारत और न्यूज़ीलैंड के बीच पाँच मैचों की टी20 सीरीज़ का चौथा मुकाबला आज ऑकलैंड के ईडन पार्क में खेला जाएगा। मैच दोपहर 12:30 बजे भारतीय समय के अनुसार शुरू होगा।\n\nभारत सीरीज़ में पहले ही 3-0 से आगे है और आज जीतकर बढ़त 4-0 करना चाहेगा। कुलदीप यादव और वरुण चक्रवर्ती की प्लेइंग इलेवन में जगह को लेकर भी चर्चा है, जबकि न्यूज़ीलैंड लगातार चौथी हार से बचने की कोशिश करेगा।",
-      "body_en": "The fourth match of the five-match T20I series between India and New Zealand will be played today at Eden Park in Auckland. The match begins at 12:30 PM IST.\n\nIndia already lead the series 3-0 and will look to extend the advantage to 4-0 today. There is also discussion over the inclusion of Kuldeep Yadav and Varun Chakaravarthy in the playing XI, while New Zealand will try to avoid a fourth straight defeat.",
-      "source": "The Statesman",
-      "source_url": "https://www.thestatesman.com/sports/4th-t20i-india-eye-4-0-series-lead-against-depleted-new-zealand-kuldeep-and-varun-in-contention-1503656617.html/amp",
-      "img": "https://www.thestatesman.com/wp-content/uploads/2026/10/india-vs-new-zealand_bcci_x.webp",
+      "title_hi": "न्यूज़ीलैंड ने चौथे टी20 में भारत को 87 रन से हराया, सीरीज़ में भारत अब भी 3-1 से आगे",
+      "title_en": "New Zealand beat India by 87 runs in 4th T20I; India still lead series 3-1",
+      "body_hi": "ऑकलैंड के ईडन पार्क में खेले गए चौथे टी20 मैच में न्यूज़ीलैंड ने भारत को 87 रन से हरा दिया। पहले बल्लेबाज़ी करते हुए न्यूज़ीलैंड ने 259/7 का बड़ा स्कोर बनाया, जवाब में भारतीय टीम 20 ओवर में 172/9 ही बना सकी।\n\nइस जीत के बावजूद पाँच मैचों की सीरीज़ में भारत 3-1 से आगे है। सीरीज़ का आख़िरी और निर्णायक मुकाबला 1 नवंबर को हैमिल्टन में खेला जाएगा।",
+      "body_en": "New Zealand beat India by 87 runs in the fourth T20I at Eden Park in Auckland. Batting first, New Zealand posted a big total of 259/7, and India could manage only 172/9 in their 20 overs in reply.\n\nDespite the defeat, India still lead the five-match series 3-1. The final match of the series will be played at Hamilton on November 1.",
+      "source": "Jagran Josh",
+      "source_url": "https://www.jagranjosh.com/articles/school-assembly-news-headlines-october-31-2026-new-zealand-vs-india-pm-kisan-ins-vikrant-and-other-news-1800018430-1",
+      "img": "https://static.cricbuzz.com/a/img/v1/600x400/i1/c186111/cms-img.jpg",
       "tags": [
+        "#Cricket",
         "#INDvsNZ",
         "#T20I",
-        "#Cricket",
-        "#TeamIndia",
         "#TaazaKhabar"
       ],
-      "page": "khabar/2026-10-30-khel-1.html"
+      "page": "khabar/2026-10-31-khel-1.html"
     },
     {
-      "id": "2026-10-30-khel-2",
+      "id": "2026-10-31-khel-2",
       "cat": "khel",
-      "title_hi": "हॉन्ग कॉन्ग सिक्सेस आज से शुरू, भारत का पहला मुकाबला पाकिस्तान से",
-      "title_en": "Hong Kong Sixes begins today; India open campaign against Pakistan",
-      "body_hi": "हॉन्ग कॉन्ग सिक्सेस 2026 टूर्नामेंट आज से शुरू हो रहा है, जो 1 नवंबर तक चलेगा। 12 टीमें चार ग्रुपों में बँटी हैं और हर मैच छह-छह ओवर का होगा।\n\nभारत ग्रुप सी में पाकिस्तान और यूएई के साथ है। भारत का पहला मुकाबला आज सुबह 11:45 बजे पाकिस्तान से होगा। क्रुणाल पांड्या भारतीय टीम की कप्तानी करेंगे, जबकि पाकिस्तान गत विजेता है।",
-      "body_en": "The Hong Kong Sixes 2026 tournament begins today and runs until November 1. Twelve teams are split into four groups, and every match is a six-over-a-side contest.\n\nIndia are in Group C with Pakistan and the UAE. India's opening match is against Pakistan today at 11:45 AM IST. Krunal Pandya will captain India, while Pakistan are the defending champions.",
-      "source": "Sporting News",
-      "source_url": "https://www.sportingnews.com/in/cricket/news/watch-hong-kong-sixes-2026-india-live-stream-tv-channel-start-times/fe5f57b08fcf136da3b6ebc7",
-      "img": "https://library.sportingnews.com/styles/crop_style_16_9_1280_webp/s3/2023-03/Cricket%20ball%20032223%281%29.jpg.webp?itok=psc4oFtT",
+      "title_hi": "राशिद ख़ान ने रचा इतिहास, टी20 अंतरराष्ट्रीय में 200 विकेट लेने वाले पहले गेंदबाज़ बने",
+      "title_en": "Rashid Khan scripts history, becomes first bowler to claim 200 T20I wickets",
+      "body_hi": "अफ़ग़ानिस्तान के स्टार लेग स्पिनर राशिद ख़ान ने टी20 अंतरराष्ट्रीय क्रिकेट में इतिहास रच दिया है। वह इस प्रारूप में 200 विकेट लेने वाले दुनिया के पहले गेंदबाज़ बन गए हैं, जो उनकी लंबी और शानदार गेंदबाज़ी का प्रमाण है।\n\nराशिद ख़ान को दुनिया के सबसे ख़तरनाक टी20 गेंदबाज़ों में गिना जाता है। उनकी गुगली और तेज़ गति वाली गेंदबाज़ी ने कई बड़े बल्लेबाज़ों को परेशान किया है, और यह उपलब्धि उनके करियर की एक और बड़ी मील का पत्थर है।",
+      "body_en": "Afghanistan star leg-spinner Rashid Khan has scripted history in T20 international cricket. He has become the first bowler in the world to claim 200 wickets in the format, a mark of his long and outstanding bowling career.\n\nRashid Khan is counted among the most dangerous T20 bowlers in the world. His googly and brisk bowling have troubled many top batters, and this milestone is another major landmark in his career.",
+      "source": "The Daily Jagran",
+      "source_url": "https://www.thedailyjagran.com/education/news/todays-school-assembly-news-headline-october-31-2026-check-top-national-international-and-sports-news-here-10334588",
+      "img": "https://imagesvs.oneindia.com/hi/img/2026/04/rashid-khan-1775739878.jpg",
       "tags": [
-        "#HongKongSixes",
-        "#INDvsPAK",
         "#Cricket",
+        "#RashidKhan",
+        "#T20I",
         "#TaazaKhabar"
       ],
-      "page": "khabar/2026-10-30-khel-2.html"
+      "page": "khabar/2026-10-31-khel-2.html"
     },
     {
-      "id": "2026-10-30-vyapar-1",
+      "id": "2026-10-31-vyapar-1",
       "cat": "vyapar",
-      "title_hi": "सेंसेक्स 905 अंक चढ़कर 74,151 पर बंद, निफ्टी 22,900 के पार",
-      "title_en": "Sensex jumps 905 points to close at 74,151; Nifty crosses 22,900",
-      "body_hi": "गुरुवार को भारतीय शेयर बाज़ार में ज़बरदस्त तेज़ी रही। बीएसई सेंसेक्स 905 अंक चढ़कर 74,151 पर बंद हुआ, जबकि निफ्टी 50 भी 22,900 के पार 22,936 पर पहुँच गया।\n\nएफएमसीजी और सार्वजनिक क्षेत्र के बैंक शेयरों में भारी खरीदारी देखने को मिली। निवेशकों की नज़र अब अमेरिका के आर्थिक आँकड़ों और जापान के केंद्रीय बैंक के फैसले पर है। यह ख़बर सिर्फ़ जानकारी के लिए है, इसमें कोई निवेश सलाह नहीं है।",
-      "body_en": "Indian equity markets saw a strong rally on Thursday. The BSE Sensex jumped 905 points to close at 74,151, while the Nifty 50 also crossed 22,900 to end at 22,936.\n\nHeavy buying was seen in FMCG and public-sector bank stocks. Investors are now watching US economic data and the Bank of Japan's policy decision. This report is for information only and carries no investment advice.",
-      "source": "CNBC-TV18",
-      "source_url": "https://www.cnbctv18.com/market/nifty-outlook-friday-october-30-index-aims-for-23000-and-beyond-after-strong-sensex-expiry-20022760.htm",
-      "img": "https://images.cnbctv18.com/uploads/2026/10/image-2026-10-be128b4ed4b0d8451b636d7610e5d63c.jpg?im=FitAndFill,width=1200,height=675",
+      "title_hi": "सेंसेक्स 308 अंक चढ़कर 74,459 पर, निफ्टी 23,053 पर बंद; आईटी शेयरों और ट्रेंट की कमाई से बाज़ार को सहारा",
+      "title_en": "Sensex climbs 308 points to 74,459, Nifty ends at 23,053 as IT stocks and Trent earnings lift market",
+      "body_hi": "भारतीय शेयर बाज़ार शुक्रवार को लगातार दूसरे दिन बढ़त के साथ बंद हुआ। बीएसई सेंसेक्स 308.49 अंक यानी 0.42 प्रतिशत चढ़कर 74,459.53 पर बंद हुआ, जबकि एनएसई निफ्टी 116.35 अंक यानी 0.51 प्रतिशत बढ़कर 23,053.10 पर पहुँचा।\n\nआईटी कंपनियों के शेयरों में मज़बूत ख़रीदारी और टाटा समूह की रिटेल कंपनी ट्रेंट की कमाई ने बाज़ार को सहारा दिया। ट्रेंट का शेयर 5.20 प्रतिशत चढ़ा, क्योंकि कंपनी ने सितंबर तिमाही में 25 प्रतिशत सालाना बढ़ोतरी के साथ ₹468 करोड़ का शुद्ध मुनाफ़ा दर्ज किया था। यह ख़बर सिर्फ़ जानकारी के लिए है, निवेश की सलाह नहीं।",
+      "body_en": "Indian equity markets closed higher for a second straight session on Friday. The 30-share BSE Sensex climbed 308.49 points, or 0.42 per cent, to settle at 74,459.53, while the 50-share NSE Nifty rallied 116.35 points, or 0.51 per cent, to end at 23,053.10.\n\nRobust buying in IT firms and earnings-driven demand for Tata Group retail arm Trent supported the market. Trent's shares jumped 5.20 per cent after the company reported a 25 per cent year-on-year rise in consolidated net profit to Rs 468 crore for the September quarter. This report is for information only, not investment advice.",
+      "source": "Rediff",
+      "source_url": "https://m.rediff.com/business/report/sensex-nifty-extend-gains-it-stocks-trent-earnings-drive-market-rally/20261030.htm",
+      "img": "https://im.rediff.com/1200-630/money/2021/may/31brokers.jpg",
       "tags": [
         "#Sensex",
         "#Nifty",
-        "#StockMarket",
-        "#Business",
+        "#ShareBazaar",
         "#TaazaKhabar"
       ],
-      "page": "khabar/2026-10-30-vyapar-1.html"
+      "page": "khabar/2026-10-31-vyapar-1.html"
     },
     {
-      "id": "2026-10-30-vyapar-2",
-      "cat": "vyapar",
-      "title_hi": "आकासा एयर जनवरी 2027 से पायलटों का वेतन 20% तक बढ़ाएगी",
-      "title_en": "Akasa Air to raise pilots' salaries by up to 20% from January 2027",
-      "body_hi": "भारतीय एयरलाइन आकासा एयर जनवरी 2027 से अपने पायलटों का वेतन 20 प्रतिशत तक बढ़ाने जा रही है। यह फैसला एविएशन सेक्टर में पायलटों की बढ़ती माँग के बीच आया है।\n\nएयरलाइन के इस कदम से पायलटों को बनाए रखने और नई भर्तियों को आकर्षित करने में मदद मिलने की उम्मीद है। भारत में घरेलू हवाई यात्रा लगातार बढ़ रही है, जिससे एयरलाइनों के बीच अनुभवी पायलटों की होड़ तेज़ हो गई है।",
-      "body_en": "Indian airline Akasa Air is set to increase its pilots' salaries by up to 20 per cent from January 2027. The decision comes amid rising demand for pilots in the aviation sector.\n\nThe move is expected to help the airline retain pilots and attract new recruits. Domestic air travel in India continues to grow, intensifying competition among airlines for experienced pilots.",
-      "source": "The Economic Times",
-      "source_url": "https://economictimes.indiatimes.com/news/new-updates/school-assembly-headlines-for-october-30-top-national-international-sports-and-business-updates/articleshow/135304694.cms",
-      "img": "https://www.expresskerala.com/wp-content/uploads/2022/10/Akasa-Air.jpg",
-      "tags": [
-        "#AkasaAir",
-        "#Aviation",
-        "#Business",
-        "#TaazaKhabar"
-      ],
-      "page": "khabar/2026-10-30-vyapar-2.html"
-    },
-    {
-      "id": "2026-10-30-khaas-1",
+      "id": "2026-10-31-khaas-1",
       "cat": "khaas",
-      "title_hi": "नासा के रोवर ने मंगल पर बेहद बारीक धूल के कणों का पता लगाया",
-      "title_en": "NASA rover detects ultrafine dust particles on Mars",
-      "body_hi": "नासा के रोवर ने मंगल ग्रह पर बेहद बारीक धूल के कणों का पता लगाया है। यह खोज लाल ग्रह के वातावरण और उसकी सतह को समझने में वैज्ञानिकों की मदद करेगी।\n\nमंगल की धूल का अध्ययन इसलिए अहम है, क्योंकि यह ग्रह के मौसम, तापमान और भविष्य के मानव मिशनों की योजना पर असर डालती है। वैज्ञानिक अब इन कणों के स्रोत और व्यवहार का और गहराई से अध्ययन करेंगे।",
-      "body_en": "NASA's rover has detected ultrafine dust particles on Mars. The discovery will help scientists better understand the Red Planet's atmosphere and surface.\n\nStudying Martian dust matters because it affects the planet's weather, temperatures and planning for future human missions. Scientists will now study the origin and behaviour of these particles in greater depth.",
-      "source": "The Economic Times",
-      "source_url": "https://economictimes.indiatimes.com/news/new-updates/school-assembly-headlines-for-october-30-top-national-international-sports-and-business-updates/articleshow/135304694.cms",
-      "img": "https://dev.nag.co.za/wp-content/uploads/2020/01/NASA-Mars-rover-770x513.png",
+      "title_hi": "शेक्सपियर से स्टार ट्रेक तक: दिग्गज अभिनेता पैट्रिक स्टीवर्ट का 86 साल की उम्र में निधन",
+      "title_en": "From Shakespeare to Star Trek: legendary actor Patrick Stewart dies at 86",
+      "body_hi": "शेक्सपियर के मंच से 'स्टार ट्रेक' और 'एक्स-मेन' तक अपनी छाप छोड़ने वाले दिग्गज अभिनेता पैट्रिक स्टीवर्ट का 86 साल की उम्र में निधन हो गया है। दुनिया भर के प्रशंसकों और फ़िल्म जगत ने उनके जाने पर शोक जताया है।\n\nस्टीवर्ट को कैप्टन जीन-ल्यूक पिकार्ड और प्रोफ़ेसर चार्ल्स ज़ेवियर जैसे किरदारों के लिए याद किया जाएगा। शास्त्रीय रंगमंच से लेकर बड़ी फ़िल्मों तक का उनका सफ़र कई पीढ़ियों के कलाकारों के लिए प्रेरणा रहा है।",
+      "body_en": "Legendary actor Patrick Stewart, who left his mark from the Shakespearean stage to 'Star Trek' and 'X-Men', has died at the age of 86. Fans around the world and the film fraternity have mourned his passing.\n\nStewart will be remembered for roles such as Captain Jean-Luc Picard and Professor Charles Xavier. His journey from classical theatre to big-screen blockbusters has been an inspiration for generations of performers.",
+      "source": "The Daily Jagran",
+      "source_url": "https://www.thedailyjagran.com/education/news/todays-school-assembly-news-headline-october-31-2026-check-top-national-international-and-sports-news-here-10334588",
+      "img": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/01/star-trek-the-next-generation-patrick-stewart.jpg?&fit=crop&w=1600&h=900",
       "tags": [
-        "#NASA",
-        "#Mars",
-        "#Space",
-        "#Science",
+        "#PatrickStewart",
+        "#StarTrek",
+        "#Hollywood",
         "#TaazaKhabar"
       ],
-      "page": "khabar/2026-10-30-khaas-1.html"
+      "page": "khabar/2026-10-31-khaas-1.html"
     }
   ]
 }
