@@ -47,8 +47,8 @@ var CHARACTERS = {
       legR:  { f: 'legR.png',  w: 102, h: 246, left: 117, top: 255, z: 2, o: 'top center' },
       torso: { f: 'torso.png', w: 132, h: 133, left: 74,  top: 112, z: 4, o: 'center' },
       belt:  { f: 'belt.png',  w: 152, h: 33,  left: 64,  top: 235, z: 5, o: 'center' },
-      armL:  { f: 'armL.png',  w: 78,  h: 225, left: 34,  top: 130, z: 3, o: 'top right' },
-      armR:  { f: 'armR.png',  w: 78,  h: 225, left: 168, top: 130, z: 3, o: 'top left' },
+      armL:  { f: 'armL.png',  w: 78,  h: 225, left: 38,  top: 138, z: 3, o: 'top right' },
+      armR:  { f: 'armR.png',  w: 78,  h: 225, left: 164, top: 138, z: 3, o: 'top left' },
       head:  { f: 'head.png',  w: 116, h: 115, left: 82,  top: 13,  z: 8, o: 'bottom center' }
     }
   },
@@ -60,7 +60,7 @@ var CHARACTERS = {
       legR: { f: 'footR.png', w: 80,  h: 102, left: 128, top: 387, z: 1, o: 'top center' },
       torso: { f: 'torso.png', w: 112, h: 325, left: 84,  top: 78,  z: 2, o: 'center' },
       armL:  { f: 'armL.png',  w: 58,  h: 224, left: 56,  top: 103, z: 1, o: 'top right' },
-      armR:  { f: 'armR.png',  w: 62,  h: 294, left: 164, top: 103, z: 1, o: 'top left' },
+      armR:  { f: 'armR.png',  w: 62,  h: 294, left: 131, top: 103, z: 1, o: 'top left' },
       head:  { f: 'head.png',  w: 107, h: 115, left: 86,  top: 13,  z: 4, o: 'bottom center' }
     }
   },
