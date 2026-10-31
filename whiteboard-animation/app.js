@@ -167,12 +167,29 @@
       state.speechDone = true; maybeAdvance();
     });
   }
-  document.getElementById('playBtn').addEventListener('click', function () {
-    if (exporting || recordingVoice) return;
-    if (!imgReady) { setStatus('Scene picture is still loading, please wait a second.'); return; }
+  function startPlay() {
     speechSynthesis.cancel();
     state.playing = true; state.doneZones = 0;
     playLine(0);
+  }
+  // The hand picture loads separately from the scene picture. Earlier Play
+  // started without waiting for it, so on a slow connection the drawing
+  // revealed with NO hand (a plain wipe) — the reported "no hand like before".
+  // Now Play/downloads wait up to ~15s for the hand; if it still has not
+  // loaded, they refuse with a clear reload message instead of a hand-less run.
+  function whenHandReady(fn) {
+    if (handReady) { fn(); return; }
+    setStatus('Haath ki picture load ho rahi hai, thoda wait karo…');
+    var tries = 0;
+    var w = setInterval(function () {
+      if (handReady) { clearInterval(w); fn(); }
+      else if (++tries >= 75) { clearInterval(w); setStatus('Haath ki picture load nahi hui. Page reload karo, phir Play dabao — haath tab dikhega.'); }
+    }, 200);
+  }
+  document.getElementById('playBtn').addEventListener('click', function () {
+    if (exporting || recordingVoice) return;
+    if (!imgReady) { setStatus('Scene picture is still loading, please wait a second.'); return; }
+    whenHandReady(startPlay);
   });
   document.getElementById('stopBtn').addEventListener('click', function () {
     state.playing = false; cancelAnimationFrame(raf);
@@ -213,6 +230,7 @@
   document.getElementById('dlBtn').addEventListener('click', function () {
     if (!imgReady) { setStatus('Scene picture is still loading, please wait a second.'); return; }
     if (exporting || recordingVoice) return;
+    whenHandReady(function () {
     var mime = pickMime();
     if (!mime) { setStatus('Is browser me video recording supported nahi hai.'); return; }
     speechSynthesis.cancel();
@@ -258,6 +276,7 @@
       if (state.progress >= 1) { state.doneZones = state.lineIndex + 1; playLineExport(state.lineIndex + 1); return; }
       raf = requestAnimationFrame(tickExport);
     }
+    });
   });
 
   // ---- download video + voice (canvas video + mic audio in ONE file.
@@ -270,6 +289,7 @@
     if (!imgReady) { setStatus('Scene picture is still loading, please wait a second.'); return; }
     if (exporting || recordingVoice) return;
     if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) { setStatus('Is browser me mic recording supported nahi hai.'); return; }
+    whenHandReady(function () {
     setStatus('Mic permission maang raha hai… Allow karo.');
     navigator.mediaDevices.getUserMedia({ audio: true }).then(function (ms) {
       micStream = ms;
@@ -310,6 +330,7 @@
       playLine(0);
     }).catch(function () {
       setStatus('Mic permission nahi mili. Mic allow karo, ya silent video download karo.');
+    });
     });
   });
 
