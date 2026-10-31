@@ -14,14 +14,14 @@ var CHARACTERS = {
             'head_cry.png', 'head_angry.png', 'head_surprised.png',
             'head_talk1.png', 'head_talk2.png'],
     parts: {
-      legL:  { f: 'legL.png',  w: 86,  h: 224, left: 69,  top: 272, z: 1, o: 'top center' },
-      legR:  { f: 'legR.png',  w: 64,  h: 235, left: 136, top: 272, z: 2, o: 'top center' },
-      torso: { f: 'torso.png', w: 130, h: 180, left: 75,  top: 51,  z: 3, o: 'center' },
-      belt:  { f: 'belt.png',  w: 95,  h: 83,  left: 92,  top: 210, z: 4, o: 'center' },
-      holster:{ f: 'holster.png', w: 38,  h: 56,  left: 164, top: 290, z: 4, o: 'top center' },
-      armL:  { f: 'armL.png',  w: 70,  h: 185, left: 32,  top: 126, z: 5, o: 'top center' },
-      armR:  { f: 'armR.png',  w: 70,  h: 188, left: 178, top: 126, z: 5, o: 'top center' },
-      head:  { f: 'head.png',  w: 112, h: 128, left: 84,  top: 9,   z: 6, o: 'bottom center' }
+      legL:  { f: 'legL.png',  w: 95,  h: 224, left: 64,  top: 271, z: 1, o: 'top center' },
+      legR:  { f: 'legR.png',  w: 70,  h: 236, left: 133, top: 271, z: 2, o: 'top center' },
+      torso: { f: 'torso.png', w: 144, h: 199, left: 68,  top: 55,  z: 3, o: 'center' },
+      belt:  { f: 'belt.png',  w: 105, h: 92,  left: 88,  top: 217, z: 4, o: 'center' },
+      holster:{ f: 'holster.png', w: 42, h: 62,  left: 162, top: 306, z: 4, o: 'top center' },
+      armL:  { f: 'armL.png',  w: 77,  h: 185, left: 33,  top: 136, z: 5, o: 'top center' },
+      armR:  { f: 'armR.png',  w: 77,  h: 189, left: 170, top: 136, z: 5, o: 'top center' },
+      head:  { f: 'head.png',  w: 124, h: 141, left: 78,  top: 9,   z: 6, o: 'bottom center' }
     }
   },
   man: {
@@ -30,13 +30,13 @@ var CHARACTERS = {
             'head_cry.png', 'head_angry.png', 'head_surprised.png',
             'head_talk1.png', 'head_talk2.png'],
     parts: {
-      legL:  { f: 'legL.png',  w: 74,  h: 205, left: 75,  top: 302, z: 1, o: 'top center' },
-      legR:  { f: 'legR.png',  w: 66,  h: 201, left: 135, top: 302, z: 2, o: 'top center' },
-      torso: { f: 'torso.png', w: 107, h: 206, left: 86,  top: 92,  z: 3, o: 'center' },
-      pants: { f: 'pants.png', w: 89,  h: 57,  left: 96,  top: 271, z: 4, o: 'center' },
-      armL:  { f: 'armL.png',  w: 46,  h: 126, left: 68,  top: 143, z: 5, o: 'top center' },
-      armR:  { f: 'armR.png',  w: 46,  h: 129, left: 168, top: 143, z: 5, o: 'top center' },
-      head:  { f: 'head.png',  w: 122, h: 139, left: 79,  top: 9,   z: 6, o: 'bottom center' }
+      legL:  { f: 'legL.png',  w: 84,  h: 202, left: 70,  top: 305, z: 1, o: 'top center' },
+      legR:  { f: 'legR.png',  w: 75,  h: 198, left: 130, top: 305, z: 2, o: 'top center' },
+      torso: { f: 'torso.png', w: 122, h: 234, left: 79,  top: 102, z: 3, o: 'center' },
+      pants: { f: 'pants.png', w: 101, h: 65,  left: 90,  top: 288, z: 4, o: 'center' },
+      armL:  { f: 'armL.png',  w: 52,  h: 119, left: 71,  top: 158, z: 5, o: 'top center' },
+      armR:  { f: 'armR.png',  w: 52,  h: 122, left: 161, top: 158, z: 5, o: 'top center' },
+      head:  { f: 'head.png',  w: 139, h: 158, left: 70,  top: 9,   z: 6, o: 'bottom center' }
     }
   }
 };
@@ -98,7 +98,7 @@ function buildChar(key) {
     var img = document.createElement('img');
     img.className = 'part';
     img.draggable = false;
-    img.src = cfg.dir + '/' + p.f;
+    img.src = cfg.dir + '/' + p.f + '?v=3';
     if (name === 'head') { img.onload = function () { var n = document.getElementById('loadNote'); if (n) n.classList.add('hidden'); }; }
     img.style.cssText = 'width:' + p.w + 'px;height:' + p.h + 'px;left:' + p.left +
       'px;top:' + p.top + 'px;z-index:' + p.z + ';transform-origin:' + p.o + ';';
@@ -113,7 +113,7 @@ function buildChar(key) {
 }
 
 function setHead(file) {
-  if (P.head) P.head.src = CHARACTERS[current].dir + '/' + file;
+  if (P.head) P.head.src = CHARACTERS[current].dir + '/' + file + '?v=3';
 }
 function headEl() { return P.head; }
 
@@ -216,7 +216,7 @@ async function talkCycle(ms, withBubble) {
   bubbleEl.classList.add('hidden');
 }
 async function wave() {
-  var a = A(P.armR, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(-140deg)' }, { transform: 'rotate(-118deg)' }, { transform: 'rotate(-142deg)' }, { transform: 'rotate(-118deg)' }, { transform: 'rotate(0deg)' }], 2600);
+  var a = A(P.armR, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(-140deg)' }, { transform: 'rotate(-118deg)' }, { transform: 'rotate(-142deg)' }, { transform: 'rotate(-118deg)' }, { transform: 'rotate(0deg)' }], 5200);
   await fin(a);
 }
 async function headTurn() {
@@ -262,7 +262,7 @@ async function fight() {
     var p = cfg.parts[name];
     var img = document.createElement('img');
     img.className = 'part';
-    img.src = cfg.dir + '/' + p.f;
+    img.src = cfg.dir + '/' + p.f + '?v=3';
     img.style.cssText = 'width:' + p.w + 'px;height:' + p.h + 'px;left:' + p.left + 'px;top:' + p.top + 'px;z-index:' + p.z + ';transform-origin:' + p.o + ';';
     w.appendChild(img);
     refs[name] = img;
@@ -772,7 +772,7 @@ var ANIMS = {
   animalFriend: storyAnimalFriend,
   kingdom: storyKingdom,
   morph: morph,
-  walk: function () { return walkInPlace(3200); },
+  walk: async function () { var g = gen; while (g === gen) { await walkInPlace(1200); } },
   run: runAcross,
   jump: jumps,
   charRotate: charRotate,
