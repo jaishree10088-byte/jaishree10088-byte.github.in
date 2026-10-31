@@ -38,6 +38,25 @@ var CHARACTERS = {
       armR:  { f: 'armR.png',  w: 52,  h: 122, left: 161, top: 158, z: 5, o: 'top center' },
       head:  { f: 'head.png',  w: 139, h: 158, left: 70,  top: 9,   z: 6, o: 'bottom center' }
     }
+  },
+  cutout: {
+    dir: '/2d-cartoon-animation/images/cutout',
+    heads: ['head.png', 'head_blink.png'],
+    parts: {
+      shoeL: { f: 'shoeL.png', w: 105, h: 47,  left: 60,  top: 463, z: 1, o: 'top center' },
+      shoeR: { f: 'shoeR.png', w: 105, h: 47,  left: 116, top: 463, z: 1, o: 'top center' },
+      shinL: { f: 'shinL.png', w: 66,  h: 109, left: 79,  top: 367, z: 2, o: 'top center' },
+      shinR: { f: 'shinR.png', w: 66,  h: 109, left: 135, top: 367, z: 2, o: 'top center' },
+      thighL:{ f: 'thighL.png',w: 92,  h: 127, left: 66,  top: 255, z: 3, o: 'top center' },
+      thighR:{ f: 'thighR.png',w: 92,  h: 127, left: 123, top: 255, z: 3, o: 'top center' },
+      torso: { f: 'torso.png', w: 132, h: 133, left: 74,  top: 112, z: 4, o: 'center' },
+      belt:  { f: 'belt.png',  w: 152, h: 33,  left: 64,  top: 235, z: 5, o: 'center' },
+      sleeveL:{ f: 'sleeveL.png',w: 70, h: 94,  left: 29,  top: 122, z: 6, o: 'top center' },
+      sleeveR:{ f: 'sleeveR.png',w: 70, h: 94,  left: 181, top: 122, z: 6, o: 'top center' },
+      foreL: { f: 'foreL.png', w: 81,  h: 168, left: 24,  top: 184, z: 7, o: 'top center' },
+      foreR: { f: 'foreR.png', w: 81,  h: 168, left: 176, top: 184, z: 7, o: 'top center' },
+      head:  { f: 'head.png',  w: 116, h: 115, left: 82,  top: 13,  z: 8, o: 'bottom center' }
+    }
   }
 };
 
