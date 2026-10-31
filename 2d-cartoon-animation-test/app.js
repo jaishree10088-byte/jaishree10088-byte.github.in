@@ -202,8 +202,8 @@ var BACKDROPS = {
   city: ['<svg width="100%" height="240"><g fill="#5d768d"><rect x="30" y="60" width="70" height="150"/><rect x="120" y="30" width="80" height="180"/><rect x="230" y="80" width="60" height="130"/><rect x="320" y="40" width="80" height="170"/></g></svg>', ''],
   beach: ['<svg width="100%" height="200"><circle cx="80" cy="55" r="38" fill="#ffe066"/><g fill="#8a5a2b"><ellipse cx="300" cy="150" rx="45" ry="14"/><rect x="296" y="60" width="8" height="95"/></g></svg>', '<svg width="100%" height="90"><g fill="#e8c07a"><circle cx="90" cy="55" r="26"/><circle cx="280" cy="60" r="30"/></g></svg>'],
   palace: ['<svg width="100%" height="240"><g fill="#f6d47c" stroke="#b8860b"><rect x="140" y="80" width="200" height="120"/><polygon points="130,82 240,20 350,82"/><rect x="225" y="140" width="30" height="60"/></g></svg>', ''],
-  meadow: ['<svg width="100%" height="200"><circle cx="70" cy="55" r="40" fill="#ffe066"/><g fill="#ffffff" opacity="0.9"><ellipse cx="240" cy="50" rx="55" ry="20"/><ellipse cx="300" cy="44" rx="50" ry="18"/></g><g fill="#7ec850"><ellipse cx="80" cy="190" rx="120" ry="40"/><ellipse cx="320" cy="195" rx="140" ry="45"/></g></svg>', '<svg width="100%" height="160"><g><rect x="98" y="40" width="26" height="120" fill="#8a5a2b"/><g fill="#2f7a1e"><circle cx="111" cy="45" r="62"/><circle cx="68" cy="70" r="42"/><circle cx="154" cy="70" r="42"/></g></g><g fill="#3f9a2e"><ellipse cx="300" cy="140" rx="90" ry="22"/><ellipse cx="480" cy="148" rx="110" ry="20"/></g></svg>'],
-  pond: ['<svg width="100%" height="200"><circle cx="70" cy="55" r="40" fill="#ffe066"/><g fill="#ffffff" opacity="0.9"><ellipse cx="250" cy="50" rx="55" ry="20"/></g></svg>', '<svg width="100%" height="160"><ellipse cx="260" cy="110" rx="190" ry="48" fill="#3f9ad4"/><ellipse cx="260" cy="104" rx="170" ry="34" fill="#7fc4ec"/><g stroke="#2f7a1e" stroke-width="5"><line x1="90" y1="120" x2="80" y2="60"/><line x1="110" y1="122" x2="118" y2="66"/><line x1="420" y1="118" x2="430" y2="62"/></g></svg>']
+  meadow: ['<svg width="100%" height="100%" viewBox="0 0 1000 560" preserveAspectRatio="none"><rect width="1000" height="560" fill="#bfe8ff"/><circle cx="120" cy="90" r="55" fill="#ffe066"/><g fill="#ffffff" opacity="0.9"><ellipse cx="300" cy="80" rx="70" ry="24"/><ellipse cx="700" cy="70" rx="60" ry="20"/></g><ellipse cx="500" cy="600" rx="650" ry="130" fill="#9ed67e"/></svg>', '<svg width="100%" height="100%" viewBox="0 0 1000 560" preserveAspectRatio="none"><rect y="460" width="1000" height="100" fill="#5dbb3a"/><g><rect x="770" y="220" width="30" height="280" fill="#8a5a2b"/><line x1="770" y1="240" x2="680" y2="210" stroke="#8a5a2b" stroke-width="12"/><g fill="#2f7a1e"><circle cx="785" cy="160" r="95"/><circle cx="700" cy="220" r="60"/><circle cx="870" cy="220" r="60"/></g></g><g fill="#3f9a2e"><ellipse cx="200" cy="520" rx="120" ry="24"/><ellipse cx="450" cy="535" rx="140" ry="22"/></g></svg>'],
+  pond: ['<svg width="100%" height="100%" viewBox="0 0 1000 560" preserveAspectRatio="none"><rect width="1000" height="560" fill="#bfe8ff"/><circle cx="120" cy="90" r="55" fill="#ffe066"/><g fill="#ffffff" opacity="0.9"><ellipse cx="300" cy="80" rx="70" ry="24"/></g></svg>', '<svg width="100%" height="100%" viewBox="0 0 1000 560" preserveAspectRatio="none"><ellipse cx="500" cy="480" rx="430" ry="95" fill="#3f9ad4"/><ellipse cx="500" cy="470" rx="380" ry="65" fill="#7fc4ec"/><g stroke="#2f7a1e" stroke-width="6"><line x1="150" y1="430" x2="140" y2="360"/><line x1="170" y1="432" x2="180" y2="365"/><line x1="850" y1="430" x2="840" y2="362"/><line x1="870" y1="432" x2="880" y2="366"/></g></svg>']
 };
 
 function propSVG(kind, size) {
@@ -420,12 +420,12 @@ async function storyBeehiveChase() {
   if (current !== 'stickman') buildChar('stickman');
   var g = gen;
   setBackdrop('meadow');
-  var hive = showProp('beehive', '110px', '80px', 90);
+  var hive = showProp('beehive', '68%', '250px', 90);
   showCaption('A stickman spots a beehive...');
   var aim = A(P.armR, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(-70deg)' }], 800);
   await fin(aim);
   if (g !== gen) return;
-  var sling = showProp('slingshot', 'calc(50% + 166px)', '300px', 60);
+  var sling = showProp('slingshot', 'calc(50% + 132px)', '201px', 60);
   await wait(1000);
   if (g !== gen) return;
   setHead('head_smug.png');
@@ -439,7 +439,7 @@ async function storyBeehiveChase() {
   showCaption('Uh oh! The bees are angry!');
   var swarm = document.createElement('div');
   swarm.className = 'prop';
-  swarm.style.left = '110px'; swarm.style.bottom = '100px';
+  swarm.style.left = '68%'; swarm.style.bottom = '275px';
   var bees = '';
   for (var i = 0; i < 8; i++) {
     bees += '<span style="position:absolute;left:' + (i * 16) + 'px;top:' + ((i % 3) * 14) + 'px;">' + propSVG('bee', 26) + '</span>';
@@ -475,16 +475,16 @@ async function storyBeehiveChase() {
   await fin(armReset);
   setBackdrop('pond');
   showCaption('Splash! Into the pond!');
-  var splash = showProp('splash', '220px', '30px', 100);
+  var splash = showProp('splash', 'calc(50% - 55px)', '30px', 110);
   var sp = A(splash, [{ transform: 'scale(0.4)', opacity: '0' }, { transform: 'scale(1.15)', opacity: '1' }, { transform: 'scale(1)', opacity: '1' }], 900);
   await fin(sp);
   if (g !== gen) return;
-  swarm.style.left = '200px'; swarm.style.bottom = '110px'; swarm.style.transform = '';
+  swarm.style.left = 'calc(50% - 50px)'; swarm.style.bottom = '180px'; swarm.style.transform = '';
   showCaption('The bees are still waiting...');
   await wait(1800);
   if (g !== gen) return;
   splash.remove();
-  var croc = showProp('croc', '320px', '40px', 170);
+  var croc = showProp('croc', 'calc(50% + 80px)', '40px', 170);
   showCaption("And that's not all... A CROCODILE!");
   var rise = A(croc, [{ transform: 'translateY(70px)' }, { transform: 'translateY(0px)' }], 1200);
   await fin(rise);
