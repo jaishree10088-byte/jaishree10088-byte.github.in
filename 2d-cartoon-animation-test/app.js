@@ -63,6 +63,18 @@ var CHARACTERS = {
       armR:  { f: 'armR.png',  w: 62,  h: 294, left: 164, top: 103, z: 1, o: 'top left' },
       head:  { f: 'head.png',  w: 107, h: 115, left: 86,  top: 13,  z: 4, o: 'bottom center' }
     }
+  },
+  stickman: {
+    dir: '/2d-cartoon-animation/images/stickman',
+    heads: ['head.png', 'head_blink.png', 'head_smile.png', 'head_laugh.png', 'head_talk1.png', 'head_talk2.png', 'head_smug.png', 'head_scared.png'],
+    parts: {
+      legL:  { f: 'legL.png',  w: 16, h: 180, left: 112, top: 320, z: 1, o: 'top center' },
+      legR:  { f: 'legR.png',  w: 16, h: 187, left: 152, top: 313, z: 2, o: 'top center' },
+      torso: { f: 'torso.png', w: 64, h: 110, left: 108, top: 233, z: 3, o: 'center' },
+      armL:  { f: 'armL.png',  w: 16, h: 130, left: 92,  top: 253, z: 4, o: 'top center' },
+      armR:  { f: 'armR.png',  w: 16, h: 130, left: 172, top: 253, z: 4, o: 'top center' },
+      head:  { f: 'head.png',  w: 72, h: 72,  left: 104, top: 175, z: 6, o: 'bottom center' }
+    }
   }
 };
 
@@ -189,7 +201,9 @@ var BACKDROPS = {
   haunted: ['<svg width="100%" height="240"><g fill="#151528"><rect x="150" y="60" width="170" height="140"/><polygon points="140,62 235,10 330,62"/><rect x="220" y="140" width="34" height="60"/></g><circle cx="70" cy="50" r="26" fill="#f5f0dc"/></svg>', '<svg width="100%" height="120"><g fill="#0f0f22"><ellipse cx="100" cy="80" rx="60" ry="40"/><ellipse cx="320" cy="85" rx="70" ry="42"/></g></svg>'],
   city: ['<svg width="100%" height="240"><g fill="#5d768d"><rect x="30" y="60" width="70" height="150"/><rect x="120" y="30" width="80" height="180"/><rect x="230" y="80" width="60" height="130"/><rect x="320" y="40" width="80" height="170"/></g></svg>', ''],
   beach: ['<svg width="100%" height="200"><circle cx="80" cy="55" r="38" fill="#ffe066"/><g fill="#8a5a2b"><ellipse cx="300" cy="150" rx="45" ry="14"/><rect x="296" y="60" width="8" height="95"/></g></svg>', '<svg width="100%" height="90"><g fill="#e8c07a"><circle cx="90" cy="55" r="26"/><circle cx="280" cy="60" r="30"/></g></svg>'],
-  palace: ['<svg width="100%" height="240"><g fill="#f6d47c" stroke="#b8860b"><rect x="140" y="80" width="200" height="120"/><polygon points="130,82 240,20 350,82"/><rect x="225" y="140" width="30" height="60"/></g></svg>', '']
+  palace: ['<svg width="100%" height="240"><g fill="#f6d47c" stroke="#b8860b"><rect x="140" y="80" width="200" height="120"/><polygon points="130,82 240,20 350,82"/><rect x="225" y="140" width="30" height="60"/></g></svg>', ''],
+  meadow: ['<svg width="100%" height="200"><circle cx="70" cy="55" r="40" fill="#ffe066"/><g fill="#ffffff" opacity="0.9"><ellipse cx="240" cy="50" rx="55" ry="20"/><ellipse cx="300" cy="44" rx="50" ry="18"/></g><g fill="#7ec850"><ellipse cx="80" cy="190" rx="120" ry="40"/><ellipse cx="320" cy="195" rx="140" ry="45"/></g></svg>', '<svg width="100%" height="160"><g><rect x="98" y="40" width="26" height="120" fill="#8a5a2b"/><g fill="#2f7a1e"><circle cx="111" cy="45" r="62"/><circle cx="68" cy="70" r="42"/><circle cx="154" cy="70" r="42"/></g></g><g fill="#3f9a2e"><ellipse cx="300" cy="140" rx="90" ry="22"/><ellipse cx="480" cy="148" rx="110" ry="20"/></g></svg>'],
+  pond: ['<svg width="100%" height="200"><circle cx="70" cy="55" r="40" fill="#ffe066"/><g fill="#ffffff" opacity="0.9"><ellipse cx="250" cy="50" rx="55" ry="20"/></g></svg>', '<svg width="100%" height="160"><ellipse cx="260" cy="110" rx="190" ry="48" fill="#3f9ad4"/><ellipse cx="260" cy="104" rx="170" ry="34" fill="#7fc4ec"/><g stroke="#2f7a1e" stroke-width="5"><line x1="90" y1="120" x2="80" y2="60"/><line x1="110" y1="122" x2="118" y2="66"/><line x1="420" y1="118" x2="430" y2="62"/></g></svg>']
 };
 
 function propSVG(kind, size) {
@@ -201,7 +215,12 @@ function propSVG(kind, size) {
     pot: '<svg width="' + s + '" height="' + s + '" viewBox="0 0 100 100"><ellipse cx="50" cy="38" rx="36" ry="12" fill="#3a3a3a"/><rect x="14" y="38" width="72" height="42" rx="10" fill="#3a3a3a"/><ellipse cx="50" cy="40" rx="28" ry="7" fill="#7a4a21"/></svg>',
     bush: '<svg width="' + s + '" height="' + s + '" viewBox="0 0 100 100"><g fill="#2f7a1e"><circle cx="30" cy="65" r="24"/><circle cx="55" cy="52" r="28"/><circle cx="78" cy="66" r="22"/></g></svg>',
     crown: '<svg width="' + s + '" height="' + s + '" viewBox="0 0 100 100"><polygon points="10,70 10,30 30,50 50,25 70,50 90,30 90,70" fill="#ffcf2e" stroke="#b8860b" stroke-width="3"/><rect x="10" y="70" width="80" height="10" fill="#ffcf2e" stroke="#b8860b" stroke-width="3"/></svg>',
-    chest: '<svg width="' + s + '" height="' + s + '" viewBox="0 0 100 100"><rect x="12" y="42" width="76" height="44" rx="6" fill="#8a5a2b"/><path d="M12 46 Q50 8 88 46" fill="#a66a33"/><rect x="44" y="58" width="12" height="12" fill="#ffcf2e"/></svg>'
+    chest: '<svg width="' + s + '" height="' + s + '" viewBox="0 0 100 100"><rect x="12" y="42" width="76" height="44" rx="6" fill="#8a5a2b"/><path d="M12 46 Q50 8 88 46" fill="#a66a33"/><rect x="44" y="58" width="12" height="12" fill="#ffcf2e"/></svg>',
+    slingshot: '<svg width="' + s + '" height="' + s + '" viewBox="0 0 100 100"><path d="M50 95 L50 55 M50 55 L25 20 M50 55 L75 20" stroke="#6b4226" stroke-width="8" fill="none" stroke-linecap="round"/><path d="M25 20 Q50 35 75 20" stroke="#c0392b" stroke-width="3" fill="none"/></svg>',
+    beehive: '<svg width="' + s + '" height="' + s + '" viewBox="0 0 100 100"><line x1="50" y1="0" x2="50" y2="14" stroke="#6b4226" stroke-width="4"/><ellipse cx="50" cy="52" rx="34" ry="38" fill="#ffcf2e" stroke="#b8860b" stroke-width="3"/><path d="M18 40 Q50 52 82 40 M18 58 Q50 70 82 58 M22 74 Q50 84 78 74" stroke="#b8860b" stroke-width="4" fill="none"/><ellipse cx="50" cy="86" rx="12" ry="7" fill="#3a2a10"/></svg>',
+    bee: '<svg width="' + s + '" height="' + s + '" viewBox="0 0 100 100"><ellipse cx="50" cy="55" rx="26" ry="18" fill="#ffcf2e" stroke="#222222" stroke-width="3"/><path d="M38 40 L38 70 M62 40 L62 70" stroke="#222222" stroke-width="4"/><ellipse cx="38" cy="32" rx="14" ry="9" fill="#cfe8ff" opacity="0.85"/><ellipse cx="62" cy="32" rx="14" ry="9" fill="#cfe8ff" opacity="0.85"/><circle cx="72" cy="50" r="4" fill="#222222"/></svg>',
+    splash: '<svg width="' + s + '" height="' + s + '" viewBox="0 0 100 100"><path d="M50 5 L60 35 L95 30 L68 52 L90 78 L52 62 L40 95 L32 60 L5 55 L32 40 Z" fill="#cfe8ff" stroke="#3f9ad4" stroke-width="3"/></svg>',
+    croc: '<svg width="' + s + '" height="' + s + '" viewBox="0 0 120 60"><polygon points="12,32 0,20 2,44 12,48" fill="#3f9a2e"/><rect x="10" y="30" width="70" height="20" rx="9" fill="#3f9a2e"/><polygon points="80,30 118,26 118,36 80,40" fill="#3f9a2e"/><polygon points="80,44 112,52 112,58 80,50" fill="#2f7a1e"/><circle cx="88" cy="32" r="5" fill="#ffffff"/><circle cx="89" cy="32" r="2.5" fill="#222222"/><path d="M92 36 L96 42 L100 36 M102 37 L106 43 L110 37" stroke="#ffffff" stroke-width="2" fill="none"/></svg>'
   };
   return map[kind] || '';
 }
@@ -397,6 +416,85 @@ async function read() {
   captionEl.textContent = '';
 }
 
+async function storyBeehiveChase() {
+  if (current !== 'stickman') buildChar('stickman');
+  var g = gen;
+  setBackdrop('meadow');
+  var hive = showProp('beehive', '110px', '80px', 90);
+  showCaption('A stickman spots a beehive...');
+  var aim = A(P.armR, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(-70deg)' }], 800);
+  await fin(aim);
+  if (g !== gen) return;
+  var sling = showProp('slingshot', 'calc(50% + 166px)', '300px', 60);
+  await wait(1000);
+  if (g !== gen) return;
+  setHead('head_smug.png');
+  showCaption('He thinks he won... for 2 seconds!');
+  await wait(2000);
+  if (g !== gen) return;
+  setHead('head.png');
+  var shake = A(hive, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(-9deg)' }, { transform: 'rotate(9deg)' }, { transform: 'rotate(-9deg)' }, { transform: 'rotate(0deg)' }], 900);
+  await fin(shake);
+  if (g !== gen) return;
+  showCaption('Uh oh! The bees are angry!');
+  var swarm = document.createElement('div');
+  swarm.className = 'prop';
+  swarm.style.left = '110px'; swarm.style.bottom = '100px';
+  var bees = '';
+  for (var i = 0; i < 8; i++) {
+    bees += '<span style="position:absolute;left:' + (i * 16) + 'px;top:' + ((i % 3) * 14) + 'px;">' + propSVG('bee', 26) + '</span>';
+  }
+  swarm.innerHTML = bees;
+  propSlot.appendChild(swarm);
+  swarm.querySelectorAll('span').forEach(function (sp, i) {
+    var an = sp.animate([{ transform: 'translate(0px,0px)' }, { transform: 'translate(4px,-5px)' }, { transform: 'translate(-3px,3px)' }, { transform: 'translate(0px,0px)' }], { duration: 380 + i * 60, iterations: Infinity });
+    running.push(an);
+  });
+  await wait(1600);
+  if (g !== gen) return;
+  setHead('head_scared.png');
+  showCaption('Run, stickman, run!');
+  var fl1 = A(P.armL, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(-50deg)' }, { transform: 'rotate(30deg)' }, { transform: 'rotate(0deg)' }], 2400);
+  var fl2 = A(P.armR, [{ transform: 'rotate(-70deg)' }, { transform: 'rotate(-20deg)' }, { transform: 'rotate(-90deg)' }, { transform: 'rotate(-40deg)' }], 2400);
+  var legLoop = (async function () {
+    for (var k = 0; k < 3; k++) {
+      var l1 = A(P.legL, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(30deg)' }, { transform: 'rotate(-28deg)' }, { transform: 'rotate(0deg)' }], 700);
+      var l2 = A(P.legR, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(-28deg)' }, { transform: 'rotate(30deg)' }, { transform: 'rotate(0deg)' }], 700);
+      await Promise.all([fin(l1), fin(l2)]);
+      if (g !== gen) break;
+    }
+  })();
+  var mv = A(P.char, [{ transform: 'translateX(0px)' }, { transform: 'translateX(-220px)' }], 2400, 'linear');
+  var sw = A(swarm, [{ transform: 'translateX(0px)' }, { transform: 'translateX(-220px)' }], 2400, 'linear');
+  await Promise.all([fin(mv), fin(sw), fin(fl1), fin(fl2), legLoop]);
+  if (g !== gen) return;
+  mv.cancel(); sw.cancel();
+  hive.remove(); sling.remove();
+  P.char.style.transform = '';
+  var armReset = A(P.armR, [{ transform: 'rotate(-40deg)' }, { transform: 'rotate(0deg)' }], 300);
+  await fin(armReset);
+  setBackdrop('pond');
+  showCaption('Splash! Into the pond!');
+  var splash = showProp('splash', '220px', '30px', 100);
+  var sp = A(splash, [{ transform: 'scale(0.4)', opacity: '0' }, { transform: 'scale(1.15)', opacity: '1' }, { transform: 'scale(1)', opacity: '1' }], 900);
+  await fin(sp);
+  if (g !== gen) return;
+  swarm.style.left = '200px'; swarm.style.bottom = '110px'; swarm.style.transform = '';
+  showCaption('The bees are still waiting...');
+  await wait(1800);
+  if (g !== gen) return;
+  splash.remove();
+  var croc = showProp('croc', '320px', '40px', 170);
+  showCaption("And that's not all... A CROCODILE!");
+  var rise = A(croc, [{ transform: 'translateY(70px)' }, { transform: 'translateY(0px)' }], 1200);
+  await fin(rise);
+  if (g !== gen) return;
+  var bob = A(croc, [{ transform: 'translateY(0px)' }, { transform: 'translateY(-6px)' }, { transform: 'translateY(0px)' }], 900);
+  await fin(bob);
+  showCaption('Better luck next time, stickman!');
+  await wait(2000);
+}
+
 /* ---------------- Advanced ---------------- */
 async function walkForever() {
   var g = gen;
@@ -490,7 +588,7 @@ async function slowmo() {
   await walkInPlace(2200);
   captionEl.textContent = '';
 }
-var BACKDROP_ORDER = ['sky', 'village', 'jungle', 'school', 'haunted', 'city', 'beach', 'palace'];
+var BACKDROP_ORDER = ['sky', 'village', 'jungle', 'school', 'haunted', 'city', 'beach', 'palace', 'meadow', 'pond'];
 async function transition() {
   var cur = BACKDROP_ORDER.indexOf(document.getElementById('backdropSel').value);
   var nxt = BACKDROP_ORDER[(cur + 1) % BACKDROP_ORDER.length];
@@ -810,6 +908,7 @@ var ANIMS = {
   superhero: storySuperhero,
   animalFriend: storyAnimalFriend,
   kingdom: storyKingdom,
+  beehiveChase: storyBeehiveChase,
   morph: morph,
   walk: walkForever,
   run: runAcross,
