@@ -47,8 +47,8 @@ var CHARACTERS = {
       legR:  { f: 'legR.png',  w: 102, h: 246, left: 117, top: 255, z: 2, o: 'top center' },
       torso: { f: 'torso.png', w: 132, h: 133, left: 74,  top: 112, z: 4, o: 'center' },
       belt:  { f: 'belt.png',  w: 152, h: 33,  left: 64,  top: 235, z: 5, o: 'center' },
-      armL:  { f: 'armL.png',  w: 78,  h: 225, left: 30,  top: 122, z: 3, o: 'top right' },
-      armR:  { f: 'armR.png',  w: 78,  h: 225, left: 172, top: 122, z: 3, o: 'top left' },
+      armL:  { f: 'armL.png',  w: 78,  h: 225, left: 34,  top: 130, z: 3, o: 'top right' },
+      armR:  { f: 'armR.png',  w: 78,  h: 225, left: 168, top: 130, z: 3, o: 'top left' },
       head:  { f: 'head.png',  w: 116, h: 115, left: 82,  top: 13,  z: 8, o: 'bottom center' }
     }
   },
@@ -123,7 +123,7 @@ function buildChar(key) {
     var img = document.createElement('img');
     img.className = 'part';
     img.draggable = false;
-    img.src = cfg.dir + '/' + p.f + '?v=3';
+    img.src = cfg.dir + '/' + p.f + '?v=4';
     if (name === 'head') { img.onload = function () { var n = document.getElementById('loadNote'); if (n) n.classList.add('hidden'); }; }
     img.style.cssText = 'width:' + p.w + 'px;height:' + p.h + 'px;left:' + p.left +
       'px;top:' + p.top + 'px;z-index:' + p.z + ';transform-origin:' + p.o + ';';
@@ -138,7 +138,7 @@ function buildChar(key) {
 }
 
 function setHead(file) {
-  if (P.head) P.head.src = CHARACTERS[current].dir + '/' + file + '?v=3';
+  if (P.head) P.head.src = CHARACTERS[current].dir + '/' + file + '?v=4';
 }
 function headEl() { return P.head; }
 
@@ -287,7 +287,7 @@ async function fight() {
     var p = cfg.parts[name];
     var img = document.createElement('img');
     img.className = 'part';
-    img.src = cfg.dir + '/' + p.f + '?v=3';
+    img.src = cfg.dir + '/' + p.f + '?v=4';
     img.style.cssText = 'width:' + p.w + 'px;height:' + p.h + 'px;left:' + p.left + 'px;top:' + p.top + 'px;z-index:' + p.z + ';transform-origin:' + p.o + ';';
     w.appendChild(img);
     refs[name] = img;
@@ -401,14 +401,14 @@ async function read() {
 async function walkForever() {
   var g = gen;
   while (g === gen) {
-    var a1 = A(P.legL, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(28deg)' }, { transform: 'rotate(0deg)' }], 600);
-    var a2 = A(P.legR, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(-28deg)' }, { transform: 'rotate(0deg)' }], 600);
-    var b = A(P.char, [{ transform: 'translateY(0px)' }, { transform: 'translateY(-7px)' }, { transform: 'translateY(0px)' }], 600);
+    var a1 = A(P.legL, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(28deg)' }, { transform: 'rotate(0deg)' }], 600, 'linear');
+    var a2 = A(P.legR, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(-28deg)' }, { transform: 'rotate(0deg)' }], 600, 'linear');
+    var b = A(P.char, [{ transform: 'translateY(0px)' }, { transform: 'translateY(-7px)' }, { transform: 'translateY(0px)' }], 600, 'linear');
     await Promise.all([fin(a1), fin(a2), fin(b)]);
     if (g !== gen) break;
-    var a3 = A(P.legL, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(-28deg)' }, { transform: 'rotate(0deg)' }], 600);
-    var a4 = A(P.legR, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(28deg)' }, { transform: 'rotate(0deg)' }], 600);
-    var b2 = A(P.char, [{ transform: 'translateY(0px)' }, { transform: 'translateY(-7px)' }, { transform: 'translateY(0px)' }], 600);
+    var a3 = A(P.legL, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(-28deg)' }, { transform: 'rotate(0deg)' }], 600, 'linear');
+    var a4 = A(P.legR, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(28deg)' }, { transform: 'rotate(0deg)' }], 600, 'linear');
+    var b2 = A(P.char, [{ transform: 'translateY(0px)' }, { transform: 'translateY(-7px)' }, { transform: 'translateY(0px)' }], 600, 'linear');
     await Promise.all([fin(a3), fin(a4), fin(b2)]);
   }
 }
@@ -783,10 +783,10 @@ var ANIMS = {
   blink: doBlink,
   lipsync: function () { return talkCycle(2600, false); },
   talk: function () { return talkCycle(3600, true); },
-  smile: function () { return expr('head_smile.png', 1700); },
-  laugh: function () { return expr('head_laugh.png', 1700); },
-  cry: function () { return expr('head_cry.png', 1700); },
-  angry: function () { return expr('head_angry.png', 1700); },
+  smile: function () { return expr('head_smile.png', 4000); },
+  laugh: function () { return expr('head_laugh.png', 4000); },
+  cry: function () { return expr('head_cry.png', 4000); },
+  angry: function () { return expr('head_angry.png', 4000); },
   surprised: function () { return expr('head_surprised.png', 1700); },
   headTurn: headTurn,
   wave: wave,
