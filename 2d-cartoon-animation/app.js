@@ -14,14 +14,14 @@ var CHARACTERS = {
             'head_cry.png', 'head_angry.png', 'head_surprised.png',
             'head_talk1.png', 'head_talk2.png'],
     parts: {
-      legL:  { f: 'legL.png',  w: 58,  h: 165, left: 83,  top: 355, z: 1, o: 'top center' },
-      legR:  { f: 'legR.png',  w: 42,  h: 165, left: 147, top: 355, z: 1, o: 'top center' },
-      belt:  { f: 'belt.png',  w: 80,  h: 70,  left: 100, top: 320, z: 2, o: 'center' },
-      torso: { f: 'torso.png', w: 142, h: 197, left: 69,  top: 136, z: 3, o: 'center' },
-      holster:{ f: 'holster.png', w: 30, h: 44, left: 173, top: 387, z: 4, o: 'top center' },
-      armL:  { f: 'armL.png',  w: 73,  h: 210, left: 50,  top: 161, z: 5, o: 'top center' },
-      armR:  { f: 'armR.png',  w: 71,  h: 210, left: 158, top: 161, z: 5, o: 'top center' },
-      head:  { f: 'head.png',  w: 123, h: 140, left: 78,  top: 0,   z: 6, o: 'bottom center' }
+      legL:  { f: 'legL.png',  w: 95,  h: 224, left: 64,  top: 271, z: 1, o: 'top center' },
+      legR:  { f: 'legR.png',  w: 70,  h: 236, left: 133, top: 271, z: 2, o: 'top center' },
+      torso: { f: 'torso.png', w: 144, h: 199, left: 68,  top: 55,  z: 3, o: 'center' },
+      belt:  { f: 'belt.png',  w: 105, h: 92,  left: 88,  top: 217, z: 4, o: 'center' },
+      holster:{ f: 'holster.png', w: 42, h: 62,  left: 162, top: 306, z: 4, o: 'top center' },
+      armL:  { f: 'armL.png',  w: 77,  h: 185, left: 33,  top: 136, z: 5, o: 'top center' },
+      armR:  { f: 'armR.png',  w: 77,  h: 189, left: 170, top: 136, z: 5, o: 'top center' },
+      head:  { f: 'head.png',  w: 124, h: 141, left: 78,  top: 9,   z: 6, o: 'bottom center' }
     }
   },
   man: {
@@ -30,13 +30,50 @@ var CHARACTERS = {
             'head_cry.png', 'head_angry.png', 'head_surprised.png',
             'head_talk1.png', 'head_talk2.png'],
     parts: {
-      legL:  { f: 'legL.png',  w: 50,  h: 165, left: 87,  top: 355, z: 1, o: 'top center' },
-      legR:  { f: 'legR.png',  w: 44,  h: 165, left: 146, top: 355, z: 1, o: 'top center' },
-      pants: { f: 'pants.png', w: 109, h: 70,  left: 85,  top: 320, z: 2, o: 'center' },
-      torso: { f: 'torso.png', w: 103, h: 197, left: 88,  top: 136, z: 3, o: 'center' },
-      armL:  { f: 'armL.png',  w: 58,  h: 210, left: 58,  top: 161, z: 5, o: 'top center' },
-      armR:  { f: 'armR.png',  w: 56,  h: 210, left: 165, top: 161, z: 5, o: 'top center' },
-      head:  { f: 'head.png',  w: 123, h: 140, left: 78,  top: 0,   z: 6, o: 'bottom center' }
+      legL:  { f: 'legL.png',  w: 84,  h: 202, left: 70,  top: 305, z: 1, o: 'top center' },
+      legR:  { f: 'legR.png',  w: 75,  h: 198, left: 130, top: 305, z: 2, o: 'top center' },
+      torso: { f: 'torso.png', w: 122, h: 234, left: 79,  top: 102, z: 3, o: 'center' },
+      pants: { f: 'pants.png', w: 101, h: 65,  left: 90,  top: 288, z: 4, o: 'center' },
+      armL:  { f: 'armL.png',  w: 52,  h: 119, left: 71,  top: 158, z: 5, o: 'top center' },
+      armR:  { f: 'armR.png',  w: 52,  h: 122, left: 161, top: 158, z: 5, o: 'top center' },
+      head:  { f: 'head.png',  w: 139, h: 158, left: 70,  top: 9,   z: 6, o: 'bottom center' }
+    }
+  },
+  cutout: {
+    dir: 'images/cutout',
+    heads: ['head.png', 'head_blink.png', 'head_smile.png', 'head_laugh.png', 'head_talk1.png', 'head_talk2.png'],
+    parts: {
+      legL:  { f: 'legL.png',  w: 102, h: 246, left: 61,  top: 255, z: 1, o: 'top center' },
+      legR:  { f: 'legR.png',  w: 102, h: 246, left: 117, top: 255, z: 2, o: 'top center' },
+      torso: { f: 'torso.png', w: 132, h: 133, left: 74,  top: 112, z: 4, o: 'center' },
+      belt:  { f: 'belt.png',  w: 152, h: 33,  left: 64,  top: 235, z: 5, o: 'center' },
+      armL:  { f: 'armL.png',  w: 78,  h: 225, left: 38,  top: 138, z: 3, o: 'top right' },
+      armR:  { f: 'armR.png',  w: 78,  h: 225, left: 164, top: 138, z: 3, o: 'top left' },
+      head:  { f: 'head.png',  w: 116, h: 115, left: 82,  top: 13,  z: 8, o: 'bottom center' }
+    }
+  },
+  boy: {
+    dir: 'images/boy',
+    heads: ['head.png', 'head_blink.png', 'head_smile.png', 'head_laugh.png', 'head_talk1.png', 'head_talk2.png'],
+    parts: {
+      legL: { f: 'footL.png', w: 90,  h: 104, left: 67,  top: 387, z: 1, o: 'top center' },
+      legR: { f: 'footR.png', w: 80,  h: 102, left: 128, top: 387, z: 1, o: 'top center' },
+      torso: { f: 'torso.png', w: 112, h: 325, left: 84,  top: 78,  z: 2, o: 'center' },
+      armL:  { f: 'armL.png',  w: 58,  h: 224, left: 56,  top: 103, z: 1, o: 'top right' },
+      armR:  { f: 'armR.png',  w: 62,  h: 294, left: 131, top: 103, z: 1, o: 'top left' },
+      head:  { f: 'head.png',  w: 107, h: 115, left: 86,  top: 13,  z: 4, o: 'bottom center' }
+    }
+  },
+  stickman: {
+    dir: 'images/stickman',
+    heads: ['head.png', 'head_blink.png', 'head_smile.png', 'head_laugh.png', 'head_talk1.png', 'head_talk2.png', 'head_smug.png', 'head_scared.png'],
+    parts: {
+      legL:  { f: 'legL.png',  w: 16, h: 180, left: 112, top: 320, z: 1, o: 'top center' },
+      legR:  { f: 'legR.png',  w: 16, h: 187, left: 152, top: 313, z: 2, o: 'top center' },
+      torso: { f: 'torso.png', w: 64, h: 110, left: 108, top: 233, z: 3, o: 'center' },
+      armL:  { f: 'armL.png',  w: 16, h: 130, left: 92,  top: 253, z: 4, o: 'top center' },
+      armR:  { f: 'armR.png',  w: 16, h: 130, left: 172, top: 253, z: 4, o: 'top center' },
+      head:  { f: 'head.png',  w: 72, h: 72,  left: 104, top: 175, z: 6, o: 'bottom center' }
     }
   }
 };
@@ -83,9 +120,13 @@ function stopAll() {
 
 function buildChar(key) {
   stopAll();
+  clearUpload();
   current = key;
   var cfg = CHARACTERS[key];
   charSlot.innerHTML = '';
+  var note0 = document.getElementById('loadNote');
+  if (note0) note0.classList.remove('hidden');
+  setTimeout(function () { var n = document.getElementById('loadNote'); if (n) n.classList.add('hidden'); }, 10000);
   var wrap = document.createElement('div');
   wrap.className = 'char';
   P = { char: wrap };
@@ -94,7 +135,8 @@ function buildChar(key) {
     var img = document.createElement('img');
     img.className = 'part';
     img.draggable = false;
-    img.src = cfg.dir + '/' + p.f;
+    img.src = cfg.dir + '/' + p.f + '?v=4';
+    if (name === 'head') { img.onload = function () { var n = document.getElementById('loadNote'); if (n) n.classList.add('hidden'); }; }
     img.style.cssText = 'width:' + p.w + 'px;height:' + p.h + 'px;left:' + p.left +
       'px;top:' + p.top + 'px;z-index:' + p.z + ';transform-origin:' + p.o + ';';
     wrap.appendChild(img);
@@ -108,7 +150,7 @@ function buildChar(key) {
 }
 
 function setHead(file) {
-  if (P.head) P.head.src = CHARACTERS[current].dir + '/' + file;
+  if (P.head) P.head.src = CHARACTERS[current].dir + '/' + file + '?v=4';
 }
 function headEl() { return P.head; }
 
@@ -159,7 +201,9 @@ var BACKDROPS = {
   haunted: ['<svg width="100%" height="240"><g fill="#151528"><rect x="150" y="60" width="170" height="140"/><polygon points="140,62 235,10 330,62"/><rect x="220" y="140" width="34" height="60"/></g><circle cx="70" cy="50" r="26" fill="#f5f0dc"/></svg>', '<svg width="100%" height="120"><g fill="#0f0f22"><ellipse cx="100" cy="80" rx="60" ry="40"/><ellipse cx="320" cy="85" rx="70" ry="42"/></g></svg>'],
   city: ['<svg width="100%" height="240"><g fill="#5d768d"><rect x="30" y="60" width="70" height="150"/><rect x="120" y="30" width="80" height="180"/><rect x="230" y="80" width="60" height="130"/><rect x="320" y="40" width="80" height="170"/></g></svg>', ''],
   beach: ['<svg width="100%" height="200"><circle cx="80" cy="55" r="38" fill="#ffe066"/><g fill="#8a5a2b"><ellipse cx="300" cy="150" rx="45" ry="14"/><rect x="296" y="60" width="8" height="95"/></g></svg>', '<svg width="100%" height="90"><g fill="#e8c07a"><circle cx="90" cy="55" r="26"/><circle cx="280" cy="60" r="30"/></g></svg>'],
-  palace: ['<svg width="100%" height="240"><g fill="#f6d47c" stroke="#b8860b"><rect x="140" y="80" width="200" height="120"/><polygon points="130,82 240,20 350,82"/><rect x="225" y="140" width="30" height="60"/></g></svg>', '']
+  palace: ['<svg width="100%" height="240"><g fill="#f6d47c" stroke="#b8860b"><rect x="140" y="80" width="200" height="120"/><polygon points="130,82 240,20 350,82"/><rect x="225" y="140" width="30" height="60"/></g></svg>', ''],
+  meadow: ['<svg width="100%" height="100%" viewBox="0 0 1000 560" preserveAspectRatio="none"><rect width="1000" height="560" fill="#bfe8ff"/><circle cx="120" cy="90" r="55" fill="#ffe066"/><g fill="#ffffff" opacity="0.9"><ellipse cx="300" cy="80" rx="70" ry="24"/><ellipse cx="700" cy="70" rx="60" ry="20"/></g><ellipse cx="500" cy="600" rx="650" ry="130" fill="#9ed67e"/></svg>', '<svg width="100%" height="100%" viewBox="0 0 1000 560" preserveAspectRatio="none"><rect y="460" width="1000" height="100" fill="#5dbb3a"/><g><rect x="770" y="220" width="30" height="280" fill="#8a5a2b"/><line x1="770" y1="240" x2="680" y2="210" stroke="#8a5a2b" stroke-width="12"/><g fill="#2f7a1e"><circle cx="785" cy="160" r="95"/><circle cx="700" cy="220" r="60"/><circle cx="870" cy="220" r="60"/></g></g><g fill="#3f9a2e"><ellipse cx="200" cy="520" rx="120" ry="24"/><ellipse cx="450" cy="535" rx="140" ry="22"/></g></svg>'],
+  pond: ['<svg width="100%" height="100%" viewBox="0 0 1000 560" preserveAspectRatio="none"><rect width="1000" height="560" fill="#bfe8ff"/><circle cx="120" cy="90" r="55" fill="#ffe066"/><g fill="#ffffff" opacity="0.9"><ellipse cx="300" cy="80" rx="70" ry="24"/></g></svg>', '<svg width="100%" height="100%" viewBox="0 0 1000 560" preserveAspectRatio="none"><ellipse cx="500" cy="480" rx="430" ry="95" fill="#3f9ad4"/><ellipse cx="500" cy="470" rx="380" ry="65" fill="#7fc4ec"/><g stroke="#2f7a1e" stroke-width="6"><line x1="150" y1="430" x2="140" y2="360"/><line x1="170" y1="432" x2="180" y2="365"/><line x1="850" y1="430" x2="840" y2="362"/><line x1="870" y1="432" x2="880" y2="366"/></g></svg>']
 };
 
 function propSVG(kind, size) {
@@ -171,7 +215,12 @@ function propSVG(kind, size) {
     pot: '<svg width="' + s + '" height="' + s + '" viewBox="0 0 100 100"><ellipse cx="50" cy="38" rx="36" ry="12" fill="#3a3a3a"/><rect x="14" y="38" width="72" height="42" rx="10" fill="#3a3a3a"/><ellipse cx="50" cy="40" rx="28" ry="7" fill="#7a4a21"/></svg>',
     bush: '<svg width="' + s + '" height="' + s + '" viewBox="0 0 100 100"><g fill="#2f7a1e"><circle cx="30" cy="65" r="24"/><circle cx="55" cy="52" r="28"/><circle cx="78" cy="66" r="22"/></g></svg>',
     crown: '<svg width="' + s + '" height="' + s + '" viewBox="0 0 100 100"><polygon points="10,70 10,30 30,50 50,25 70,50 90,30 90,70" fill="#ffcf2e" stroke="#b8860b" stroke-width="3"/><rect x="10" y="70" width="80" height="10" fill="#ffcf2e" stroke="#b8860b" stroke-width="3"/></svg>',
-    chest: '<svg width="' + s + '" height="' + s + '" viewBox="0 0 100 100"><rect x="12" y="42" width="76" height="44" rx="6" fill="#8a5a2b"/><path d="M12 46 Q50 8 88 46" fill="#a66a33"/><rect x="44" y="58" width="12" height="12" fill="#ffcf2e"/></svg>'
+    chest: '<svg width="' + s + '" height="' + s + '" viewBox="0 0 100 100"><rect x="12" y="42" width="76" height="44" rx="6" fill="#8a5a2b"/><path d="M12 46 Q50 8 88 46" fill="#a66a33"/><rect x="44" y="58" width="12" height="12" fill="#ffcf2e"/></svg>',
+    slingshot: '<svg width="' + s + '" height="' + s + '" viewBox="0 0 100 100"><path d="M50 95 L50 55 M50 55 L25 20 M50 55 L75 20" stroke="#6b4226" stroke-width="8" fill="none" stroke-linecap="round"/><path d="M25 20 Q50 35 75 20" stroke="#c0392b" stroke-width="3" fill="none"/></svg>',
+    beehive: '<svg width="' + s + '" height="' + s + '" viewBox="0 0 100 100"><line x1="50" y1="0" x2="50" y2="14" stroke="#6b4226" stroke-width="4"/><ellipse cx="50" cy="52" rx="34" ry="38" fill="#ffcf2e" stroke="#b8860b" stroke-width="3"/><path d="M18 40 Q50 52 82 40 M18 58 Q50 70 82 58 M22 74 Q50 84 78 74" stroke="#b8860b" stroke-width="4" fill="none"/><ellipse cx="50" cy="86" rx="12" ry="7" fill="#3a2a10"/></svg>',
+    bee: '<svg width="' + s + '" height="' + s + '" viewBox="0 0 100 100"><ellipse cx="50" cy="55" rx="26" ry="18" fill="#ffcf2e" stroke="#222222" stroke-width="3"/><path d="M38 40 L38 70 M62 40 L62 70" stroke="#222222" stroke-width="4"/><ellipse cx="38" cy="32" rx="14" ry="9" fill="#cfe8ff" opacity="0.85"/><ellipse cx="62" cy="32" rx="14" ry="9" fill="#cfe8ff" opacity="0.85"/><circle cx="72" cy="50" r="4" fill="#222222"/></svg>',
+    splash: '<svg width="' + s + '" height="' + s + '" viewBox="0 0 100 100"><path d="M50 5 L60 35 L95 30 L68 52 L90 78 L52 62 L40 95 L32 60 L5 55 L32 40 Z" fill="#cfe8ff" stroke="#3f9ad4" stroke-width="3"/></svg>',
+    croc: '<svg width="' + s + '" height="' + s + '" viewBox="0 0 120 60"><polygon points="12,32 0,20 2,44 12,48" fill="#3f9a2e"/><rect x="10" y="30" width="70" height="20" rx="9" fill="#3f9a2e"/><polygon points="80,30 118,26 118,36 80,40" fill="#3f9a2e"/><polygon points="80,44 112,52 112,58 80,50" fill="#2f7a1e"/><circle cx="88" cy="32" r="5" fill="#ffffff"/><circle cx="89" cy="32" r="2.5" fill="#222222"/><path d="M92 36 L96 42 L100 36 M102 37 L106 43 L110 37" stroke="#ffffff" stroke-width="2" fill="none"/></svg>'
   };
   return map[kind] || '';
 }
@@ -211,7 +260,7 @@ async function talkCycle(ms, withBubble) {
   bubbleEl.classList.add('hidden');
 }
 async function wave() {
-  var a = A(P.armR, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(-38deg)' }, { transform: 'rotate(-22deg)' }, { transform: 'rotate(-38deg)' }, { transform: 'rotate(0deg)' }], 1700);
+  var a = A(P.armR, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(-140deg)' }, { transform: 'rotate(-118deg)' }, { transform: 'rotate(-142deg)' }, { transform: 'rotate(-118deg)' }, { transform: 'rotate(0deg)' }], 5200);
   await fin(a);
 }
 async function headTurn() {
@@ -257,7 +306,7 @@ async function fight() {
     var p = cfg.parts[name];
     var img = document.createElement('img');
     img.className = 'part';
-    img.src = cfg.dir + '/' + p.f;
+    img.src = cfg.dir + '/' + p.f + '?v=4';
     img.style.cssText = 'width:' + p.w + 'px;height:' + p.h + 'px;left:' + p.left + 'px;top:' + p.top + 'px;z-index:' + p.z + ';transform-origin:' + p.o + ';';
     w.appendChild(img);
     refs[name] = img;
@@ -367,7 +416,100 @@ async function read() {
   captionEl.textContent = '';
 }
 
+async function storyBeehiveChase() {
+  if (current !== 'stickman') buildChar('stickman');
+  var g = gen;
+  setBackdrop('meadow');
+  var hive = showProp('beehive', '68%', '250px', 90);
+  showCaption('A stickman spots a beehive...');
+  var aim = A(P.armR, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(-70deg)' }], 800);
+  await fin(aim);
+  if (g !== gen) return;
+  var sling = showProp('slingshot', 'calc(50% + 132px)', '201px', 60);
+  await wait(1000);
+  if (g !== gen) return;
+  setHead('head_smug.png');
+  showCaption('He thinks he won... for 2 seconds!');
+  await wait(2000);
+  if (g !== gen) return;
+  setHead('head.png');
+  var shake = A(hive, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(-9deg)' }, { transform: 'rotate(9deg)' }, { transform: 'rotate(-9deg)' }, { transform: 'rotate(0deg)' }], 900);
+  await fin(shake);
+  if (g !== gen) return;
+  showCaption('Uh oh! The bees are angry!');
+  var swarm = document.createElement('div');
+  swarm.className = 'prop';
+  swarm.style.left = '68%'; swarm.style.bottom = '275px';
+  var bees = '';
+  for (var i = 0; i < 8; i++) {
+    bees += '<span style="position:absolute;left:' + (i * 16) + 'px;top:' + ((i % 3) * 14) + 'px;">' + propSVG('bee', 26) + '</span>';
+  }
+  swarm.innerHTML = bees;
+  propSlot.appendChild(swarm);
+  swarm.querySelectorAll('span').forEach(function (sp, i) {
+    var an = sp.animate([{ transform: 'translate(0px,0px)' }, { transform: 'translate(4px,-5px)' }, { transform: 'translate(-3px,3px)' }, { transform: 'translate(0px,0px)' }], { duration: 380 + i * 60, iterations: Infinity });
+    running.push(an);
+  });
+  await wait(1600);
+  if (g !== gen) return;
+  setHead('head_scared.png');
+  showCaption('Run, stickman, run!');
+  var fl1 = A(P.armL, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(-50deg)' }, { transform: 'rotate(30deg)' }, { transform: 'rotate(0deg)' }], 2400);
+  var fl2 = A(P.armR, [{ transform: 'rotate(-70deg)' }, { transform: 'rotate(-20deg)' }, { transform: 'rotate(-90deg)' }, { transform: 'rotate(-40deg)' }], 2400);
+  var legLoop = (async function () {
+    for (var k = 0; k < 3; k++) {
+      var l1 = A(P.legL, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(30deg)' }, { transform: 'rotate(-28deg)' }, { transform: 'rotate(0deg)' }], 700);
+      var l2 = A(P.legR, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(-28deg)' }, { transform: 'rotate(30deg)' }, { transform: 'rotate(0deg)' }], 700);
+      await Promise.all([fin(l1), fin(l2)]);
+      if (g !== gen) break;
+    }
+  })();
+  var mv = A(P.char, [{ transform: 'translateX(0px)' }, { transform: 'translateX(-220px)' }], 2400, 'linear');
+  var sw = A(swarm, [{ transform: 'translateX(0px)' }, { transform: 'translateX(-220px)' }], 2400, 'linear');
+  await Promise.all([fin(mv), fin(sw), fin(fl1), fin(fl2), legLoop]);
+  if (g !== gen) return;
+  mv.cancel(); sw.cancel();
+  hive.remove(); sling.remove();
+  P.char.style.transform = '';
+  var armReset = A(P.armR, [{ transform: 'rotate(-40deg)' }, { transform: 'rotate(0deg)' }], 300);
+  await fin(armReset);
+  setBackdrop('pond');
+  showCaption('Splash! Into the pond!');
+  var splash = showProp('splash', 'calc(50% - 55px)', '30px', 110);
+  var sp = A(splash, [{ transform: 'scale(0.4)', opacity: '0' }, { transform: 'scale(1.15)', opacity: '1' }, { transform: 'scale(1)', opacity: '1' }], 900);
+  await fin(sp);
+  if (g !== gen) return;
+  swarm.style.left = 'calc(50% - 50px)'; swarm.style.bottom = '180px'; swarm.style.transform = '';
+  showCaption('The bees are still waiting...');
+  await wait(1800);
+  if (g !== gen) return;
+  splash.remove();
+  var croc = showProp('croc', 'calc(50% + 80px)', '40px', 170);
+  showCaption("And that's not all... A CROCODILE!");
+  var rise = A(croc, [{ transform: 'translateY(70px)' }, { transform: 'translateY(0px)' }], 1200);
+  await fin(rise);
+  if (g !== gen) return;
+  var bob = A(croc, [{ transform: 'translateY(0px)' }, { transform: 'translateY(-6px)' }, { transform: 'translateY(0px)' }], 900);
+  await fin(bob);
+  showCaption('Better luck next time, stickman!');
+  await wait(2000);
+}
+
 /* ---------------- Advanced ---------------- */
+async function walkForever() {
+  var g = gen;
+  while (g === gen) {
+    var a1 = A(P.legL, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(28deg)' }, { transform: 'rotate(0deg)' }], 600, 'linear');
+    var a2 = A(P.legR, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(-28deg)' }, { transform: 'rotate(0deg)' }], 600, 'linear');
+    var b = A(P.char, [{ transform: 'translateY(0px)' }, { transform: 'translateY(-7px)' }, { transform: 'translateY(0px)' }], 600, 'linear');
+    await Promise.all([fin(a1), fin(a2), fin(b)]);
+    if (g !== gen) break;
+    var a3 = A(P.legL, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(-28deg)' }, { transform: 'rotate(0deg)' }], 600, 'linear');
+    var a4 = A(P.legR, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(28deg)' }, { transform: 'rotate(0deg)' }], 600, 'linear');
+    var b2 = A(P.char, [{ transform: 'translateY(0px)' }, { transform: 'translateY(-7px)' }, { transform: 'translateY(0px)' }], 600, 'linear');
+    await Promise.all([fin(a3), fin(a4), fin(b2)]);
+  }
+}
 async function walkInPlace(ms) {
   ms = ms || 3200;
   var g = gen;
@@ -446,7 +588,7 @@ async function slowmo() {
   await walkInPlace(2200);
   captionEl.textContent = '';
 }
-var BACKDROP_ORDER = ['sky', 'village', 'jungle', 'school', 'haunted', 'city', 'beach', 'palace'];
+var BACKDROP_ORDER = ['sky', 'village', 'jungle', 'school', 'haunted', 'city', 'beach', 'palace', 'meadow', 'pond'];
 async function transition() {
   var cur = BACKDROP_ORDER.indexOf(document.getElementById('backdropSel').value);
   var nxt = BACKDROP_ORDER[(cur + 1) % BACKDROP_ORDER.length];
@@ -661,21 +803,44 @@ var uploadImg = null;
 function setupUpload(file) {
   var rd = new FileReader();
   rd.onload = function () {
-    var slot = document.getElementById('uploadSlot');
-    if (!slot) {
-      slot = document.createElement('div');
-      slot.id = 'uploadSlot';
-      stage.appendChild(slot);
-    }
-    slot.innerHTML = '';
-    var img = document.createElement('img');
-    img.src = rd.result;
-    slot.appendChild(img);
-    uploadImg = img;
-    showCaption('Your picture is on stage! Try the motion buttons.');
-    setTimeout(function () { captionEl.textContent = ''; }, 2600);
+    var tmp = new Image();
+    tmp.onload = function () {
+      var src = rd.result;
+      if (tmp.width > 900 || tmp.height > 900) {
+        var sc = Math.min(900 / tmp.width, 900 / tmp.height);
+        var cv = document.createElement('canvas');
+        cv.width = Math.round(tmp.width * sc);
+        cv.height = Math.round(tmp.height * sc);
+        cv.getContext('2d').drawImage(tmp, 0, 0, cv.width, cv.height);
+        src = cv.toDataURL('image/jpeg', 0.85);
+      }
+      var slot = document.getElementById('uploadSlot');
+      if (!slot) {
+        slot = document.createElement('div');
+        slot.id = 'uploadSlot';
+        stage.appendChild(slot);
+      }
+      slot.innerHTML = '';
+      var img = document.createElement('img');
+      img.src = src;
+      slot.appendChild(img);
+      uploadImg = img;
+      charSlot.style.display = 'none';
+      document.getElementById('removeUploadBtn').classList.remove('hidden');
+      showCaption('Your picture is on stage! Try the motion buttons.');
+      setTimeout(function () { captionEl.textContent = ''; }, 2600);
+    };
+    tmp.src = rd.result;
   };
   rd.readAsDataURL(file);
+}
+function clearUpload() {
+  var slot = document.getElementById('uploadSlot');
+  if (slot) slot.innerHTML = '';
+  uploadImg = null;
+  charSlot.style.display = '';
+  var rb = document.getElementById('removeUploadBtn');
+  if (rb) rb.classList.add('hidden');
 }
 async function uploadAnim(kind) {
   if (!uploadImg) { showCaption('Upload a picture first!'); await wait(1400); captionEl.textContent = ''; return; }
@@ -716,10 +881,10 @@ var ANIMS = {
   blink: doBlink,
   lipsync: function () { return talkCycle(2600, false); },
   talk: function () { return talkCycle(3600, true); },
-  smile: function () { return expr('head_smile.png', 1700); },
-  laugh: function () { return expr('head_laugh.png', 1700); },
-  cry: function () { return expr('head_cry.png', 1700); },
-  angry: function () { return expr('head_angry.png', 1700); },
+  smile: function () { return expr('head_smile.png', 4000); },
+  laugh: function () { return expr('head_laugh.png', 4000); },
+  cry: function () { return expr('head_cry.png', 4000); },
+  angry: function () { return expr('head_angry.png', 4000); },
   surprised: function () { return expr('head_surprised.png', 1700); },
   headTurn: headTurn,
   wave: wave,
@@ -743,8 +908,9 @@ var ANIMS = {
   superhero: storySuperhero,
   animalFriend: storyAnimalFriend,
   kingdom: storyKingdom,
+  beehiveChase: storyBeehiveChase,
   morph: morph,
-  walk: function () { return walkInPlace(3200); },
+  walk: walkForever,
   run: runAcross,
   jump: jumps,
   charRotate: charRotate,
@@ -793,6 +959,7 @@ document.getElementById('stopBtn').addEventListener('click', function () { stopA
 document.getElementById('uploadInput').addEventListener('change', function (e) {
   if (e.target.files && e.target.files[0]) setupUpload(e.target.files[0]);
 });
+document.getElementById('removeUploadBtn').addEventListener('click', function () { clearUpload(); });
 
 /* ---------------- Init ---------------- */
 setBackdrop('sky');
