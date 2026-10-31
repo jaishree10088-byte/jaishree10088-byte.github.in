@@ -18,3 +18,4 @@ button:hover { background: #2c5282; }
 #stage { background: #F5EBD7; border: 2px solid #d8cfae; border-radius: 12px; overflow: hidden; width: 100%; max-width: 960px; aspect-ratio: 16/9; }
 #stage canvas { display: block; width: 100%; height: 100%; }
 .note { font-size: 13px; color: #666; }
+.warn { font-size: 13px; color: #9c4221; background: #fef3c7; border: 1px solid #f6d365; border-radius: 8px; padding: 8px; }
