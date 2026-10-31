@@ -154,8 +154,8 @@
       state.doneZones = lines.length; state.lineIndex = -1; draw();
       if (moral) {
         setStatus('Moral: ' + moral);
-        speak(moral, function () { state.playing = false; setStatus('Finished. Press Play to watch again.'); });
-      } else { state.playing = false; setStatus('Finished. Press Play to watch again.'); }
+        speak(moral, function () { state.playing = false; if (recordingVoice) { setTimeout(stopVoiceRec, 900); } else { setStatus('Finished. Press Play to watch again.'); } });
+      } else { state.playing = false; if (recordingVoice) { setTimeout(stopVoiceRec, 900); } else { setStatus('Finished. Press Play to watch again.'); } }
       return;
     }
     state.lineIndex = i; state.progress = 0; state.lastTs = 0; state.speechDone = false;
@@ -168,7 +168,7 @@
     });
   }
   document.getElementById('playBtn').addEventListener('click', function () {
-    if (exporting) return;
+    if (exporting || recordingVoice) return;
     if (!imgReady) { setStatus('Scene picture is still loading, please wait a second.'); return; }
     speechSynthesis.cancel();
     state.playing = true; state.doneZones = 0;
@@ -177,6 +177,7 @@
   document.getElementById('stopBtn').addEventListener('click', function () {
     state.playing = false; cancelAnimationFrame(raf);
     speechSynthesis.cancel();
+    if (recordingVoice) { stopVoiceRec(); }
     if (exporting && rec && rec.state !== 'inactive') { try { rec.stop(); } catch (e) {} }
     exporting = false;
     state.doneZones = 0; state.lineIndex = -1; state.progress = 0; state.speechDone = false;
@@ -211,7 +212,7 @@
   }
   document.getElementById('dlBtn').addEventListener('click', function () {
     if (!imgReady) { setStatus('Scene picture is still loading, please wait a second.'); return; }
-    if (exporting) return;
+    if (exporting || recordingVoice) return;
     var mime = pickMime();
     if (!mime) { setStatus('Is browser me video recording supported nahi hai.'); return; }
     speechSynthesis.cancel();
@@ -257,6 +258,59 @@
       if (state.progress >= 1) { state.doneZones = state.lineIndex + 1; playLineExport(state.lineIndex + 1); return; }
       raf = requestAnimationFrame(tickExport);
     }
+  });
+
+  // ---- download video + voice (canvas video + mic audio in ONE file.
+  // Browser speech cannot be captured directly, so the mic hears the speaker.)
+  var recV = null, chunksV = [], micStream = null, recordingVoice = false;
+  function stopVoiceRec() {
+    try { if (recV && recV.state !== 'inactive') recV.stop(); } catch (e) {}
+  }
+  document.getElementById('dlVoiceBtn').addEventListener('click', function () {
+    if (!imgReady) { setStatus('Scene picture is still loading, please wait a second.'); return; }
+    if (exporting || recordingVoice) return;
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) { setStatus('Is browser me mic recording supported nahi hai.'); return; }
+    setStatus('Mic permission maang raha hai… Allow karo.');
+    navigator.mediaDevices.getUserMedia({ audio: true }).then(function (ms) {
+      micStream = ms;
+      var vs = canvas.captureStream(30);
+      var combined = new MediaStream(vs.getVideoTracks().concat(ms.getAudioTracks()));
+      var mimes = [pickMime(), 'video/webm', ''];
+      var started = false;
+      for (var k = 0; k < mimes.length && !started; k++) {
+        try {
+          recV = mimes[k] ? new MediaRecorder(combined, { mimeType: mimes[k], videoBitsPerSecond: 2500000 }) : new MediaRecorder(combined);
+          chunksV = [];
+          recV.ondataavailable = function (e) { if (e.data && e.data.size) chunksV.push(e.data); };
+          recV.onstop = function () {
+            recordingVoice = false; state.playing = false;
+            if (micStream) { micStream.getTracks().forEach(function (t) { t.stop(); }); micStream = null; }
+            var mt = recV.mimeType || 'video/webm';
+            var ext = mt.indexOf('mp4') >= 0 ? 'mp4' : 'webm';
+            var blob = new Blob(chunksV, { type: mt });
+            var url = URL.createObjectURL(blob);
+            var a = document.createElement('a');
+            a.href = url; a.download = 'whiteboard-video-voice.' + ext;
+            document.body.appendChild(a); a.click(); a.remove();
+            setStatus('Download ho gaya — Downloads/Gallery me whiteboard-video-voice.' + ext + ' milega (video + voice ek file me).');
+          };
+          recV.start(); started = true;
+        } catch (e) { /* try next mime */ }
+      }
+      if (!started) {
+        recordingVoice = false;
+        if (micStream) { micStream.getTracks().forEach(function (t) { t.stop(); }); micStream = null; }
+        setStatus('Voice recording start nahi ho paya. Silent video download try karo.');
+        return;
+      }
+      recordingVoice = true;
+      speechSynthesis.cancel();
+      state.playing = true; state.doneZones = 0;
+      setStatus('Recording with voice… story chal rahi hai, mic awaaz record kar raha hai.');
+      playLine(0);
+    }).catch(function () {
+      setStatus('Mic permission nahi mili. Mic allow karo, ya silent video download karo.');
+    });
   });
 
   // ---- standalone narrator voice ----
