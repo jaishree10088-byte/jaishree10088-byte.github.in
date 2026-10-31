@@ -1,185 +1,168 @@
 {
-  "edition": "शनिवार, 31 अक्टूबर 2026",
-  "updated_at": "2026-10-31T05:00:00+05:30",
+  "edition": "रविवार, 1 नवंबर 2026",
+  "updated_at": "2026-11-01T05:00:00+05:30",
   "stories": [
     {
-      "id": "2026-10-31-bharat-1",
+      "id": "2026-11-01-bharat-1",
       "cat": "bharat",
-      "title_hi": "पीएम-किसान की 24वीं किस्त जारी, 9.34 करोड़ से ज़्यादा किसान परिवारों को ₹18,690 करोड़ से अधिक मिले",
-      "title_en": "PM-KISAN 24th instalment released: over Rs 18,690 crore reaches more than 9.34 crore farmer families",
-      "body_hi": "प्रधानमंत्री नरेंद्र मोदी ने गुजरात के बनासकांठा में पीएम-किसान योजना की 24वीं किस्त जारी की। इसके तहत देश भर के 9.34 करोड़ से ज़्यादा पात्र किसान परिवारों के बैंक खातों में सीधे ₹18,690 करोड़ से अधिक की राशि भेजी गई।\n\nइसी मौके पर कृषि अवसंरचना कोष से बनी 521 इकाइयों और 12 बागवानी क्लस्टरों का भी उद्घाटन हुआ। अधिकारियों के अनुसार, पहली 23 किस्तों के ज़रिए अब तक किसानों को ₹4.47 लाख करोड़ से ज़्यादा की मदद सीधे उनके खातों में पहुँचाई जा चुकी है।",
-      "body_en": "Prime Minister Narendra Modi released the 24th instalment of the PM-KISAN scheme at Banaskantha in Gujarat. Under it, more than Rs 18,690 crore was transferred directly into the bank accounts of over 9.34 crore eligible farmer families across the country.\n\nOn the same occasion, 521 units built with the Agriculture Infrastructure Fund and 12 horticulture clusters were also inaugurated. Officials said the first 23 instalments together have already moved more than Rs 4.47 lakh crore to farmers through direct benefit transfer.",
-      "source": "Jagran Josh",
-      "source_url": "https://www.jagranjosh.com/articles/school-assembly-news-headlines-october-31-2026-new-zealand-vs-india-pm-kisan-ins-vikrant-and-other-news-1800018430-1",
-      "img": "https://img.jagranjosh.com/images/2026/10/30/template/image/School-assembly-news-headlines-for-October-31-1793369238294.webp",
-      "tags": [
-        "#PMKISAN",
-        "#Kisan",
-        "#Gujarat",
-        "#TaazaKhabar"
-      ],
-      "page": "khabar/2026-10-31-bharat-1.html"
-    },
-    {
-      "id": "2026-10-31-bharat-2",
-      "cat": "bharat",
-      "title_hi": "बद्रीनाथ से देहरादून जा रहा हेलीकॉप्टर जोशीमठ के पास दुर्घटनाग्रस्त, सवार सभी 6 लोगों की मौत",
-      "title_en": "Helicopter flying from Badrinath to Dehradun crashes near Joshimath, all six on board killed",
-      "body_hi": "उत्तराखंड के चमोली ज़िले में जोशीमठ के पास एक निजी हेलीकॉप्टर पहाड़ी से टकराकर दुर्घटनाग्रस्त हो गया। हादसे में पायलट समेत सभी छह लोगों की मौत हो गई। हेलीकॉप्टर बद्रीनाथ धाम से देहरादून जा रहा था और उड़ान भरने के कुछ ही मिनट बाद उसका संपर्क टूट गया था।\n\nशुक्रवार दोपहर हुए इस हादसे के बाद राहत और बचाव दल मौके पर पहुँचे। अधिकारियों ने हादसे की पुष्टि करते हुए मृतकों के प्रति शोक जताया है और दुर्घटना के कारणों की जाँच की बात कही जा रही है।",
-      "body_en": "A privately operated helicopter crashed into a hillside near Joshimath in Uttarakhand's Chamoli district, killing all six people on board, including the pilot. The helicopter was flying from Badrinath Dham to Dehradun and lost contact minutes after taking off.\n\nRescue teams reached the site after the crash on Friday afternoon. Officials confirmed the deaths and expressed grief over the tragedy, while the cause of the accident is being looked into.",
+      "title_hi": "दिल्ली में आज INDIA गठबंधन की बड़ी रैली, रामलीला मैदान में शक्ति प्रदर्शन",
+      "title_en": "INDIA Bloc Holds Big Rally at Delhi's Ramlila Maidan Today",
+      "body_hi": "विपक्षी INDIA गठबंधन आज दिल्ली के रामलीला मैदान में 'वोट बचाओ, देश बचाओ' अभियान के तहत बड़ी रैली कर रहा है। दिन की शुरुआत दोपहर 12 बजे मिंटो रोड-कनॉट प्लेस से 'चलो दिल्ली' मार्च से होगी, और मैदान के अंदर मुख्य कार्यक्रम सुबह 10 बजे से शाम 5 बजे तक चलेगा।\n\nगठबंधन का कहना है कि मतदाता सूची के विशेष गहन पुनरीक्षण (SIR) में लाखों सही मतदाताओं के नाम कटे हैं, इसलिए वह मुख्य चुनाव आयुक्त ज्ञानेश कुमार के इस्तीफे की मांग कर रहा है। उधर भाजपा ने भी जवाबी कार्यक्रमों की तैयारी की है, जिनमें पश्चिमी दिल्ली के हरि नगर इलाके में मार्च शामिल है।",
+      "body_en": "The opposition INDIA bloc is holding a major rally at Delhi's Ramlila Maidan today under its 'Vote Bachao, Desh Bachao' campaign. The day begins with a 'Chalo Dilli' march at noon from the Minto Road-Connaught Place junction, while the main gathering inside the ground is permitted from 10 am to 5 pm.\n\nThe bloc says the Special Intensive Revision (SIR) of voter lists has deleted lakhs of genuine voters, and it is demanding the resignation of Chief Election Commissioner Gyanesh Kumar. The BJP, meanwhile, has lined up counter-programmes, including a march in West Delhi's Hari Nagar area.",
       "source": "Mathrubhumi English",
-      "source_url": "https://english.mathrubhumi.com/education/news/school-assembly-headlines-october-31-2026-s6zd2056",
-      "img": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1usfkd1ynez1hrmuwrq/0/assembly-headline-jpg.jpeg?f=16:9&w=1200&q=0.75",
+      "source_url": "https://english.mathrubhumi.com/news/india/delhi-gears-up-for-india-bloc-show-of-strength-over-voter-deletions-bjp-readies-counter-moves-e1m8lfsk",
+      "img": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1ut9aclv5vik8w4u4n2/1/india-bloc-jpg.jpeg?f=16%3A9&w=1200&q=0.75",
       "tags": [
-        "#Uttarakhand",
-        "#HelicopterCrash",
-        "#Joshimath",
+        "#DelhiRally",
+        "#VoteBachao",
+        "#INDIABloc",
         "#TaazaKhabar"
       ],
-      "page": "khabar/2026-10-31-bharat-2.html"
+      "page": "khabar/2026-11-01-bharat-1.html"
     },
     {
-      "id": "2026-10-31-bharat-3",
+      "id": "2026-11-01-bharat-2",
       "cat": "bharat",
-      "title_hi": "राष्ट्रीय एकता दिवस: सरदार पटेल की 151वीं जयंती पर केवडिया में प्रधानमंत्री मोदी",
-      "title_en": "Rashtriya Ekta Diwas: PM Modi in Kevadia for Sardar Patel's 151st birth anniversary",
-      "body_hi": "31 अक्टूबर को देश राष्ट्रीय एकता दिवस मना रहा है। यह दिन लौह पुरुष सरदार वल्लभभाई पटेल की जयंती के रूप में मनाया जाता है, और इस साल उनकी 151वीं जयंती है। प्रधानमंत्री नरेंद्र मोदी ने गुजरात के केवडिया में एकता दिवस के कार्यक्रमों में हिस्सा लिया।\n\nएकता दिवस का मकसद देश की एकता और अखंडता के प्रति लोगों को जोड़ना है। केवडिया में ही सरदार पटेल की विशाल प्रतिमा, स्टैच्यू ऑफ यूनिटी, स्थित है, जो इस अवसर का केंद्र रहती है।",
-      "body_en": "India marks Rashtriya Ekta Diwas, or National Unity Day, on 31 October. The day is observed as the birth anniversary of Sardar Vallabhbhai Patel, the Iron Man of India, and this year marks his 151st birth anniversary. Prime Minister Narendra Modi took part in the Ekta Diwas celebrations in Kevadia, Gujarat.\n\nThe day aims to bring people together around the unity and integrity of the country. Kevadia is home to the Statue of Unity, the towering statue of Sardar Patel, which remains the centre of the occasion.",
-      "source": "Observer Voice",
-      "source_url": "https://observervoice.com/todays-school-assembly-news-headlines-31-october-243013/",
-      "img": "https://observervoice.com/wp-content/uploads/2026/10/Today-School-Assembly-News-4.png-14.jpg",
+      "title_hi": "आज से कई नए नियम लागू: ITR की तारीख बढ़ी, पेंशन प्रमाणपत्र की खिड़की खुली",
+      "title_en": "New Rules From Today: ITR Deadline Extended, Pension Life-Certificate Window Opens",
+      "body_hi": "आज 1 नवंबर से देश में कई वित्तीय और प्रशासनिक बदलाव लागू हो रहे हैं। ऑडिट वाले करदाताओं के लिए आयकर रिटर्न दाखिल करने की अंतिम तारीख 31 अक्टूबर से बढ़ाकर 21 नवंबर 2026 कर दी गई है, और 80 साल से कम उम्र के सेवानिवृत्त सरकारी कर्मचारियों के लिए वार्षिक जीवन प्रमाणपत्र जमा करने की खिड़की आज से खुल गई है।\n\nजीएसटी के नए नियमों से बिक्री के बाद की छूट पर क्रेडिट नोट जारी करना आसान होगा और उल्टे शुल्क ढांचे वाले कारोबारों को रिफंड जल्दी मिलेगा। साथ ही बच्चों के आधार बायोमेट्रिक अपडेट पर लगने वाला 125 रुपये का शुल्क एक साल के लिए माफ कर दिया गया है, और तेल कंपनियां आज एलपीजी की कीमतों की मासिक समीक्षा भी करेंगी।",
+      "body_en": "Several financial and administrative changes take effect across India from today, 1 November. The income-tax return deadline for audited taxpayers has been extended from 31 October to 21 November 2026, and the window for retired government employees under 80 to submit their annual life certificates opens today.\n\nUnder the revised GST framework, issuing credit notes for post-sale discounts becomes simpler and refunds for businesses facing inverted duty structures should come faster. The Rs 125 fee for children's mandatory Aadhaar biometric updates has also been waived for a year, and oil companies will carry out their monthly LPG price review today.",
+      "source": "The Sentinel Assam",
+      "source_url": "https://www.sentinelassam.com/north-east-india-news/assam-news/india-financial-updates-cbdt-extensions-gst-revisions-and-new-sebi-rules-effective-november-1",
+      "img": "https://media.assettype.com/sentinelassam-english%2F2026-10-31%2Fu6i2koh0%2FScreenshot-138.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "tags": [
-        "#EktaDiwas",
-        "#SardarPatel",
-        "#Kevadia",
+        "#NayeNiyam",
+        "#ITR",
+        "#GST",
         "#TaazaKhabar"
       ],
-      "page": "khabar/2026-10-31-bharat-3.html"
+      "page": "khabar/2026-11-01-bharat-2.html"
     },
     {
-      "id": "2026-10-31-duniya-1",
-      "cat": "duniya",
-      "title_hi": "ज़ेलेंस्की आज तुर्किये जाएँगे, एर्दोगन से रूस-यूक्रेन युद्ध और काला सागर सुरक्षा पर बातचीत",
-      "title_en": "Zelenskyy to visit Turkiye today for talks with Erdogan on Russia-Ukraine war and Black Sea security",
-      "body_hi": "यूक्रेन के राष्ट्रपति वोलोदिमीर ज़ेलेंस्की शनिवार, 31 अक्टूबर को तुर्किये की कार्य यात्रा पर जाएँगे। तुर्किये के राष्ट्रपति रेचेप तैय्यप एर्दोगन के निमंत्रण पर यह यात्रा हो रही है, और इस्तांबुल में दोनों नेताओं के बीच उच्च स्तरीय बातचीत होगी।\n\nबातचीत में दोनों देशों के बीच सहयोग बढ़ाने के साथ-साथ रूस-यूक्रेन युद्ध और काला सागर क्षेत्र की सुरक्षा स्थिति पर ख़ास ज़ोर रहेगा। क्षेत्रीय घटनाक्रम भी एजेंडे में शामिल है।",
-      "body_en": "Ukrainian President Volodymyr Zelenskyy will pay a working visit to Turkiye on Saturday, 31 October. The visit comes at the invitation of Turkish President Recep Tayyip Erdogan, and high-level talks between the two leaders will take place in Istanbul.\n\nThe talks will focus on steps to strengthen bilateral cooperation between Turkiye and Ukraine, as well as regional developments, with particular emphasis on the Russia-Ukraine war and the security situation in the Black Sea.",
-      "source": "The Tribune",
-      "source_url": "https://www.tribuneindia.com/news/world/zelenskyy-to-visit-turkey-on-october-31-for-talks-with-erdogan-on-russia-ukraine-war-black-sea-security/",
-      "img": "https://www.tribuneindia.com/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9tZWRpYWRiZDIxZGQwLWQ0ODctMTFmMS1iYTAzLTc3OTVjZGZhOTdmZS5qcGc=",
+      "id": "2026-11-01-bharat-3",
+      "cat": "bharat",
+      "title_hi": "दिल्ली के व्यापारियों की अपील: रैली टालें, 12,000 करोड़ के कारोबार पर असर का डर",
+      "title_en": "Delhi Traders Appeal: Defer Rally, Fearing Hit to Rs 12,000 Crore Business",
+      "body_hi": "दिल्ली के व्यापारियों के संगठन चैंबर ऑफ ट्रेड एंड इंडस्ट्री ने कांग्रेस संसदीय दल की अध्यक्ष सोनिया गांधी को पत्र लिखकर 1 नवंबर की रैली को 10-11 नवंबर के बाद टालने की अपील की है। संगठन का कहना है कि दिवाली की तैयारी के इस अहम दिन मध्य और पुरानी दिल्ली के करीब 20 बड़े बाजारों में 10,000 से 12,000 करोड़ रुपये का कारोबार प्रभावित हो सकता है।\n\nव्यापारियों ने यह भी सुझाव दिया है कि रैली का स्थान रामलीला मैदान से बुराड़ी मैदान किया जाए, जहां करीब 15,000 वाहनों की पार्किंग की जगह है। कांग्रेस का दावा है कि रैली में 10 लाख लोग आएंगे, जबकि दिल्ली पुलिस करीब 50,000 लोगों के जुटने का अनुमान लगा रही है।",
+      "body_en": "Delhi's Chamber of Trade and Industry has written to Congress Parliamentary Party chairperson Sonia Gandhi, urging that the 1 November rally be deferred to after 10-11 November. The traders' body says business worth Rs 10,000-12,000 crore across nearly 20 major markets in central and old Delhi could be affected on this crucial day of Diwali preparations.\n\nThe traders have also suggested shifting the venue from Ramlila Maidan to Burari Ground, which they say has parking for around 15,000 vehicles. The Congress claims around 10 lakh people will attend, while Delhi Police anticipates a gathering of around 50,000.",
+      "source": "Business Today",
+      "source_url": "https://www.businesstoday.in/amp/india/story/could-lose-around-rs12000-crore-after-rahul-gandhi-delhi-traders-request-sonia-gandhi-to-postpone-nov-1-rally-564693-2026-10-30",
+      "img": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202610/6ae430f479e98-delhi-traders-urge-sonia-gandhi-to-defer-nov-1-india-bloc-rally-over-12-000-cr-festive-loss-risk-302942614-16x9.jpg",
       "tags": [
-        "#Ukraine",
-        "#Turkiye",
-        "#Zelenskyy",
+        "#DelhiVyapar",
+        "#Diwali",
+        "#Rally",
+        "#TaazaKhabar"
+      ],
+      "page": "khabar/2026-11-01-bharat-3.html"
+    },
+    {
+      "id": "2026-11-01-duniya-1",
+      "cat": "duniya",
+      "title_hi": "अमेरिकी सीनेट ने ट्रंप के वैश्विक टैरिफ के आधार को खत्म करने के पक्ष में वोट दिया",
+      "title_en": "US Senate Votes to End Basis for Trump's Global Tariffs",
+      "body_hi": "अमेरिकी सीनेट ने गुरुवार को 51-47 के मत से उस राष्ट्रीय आपातकाल को समाप्त करने के पक्ष में मतदान किया, जिसके आधार पर राष्ट्रपति डोनाल्ड ट्रंप ने अप्रैल की शुरुआत में वैश्विक टैरिफ लगाए थे। यह जानकारी वाशिंगटन पोस्ट की खबर के हवाले से सामने आई है।\n\nयह मतदान ऐसे समय हुआ है जब टैरिफ नीति को लेकर अमेरिका के अंदर बहस तेज है, और सीनेट का यह कदम ट्रंप प्रशासन की व्यापार नीति के लिए एक बड़ा राजनीतिक झटका माना जा रहा है।",
+      "body_en": "The US Senate voted 51-47 on Thursday to eliminate the national emergency cited by US President Donald Trump to impose global tariffs in early April, according to a report in The Washington Post.\n\nThe vote comes amid a heated debate within the United States over tariff policy, and the Senate's move is being seen as a significant political setback for the Trump administration's trade approach.",
+      "source": "Russia Herald",
+      "source_url": "https://www.russiaherald.com/news/278667730/daily-world-briefing-nov-1",
+      "img": "https://image.chitra.live/api/v1/wps/5d08c42/ae25fe26-bc82-4700-9cf8-25d8aeea42a9/0/XxjidwE000001-20251101-CBMFN0A001-600x315.jpg",
+      "tags": [
+        "#USTariffs",
+        "#USSenate",
+        "#Trump",
         "#WorldNews"
       ],
-      "page": "khabar/2026-10-31-duniya-1.html"
+      "page": "khabar/2026-11-01-duniya-1.html"
     },
     {
-      "id": "2026-10-31-duniya-2",
+      "id": "2026-11-01-duniya-2",
       "cat": "duniya",
-      "title_hi": "भूटान में हिमनद झील फटने से बाढ़ का अलर्ट, बंगाल में 12,000 से ज़्यादा लोग सुरक्षित स्थानों पर पहुँचाए गए",
-      "title_en": "Bhutan glacial lake outburst triggers flood alert; over 12,000 evacuated in Bengal",
-      "body_hi": "भूटान के गासा ज़िले में शिंताफू झील के फटने से 29 अक्टूबर को हिमनद झील विस्फोट हुआ, जिसके बाद भारत के उत्तरी बंगाल और असम में बाढ़ का अलर्ट जारी किया गया। संकॉश नदी के किनारे बसे इलाकों में पानी का स्तर बढ़ने की आशंका जताई गई।\n\nपश्चिम बंगाल में संकॉश नदी के किनारे से 12,000 से ज़्यादा लोगों को सुरक्षित स्थानों पर पहुँचाया गया है। प्रशासन नदी के जलस्तर पर नज़र रख रहा है और सीमा से लगे ज़िलों को सतर्क रहने को कहा गया है।",
-      "body_en": "A glacial lake outburst at Shintaphu Lake in Bhutan's Gasa district on 29 October triggered high flood alerts in northern West Bengal and Assam. Water levels along the Sankosh River were expected to rise following the outburst.\n\nMore than 12,000 people have been evacuated from areas along the Sankosh River in West Bengal. Authorities are monitoring the river's water level and border districts have been asked to stay alert.",
-      "source": "The Daily Jagran",
-      "source_url": "https://www.thedailyjagran.com/education/news/todays-school-assembly-news-headline-october-31-2026-check-top-national-international-and-sports-news-here-10334588",
-      "img": "https://images.thedailyjagran.com/images/2026/10/30/template/image/news-oct-31-1793362431092.webp",
+      "title_hi": "लेबनान में 3 लाख से ज्यादा लोग अब भी विस्थापित, सर्दी के लिए 5 करोड़ डॉलर की अपील",
+      "title_en": "Over 300,000 Still Displaced in Lebanon; $50 Million Appeal for Winter Survival",
+      "body_hi": "संयुक्त राष्ट्र के अनुसार मार्च की शुरुआत से विस्थापित हुए 3 लाख से ज्यादा लोग लेबनान में अब भी अपने घर नहीं लौट सके हैं। संयुक्त राष्ट्र की सहायता समन्वय एजेंसी ओचा का कहना है कि दक्षिणी लेबनान में जारी सैन्य गतिविधि के कारण लोगों की वापसी मुश्किल हो रही है, और मानवीय संकट अभी खत्म नहीं हुआ है।\n\nइसी बीच शरणार्थियों की एजेंसी यूएनएचसीआर ने अफगानिस्तान, यूक्रेन, सीरिया और लेबनान में 90 लाख लोगों को सर्दी से बचाने के लिए 5 करोड़ डॉलर की अपील शुरू की है। लेबनान मानवीय कोष से विस्थापितों, लौटने वालों और शरणार्थियों की मदद के लिए 9.1 करोड़ डॉलर पहले ही आवंटित किए जा चुके हैं।",
+      "body_en": "More than 300,000 people displaced since early March remain internally displaced in Lebanon, according to the United Nations. The UN aid coordination office, OCHA, says continued military activity in the south is making it very difficult for civilians to return home, and the humanitarian crisis is far from over.\n\nMeanwhile, the UN refugee agency, UNHCR, has launched a $50 million appeal to help nine million people survive winter across Afghanistan, Ukraine, Syria and Lebanon. The Lebanon Humanitarian Fund has already allocated $91 million to support displaced people, returnees and refugees.",
+      "source": "The Manila Times",
+      "source_url": "https://www.manilatimes.net/2026/10/30/world/un-news/world-news-in-brief-300000-displaced-in-lebanon-turk-deeply-concerned-over-novaya-gazeta-closure-50-million-refugee-appeal-world-cities-day/2458635",
+      "img": "https://manilatimes.net/manilatimes/uploads/images/2026/10/31/1285718.jpg",
       "tags": [
-        "#Bhutan",
-        "#FloodAlert",
-        "#Assam",
+        "#Lebanon",
+        "#UN",
+        "#Refugees",
         "#WorldNews"
       ],
-      "page": "khabar/2026-10-31-duniya-2.html"
+      "page": "khabar/2026-11-01-duniya-2.html"
     },
     {
-      "id": "2026-10-31-duniya-3",
+      "id": "2026-11-01-duniya-3",
       "cat": "duniya",
-      "title_hi": "स्पेन में भीषण ट्रेन हादसा, कम से कम 68 लोगों की मौत, देश में शोक",
-      "title_en": "Spain mourns after devastating train collision kills at least 68 people",
-      "body_hi": "स्पेन में एक भीषण ट्रेन टक्कर में कम से कम 68 लोगों की मौत हो गई है। हादसे की ख़बर से देश भर में शोक की लहर है और राहत व बचाव कार्य तेज़ी से चलाया गया।\n\nहादसे के कारणों की जाँच की जा रही है। अधिकारियों और स्थानीय प्रशासन ने मृतकों के परिवारों के प्रति संवेदना जताई है और घायलों की मदद के लिए हरसंभव कदम उठाए जा रहे हैं।",
-      "body_en": "Spain is mourning after a devastating train collision killed at least 68 people. Rescue and relief operations were launched swiftly following the accident.\n\nThe cause of the collision is being investigated. Officials and local authorities have expressed condolences to the families of those killed, and every effort is being made to help the injured.",
-      "source": "Studmentor",
-      "source_url": "https://studmentor.in/news-headlines-for-school-assembly-31-october-2026/",
-      "img": "https://studmentor.in/wp-content/uploads/2026/10/News-Headlines-for-School-Assembly-–-31-October-2026.jpg",
+      "title_hi": "इज़राइल चुनाव: नेतन्याहू गुट 53 सीटों पर आगे, अंतिम नतीजों का इंतज़ार",
+      "title_en": "Israel Election: Netanyahu Bloc Leads With 53 Seats as Final Results Awaited",
+      "body_hi": "इज़राइल के चुनाव में 90 प्रतिशत मतों की गिनती के बाद प्रधानमंत्री बेंजामिन नेतन्याहू के गुट के पास 53 सीटें बताई जा रही हैं, जबकि गादी आइज़ेनकोट के गुट के पास 48 सीटें हैं। अरब नेतृत्व वाली पार्टियों ने 19 सीटों के साथ मजबूत प्रदर्शन किया है, जिससे सियासी मुकाबला बेहद नज़दीकी बना हुआ है।\n\nइज़राइल पुलिस ने नेतन्याहू की लिकुड पार्टी की ओर से लगाए गए चुनावी धांधली के दावों को खारिज कर दिया है। अंतिम नतीजे आने तक सरकार गठन की तस्वीर साफ नहीं होगी।",
+      "body_en": "With 90 per cent of votes counted in Israel's election, Prime Minister Benjamin Netanyahu's bloc is reported to hold 53 seats, while Gadi Eisenkot's bloc has 48. Arab-led parties have surged to 19 seats, leaving the political battle finely balanced.\n\nIsrael Police have rejected claims of election fraud made by Prime Minister Netanyahu's Likud party. The picture for government formation will only become clear once the final results are declared.",
+      "source": "WION",
+      "source_url": "https://www.wionews.com/world/live-blog-latest-india-world-news-today-live-israel-election-results-russia-ukraine-war-and-more-1793255864894",
+      "img": "https://www.brookings.edu/wp-content/uploads/2016/06/netanyahu010.jpg",
       "tags": [
-        "#Spain",
-        "#TrainAccident",
+        "#IsraelElection",
+        "#Netanyahu",
+        "#MiddleEast",
         "#WorldNews"
       ],
-      "page": "khabar/2026-10-31-duniya-3.html"
+      "page": "khabar/2026-11-01-duniya-3.html"
     },
     {
-      "id": "2026-10-31-khel-1",
+      "id": "2026-11-01-khel-1",
       "cat": "khel",
-      "title_hi": "न्यूज़ीलैंड ने चौथे टी20 में भारत को 87 रन से हराया, सीरीज़ में भारत अब भी 3-1 से आगे",
-      "title_en": "New Zealand beat India by 87 runs in 4th T20I; India still lead series 3-1",
-      "body_hi": "ऑकलैंड के ईडन पार्क में खेले गए चौथे टी20 मैच में न्यूज़ीलैंड ने भारत को 87 रन से हरा दिया। पहले बल्लेबाज़ी करते हुए न्यूज़ीलैंड ने 259/7 का बड़ा स्कोर बनाया, जवाब में भारतीय टीम 20 ओवर में 172/9 ही बना सकी।\n\nइस जीत के बावजूद पाँच मैचों की सीरीज़ में भारत 3-1 से आगे है। सीरीज़ का आख़िरी और निर्णायक मुकाबला 1 नवंबर को हैमिल्टन में खेला जाएगा।",
-      "body_en": "New Zealand beat India by 87 runs in the fourth T20I at Eden Park in Auckland. Batting first, New Zealand posted a big total of 259/7, and India could manage only 172/9 in their 20 overs in reply.\n\nDespite the defeat, India still lead the five-match series 3-1. The final match of the series will be played at Hamilton on November 1.",
-      "source": "Jagran Josh",
-      "source_url": "https://www.jagranjosh.com/articles/school-assembly-news-headlines-october-31-2026-new-zealand-vs-india-pm-kisan-ins-vikrant-and-other-news-1800018430-1",
-      "img": "https://static.cricbuzz.com/a/img/v1/600x400/i1/c186111/cms-img.jpg",
+      "title_hi": "न्यूज़ीलैंड ODI सीरीज़: प्रसिद्ध कृष्णा बाहर, नितीश और आक़िब टीम में",
+      "title_en": "New Zealand ODI Series: Prasidh Krishna Out, Nitish and Auqib In",
+      "body_hi": "भारतीय तेज़ गेंदबाज़ प्रसिद्ध कृष्णा हैमस्ट्रिंग चोट के कारण न्यूज़ीलैंड के खिलाफ पांच मैचों की वनडे सीरीज़ से बाहर हो गए हैं। बीसीसीआई ने बताया कि वेस्टइंडीज़ के खिलाफ दूसरे वनडे में लगी चोट से वह अब तक पूरी तरह उबरे नहीं हैं, और उन्हें मैचों के लिए ज़रूरी वर्कलोड बनाने में और समय लगेगा।\n\nउनकी जगह ऑलराउंडर नितीश कुमार रेड्डी को 4 नवंबर को ऑकलैंड में होने वाले पहले वनडे के लिए टीम में रखा गया है, जबकि तेज़ गेंदबाज़ आक़िब नबी को पहले तीन वनडे के लिए टीम में शामिल किया गया है। मोहम्मद सिराज इंडिया 'ए' टीम के दूसरे मैच में खेलेंगे, और 19 नवंबर से शुरू हो रही टेस्ट सीरीज़ के लिए प्रसिद्ध को फिट करना टीम की प्राथमिकता है।",
+      "body_en": "Indian fast bowler Prasidh Krishna has been ruled out of the five-match ODI series against New Zealand due to a hamstring injury. The BCCI said he has not fully recovered from the injury sustained in the second ODI against the West Indies and needs more time to build up the workload required for matches.\n\nAll-rounder Nitish Kumar Reddy has been retained for the first ODI in Auckland on 4 November, while pacer Auqib Nabi has been added to the squad for the first three ODIs. Mohammed Siraj will play for India 'A' in their second match, and getting Prasidh fit for the Test series starting 19 November is the team's priority.",
+      "source": "India.com",
+      "source_url": "https://www.india.com/sports/cricket/ind-vs-nz-2026-prasidh-krishna-out-but-nitish-kumar-reddy-added-in-odi-squad-as-bcci-selectors-ring-in-changes-8540689/",
+      "img": "https://static.toiimg.com/photo/msid-126675336/126675336.jpg",
       "tags": [
-        "#Cricket",
         "#INDvsNZ",
-        "#T20I",
-        "#TaazaKhabar"
-      ],
-      "page": "khabar/2026-10-31-khel-1.html"
-    },
-    {
-      "id": "2026-10-31-khel-2",
-      "cat": "khel",
-      "title_hi": "राशिद ख़ान ने रचा इतिहास, टी20 अंतरराष्ट्रीय में 200 विकेट लेने वाले पहले गेंदबाज़ बने",
-      "title_en": "Rashid Khan scripts history, becomes first bowler to claim 200 T20I wickets",
-      "body_hi": "अफ़ग़ानिस्तान के स्टार लेग स्पिनर राशिद ख़ान ने टी20 अंतरराष्ट्रीय क्रिकेट में इतिहास रच दिया है। वह इस प्रारूप में 200 विकेट लेने वाले दुनिया के पहले गेंदबाज़ बन गए हैं, जो उनकी लंबी और शानदार गेंदबाज़ी का प्रमाण है।\n\nराशिद ख़ान को दुनिया के सबसे ख़तरनाक टी20 गेंदबाज़ों में गिना जाता है। उनकी गुगली और तेज़ गति वाली गेंदबाज़ी ने कई बड़े बल्लेबाज़ों को परेशान किया है, और यह उपलब्धि उनके करियर की एक और बड़ी मील का पत्थर है।",
-      "body_en": "Afghanistan star leg-spinner Rashid Khan has scripted history in T20 international cricket. He has become the first bowler in the world to claim 200 wickets in the format, a mark of his long and outstanding bowling career.\n\nRashid Khan is counted among the most dangerous T20 bowlers in the world. His googly and brisk bowling have troubled many top batters, and this milestone is another major landmark in his career.",
-      "source": "The Daily Jagran",
-      "source_url": "https://www.thedailyjagran.com/education/news/todays-school-assembly-news-headline-october-31-2026-check-top-national-international-and-sports-news-here-10334588",
-      "img": "https://imagesvs.oneindia.com/hi/img/2026/04/rashid-khan-1775739878.jpg",
-      "tags": [
         "#Cricket",
-        "#RashidKhan",
-        "#T20I",
+        "#TeamIndia",
         "#TaazaKhabar"
       ],
-      "page": "khabar/2026-10-31-khel-2.html"
+      "page": "khabar/2026-11-01-khel-1.html"
     },
     {
-      "id": "2026-10-31-vyapar-1",
+      "id": "2026-11-01-khel-2",
+      "cat": "khel",
+      "title_hi": "U-19 एशिया कप टीम में द्रविड़ के बेटे अन्वय और सहवाग के बेटे आर्यवीर",
+      "title_en": "Anvay Dravid and Aaryavir Sehwag Named in India's U-19 Asia Cup Squad",
+      "body_hi": "राहुल द्रविड़ के बेटे अन्वय द्रविड़ और वीरेंद्र सहवाग के बेटे आर्यवीर सहवाग को भारत की अंडर-19 एशिया कप टीम में चुना गया है। यह टूर्नामेंट 5 से 14 नवंबर तक ओमान के मस्कट में खेला जाएगा, और टीम की कप्तानी लक्ष्य रायचंदानी करेंगे।\n\n17 साल के अन्वय ने इसी महीने गुजरात के खिलाफ अंडर-19 मुकाबले में 100 गेंदों पर 151 रन की आक्रामक पारी खेली थी। भारत ग्रुप ए में यूएई, नेपाल और पाकिस्तान के साथ है — 6 नवंबर को नेपाल, 8 नवंबर को पाकिस्तान और 10 नवंबर को यूएई से मुकाबला होगा, जबकि फाइनल 14 नवंबर को है।",
+      "body_en": "Anvay Dravid, son of Rahul Dravid, and Aaryavir Sehwag, son of Virender Sehwag, have been named in India's squad for the U-19 Asia Cup. The tournament will be played in Muscat, Oman, from 5 to 14 November, with Lakshya Raichandani captaining the side.\n\nSeventeen-year-old Anvay scored an aggressive 151 off just 100 balls against Gujarat in an U-19 match earlier this month. India are in Group A with the UAE, Nepal and Pakistan — they face Nepal on 6 November, Pakistan on 8 November and the UAE on 10 November, with the final on 14 November.",
+      "source": "The Indian Express",
+      "source_url": "https://indianexpress.com/article/sports/cricket/anvay-dravid-aaryavir-sehwag-named-india-u-19-asia-cup-squad-10943644/",
+      "img": "https://images.indianexpress.com/2026/10/anvay.jpg",
+      "tags": [
+        "#U19AsiaCup",
+        "#Cricket",
+        "#TeamIndia",
+        "#TaazaKhabar"
+      ],
+      "page": "khabar/2026-11-01-khel-2.html"
+    },
+    {
+      "id": "2026-11-01-vyapar-1",
       "cat": "vyapar",
-      "title_hi": "सेंसेक्स 308 अंक चढ़कर 74,459 पर, निफ्टी 23,053 पर बंद; आईटी शेयरों और ट्रेंट की कमाई से बाज़ार को सहारा",
-      "title_en": "Sensex climbs 308 points to 74,459, Nifty ends at 23,053 as IT stocks and Trent earnings lift market",
-      "body_hi": "भारतीय शेयर बाज़ार शुक्रवार को लगातार दूसरे दिन बढ़त के साथ बंद हुआ। बीएसई सेंसेक्स 308.49 अंक यानी 0.42 प्रतिशत चढ़कर 74,459.53 पर बंद हुआ, जबकि एनएसई निफ्टी 116.35 अंक यानी 0.51 प्रतिशत बढ़कर 23,053.10 पर पहुँचा।\n\nआईटी कंपनियों के शेयरों में मज़बूत ख़रीदारी और टाटा समूह की रिटेल कंपनी ट्रेंट की कमाई ने बाज़ार को सहारा दिया। ट्रेंट का शेयर 5.20 प्रतिशत चढ़ा, क्योंकि कंपनी ने सितंबर तिमाही में 25 प्रतिशत सालाना बढ़ोतरी के साथ ₹468 करोड़ का शुद्ध मुनाफ़ा दर्ज किया था। यह ख़बर सिर्फ़ जानकारी के लिए है, निवेश की सलाह नहीं।",
-      "body_en": "Indian equity markets closed higher for a second straight session on Friday. The 30-share BSE Sensex climbed 308.49 points, or 0.42 per cent, to settle at 74,459.53, while the 50-share NSE Nifty rallied 116.35 points, or 0.51 per cent, to end at 23,053.10.\n\nRobust buying in IT firms and earnings-driven demand for Tata Group retail arm Trent supported the market. Trent's shares jumped 5.20 per cent after the company reported a 25 per cent year-on-year rise in consolidated net profit to Rs 468 crore for the September quarter. This report is for information only, not investment advice.",
-      "source": "Rediff",
-      "source_url": "https://m.rediff.com/business/report/sensex-nifty-extend-gains-it-stocks-trent-earnings-drive-market-rally/20261030.htm",
-      "img": "https://im.rediff.com/1200-630/money/2021/may/31brokers.jpg",
+      "title_hi": "शेयर बाज़ार: सेंसेक्स 74,459 और निफ्टी 23,053 पर बंद, लगातार दूसरे दिन तेज़ी",
+      "title_en": "Markets Close Higher for Second Day: Sensex at 74,459, Nifty at 23,053",
+      "body_hi": "भारतीय शेयर बाज़ार शुक्रवार 30 अक्टूबर को लगातार दूसरे दिन बढ़त के साथ बंद हुआ। 30 शेयरों वाला बीएसई सेंसेक्स 308.49 अंक यानी 0.42 प्रतिशत चढ़कर 74,459.53 पर बंद हुआ, जबकि 50 शेयरों वाला एनएसई निफ्टी 116.35 अंक यानी 0.51 प्रतिशत बढ़कर 23,053.10 पर पहुंचा। पूरे हफ्ते में दोनों सूचकांक करीब 2 प्रतिशत बढ़े।\n\nआईटी शेयरों की अगुवाई में तेज़ी आई — इंफोसिस और विप्रो जैसे शेयर आगे रहे, और ट्रेंट का शेयर सितंबर तिमाही में मुनाफे में 25 प्रतिशत सालाना बढ़ोतरी की खबर के बाद 5.20 प्रतिशत चढ़ा। रुपये ने 33 पैसे की बढ़त के साथ 94.93 पर बंद किया, जबकि ब्रेंट कच्चा तेल करीब 117.4 डॉलर प्रति बैरल पर रहा।",
+      "body_en": "Indian equity markets closed higher for a second straight session on Friday, 30 October. The 30-share BSE Sensex climbed 308.49 points, or 0.42 per cent, to settle at 74,459.53, while the 50-share NSE Nifty rose 116.35 points, or 0.51 per cent, to 23,053.10. Over the week, both benchmarks gained nearly 2 per cent each.\n\nIT stocks led the rally, with Infosys and Wipro among the gainers, and Trent jumped 5.20 per cent after reporting a 25 per cent year-on-year rise in September-quarter profit. The rupee closed 33 paise higher at 94.93 against the dollar, while Brent crude stood near $117.4 per barrel.",
+      "source": "The Hindu BusinessLine",
+      "source_url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-30th-october-2026/article71640574.ece",
+      "img": "",
       "tags": [
         "#Sensex",
         "#Nifty",
         "#ShareBazaar",
         "#TaazaKhabar"
       ],
-      "page": "khabar/2026-10-31-vyapar-1.html"
-    },
-    {
-      "id": "2026-10-31-khaas-1",
-      "cat": "khaas",
-      "title_hi": "शेक्सपियर से स्टार ट्रेक तक: दिग्गज अभिनेता पैट्रिक स्टीवर्ट का 86 साल की उम्र में निधन",
-      "title_en": "From Shakespeare to Star Trek: legendary actor Patrick Stewart dies at 86",
-      "body_hi": "शेक्सपियर के मंच से 'स्टार ट्रेक' और 'एक्स-मेन' तक अपनी छाप छोड़ने वाले दिग्गज अभिनेता पैट्रिक स्टीवर्ट का 86 साल की उम्र में निधन हो गया है। दुनिया भर के प्रशंसकों और फ़िल्म जगत ने उनके जाने पर शोक जताया है।\n\nस्टीवर्ट को कैप्टन जीन-ल्यूक पिकार्ड और प्रोफ़ेसर चार्ल्स ज़ेवियर जैसे किरदारों के लिए याद किया जाएगा। शास्त्रीय रंगमंच से लेकर बड़ी फ़िल्मों तक का उनका सफ़र कई पीढ़ियों के कलाकारों के लिए प्रेरणा रहा है।",
-      "body_en": "Legendary actor Patrick Stewart, who left his mark from the Shakespearean stage to 'Star Trek' and 'X-Men', has died at the age of 86. Fans around the world and the film fraternity have mourned his passing.\n\nStewart will be remembered for roles such as Captain Jean-Luc Picard and Professor Charles Xavier. His journey from classical theatre to big-screen blockbusters has been an inspiration for generations of performers.",
-      "source": "The Daily Jagran",
-      "source_url": "https://www.thedailyjagran.com/education/news/todays-school-assembly-news-headline-october-31-2026-check-top-national-international-and-sports-news-here-10334588",
-      "img": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/01/star-trek-the-next-generation-patrick-stewart.jpg?&fit=crop&w=1600&h=900",
-      "tags": [
-        "#PatrickStewart",
-        "#StarTrek",
-        "#Hollywood",
-        "#TaazaKhabar"
-      ],
-      "page": "khabar/2026-10-31-khaas-1.html"
+      "page": "khabar/2026-11-01-vyapar-1.html"
     }
   ]
 }
