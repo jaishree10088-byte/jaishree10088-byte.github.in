@@ -47,8 +47,8 @@ var CHARACTERS = {
       legR:  { f: 'legR.png',  w: 102, h: 246, left: 117, top: 255, z: 2, o: 'top center' },
       torso: { f: 'torso.png', w: 132, h: 133, left: 74,  top: 112, z: 4, o: 'center' },
       belt:  { f: 'belt.png',  w: 152, h: 33,  left: 64,  top: 235, z: 5, o: 'center' },
-      armL:  { f: 'armL.png',  w: 78,  h: 225, left: 25,  top: 122, z: 6, o: 'top center' },
-      armR:  { f: 'armR.png',  w: 78,  h: 225, left: 177, top: 122, z: 6, o: 'top center' },
+      armL:  { f: 'armL.png',  w: 78,  h: 225, left: 30,  top: 122, z: 3, o: 'top right' },
+      armR:  { f: 'armR.png',  w: 78,  h: 225, left: 172, top: 122, z: 3, o: 'top left' },
       head:  { f: 'head.png',  w: 116, h: 115, left: 82,  top: 13,  z: 8, o: 'bottom center' }
     }
   },
@@ -59,8 +59,8 @@ var CHARACTERS = {
       legL: { f: 'footL.png', w: 90,  h: 104, left: 67,  top: 387, z: 1, o: 'top center' },
       legR: { f: 'footR.png', w: 80,  h: 102, left: 128, top: 387, z: 1, o: 'top center' },
       torso: { f: 'torso.png', w: 112, h: 325, left: 84,  top: 78,  z: 2, o: 'center' },
-      armL:  { f: 'armL.png',  w: 58,  h: 224, left: 52,  top: 103, z: 3, o: 'top center' },
-      armR:  { f: 'armR.png',  w: 62,  h: 294, left: 168, top: 103, z: 3, o: 'top center' },
+      armL:  { f: 'armL.png',  w: 58,  h: 224, left: 56,  top: 103, z: 1, o: 'top right' },
+      armR:  { f: 'armR.png',  w: 62,  h: 294, left: 164, top: 103, z: 1, o: 'top left' },
       head:  { f: 'head.png',  w: 107, h: 115, left: 86,  top: 13,  z: 4, o: 'bottom center' }
     }
   }
@@ -398,6 +398,20 @@ async function read() {
 }
 
 /* ---------------- Advanced ---------------- */
+async function walkForever() {
+  var g = gen;
+  while (g === gen) {
+    var a1 = A(P.legL, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(28deg)' }, { transform: 'rotate(0deg)' }], 600);
+    var a2 = A(P.legR, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(-28deg)' }, { transform: 'rotate(0deg)' }], 600);
+    var b = A(P.char, [{ transform: 'translateY(0px)' }, { transform: 'translateY(-7px)' }, { transform: 'translateY(0px)' }], 600);
+    await Promise.all([fin(a1), fin(a2), fin(b)]);
+    if (g !== gen) break;
+    var a3 = A(P.legL, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(-28deg)' }, { transform: 'rotate(0deg)' }], 600);
+    var a4 = A(P.legR, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(28deg)' }, { transform: 'rotate(0deg)' }], 600);
+    var b2 = A(P.char, [{ transform: 'translateY(0px)' }, { transform: 'translateY(-7px)' }, { transform: 'translateY(0px)' }], 600);
+    await Promise.all([fin(a3), fin(a4), fin(b2)]);
+  }
+}
 async function walkInPlace(ms) {
   ms = ms || 3200;
   var g = gen;
@@ -797,7 +811,7 @@ var ANIMS = {
   animalFriend: storyAnimalFriend,
   kingdom: storyKingdom,
   morph: morph,
-  walk: async function () { var g = gen; while (g === gen) { await walkInPlace(1200); } },
+  walk: walkForever,
   run: runAcross,
   jump: jumps,
   charRotate: charRotate,
