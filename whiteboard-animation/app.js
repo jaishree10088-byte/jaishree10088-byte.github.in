@@ -41,20 +41,33 @@
       ctx.drawImage(sceneImg, b.dx, b.dy, b.dw, b.dh);
       ctx.restore();
     }
-    // current zone, partially revealed left -> right
+    // current zone, revealed left -> right with a SKETCHY (wobbly) frontier
+    // and a bobbing hand — a ruler-straight wipe + straight-sliding hand reads
+    // as "scrolling", not drawing, which is exactly what was reported.
     if (state.playing && state.lineIndex >= 0 && state.lineIndex < n) {
       var i2 = state.lineIndex;
       var zx0 = b.dx + (b.dw * i2) / n, zx1 = b.dx + (b.dw * (i2 + 1)) / n;
       var fx = zx0 + (zx1 - zx0) * state.progress;
       ctx.save();
-      ctx.beginPath(); ctx.rect(zx0, 0, fx - zx0, canvas.height); ctx.clip();
+      ctx.beginPath();
+      ctx.moveTo(zx0, 0);
+      ctx.lineTo(fx, 0);
+      var step = Math.max(12, canvas.height / 40);
+      for (var yy = 0; yy <= canvas.height; yy += step) {
+        var wx = fx + Math.sin(yy * 0.045 + i2 * 2.1 + state.progress * 9) * canvas.width * 0.008;
+        ctx.lineTo(wx, yy);
+      }
+      ctx.lineTo(zx0, canvas.height);
+      ctx.closePath(); ctx.clip();
       ctx.drawImage(sceneImg, b.dx, b.dy, b.dw, b.dh);
       ctx.restore();
-      // hand with its pen tip on the frontier
+      // hand with its pen tip on the frontier, bobbing like sketch strokes
       if (handReady) {
         var hw = canvas.width * 0.11;
         var hh = hw * (handImg.height / handImg.width);
-        ctx.drawImage(handImg, fx - hw * 0.089, (canvas.height / 2) - hh * 0.071 - hh * 0.35, hw, hh);
+        var bob = Math.sin(state.progress * 46 + i2 * 3) * hh * 0.10;
+        var hy = (canvas.height / 2) - hh * 0.071 - hh * 0.35 + bob;
+        ctx.drawImage(handImg, fx - hw * 0.089, hy, hw, hh);
       }
     }
   }
