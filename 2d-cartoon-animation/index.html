@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2D Cartoon Animation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>2D Cartoon Animation</h1>
+  <p class="tag">Pick a character, pick a move, and watch it come alive.</p>
+</header>
+
+<main>
+  <section class="stage-wrap">
+    <div id="stage" class="backdrop-sky">
+      <div id="bgFar" class="bg-layer"></div>
+      <div id="bgNear" class="bg-layer"></div>
+      <div id="charSlot"></div>
+      <div id="animalSlot"></div>
+      <div id="propSlot"></div>
+      <div id="burst" class="hidden"></div>
+      <div id="bubble" class="hidden"></div>
+      <div id="caption"></div>
+    </div>
+    <div class="stage-bar">
+      <label>Backdrop:
+        <select id="backdropSel">
+          <option value="sky">Sky</option>
+          <option value="village">Village</option>
+          <option value="jungle">Jungle</option>
+          <option value="school">School</option>
+          <option value="haunted">Haunted House</option>
+          <option value="city">City</option>
+          <option value="beach">Treasure Beach</option>
+          <option value="palace">Kingdom</option>
+        </select>
+      </label>
+      <button id="slowBtn" title="Play moves in slow motion">Slow motion: OFF</button>
+      <button id="stopBtn">Stop</button>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Characters</h2>
+    <div class="char-pick">
+      <button data-char="police" class="char-btn active">Policeman</button>
+      <button data-char="man" class="char-btn">The Man</button>
+    </div>
+    <p class="note">Both characters are cutout puppets made from the reference sheets: head, shirt, arms, legs and shoes move separately.</p>
+
+    <h2>Your own picture</h2>
+    <p class="note">Upload any picture, including one made with AI. It will animate as a whole picture (it is one flat image, so its arms and legs cannot move separately).</p>
+    <input type="file" id="uploadInput" accept="image/*">
+    <div class="btn-row" id="uploadBtns">
+      <button data-up="bounce">Bounce</button>
+      <button data-up="dance">Dance</button>
+      <button data-up="spin">Spin</button>
+      <button data-up="walkAcross">Walk Across</button>
+      <button data-up="zoomUp">Zoom</button>
+      <button data-up="shake">Shake</button>
+      <button data-up="talkBob">Talk</button>
+    </div>
+
+    <h2>Talking line</h2>
+    <div class="talk-row">
+      <input type="text" id="talkInput" value="Hello friends!" maxlength="80">
+      <button id="talkBtn">Say it</button>
+    </div>
+  </section>
+
+  <section class="panel library">
+    <h2>Face &amp; Body Animation</h2>
+    <div class="btn-row" data-group="face">
+      <button data-anim="blink">Eye Blinking</button>
+      <button data-anim="lipsync">Lip Sync</button>
+      <button data-anim="talk">Talking Animation</button>
+      <button data-anim="smile">Smiling Animation</button>
+      <button data-anim="laugh">Laughing Animation</button>
+      <button data-anim="cry">Crying Animation</button>
+      <button data-anim="angry">Angry Face</button>
+      <button data-anim="surprised">Surprised Face</button>
+      <button data-anim="headTurn">Head Turning</button>
+      <button data-anim="wave">Hand Waving</button>
+    </div>
+
+    <h2>Cartoon Actions</h2>
+    <div class="btn-row" data-group="actions">
+      <button data-anim="fight">Fighting Animation</button>
+      <button data-anim="punch">Punching Animation</button>
+      <button data-anim="kick">Kicking Animation</button>
+      <button data-anim="slap">Slapping Animation</button>
+      <button data-anim="chase">Chasing Animation</button>
+      <button data-anim="hide">Hiding Animation</button>
+      <button data-anim="eat">Eating Animation</button>
+      <button data-anim="drink">Drinking Animation</button>
+      <button data-anim="cook">Cooking Animation</button>
+      <button data-anim="read">Reading a Book</button>
+    </div>
+
+    <h2>Cartoon Story Scenes</h2>
+    <div class="btn-row" data-group="stories">
+      <button data-anim="boyMeetsGirl">Boy Meets Girl</button>
+      <button data-anim="motherChild">Mother and Child</button>
+      <button data-anim="villageLife">Village Life</button>
+      <button data-anim="schoolLife">School Life</button>
+      <button data-anim="jungleAdventure">Jungle Adventure</button>
+      <button data-anim="hauntedHouse">Haunted House</button>
+      <button data-anim="treasureHunt">Treasure Hunt</button>
+      <button data-anim="superhero">Superhero Rescue</button>
+      <button data-anim="animalFriend">Animal Friendship</button>
+      <button data-anim="kingdom">King and Kingdom</button>
+    </div>
+
+    <h2>Advanced Animation</h2>
+    <div class="btn-row" data-group="advanced">
+      <button data-anim="morph">Character Morphing</button>
+      <button data-anim="walk">2D Walk Cycle</button>
+      <button data-anim="run">Run Cycle</button>
+      <button data-anim="jump">Jump Cycle</button>
+      <button data-anim="charRotate">Character Rotation</button>
+      <button data-anim="zoomIn">Camera Zoom In</button>
+      <button data-anim="zoomOut">Camera Zoom Out</button>
+      <button data-anim="parallax">Parallax Background</button>
+      <button data-anim="slowmo">Slow Motion</button>
+      <button data-anim="transition">Scene Transition</button>
+    </div>
+
+    <h2>Animal Cartoon Animation</h2>
+    <div class="btn-row" data-group="animals">
+      <button data-anim="mouse">Mouse Running</button>
+      <button data-anim="lion">Lion Roaring</button>
+      <button data-anim="monkey">Monkey Jumping</button>
+      <button data-anim="elephant">Elephant Walking</button>
+      <button data-anim="rabbit">Rabbit Hopping</button>
+      <button data-anim="cat">Cat Sleeping</button>
+      <button data-anim="dog">Dog Running</button>
+      <button data-anim="peacock">Peacock Dancing</button>
+      <button data-anim="snake">Snake Moving</button>
+      <button data-anim="cow">Cow Walking</button>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>How it works: the two built-in characters are real cutout puppets. Their heads, arms and legs are separate pictures, so every move above is a real puppet move. Uploaded pictures (including AI-made ones) animate as one whole picture.</p>
+  <p>Tip: use the Talking line box to make a character say your own words.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
