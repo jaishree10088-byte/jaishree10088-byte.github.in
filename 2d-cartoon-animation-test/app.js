@@ -14,14 +14,14 @@ var CHARACTERS = {
             'head_cry.png', 'head_angry.png', 'head_surprised.png',
             'head_talk1.png', 'head_talk2.png'],
     parts: {
-      legL:  { f: 'legL.png',  w: 81,  h: 232, left: 71,  top: 270, z: 1, o: 'top center' },
-      legR:  { f: 'legR.png',  w: 60,  h: 237, left: 138, top: 270, z: 2, o: 'top center' },
-      torso: { f: 'torso.png', w: 123, h: 170, left: 79,  top: 49,  z: 3, o: 'center' },
-      belt:  { f: 'belt.png',  w: 90,  h: 79,  left: 95,  top: 207, z: 4, o: 'center' },
-      holster:{ f: 'holster.png', w: 36, h: 53, left: 165, top: 283, z: 4, o: 'top center' },
-      armL:  { f: 'armL.png',  w: 66,  h: 189, left: 25,  top: 125, z: 5, o: 'top center' },
-      armR:  { f: 'armR.png',  w: 66,  h: 193, left: 190, top: 125, z: 5, o: 'top center' },
-      head:  { f: 'head.png',  w: 106, h: 120, left: 87,  top: 21,  z: 6, o: 'bottom center' }
+      legL:  { f: 'legL.png',  w: 86,  h: 224, left: 69,  top: 272, z: 1, o: 'top center' },
+      legR:  { f: 'legR.png',  w: 64,  h: 235, left: 136, top: 272, z: 2, o: 'top center' },
+      torso: { f: 'torso.png', w: 130, h: 180, left: 75,  top: 51,  z: 3, o: 'center' },
+      belt:  { f: 'belt.png',  w: 95,  h: 83,  left: 92,  top: 210, z: 4, o: 'center' },
+      holster:{ f: 'holster.png', w: 38,  h: 56,  left: 164, top: 290, z: 4, o: 'top center' },
+      armL:  { f: 'armL.png',  w: 70,  h: 185, left: 32,  top: 126, z: 5, o: 'top center' },
+      armR:  { f: 'armR.png',  w: 70,  h: 188, left: 178, top: 126, z: 5, o: 'top center' },
+      head:  { f: 'head.png',  w: 112, h: 128, left: 84,  top: 9,   z: 6, o: 'bottom center' }
     }
   },
   man: {
@@ -30,13 +30,13 @@ var CHARACTERS = {
             'head_cry.png', 'head_angry.png', 'head_surprised.png',
             'head_talk1.png', 'head_talk2.png'],
     parts: {
-      legL:  { f: 'legL.png',  w: 66,  h: 217, left: 79,  top: 289, z: 1, o: 'top center' },
-      legR:  { f: 'legR.png',  w: 59,  h: 218, left: 138, top: 289, z: 2, o: 'top center' },
-      torso: { f: 'torso.png', w: 96,  h: 184, left: 92,  top: 83,  z: 3, o: 'center' },
-      pants: { f: 'pants.png', w: 79,  h: 51,  left: 100, top: 252, z: 4, o: 'center' },
-      armL:  { f: 'armL.png',  w: 41,  h: 149, left: 64,  top: 135, z: 5, o: 'top center' },
-      armR:  { f: 'armR.png',  w: 40,  h: 149, left: 178, top: 135, z: 5, o: 'top center' },
-      head:  { f: 'head.png',  w: 109, h: 124, left: 86,  top: 21,  z: 6, o: 'bottom center' }
+      legL:  { f: 'legL.png',  w: 74,  h: 205, left: 75,  top: 302, z: 1, o: 'top center' },
+      legR:  { f: 'legR.png',  w: 66,  h: 201, left: 135, top: 302, z: 2, o: 'top center' },
+      torso: { f: 'torso.png', w: 107, h: 206, left: 86,  top: 92,  z: 3, o: 'center' },
+      pants: { f: 'pants.png', w: 89,  h: 57,  left: 96,  top: 271, z: 4, o: 'center' },
+      armL:  { f: 'armL.png',  w: 46,  h: 126, left: 68,  top: 143, z: 5, o: 'top center' },
+      armR:  { f: 'armR.png',  w: 46,  h: 129, left: 168, top: 143, z: 5, o: 'top center' },
+      head:  { f: 'head.png',  w: 122, h: 139, left: 79,  top: 9,   z: 6, o: 'bottom center' }
     }
   }
 };
@@ -89,6 +89,7 @@ function buildChar(key) {
   charSlot.innerHTML = '';
   var note0 = document.getElementById('loadNote');
   if (note0) note0.classList.remove('hidden');
+  setTimeout(function () { var n = document.getElementById('loadNote'); if (n) n.classList.add('hidden'); }, 10000);
   var wrap = document.createElement('div');
   wrap.className = 'char';
   P = { char: wrap };
@@ -215,7 +216,7 @@ async function talkCycle(ms, withBubble) {
   bubbleEl.classList.add('hidden');
 }
 async function wave() {
-  var a = A(P.armR, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(-50deg)' }, { transform: 'rotate(-28deg)' }, { transform: 'rotate(-50deg)' }, { transform: 'rotate(-28deg)' }, { transform: 'rotate(0deg)' }], 2600);
+  var a = A(P.armR, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(-140deg)' }, { transform: 'rotate(-118deg)' }, { transform: 'rotate(-142deg)' }, { transform: 'rotate(-118deg)' }, { transform: 'rotate(0deg)' }], 2600);
   await fin(a);
 }
 async function headTurn() {
