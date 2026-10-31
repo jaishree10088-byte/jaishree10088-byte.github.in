@@ -22,12 +22,12 @@
           <option value="3/1">Wide (3:1)</option>
         </select>
       </label>
-      <label>Scene picture
+      <label>Scene picture — drawing ISI picture se banegi. Nayi story ke liye nayi picture upload karo, warna pehle wali drawing hi banegi.
         <input type="file" id="imgUpload" accept="image/*">
       </label>
     </div>
     <div class="row">
-      <label class="grow">Subtitle lines — one line per drawing zone (the hand draws each zone while its line is spoken)
+      <label class="grow">Subtitle lines — one line per drawing zone (the hand draws each zone while its line is spoken). Story ka text sirf awaaz aur tukdon ki sankhya badalta hai — drawing nahi badalta.
         <textarea id="lines" rows="3">Ek chhoti si chidiya thi, jo ek bade ped par apna ghosla banati thi.
 Achanak ek bada toofan aaya, tez hawa chali, aur uska ghosla hilne laga.
 Par chidiya ne himmat nahi hari, usne dobara ghosla banaya, aur phir khushi se gaane lagi.</textarea>
@@ -91,7 +91,7 @@ Par chidiya ne himmat nahi hari, usne dobara ghosla banaya, aur phir khushi se g
       <button id="speakStopBtn">■ Stop voice</button>
       <span id="ttsStatus"></span>
     </div>
-    <p class="note">Voice is generated free in your browser (no upload, no account). Hindi voices appear when your device has them installed; otherwise the default voice reads the text. Drawing + narration stay in the browser — no video file is exported yet.</p>
+    <p class="note">Voice is generated free in your browser (no upload, no account). Hindi voices appear when your device has them installed; otherwise the default voice reads the text. The drawing is always the scene picture above — changing the story text only changes the narration and the number of zones, not the picture. Download buttons save the animation (the video + voice version records via mic).</p>
   </section>
 </main>
 
