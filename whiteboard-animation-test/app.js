@@ -10,7 +10,7 @@
   var handImg = new Image();
   var imgReady = false, handReady = false;
 
-  var state = { playing: false, lineIndex: -1, progress: 0, lastTs: 0, estMs: 3000, doneZones: 0 };
+  var state = { playing: false, lineIndex: -1, progress: 0, lastTs: 0, estMs: 3000, doneZones: 0, speechDone: false };
 
   function fit() {
     var r = stage.getBoundingClientRect();
@@ -99,6 +99,13 @@
 
   // ---- story player ----
   var raf = 0;
+  function maybeAdvance() {
+    if (!state.playing) return;
+    if (state.progress >= 1 && state.speechDone) {
+      state.doneZones = state.lineIndex + 1; state.progress = 1; draw();
+      playLine(state.lineIndex + 1);
+    }
+  }
   function tick(ts) {
     if (!state.playing) return;
     if (state.lastTs) {
@@ -107,6 +114,7 @@
       draw();
     }
     state.lastTs = ts;
+    if (state.progress >= 1 && state.speechDone) { maybeAdvance(); return; }
     raf = requestAnimationFrame(tick);
   }
   function playLine(i) {
@@ -121,14 +129,13 @@
       } else { state.playing = false; setStatus('Finished. Press Play to watch again.'); }
       return;
     }
-    state.lineIndex = i; state.progress = 0; state.lastTs = 0;
+    state.lineIndex = i; state.progress = 0; state.lastTs = 0; state.speechDone = false;
     state.estMs = Math.max(2500, lines[i].length * 90);
     setStatus('Drawing + speaking line ' + (i + 1) + ' of ' + lines.length + '…');
     cancelAnimationFrame(raf);
     raf = requestAnimationFrame(tick);
     speak(lines[i], function () {
-      state.doneZones = i + 1; state.progress = 1; draw();
-      if (state.playing) playLine(i + 1);
+      state.speechDone = true; maybeAdvance();
     });
   }
   document.getElementById('playBtn').addEventListener('click', function () {
@@ -140,11 +147,13 @@
   document.getElementById('stopBtn').addEventListener('click', function () {
     state.playing = false; cancelAnimationFrame(raf);
     speechSynthesis.cancel();
-    state.doneZones = 0; state.lineIndex = -1; state.progress = 0;
+    state.doneZones = 0; state.lineIndex = -1; state.progress = 0; state.speechDone = false;
     draw(); setStatus('Stopped. Press Play to start again.');
   });
   document.getElementById('ratio').addEventListener('change', function (e) {
-    stage.style.aspectRatio = e.target.value;
+    var v = e.target.value;
+    stage.style.aspectRatio = v;
+    stage.style.maxWidth = (v === '9/16') ? '360px' : '960px';
     setTimeout(fit, 50);
   });
   document.getElementById('imgUpload').addEventListener('change', function (e) {
