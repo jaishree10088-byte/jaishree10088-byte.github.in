@@ -41,21 +41,27 @@ var CHARACTERS = {
   },
   cutout: {
     dir: '/2d-cartoon-animation/images/cutout',
-    heads: ['head.png', 'head_blink.png'],
+    heads: ['head.png', 'head_blink.png', 'head_smile.png', 'head_laugh.png', 'head_talk1.png', 'head_talk2.png'],
     parts: {
-      shoeL: { f: 'shoeL.png', w: 105, h: 47,  left: 60,  top: 463, z: 1, o: 'top center' },
-      shoeR: { f: 'shoeR.png', w: 105, h: 47,  left: 116, top: 463, z: 1, o: 'top center' },
-      shinL: { f: 'shinL.png', w: 66,  h: 109, left: 79,  top: 367, z: 2, o: 'top center' },
-      shinR: { f: 'shinR.png', w: 66,  h: 109, left: 135, top: 367, z: 2, o: 'top center' },
-      thighL:{ f: 'thighL.png',w: 92,  h: 127, left: 66,  top: 255, z: 3, o: 'top center' },
-      thighR:{ f: 'thighR.png',w: 92,  h: 127, left: 123, top: 255, z: 3, o: 'top center' },
+      legL:  { f: 'legL.png',  w: 102, h: 246, left: 61,  top: 255, z: 1, o: 'top center' },
+      legR:  { f: 'legR.png',  w: 102, h: 246, left: 117, top: 255, z: 2, o: 'top center' },
       torso: { f: 'torso.png', w: 132, h: 133, left: 74,  top: 112, z: 4, o: 'center' },
       belt:  { f: 'belt.png',  w: 152, h: 33,  left: 64,  top: 235, z: 5, o: 'center' },
-      sleeveL:{ f: 'sleeveL.png',w: 70, h: 94,  left: 29,  top: 122, z: 6, o: 'top center' },
-      sleeveR:{ f: 'sleeveR.png',w: 70, h: 94,  left: 181, top: 122, z: 6, o: 'top center' },
-      foreL: { f: 'foreL.png', w: 81,  h: 168, left: 24,  top: 184, z: 7, o: 'top center' },
-      foreR: { f: 'foreR.png', w: 81,  h: 168, left: 176, top: 184, z: 7, o: 'top center' },
+      armL:  { f: 'armL.png',  w: 78,  h: 225, left: 25,  top: 122, z: 6, o: 'top center' },
+      armR:  { f: 'armR.png',  w: 78,  h: 225, left: 177, top: 122, z: 6, o: 'top center' },
       head:  { f: 'head.png',  w: 116, h: 115, left: 82,  top: 13,  z: 8, o: 'bottom center' }
+    }
+  },
+  boy: {
+    dir: '/2d-cartoon-animation/images/boy',
+    heads: ['head.png', 'head_blink.png', 'head_smile.png', 'head_laugh.png', 'head_talk1.png', 'head_talk2.png'],
+    parts: {
+      legL: { f: 'footL.png', w: 90,  h: 104, left: 67,  top: 387, z: 1, o: 'top center' },
+      legR: { f: 'footR.png', w: 80,  h: 102, left: 128, top: 387, z: 1, o: 'top center' },
+      torso: { f: 'torso.png', w: 112, h: 325, left: 84,  top: 78,  z: 2, o: 'center' },
+      armL:  { f: 'armL.png',  w: 58,  h: 224, left: 52,  top: 103, z: 3, o: 'top center' },
+      armR:  { f: 'armR.png',  w: 62,  h: 294, left: 168, top: 103, z: 3, o: 'top center' },
+      head:  { f: 'head.png',  w: 107, h: 115, left: 86,  top: 13,  z: 4, o: 'bottom center' }
     }
   }
 };
