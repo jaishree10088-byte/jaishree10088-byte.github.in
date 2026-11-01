@@ -146,10 +146,10 @@
   <a href="#akhbaar" data-cat="all" class="active">📰 Home</a>
   <a href="#akhbaar" data-cat="bharat">🇮🇳 Bharat</a>
   <a href="#akhbaar" data-cat="duniya">🌐 World</a>
-  <a href="#akhbaar" data-cat="khel">🏏 Khel</a>
+  <a href="#akhbaar" data-cat="khel">🏏 Sport</a>
   <a href="#akhbaar" data-cat="vyapar">💰 Business</a>
   <a href="#trendsSec">🔥 Trending</a>
-  <a href="#feedSec">⚡ 100 Khabrein</a>
+  <a href="#feedSec">⚡ 100 News</a>
   <a href="#ebookSec">📚 eBook</a>
 </div></nav>
 
@@ -187,7 +187,7 @@
   </section>
 
   <section id="feedSec">
-    <h2 class="sec">⚡ 100 Taaza Khabrein <span class="rule-red">—</span> Photo ke Sath</h2>
+    <h2 class="sec">⚡ 100 News <span class="rule-red">—</span> Photo ke Sath</h2>
     <p class="sec-sub" id="feed100Meta">Roz subah ki 100 badi khabrein ikatthe…</p>
     <div id="feed100" class="list"><p class="loading">100 khabrein aa rahi hain…</p></div>
   </section>
@@ -320,7 +320,7 @@
 
   // ---- Apna Akhbaar (khud ka likha hua, roz automatic) — photo + hashtag ke sath ----
   var akhLang = "hi", akhData = null, akhFilter = "all";
-  var CATNAMES = { bharat: "🇮🇳 Bharat", duniya: "🌐 World", khel: "🏏 Khel", vyapar: "💰 Business", khaas: "⭐ Khaas" };
+  var CATNAMES = { bharat: "🇮🇳 Bharat", duniya: "🌐 World", khel: "🏏 Sport", vyapar: "💰 Business", khaas: "⭐ Khaas" };
 
   function storyCard(st, full) {
     var title = akhLang === "hi" ? st.title_hi : st.title_en;
@@ -472,8 +472,8 @@
       });
   }
 
-  // ---- 100 Taaza Khabrein (roz subah 5 baje naya sangrah) ----
-  var CATLBL = { "bharat-hi": "🇮🇳 Bharat", "bharat-en": "🇮🇳 Bharat", khel: "🏏 Khel", vyapar: "💰 Business", duniya: "🌐 World" };
+  // ---- 100 News (roz subah 5 baje naya sangrah) ----
+  var CATLBL = { "bharat-hi": "🇮🇳 Bharat", "bharat-en": "🇮🇳 Bharat", khel: "🏏 Sport", vyapar: "💰 Business", duniya: "🌐 World" };
   fetch("/feed100.json?t=" + Date.now()).then(function (r) {
     if (!r.ok) throw new Error("no feed");
     return r.json();
