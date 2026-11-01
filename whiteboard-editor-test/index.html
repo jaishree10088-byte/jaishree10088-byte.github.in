@@ -172,6 +172,23 @@ fi.addEventListener('change', async () => {
   S.dirHandle = null;
   await loadPairs(Object.keys(files), n => files[n], () => null);
 });
+// STAGING ONLY: demo loader — fetches the two demo files hosted next to
+// this page and runs the exact same loadPairs path as a folder open.
+const demoBtn = document.createElement('button');
+demoBtn.textContent = 'Load demo scene';
+demoBtn.style.cssText = 'position:fixed;right:8px;bottom:48px;z-index:9999;background:#fff;border:2px solid #333;padding:6px;';
+demoBtn.addEventListener('click', async () => {
+  try {
+    const files = {};
+    for (const n of ['scene-01-monkey-mountain-banana.png', 'scene-01-monkey-mountain-banana.annotation.json']) {
+      const r = await fetch('./' + n); if (!r.ok) throw new Error(n + ' fetch ' + r.status);
+      files[n] = new File([await r.blob()], n);
+    }
+    S.dirHandle = null;
+    await loadPairs(Object.keys(files), n => files[n], () => null);
+  } catch (e) { toast('Demo load failed: ' + e.message, true); }
+});
+document.body.appendChild(demoBtn);
 function baseName(n) { const ext = IMG_EXT.find(e => n.toLowerCase().endsWith(e)); return ext ? n.slice(0, -ext.length) : null; }
 const pairedImageNames = names => names.filter(n => { const base = baseName(n); return base !== null && names.includes(base + '.annotation.json'); }).sort();
 
