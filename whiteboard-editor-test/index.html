@@ -161,7 +161,11 @@ async function openDir() {
   } catch (e) { if (e && e.name !== 'AbortError') fi.click(); }
 }
 const fi = document.createElement('input');
-fi.type = 'file'; fi.webkitdirectory = true; fi.multiple = true; fi.hidden = true;
+fi.type = 'file'; fi.webkitdirectory = true; fi.multiple = true;
+// STAGING ONLY: visible fallback input so automated testing can target it
+// (live keeps this hidden — fi.click() opens the chooser there).
+fi.title = 'Choose folder (fallback)';
+fi.style.cssText = 'position:fixed;right:8px;bottom:8px;z-index:9999;background:#fff;border:2px solid #333;padding:6px;';
 document.body.appendChild(fi);
 fi.addEventListener('change', async () => {
   const files = {}; [...fi.files].forEach(f => files[f.name] = f);
