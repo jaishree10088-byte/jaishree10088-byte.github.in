@@ -143,11 +143,11 @@
 </header>
 
 <nav class="nav"><div class="nav-in" id="catNav">
-  <a href="#akhbaar" data-cat="all" class="active">📰 Mukhya</a>
+  <a href="#akhbaar" data-cat="all" class="active">📰 Home</a>
   <a href="#akhbaar" data-cat="bharat">🇮🇳 Bharat</a>
-  <a href="#akhbaar" data-cat="duniya">🌐 Duniya</a>
+  <a href="#akhbaar" data-cat="duniya">🌐 World</a>
   <a href="#akhbaar" data-cat="khel">🏏 Khel</a>
-  <a href="#akhbaar" data-cat="vyapar">💰 Vyapar</a>
+  <a href="#akhbaar" data-cat="vyapar">💰 Business</a>
   <a href="#trendsSec">🔥 Trending</a>
   <a href="#feedSec">⚡ 100 Khabrein</a>
   <a href="#ebookSec">📚 eBook</a>
@@ -164,7 +164,7 @@
     <h2 class="sec">✍️ Apna Akhbaar <span class="rule-red">—</span> Humari Kalam Se</h2>
     <p class="sec-sub" id="akhbaarEdition">Aaj ka akhbaar aa raha hai…</p>
     <div class="langbar">
-      <button class="langbtn active" id="btnHi">देवनागरी</button>
+      <button class="langbtn active" id="btnHi">Hindi</button>
       <button class="langbtn" id="btnEn">English</button>
     </div>
     <div id="hero"></div>
@@ -320,7 +320,7 @@
 
   // ---- Apna Akhbaar (khud ka likha hua, roz automatic) — photo + hashtag ke sath ----
   var akhLang = "hi", akhData = null, akhFilter = "all";
-  var CATNAMES = { bharat: "🇮🇳 Bharat", duniya: "🌐 Duniya", khel: "🏏 Khel", vyapar: "💰 Vyapar", khaas: "⭐ Khaas" };
+  var CATNAMES = { bharat: "🇮🇳 Bharat", duniya: "🌐 World", khel: "🏏 Khel", vyapar: "💰 Business", khaas: "⭐ Khaas" };
 
   function storyCard(st, full) {
     var title = akhLang === "hi" ? st.title_hi : st.title_en;
@@ -473,7 +473,7 @@
   }
 
   // ---- 100 Taaza Khabrein (roz subah 5 baje naya sangrah) ----
-  var CATLBL = { "bharat-hi": "🇮🇳 Bharat", "bharat-en": "🇮🇳 Bharat", khel: "🏏 Khel", vyapar: "💰 Vyapar", duniya: "🌐 Duniya" };
+  var CATLBL = { "bharat-hi": "🇮🇳 Bharat", "bharat-en": "🇮🇳 Bharat", khel: "🏏 Khel", vyapar: "💰 Business", duniya: "🌐 World" };
   fetch("/feed100.json?t=" + Date.now()).then(function (r) {
     if (!r.ok) throw new Error("no feed");
     return r.json();
