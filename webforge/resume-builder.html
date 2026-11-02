@@ -291,26 +291,30 @@ Viral Video Studio — Video enhancement plus viral toolkit app</textarea>
 <th style="border:1px solid #94a3b8;background:#DCE6F1;color:#16324F;font-weight:bold;padding:6px;text-align:left;">Qualification</th>
 <th style="border:1px solid #94a3b8;background:#DCE6F1;color:#16324F;font-weight:bold;padding:6px;text-align:left;">School / College</th>
 <th style="border:1px solid #94a3b8;background:#DCE6F1;color:#16324F;font-weight:bold;padding:6px;text-align:left;">Board / University</th>
-<th style="border:1px solid #94a3b8;background:#DCE6F1;color:#16324F;font-weight:bold;padding:6px;text-align:left;">Year / Marks</th>
+<th style="border:1px solid #94a3b8;background:#DCE6F1;color:#16324F;font-weight:bold;padding:6px;text-align:left;">Year</th>
+<th style="border:1px solid #94a3b8;background:#DCE6F1;color:#16324F;font-weight:bold;padding:6px;text-align:left;">Marks</th>
 </tr></thead>
 <tbody>
 <tr>
 <td style="border:1px solid #94a3b8;padding:4px;"><input id="edu10_qual" value="10th" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
 <td style="border:1px solid #94a3b8;padding:4px;"><input id="edu10_school" placeholder="School name" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
 <td style="border:1px solid #94a3b8;padding:4px;"><input id="edu10_board" placeholder="Board name" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
-<td style="border:1px solid #94a3b8;padding:4px;"><input id="edu10_year" placeholder="Year / %" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
+<td style="border:1px solid #94a3b8;padding:4px;"><input id="edu10_year" placeholder="Year" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
+<td style="border:1px solid #94a3b8;padding:4px;"><input id="edu10_marks" placeholder="Marks / %" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
 </tr>
 <tr>
 <td style="border:1px solid #94a3b8;padding:4px;"><input id="edu12_qual" value="12th" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
 <td style="border:1px solid #94a3b8;padding:4px;"><input id="edu12_school" placeholder="School / College" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
 <td style="border:1px solid #94a3b8;padding:4px;"><input id="edu12_board" placeholder="Board name" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
-<td style="border:1px solid #94a3b8;padding:4px;"><input id="edu12_year" placeholder="Year / %" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
+<td style="border:1px solid #94a3b8;padding:4px;"><input id="edu12_year" placeholder="Year" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
+<td style="border:1px solid #94a3b8;padding:4px;"><input id="edu12_marks" placeholder="Marks / %" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
 </tr>
 <tr>
 <td style="border:1px solid #94a3b8;padding:4px;"><input id="eduGrad_qual" value="Graduation / Other" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
 <td style="border:1px solid #94a3b8;padding:4px;"><input id="eduGrad_school" placeholder="College name" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
 <td style="border:1px solid #94a3b8;padding:4px;"><input id="eduGrad_board" placeholder="University / Board" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
-<td style="border:1px solid #94a3b8;padding:4px;"><input id="eduGrad_year" placeholder="Year / %" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
+<td style="border:1px solid #94a3b8;padding:4px;"><input id="eduGrad_year" placeholder="Year" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
+<td style="border:1px solid #94a3b8;padding:4px;"><input id="eduGrad_marks" placeholder="Marks / %" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
 </tr>
 </tbody></table></div></div>
 </div>
@@ -369,11 +373,11 @@ Viral Video Studio — Video enhancement plus viral toolkit app</textarea>
     }
         function eduRows() {
       var rows = [];
-      [["edu10_qual", "edu10_school", "edu10_board", "edu10_year"],
-       ["edu12_qual", "edu12_school", "edu12_board", "edu12_year"],
-       ["eduGrad_qual", "eduGrad_school", "eduGrad_board", "eduGrad_year"]].forEach(function (ids) {
-        var q = val(ids[0]).trim(), sc = val(ids[1]).trim(), bd = val(ids[2]).trim(), yr = val(ids[3]).trim();
-        if (sc || bd || yr) rows.push([q, sc, bd, yr]);
+      [["edu10_qual", "edu10_school", "edu10_board", "edu10_year", "edu10_marks"],
+       ["edu12_qual", "edu12_school", "edu12_board", "edu12_year", "edu12_marks"],
+       ["eduGrad_qual", "eduGrad_school", "eduGrad_board", "eduGrad_year", "eduGrad_marks"]].forEach(function (ids) {
+        var q = val(ids[0]).trim(), sc = val(ids[1]).trim(), bd = val(ids[2]).trim(), yr = val(ids[3]).trim(), mk = val(ids[4]).trim();
+        if (sc || bd || yr || mk) rows.push([q, sc, bd, yr, mk]);
       });
       return rows;
     }
@@ -388,9 +392,9 @@ Viral Video Studio — Video enhancement plus viral toolkit app</textarea>
       if (about) h += section("Professional Summary / Career Objective") + '<div style="font-size: 14px;">' + esc(about) + '</div>';
       if (edu.length) {
         h += section("Education") + '<table style="width: 100%; border-collapse: collapse; font-size: 14px;">';
-        h += '<tr><th style="border: 1px solid #94a3b8; background: #DCE6F1; color: #16324F; font-weight: bold; padding: 6px 8px; text-align: left;">Qualification</th><th style="border: 1px solid #94a3b8; background: #DCE6F1; color: #16324F; font-weight: bold; padding: 6px 8px; text-align: left;">School / College</th><th style="border: 1px solid #94a3b8; background: #DCE6F1; color: #16324F; font-weight: bold; padding: 6px 8px; text-align: left;">Board / University</th><th style="border: 1px solid #94a3b8; background: #DCE6F1; color: #16324F; font-weight: bold; padding: 6px 8px; text-align: left;">Year / Marks</th></tr>';
+        h += '<tr><th style="border: 1px solid #94a3b8; background: #DCE6F1; color: #16324F; font-weight: bold; padding: 6px 8px; text-align: left;">Qualification</th><th style="border: 1px solid #94a3b8; background: #DCE6F1; color: #16324F; font-weight: bold; padding: 6px 8px; text-align: left;">School / College</th><th style="border: 1px solid #94a3b8; background: #DCE6F1; color: #16324F; font-weight: bold; padding: 6px 8px; text-align: left;">Board / University</th><th style="border: 1px solid #94a3b8; background: #DCE6F1; color: #16324F; font-weight: bold; padding: 6px 8px; text-align: left;">Year</th><th style="border: 1px solid #94a3b8; background: #DCE6F1; color: #16324F; font-weight: bold; padding: 6px 8px; text-align: left;">Marks</th></tr>';
         edu.forEach(function (r) {
-          h += '<tr><td style="border: 1px solid #94a3b8; padding: 6px 8px;">' + esc(r[0]) + '</td><td style="border: 1px solid #94a3b8; padding: 6px 8px;">' + esc(r[1]) + '</td><td style="border: 1px solid #94a3b8; padding: 6px 8px;">' + esc(r[2]) + '</td><td style="border: 1px solid #94a3b8; padding: 6px 8px;">' + esc(r[3]) + '</td></tr>';
+          h += '<tr><td style="border: 1px solid #94a3b8; padding: 6px 8px;">' + esc(r[0]) + '</td><td style="border: 1px solid #94a3b8; padding: 6px 8px;">' + esc(r[1]) + '</td><td style="border: 1px solid #94a3b8; padding: 6px 8px;">' + esc(r[2]) + '</td><td style="border: 1px solid #94a3b8; padding: 6px 8px;">' + esc(r[3]) + '</td><td style="border: 1px solid #94a3b8; padding: 6px 8px;">' + esc(r[4]) + '</td></tr>';
         });
         h += '</table>';
       }
@@ -496,7 +500,7 @@ Viral Video Studio — Video enhancement plus viral toolkit app</textarea>
       if (rb) rb.classList.add("hidden");
       renderResume();
     }
-    ["resName", "resTitle", "resEmail", "resPhone", "resWebsite", "resAbout", "resSkills", "resProjects", "edu10_qual", "edu10_school", "edu10_board", "edu10_year", "edu12_qual", "edu12_school", "edu12_board", "edu12_year", "eduGrad_qual", "eduGrad_school", "eduGrad_board", "eduGrad_year"].forEach(function (id) {
+    ["resName", "resTitle", "resEmail", "resPhone", "resWebsite", "resAbout", "resSkills", "resProjects", "edu10_qual", "edu10_school", "edu10_board", "edu10_year", "edu10_marks", "edu12_qual", "edu12_school", "edu12_board", "edu12_year", "edu12_marks", "eduGrad_qual", "eduGrad_school", "eduGrad_board", "eduGrad_year", "eduGrad_marks"].forEach(function (id) {
       var el = document.getElementById(id);
       if (el) el.addEventListener("input", renderResume);
     });
