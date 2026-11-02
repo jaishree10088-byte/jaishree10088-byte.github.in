@@ -258,6 +258,12 @@
 <input id="resWebsite" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md" type="text" value="https://sandipk.qd.je"/>
 </div>
 <div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Photo (optional)</label>
+<input id="resPhoto" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md" type="file" accept="image/*"/>
+<p class="font-body-sm text-body-sm text-slate-600 mt-1">Photo appears in the "Add Photo Here" box in the header. It is saved inside the downloaded file.</p>
+<button id="resPhotoRemove" class="hidden mt-1 px-space-sm py-1.5 rounded-lg bg-slate-900 text-white font-label-caps text-label-caps" type="button">Remove Photo</button>
+</div>
 <label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">About</label>
 <textarea id="resAbout" rows="3" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md">Android app developer and content creator. I build practical Android apps and run a daily newspaper and a classic silent-comedy YouTube channel.</textarea>
 </div>
@@ -299,30 +305,53 @@ Viral Video Studio — Video enhancement plus viral toolkit app</textarea>
 </main></div>
 <script>
   (function () {
+    var photoDataURL = "";
     function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
     function val(id) { var el = document.getElementById(id); return el ? el.value : ""; }
     function section(title) {
-      return '<div style="font-size: 14px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; color: #1f3a5f; border-bottom: 1px solid #d1d5db; padding-bottom: 4px; margin-top: 18px; margin-bottom: 8px;">' + title + '</div>';
+      return '<div style="font-size: 15px; font-weight: bold; color: #16324F; text-transform: uppercase; margin-top: 18px; margin-bottom: 6px;">' + title + '</div>';
     }
-    function resumeBodyHTML() {
+    function headerHTML() {
       var name = val("resName").trim() || "Your Name";
       var title = val("resTitle").trim();
       var email = val("resEmail").trim();
       var phone = val("resPhone").trim();
       var website = val("resWebsite").trim();
+      var parts = [];
+      if (phone) parts.push("PHONE  " + phone);
+      if (email) parts.push("EMAIL  " + email);
+      var contact1 = parts.join("   |   ");
+      var photoBox = "";
+      if (photoDataURL) {
+        photoBox = '<img src="' + photoDataURL + '" style="width: 100%; height: 100%; object-fit: cover; display: block;" alt="Photo"/>';
+      } else {
+        photoBox = '<div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; text-align: center; color: #ffffff; font-weight: bold; font-size: 14px; line-height: 1.4;">ADD<br/>PHOTO<br/>HERE</div>';
+      }
+      var h = '<div style="display: table; width: 100%; background: #16324F;">';
+      h += '<div style="display: table-cell; vertical-align: middle; padding: 20px;">';
+      h += '<div style="font-size: 30px; font-weight: bold; color: #ffffff; line-height: 1.2;">' + esc(name) + '</div>';
+      if (title) h += '<div style="font-size: 14px; color: #E0EBF2; margin-top: 4px;">' + esc(title) + '</div>';
+      if (contact1) h += '<div style="font-size: 12px; color: #E0EBF2; margin-top: 6px;">' + esc(contact1) + '</div>';
+      if (website) h += '<div style="font-size: 12px; color: #E0EBF2; margin-top: 2px;">' + esc(website) + '</div>';
+      h += '</div>';
+      h += '<div style="display: table-cell; width: 170px; vertical-align: middle; padding: 10px;">';
+      h += '<div style="width: 150px; height: 170px; border: 2px solid #ffffff; background: #16324F; overflow: hidden;">' + photoBox + '</div>';
+      h += '</div>';
+      h += '</div>';
+      return h;
+    }
+    function resumeBodyHTML() {
       var about = val("resAbout").trim();
       var skills = val("resSkills").split(",").map(function (x) { return x.trim(); }).filter(Boolean);
       var projects = val("resProjects").split("\n").map(function (x) { return x.trim(); }).filter(Boolean);
       var edu = val("resEducation").trim();
-      var contact = [email, phone, website].filter(Boolean).join("  •  ");
-      var h = '<div style="font-family: Arial, Helvetica, sans-serif; color: #1f2937; line-height: 1.5;">';
-      h += '<div style="font-size: 28px; font-weight: bold; color: #1f3a5f; margin-bottom: 2px;">' + esc(name) + '</div>';
-      if (title) h += '<div style="font-size: 16px; color: #4b5563; margin-bottom: 8px;">' + esc(title) + '</div>';
-      if (contact) h += '<div style="font-size: 13px; color: #6b7280; border-bottom: 2px solid #1f3a5f; padding-bottom: 10px; margin-bottom: 16px;">' + esc(contact) + '</div>';
-      if (about) h += section("About") + '<div style="font-size: 14px;">' + esc(about) + '</div>';
-      if (skills.length) h += section("Skills") + '<div style="font-size: 14px;">' + skills.map(esc).join("  •  ") + '</div>';
+      var name = val("resName").trim() || "Your Name";
+      var h = '<div style="font-family: Aptos Display, Arial, Helvetica, sans-serif; color: #1f2937; line-height: 1.5;">';
+      h += headerHTML();
+      if (about) h += section("Professional Summary / Career Objective") + '<div style="font-size: 14px;">' + esc(about) + '</div>';
+      if (edu) h += section("Education") + '<div style="font-size: 14px;">' + esc(edu).replace(/\n/g, "<br/>") + '</div>';
       if (projects.length) {
-        h += section("Projects") + '<ul style="font-size: 14px; margin: 0; padding-left: 20px;">';
+        h += section("Work Experience") + '<ul style="font-size: 14px; margin: 0; padding-left: 20px;">';
         projects.forEach(function (line) {
           var parts = line.split(" — ");
           if (parts.length > 1) h += '<li><b>' + esc(parts[0]) + '</b> — ' + esc(parts.slice(1).join(" — ")) + '</li>';
@@ -330,7 +359,14 @@ Viral Video Studio — Video enhancement plus viral toolkit app</textarea>
         });
         h += '</ul>';
       }
-      if (edu) h += section("Education") + '<div style="font-size: 14px;">' + esc(edu) + '</div>';
+      if (skills.length) {
+        h += section("Key Skills") + '<ul style="font-size: 14px; margin: 0; padding-left: 20px;">';
+        skills.forEach(function (line) { h += '<li>' + esc(line) + '</li>'; });
+        h += '</ul>';
+      }
+      h += section("Declaration") + '<div style="font-size: 14px;">I hereby declare that the information provided above is true and correct to the best of my knowledge.</div>';
+      h += '<div style="font-size: 14px; font-weight: bold; margin-top: 16px;">Place: __________________&nbsp;&nbsp;&nbsp;&nbsp;Date: __________________</div>';
+      h += '<div style="font-size: 14px; text-align: right; margin-top: 16px;"><b>Signature</b><br/>(' + esc(name) + ')</div>';
       h += '</div>';
       return h;
     }
@@ -377,10 +413,53 @@ Viral Video Studio — Video enhancement plus viral toolkit app</textarea>
         setTimeout(function () { card.style.boxShadow = ""; }, 1500);
       }
     }
+    function afterPhoto() {
+      renderResume();
+      var rb = document.getElementById("resPhotoRemove");
+      if (rb) rb.classList.remove("hidden");
+    }
+    function handlePhoto(file) {
+      if (!file) return;
+      var reader = new FileReader();
+      reader.onload = function (e) {
+        var img = new Image();
+        img.onload = function () {
+          try {
+            var max = 400;
+            var w = img.width, hh = img.height;
+            var scale = Math.min(1, max / Math.max(w, hh));
+            var cw = Math.round(w * scale), ch = Math.round(hh * scale);
+            var cv = document.createElement("canvas");
+            cv.width = cw; cv.height = ch;
+            var ctx = cv.getContext("2d");
+            ctx.drawImage(img, 0, 0, cw, ch);
+            photoDataURL = cv.toDataURL("image/jpeg", 0.85);
+          } catch (err) {
+            photoDataURL = e.target.result;
+          }
+          afterPhoto();
+        };
+        img.onerror = function () { photoDataURL = e.target.result; afterPhoto(); };
+        img.src = e.target.result;
+      };
+      reader.readAsDataURL(file);
+    }
+    function removePhoto() {
+      photoDataURL = "";
+      var inp = document.getElementById("resPhoto");
+      if (inp) inp.value = "";
+      var rb = document.getElementById("resPhotoRemove");
+      if (rb) rb.classList.add("hidden");
+      renderResume();
+    }
     ["resName", "resTitle", "resEmail", "resPhone", "resWebsite", "resAbout", "resSkills", "resProjects", "resEducation"].forEach(function (id) {
       var el = document.getElementById(id);
       if (el) el.addEventListener("input", renderResume);
     });
+    var ph = document.getElementById("resPhoto");
+    if (ph) ph.addEventListener("change", function () { if (ph.files && ph.files[0]) handlePhoto(ph.files[0]); });
+    var rb = document.getElementById("resPhotoRemove");
+    if (rb) rb.addEventListener("click", removePhoto);
     var dl = document.getElementById("resDownload");
     if (dl) dl.addEventListener("click", downloadResume);
     var pr = document.getElementById("resPrint");
