@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      "colors": {
+        "surface-dim": "#0f131d",
+        "on-secondary-container": "#00424e",
+        "secondary-fixed-dim": "#4cd7f6",
+        "outline-variant": "#494454",
+        "inverse-surface": "#dfe2f1",
+        "tertiary-container": "#00a572",
+        "on-error-container": "#ffdad6",
+        "primary-container": "#a078ff",
+        "surface-container-high": "#262a35",
+        "on-primary-fixed": "#23005c",
+        "tertiary-fixed-dim": "#4edea3",
+        "inverse-primary": "#6d3bd7",
+        "tertiary": "#4edea3",
+        "primary": "#d0bcff",
+        "on-primary": "#3c0091",
+        "outline": "#958ea0",
+        "surface-container-low": "#171b26",
+        "on-tertiary-container": "#00311f",
+        "on-tertiary-fixed": "#002113",
+        "surface-tint": "#d0bcff",
+        "secondary": "#4cd7f6",
+        "surface-container-lowest": "#0a0e18",
+        "tertiary-fixed": "#6ffbbe",
+        "background": "#0f131d",
+        "primary-fixed": "#e9ddff",
+        "on-secondary": "#003640",
+        "on-tertiary": "#003824",
+        "primary-fixed-dim": "#d0bcff",
+        "secondary-container": "#03b5d3",
+        "on-surface-variant": "#cbc3d7",
+        "surface-container-highest": "#313540",
+        "surface-container": "#1c1f2a",
+        "inverse-on-surface": "#2c303b",
+        "on-primary-container": "#340080",
+        "surface-bright": "#353944",
+        "on-secondary-fixed": "#001f26",
+        "on-secondary-fixed-variant": "#004e5c",
+        "surface-variant": "#313540",
+        "on-error": "#690005",
+        "secondary-fixed": "#acedff",
+        "surface": "#0f131d",
+        "error": "#ffb4ab",
+        "on-primary-fixed-variant": "#5516be",
+        "on-surface": "#dfe2f1",
+        "on-tertiary-fixed-variant": "#005236",
+        "on-background": "#dfe2f1",
+        "error-container": "#93000a"
+      },
+      "borderRadius": {
+        "DEFAULT": "0.125rem",
+        "lg": "0.25rem",
+        "xl": "0.5rem",
+        "full": "0.75rem"
+      },
+      "spacing": {
+        "space-md": "1rem",
+        "gutter-mobile": "0.75rem",
+        "margin-mobile": "1rem",
+        "space-xl": "2.5rem",
+        "margin": "2rem",
+        "space-xs": "0.25rem",
+        "space-lg": "1.5rem",
+        "gutter": "1.25rem",
+        "space-sm": "0.5rem"
+      },
+      "fontFamily": {
+        "telemetry-metric": [
+          "JetBrains Mono"
+        ],
+        "headline-lg-mobile": [
+          "Inter"
+        ],
+        "body-md": [
+          "Inter"
+        ],
+        "code-sm": [
+          "JetBrains Mono"
+        ],
+        "title-md": [
+          "Inter"
+        ],
+        "label-caps": [
+          "JetBrains Mono"
+        ],
+        "code-lg": [
+          "JetBrains Mono"
+        ],
+        "headline-md": [
+          "Inter"
+        ],
+        "headline-sm": [
+          "Inter"
+        ],
+        "display-xl-mobile": [
+          "Inter"
+        ],
+        "display-xl": [
+          "Inter"
+        ],
+        "body-lg": [
+          "Inter"
+        ],
+        "body-sm": [
+          "Inter"
+        ],
+        "headline-lg": [
+          "Inter"
+        ]
+      },
+      "fontSize": {
+        "telemetry-metric": [
+          "22px",
+          {
+            "lineHeight": "28px",
+            "letterSpacing": "0.02em",
+            "fontWeight": "700"
+          }
+        ],
+        "headline-lg-mobile": [
+          "26px",
+          {
+            "lineHeight": "34px",
+            "letterSpacing": "-0.015em",
+            "fontWeight": "600"
+          }
+        ],
+        "body-md": [
+          "14px",
+          {
+            "lineHeight": "22px",
+            "fontWeight": "400"
+          }
+        ],
+        "code-sm": [
+          "12px",
+          {
+            "lineHeight": "18px",
+            "fontWeight": "400"
+          }
+        ],
+        "title-md": [
+          "16px",
+          {
+            "lineHeight": "24px",
+            "letterSpacing": "-0.005em",
+            "fontWeight": "600"
+          }
+        ],
+        "label-caps": [
+          "11px",
+          {
+            "lineHeight": "16px",
+            "letterSpacing": "0.08em",
+            "fontWeight": "600"
+          }
+        ],
+        "code-lg": [
+          "14px",
+          {
+            "lineHeight": "22px",
+            "fontWeight": "500"
+          }
+        ],
+        "headline-md": [
+          "24px",
+          {
+            "lineHeight": "32px",
+            "letterSpacing": "-0.015em",
+            "fontWeight": "600"
+          }
+        ],
+        "headline-sm": [
+          "20px",
+          {
+            "lineHeight": "28px",
+            "letterSpacing": "-0.01em",
+            "fontWeight": "600"
+          }
+        ],
+        "display-xl-mobile": [
+          "36px",
+          {
+            "lineHeight": "44px",
+            "letterSpacing": "-0.02em",
+            "fontWeight": "700"
+          }
+        ],
+        "display-xl": [
+          "56px",
+          {
+            "lineHeight": "64px",
+            "letterSpacing": "-0.03em",
+            "fontWeight": "700"
+          }
+        ],
+        "body-lg": [
+          "16px",
+          {
+            "lineHeight": "26px",
+            "fontWeight": "400"
+          }
+        ],
+        "body-sm": [
+          "12px",
+          {
+            "lineHeight": "18px",
+            "fontWeight": "400"
+          }
+        ],
+        "headline-lg": [
+          "32px",
+          {
+            "lineHeight": "40px",
+            "letterSpacing": "-0.02em",
+            "fontWeight": "600"
+          }
+        ]
+      }
+    }
+  }
+}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased">
+<div class="w-full px-space-md py-space-sm bg-secondary-container/20 border-b border-secondary/30 text-center font-body-sm text-body-sm text-on-surface">PUBLIC PREVIEW — Live scanning needs the local version. <a class="text-secondary underline font-semibold" href="/downloads/webforge-website.zip">Download the local website</a> to run real scans on your computer.</div><aside class="fixed left-0 top-0 h-full w-64 bg-surface-container-low/90 backdrop-blur-xl z-50 flex flex-col justify-between shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex flex-col flex-1 min-h-0"><div class="h-16 px-space-md flex items-center gap-space-sm bg-surface-container-lowest/60"><img alt="WebForge AI Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XuiRWGJzzoEASabZ-bT3kOUomZrdu33Zxrmg1DP_Rj0WARWr6X3b9ZxtlcCQvWZEdSx87CTLp0XYnWnhlCK_DQsYtHr-Vida3pvx5AlqK3res4VvWFRcz4l4OgoSh86SZ2J1PI59TuHdsR6lnbaBPlDctOSGoF4Q0WjSg6sryxRkhZniCW306VcIYBxV71-SorXNwnFZgYU0iYu8ysoSOLA8vk8uq2OGARNcjb9ZXzvw"/><div class="flex flex-col"><span class="font-title-md text-title-md tracking-tight text-on-surface font-bold">WebForge AI</span><span class="font-label-caps text-label-caps text-secondary tracking-widest">SEC-CORE v4.9</span></div></div><div class="overflow-y-auto px-space-sm py-space-sm space-y-space-md flex-1"><div class="space-y-space-xs"><div class="px-space-sm font-label-caps text-label-caps text-outline tracking-wider uppercase">Core</div><nav class="space-y-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-lg shadow-[0_0_12px_rgba(160,120,255,0.25)]"><a aria-current="page" class="flex items-center gap-space-sm px-space-sm py-space-xs transition-all bg-primary-container text-on-primary-container font-semibold rounded-lg shadow-[0_0_12px_rgba(160,120,255,0.25)]" data-path="dashboard" href="index.html"><span class="material-symbols-outlined text-title-md">grid_view</span><span class="font-body-md text-body-md">Dashboard</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="resume-builder" href="resume-builder.html"><span class="material-symbols-outlined text-title-md">description</span><span class="font-body-md text-body-md">Resume Builder</span></a></nav></div><div class="space-y-space-xs"><div class="px-space-sm font-label-caps text-label-caps text-outline tracking-wider uppercase">AI Studio</div><nav class="space-y-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-lg shadow-[0_0_12px_rgba(160,120,255,0.25)]"><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="ai-website-builder" href="ai-website-builder.html"><span class="material-symbols-outlined text-title-md">auto_fix_high</span><span class="font-body-md text-body-md">AI Website Builder</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="website-editor" href="#"><span class="material-symbols-outlined text-title-md">code_blocks</span><span class="font-body-md text-body-md">Website Editor</span></a></nav></div><div class="space-y-space-xs"><div class="px-space-sm font-label-caps text-label-caps text-outline tracking-wider uppercase">Sec-Ops &amp; Audit</div><nav class="space-y-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-lg shadow-[0_0_12px_rgba(160,120,255,0.25)]"><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="security-scanner" href="security-scanner.html"><span class="material-symbols-outlined text-title-md">radar</span><span class="font-body-md text-body-md">Security Scanner</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="bug-finder" href="bug-finder.html"><span class="material-symbols-outlined text-title-md">bug_report</span><span class="font-body-md text-body-md">Bug Finder</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="vulnerability-reports" href="vulnerability-reports.html"><span class="material-symbols-outlined text-title-md">shield_with_heart</span><span class="font-body-md text-body-md">Vulnerability Reports</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="ai-security-chat" href="#"><span class="material-symbols-outlined text-title-md">smart_toy</span><span class="font-body-md text-body-md">AI Security Chat</span></a></nav></div><div class="space-y-space-xs"><div class="px-space-sm font-label-caps text-label-caps text-outline tracking-wider uppercase">System</div><nav class="space-y-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-lg shadow-[0_0_12px_rgba(160,120,255,0.25)]"><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="additional-tools" href="#"><span class="material-symbols-outlined text-title-md">terminal</span><span class="font-body-md text-body-md">Additional Tools</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="settings" href="#"><span class="material-symbols-outlined text-title-md">settings</span><span class="font-body-md text-body-md">Settings</span></a></nav></div></div></div><div class="p-space-sm bg-surface-container-lowest/80"><div class="p-space-sm rounded-lg bg-surface-container-high/60 flex items-center justify-between"><div class="flex items-center gap-space-xs"><span class="w-2 h-2 rounded-full bg-tertiary animate-pulse"></span><span class="font-code-sm text-code-sm text-tertiary">PASSIVE CHECK ONLY</span></div><span class="font-code-sm text-code-sm text-outline">TLS 1.3</span></div></div></aside><div class="pl-64 flex flex-col min-h-screen"><header class="fixed top-0 left-64 right-0 h-16 bg-surface/85 backdrop-blur-xl z-40 shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 w-full px-space-md flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><img alt="WebForge AI Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XuiRWGJzzoEASabZ-bT3kOUomZrdu33Zxrmg1DP_Rj0WARWr6X3b9ZxtlcCQvWZEdSx87CTLp0XYnWnhlCK_DQsYtHr-Vida3pvx5AlqK3res4VvWFRcz4l4OgoSh86SZ2J1PI59TuHdsR6lnbaBPlDctOSGoF4Q0WjSg6sryxRkhZniCW306VcIYBxV71-SorXNwnFZgYU0iYu8ysoSOLA8vk8uq2OGARNcjb9ZXzvw"/><div class="hidden xl:flex items-center gap-space-xs px-space-sm py-space-xs rounded-full bg-tertiary-container/20 text-on-surface"><span class="w-2 h-2 rounded-full bg-tertiary animate-ping"></span><span class="font-label-caps text-label-caps text-tertiary font-bold tracking-wider">ALL SYSTEMS NOMINAL</span><span class="text-outline">•</span><span class="font-label-caps text-label-caps text-on-surface-variant">GUARD SHIELD ACTIVE</span></div><div class="flex items-center gap-space-xs px-space-sm py-space-xs rounded-lg bg-surface-container-low text-outline hover:text-on-surface transition-colors cursor-pointer"><span class="material-symbols-outlined text-title-md">search</span><span class="font-body-sm text-body-sm text-outline">Quick Search...</span><kbd class="px-space-xs py-0.5 rounded bg-surface-container-highest font-code-sm text-code-sm text-on-surface-variant">Ctrl+K</kbd></div></div><div class="flex items-center gap-space-sm"><div class="flex items-center p-0.5 rounded-lg bg-surface-container-lowest"><button class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-label-caps text-label-caps transition-all" type="button">DEV</button><button class="px-space-sm py-1 rounded text-outline hover:text-on-surface font-label-caps text-label-caps transition-all" type="button">SECOPS</button></div><button class="flex items-center gap-space-xs px-space-sm py-space-xs rounded-lg bg-secondary/15 hover:bg-secondary/25 text-secondary hover:text-secondary-fixed transition-all shadow-[0_0_12px_rgba(76,215,246,0.2)]" type="button"><span class="material-symbols-outlined text-title-md">bolt</span><span class="font-label-caps text-label-caps font-bold">START SCAN</span></button><button class="flex items-center gap-space-xs px-space-sm py-space-xs rounded-lg bg-primary-container hover:bg-primary-container/85 text-on-primary-container transition-all shadow-[0_0_12px_rgba(160,120,255,0.3)]" type="button"><span class="material-symbols-outlined text-title-md">add_box</span><span class="font-label-caps text-label-caps font-bold">NEW PROJECT</span></button><div class="relative flex items-center justify-center p-space-xs text-on-surface-variant hover:text-on-surface cursor-pointer"><span class="material-symbols-outlined text-headline-sm">notifications</span><span class="absolute top-1 right-1 flex items-center justify-center w-4 h-4 rounded-full bg-error-container text-on-error-container font-label-caps text-[10px] font-bold">3</span></div><div class="flex items-center gap-space-xs pl-space-xs"><div class="hidden md:flex flex-col text-right"><span class="font-body-sm text-body-sm font-semibold text-on-surface">Sandip</span><span class="font-label-caps text-label-caps text-secondary">Security Check</span></div><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAbFUrF1ZYkbVm8JiJxlEGKMuGB8miQ3YqTNMjNbgqB-5CADjgPloQ18JLgE120-LPMTIZKnZq_3W_iLBh2NXuKKbhy1qXXhuDuuzLXJvNm4Id6Z0WadnXpQ0UURRGhfnS15DVLcyhLOWg3lBfOasKDvDGbrBHDUp6vpRNShSbGon4jljFEh94MCvMyNeq8I1pE1giOyTXRs8WJ-uVMKZcOFLEA0DQVLdAOPbZQK-zp"/></div></div></div></header><main class="w-full pt-16 bg-surface flex-1"><div class="flex flex-col w-full">
+<div class="px-space-md py-space-lg xl:px-margin xl:py-space-xl space-y-space-xl">
+<div class="relative overflow-hidden rounded-xl bg-surface-container p-space-lg shadow-xl">
+<div class="absolute -right-24 -top-24 w-96 h-96 bg-primary-container/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute -left-12 -bottom-12 w-80 h-80 bg-secondary/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-space-lg">
+<div class="space-y-space-xs max-w-2xl">
+<div class="flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-tertiary animate-pulse"></span>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">Enclave Defense Active</span>
+<span class="text-outline">•</span>
+<span class="font-code-sm text-code-sm text-on-surface-variant">Local website</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+            Welcome back, Sandip <span class="text-outline font-body-lg font-normal">/ Real Scanner Active</span>
+</h1>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Autonomous security synth detected zero critical vectors across 14 edge deployments. Edge runtime policies are synchronised and locked.
+          </p>
+</div>
+<div class="flex flex-wrap items-center gap-space-xs sm:gap-space-sm">
+<button class="flex items-center gap-space-xs px-space-md py-space-xs rounded-lg bg-gradient-to-r from-primary-container to-inverse-primary text-on-primary font-label-caps text-label-caps font-bold shadow-[0_0_20px_rgba(160,120,255,0.35)] hover:shadow-[0_0_25px_rgba(160,120,255,0.5)] transition-all" type="button">
+<span class="material-symbols-outlined text-title-md">bolt</span>
+<span>CREATE WEBSITE WITH AI</span>
+</button>
+<button class="flex items-center gap-space-xs px-space-md py-space-xs rounded-lg bg-secondary/15 hover:bg-secondary/25 text-secondary font-label-caps text-label-caps font-bold transition-all shadow-[0_0_15px_rgba(76,215,246,0.15)]" type="button">
+<span class="material-symbols-outlined text-title-md">shield</span>
+<span>LAUNCH SECURITY AUDIT</span>
+</button>
+<button class="flex items-center gap-space-xs px-space-md py-space-xs rounded-lg bg-surface-container-high hover:bg-surface-bright text-on-surface font-label-caps text-label-caps transition-all" type="button">
+<span class="material-symbols-outlined text-title-md">pest_control</span>
+<span>DEEP BUG SCAN</span>
+</button>
+<button class="flex items-center gap-space-xs px-space-md py-space-xs rounded-lg bg-surface-container-low hover:bg-surface-container-high text-outline hover:text-on-surface font-label-caps text-label-caps transition-all" type="button">
+<span class="material-symbols-outlined text-title-md">summarize</span>
+<span>VIEW REPORT</span>
+</button>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-space-md">
+<div class="relative overflow-hidden rounded-xl bg-surface-container-low p-space-md shadow-md flex flex-col justify-between group hover:bg-surface-container transition-colors">
+<div class="flex items-start justify-between">
+<div class="space-y-space-xs">
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">Scans Run</span>
+<div class="flex items-baseline gap-space-xs">
+<span id="statScans" class="font-display-xl text-headline-lg font-bold text-on-surface">14</span>
+<span class="font-label-caps text-label-caps text-tertiary font-bold">saved scans</span>
+</div>
+</div>
+<div class="p-space-xs rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined text-headline-sm">dns</span>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center justify-between">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-code-sm text-code-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+<span>Uptime: 99.98%</span>
+</div>
+<svg class="w-24 h-6 text-tertiary overflow-visible" fill="none" viewbox="0 0 96 24">
+<path d="M2 18 L24 14 L42 16 L60 8 L78 10 L94 3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+<path d="M2 18 L24 14 L42 16 L60 8 L78 10 L94 3 L94 24 L2 24 Z" fill="currentColor" fill-opacity="0.1"></path>
+</svg>
+</div>
+</div>
+<div class="relative overflow-hidden rounded-xl bg-surface-container-low p-space-md shadow-md flex flex-col justify-between group hover:bg-surface-container transition-colors">
+<div class="flex items-start justify-between">
+<div class="space-y-space-xs">
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">Security Health</span>
+<div class="flex items-baseline gap-space-xs">
+<span id="statScore" class="font-display-xl text-headline-lg font-bold text-on-surface">94</span>
+<span class="font-code-sm text-code-sm text-outline">/100</span>
+</div>
+<div class="inline-flex items-center gap-space-xs px-space-xs py-0.5 rounded-full bg-tertiary-container/30 text-tertiary">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary animate-pulse"></span>
+<span class="font-label-caps text-label-caps font-semibold">Grade A · Fortified</span>
+</div>
+</div>
+<div class="relative w-14 h-14 flex items-center justify-center">
+<svg class="w-14 h-14 -rotate-90" viewbox="0 0 36 36">
+<path class="text-surface-container-highest" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="3.5"></path>
+<path class="text-tertiary" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="94, 100" stroke-linecap="round" stroke-width="3.5"></path>
+</svg>
+<span class="absolute font-code-sm text-code-sm font-bold text-on-surface">94%</span>
+</div>
+</div>
+<div class="mt-space-md flex items-center justify-between text-outline font-code-sm text-code-sm">
+<span>Latest scan</span>
+</div>
+</div>
+<div class="relative overflow-hidden rounded-xl bg-surface-container-low p-space-md shadow-md flex flex-col justify-between group hover:bg-surface-container transition-colors">
+<div class="flex items-start justify-between">
+<div class="space-y-space-xs">
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">Open Issues</span>
+<div class="flex items-baseline gap-space-xs">
+<span id="statOpen" class="font-display-xl text-headline-lg font-bold text-on-surface">87</span>
+<span class="font-label-caps text-label-caps text-secondary font-bold">Resolved</span>
+</div>
+</div>
+<div class="p-space-xs rounded-lg bg-secondary/10 text-secondary">
+<span class="material-symbols-outlined text-headline-sm">verified_user</span>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs space-y-space-xs">
+<div class="flex justify-between items-center font-code-sm text-code-sm">
+<span class="text-outline">Critical: <strong class="text-tertiary">0</strong></span>
+<span class="text-outline">High: <strong class="text-tertiary">0</strong></span>
+<span class="text-secondary-fixed-dim">Low: <strong>2</strong> Pending</span>
+</div>
+<div class="w-full bg-surface-container-highest rounded-full h-1.5 overflow-hidden flex">
+<div class="bg-tertiary h-1.5" style="width: 95%"></div>
+<div class="bg-secondary h-1.5" style="width: 5%"></div>
+</div>
+</div>
+</div>
+<div class="relative overflow-hidden rounded-xl bg-surface-container-low p-space-md shadow-md flex flex-col justify-between group hover:bg-surface-container transition-colors">
+<div class="flex items-start justify-between">
+<div class="space-y-space-xs">
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">Pass Rate</span>
+<div class="flex items-baseline gap-space-xs">
+<span id="statPassRate" class="font-display-xl text-headline-lg font-bold text-on-surface">98.4%</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant font-semibold">of checks passed</span>
+</div>
+</div>
+<div class="p-space-xs rounded-lg bg-primary-container/20 text-primary">
+<span class="material-symbols-outlined text-headline-sm">terminal</span>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center justify-between">
+<div class="inline-flex items-center gap-space-xs px-space-xs py-0.5 rounded bg-surface-container-high text-on-surface-variant font-label-caps text-label-caps">
+<span class="material-symbols-outlined text-code-sm text-primary">auto_mode</span>
+<span>AUTO-LINT PASS</span>
+</div>
+<span class="font-code-sm text-code-sm text-outline">0 Syntax Errors</span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 xl:grid-cols-12 gap-space-xl">
+<div class="xl:col-span-8 space-y-space-xl">
+<div class="rounded-xl bg-surface-container-low p-space-md shadow-md space-y-space-md">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-xs pb-space-xs">
+<div>
+<h2 class="font-title-md text-title-md text-on-surface font-bold">Active Synthesized Projects</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Live instances running autonomous security runtime wrappers</p>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-label-caps text-label-caps hover:bg-surface-bright transition-colors" type="button">All (14)</button>
+<button class="px-space-sm py-1 rounded text-outline hover:text-on-surface font-label-caps text-label-caps transition-colors" type="button">Production (11)</button>
+<button class="px-space-sm py-1 rounded text-outline hover:text-on-surface font-label-caps text-label-caps transition-colors" type="button">Staging (3)</button>
+</div>
+</div>
+<div class="grid grid-cols-1 gap-space-xs">
+<div class="flex flex-col md:flex-row md:items-center justify-between p-space-md rounded-lg bg-surface-container hover:bg-surface-container-high transition-all gap-space-md group">
+<div class="flex items-start md:items-center gap-space-md min-w-0">
+<div class="relative w-12 h-12 rounded-lg bg-surface-container-highest flex-shrink-0 flex items-center justify-center overflow-hidden">
+<img class="object-cover w-full h-full opacity-60 group-hover:scale-110 transition-transform duration-300" data-alt="High tech financial dashboard interface dark theme with violet ambient glows, clean typography, trading graphs and modern cyber security accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQHxQhfBAYmpKKM5LDL4I81ygPY6WYf8hXdLcT617kCrHQ0RPF26ii-qsbEed7bcALPOFwsMSbuNAqfWVbVZ07wCzLTiIHvgWPIZpjJGxXAdvtNjdi5W5Rw7INSIjm8jXNfcmtZ-anrkbm1_NHarzoBWv0TkgbNw2EdeK8fm8F5BcCrdL-Qcz2bc0u7WzrqzX-WlcW4-M8nI-aJsV_PXEUxRFAx7ppPYVx6mlCw7Xe"/>
+<span class="absolute inset-0 bg-primary-container/20"></span>
+</div>
+<div class="space-y-1 min-w-0">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="font-title-md text-title-md text-on-surface font-bold truncate">ApexFintech.io</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container-highest text-secondary font-label-caps text-label-caps">E-COMMERCE FINTECH</span>
+<span class="px-space-xs py-0.5 rounded bg-primary-container/25 text-primary-fixed font-label-caps text-label-caps">AI BUILT</span>
+</div>
+<div class="flex items-center gap-space-md text-outline font-code-sm text-code-sm">
+<span class="flex items-center gap-1 text-tertiary">
+<span class="material-symbols-outlined text-body-sm">verified</span> SSL A+
+                    </span>
+<span>•</span>
+<span class="text-on-surface-variant">Clean Scan 12m ago</span>
+<span>•</span>
+<span class="text-outline">v2.4.1</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-xs flex-shrink-0">
+<button class="flex items-center gap-space-xs px-space-sm py-1.5 rounded bg-surface-container-highest text-on-surface hover:bg-surface-bright transition-colors font-code-sm text-code-sm" type="button">
+<span class="material-symbols-outlined text-body-sm text-secondary">open_in_new</span>
+<span>Live Preview</span>
+</button>
+<button class="flex items-center gap-space-xs px-space-sm py-1.5 rounded bg-primary-container/20 hover:bg-primary-container/30 text-primary-fixed transition-colors font-code-sm text-code-sm" type="button">
+<span class="material-symbols-outlined text-body-sm">code</span>
+<span>Edit Code</span>
+</button>
+</div>
+</div>
+<div class="flex flex-col md:flex-row md:items-center justify-between p-space-md rounded-lg bg-surface-container hover:bg-surface-container-high transition-all gap-space-md group">
+<div class="flex items-start md:items-center gap-space-md min-w-0">
+<div class="relative w-12 h-12 rounded-lg bg-surface-container-highest flex-shrink-0 flex items-center justify-center overflow-hidden">
+<img class="object-cover w-full h-full opacity-60 group-hover:scale-110 transition-transform duration-300" data-alt="Futuristic cloud computing SaaS interface panel with neon cyan network nodes, server latency metrics, deep void slate dark background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJS9OM3g3YRrkJt21KDBdGluHLA7kKl2yn_XahdcAMZiVIujDB__mvTVLkwI9E0wcCNjPViyYNI8DAaVGBJisG-atV-zdnGqP13Mv_HKpMGGLkZN2ordmTHyB_FdZKOD7oiTGBuZrk8LRj3AU0XwL4hppCrt-qLvrT2PsiYXNv2R2rcVZXPwz55-s5JNns1SGeX8aHLjmGlfpbqaZv3gWsjjmaCIDm6tN5zlvkQvbr"/>
+<span class="absolute inset-0 bg-secondary/20"></span>
+</div>
+<div class="space-y-1 min-w-0">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="font-title-md text-title-md text-on-surface font-bold truncate">CyberNova SaaS</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container-highest text-on-surface-variant font-label-caps text-label-caps">REACT CLOUD</span>
+<span class="px-space-xs py-0.5 rounded bg-secondary-container/30 text-secondary-fixed font-label-caps text-label-caps">PUBLISHED</span>
+</div>
+<div class="flex items-center gap-space-md text-outline font-code-sm text-code-sm">
+<span class="flex items-center gap-1 text-secondary-fixed-dim">
+<span class="material-symbols-outlined text-body-sm">warning</span> 1 Low Warning
+                    </span>
+<span>•</span>
+<span class="text-on-surface-variant">Lodash bump pending</span>
+<span>•</span>
+<span class="text-outline">v1.1.0</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-xs flex-shrink-0">
+<button class="flex items-center gap-space-xs px-space-sm py-1.5 rounded bg-surface-container-highest text-on-surface hover:bg-surface-bright transition-colors font-code-sm text-code-sm" type="button">
+<span class="material-symbols-outlined text-body-sm text-secondary">open_in_new</span>
+<span>Live Preview</span>
+</button>
+<button class="flex items-center gap-space-xs px-space-sm py-1.5 rounded bg-primary-container/20 hover:bg-primary-container/30 text-primary-fixed transition-colors font-code-sm text-code-sm" type="button">
+<span class="material-symbols-outlined text-body-sm">code</span>
+<span>Edit Code</span>
+</button>
+</div>
+</div>
+<div class="flex flex-col md:flex-row md:items-center justify-between p-space-md rounded-lg bg-surface-container hover:bg-surface-container-high transition-all gap-space-md group">
+<div class="flex items-start md:items-center gap-space-md min-w-0">
+<div class="relative w-12 h-12 rounded-lg bg-surface-container-highest flex-shrink-0 flex items-center justify-center overflow-hidden">
+<img class="object-cover w-full h-full opacity-60 group-hover:scale-110 transition-transform duration-300" data-alt="Minimalist developer portfolio website design, dark mode typography, high contrast cyber aesthetic, subtle violet backglow, sleek developer showcase" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEwv3eJ4hC6l5sgHCHkIc6RxrKh0scagl4dqK8x5hEebzpJDmRujTIbv8n2FBWB5DDX5CWX9F5XLLj0kIwMJp1C8A2hqCpsrxbUWqu6PjJiAd6yxAlXo3fwJSLo1NHH1-S1wUfCyYrRdpzK89BYSFKJFdq9MWQzMbzf0ub-XnjEcFVCfMEv3ic-FSBOftEQpdqbd9iup_FyRbdBw3kbWNyGL9zUx-LBSUIbWhW9QAG"/>
+<span class="absolute inset-0 bg-tertiary/20"></span>
+</div>
+<div class="space-y-1 min-w-0">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="font-title-md text-title-md text-on-surface font-bold truncate">QuantumDev Studio</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container-highest text-on-surface-variant font-label-caps text-label-caps">DEV PORTFOLIO</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container-highest text-outline font-label-caps text-label-caps">STAGING</span>
+</div>
+<div class="flex items-center gap-space-md text-outline font-code-sm text-code-sm">
+<span class="flex items-center gap-1 text-tertiary">
+<span class="material-symbols-outlined text-body-sm">check_circle</span> 0 Issues
+                    </span>
+<span>•</span>
+<span class="text-on-surface-variant">Built with Next.js 14</span>
+<span>•</span>
+<span class="text-outline">v0.9.8</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-xs flex-shrink-0">
+<button class="flex items-center gap-space-xs px-space-sm py-1.5 rounded bg-surface-container-highest text-on-surface hover:bg-surface-bright transition-colors font-code-sm text-code-sm" type="button">
+<span class="material-symbols-outlined text-body-sm text-secondary">open_in_new</span>
+<span>Live Preview</span>
+</button>
+<button class="flex items-center gap-space-xs px-space-sm py-1.5 rounded bg-primary-container/20 hover:bg-primary-container/30 text-primary-fixed transition-colors font-code-sm text-code-sm" type="button">
+<span class="material-symbols-outlined text-body-sm">code</span>
+<span>Edit Code</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<div class="rounded-xl bg-surface-container-low p-space-md shadow-md space-y-space-md">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div class="space-y-0.5">
+<div class="flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-secondary animate-ping"></span>
+<h3 class="font-title-md text-title-md text-on-surface font-bold">Live Security &amp; Traffic Telemetry</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Real-time edge firewall threat suppression and ingress metrics</p>
+</div>
+<div class="flex items-center gap-space-md">
+<div class="text-right">
+<div class="font-telemetry-metric text-telemetry-metric text-secondary font-bold">4,219</div>
+<div class="font-label-caps text-label-caps text-outline uppercase tracking-wider">Bots Intercepted</div>
+</div>
+<div class="text-right pl-space-md bg-surface-container-highest/20 rounded p-space-xs">
+<div class="font-telemetry-metric text-telemetry-metric text-tertiary font-bold">60s</div>
+<div class="font-label-caps text-label-caps text-outline uppercase tracking-wider">Scan Frequency</div>
+</div>
+</div>
+</div>
+<div class="relative w-full h-64 bg-surface-container-lowest rounded-lg p-space-md flex flex-col justify-between overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-b from-primary/5 via-transparent to-transparent pointer-events-none"></div>
+<div class="flex justify-between items-center z-10 font-code-sm text-code-sm text-outline">
+<span class="flex items-center gap-2">
+<span class="w-3 h-0.5 bg-primary-container inline-block"></span> Total Requests (128.4k req/h)
+                <span class="w-3 h-0.5 bg-secondary inline-block ml-2"></span> Threat Mitigation (4.2k)
+              </span>
+<span class="text-secondary font-bold">LIVE TELEMETRY STREAM</span>
+</div>
+<svg class="w-full h-44 my-auto overflow-visible" preserveaspectratio="none" viewbox="0 0 700 160">
+<defs>
+<lineargradient id="primaryArea" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="#a078ff" stop-opacity="0.25"></stop>
+<stop offset="100%" stop-color="#a078ff" stop-opacity="0"></stop>
+</lineargradient>
+<lineargradient id="secondaryArea" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="#4cd7f6" stop-opacity="0.3"></stop>
+<stop offset="100%" stop-color="#4cd7f6" stop-opacity="0"></stop>
+</lineargradient>
+</defs>
+<line stroke="#313540" stroke-dasharray="4 4" stroke-width="1" x1="0" x2="700" y1="40" y2="40"></line>
+<line stroke="#313540" stroke-dasharray="4 4" stroke-width="1" x1="0" x2="700" y1="80" y2="80"></line>
+<line stroke="#313540" stroke-dasharray="4 4" stroke-width="1" x1="0" x2="700" y1="120" y2="120"></line>
+<path d="M0,130 C70,110 140,140 210,90 C280,40 350,70 420,50 C490,30 560,90 630,60 C665,45 700,30 700,30 L700,160 L0,160 Z" fill="url(#primaryArea)"></path>
+<path d="M0,130 C70,110 140,140 210,90 C280,40 350,70 420,50 C490,30 560,90 630,60 C665,45 700,30 700,30" fill="none" stroke="#a078ff" stroke-width="2.5"></path>
+<path d="M0,150 C80,145 150,152 230,135 C310,118 390,140 470,110 C550,80 620,105 700,75 L700,160 L0,160 Z" fill="url(#secondaryArea)"></path>
+<path d="M0,150 C80,145 150,152 230,135 C310,118 390,140 470,110 C550,80 620,105 700,75" fill="none" stroke="#4cd7f6" stroke-width="2"></path>
+<circle class="animate-ping" cx="420" cy="50" fill="#a078ff" opacity="0.75" r="4"></circle>
+<circle cx="420" cy="50" fill="#d0bcff" r="3"></circle>
+<circle cx="630" cy="60" fill="#4cd7f6" r="3"></circle>
+</svg>
+<div class="flex justify-between items-center z-10 font-code-sm text-code-sm text-outline pt-1">
+<span>12:00</span>
+<span>13:00</span>
+<span>14:00</span>
+<span>15:00</span>
+<span>16:00</span>
+<span>17:00 (NOW)</span>
+</div>
+</div>
+</div>
+</div>
+<div class="xl:col-span-4 space-y-space-xl">
+<div class="rounded-xl bg-surface-container-low p-space-md shadow-md space-y-space-md">
+<div class="flex items-center justify-between pb-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-title-md text-primary">security_update_good</span>
+<h3 class="font-title-md text-title-md text-on-surface font-bold">Vulnerability Feed</h3>
+</div>
+<a class="font-label-caps text-label-caps text-secondary hover:underline" href="#">Full Log</a>
+</div>
+<div class="space-y-space-sm">
+<div class="p-space-sm rounded-lg bg-surface-container space-y-1 hover:bg-surface-container-high transition-colors">
+<div class="flex items-center justify-between">
+<span class="inline-flex items-center gap-1 font-label-caps text-label-caps px-space-xs py-0.5 rounded bg-tertiary-container/30 text-tertiary font-bold">
+<span class="material-symbols-outlined text-body-sm">check</span> RESOLVED
+                </span>
+<span class="font-code-sm text-code-sm text-outline">4m ago</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface font-medium">Strict-Transport-Security Header missing</p>
+<p class="font-code-sm text-code-sm text-on-surface-variant">Auto-patched in edge Nginx configuration via SecOps rule #8819 on staging.</p>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container space-y-1 hover:bg-surface-container-high transition-colors">
+<div class="flex items-center justify-between">
+<span class="inline-flex items-center gap-1 font-label-caps text-label-caps px-space-xs py-0.5 rounded bg-secondary-container/30 text-secondary-fixed font-bold">
+<span class="material-symbols-outlined text-body-sm">info</span> INFO
+                </span>
+<span class="font-code-sm text-code-sm text-outline">18m ago</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface font-medium">Outdated Lodash dependency detected</p>
+<p class="font-code-sm text-code-sm text-on-surface-variant">Version bump required (4.17.20 -&gt; 4.17.21). Automated PR #44 created.</p>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container space-y-1 hover:bg-surface-container-high transition-colors">
+<div class="flex items-center justify-between">
+<span class="inline-flex items-center gap-1 font-label-caps text-label-caps px-space-xs py-0.5 rounded bg-tertiary-container/30 text-tertiary font-bold">
+<span class="material-symbols-outlined text-body-sm">format_image_left</span> PASSED
+                </span>
+<span class="font-code-sm text-code-sm text-outline">1h ago</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface font-medium">SQLi &amp; Safe XSS Endpoint Audit</p>
+<p class="font-code-sm text-code-sm text-on-surface-variant">Fuzzed 34 input forms across active instances. 0 injection vulnerabilities detected.</p>
+</div>
+</div>
+</div>
+<div class="rounded-xl bg-surface-container-high/60 backdrop-blur-xl p-space-md shadow-xl space-y-space-md relative overflow-hidden">
+<div class="absolute -right-10 -bottom-10 w-48 h-48 bg-primary-container/20 rounded-full blur-2xl pointer-events-none"></div>
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-xs">
+<div class="w-8 h-8 rounded-full bg-gradient-to-tr from-primary-container to-secondary flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-title-md">smart_toy</span>
+</div>
+<div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold">Forge AI Sentinel</h3>
+<span class="font-code-sm text-code-sm text-secondary">SecOps Assistant · Online</span>
+</div>
+</div>
+<span class="px-space-xs py-0.5 rounded bg-primary-container/30 text-primary-fixed font-label-caps text-label-caps uppercase">Model v4.9</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-lowest/80 text-on-surface space-y-space-xs">
+<p class="font-body-sm text-body-sm">
+              "I analyzed your CORS header policy on <strong class="text-secondary font-code-sm">ApexFintech.io</strong>. The current wildcard declaration (<code class="text-tertiary">*</code>) introduces origin spoof risks. Shall I inject restrictive strict policies?"
+            </p>
+<div class="flex items-center justify-between pt-space-xs font-code-sm text-code-sm text-outline">
+<span>Confidence: 99.4%</span>
+<span class="text-tertiary">Safe to Apply</span>
+</div>
+</div>
+<div class="space-y-space-xs">
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">Quick Inquiries &amp; Actions</span>
+<div class="flex flex-wrap gap-space-xs">
+<button class="px-space-sm py-1.5 rounded-lg bg-surface-container hover:bg-surface-bright text-on-surface font-code-sm text-code-sm transition-colors flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-body-sm text-primary">analytics</span>
+<span>Analyze Auth Flow</span>
+</button>
+<button class="px-space-sm py-1.5 rounded-lg bg-surface-container hover:bg-surface-bright text-on-surface font-code-sm text-code-sm transition-colors flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-body-sm text-secondary">lock</span>
+<span>Verify SSL/TLS</span>
+</button>
+<button class="px-space-sm py-1.5 rounded-lg bg-surface-container hover:bg-surface-bright text-on-surface font-code-sm text-code-sm transition-colors flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-body-sm text-tertiary">code_blocks</span>
+<span>Generate CSP Policy</span>
+</button>
+</div>
+</div>
+<div class="pt-space-xs">
+<div class="relative flex items-center">
+<input class="w-full pl-space-sm pr-10 py-space-xs rounded-lg bg-surface-container-lowest text-on-surface font-body-sm text-body-sm placeholder:text-outline focus:outline-none focus:bg-surface-container" placeholder="Ask AI Sentinel to fix or test..." type="text"/>
+<button class="absolute right-2 p-1 text-primary hover:text-on-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-title-md">send</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></main></div><script>
+  (function () {
+    function getHistory() { try { return JSON.parse(localStorage.getItem("realScannerHistory") || "[]"); } catch (e) { return []; } }
+    function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+    function smallestContaining(texts) {
+      var best = null, bestLen = Infinity;
+      var els = document.querySelectorAll("body *");
+      for (var i = 0; i < els.length; i++) {
+        var t = els[i].textContent || "";
+        var ok = true;
+        for (var j = 0; j < texts.length; j++) { if (t.indexOf(texts[j]) < 0) { ok = false; break; } }
+        if (ok && t.length < bestLen) { best = els[i]; bestLen = t.length; }
+      }
+      return best;
+    }
+    function setText(id, v) { var el = document.getElementById(id); if (el) el.textContent = v; }
+    var hist = getHistory();
+    if (hist.length === 0) {
+      setText("statScans", "0");
+      setText("statScore", "–");
+      setText("statOpen", "–");
+      setText("statPassRate", "–");
+    } else {
+      var s = hist[0];
+      setText("statScans", hist.length);
+      setText("statScore", s.score);
+      var missing = s.checks.filter(function (c) { return c.status === "MISSING"; }).length;
+      setText("statOpen", missing);
+      var scored = s.counts.PASS + s.counts.HIGH + s.counts.MED + s.counts.LOW;
+      setText("statPassRate", (scored ? Math.round(100 * s.counts.PASS / scored) : 100) + "%");
+      var g = s.score >= 90 ? "A" : (s.score >= 70 ? "B" : "C");
+      var els = document.querySelectorAll("body *");
+      for (var i = 0; i < els.length; i++) {
+        if (els[i].children.length === 0 && (els[i].textContent || "").indexOf("Grade:") >= 0) { els[i].textContent = "Grade: " + g; break; }
+      }
+      var best = null, bestLen = Infinity;
+      for (var j = 0; j < els.length; j++) {
+        var t = els[j].textContent || "";
+        if (t.indexOf("Critical:") >= 0 && t.indexOf("High:") >= 0 && t.indexOf("Low:") >= 0 && t.length < bestLen) { best = els[j]; bestLen = t.length; }
+      }
+      if (best) best.textContent = "Critical: " + s.counts.CRIT + " High: " + s.counts.HIGH + " Low: " + s.counts.LOW;
+    }
+    var previewBtns = document.querySelectorAll("button");
+    var cardsToRemove = [];
+    previewBtns.forEach(function (b) {
+      if ((b.textContent || "").trim() === "Live Preview") {
+        var card = b;
+        for (var k = 0; k < 5 && card; k++) {
+          card = card.parentElement;
+          if (card && card.className && card.className.indexOf("rounded-xl") >= 0) break;
+        }
+        if (card) cardsToRemove.push(card);
+      }
+    });
+    if (cardsToRemove.length) {
+      var parent = cardsToRemove[0].parentElement;
+      cardsToRemove.forEach(function (c) { c.remove(); });
+      if (parent) {
+        var wrap = document.createElement("div");
+        wrap.className = "space-y-space-md";
+        if (hist.length === 0) {
+          wrap.innerHTML = '<p class="font-body-sm text-body-sm text-on-surface-variant">No scans yet. <a class="text-secondary underline" href="security-scanner.html">Run a scan first</a> to see your targets here.</p>';
+        } else {
+          var seen = {}, targets = [];
+          hist.forEach(function (sc) { if (!seen[sc.final_url]) { seen[sc.final_url] = true; targets.push(sc); } });
+          wrap.innerHTML = targets.map(function (sc) {
+            return '<div class="p-space-sm rounded-lg bg-surface-container space-y-1"><div class="flex items-center justify-between"><span class="font-title-md font-semibold">' + esc(sc.final_url) + '</span><span class="font-code-sm text-code-sm text-tertiary">Score ' + sc.score + '</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">' + esc(sc.checked_at) + ' • Profile ' + esc(sc.profile) + '</p><a class="font-label-caps text-label-caps text-secondary hover:underline" href="vulnerability-reports.html">View Report</a></div>';
+          }).join("");
+        }
+        parent.appendChild(wrap);
+      }
+    }
+    var fullLog = null;
+    document.querySelectorAll("a").forEach(function (a) {
+      if ((a.textContent || "").trim() === "Full Log") { a.href = "vulnerability-reports.html"; fullLog = a; }
+    });
+    if (fullLog) {
+      var card = fullLog;
+      for (var k = 0; k < 5 && card; k++) {
+        card = card.parentElement;
+        if (card && card.querySelector && card.querySelector('[class*="space-y-space-sm"]')) break;
+      }
+      var feedList = card ? card.querySelector('[class*="space-y-space-sm"]') : null;
+      if (feedList) {
+        if (hist.length === 0) {
+          feedList.innerHTML = '<p class="font-body-sm text-body-sm text-on-surface-variant">No findings yet. Run a scan first.</p>';
+        } else {
+          var sc = hist[0];
+          feedList.innerHTML = sc.checks.map(function (c) {
+            return '<div class="p-space-sm rounded-lg bg-surface-container space-y-1"><div class="flex items-center justify-between"><span class="font-label-caps text-label-caps px-space-xs py-0.5 rounded bg-tertiary-container/30 text-tertiary font-bold">' + c.severity + ' • ' + c.status + '</span><span class="font-code-sm text-code-sm text-outline">' + esc(sc.checked_at) + '</span></div><p class="font-body-sm text-body-sm">' + esc(c.title) + ': ' + esc(c.detail) + '</p></div>';
+          }).join("");
+        }
+      }
+    }
+    var anaBox = smallestContaining(["I analyzed your CORS"]);
+    if (anaBox) {
+      if (hist.length === 0) {
+        anaBox.innerHTML = '<p class="font-body-sm text-body-sm">No scan yet. Run a scan on the Security Scanner page, then I will summarize it here.</p>';
+      } else {
+        var sc = hist[0];
+        var miss = sc.checks.filter(function (c) { return c.status === "MISSING"; }).map(function (c) { return c.title; }).join(", ");
+        anaBox.innerHTML = '<p class="font-body-sm text-body-sm">Latest scan of <strong>' + esc(sc.final_url) + '</strong> scored ' + sc.score + '. Missing: ' + esc(miss || "nothing") + '. See the full report for fixes.</p>';
+      }
+    }
+    document.querySelectorAll("button").forEach(function (b) {
+      var t = b.textContent || "";
+      if (t.indexOf("CREATE WEBSITE WITH AI") >= 0) b.addEventListener("click", function () { window.location.href = "ai-website-builder.html"; });
+      else if (t.indexOf("LAUNCH SECURITY AUDIT") >= 0) b.addEventListener("click", function () { window.location.href = "security-scanner.html"; });
+      else if (t.indexOf("DEEP BUG SCAN") >= 0) b.addEventListener("click", function () { window.location.href = "bug-finder.html"; });
+      else if (t.indexOf("VIEW REPORT") >= 0) b.addEventListener("click", function () { window.location.href = "vulnerability-reports.html"; });
+      else if (t.indexOf("Verify SSL/TLS") >= 0) b.addEventListener("click", function () { window.location.href = "security-scanner.html"; });
+      else if (t.indexOf("Generate CSP Policy") >= 0) b.addEventListener("click", function () { window.location.href = "vulnerability-reports.html"; });
+      else if (t.indexOf("Analyze Auth Flow") >= 0) b.addEventListener("click", function () { alert("Auth flow analysis is not available in this passive scanner. Use the Security Scanner for header checks."); });
+    });
+  })();
+</script>
+</body></html>
