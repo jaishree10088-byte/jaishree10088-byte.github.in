@@ -232,22 +232,22 @@
 <div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
 <div>
 <h1 class="font-display-lg text-display-lg text-on-surface">AI Website Builder</h1>
-<p class="font-body-md text-body-md text-on-surface-variant mt-2">Apna prompt likho — koi bhi prompt chalega. Ek starter website banegi (template-based hai, AI-generated nahi). Download karke apna text aur photo badal sakte ho.</p>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">Write your own prompt to create a website, and design it your way. This builds a template starter (not AI-generated content) — download it and edit the text and photos to make it your own.</p>
 </div>
 <button id="btn-new-website" class="shrink-0 rounded-lg bg-surface-container-high px-space-md py-2.5 font-body-md text-body-md font-semibold text-on-surface hover:bg-surface-container-highest">+ New Website</button>
 </div>
 <div class="rounded-xl bg-surface-container p-space-md space-y-space-sm">
-<label class="block font-body-md text-body-md font-semibold text-on-surface" for="prompt-input">Apni website ke baare me likho (koi bhi prompt)</label>
-<textarea id="prompt-input" rows="4" class="w-full bg-surface-container-lowest border border-outline-variant text-on-surface rounded-lg px-space-md py-2.5 font-body-md text-body-md" placeholder="Example: Meri kirana dukaan ke liye website — products, price aur contact ke saath"></textarea>
+<label class="block font-body-md text-body-md font-semibold text-on-surface" for="prompt-input">Describe your website (any prompt works)</label>
+<textarea id="prompt-input" rows="4" class="w-full bg-surface-container-lowest border border-outline-variant text-on-surface rounded-lg px-space-md py-2.5 font-body-md text-body-md" placeholder="Example: A website for my grocery shop — with products, prices and contact"></textarea>
 <div class="flex flex-wrap items-center gap-space-sm">
-<button id="btn-generate-main" class="rounded-lg bg-primary px-space-lg py-2.5 font-body-md text-body-md font-bold text-on-primary">Website Banao</button>
-<span class="font-body-sm text-body-sm text-on-surface-variant">Khali prompt par koi website nahi banegi — pehle apna idea likho.</span>
+<button id="btn-generate-main" class="rounded-lg bg-primary px-space-lg py-2.5 font-body-md text-body-md font-bold text-on-primary">Create Website</button>
+<span class="font-body-sm text-body-sm text-on-surface-variant">An empty prompt builds no website — write your idea first.</span>
 </div>
 <div id="realBuildStatus" class="font-body-md text-body-md text-tertiary"></div>
 </div>
 <div class="rounded-xl bg-surface-container p-space-md space-y-space-sm">
 <h2 class="font-title-lg text-title-lg text-on-surface">Website Design</h2>
-<p class="font-body-md text-body-md text-on-surface-variant">Theme chuno (ye rang aapki bani hui website me lagenge):</p>
+<p class="font-body-md text-body-md text-on-surface-variant">Choose a theme (these colours will be used in your website):</p>
 <div id="theme-picker" class="flex flex-wrap gap-space-sm">
 <button type="button" class="theme-btn rounded-lg border px-space-md py-2 font-body-md text-body-md" data-theme="blue" aria-pressed="true"><span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#2563eb;vertical-align:middle;margin-right:6px;"></span>Blue</button>
 <button type="button" class="theme-btn rounded-lg border px-space-md py-2 font-body-md text-body-md" data-theme="dark" aria-pressed="false"><span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#a078ff;vertical-align:middle;margin-right:6px;"></span>Dark</button>
@@ -256,11 +256,11 @@
 <button type="button" class="theme-btn rounded-lg border px-space-md py-2 font-body-md text-body-md" data-theme="orange" aria-pressed="false"><span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#ea580c;vertical-align:middle;margin-right:6px;"></span>Orange</button>
 <button type="button" class="theme-btn rounded-lg border px-space-md py-2 font-body-md text-body-md" data-theme="teal" aria-pressed="false"><span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#0d9488;vertical-align:middle;margin-right:6px;"></span>Teal</button>
 </div>
-<p class="font-body-md text-body-md text-on-surface-variant">Sections chuno (jo hatana ho, uska tick hata do):</p>
+<p class="font-body-md text-body-md text-on-surface-variant">Choose sections (untick any section you want to leave out):</p>
 <div class="flex flex-wrap gap-space-md font-body-md text-body-md text-on-surface">
 <label><input type="checkbox" id="sec-about" checked> About</label>
 <label><input type="checkbox" id="sec-services" checked> Services</label>
-<label><input type="checkbox" id="sec-extra" checked> Products / Work / Menu (prompt ke hisaab se)</label>
+<label><input type="checkbox" id="sec-extra" checked> Products / Work / Menu (based on your prompt)</label>
 <label><input type="checkbox" id="sec-contact" checked> Contact</label>
 </div>
 </div>
@@ -281,10 +281,10 @@
 </div>
 </div>
 <div id="preview-canvas-container" class="rounded-lg bg-white overflow-hidden" style="min-height:200px;">
-<div id="realPreviewPlaceholder" style="padding:48px 24px;text-align:center;" class="font-body-md text-body-md text-on-surface-variant">No website generated yet. Enter a prompt above and click Website Banao. Your generated website will appear here.</div>
+<div id="realPreviewPlaceholder" style="padding:48px 24px;text-align:center;" class="font-body-md text-body-md text-on-surface-variant">No website generated yet. Enter a prompt above and click Create Website. Your generated website will appear here.</div>
 </div>
 <pre id="staticCheckBox" style="display:none;white-space:pre-wrap;padding:16px;background:#0a0e18;color:#dfe2f1;max-height:400px;overflow:auto;"></pre>
-<p class="font-body-sm text-body-sm text-on-surface-variant">Template starter — AI-generated nahi. Download karke edit karo, aur [your email] / [your phone number] ki jagah apna asli contact likho.</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Template starter — not AI-generated. Download it to edit, and replace [your email] / [your phone number] with your real contact details.</p>
 </div>
 </div>
 </div>
@@ -379,7 +379,7 @@
       var input = document.getElementById("prompt-input");
       var prompt = input ? input.value.trim() : "";
       if (!prompt) {
-        setStatus("Pehle apna prompt likho — kis cheez ki website chahiye? (Example: Meri kirana dukaan ke liye website)");
+        setStatus("Write your prompt first — what kind of website do you want? (Example: A website for my grocery shop)");
         if (input) input.focus();
         return;
       }
@@ -449,7 +449,7 @@
       generatedHeading = "";
       window._realPreview = null;
       var pc = document.getElementById("preview-canvas-container");
-      if (pc) pc.innerHTML = '<div id="realPreviewPlaceholder" style="padding:48px 24px;text-align:center;" class="font-body-md text-body-md text-on-surface-variant">No website generated yet. Enter a prompt above and click Website Banao. Your generated website will appear here.</div>';
+      if (pc) pc.innerHTML = '<div id="realPreviewPlaceholder" style="padding:48px 24px;text-align:center;" class="font-body-md text-body-md text-on-surface-variant">No website generated yet. Enter a prompt above and click Create Website. Your generated website will appear here.</div>';
       var box = document.getElementById("staticCheckBox");
       if (box) { box.textContent = ""; box.style.display = "none"; }
       setStatus("New website started — write your prompt above.");
