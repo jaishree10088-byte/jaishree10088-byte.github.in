@@ -284,7 +284,7 @@ Viral Video Studio — Video enhancement plus viral toolkit app</textarea>
 </div>
 <div>
 <label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Education</label>
-<p class="font-body-sm text-body-sm text-slate-600 mb-2">Fill the table like the format. Empty rows will not appear in the resume.</p>
+<p class="font-body-sm text-body-sm text-slate-600 mb-2">Fill the table like the format. Use + Add Row below to insert more rows. Empty rows will not appear in the resume.</p>
 <div style="overflow-x:auto;">
 <table style="width:100%;border-collapse:collapse;font-size:13px;">
 <thead><tr>
@@ -293,14 +293,16 @@ Viral Video Studio — Video enhancement plus viral toolkit app</textarea>
 <th style="border:1px solid #94a3b8;background:#DCE6F1;color:#16324F;font-weight:bold;padding:6px;text-align:left;">Board / University</th>
 <th style="border:1px solid #94a3b8;background:#DCE6F1;color:#16324F;font-weight:bold;padding:6px;text-align:left;">Year</th>
 <th style="border:1px solid #94a3b8;background:#DCE6F1;color:#16324F;font-weight:bold;padding:6px;text-align:left;">Marks</th>
+<th style="border:1px solid #94a3b8;background:#DCE6F1;color:#16324F;font-weight:bold;padding:6px;text-align:left;">Action</th>
 </tr></thead>
-<tbody>
+<tbody id="eduFormBody">
 <tr>
 <td style="border:1px solid #94a3b8;padding:4px;"><input id="edu10_qual" value="10th" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
 <td style="border:1px solid #94a3b8;padding:4px;"><input id="edu10_school" placeholder="School name" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
 <td style="border:1px solid #94a3b8;padding:4px;"><input id="edu10_board" placeholder="Board name" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
 <td style="border:1px solid #94a3b8;padding:4px;"><input id="edu10_year" placeholder="Year" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
 <td style="border:1px solid #94a3b8;padding:4px;"><input id="edu10_marks" placeholder="Marks / %" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
+<td style="border:1px solid #94a3b8;padding:4px;"></td>
 </tr>
 <tr>
 <td style="border:1px solid #94a3b8;padding:4px;"><input id="edu12_qual" value="12th" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
@@ -308,6 +310,7 @@ Viral Video Studio — Video enhancement plus viral toolkit app</textarea>
 <td style="border:1px solid #94a3b8;padding:4px;"><input id="edu12_board" placeholder="Board name" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
 <td style="border:1px solid #94a3b8;padding:4px;"><input id="edu12_year" placeholder="Year" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
 <td style="border:1px solid #94a3b8;padding:4px;"><input id="edu12_marks" placeholder="Marks / %" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
+<td style="border:1px solid #94a3b8;padding:4px;"></td>
 </tr>
 <tr>
 <td style="border:1px solid #94a3b8;padding:4px;"><input id="eduGrad_qual" value="Graduation / Other" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
@@ -315,8 +318,9 @@ Viral Video Studio — Video enhancement plus viral toolkit app</textarea>
 <td style="border:1px solid #94a3b8;padding:4px;"><input id="eduGrad_board" placeholder="University / Board" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
 <td style="border:1px solid #94a3b8;padding:4px;"><input id="eduGrad_year" placeholder="Year" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
 <td style="border:1px solid #94a3b8;padding:4px;"><input id="eduGrad_marks" placeholder="Marks / %" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
+<td style="border:1px solid #94a3b8;padding:4px;"></td>
 </tr>
-</tbody></table></div></div>
+</tbody></table></div><button id="eduAddRow" class="mt-2 px-space-sm py-1.5 rounded-lg bg-slate-900 text-white font-label-caps text-label-caps" type="button">+ Add Row</button></div>
 </div>
 <div class="rounded-xl bg-white text-slate-900 p-space-md shadow-md space-y-space-sm">
 <div class="flex items-center justify-between gap-space-sm">
@@ -337,6 +341,7 @@ Viral Video Studio — Video enhancement plus viral toolkit app</textarea>
 <script>
   (function () {
     var photoDataURL = "";
+    var eduDynCount = 0;
     function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
     function val(id) { var el = document.getElementById(id); return el ? el.value : ""; }
     function section(title) {
@@ -379,7 +384,32 @@ Viral Video Studio — Video enhancement plus viral toolkit app</textarea>
         var q = val(ids[0]).trim(), sc = val(ids[1]).trim(), bd = val(ids[2]).trim(), yr = val(ids[3]).trim(), mk = val(ids[4]).trim();
         if (sc || bd || yr || mk) rows.push([q, sc, bd, yr, mk]);
       });
+      document.querySelectorAll(".edu-dyn-row").forEach(function (tr) {
+        var qEl = tr.querySelector(".edu-dyn-qual");
+        var scEl = tr.querySelector(".edu-dyn-school");
+        var bdEl = tr.querySelector(".edu-dyn-board");
+        var yrEl = tr.querySelector(".edu-dyn-year");
+        var mkEl = tr.querySelector(".edu-dyn-marks");
+        var q = qEl ? qEl.value.trim() : "";
+        var sc = scEl ? scEl.value.trim() : "";
+        var bd = bdEl ? bdEl.value.trim() : "";
+        var yr = yrEl ? yrEl.value.trim() : "";
+        var mk = mkEl ? mkEl.value.trim() : "";
+        if (sc || bd || yr || mk) rows.push([q, sc, bd, yr, mk]);
+      });
       return rows;
+    }
+    function addEduRow() {
+      var body = document.getElementById("eduFormBody");
+      if (!body) return;
+      eduDynCount += 1;
+      var tr = document.createElement("tr");
+      tr.className = "edu-dyn-row";
+      tr.innerHTML = '<td style="border:1px solid #94a3b8;padding:4px;"><input class="edu-dyn-qual w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text" placeholder="Qualification"/></td><td style="border:1px solid #94a3b8;padding:4px;"><input class="edu-dyn-school w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text" placeholder="School / College"/></td><td style="border:1px solid #94a3b8;padding:4px;"><input class="edu-dyn-board w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text" placeholder="Board / University"/></td><td style="border:1px solid #94a3b8;padding:4px;"><input class="edu-dyn-year w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text" placeholder="Year"/></td><td style="border:1px solid #94a3b8;padding:4px;"><input class="edu-dyn-marks w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text" placeholder="Marks / %"/></td><td style="border:1px solid #94a3b8;padding:4px;"><button type="button" class="edu-dyn-remove px-2 py-1 rounded bg-slate-900 text-white font-label-caps text-label-caps">Remove</button></td>';
+      body.appendChild(tr);
+      tr.querySelectorAll("input").forEach(function (el) { el.addEventListener("input", renderResume); });
+      var rm = tr.querySelector(".edu-dyn-remove");
+      if (rm) rm.addEventListener("click", function () { tr.remove(); renderResume(); });
     }
     function resumeBodyHTML() {
       var about = val("resAbout").trim();
@@ -516,6 +546,8 @@ Viral Video Studio — Video enhancement plus viral toolkit app</textarea>
     if (eb) eb.addEventListener("click", editResume);
     var sb = document.getElementById("resStatusEditBtn");
     if (sb) sb.addEventListener("click", editResume);
+    var addRowBtn = document.getElementById("eduAddRow");
+    if (addRowBtn) addRowBtn.addEventListener("click", addEduRow);
     renderResume();
   })();
 </script>
