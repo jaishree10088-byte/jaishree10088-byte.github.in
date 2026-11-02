@@ -264,6 +264,15 @@
 <label><input type="checkbox" id="sec-extra" checked> Products / Work / Menu (based on your prompt)</label>
 <label><input type="checkbox" id="sec-contact" checked> Contact</label>
 </div>
+<div class="pt-space-sm">
+<label class="block font-body-md text-body-md font-semibold text-on-surface" for="logo-input">Website Logo (optional)</label>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Your logo appears at the top of the generated website. It is embedded in the downloaded file, so the file works on its own.</p>
+<div class="flex flex-wrap items-center gap-space-sm">
+<input type="file" id="logo-input" accept="image/*" class="font-body-md text-body-md text-on-surface"/>
+<img id="logo-preview" alt="Logo preview" style="display:none;max-height:80px;max-width:240px;width:auto;height:auto;border-radius:8px;"/>
+<button type="button" id="btn-logo-remove" class="rounded-lg bg-surface-container-high px-space-md py-2 font-body-md text-body-md text-on-surface" style="display:none;">Remove Logo</button>
+</div>
+</div>
 </div>
 <div class="rounded-xl bg-surface-container p-space-md space-y-space-sm">
 <div class="flex flex-wrap items-center justify-between gap-space-sm">
@@ -294,6 +303,7 @@
   (function () {
     var generatedHTML = "";
     var generatedHeading = "";
+    var logoDataURL = "";
     var selectedTheme = "blue";
     var THEMES = {
       blue:   { bg: "#ffffff", text: "#0f172a", accent: "#2563eb", card: "#f1f5f9", headerBg: "#2563eb", headerText: "#ffffff" },
@@ -332,6 +342,7 @@
       var showExtra = document.getElementById("sec-extra").checked;
       var showContact = document.getElementById("sec-contact").checked;
       var ctaTarget = showAbout ? "#about" : (showServices ? "#services" : (showExtra ? "#extra" : (showContact ? "#contact" : "#")));
+      var logoHTML = logoDataURL ? '<img src="' + logoDataURL + '" alt="Logo" style="max-width:320px;max-height:100px;width:auto;height:auto;margin:0 auto 16px;display:block;"/>' : "";
       var sections = "";
       if (showAbout) sections += '<section id="about"><h2>About</h2><p>' + esc(about) + '</p></section>';
       if (showServices) sections += '<section id="services"><h2>Our Services</h2><div class="grid">' +
@@ -343,7 +354,7 @@
         sections += '<section id="extra"><h2>' + esc(extra.title) + '</h2><div class="grid">' + cards + '</div></section>';
       }
       if (showContact) sections += '<section id="contact"><h2>Contact Us</h2><p>Email: [your email]<br>Phone: [your phone number]</p><p>Replace the bracketed text with your real details.</p></section>';
-      return '<!DOCTYPE html>\n<html lang="en">\n<head>\n<meta charset="utf-8"/>\n<meta name="viewport" content="width=device-width, initial-scale=1"/>\n<title>' + esc(head) + '</title>\n<style>\nbody{margin:0;font-family:Inter,Arial,sans-serif;background:' + t.bg + ';color:' + t.text + '}\nheader{padding:64px 24px;text-align:center;background:' + t.headerBg + ';color:' + t.headerText + '}\nh1{font-size:44px;margin:0 0 12px}\nheader p{opacity:.9;line-height:1.6}\n.cta{display:inline-block;margin-top:20px;padding:12px 24px;border-radius:8px;background:' + t.accent + ';color:#ffffff;font-weight:700;text-decoration:none}\nsection{max-width:900px;margin:0 auto;padding:32px 24px}\nsection h2{margin:0 0 16px}\n.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}\n.card{background:' + t.card + ';border-radius:12px;padding:20px}\nfooter{text-align:center;padding:32px;opacity:.7}\n</style>\n</head>\n<body>\n<header>\n<h1>' + esc(head) + '</h1>\n<p>Welcome — explore, learn more, and get in touch.</p>\n<a class="cta" href="' + ctaTarget + '">Get Started</a>\n</header>\n' + sections + '\n<footer>Template starter — not AI-generated content. Edit this file to make it your own.</footer>\n</body>\n</html>';
+      return '<!DOCTYPE html>\n<html lang="en">\n<head>\n<meta charset="utf-8"/>\n<meta name="viewport" content="width=device-width, initial-scale=1"/>\n<title>' + esc(head) + '</title>\n<style>\nbody{margin:0;font-family:Inter,Arial,sans-serif;background:' + t.bg + ';color:' + t.text + '}\nheader{padding:64px 24px;text-align:center;background:' + t.headerBg + ';color:' + t.headerText + '}\nh1{font-size:44px;margin:0 0 12px}\nheader p{opacity:.9;line-height:1.6}\n.cta{display:inline-block;margin-top:20px;padding:12px 24px;border-radius:8px;background:' + t.accent + ';color:#ffffff;font-weight:700;text-decoration:none}\nsection{max-width:900px;margin:0 auto;padding:32px 24px}\nsection h2{margin:0 0 16px}\n.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}\n.card{background:' + t.card + ';border-radius:12px;padding:20px}\nfooter{text-align:center;padding:32px;opacity:.7}\n</style>\n</head>\n<body>\n<header>\n' + logoHTML + '<h1>' + esc(head) + '</h1>\n<p>Welcome — explore, learn more, and get in touch.</p>\n<a class="cta" href="' + ctaTarget + '">Get Started</a>\n</header>\n' + sections + '\n<footer>Template starter — not AI-generated content. Edit this file to make it your own.</footer>\n</body>\n</html>';
     }
     function setStatus(msg) {
       var s = document.getElementById("realBuildStatus");
@@ -449,6 +460,13 @@
       });
       generatedHTML = "";
       generatedHeading = "";
+      logoDataURL = "";
+      var li = document.getElementById("logo-input");
+      if (li) li.value = "";
+      var lp = document.getElementById("logo-preview");
+      if (lp) { lp.src = ""; lp.style.display = "none"; }
+      var lr = document.getElementById("btn-logo-remove");
+      if (lr) lr.style.display = "none";
       window._realPreview = null;
       var pc = document.getElementById("preview-canvas-container");
       if (pc) pc.innerHTML = '<div id="realPreviewPlaceholder" style="padding:48px 24px;text-align:center;" class="font-body-md text-body-md text-on-surface-variant">No website generated yet. Enter a prompt above and click Create Website. Your generated website will appear here.</div>';
@@ -487,6 +505,44 @@
     if (vt) vt.addEventListener("click", function () { setView("768px"); });
     var vm = document.getElementById("view-mobile");
     if (vm) vm.addEventListener("click", function () { setView("390px"); });
+    var logoInput = document.getElementById("logo-input");
+    if (logoInput) logoInput.addEventListener("change", function () {
+      var f = logoInput.files && logoInput.files[0];
+      if (!f) return;
+      var reader = new FileReader();
+      reader.onload = function () {
+        var img = new Image();
+        img.onload = function () {
+          if (img.width && img.height) {
+            var maxW = 480;
+            var scale = Math.min(1, maxW / img.width);
+            var cv = document.createElement("canvas");
+            cv.width = Math.round(img.width * scale);
+            cv.height = Math.round(img.height * scale);
+            cv.getContext("2d").drawImage(img, 0, 0, cv.width, cv.height);
+            logoDataURL = cv.toDataURL("image/png");
+          } else {
+            logoDataURL = reader.result;
+          }
+          var lp = document.getElementById("logo-preview");
+          if (lp) { lp.src = logoDataURL; lp.style.display = "block"; }
+          var lr = document.getElementById("btn-logo-remove");
+          if (lr) lr.style.display = "inline-block";
+          setStatus("Logo added — it will appear at the top of the generated website.");
+        };
+        img.src = reader.result;
+      };
+      reader.readAsDataURL(f);
+    });
+    var logoRemove = document.getElementById("btn-logo-remove");
+    if (logoRemove) logoRemove.addEventListener("click", function () {
+      logoDataURL = "";
+      if (logoInput) logoInput.value = "";
+      var lp = document.getElementById("logo-preview");
+      if (lp) { lp.src = ""; lp.style.display = "none"; }
+      logoRemove.style.display = "none";
+      setStatus("Logo removed.");
+    });
     var nw = document.getElementById("btn-new-website");
     if (nw) nw.addEventListener("click", resetNew);
   })();
