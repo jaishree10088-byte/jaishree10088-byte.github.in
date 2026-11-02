@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      "colors": {
+        "surface-dim": "#0f131d",
+        "on-secondary-container": "#00424e",
+        "secondary-fixed-dim": "#4cd7f6",
+        "outline-variant": "#494454",
+        "inverse-surface": "#dfe2f1",
+        "tertiary-container": "#00a572",
+        "on-error-container": "#ffdad6",
+        "primary-container": "#a078ff",
+        "surface-container-high": "#262a35",
+        "on-primary-fixed": "#23005c",
+        "tertiary-fixed-dim": "#4edea3",
+        "inverse-primary": "#6d3bd7",
+        "tertiary": "#4edea3",
+        "primary": "#d0bcff",
+        "on-primary": "#3c0091",
+        "outline": "#958ea0",
+        "surface-container-low": "#171b26",
+        "on-tertiary-container": "#00311f",
+        "on-tertiary-fixed": "#002113",
+        "surface-tint": "#d0bcff",
+        "secondary": "#4cd7f6",
+        "surface-container-lowest": "#0a0e18",
+        "tertiary-fixed": "#6ffbbe",
+        "background": "#0f131d",
+        "primary-fixed": "#e9ddff",
+        "on-secondary": "#003640",
+        "on-tertiary": "#003824",
+        "primary-fixed-dim": "#d0bcff",
+        "secondary-container": "#03b5d3",
+        "on-surface-variant": "#cbc3d7",
+        "surface-container-highest": "#313540",
+        "surface-container": "#1c1f2a",
+        "inverse-on-surface": "#2c303b",
+        "on-primary-container": "#340080",
+        "surface-bright": "#353944",
+        "on-secondary-fixed": "#001f26",
+        "on-secondary-fixed-variant": "#004e5c",
+        "surface-variant": "#313540",
+        "on-error": "#690005",
+        "secondary-fixed": "#acedff",
+        "surface": "#0f131d",
+        "error": "#ffb4ab",
+        "on-primary-fixed-variant": "#5516be",
+        "on-surface": "#dfe2f1",
+        "on-tertiary-fixed-variant": "#005236",
+        "on-background": "#dfe2f1",
+        "error-container": "#93000a"
+      },
+      "borderRadius": {
+        "DEFAULT": "0.125rem",
+        "lg": "0.25rem",
+        "xl": "0.5rem",
+        "full": "0.75rem"
+      },
+      "spacing": {
+        "space-md": "1rem",
+        "gutter-mobile": "0.75rem",
+        "margin-mobile": "1rem",
+        "space-xl": "2.5rem",
+        "margin": "2rem",
+        "space-xs": "0.25rem",
+        "space-lg": "1.5rem",
+        "gutter": "1.25rem",
+        "space-sm": "0.5rem"
+      },
+      "fontFamily": {
+        "telemetry-metric": [
+          "JetBrains Mono"
+        ],
+        "headline-lg-mobile": [
+          "Inter"
+        ],
+        "body-md": [
+          "Inter"
+        ],
+        "code-sm": [
+          "JetBrains Mono"
+        ],
+        "title-md": [
+          "Inter"
+        ],
+        "label-caps": [
+          "JetBrains Mono"
+        ],
+        "code-lg": [
+          "JetBrains Mono"
+        ],
+        "headline-md": [
+          "Inter"
+        ],
+        "headline-sm": [
+          "Inter"
+        ],
+        "display-xl-mobile": [
+          "Inter"
+        ],
+        "display-xl": [
+          "Inter"
+        ],
+        "body-lg": [
+          "Inter"
+        ],
+        "body-sm": [
+          "Inter"
+        ],
+        "headline-lg": [
+          "Inter"
+        ]
+      },
+      "fontSize": {
+        "telemetry-metric": [
+          "22px",
+          {
+            "lineHeight": "28px",
+            "letterSpacing": "0.02em",
+            "fontWeight": "700"
+          }
+        ],
+        "headline-lg-mobile": [
+          "26px",
+          {
+            "lineHeight": "34px",
+            "letterSpacing": "-0.015em",
+            "fontWeight": "600"
+          }
+        ],
+        "body-md": [
+          "14px",
+          {
+            "lineHeight": "22px",
+            "fontWeight": "400"
+          }
+        ],
+        "code-sm": [
+          "12px",
+          {
+            "lineHeight": "18px",
+            "fontWeight": "400"
+          }
+        ],
+        "title-md": [
+          "16px",
+          {
+            "lineHeight": "24px",
+            "letterSpacing": "-0.005em",
+            "fontWeight": "600"
+          }
+        ],
+        "label-caps": [
+          "11px",
+          {
+            "lineHeight": "16px",
+            "letterSpacing": "0.08em",
+            "fontWeight": "600"
+          }
+        ],
+        "code-lg": [
+          "14px",
+          {
+            "lineHeight": "22px",
+            "fontWeight": "500"
+          }
+        ],
+        "headline-md": [
+          "24px",
+          {
+            "lineHeight": "32px",
+            "letterSpacing": "-0.015em",
+            "fontWeight": "600"
+          }
+        ],
+        "headline-sm": [
+          "20px",
+          {
+            "lineHeight": "28px",
+            "letterSpacing": "-0.01em",
+            "fontWeight": "600"
+          }
+        ],
+        "display-xl-mobile": [
+          "36px",
+          {
+            "lineHeight": "44px",
+            "letterSpacing": "-0.02em",
+            "fontWeight": "700"
+          }
+        ],
+        "display-xl": [
+          "56px",
+          {
+            "lineHeight": "64px",
+            "letterSpacing": "-0.03em",
+            "fontWeight": "700"
+          }
+        ],
+        "body-lg": [
+          "16px",
+          {
+            "lineHeight": "26px",
+            "fontWeight": "400"
+          }
+        ],
+        "body-sm": [
+          "12px",
+          {
+            "lineHeight": "18px",
+            "fontWeight": "400"
+          }
+        ],
+        "headline-lg": [
+          "32px",
+          {
+            "lineHeight": "40px",
+            "letterSpacing": "-0.02em",
+            "fontWeight": "600"
+          }
+        ]
+      }
+    }
+  }
+}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased">
+<div class="w-full px-space-md py-space-sm bg-secondary-container/20 border-b border-secondary/30 text-center font-body-sm text-body-sm text-on-surface">PUBLIC PREVIEW — Live scanning needs the local version. <a class="text-secondary underline font-semibold" href="/downloads/webforge-website.zip">Download the local website</a> to run real scans on your computer.</div><aside class="fixed left-0 top-0 h-full w-64 bg-surface-container-low/90 backdrop-blur-xl z-50 flex flex-col justify-between shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex flex-col flex-1 min-h-0"><div class="h-16 px-space-md flex items-center gap-space-sm bg-surface-container-lowest/60"><img alt="WebForge AI Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XuiRWGJzzoEASabZ-bT3kOUomZrdu33Zxrmg1DP_Rj0WARWr6X3b9ZxtlcCQvWZEdSx87CTLp0XYnWnhlCK_DQsYtHr-Vida3pvx5AlqK3res4VvWFRcz4l4OgoSh86SZ2J1PI59TuHdsR6lnbaBPlDctOSGoF4Q0WjSg6sryxRkhZniCW306VcIYBxV71-SorXNwnFZgYU0iYu8ysoSOLA8vk8uq2OGARNcjb9ZXzvw"/><div class="flex flex-col"><span class="font-title-md text-title-md tracking-tight text-on-surface font-bold">WebForge AI</span><span class="font-label-caps text-label-caps text-secondary tracking-widest">SEC-CORE v4.9</span></div></div><div class="overflow-y-auto px-space-sm py-space-sm space-y-space-md flex-1"><div class="space-y-space-xs"><div class="px-space-sm font-label-caps text-label-caps text-outline tracking-wider uppercase">Core</div><nav class="space-y-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-lg shadow-[0_0_12px_rgba(160,120,255,0.25)]"><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="dashboard" href="index.html"><span class="material-symbols-outlined text-title-md">grid_view</span><span class="font-body-md text-body-md">Dashboard</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="resume-builder" href="resume-builder.html"><span class="material-symbols-outlined text-title-md">description</span><span class="font-body-md text-body-md">Resume Builder</span></a></nav></div><div class="space-y-space-xs"><div class="px-space-sm font-label-caps text-label-caps text-outline tracking-wider uppercase">AI Studio</div><nav class="space-y-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-lg shadow-[0_0_12px_rgba(160,120,255,0.25)]"><a aria-current="page" class="flex items-center gap-space-sm px-space-sm py-space-xs transition-all bg-primary-container text-on-primary-container font-semibold rounded-lg shadow-[0_0_12px_rgba(160,120,255,0.25)]" data-path="ai-website-builder" href="ai-website-builder.html"><span class="material-symbols-outlined text-title-md">auto_fix_high</span><span class="font-body-md text-body-md">AI Website Builder</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="website-editor" href="#"><span class="material-symbols-outlined text-title-md">code_blocks</span><span class="font-body-md text-body-md">Website Editor</span></a></nav></div><div class="space-y-space-xs"><div class="px-space-sm font-label-caps text-label-caps text-outline tracking-wider uppercase">Sec-Ops &amp; Audit</div><nav class="space-y-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-lg shadow-[0_0_12px_rgba(160,120,255,0.25)]"><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="security-scanner" href="security-scanner.html"><span class="material-symbols-outlined text-title-md">radar</span><span class="font-body-md text-body-md">Security Scanner</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="bug-finder" href="bug-finder.html"><span class="material-symbols-outlined text-title-md">bug_report</span><span class="font-body-md text-body-md">Bug Finder</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="vulnerability-reports" href="vulnerability-reports.html"><span class="material-symbols-outlined text-title-md">shield_with_heart</span><span class="font-body-md text-body-md">Vulnerability Reports</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="ai-security-chat" href="#"><span class="material-symbols-outlined text-title-md">smart_toy</span><span class="font-body-md text-body-md">AI Security Chat</span></a></nav></div><div class="space-y-space-xs"><div class="px-space-sm font-label-caps text-label-caps text-outline tracking-wider uppercase">System</div><nav class="space-y-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-lg shadow-[0_0_12px_rgba(160,120,255,0.25)]"><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="additional-tools" href="#"><span class="material-symbols-outlined text-title-md">terminal</span><span class="font-body-md text-body-md">Additional Tools</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="settings" href="#"><span class="material-symbols-outlined text-title-md">settings</span><span class="font-body-md text-body-md">Settings</span></a></nav></div></div></div><div class="p-space-sm bg-surface-container-lowest/80"><div class="p-space-sm rounded-lg bg-surface-container-high/60 flex items-center justify-between"><div class="flex items-center gap-space-xs"><span class="w-2 h-2 rounded-full bg-tertiary animate-pulse"></span><span class="font-code-sm text-code-sm text-tertiary">PASSIVE CHECK ONLY</span></div><span class="font-code-sm text-code-sm text-outline">TLS 1.3</span></div></div></aside><div class="pl-64 flex flex-col min-h-screen"><header class="fixed top-0 left-64 right-0 h-16 bg-surface/85 backdrop-blur-xl z-40 shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 w-full px-space-md flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><img alt="WebForge AI Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XuiRWGJzzoEASabZ-bT3kOUomZrdu33Zxrmg1DP_Rj0WARWr6X3b9ZxtlcCQvWZEdSx87CTLp0XYnWnhlCK_DQsYtHr-Vida3pvx5AlqK3res4VvWFRcz4l4OgoSh86SZ2J1PI59TuHdsR6lnbaBPlDctOSGoF4Q0WjSg6sryxRkhZniCW306VcIYBxV71-SorXNwnFZgYU0iYu8ysoSOLA8vk8uq2OGARNcjb9ZXzvw"/><div class="hidden xl:flex items-center gap-space-xs px-space-sm py-space-xs rounded-full bg-tertiary-container/20 text-on-surface"><span class="w-2 h-2 rounded-full bg-tertiary animate-ping"></span><span class="font-label-caps text-label-caps text-tertiary font-bold tracking-wider">ALL SYSTEMS NOMINAL</span><span class="text-outline">•</span><span class="font-label-caps text-label-caps text-on-surface-variant">GUARD SHIELD ACTIVE</span></div><div class="flex items-center gap-space-xs px-space-sm py-space-xs rounded-lg bg-surface-container-low text-outline hover:text-on-surface transition-colors cursor-pointer"><span class="material-symbols-outlined text-title-md">search</span><span class="font-body-sm text-body-sm text-outline">Quick Search...</span><kbd class="px-space-xs py-0.5 rounded bg-surface-container-highest font-code-sm text-code-sm text-on-surface-variant">Ctrl+K</kbd></div></div><div class="flex items-center gap-space-sm"><div class="flex items-center p-0.5 rounded-lg bg-surface-container-lowest"><button class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-label-caps text-label-caps transition-all" type="button">DEV</button><button class="px-space-sm py-1 rounded text-outline hover:text-on-surface font-label-caps text-label-caps transition-all" type="button">SECOPS</button></div><button class="flex items-center gap-space-xs px-space-sm py-space-xs rounded-lg bg-secondary/15 hover:bg-secondary/25 text-secondary hover:text-secondary-fixed transition-all shadow-[0_0_12px_rgba(76,215,246,0.2)]" type="button"><span class="material-symbols-outlined text-title-md">bolt</span><span class="font-label-caps text-label-caps font-bold">START SCAN</span></button><button class="flex items-center gap-space-xs px-space-sm py-space-xs rounded-lg bg-primary-container hover:bg-primary-container/85 text-on-primary-container transition-all shadow-[0_0_12px_rgba(160,120,255,0.3)]" type="button"><span class="material-symbols-outlined text-title-md">add_box</span><span class="font-label-caps text-label-caps font-bold">NEW PROJECT</span></button><div class="relative flex items-center justify-center p-space-xs text-on-surface-variant hover:text-on-surface cursor-pointer"><span class="material-symbols-outlined text-headline-sm">notifications</span><span class="absolute top-1 right-1 flex items-center justify-center w-4 h-4 rounded-full bg-error-container text-on-error-container font-label-caps text-[10px] font-bold">3</span></div><div class="flex items-center gap-space-xs pl-space-xs"><div class="hidden md:flex flex-col text-right"><span class="font-body-sm text-body-sm font-semibold text-on-surface">Sandip</span><span class="font-label-caps text-label-caps text-secondary">Security Check</span></div><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAbFUrF1ZYkbVm8JiJxlEGKMuGB8miQ3YqTNMjNbgqB-5CADjgPloQ18JLgE120-LPMTIZKnZq_3W_iLBh2NXuKKbhy1qXXhuDuuzLXJvNm4Id6Z0WadnXpQ0UURRGhfnS15DVLcyhLOWg3lBfOasKDvDGbrBHDUp6vpRNShSbGon4jljFEh94MCvMyNeq8I1pE1giOyTXRs8WJ-uVMKZcOFLEA0DQVLdAOPbZQK-zp"/></div></div></div></header><main class="w-full pt-16 bg-surface flex-1"><div class="flex flex-col w-full">
+<div class="relative w-full overflow-hidden bg-surface-container-lowest px-space-md py-space-xl sm:px-space-xl">
+<div class="absolute -top-32 left-1/4 h-96 w-96 rounded-full bg-primary-container/10 blur-[120px] pointer-events-none"></div>
+<div class="absolute top-1/2 right-10 h-72 w-72 rounded-full bg-secondary-container/10 blur-[100px] pointer-events-none"></div>
+<div class="relative max-w-7xl mx-auto flex flex-col gap-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-space-sm py-0.5 rounded-full bg-primary/10 text-primary font-label-caps text-label-caps">
+<span class="h-1.5 w-1.5 rounded-full bg-primary animate-ping"></span>
+              NEURAL FORGE PIPELINE 4.9
+            </span>
+<span class="text-outline font-label-caps text-label-caps">| ZERO-VULN TARGET COMPILER</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">AI Kinetic Web Synthesis Studio</h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+            Stream reactive Next.js 14, Tailwind, and hardened SecOps components in milliseconds. Enter natural language telemetry specifications below.
+          </p>
+</div>
+<div class="flex items-center gap-space-xs self-start md:self-auto bg-surface-container-low px-space-sm py-space-xs rounded-xl shadow-sm">
+<div class="flex flex-col text-right">
+<span class="font-label-caps text-label-caps text-outline">LATENCY BUDGET</span>
+<span class="font-telemetry-metric text-code-lg text-tertiary">380ms · ULTRA</span>
+</div>
+<span class="material-symbols-outlined text-tertiary text-headline-sm">speed</span>
+</div>
+</div>
+<div class="p-1 rounded-2xl bg-gradient-to-r from-primary-container/40 via-secondary-container/30 to-tertiary-container/30 shadow-xl">
+<div class="bg-surface-container-low/95 backdrop-blur-xl p-space-md rounded-[14px] flex flex-col gap-space-md">
+<div class="relative flex items-center">
+<span class="absolute left-4 material-symbols-outlined text-headline-md text-secondary">terminal</span>
+<input class="w-full pl-14 pr-28 py-space-md bg-surface-container-lowest/80 text-on-surface placeholder:text-outline font-body-lg text-body-lg rounded-xl focus:outline-none focus:ring-2 focus:ring-primary shadow-inner" id="prompt-input" type="text" value="Build a futuristic cybersecurity threat intelligence SaaS with live radar sweep, pricing table, interactive terminal demo, and dark mode"/>
+<button class="absolute right-3 p-space-xs rounded-lg text-outline hover:text-secondary hover:bg-surface-container-high transition-colors" id="btn-dice" title="Surprise Inspiration" type="button">
+<span class="material-symbols-outlined text-headline-sm">casino</span>
+</button>
+</div>
+<div class="flex flex-wrap items-center justify-between gap-space-sm pt-space-xs">
+<div class="flex flex-wrap items-center gap-space-xs">
+<div class="flex items-center gap-2 px-space-sm py-space-xs rounded-lg bg-surface-container-high text-on-surface text-body-sm font-body-sm">
+<span class="material-symbols-outlined text-body-md text-primary">psychology</span>
+<select class="bg-transparent border-0 text-on-surface font-code-sm text-code-sm focus:outline-none cursor-pointer">
+<option class="bg-surface-container-high" selected="">ForgeEngine v4.2 · Ultra Vision</option>
+<option class="bg-surface-container-high">Claude 3.7 Sonnet · Hybrid SecOps</option>
+<option class="bg-surface-container-high">DeepSeek Coder · Direct AST Mode</option>
+</select>
+</div>
+<div class="flex items-center gap-2 px-space-sm py-space-xs rounded-lg bg-surface-container-high text-on-surface text-body-sm font-body-sm">
+<span class="material-symbols-outlined text-body-md text-secondary">layers</span>
+<select class="bg-transparent border-0 text-on-surface font-code-sm text-code-sm focus:outline-none cursor-pointer">
+<option class="bg-surface-container-high" selected="">Next.js 14 App Router (Tailwind)</option>
+<option class="bg-surface-container-high">React + Vite + Tailwind</option>
+<option class="bg-surface-container-high">Pure HTML5 + Modern CSS + ESM</option>
+</select>
+</div>
+<button class="flex items-center gap-1.5 px-space-sm py-space-xs rounded-lg bg-surface-container text-outline hover:text-on-surface hover:bg-surface-container-high transition-colors font-label-caps text-label-caps" id="btn-constraints" type="button">
+<span class="material-symbols-outlined text-body-md">tune</span>
+                CONSTRAINTS
+              </button>
+</div>
+<div class="flex items-center gap-space-sm">
+<button class="flex items-center gap-1.5 px-space-md py-space-xs rounded-lg bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-bright transition-colors font-label-caps text-label-caps" id="btn-random-prompt" type="button">
+<span class="material-symbols-outlined text-body-md">shuffle</span>
+                RANDOM PROMPT
+              </button>
+<button class="flex items-center gap-2 px-space-lg py-space-sm rounded-lg bg-gradient-to-r from-primary-container to-inverse-primary text-on-primary font-body-md font-semibold hover:shadow-[0_0_24px_rgba(160,120,255,0.45)] transition-all cursor-pointer" id="btn-generate-main" type="button">
+<span class="material-symbols-outlined text-title-md animate-spin-reverse">auto_awesome</span>
+                SYNTHESIZE FULL APP
+              </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="w-full bg-surface-container-low px-space-md py-space-md sm:px-space-xl">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-md">
+<div class="flex items-center justify-between overflow-x-auto gap-space-sm no-scrollbar pb-1">
+<div class="flex items-center gap-space-xs min-w-max" id="archetype-tabs">
+<button class="archetype-pill px-space-md py-1.5 rounded-lg bg-primary-container text-on-primary-container font-label-caps text-label-caps font-bold transition-all shadow-sm" data-cat="all">
+            ALL TEMPLATES (42)
+          </button>
+<button class="archetype-pill px-space-md py-1.5 rounded-lg bg-surface-container-high text-on-surface-variant hover:text-on-surface font-label-caps text-label-caps transition-all" data-cat="landing">
+            ⚡ LANDING PAGES
+          </button>
+<button class="archetype-pill px-space-md py-1.5 rounded-lg bg-surface-container-high text-on-surface-variant hover:text-on-surface font-label-caps text-label-caps transition-all" data-cat="saas">
+            💼 SAAS &amp; BUSINESS
+          </button>
+<button class="archetype-pill px-space-md py-1.5 rounded-lg bg-surface-container-high text-on-surface-variant hover:text-on-surface font-label-caps text-label-caps transition-all" data-cat="portfolio">
+            🎨 DEV PORTFOLIOS
+          </button>
+<button class="archetype-pill px-space-md py-1.5 rounded-lg bg-surface-container-high text-on-surface-variant hover:text-on-surface font-label-caps text-label-caps transition-all" data-cat="ecommerce">
+            🛍️ E-COMMERCE
+          </button>
+<button class="archetype-pill px-space-md py-1.5 rounded-lg bg-surface-container-high text-on-surface-variant hover:text-on-surface font-label-caps text-label-caps transition-all" data-cat="docs">
+            📰 TECH BLOGS &amp; DOCS
+          </button>
+</div>
+<div class="flex items-center gap-1 text-outline font-code-sm text-code-sm whitespace-nowrap pl-4">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span>
+<span>AUTONOMOUS AUDIT PASS 100%</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<div class="group relative rounded-xl bg-surface-container-lowest p-space-sm hover:shadow-[0_8px_30px_rgba(0,0,0,0.6)] transition-all cursor-pointer flex flex-col justify-between">
+<div class="relative h-40 w-full overflow-hidden rounded-lg bg-surface-container-high">
+<img class="h-full w-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Futuristic dark cyber warfare interface hero section displaying a glowing holographic globe surrounded by purple and cyan telemetry data graphs and charts in an ultra premium dark security center aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4G97nLUX1HBT1uBJy-s8FmaPPkV0Z3w8L7fl_W8HERScM81hfP-fMMDw32QbXdJLOg_kY2gofNgAAu39MQLo57Luo0KEuB_wwlKHPDajfONZUj2_o3NtTYsSsMZHp7LSSgw-NZ2JUZAsZ38RjJGjnibdZqH-0e5SmL2tQrcK2S5Syc13gDmZSlU84VUxtHTrnl3BA4HSGBD4nwe_uTOK3vef81RmurRNb7MAi-xsK"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent"></div>
+<span class="absolute top-2 right-2 px-2 py-0.5 rounded bg-tertiary-container text-on-tertiary-container font-label-caps text-label-caps font-bold">PRE-HARDENED</span>
+<span class="absolute bottom-2 left-2 px-2 py-0.5 rounded bg-surface-dim/80 backdrop-blur-md text-secondary font-code-sm text-code-sm">CyberWatch AI SaaS</span>
+</div>
+<div class="pt-space-sm flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="px-2 py-0.5 rounded bg-surface-container font-code-sm text-code-sm text-on-surface-variant">Lighthouse 100</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-code-sm text-code-sm text-primary">React 18</span>
+</div>
+<button class="text-secondary font-label-caps text-label-caps flex items-center gap-1 hover:underline">
+              USE ARCHETYPE <span class="material-symbols-outlined text-body-md">arrow_forward</span>
+</button>
+</div>
+</div>
+<div class="group relative rounded-xl bg-surface-container-lowest p-space-sm hover:shadow-[0_8px_30px_rgba(0,0,0,0.6)] transition-all cursor-pointer flex flex-col justify-between">
+<div class="relative h-40 w-full overflow-hidden rounded-lg bg-surface-container-high">
+<img class="h-full w-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Sleek fintech command center and crypto asset analytics terminal dashboard with glowing deep purple line charts, neon numeric counters, and frosted dark glass panels on deep obsidian background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuARIrnxRRvA8Sktt-uyZzGdEdsIqDOwA1-Isk3vWeOmidlQSCEzj9abzPoHQGv332iZv8xkbNH53dV_QHqC-01aE0tItz_v9UioKhd_If8O2GA23bcdoaobO1M7bai1LoEJY0MvdsVhPoupjFVlB_aue70WuU3G0w7WTn0ONAuL3CYPH3tSDV5tXNNqMkS1XB402M3sRzLK6QgWa5uusU2rctg3RxwdIS_wwjYh-C4t"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent"></div>
+<span class="absolute top-2 right-2 px-2 py-0.5 rounded bg-secondary-container text-on-secondary-container font-label-caps text-label-caps font-bold">READY TO DEPLOY</span>
+<span class="absolute bottom-2 left-2 px-2 py-0.5 rounded bg-surface-dim/80 backdrop-blur-md text-primary font-code-sm text-code-sm">FinVortex Matrix</span>
+</div>
+<div class="pt-space-sm flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="px-2 py-0.5 rounded bg-surface-container font-code-sm text-code-sm text-on-surface-variant">Next.js 14</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-code-sm text-code-sm text-tertiary">Zero Trust</span>
+</div>
+<button class="text-secondary font-label-caps text-label-caps flex items-center gap-1 hover:underline">
+              USE ARCHETYPE <span class="material-symbols-outlined text-body-md">arrow_forward</span>
+</button>
+</div>
+</div>
+<div class="group relative rounded-xl bg-surface-container-lowest p-space-sm hover:shadow-[0_8px_30px_rgba(0,0,0,0.6)] transition-all cursor-pointer flex flex-col justify-between">
+<div class="relative h-40 w-full overflow-hidden rounded-lg bg-surface-container-high">
+<img class="h-full w-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern generative AI developer documentation portal screen displaying neon code blocks, dark purple typography accents, interactive sandbox debugger preview, and sleek API tree hierarchy." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDeo4SUSkJAH7k6O0hcQccZwEgsLgtF0WgiDlerm2-55UE_pnlsFQ75--dD2ZyEk5OkIW42bB2q4-89TwCDqALDCM7jmhqKgUk8pI5kTqE4mG8vTxL5n0G9t8MkNbO9jChNZiIBcRxNuokXISXsBg_jr0u6FSPqFH1xZeUVYSsXyz1t-RFt1Qo19tqvpNUw47VGiNXrgW-9-LRrCUxJZObI1mJ-V09w_LJ5br1kPC6F"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent"></div>
+<span class="absolute top-2 right-2 px-2 py-0.5 rounded bg-primary-container text-on-primary-container font-label-caps text-label-caps font-bold">DEV CORE</span>
+<span class="absolute bottom-2 left-2 px-2 py-0.5 rounded bg-surface-dim/80 backdrop-blur-md text-on-surface font-code-sm text-code-sm">DocuForge Hyperdocs</span>
+</div>
+<div class="pt-space-sm flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="px-2 py-0.5 rounded bg-surface-container font-code-sm text-code-sm text-on-surface-variant">MDX 3</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-code-sm text-code-sm text-secondary">SSG Fast</span>
+</div>
+<button class="text-secondary font-label-caps text-label-caps flex items-center gap-1 hover:underline">
+              USE ARCHETYPE <span class="material-symbols-outlined text-body-md">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="w-full px-space-md py-space-lg sm:px-space-xl flex-1 flex flex-col">
+<div class="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-space-md items-start">
+<div class="lg:col-span-4 flex flex-col gap-space-md">
+<div class="rounded-xl bg-surface-container-low p-space-md shadow-md flex flex-col gap-space-md">
+<div class="flex items-center justify-between pb-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-headline-sm">account_tree</span>
+<span class="font-title-md text-title-md text-on-surface font-semibold">Synthesis Blueprint</span>
+</div>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-outline font-code-sm text-code-sm">5 Components</span>
+</div>
+<div class="flex flex-col gap-2 font-code-sm text-code-sm" id="component-tree">
+<div class="blueprint-item group p-space-sm rounded-lg bg-surface-container-lowest hover:bg-surface-container-high transition-all cursor-pointer flex flex-col gap-1 shadow-sm">
+<div class="flex items-center justify-between">
+<span class="flex items-center gap-2 font-semibold text-primary">
+<span class="material-symbols-outlined text-body-md">view_compact</span>
+<span>1. Hero Section</span>
+</span>
+<span class="material-symbols-outlined text-tertiary text-body-md">check_circle</span>
+</div>
+<span class="text-outline text-body-sm pl-6 font-body-sm">Interactive 3D Grid + Kinetic Threat Headline</span>
+<div class="pl-6 flex items-center gap-2 mt-1">
+<button class="px-2 py-0.5 rounded bg-surface-container text-secondary text-label-caps font-label-caps hover:bg-secondary hover:text-on-secondary">EDIT PROMPT</button>
+<button class="px-2 py-0.5 rounded bg-surface-container text-outline text-label-caps font-label-caps hover:text-on-surface">REGEN</button>
+</div>
+</div>
+<div class="blueprint-item group p-space-sm rounded-lg bg-surface-container-lowest hover:bg-surface-container-high transition-all cursor-pointer flex flex-col gap-1 shadow-sm">
+<div class="flex items-center justify-between">
+<span class="flex items-center gap-2 font-semibold text-secondary">
+<span class="material-symbols-outlined text-body-md">dashboard_customize</span>
+<span>2. Feature Matrix</span>
+</span>
+<span class="material-symbols-outlined text-tertiary text-body-md">check_circle</span>
+</div>
+<span class="text-outline text-body-sm pl-6 font-body-sm">Glassmorphic Bento Box · Threat Detection</span>
+<div class="pl-6 flex items-center gap-2 mt-1">
+<button class="px-2 py-0.5 rounded bg-surface-container text-secondary text-label-caps font-label-caps hover:bg-secondary hover:text-on-secondary">EDIT PROMPT</button>
+<button class="px-2 py-0.5 rounded bg-surface-container text-outline text-label-caps font-label-caps hover:text-on-surface">REGEN</button>
+</div>
+</div>
+<div class="blueprint-item group p-space-sm rounded-lg bg-surface-container-lowest hover:bg-surface-container-high transition-all cursor-pointer flex flex-col gap-1 shadow-sm">
+<div class="flex items-center justify-between">
+<span class="flex items-center gap-2 font-semibold text-tertiary">
+<span class="material-symbols-outlined text-body-md">verified_user</span>
+<span>3. Trust &amp; Radar Metrics</span>
+</span>
+<span class="material-symbols-outlined text-tertiary text-body-md">check_circle</span>
+</div>
+<span class="text-outline text-body-sm pl-6 font-body-sm">Live Vulnerability Counter · SOC2 &amp; ISO 27001</span>
+<div class="pl-6 flex items-center gap-2 mt-1">
+<button class="px-2 py-0.5 rounded bg-surface-container text-secondary text-label-caps font-label-caps hover:bg-secondary hover:text-on-secondary">EDIT PROMPT</button>
+<button class="px-2 py-0.5 rounded bg-surface-container text-outline text-label-caps font-label-caps hover:text-on-surface">REGEN</button>
+</div>
+</div>
+<div class="blueprint-item group p-space-sm rounded-lg bg-surface-container-lowest hover:bg-surface-container-high transition-all cursor-pointer flex flex-col gap-1 shadow-sm">
+<div class="flex items-center justify-between">
+<span class="flex items-center gap-2 font-semibold text-on-surface">
+<span class="material-symbols-outlined text-body-md">price_change</span>
+<span>4. Dynamic Pricing</span>
+</span>
+<span class="material-symbols-outlined text-tertiary text-body-md">check_circle</span>
+</div>
+<span class="text-outline text-body-sm pl-6 font-body-sm">Pro / Enterprise Tiers · Stripe Checkout SDK</span>
+<div class="pl-6 flex items-center gap-2 mt-1">
+<button class="px-2 py-0.5 rounded bg-surface-container text-secondary text-label-caps font-label-caps hover:bg-secondary hover:text-on-secondary">EDIT PROMPT</button>
+<button class="px-2 py-0.5 rounded bg-surface-container text-outline text-label-caps font-label-caps hover:text-on-surface">REGEN</button>
+</div>
+</div>
+<div class="blueprint-item group p-space-sm rounded-lg bg-surface-container-lowest hover:bg-surface-container-high transition-all cursor-pointer flex flex-col gap-1 shadow-sm">
+<div class="flex items-center justify-between">
+<span class="flex items-center gap-2 font-semibold text-primary">
+<span class="material-symbols-outlined text-body-md">terminal</span>
+<span>5. Live Demo Terminal</span>
+</span>
+<span class="material-symbols-outlined text-tertiary text-body-md">check_circle</span>
+</div>
+<span class="text-outline text-body-sm pl-6 font-body-sm">Interactive CLI sandbox with instant threat replay</span>
+<div class="pl-6 flex items-center gap-2 mt-1">
+<button class="px-2 py-0.5 rounded bg-surface-container text-secondary text-label-caps font-label-caps hover:bg-secondary hover:text-on-secondary">EDIT PROMPT</button>
+<button class="px-2 py-0.5 rounded bg-surface-container text-outline text-label-caps font-label-caps hover:text-on-surface">REGEN</button>
+</div>
+</div>
+</div>
+<div class="mt-2 pt-space-sm flex flex-col gap-2">
+<button class="w-full flex items-center justify-center gap-2 py-space-xs rounded-lg bg-surface-container-high hover:bg-surface-bright text-on-surface font-label-caps text-label-caps transition-all">
+<span class="material-symbols-outlined text-body-md text-primary">add</span>
+              APPEND CUSTOM SECTION
+            </button>
+</div>
+</div>
+<div class="rounded-xl bg-surface-container-low p-space-md shadow-md flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-on-surface font-semibold">Security Guard Enclave</span>
+<span class="flex items-center gap-1 font-label-caps text-label-caps text-tertiary">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span> OPTIMAL
+            </span>
+</div>
+<div class="space-y-space-xs font-code-sm text-code-sm">
+<div class="flex justify-between items-center text-outline">
+<span>OWASP Top 10 Sanitizer</span>
+<span class="text-tertiary font-bold">100% Passed</span>
+</div>
+<div class="w-full h-1.5 rounded-full bg-surface-container-lowest overflow-hidden">
+<div class="h-full bg-tertiary w-full"></div>
+</div>
+<div class="flex justify-between items-center text-outline pt-1">
+<span>CSP &amp; CORS Header Config</span>
+<span class="text-secondary font-bold">Strict-Strict</span>
+</div>
+<div class="w-full h-1.5 rounded-full bg-surface-container-lowest overflow-hidden">
+<div class="h-full bg-secondary w-full"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="lg:col-span-8 flex flex-col gap-space-sm">
+<div class="rounded-xl bg-surface-container-low p-space-sm flex flex-wrap items-center justify-between gap-space-sm shadow-md">
+<div class="flex items-center gap-1 bg-surface-container-lowest p-1 rounded-lg">
+<button class="viewport-btn active-vp px-space-sm py-1 rounded bg-surface-container-high text-secondary flex items-center gap-1.5 font-label-caps text-label-caps" id="view-desktop">
+<span class="material-symbols-outlined text-body-md">desktop_windows</span> 1440px
+            </button>
+<button class="viewport-btn px-space-sm py-1 rounded text-outline hover:text-on-surface flex items-center gap-1.5 font-label-caps text-label-caps" id="view-tablet">
+<span class="material-symbols-outlined text-body-md">tablet_mac</span> 768px
+            </button>
+<button class="viewport-btn px-space-sm py-1 rounded text-outline hover:text-on-surface flex items-center gap-1.5 font-label-caps text-label-caps" id="view-mobile">
+<span class="material-symbols-outlined text-body-md">smartphone</span> 390px
+            </button>
+</div>
+<div class="flex items-center gap-space-xs flex-wrap">
+<button class="flex items-center gap-1 px-space-sm py-1.5 rounded-lg bg-surface-container-high hover:bg-surface-bright text-on-surface font-label-caps text-label-caps transition-all" id="btn-live-preview">
+<span class="material-symbols-outlined text-body-md text-secondary">visibility</span> PREVIEW
+            </button>
+<button class="flex items-center gap-1 px-space-sm py-1.5 rounded-lg bg-surface-container-high hover:bg-surface-bright text-on-surface font-label-caps text-label-caps transition-all" id="btn-regen-section">
+<span class="material-symbols-outlined text-body-md text-primary">replay</span> REGEN
+            </button>
+<button class="flex items-center gap-1 px-space-sm py-1.5 rounded-lg bg-surface-container-high hover:bg-surface-bright text-on-surface font-label-caps text-label-caps transition-all" id="btn-code-editor">
+<span class="material-symbols-outlined text-body-md text-outline">code</span> CODE
+            </button>
+<button class="flex items-center gap-1 px-space-sm py-1.5 rounded-lg bg-tertiary-container/20 hover:bg-tertiary-container/30 text-tertiary font-label-caps text-label-caps transition-all" id="btn-sec-scan">
+<span class="material-symbols-outlined text-body-md">security</span> SEC SCAN
+            </button>
+</div>
+</div>
+<div class="w-full flex justify-center bg-surface-container-lowest p-space-xs sm:p-space-sm rounded-2xl shadow-2xl overflow-hidden min-h-[620px]">
+<div class="w-full transition-all duration-300 rounded-xl bg-surface-dim overflow-y-auto max-h-[720px] shadow-inner" id="preview-canvas-container">
+<div class="w-full bg-surface-container-low/90 backdrop-blur-md px-space-md py-space-sm flex items-center justify-between sticky top-0 z-30">
+<div class="flex items-center gap-space-sm">
+<div class="flex items-center gap-1.5">
+<span class="w-3 h-3 rounded-full bg-error"></span>
+<span class="w-3 h-3 rounded-full bg-secondary-container"></span>
+<span class="w-3 h-3 rounded-full bg-tertiary"></span>
+</div>
+<span class="font-code-sm text-code-sm text-outline px-2 py-0.5 rounded bg-surface-container-lowest">https://synth-preview.webforge.sh/aegis-intel</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2 py-0.5 rounded bg-tertiary-container text-on-tertiary-container font-label-caps text-label-caps">LIVE SYNTH V4</span>
+</div>
+</div>
+<div class="relative w-full px-space-md sm:px-space-xl py-space-xl overflow-hidden flex flex-col items-center text-center">
+<div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary-container/20 via-surface-dim to-transparent pointer-events-none"></div>
+<div class="relative z-10 flex flex-col items-center gap-space-md max-w-3xl">
+<div class="inline-flex items-center gap-2 px-space-sm py-1 rounded-full bg-surface-container-high/80 text-secondary font-code-sm text-code-sm shadow-sm">
+<span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+                  GLOBAL THREAT SURFACE MONITOR 2.0
+                </div>
+<h2 class="font-headline-lg text-headline-lg sm:text-display-xl text-on-surface font-extrabold tracking-tight">
+                  Autonomous Web Generation. <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Impenetrable Security.</span>
+</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+                  Deploy ultra-fast web architectures backed by proactive zero-day defense telemetry, auto-healed against XSS, CSRF, and SQLi exploits.
+                </p>
+<div class="flex flex-wrap items-center justify-center gap-space-sm pt-space-xs">
+<button class="px-space-lg py-space-sm rounded-lg bg-primary-container text-on-primary-container font-body-md font-bold shadow-lg hover:shadow-primary/30 transition-all">
+                    Deploy Free Sandbox
+                  </button>
+<button class="px-space-lg py-space-sm rounded-lg bg-surface-container-high text-on-surface font-body-md font-semibold hover:bg-surface-bright transition-all">
+                    View Live Telemetry
+                  </button>
+</div>
+</div>
+<div class="relative z-10 mt-space-xl w-full max-w-4xl grid grid-cols-1 md:grid-cols-3 gap-space-sm text-left">
+<div class="p-space-md rounded-xl bg-surface-container/70 backdrop-blur-lg flex flex-col justify-between gap-space-md shadow-md">
+<div class="flex items-center justify-between">
+<span class="material-symbols-outlined text-secondary text-headline-sm">radar</span>
+<span class="font-code-sm text-code-sm text-tertiary">ACTIVE</span>
+</div>
+<div>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold">Zero-Day Radar</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Real-time heuristics identify malicious payloads before DOM hydration.</p>
+</div>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container/70 backdrop-blur-lg flex flex-col justify-between gap-space-md shadow-md">
+<div class="flex items-center justify-between">
+<span class="material-symbols-outlined text-primary text-headline-sm">bolt</span>
+<span class="font-code-sm text-code-sm text-secondary">0.12ms</span>
+</div>
+<div>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold">Edge Micro-Enclaves</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Isolate untrusted API calls in cryptographically secured sandbox zones.</p>
+</div>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container/70 backdrop-blur-lg flex flex-col justify-between gap-space-md shadow-md">
+<div class="flex items-center justify-between">
+<span class="material-symbols-outlined text-tertiary text-headline-sm">lock</span>
+<span class="font-code-sm text-code-sm text-tertiary">A+ SOC2</span>
+</div>
+<div>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold">Autonomous Audits</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Self-generating vulnerability attestation ready for enterprise compliance.</p>
+</div>
+</div>
+</div>
+<div class="relative z-10 mt-space-xl w-full max-w-4xl p-space-md rounded-xl bg-surface-container-lowest text-left shadow-2xl">
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-space-xs font-code-sm text-code-sm text-outline">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span>webforge-cli --live-monitor</span>
+</div>
+<span class="font-code-sm text-code-sm text-tertiary">STABLE 100/100</span>
+</div>
+<div class="font-code-sm text-code-sm text-on-surface-variant space-y-1">
+<div class="text-tertiary">✓ Verified TLS 1.3 Strict Key Exchange handshake</div>
+<div class="text-secondary">⚡ Compiled AST parsed 4,821 nodes without XSS vector</div>
+<div class="text-on-surface">→ Injecting Zero-Trust headers: CSP, HSTS, X-Content-Type-Options</div>
+<div class="text-primary font-bold">✨ Synthesis complete in 312ms. Application running at edge.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sticky bottom-0 z-40 w-full bg-surface-container-lowest/95 backdrop-blur-2xl px-space-md py-space-sm sm:px-space-xl shadow-[0_-8px_30px_rgba(0,0,0,0.6)]">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-md flex-wrap">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-headline-sm">archive</span>
+<span class="font-title-md text-title-md text-on-surface font-semibold">Production Bundle Engine</span>
+</div>
+<div class="flex items-center gap-1 bg-surface-container-low p-1 rounded-lg" id="export-selector">
+<button class="export-opt active-opt px-space-sm py-1 rounded bg-primary-container text-on-primary-container font-label-caps text-label-caps font-semibold" data-type="nextjs">
+            React (Next.js 14)
+          </button>
+<button class="export-opt px-space-sm py-1 rounded text-outline hover:text-on-surface font-label-caps text-label-caps" data-type="vite">
+            Vite + Tailwind
+          </button>
+<button class="export-opt px-space-sm py-1 rounded text-outline hover:text-on-surface font-label-caps text-label-caps" data-type="html">
+            Pure HTML/CSS/JS
+          </button>
+</div>
+</div>
+<div class="flex items-center gap-space-sm">
+<div class="hidden lg:flex flex-col text-right font-code-sm text-code-sm">
+<span class="text-on-surface font-bold">Total Bundle: 14.2 MB</span>
+<span class="text-tertiary">Pre-Scanned &amp; Signed</span>
+</div>
+<button class="flex items-center gap-2 px-space-lg py-space-sm rounded-lg bg-gradient-to-r from-secondary-container to-secondary text-on-secondary-container font-body-md font-bold hover:shadow-[0_0_20px_rgba(76,215,246,0.5)] transition-all cursor-pointer" id="btn-download-zip" type="button">
+<span class="material-symbols-outlined text-title-md">download</span>
+          Download .HTML File
+        </button>
+</div>
+</div>
+</div>
+<div class="hidden fixed inset-0 z-50 flex items-center justify-center bg-surface-dim/80 backdrop-blur-md p-space-md" id="scan-modal">
+<div class="max-w-md w-full bg-surface-container-low p-space-lg rounded-2xl shadow-2xl flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2 text-tertiary">
+<span class="material-symbols-outlined text-headline-sm animate-pulse">verified_user</span>
+<span class="font-title-md text-title-md text-on-surface font-bold">Deep Heuristic Scan</span>
+</div>
+<button class="text-outline hover:text-on-surface" id="btn-close-modal">
+<span class="material-symbols-outlined text-headline-sm">close</span>
+</button>
+</div>
+<div class="space-y-space-xs font-code-sm text-code-sm">
+<p class="text-on-surface-variant">Scanning component trees, generated inline handlers, and CDN scripts against CVE repository...</p>
+<div class="p-space-sm rounded-lg bg-surface-container-lowest text-tertiary space-y-1">
+<div>[✔] Cross-Site Scripting (XSS) Vectors: 0</div>
+<div>[✔] Prototype Pollution Risk: 0</div>
+<div>[✔] Sensitive Key Leakage: 0 (No keys in client AST)</div>
+<div>[✔] Integrity Hash Validated: SHA-256 Valid</div>
+</div>
+</div>
+<button class="w-full py-space-xs rounded-lg bg-tertiary-container text-on-tertiary-container font-label-caps text-label-caps font-bold" id="btn-modal-ack">
+        DISMISS &amp; PROCEED
+      </button>
+</div>
+</div>
+</div>
+<script>
+  (function() {
+    const prompts = [
+      "Build a futuristic cybersecurity threat intelligence SaaS with live radar sweep, pricing table, interactive terminal demo, and dark mode",
+      "Generate an ultra-minimal dev portfolio for an AI Security Engineer with 3D canvas, research papers filter, and interactive resume",
+      "Construct a decentralized zero-trust crypto dashboard with real-time websocket candles and cold storage multi-sig modal",
+      "Design an enterprise documentation site for zero-knowledge proofs with interactive code runner and API endpoint tester"
+    ];
+
+    const promptInput = document.getElementById('prompt-input');
+    const btnDice = document.getElementById('btn-dice');
+    const btnRandom = document.getElementById('btn-random-prompt');
+    const btnGenMain = document.getElementById('btn-generate-main');
+    const canvasContainer = document.getElementById('preview-canvas-container');
+
+    function pickRandomPrompt() {
+      const idx = Math.floor(Math.random() * prompts.length);
+      promptInput.value = prompts[idx];
+    }
+
+    if (btnDice) btnDice.addEventListener('click', pickRandomPrompt);
+    if (btnRandom) btnRandom.addEventListener('click', pickRandomPrompt);
+
+    if (btnGenMain) {
+      btnGenMain.addEventListener('click', function() {
+        const origText = this.innerHTML;
+        this.innerHTML = '<span class="material-symbols-outlined text-title-md animate-spin">refresh</span> SYNTHESIZING...';
+        this.classList.add('opacity-75');
+        setTimeout(() => {
+          this.innerHTML = origText;
+          this.classList.remove('opacity-75');
+        }, 1200);
+      });
+    }
+
+    const vpButtons = document.querySelectorAll('.viewport-btn');
+    vpButtons.forEach(btn => {
+      btn.addEventListener('click', function() {
+        vpButtons.forEach(b => {
+          b.classList.remove('bg-surface-container-high', 'text-secondary');
+          b.classList.add('text-outline');
+        });
+        this.classList.add('bg-surface-container-high', 'text-secondary');
+        this.classList.remove('text-outline');
+
+        if (this.id === 'view-desktop') {
+          canvasContainer.style.maxWidth = '100%';
+        } else if (this.id === 'view-tablet') {
+          canvasContainer.style.maxWidth = '768px';
+        } else if (this.id === 'view-mobile') {
+          canvasContainer.style.maxWidth = '390px';
+        }
+      });
+    });
+
+    const archetypeTabs = document.querySelectorAll('.archetype-pill');
+    archetypeTabs.forEach(tab => {
+      tab.addEventListener('click', function() {
+        archetypeTabs.forEach(t => {
+          t.classList.remove('bg-primary-container', 'text-on-primary-container', 'font-bold');
+          t.classList.add('bg-surface-container-high', 'text-on-surface-variant');
+        });
+        this.classList.remove('bg-surface-container-high', 'text-on-surface-variant');
+        this.classList.add('bg-primary-container', 'text-on-primary-container', 'font-bold');
+      });
+    });
+
+    const exportOpts = document.querySelectorAll('.export-opt');
+    exportOpts.forEach(opt => {
+      opt.addEventListener('click', function() {
+        exportOpts.forEach(o => {
+          o.classList.remove('bg-primary-container', 'text-on-primary-container', 'font-semibold');
+          o.classList.add('text-outline');
+        });
+        this.classList.add('bg-primary-container', 'text-on-primary-container', 'font-semibold');
+        this.classList.remove('text-outline');
+      });
+    });
+
+    const scanModal = document.getElementById('scan-modal');
+    const btnSecScan = document.getElementById('btn-sec-scan');
+    const btnCloseModal = document.getElementById('btn-close-modal');
+    const btnModalAck = document.getElementById('btn-modal-ack');
+
+    if (btnSecScan) {
+      btnSecScan.addEventListener('click', () => {
+        scanModal.classList.remove('hidden');
+      });
+    }
+    if (btnCloseModal) {
+      btnCloseModal.addEventListener('click', () => {
+        scanModal.classList.add('hidden');
+      });
+    }
+    if (btnModalAck) {
+      btnModalAck.addEventListener('click', () => {
+        scanModal.classList.add('hidden');
+      });
+    }
+
+    const downloadZip = document.getElementById('btn-download-zip');
+    if (downloadZip) {
+      downloadZip.addEventListener('click', function() {
+        const originalText = this.innerHTML;
+        this.innerHTML = '<span class="material-symbols-outlined text-title-md animate-spin">sync</span> Packing ZIP...';
+        setTimeout(() => {
+          this.innerHTML = '<span class="material-symbols-outlined text-title-md">check</span> Archive Ready!';
+          setTimeout(() => {
+            this.innerHTML = originalText;
+          }, 2000);
+        }, 1000);
+      });
+    }
+  })();
+</script></main></div><script>
+  (function () {
+    var generatedHTML = "";
+    var selectedCat = "all";
+    var DEFAULT_PROMPT = "Build a futuristic cybersecurity threat intelligence SaaS with live radar sweep, pricing table, interactive terminal demo, and dark mode";
+    function templateFor(tpl, headline) {
+      var accent = tpl === "portfolio" ? "#4cd7f6" : (tpl === "docs" ? "#4edea3" : "#a078ff");
+      var f1 = tpl === "portfolio" ? "Selected Work" : (tpl === "docs" ? "Guides" : "Features");
+      var f2 = tpl === "portfolio" ? "About" : (tpl === "docs" ? "API Reference" : "Pricing");
+      var f3 = tpl === "portfolio" ? "Contact" : (tpl === "docs" ? "Changelog" : "Security");
+      return '<!DOCTYPE html>\n<html lang="en">\n<head>\n<meta charset="utf-8"/>\n<meta name="viewport" content="width=device-width, initial-scale=1"/>\n<title>' + headline + '</title>\n<style>\nbody{margin:0;font-family:Inter,Arial,sans-serif;background:#0f131d;color:#dfe2f1}\nheader{padding:64px 24px;text-align:center}\nh1{font-size:44px;margin:0 0 12px}\np{color:#cbc3d7;line-height:1.6}\n.cta{display:inline-block;margin-top:20px;padding:12px 24px;border-radius:8px;background:' + accent + ';color:#0f131d;font-weight:700;text-decoration:none}\nsection{max-width:900px;margin:0 auto;padding:32px 24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}\n.card{background:#1c1f2a;border-radius:12px;padding:20px}\nfooter{text-align:center;padding:32px;color:#958ea0}\n</style>\n</head>\n<body>\n<header>\n<h1>' + headline + '</h1>\n<p>A starter website generated from your prompt. Edit this file to make it your own.</p>\n<a class="cta" href="#features">Get Started</a>\n</header>\n<section id="features">\n<div class="card"><h2>' + f1 + '</h2><p>Everything you need, in one place.</p></div>\n<div class="card"><h2>' + f2 + '</h2><p>Simple, fast, and easy to use.</p></div>\n<div class="card"><h2>' + f3 + '</h2><p>Built with care and attention to detail.</p></div>\n</section>\n<footer>Generated as a template starter. Not AI-generated content.</footer>\n</body>\n</html>';
+    }
+    function headlineFromPrompt(p) {
+      var h = (p || "").trim().replace(/^Build a /i, "").split(" with ")[0].trim();
+      if (!h) h = "My Website";
+      return h.charAt(0).toUpperCase() + h.slice(1);
+    }
+    function initPreviewPlaceholder() {
+      var pc = document.getElementById("preview-canvas-container");
+      if (!pc) return;
+      var bar = pc.firstElementChild;
+      var ph = document.createElement("div");
+      ph.id = "realPreviewPlaceholder";
+      ph.style.padding = "48px 24px";
+      ph.style.textAlign = "center";
+      ph.className = "font-body-md text-body-md text-on-surface-variant";
+      ph.textContent = "No website generated yet. Enter a prompt above and click SYNTHESIZE FULL APP. Your generated website will appear here.";
+      pc.innerHTML = "";
+      if (bar) pc.appendChild(bar);
+      pc.appendChild(ph);
+    }
+    function generate() {
+      var input = document.getElementById("prompt-input");
+      var prompt = input ? input.value.trim() : "";
+      if (!prompt) {
+        prompt = DEFAULT_PROMPT;
+        if (input) input.value = prompt;
+      }
+      var tpl = "saas";
+      if (selectedCat === "portfolio") tpl = "portfolio";
+      else if (selectedCat === "docs" || selectedCat === "blogs") tpl = "docs";
+      else if (selectedCat === "ecommerce") tpl = "ecommerce";
+      generatedHTML = templateFor(tpl, headlineFromPrompt(prompt));
+      showPreview();
+    }
+    function showPreview() {
+      var pc = document.getElementById("preview-canvas-container");
+      if (!pc) return;
+      var bar = pc.firstElementChild;
+      var iframe = document.createElement("iframe");
+      iframe.id = "realPreviewFrame";
+      iframe.style.width = "100%";
+      iframe.style.height = "600px";
+      iframe.style.border = "0";
+      iframe.style.background = "#ffffff";
+      iframe.srcdoc = generatedHTML;
+      var pre = document.createElement("pre");
+      pre.id = "realCodeView";
+      pre.style.display = "none";
+      pre.style.whiteSpace = "pre-wrap";
+      pre.style.padding = "16px";
+      pre.style.background = "#0a0e18";
+      pre.style.color = "#dfe2f1";
+      pre.style.maxHeight = "600px";
+      pre.style.overflow = "auto";
+      pre.textContent = generatedHTML;
+      pc.innerHTML = "";
+      if (bar) pc.appendChild(bar);
+      pc.appendChild(iframe);
+      pc.appendChild(pre);
+      window._realPreview = { iframe: iframe, pre: pre };
+      var status = document.getElementById("realBuildStatus");
+      if (!status) {
+        status = document.createElement("div");
+        status.id = "realBuildStatus";
+        status.className = "w-full px-space-md py-space-sm bg-tertiary-container/20 text-tertiary font-body-md text-body-md rounded-lg mb-space-sm";
+        var wrap = pc.parentElement;
+        if (wrap && wrap.parentElement) wrap.parentElement.insertBefore(status, wrap);
+        else if (wrap) wrap.insertBefore(status, pc);
+      }
+      status.textContent = "Website built! Preview below. Click Download .HTML File to save it.";
+      pc.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+    function showCode() {
+      var w = window._realPreview;
+      if (!w) { alert("Generate a site first."); return; }
+      w.iframe.style.display = "none";
+      w.pre.style.display = "block";
+    }
+    function showLive() {
+      var w = window._realPreview;
+      if (!w) { alert("Generate a site first."); return; }
+      w.pre.style.display = "none";
+      w.iframe.style.display = "block";
+    }
+    function setView(width) {
+      var w = window._realPreview;
+      if (!w) { alert("Generate a site first."); return; }
+      w.iframe.style.width = width;
+    }
+    function downloadHTML() {
+      if (!generatedHTML) { generate(); if (!generatedHTML) return; }
+      var blob = new Blob([generatedHTML], { type: "text/html" });
+      var a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = "website.html";
+      a.click();
+    }
+    function staticCheck() {
+      if (!generatedHTML) { alert("Generate a site first, then run the security scan."); return; }
+      var inline = (generatedHTML.match(/on\w+\s*=/g) || []).length;
+      var ext = (generatedHTML.match(/<script[^>]+src=/g) || []).length;
+      var forms = (generatedHTML.match(/<form/g) || []).length;
+      var keys = (generatedHTML.match(/(AKIA[0-9A-Z]{16}|ghp_[A-Za-z0-9]{20,}|sk-[A-Za-z0-9]{10,})/g) || []).length;
+      var bytes = new Blob([generatedHTML]).size;
+      var lines = [
+        "Static check of generated code (not a full security audit):",
+        "Inline event handlers: " + inline + " (fewer is better; 0 is ideal)",
+        "External scripts: " + ext,
+        "Forms: " + forms,
+        "Possible leaked keys found: " + keys,
+        "Generated file size: " + bytes + " bytes"
+      ];
+      var modal = document.getElementById("scan-modal");
+      var out = document.getElementById("realStaticCheck");
+      if (!out && modal) {
+        out = document.createElement("div");
+        out.id = "realStaticCheck";
+        out.style.padding = "16px";
+        out.style.whiteSpace = "pre-wrap";
+        modal.appendChild(out);
+      }
+      if (out) out.textContent = lines.join("\n");
+      if (modal) modal.classList.remove("hidden");
+    }
+    initPreviewPlaceholder();
+    var gen = document.getElementById("btn-generate-main");
+    if (gen) gen.addEventListener("click", generate);
+    var dl = document.getElementById("btn-download-zip");
+    if (dl) dl.addEventListener("click", downloadHTML);
+    var sec = document.getElementById("btn-sec-scan");
+    if (sec) sec.addEventListener("click", staticCheck);
+    var closeM = document.getElementById("btn-close-modal");
+    if (closeM) closeM.addEventListener("click", function () { var m = document.getElementById("scan-modal"); if (m) m.classList.add("hidden"); });
+    var ackM = document.getElementById("btn-modal-ack");
+    if (ackM) ackM.addEventListener("click", function () { var m = document.getElementById("scan-modal"); if (m) m.classList.add("hidden"); });
+    var live = document.getElementById("btn-live-preview");
+    if (live) live.addEventListener("click", showLive);
+    var code = document.getElementById("btn-code-editor");
+    if (code) code.addEventListener("click", showCode);
+    var vd = document.getElementById("view-desktop");
+    if (vd) vd.addEventListener("click", function () { setView("100%"); });
+    var vt = document.getElementById("view-tablet");
+    if (vt) vt.addEventListener("click", function () { setView("768px"); });
+    var vm = document.getElementById("view-mobile");
+    if (vm) vm.addEventListener("click", function () { setView("390px"); });
+    document.querySelectorAll(".archetype-pill").forEach(function (p) {
+      p.addEventListener("click", function () {
+        selectedCat = p.getAttribute("data-cat") || "all";
+        document.querySelectorAll(".archetype-pill").forEach(function (x) {
+          x.classList.remove("bg-primary-container", "text-on-primary-container");
+          x.classList.add("bg-surface-container-high", "text-on-surface-variant");
+        });
+        p.classList.add("bg-primary-container", "text-on-primary-container");
+        p.classList.remove("bg-surface-container-high", "text-on-surface-variant");
+      });
+    });
+    document.querySelectorAll("button").forEach(function (b) {
+      var t = b.textContent || "";
+      if (t.indexOf("USE ARCHETYPE") >= 0) {
+        b.addEventListener("click", function () {
+          var card = b;
+          for (var k = 0; k < 5 && card; k++) {
+            card = card.parentElement;
+            if (card && (card.textContent || "").indexOf("USE ARCHETYPE") >= 0) break;
+          }
+          var txt = card ? card.textContent : "";
+          if (txt.indexOf("DocuForge") >= 0 || txt.indexOf("Hyperdocs") >= 0) selectedCat = "docs";
+          else if (txt.indexOf("FinVortex") >= 0) selectedCat = "portfolio";
+          else selectedCat = "saas";
+          generate();
+        });
+      } else if (t.indexOf("REGEN") >= 0) {
+        b.addEventListener("click", generate);
+      } else if (t.indexOf("EDIT PROMPT") >= 0) {
+        b.addEventListener("click", function () { var inp = document.getElementById("prompt-input"); if (inp) inp.focus(); });
+      } else if (t.indexOf("SYNTHESIZE FULL APP") >= 0) {
+        if (b.id !== "btn-generate-main") b.addEventListener("click", generate);
+      }
+    });
+    var m0 = document.getElementById("scan-modal");
+    if (m0) m0.classList.add("hidden");
+  })();
+</script>
+</body></html>
