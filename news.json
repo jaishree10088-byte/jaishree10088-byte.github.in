@@ -1,168 +1,185 @@
 {
-  "edition": "सोमवार, 2 नवंबर 2026",
-  "updated_at": "2026-11-02T05:00:00+05:30",
+  "edition": "मंगलवार, 3 नवंबर 2026",
+  "updated_at": "2026-11-03T05:00:00+05:30",
   "stories": [
     {
-      "id": "2026-11-02-bharat-1",
+      "id": "2026-11-03-bharat-1",
       "cat": "bharat",
-      "title_hi": "रामलीला मैदान में INDIA गठबंधन की बड़ी रैली, चुनाव आयुक्त के इस्तीफे की मांग",
-      "title_en": "INDIA Bloc's Big Ramlila Maidan Rally Demands Election Commissioner's Resignation",
-      "body_hi": "विपक्षी INDIA गठबंधन ने रविवार को दिल्ली के रामलीला मैदान में 'चलो दिल्ली' मार्च और बड़ी रैली के साथ शक्ति प्रदर्शन किया। गठबंधन के नेताओं ने मतदाता सूची के विशेष गहन पुनरीक्षण (SIR) में कथित गड़बड़ियों और मतदाताओं के नाम काटे जाने का मुद्दा उठाया और मुख्य चुनाव आयुक्त ज्ञानेश कुमार के तत्काल इस्तीफे की मांग की।\n\nउधर केंद्रीय गृह मंत्री अमित शाह ने गठबंधन पर पलटवार करते हुए कहा कि विपक्ष को 'पांच साल और विपक्ष में बैठने' के लिए तैयार रहना चाहिए। भाजपा ने पश्चिमी दिल्ली में जवाबी मार्च भी निकाला, जिसमें 1984 की सिख विरोधी हिंसा की बरसी का मुद्दा उठाया गया।",
-      "body_en": "The opposition INDIA bloc staged a show of strength in Delhi on Sunday with a 'Chalo Dilli' march and a mega rally at Ramlila Maidan. Bloc leaders raised alleged irregularities in the Special Intensive Revision (SIR) of voter lists and the deletion of voters' names, demanding the immediate resignation of Chief Election Commissioner Gyanesh Kumar.\n\nUnion Home Minister Amit Shah hit back, telling the opposition to 'get ready to spend another five years in opposition'. The BJP also held a counter-march in West Delhi, marking the anniversary of the 1984 anti-Sikh violence.",
-      "source": "Jagran Josh",
-      "source_url": "https://www.jagranjosh.com/lite/articles/school-assembly-news-headlines-november-2-2026-bharat-bullet-train-ram-lila-maidan-8th-pay-commission-and-other-news-1800018490-1",
-      "img": "https://images.newsarenaindia.com/india-rally-ramlila-maidan-1jpg_1711907046305.jpg",
-      "tags": [
-        "#DelhiRally",
-        "#INDIABloc",
-        "#VoteBachao",
-        "#TaazaKhabar"
-      ],
-      "page": "khabar/2026-11-02-bharat-1.html"
-    },
-    {
-      "id": "2026-11-02-bharat-2",
-      "cat": "bharat",
-      "title_hi": "बंगाल की खाड़ी में चक्रवात 'मुरासु', 3 नवंबर की सुबह आंध्र तट से टकराएगा",
-      "title_en": "Cyclone 'Murasu' Forms Over Bay of Bengal, Landfall on Andhra Coast on November 3 Morning",
-      "body_hi": "बंगाल की खाड़ी में गहरे दबाव ने रविवार को चक्रवात का रूप ले लिया है, जिसे भारत ने 'मुरासु' नाम दिया है — इसका अर्थ है युद्ध का नगाड़ा। भारत मौसम विज्ञान विभाग (IMD) के अनुसार यह तूफान और तेज होकर गंभीर चक्रवाती तूफान बनेगा और 3 नवंबर की सुबह नेल्लोर और नरसापुर के बीच आंध्र प्रदेश के तट से टकराएगा।\n\nटकराते समय हवा की रफ्तार 100-110 किलोमीटर प्रति घंटा रहने का अनुमान है, जो झोंकों में 120 किलोमीटर प्रति घंटे तक पहुंच सकती है। दक्षिणी ओडिशा को भी हाई अलर्ट पर रखा गया है, और राज्य प्रशासन ने एक हफ्ते के भीतर दूसरे बड़े तूफान से निपटने की तैयारियां तेज कर दी हैं।",
-      "body_en": "A deep depression over the Bay of Bengal intensified into a cyclone on Sunday, named 'Murasu' by India — meaning war drum. According to the India Meteorological Department (IMD), the storm will strengthen into a very severe cyclonic storm and make landfall on the morning of November 3 between Nellore and Narsapur on the Andhra Pradesh coast.\n\nWind speeds at landfall are expected at 100-110 kmph, gusting up to 120 kmph. Southern Odisha has also been put on high alert, with the state stepping up preparedness for another high-intensity storm in less than a week.",
+      "title_hi": "चक्रवात मुरासु तेज़ हुआ, ओडिशा में तटीय इलाकों से लोगों को हटाया जा रहा है",
+      "title_en": "Cyclone Murasu Intensifies, Odisha Steps Up Evacuations From Coastal Areas",
+      "body_hi": "बंगाल की खाड़ी के ऊपर चक्रवात मुरासु के गंभीर चक्रवाती तूफान में बदलने के बाद ओडिशा सरकार ने संवेदनशील इलाकों से लोगों को सुरक्षित स्थानों पर पहुंचाना तेज़ कर दिया है। कई उड़ानें रद्द हुई हैं और तूफ़ान के रास्ते वाले ज़िलों में स्कूल बंद रखे गए हैं।\n\nयह तूफ़ान कुछ ही दिन पहले आए चक्रवात अर्नब के बाद आ रहा है, जिसमें छह लोगों की मौत हुई थी। प्रशासन ने लोगों से अपील की है कि वे मौसम विभाग की चेतावनियों पर नज़र रखें और ज़रूरत पड़ने पर ही घर से निकलें।",
+      "body_en": "After Cyclone Murasu intensified into a severe cyclonic storm over the Bay of Bengal, the Odisha government has stepped up evacuations from vulnerable coastal areas. Several flights have been cancelled and schools in districts in the storm's path have been kept shut.\n\nThe storm follows Cyclone Arnab, which left six people dead just days earlier. Authorities have urged people to follow weather department warnings and to step out only if necessary.",
       "source": "Mathrubhumi English",
-      "source_url": "https://english.mathrubhumi.com/amp/education/news/school-assembly-news-headlines-november-02-2026-national-international-sports-p5z78jr0",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Bulbul_2019-11-09_0742Z.jpg/960px-Bulbul_2019-11-09_0742Z.jpg",
+      "source_url": "https://english.mathrubhumi.com/amp/education/news/school-assembly-news-headlines-today-november-03-2026-national-international-sports-news-ram23alg",
+      "img": "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2021/06/cyclone-pti-1623392120.jpg",
       "tags": [
         "#CycloneMurasu",
-        "#IMD",
-        "#AndhraPradesh",
+        "#Odisha",
+        "#Mausam",
         "#TaazaKhabar"
       ],
-      "page": "khabar/2026-11-02-bharat-2.html"
+      "page": "khabar/2026-11-03-bharat-1.html"
     },
     {
-      "id": "2026-11-02-bharat-3",
+      "id": "2026-11-03-bharat-2",
       "cat": "bharat",
-      "title_hi": "एयर चीफ मार्शल आशुतोष दीक्षित ने संभाली वायुसेना की कमान, 29वें प्रमुख बने",
-      "title_en": "Air Chief Marshal Ashutosh Dixit Takes Over as 29th Chief of the Indian Air Force",
-      "body_hi": "एयर चीफ मार्शल आशुतोष दीक्षित ने भारतीय वायुसेना के 29वें प्रमुख के रूप में कार्यभार संभाल लिया है। उन्होंने एयर चीफ मार्शल एपी सिंह का स्थान लिया है, जो 42 साल की सेवा के बाद सेवानिवृत्त हुए। दीक्षित के खाते में 20 तरह के विमानों में 3,500 से अधिक उड़ान घंटे दर्ज हैं।\n\nउन्हें वायु सेना पदक, विशिष्ट सेवा पदक, अति विशिष्ट सेवा पदक और परम विशिष्ट सेवा पदक से सम्मानित किया जा चुका है। उनके नेतृत्व में वायुसेना के आधुनिकीकरण और तैयारियों पर सबकी नजर रहेगी।",
-      "body_en": "Air Chief Marshal Ashutosh Dixit has taken charge as the 29th Chief of the Air Staff of the Indian Air Force. He succeeds Air Chief Marshal AP Singh, who retired after 42 years of service. Dixit has over 3,500 flying hours across 20 aircraft types to his credit.\n\nHe is a recipient of the Vayu Sena Medal, Vishisht Seva Medal, Ati Vishisht Seva Medal and Param Vishisht Seva Medal. All eyes will now be on modernisation and preparedness of the Air Force under his command.",
-      "source": "The Indian Express",
-      "source_url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-november-2-2026-air-chief-marshal-ashutosh-dixit-takes-over-as-iaf-chief-10945823/",
-      "img": "https://ukdj.imgix.net/2025/05/IAF_Tejas_full_size_32941198511.jpg?auto=compress%2Cformat&crop=top&fit=crop&h=580&ixlib=php-3.3.1&w=1021&wpsize=td_1021x580&s=bc0bdca0834f407be331fc646166591e",
+      "title_hi": "प्रधानमंत्री मोदी ने भारत नवीकरणीय ऊर्जा शिखर सम्मेलन और एक्सपो 2026 का उद्घाटन किया",
+      "title_en": "PM Modi Inaugurates Bharat Renewable Energy Summit and Expo 2026",
+      "body_hi": "प्रधानमंत्री नरेंद्र मोदी ने भारत नवीकरणीय ऊर्जा शिखर सम्मेलन और एक्सपो 2026 का उद्घाटन किया। इस मौके पर यह बताया गया कि भारत ने अपना जलवायु लक्ष्य पांच साल पहले ही हासिल कर लिया है और अब देश 500 गीगावाट हरित ऊर्जा क्षमता का लक्ष्य लेकर चल रहा है।\n\nसम्मेलन में सौर, पवन और अन्य स्वच्छ ऊर्जा तकनीकों पर चर्चा हो रही है। सरकार का कहना है कि स्वच्छ ऊर्जा से न सिर्फ प्रदूषण घटेगा, बल्कि ऊर्जा के मामले में देश और आत्मनिर्भर भी बनेगा।",
+      "body_en": "Prime Minister Narendra Modi inaugurated the Bharat Renewable Energy Summit and Expo 2026. On the occasion it was noted that India has met its climate target five years ahead of schedule and is now aiming for 500 GW of green energy capacity.\n\nThe summit is discussing solar, wind and other clean energy technologies. The government says clean energy will not only cut pollution but also make the country more self-reliant in energy.",
+      "source": "Jagran Josh",
+      "source_url": "https://www.jagranjosh.com/lite/news/school-assembly-news-headlines-november-3-2026-top-national-world-education-business-news-188875",
+      "img": "http://metrifin.com/wp-content/uploads/2025/08/Solar-Panels-India.jpeg",
       "tags": [
-        "#IndianAirForce",
-        "#AirChief",
-        "#IAF",
+        "#RenewableEnergy",
+        "#SolarEnergy",
+        "#PMModi",
         "#TaazaKhabar"
       ],
-      "page": "khabar/2026-11-02-bharat-3.html"
+      "page": "khabar/2026-11-03-bharat-2.html"
     },
     {
-      "id": "2026-11-02-duniya-1",
+      "id": "2026-11-03-bharat-3",
+      "cat": "bharat",
+      "title_hi": "दिल्ली-एनसीआर में दीपावली पर ग्रीन पटाखों की अनुमति, 7 और 8 नवंबर को तय समय में चलेंगे",
+      "title_en": "Supreme Court Allows Green Firecrackers in Delhi-NCR for Diwali on November 7 and 8",
+      "body_hi": "सुप्रीम कोर्ट ने दिल्ली-एनसीआर में दीपावली के मौके पर प्रमाणित ग्रीन पटाखों के इस्तेमाल की अनुमति दे दी है। ये पटाखे 7 और 8 नवंबर को सुबह 6 से 7 बजे और रात 8 से 10 बजे के बीच चलाए जा सकेंगे।\n\nउधर दिल्ली की हवा 'बेहद खराब' श्रेणी में पहुंचने के बाद प्रदूषण नियंत्रण के दूसरे चरण (GRAP-II) के प्रतिबंध लागू कर दिए गए हैं। प्रशासन ने लोगों से नियमों का पालन करने और हवा की गुणवत्ता पर नज़र रखने को कहा है।",
+      "body_en": "The Supreme Court has allowed the use of certified green firecrackers in Delhi-NCR for Diwali. They may be burst on November 7 and 8 between 6 am and 7 am and from 8 pm to 10 pm.\n\nMeanwhile, after Delhi's air quality slipped to the 'very poor' category, stage-two pollution curbs under GRAP-II have been put in place. Authorities have asked people to follow the rules and keep an eye on air quality levels.",
+      "source": "NDTV",
+      "source_url": "https://www.ndtv.com/education/school-assembly-news-headlines-november-3-top-national-international-sports-news-12272343",
+      "img": "https://imgs.etvbharat.com/etvbharat/prod-images/15-10-2025/1200-675-25210721-332-25210721-1760506937325.jpg",
+      "tags": [
+        "#Diwali",
+        "#GreenCrackers",
+        "#Delhi",
+        "#TaazaKhabar"
+      ],
+      "page": "khabar/2026-11-03-bharat-3.html"
+    },
+    {
+      "id": "2026-11-03-duniya-1",
       "cat": "duniya",
-      "title_hi": "अमेरिका में कल मध्यावधि चुनाव, हाउस और सीनेट के नियंत्रण पर फैसला",
-      "title_en": "US Midterm Elections Tomorrow to Decide Control of House and Senate",
-      "body_hi": "अमेरिका में 3 नवंबर को मध्यावधि चुनाव होने जा रहे हैं, जिनमें मतदाता प्रतिनिधि सभा और सीनेट के नियंत्रण का फैसला करेंगे। ये चुनाव राष्ट्रपति डोनाल्ड ट्रंप के कार्यकाल के आखिरी दो सालों की दिशा तय करेंगे, इसलिए इन्हें बेहद अहम माना जा रहा है।\n\nचुनाव से ठीक पहले महंगाई और स्वास्थ्य खर्च जैसे मुद्दों पर मतदाताओं की चिंता बढ़ी हुई है, और दोनों ही दलों ने आखिरी दौर में जमकर प्रचार किया है। नतीजे अमेरिका की घरेलू और विदेश नीति, दोनों पर असर डालेंगे।",
-      "body_en": "The United States goes to the polls on November 3 in midterm elections that will decide control of the House of Representatives and the Senate. The vote will shape the final two years of President Donald Trump's term, making it one of the most consequential elections of the cycle.\n\nAhead of polling, voters remain worried about affordability and rising healthcare costs, and both parties have campaigned hard in the final stretch. The outcome will influence American domestic as well as foreign policy.",
-      "source": "The Indian Express",
-      "source_url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-november-2-2026-air-chief-marshal-ashutosh-dixit-takes-over-as-iaf-chief-10945823/",
-      "img": "https://mqworld.com/wp-content/uploads/2024/11/0001166344_resized_uselections2024bloomberg11141022-980x551.jpg",
+      "title_hi": "अमेरिका में आज मध्यावधि चुनाव, कांग्रेस पर नियंत्रण का होगा फैसला",
+      "title_en": "US Votes in Midterm Elections Today, Control of Congress at Stake",
+      "body_hi": "अमेरिका में आज, 3 नवंबर को मध्यावधि चुनाव के लिए मतदान हो रहा है। मतदाता प्रतिनिधि सभा के सदस्यों और कई सीनेटरों का चुनाव करेंगे, जिससे यह तय होगा कि राष्ट्रपति डोनाल्ड ट्रंप के बाकी दो साल के कार्यकाल में कांग्रेस पर किस दल का नियंत्रण रहेगा।\n\nराष्ट्रपति ट्रंप ने अपनी पार्टी के उम्मीदवारों के पक्ष में रैलियों और भाषणों के ज़रिए प्रचार किया है, जबकि डेमोक्रेटिक पार्टी भी जीत की उम्मीद में जुटी है। चुनाव के नतीजे अमेरिका की आगे की नीतियों पर बड़ा असर डालेंगे।",
+      "body_en": "Voters in the United States are casting their ballots in the midterm elections on November 3. They will elect members of the House of Representatives and a number of senators, deciding which party controls Congress for the remaining two years of President Donald Trump's term.\n\nPresident Trump has campaigned for his party's candidates through rallies and speeches, while the Democratic Party is also hopeful of gains. The results will have a big bearing on America's policies ahead.",
+      "source": "Education Times",
+      "source_url": "https://www.educationtimes.com/news/school-assembly-news-headlines-for-3rd-november-2026-top-indian-international-sports-and-business-news/articleshow/135460600.cms",
+      "img": "https://staticfanpage.akamaized.net/wp-content/uploads/2022/11/midterm-usa-1200x675.jpg",
       "tags": [
         "#USMidterms",
-        "#USElections",
-        "#Trump",
+        "#America",
+        "#Election2026",
         "#WorldNews"
       ],
-      "page": "khabar/2026-11-02-duniya-1.html"
+      "page": "khabar/2026-11-03-duniya-1.html"
     },
     {
-      "id": "2026-11-02-duniya-2",
+      "id": "2026-11-03-duniya-2",
       "cat": "duniya",
-      "title_hi": "ईरान के सर्वोच्च नेता की चेतावनी — नए हमले पर बिना सीमा के जवाब",
-      "title_en": "Iran's Supreme Leader Warns of Response 'Without Geographical Limits' to Any Fresh Attack",
-      "body_hi": "ईरान के सर्वोच्च नेता मोजतबा खामेनेई ने चेतावनी दी है कि देश पर किसी नए हमले की सूरत में तुरंत और 'बिना भौगोलिक सीमा' के सैन्य जवाब दिया जाएगा। उन्होंने सशस्त्र बलों को अमेरिका और इजरायल के संभावित ठिकानों की सूची को ताजा करने का भी आदेश दिया है।\n\nयह बयान ऐसे समय आया है जब अमेरिका और इजरायल के साथ नए टकराव की आशंका जताई जा रही है। खाड़ी क्षेत्र में तनाव बढ़ने से दुनियाभर की नजरें इस घटनाक्रम पर टिकी हैं।",
-      "body_en": "Iran's Supreme Leader Mojtaba Khamenei has warned that any fresh attack on the country will trigger an immediate military response 'without geographical limits'. He has also ordered the armed forces to update the list of potential US and Israeli targets.\n\nThe warning comes amid fears of renewed conflict with the United States and Israel. Rising tensions in the Gulf region have put the whole world on watch.",
-      "source": "The Indian Express",
-      "source_url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-november-2-2026-air-chief-marshal-ashutosh-dixit-takes-over-as-iaf-chief-10945823/",
-      "img": "https://sales.exoticca.com/_next/image?url=https%3A%2F%2Fuploads.exoticca.com%2Fglobal%2Fdestination%2Fpoi%2Ftehran.png&w=640&q=75",
+      "title_hi": "स्पेन में भीषण ट्रेन हादसा, मृतकों की संख्या 69 पहुंची, 100 से ज़्यादा घायल",
+      "title_en": "Spain Train Crash Death Toll Reaches 69, Over 100 Injured",
+      "body_hi": "स्पेन में हुए भीषण ट्रेन हादसे में मरने वालों की संख्या 69 तक पहुंच गई है, जबकि 100 से ज़्यादा लोग घायल हुए हैं। यह हादसा देश के सबसे भयानक रेल हादसों में से एक बताया जा रहा है।\n\nबचाव दल मौके पर राहत कार्य में जुटे हैं और घायलों को अस्पताल पहुंचाया जा रहा है। हादसे के कारणों की जांच जारी है और अधिकारी पीड़ित परिवारों की मदद का भरोसा दिला रहे हैं।",
+      "body_en": "The death toll from a major train collision in Spain has reached at least 69 people, with more than 100 injured. The crash is being described as one of the country's deadliest railway accidents.\n\nRescue teams are working at the site and the injured are being taken to hospitals. An investigation into the cause of the accident is under way, and officials have assured help for the affected families.",
+      "source": "Education Times",
+      "source_url": "https://www.educationtimes.com/news/school-assembly-news-headlines-for-3rd-november-2026-top-indian-international-sports-and-business-news/articleshow/135460600.cms",
+      "img": "https://static.toiimg.com/thumb/msid-135460852,width-1280,height-720,imgsize-381826,resizemode-6,y_pad-600/photo.jpg",
       "tags": [
-        "#Iran",
-        "#MiddleEast",
-        "#Khamenei",
+        "#Spain",
+        "#TrainCrash",
         "#WorldNews"
       ],
-      "page": "khabar/2026-11-02-duniya-2.html"
+      "page": "khabar/2026-11-03-duniya-2.html"
     },
     {
-      "id": "2026-11-02-duniya-3",
+      "id": "2026-11-03-duniya-3",
       "cat": "duniya",
-      "title_hi": "बाइनेंस से अरबों की चोरी के पीछे उत्तर कोरिया, FBI ने ठहराया जिम्मेदार",
-      "title_en": "FBI Blames North Korea for Billions Stolen from Binance in Biggest Hack in History",
-      "body_hi": "अमेरिकी जांच एजेंसी FBI ने क्रिप्टो एक्सचेंज बाइनेंस से अरबों डॉलर की चोरी के लिए उत्तर कोरिया को जिम्मेदार ठहराया है। इसे इतिहास की सबसे बड़ी हैकिंग की घटना बताया जा रहा है, जिसने क्रिप्टो बाजार की सुरक्षा पर गंभीर सवाल खड़े कर दिए हैं।\n\nइस खुलासे के बाद डिजिटल संपत्तियों की सुरक्षा और उन पर अंतरराष्ट्रीय निगरानी को लेकर बहस तेज हो गई है। विशेषज्ञों का कहना है कि ऐसी घटनाएं क्रिप्टो बाजार में भरोसे को गहरी चोट पहुंचाती हैं।",
-      "body_en": "The US Federal Bureau of Investigation (FBI) has blamed North Korea for billions stolen from crypto exchange Binance, in what is being described as the biggest hack in history. The case has raised serious questions about the security of the crypto market.\n\nThe revelation has intensified debate over the safety of digital assets and international oversight of crypto platforms. Experts say such incidents deal a deep blow to trust in the crypto market.",
+      "title_hi": "बांग्लादेश में गारमेंट मज़दूरों का प्रदर्शन दूसरे दिन भी हिंसक, 670 फैक्ट्रियां बंद",
+      "title_en": "Bangladesh Garment Workers' Protests Turn Violent for Second Day, 670 Factories Shut",
+      "body_hi": "बांग्लादेश में ज़्यादा वेतन की मांग को लेकर गारमेंट मज़दूरों का प्रदर्शन दूसरे दिन भी जारी रहा और कई जगह हिंसक हो गया। हालात को देखते हुए अतिरिक्त अर्धसैनिक बल तैनात किए गए हैं और करीब 670 फैक्ट्रियां बंद कर दी गई हैं।\n\nप्रदर्शन के दौरान वाहनों में तोड़फोड़ और सड़क जाम की खबरें भी आई हैं। गारमेंट उद्योग बांग्लादेश की अर्थव्यवस्था की रीढ़ माना जाता है, इसलिए इस अशांति का असर निर्यात पर भी पड़ सकता है।",
+      "body_en": "Garment workers in Bangladesh continued their protests over higher wages for a second consecutive day, with the agitation turning violent in several places. Additional paramilitary forces have been deployed and around 670 factories have been shut.\n\nReports of vehicle vandalism and road blockades also emerged during the protests. The garment industry is the backbone of Bangladesh's economy, so the unrest could also affect exports.",
       "source": "Mathrubhumi English",
-      "source_url": "https://english.mathrubhumi.com/amp/education/news/school-assembly-news-headlines-november-02-2026-national-international-sports-p5z78jr0",
-      "img": "https://www.newsbtc.com/wp-content/uploads/2023/03/BTCUSD_2023-03-13_14-51-48.png?resize=3615%2C1603",
+      "source_url": "https://english.mathrubhumi.com/amp/education/news/school-assembly-news-headlines-today-november-03-2026-national-international-sports-news-ram23alg",
+      "img": "https://media.business-humanrights.org/media/images/shutterstock_1937146150.2e16d0ba.fill-1200x630.jpg",
       "tags": [
-        "#Binance",
-        "#CryptoHack",
-        "#NorthKorea",
+        "#Bangladesh",
+        "#GarmentWorkers",
+        "#Protest",
         "#WorldNews"
       ],
-      "page": "khabar/2026-11-02-duniya-3.html"
+      "page": "khabar/2026-11-03-duniya-3.html"
     },
     {
-      "id": "2026-11-02-khel-1",
+      "id": "2026-11-03-khel-1",
       "cat": "khel",
-      "title_hi": "आखिरी T20I में न्यूजीलैंड की जीत, पर सीरीज भारत के नाम 3-2 से",
-      "title_en": "New Zealand Win Final T20I, But India Take the Series 3-2",
-      "body_hi": "न्यूजीलैंड ने हैमिल्टन के सेडन पार्क में खेले गए पांचवें और आखिरी T20I में भारत को 7 विकेट से हरा दिया, लेकिन पांच मैचों की सीरीज भारत ने 3-2 से अपने नाम कर ली। भारत ने शुरुआती तीन मुकाबले जीतकर सीरीज पहले ही पक्की कर ली थी — वेलिंगटन में टीम ने 199 रन का लक्ष्य महज 13.2 ओवर में हासिल किया था।\n\nअब दोनों टीमों के बीच पांच मैचों की वनडे सीरीज 4 नवंबर से ऑकलैंड के ईडन पार्क में शुरू होगी, जिसमें रोहित शर्मा और विराट कोहली की वापसी पर सबकी नजर रहेगी।",
-      "body_en": "New Zealand beat India by seven wickets in the fifth and final T20I at Seddon Park, Hamilton, but India took the five-match series 3-2. India had already sealed the series by winning the first three games — in Wellington, the team chased down 199 in just 13.2 overs.\n\nThe two sides now move to a five-match ODI series starting November 4 at Eden Park, Auckland, where the returns of Rohit Sharma and Virat Kohli will be keenly watched.",
-      "source": "The Daily Jagran",
-      "source_url": "https://www.thedailyjagran.com/education/news/todays-school-assembly-news-headline-november-2-check-top-national-international-and-sports-news-here-10334758",
-      "img": "https://statico.sportskeeda.com/editor/2021/07/03f62-16264169518419-800.jpg",
+      "title_hi": "राइजिंग स्टार्स एशिया कप के लिए इंडिया ए टीम घोषित, तिलक वर्मा कप्तान, वैभव सूर्यवंशी भी शामिल",
+      "title_en": "India A Squad Named for Rising Stars Asia Cup, Tilak Varma to Lead, Vaibhav Sooryavanshi Included",
+      "body_hi": "राइजिंग एशिया कप 2026 के लिए इंडिया ए टीम की घोषणा कर दी गई है। तिलक वर्मा टीम की कप्तानी करेंगे, रजत पाटीदार उपकप्तान होंगे और युवा बल्लेबाज़ वैभव सूर्यवंशी भी टीम में शामिल हैं। अभिषेक शर्मा और हर्षित राणा भी दल का हिस्सा हैं।\n\nइस बार यह टूर्नामेंट 50 ओवर के प्रारूप में दोहा में 19 से 29 नवंबर तक खेला जाएगा। भारत का पहला मैच 20 नवंबर को नेपाल से और दूसरा 22 नवंबर को पाकिस्तान ए से होगा। यह टूर्नामेंट 2027 विश्व कप की तैयारी का हिस्सा माना जा रहा है।",
+      "body_en": "The India A squad for the Rising Asia Cup 2026 has been announced. Tilak Varma will lead the team, Rajat Patidar will be his deputy, and young batter Vaibhav Sooryavanshi is also included. Abhishek Sharma and Harshit Rana are part of the squad too.\n\nThis time the tournament will be played in the 50-over format in Doha from November 19 to 29. India play their first game against Nepal on November 20 and face Pakistan A on November 22. The event is seen as part of preparations for the 2027 World Cup.",
+      "source": "Times Now",
+      "source_url": "https://www.timesnownews.com/sports/cricket/vaibhav-sooryavanshi-in-tilak-varma-to-lead-rajat-patidar-named-deputy-india-named-squad-for-rising-asia-cup-article-156452960",
+      "img": "https://images.timesnownews.com/thumb/msid-156453021,thumbsize-962614,width-1280,height-720,resizemode-75/156453021.jpg",
       "tags": [
-        "#INDvsNZ",
-        "#T20I",
+        "#Cricket",
+        "#RisingAsiaCup",
         "#TeamIndia",
         "#TaazaKhabar"
       ],
-      "page": "khabar/2026-11-02-khel-1.html"
+      "page": "khabar/2026-11-03-khel-1.html"
     },
     {
-      "id": "2026-11-02-khel-2",
+      "id": "2026-11-03-khel-2",
       "cat": "khel",
-      "title_hi": "पीवी सिंधु ने जीता हाइलो ओपन खिताब, डेनमार्क की केर्सफेल्ट को हराया",
-      "title_en": "PV Sindhu Clinches Hylo Open Title, Beats Denmark's Kjaersfeldt in Straight Games",
-      "body_hi": "भारत की स्टार बैडमिंटन खिलाड़ी पीवी सिंधु ने जर्मनी के सारब्रुकेन में खेले गए हाइलो ओपन के महिला एकल फाइनल में डेनमार्क की लाइन केर्सफेल्ट को 21-12, 21-14 से हराकर खिताब जीत लिया। यह इस सीजन का उनका दूसरा खिताब है।\n\nसिंधु की इस जीत से भारतीय बैडमिंटन को बड़ी खुशखबरी मिली है, क्योंकि इसी टूर्नामेंट में लक्ष्य सेन भी पुरुष एकल फाइनल तक पहुंचे हैं। दोनों की कामयाबी ने भारतीय बैडमिंटन प्रेमियों का उत्साह बढ़ा दिया है।",
-      "body_en": "Indian badminton star PV Sindhu clinched the women's singles title at the Hylo Open in Saarbrucken, Germany, defeating Denmark's Line Kjaersfeldt 21-12, 21-14 in the final. It is her second title of the season.\n\nSindhu's triumph is a big boost for Indian badminton, with Lakshya Sen also reaching the men's singles final of the same tournament. The twin successes have delighted Indian badminton fans.",
-      "source": "Mathrubhumi English",
-      "source_url": "https://english.mathrubhumi.com/amp/education/news/school-assembly-news-headlines-november-02-2026-national-international-sports-p5z78jr0",
-      "img": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202606/pv-sindhu-243125249-original-sixteen-to-nine.jpg?VersionId=L0h7OP27pf6LVv63W3IafU_iIGd4ljTf",
+      "title_hi": "भारत के खिलाफ वनडे सीरीज़ से बाहर हुए चैपमैन और रवींद्र, न्यूज़ीलैंड को दोहरा झटका",
+      "title_en": "Chapman and Ravindra Ruled Out of ODI Series Against India, Double Blow for New Zealand",
+      "body_hi": "भारत के खिलाफ पांच मैचों की वनडे सीरीज़ से पहले न्यूज़ीलैंड को दोहरा झटका लगा है। मार्क चैपमैन बाईं हैमस्ट्रिंग की चोट के कारण पूरी सीरीज़ से बाहर हो गए हैं, जबकि रचिन रवींद्र कंधे की चोट से उबर नहीं पाए हैं। सीरीज़ 4 नवंबर से ऑकलैंड में शुरू हो रही है।\n\nचैपमैन को कम से कम दो हफ्ते के आराम की सलाह दी गई है, जबकि रवींद्र पहले टी20 सीरीज़ भी नहीं खेल पाए थे। उनकी जगह टिम सेफर्ट, हेनरी निकोल्स, डीन फॉक्सक्रॉफ्ट और मैट फिशर को टीम में शामिल किया गया है। भारत ने इससे पहले टी20 सीरीज़ 3-2 से जीती थी।",
+      "body_en": "New Zealand have suffered a double injury setback ahead of their five-match ODI series against India, which begins in Auckland on November 4. Mark Chapman has been ruled out of the entire series with a left hamstring injury, while Rachin Ravindra has not recovered from a shoulder injury.\n\nChapman has been advised at least two weeks of rehabilitation, while Ravindra had already missed the T20I leg of the tour. Tim Seifert, Henry Nicholls, Dean Foxcroft and Matt Fisher have been called in as cover. India had won the preceding T20I series 3-2.",
+      "source": "CricTracker",
+      "source_url": "https://www.crictracker.com/cricket-news/mark-chapman-rachin-ravindra-ruled-out-of-new-zealands-five-match-odi-series-against-india-8997/?amp=1",
+      "img": "https://media.crictracker.com/media/attachments/1778754036120_Untitled-design---2026-05-14T155014.jpeg",
       "tags": [
-        "#PVSindhu",
-        "#HyloOpen",
-        "#Badminton",
+        "#INDvsNZ",
+        "#Cricket",
+        "#ODI",
         "#TaazaKhabar"
       ],
-      "page": "khabar/2026-11-02-khel-2.html"
+      "page": "khabar/2026-11-03-khel-2.html"
     },
     {
-      "id": "2026-11-02-vyapar-1",
+      "id": "2026-11-03-vyapar-1",
       "cat": "vyapar",
-      "title_hi": "शुक्रवार को सेंसेक्स 74,460 और निफ्टी 23,053 पर बंद, रुपया अक्टूबर में मजबूत",
-      "title_en": "Sensex Closes Friday at 74,460, Nifty at 23,053; Rupee Posts Strong October",
-      "body_hi": "भारतीय शेयर बाजार ने शुक्रवार को बढ़त के साथ सप्ताह का अंत किया — सेंसेक्स 308 अंक यानी 0.42 प्रतिशत बढ़कर 74,459.53 पर और निफ्टी 50 116 अंक यानी 0.51 प्रतिशत बढ़कर 23,053.10 पर बंद हुआ। पूरे हफ्ते में निफ्टी में करीब 2 प्रतिशत की तेजी आई।\n\nउधर रुपया अक्टूबर के अंत में डॉलर के मुकाबले 94.95 पर बंद हुआ, जो आठ महीनों में उसका सबसे अच्छा मासिक प्रदर्शन रहा। इस बीच भारतीय रिजर्व बैंक की मौद्रिक नीति समिति की बैठक शुरू हो गई है, जिसके फैसले का इंतजार 2 नवंबर को है।",
-      "body_en": "Indian equity markets ended the week on a positive note on Friday — the Sensex rose 308 points, or 0.42 percent, to close at 74,459.53, while the Nifty 50 gained 116 points, or 0.51 percent, to settle at 23,053.10. For the week, the Nifty gained about 2 percent.\n\nThe rupee ended October at 94.95 against the US dollar, its best monthly gain in eight months. Meanwhile, the Reserve Bank of India's Monetary Policy Committee meeting has begun, with its decision awaited on November 2.",
-      "source": "Moneycontrol",
-      "source_url": "https://www.moneycontrol.com/news/business/markets/trade-setup-for-november-2-top-15-things-to-know-before-the-opening-bell-14065537.html/amp",
-      "img": "https://images.goodreturns.in/webp/hi/img/2019/11/sensex-03-1517924431-1575027944.jpg",
+      "title_hi": "सोमवार को शेयर बाजार में ज़बरदस्त तेजी, सेंसेक्स 1,233 अंक चढ़कर 75,693 पर बंद",
+      "title_en": "Sensex Jumps 1,233 Points to Close at 75,693 in Strong Monday Rally",
+      "body_hi": "सोमवार को भारतीय शेयर बाजार में ज़बरदस्त तेजी रही — सेंसेक्स 1,233 अंक बढ़कर 75,693 पर और निफ्टी 50 करीब 387 अंक बढ़कर 23,400 के पार बंद हुआ। कच्चे तेल की कीमतों में गिरावट, सकारात्मक वैश्विक संकेतों और कंपनियों के अच्छे नतीजों ने बाज़ार को सहारा दिया।\n\nरिलायंस इंडस्ट्रीज़ के शेयर में करीब 12 प्रतिशत की बढ़त रही, क्योंकि कंपनी का जुलाई-सितंबर तिमाही का मुनाफ़ा सालाना आधार पर 41 प्रतिशत बढ़कर 25,548 करोड़ रुपये रहा। इस तेजी से बीएसई पर सूचीबद्ध कंपनियों का कुल बाज़ार पूंजीकरण 8 लाख करोड़ रुपये से ज़्यादा बढ़ गया।",
+      "body_en": "Indian equity markets rallied strongly on Monday — the Sensex soared 1,233 points to close at 75,693, while the Nifty 50 jumped about 387 points to close above 23,400. Falling crude oil prices, positive global cues and encouraging corporate earnings supported the market.\n\nReliance Industries shares surged nearly 12 percent after the company reported a 41 percent year-on-year rise in consolidated net profit to Rs 25,548 crore in the July-September quarter. The rally added more than Rs 8 lakh crore to the total market capitalisation of BSE-listed companies.",
+      "source": "The Economic Times",
+      "source_url": "https://economictimes.indiatimes.com/markets/stocks/news/why-is-market-rallying-today-sensex-soars-950-points-nifty-above-23300-7-factors-driving-rs-4-lakh-crore-d-street-gains/articleshow/135444466.cms",
+      "img": "https://img.etimg.com/thumb/msid-135445399,width-1200,height-900,imgsize-194304,overlay-etmarkets/articleshow.jpg",
       "tags": [
         "#Sensex",
         "#Nifty",
         "#ShareBazaar",
         "#TaazaKhabar"
       ],
-      "page": "khabar/2026-11-02-vyapar-1.html"
+      "page": "khabar/2026-11-03-vyapar-1.html"
+    },
+    {
+      "id": "2026-11-03-khaas-1",
+      "cat": "khaas",
+      "title_hi": "ISRO ने श्रीहरिकोटा से GSLV-F18 के ज़रिए नेविगेशन उपग्रह NVS-03 सफलतापूर्वक लॉन्च किया",
+      "title_en": "ISRO Successfully Launches Navigation Satellite NVS-03 Aboard GSLV-F18 From Sriharikota",
+      "body_hi": "भारतीय अंतरिक्ष अनुसंधान संगठन (ISRO) ने 30 अक्टूबर को श्रीहरिकोटा से GSLV-F18 रॉकेट के ज़रिए नेविगेशन उपग्रह NVS-03 को सफलतापूर्वक लॉन्च किया। यह उपग्रह देश की नेविगेशन प्रणाली को और मज़बूत करेगा।\n\nइसी बीच एयर चीफ़ मार्शल आशुतोष दीक्षित ने भारतीय वायुसेना के 29वें प्रमुख के रूप में कार्यभार संभाल लिया है। अपने करियर में वे 20 से ज़्यादा तरह के विमान उड़ा चुके हैं।",
+      "body_en": "The Indian Space Research Organisation (ISRO) successfully launched the GSLV-F18 rocket carrying the NVS-03 navigation satellite from Sriharikota on October 30. The satellite will further strengthen the country's navigation system.\n\nMeanwhile, Air Chief Marshal Ashutosh Dixit has taken charge as the 29th Chief of the Air Staff of the Indian Air Force. During his career he has flown more than 20 types of aircraft.",
+      "source": "Education Times",
+      "source_url": "https://www.educationtimes.com/news/school-assembly-news-headlines-for-3rd-november-2026-top-indian-international-sports-and-business-news/articleshow/135460600.cms",
+      "img": "https://thenewsmill.com/wp-content/uploads/2025/11/ANI-20251102034740.jpg",
+      "tags": [
+        "#ISRO",
+        "#GSLV",
+        "#Space",
+        "#TaazaKhabar"
+      ],
+      "page": "khabar/2026-11-03-khaas-1.html"
     }
   ]
 }
