@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      "colors": {
+        "surface-dim": "#0f131d",
+        "on-secondary-container": "#00424e",
+        "secondary-fixed-dim": "#4cd7f6",
+        "outline-variant": "#494454",
+        "inverse-surface": "#dfe2f1",
+        "tertiary-container": "#00a572",
+        "on-error-container": "#ffdad6",
+        "primary-container": "#a078ff",
+        "surface-container-high": "#262a35",
+        "on-primary-fixed": "#23005c",
+        "tertiary-fixed-dim": "#4edea3",
+        "inverse-primary": "#6d3bd7",
+        "tertiary": "#4edea3",
+        "primary": "#d0bcff",
+        "on-primary": "#3c0091",
+        "outline": "#958ea0",
+        "surface-container-low": "#171b26",
+        "on-tertiary-container": "#00311f",
+        "on-tertiary-fixed": "#002113",
+        "surface-tint": "#d0bcff",
+        "secondary": "#4cd7f6",
+        "surface-container-lowest": "#0a0e18",
+        "tertiary-fixed": "#6ffbbe",
+        "background": "#0f131d",
+        "primary-fixed": "#e9ddff",
+        "on-secondary": "#003640",
+        "on-tertiary": "#003824",
+        "primary-fixed-dim": "#d0bcff",
+        "secondary-container": "#03b5d3",
+        "on-surface-variant": "#cbc3d7",
+        "surface-container-highest": "#313540",
+        "surface-container": "#1c1f2a",
+        "inverse-on-surface": "#2c303b",
+        "on-primary-container": "#340080",
+        "surface-bright": "#353944",
+        "on-secondary-fixed": "#001f26",
+        "on-secondary-fixed-variant": "#004e5c",
+        "surface-variant": "#313540",
+        "on-error": "#690005",
+        "secondary-fixed": "#acedff",
+        "surface": "#0f131d",
+        "error": "#ffb4ab",
+        "on-primary-fixed-variant": "#5516be",
+        "on-surface": "#dfe2f1",
+        "on-tertiary-fixed-variant": "#005236",
+        "on-background": "#dfe2f1",
+        "error-container": "#93000a"
+      },
+      "borderRadius": {
+        "DEFAULT": "0.125rem",
+        "lg": "0.25rem",
+        "xl": "0.5rem",
+        "full": "0.75rem"
+      },
+      "spacing": {
+        "space-md": "1rem",
+        "gutter-mobile": "0.75rem",
+        "margin-mobile": "1rem",
+        "space-xl": "2.5rem",
+        "margin": "2rem",
+        "space-xs": "0.25rem",
+        "space-lg": "1.5rem",
+        "gutter": "1.25rem",
+        "space-sm": "0.5rem"
+      },
+      "fontFamily": {
+        "telemetry-metric": [
+          "JetBrains Mono"
+        ],
+        "headline-lg-mobile": [
+          "Inter"
+        ],
+        "body-md": [
+          "Inter"
+        ],
+        "code-sm": [
+          "JetBrains Mono"
+        ],
+        "title-md": [
+          "Inter"
+        ],
+        "label-caps": [
+          "JetBrains Mono"
+        ],
+        "code-lg": [
+          "JetBrains Mono"
+        ],
+        "headline-md": [
+          "Inter"
+        ],
+        "headline-sm": [
+          "Inter"
+        ],
+        "display-xl-mobile": [
+          "Inter"
+        ],
+        "display-xl": [
+          "Inter"
+        ],
+        "body-lg": [
+          "Inter"
+        ],
+        "body-sm": [
+          "Inter"
+        ],
+        "headline-lg": [
+          "Inter"
+        ]
+      },
+      "fontSize": {
+        "telemetry-metric": [
+          "22px",
+          {
+            "lineHeight": "28px",
+            "letterSpacing": "0.02em",
+            "fontWeight": "700"
+          }
+        ],
+        "headline-lg-mobile": [
+          "26px",
+          {
+            "lineHeight": "34px",
+            "letterSpacing": "-0.015em",
+            "fontWeight": "600"
+          }
+        ],
+        "body-md": [
+          "14px",
+          {
+            "lineHeight": "22px",
+            "fontWeight": "400"
+          }
+        ],
+        "code-sm": [
+          "12px",
+          {
+            "lineHeight": "18px",
+            "fontWeight": "400"
+          }
+        ],
+        "title-md": [
+          "16px",
+          {
+            "lineHeight": "24px",
+            "letterSpacing": "-0.005em",
+            "fontWeight": "600"
+          }
+        ],
+        "label-caps": [
+          "11px",
+          {
+            "lineHeight": "16px",
+            "letterSpacing": "0.08em",
+            "fontWeight": "600"
+          }
+        ],
+        "code-lg": [
+          "14px",
+          {
+            "lineHeight": "22px",
+            "fontWeight": "500"
+          }
+        ],
+        "headline-md": [
+          "24px",
+          {
+            "lineHeight": "32px",
+            "letterSpacing": "-0.015em",
+            "fontWeight": "600"
+          }
+        ],
+        "headline-sm": [
+          "20px",
+          {
+            "lineHeight": "28px",
+            "letterSpacing": "-0.01em",
+            "fontWeight": "600"
+          }
+        ],
+        "display-xl-mobile": [
+          "36px",
+          {
+            "lineHeight": "44px",
+            "letterSpacing": "-0.02em",
+            "fontWeight": "700"
+          }
+        ],
+        "display-xl": [
+          "56px",
+          {
+            "lineHeight": "64px",
+            "letterSpacing": "-0.03em",
+            "fontWeight": "700"
+          }
+        ],
+        "body-lg": [
+          "16px",
+          {
+            "lineHeight": "26px",
+            "fontWeight": "400"
+          }
+        ],
+        "body-sm": [
+          "12px",
+          {
+            "lineHeight": "18px",
+            "fontWeight": "400"
+          }
+        ],
+        "headline-lg": [
+          "32px",
+          {
+            "lineHeight": "40px",
+            "letterSpacing": "-0.02em",
+            "fontWeight": "600"
+          }
+        ]
+      }
+    }
+  }
+}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased">
+<div class="w-full px-space-md py-space-sm bg-secondary-container/20 border-b border-secondary/30 text-center font-body-sm text-body-sm text-on-surface">PUBLIC PREVIEW — Live scanning needs the local version. <a class="text-secondary underline font-semibold" href="/downloads/webforge-website.zip">Download the local website</a> to run real scans on your computer.</div><aside class="fixed left-0 top-0 h-full w-64 bg-surface-container-low/90 backdrop-blur-xl z-50 flex flex-col justify-between shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex flex-col flex-1 min-h-0"><div class="h-16 px-space-md flex items-center gap-space-sm bg-surface-container-lowest/60"><img alt="WebForge AI Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XuiRWGJzzoEASabZ-bT3kOUomZrdu33Zxrmg1DP_Rj0WARWr6X3b9ZxtlcCQvWZEdSx87CTLp0XYnWnhlCK_DQsYtHr-Vida3pvx5AlqK3res4VvWFRcz4l4OgoSh86SZ2J1PI59TuHdsR6lnbaBPlDctOSGoF4Q0WjSg6sryxRkhZniCW306VcIYBxV71-SorXNwnFZgYU0iYu8ysoSOLA8vk8uq2OGARNcjb9ZXzvw"/><div class="flex flex-col"><span class="font-title-md text-title-md tracking-tight text-on-surface font-bold">WebForge AI</span><span class="font-label-caps text-label-caps text-secondary tracking-widest">SEC-CORE v4.9</span></div></div><div class="overflow-y-auto px-space-sm py-space-sm space-y-space-md flex-1"><div class="space-y-space-xs"><div class="px-space-sm font-label-caps text-label-caps text-outline tracking-wider uppercase">Core</div><nav class="space-y-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-lg shadow-[0_0_12px_rgba(160,120,255,0.25)]"><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="dashboard" href="index.html"><span class="material-symbols-outlined text-title-md">grid_view</span><span class="font-body-md text-body-md">Dashboard</span></a><a aria-current="page" class="flex items-center gap-space-sm px-space-sm py-space-xs transition-all bg-primary-container text-on-primary-container font-semibold rounded-lg shadow-[0_0_12px_rgba(160,120,255,0.25)]" data-path="resume-builder" href="resume-builder.html"><span class="material-symbols-outlined text-title-md">description</span><span class="font-body-md text-body-md">Resume Builder</span></a></nav></div><div class="space-y-space-xs"><div class="px-space-sm font-label-caps text-label-caps text-outline tracking-wider uppercase">AI Studio</div><nav class="space-y-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-lg shadow-[0_0_12px_rgba(160,120,255,0.25)]"><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="ai-website-builder" href="ai-website-builder.html"><span class="material-symbols-outlined text-title-md">auto_fix_high</span><span class="font-body-md text-body-md">AI Website Builder</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="website-editor" href="#"><span class="material-symbols-outlined text-title-md">code_blocks</span><span class="font-body-md text-body-md">Website Editor</span></a></nav></div><div class="space-y-space-xs"><div class="px-space-sm font-label-caps text-label-caps text-outline tracking-wider uppercase">Sec-Ops &amp; Audit</div><nav class="space-y-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-lg shadow-[0_0_12px_rgba(160,120,255,0.25)]"><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="security-scanner" href="security-scanner.html"><span class="material-symbols-outlined text-title-md">radar</span><span class="font-body-md text-body-md">Security Scanner</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="bug-finder" href="bug-finder.html"><span class="material-symbols-outlined text-title-md">bug_report</span><span class="font-body-md text-body-md">Bug Finder</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="vulnerability-reports" href="vulnerability-reports.html"><span class="material-symbols-outlined text-title-md">shield_with_heart</span><span class="font-body-md text-body-md">Vulnerability Reports</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="ai-security-chat" href="#"><span class="material-symbols-outlined text-title-md">smart_toy</span><span class="font-body-md text-body-md">AI Security Chat</span></a></nav></div><div class="space-y-space-xs"><div class="px-space-sm font-label-caps text-label-caps text-outline tracking-wider uppercase">System</div><nav class="space-y-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-lg shadow-[0_0_12px_rgba(160,120,255,0.25)]"><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="additional-tools" href="#"><span class="material-symbols-outlined text-title-md">terminal</span><span class="font-body-md text-body-md">Additional Tools</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="settings" href="#"><span class="material-symbols-outlined text-title-md">settings</span><span class="font-body-md text-body-md">Settings</span></a></nav></div></div></div><div class="p-space-sm bg-surface-container-lowest/80"><div class="p-space-sm rounded-lg bg-surface-container-high/60 flex items-center justify-between"><div class="flex items-center gap-space-xs"><span class="w-2 h-2 rounded-full bg-tertiary animate-pulse"></span><span class="font-code-sm text-code-sm text-tertiary">PASSIVE CHECK ONLY</span></div><span class="font-code-sm text-code-sm text-outline">TLS 1.3</span></div></div></aside><div class="pl-64 flex flex-col min-h-screen"><header class="fixed top-0 left-64 right-0 h-16 bg-surface/85 backdrop-blur-xl z-40 shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 w-full px-space-md flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><img alt="WebForge AI Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XuiRWGJzzoEASabZ-bT3kOUomZrdu33Zxrmg1DP_Rj0WARWr6X3b9ZxtlcCQvWZEdSx87CTLp0XYnWnhlCK_DQsYtHr-Vida3pvx5AlqK3res4VvWFRcz4l4OgoSh86SZ2J1PI59TuHdsR6lnbaBPlDctOSGoF4Q0WjSg6sryxRkhZniCW306VcIYBxV71-SorXNwnFZgYU0iYu8ysoSOLA8vk8uq2OGARNcjb9ZXzvw"/><div class="hidden xl:flex items-center gap-space-xs px-space-sm py-space-xs rounded-full bg-tertiary-container/20 text-on-surface"><span class="w-2 h-2 rounded-full bg-tertiary animate-ping"></span><span class="font-label-caps text-label-caps text-tertiary font-bold tracking-wider">ALL SYSTEMS NOMINAL</span><span class="text-outline">•</span><span class="font-label-caps text-label-caps text-on-surface-variant">GUARD SHIELD ACTIVE</span></div><div class="flex items-center gap-space-xs px-space-sm py-space-xs rounded-lg bg-surface-container-low text-outline hover:text-on-surface transition-colors cursor-pointer"><span class="material-symbols-outlined text-title-md">search</span><span class="font-body-sm text-body-sm text-outline">Quick Search...</span><kbd class="px-space-xs py-0.5 rounded bg-surface-container-highest font-code-sm text-code-sm text-on-surface-variant">Ctrl+K</kbd></div></div><div class="flex items-center gap-space-sm"><div class="flex items-center p-0.5 rounded-lg bg-surface-container-lowest"><button class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-label-caps text-label-caps transition-all" type="button">DEV</button><button class="px-space-sm py-1 rounded text-outline hover:text-on-surface font-label-caps text-label-caps transition-all" type="button">SECOPS</button></div><button class="flex items-center gap-space-xs px-space-sm py-space-xs rounded-lg bg-secondary/15 hover:bg-secondary/25 text-secondary hover:text-secondary-fixed transition-all shadow-[0_0_12px_rgba(76,215,246,0.2)]" type="button"><span class="material-symbols-outlined text-title-md">bolt</span><span class="font-label-caps text-label-caps font-bold">START SCAN</span></button><button class="flex items-center gap-space-xs px-space-sm py-space-xs rounded-lg bg-primary-container hover:bg-primary-container/85 text-on-primary-container transition-all shadow-[0_0_12px_rgba(160,120,255,0.3)]" type="button"><span class="material-symbols-outlined text-title-md">add_box</span><span class="font-label-caps text-label-caps font-bold">NEW PROJECT</span></button><div class="relative flex items-center justify-center p-space-xs text-on-surface-variant hover:text-on-surface cursor-pointer"><span class="material-symbols-outlined text-headline-sm">notifications</span><span class="absolute top-1 right-1 flex items-center justify-center w-4 h-4 rounded-full bg-error-container text-on-error-container font-label-caps text-[10px] font-bold">3</span></div><div class="flex items-center gap-space-xs pl-space-xs"><div class="hidden md:flex flex-col text-right"><span class="font-body-sm text-body-sm font-semibold text-on-surface">Sandip</span><span class="font-label-caps text-label-caps text-secondary">Security Check</span></div><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAbFUrF1ZYkbVm8JiJxlEGKMuGB8miQ3YqTNMjNbgqB-5CADjgPloQ18JLgE120-LPMTIZKnZq_3W_iLBh2NXuKKbhy1qXXhuDuuzLXJvNm4Id6Z0WadnXpQ0UURRGhfnS15DVLcyhLOWg3lBfOasKDvDGbrBHDUp6vpRNShSbGon4jljFEh94MCvMyNeq8I1pE1giOyTXRs8WJ-uVMKZcOFLEA0DQVLdAOPbZQK-zp"/></div></div></div></header><main class="w-full pt-16 bg-surface flex-1">
+<div class="space-y-space-md">
+<div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Resume Builder</h1>
+<p class="font-body-md text-body-md text-on-surface-variant">Build a professional resume. Edit any field and the preview updates instantly. Your resume uses its own professional design, separate from this dashboard.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-space-md items-start">
+<div id="resFormCard" class="rounded-xl bg-white text-slate-900 p-space-md shadow-md space-y-space-sm">
+<h2 class="font-title-md text-title-md font-bold">Your Details</h2>
+<p class="font-body-sm text-body-sm text-slate-600">Phone and education are empty because those details are not known yet. Fill them in here.</p>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Full Name</label>
+<input id="resName" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md" type="text" value="Sandip Kumar Mahto"/>
+</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Professional Title</label>
+<input id="resTitle" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md" type="text" value="Android App Developer &amp; Content Creator"/>
+</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Email</label>
+<input id="resEmail" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md" type="text" value="kumarsandip8291@gmail.com"/>
+</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Phone</label>
+<input id="resPhone" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md" type="text" placeholder="Add your phone number" value=""/>
+</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Website</label>
+<input id="resWebsite" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md" type="text" value="https://sandipk.qd.je"/>
+</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">About</label>
+<textarea id="resAbout" rows="3" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md">Android app developer and content creator. I build practical Android apps and run a daily newspaper and a classic silent-comedy YouTube channel.</textarea>
+</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Skills (comma-separated)</label>
+<textarea id="resSkills" rows="3" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md">Android, Java, Python, Blender, Video Editing, HTML, CSS, JavaScript, GitHub Pages, YouTube</textarea>
+</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Projects (one per line: Title — description)</label>
+<textarea id="resProjects" rows="8" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md">Video Editing AI Enhancer 4K — Android app for 4K-style video enhancement
+eBook Library — 50 original bilingual stories with an in-app reader
+Sandip AI Chat — Personal WhatsApp AI auto-reply with Gemini
+Musa AI Assistant — Personal AI assistant with Excel Studio
+Apna Akhbaar — Daily bilingual newspaper on sandipk.qd.je
+Hasgulla — YouTube channel for classic silent-comedy public-domain films
+Taaza Khabar — Android news app
+Viral Video Studio — Video enhancement plus viral toolkit app</textarea>
+</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Education</label>
+<textarea id="resEducation" rows="2" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md" placeholder="Add your education, e.g. Class 12, School Name, Year"></textarea>
+</div>
+</div>
+<div class="rounded-xl bg-white text-slate-900 p-space-md shadow-md space-y-space-sm">
+<div class="flex items-center justify-between gap-space-sm">
+<h2 class="font-title-md text-title-md font-bold">Preview</h2>
+<button id="resEditBtn" class="px-space-sm py-1.5 rounded-lg bg-slate-900 text-white font-label-caps text-label-caps" type="button">Edit Resume</button>
+</div>
+<p class="font-body-sm text-body-sm text-slate-600">This is how your resume will look. Use Edit Resume to change anything, even after downloading.</p>
+<div id="resumePreview" class="border border-slate-200 rounded-lg p-space-md bg-white"></div>
+<div class="flex flex-wrap gap-space-xs">
+<button id="resDownload" class="px-space-md py-2 rounded-lg bg-primary-container text-on-primary-container font-label-caps text-label-caps font-bold" type="button">Download .HTML</button>
+<button id="resPrint" class="px-space-md py-2 rounded-lg bg-slate-900 text-white font-label-caps text-label-caps" type="button">Print / Save as PDF</button>
+</div>
+<div id="resStatus" class="hidden rounded-lg bg-tertiary-container/20 text-tertiary font-body-sm text-body-sm p-space-sm">Resume saved. Want changes? <button id="resStatusEditBtn" class="underline font-semibold" type="button">Edit Resume</button></div>
+</div>
+</div>
+</div>
+</main></div>
+<script>
+  (function () {
+    function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+    function val(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+    function section(title) {
+      return '<div style="font-size: 14px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; color: #1f3a5f; border-bottom: 1px solid #d1d5db; padding-bottom: 4px; margin-top: 18px; margin-bottom: 8px;">' + title + '</div>';
+    }
+    function resumeBodyHTML() {
+      var name = val("resName").trim() || "Your Name";
+      var title = val("resTitle").trim();
+      var email = val("resEmail").trim();
+      var phone = val("resPhone").trim();
+      var website = val("resWebsite").trim();
+      var about = val("resAbout").trim();
+      var skills = val("resSkills").split(",").map(function (x) { return x.trim(); }).filter(Boolean);
+      var projects = val("resProjects").split("\n").map(function (x) { return x.trim(); }).filter(Boolean);
+      var edu = val("resEducation").trim();
+      var contact = [email, phone, website].filter(Boolean).join("  •  ");
+      var h = '<div style="font-family: Arial, Helvetica, sans-serif; color: #1f2937; line-height: 1.5;">';
+      h += '<div style="font-size: 28px; font-weight: bold; color: #1f3a5f; margin-bottom: 2px;">' + esc(name) + '</div>';
+      if (title) h += '<div style="font-size: 16px; color: #4b5563; margin-bottom: 8px;">' + esc(title) + '</div>';
+      if (contact) h += '<div style="font-size: 13px; color: #6b7280; border-bottom: 2px solid #1f3a5f; padding-bottom: 10px; margin-bottom: 16px;">' + esc(contact) + '</div>';
+      if (about) h += section("About") + '<div style="font-size: 14px;">' + esc(about) + '</div>';
+      if (skills.length) h += section("Skills") + '<div style="font-size: 14px;">' + skills.map(esc).join("  •  ") + '</div>';
+      if (projects.length) {
+        h += section("Projects") + '<ul style="font-size: 14px; margin: 0; padding-left: 20px;">';
+        projects.forEach(function (line) {
+          var parts = line.split(" — ");
+          if (parts.length > 1) h += '<li><b>' + esc(parts[0]) + '</b> — ' + esc(parts.slice(1).join(" — ")) + '</li>';
+          else h += '<li>' + esc(line) + '</li>';
+        });
+        h += '</ul>';
+      }
+      if (edu) h += section("Education") + '<div style="font-size: 14px;">' + esc(edu) + '</div>';
+      h += '</div>';
+      return h;
+    }
+    function resumeDocHTML() {
+      var name = val("resName").trim() || "Your Name";
+      return '<!DOCTYPE html>\n<html lang="en">\n<head>\n<meta charset="utf-8"/>\n<title>Resume - ' + esc(name) + '</title>\n<style>body{margin:0;padding:40px;background:#f3f4f6;} .page{max-width:800px;margin:0 auto;background:#ffffff;padding:40px;}</style>\n</head>\n<body>\n<div class="page">' + resumeBodyHTML() + '</div>\n</body>\n</html>';
+    }
+    function renderResume() {
+      var p = document.getElementById("resumePreview");
+      if (p) p.innerHTML = resumeBodyHTML();
+    }
+    function fileName() {
+      var name = val("resName").trim() || "resume";
+      return name.replace(/\s+/g, "-") + "-Resume.html";
+    }
+    function showSaved() {
+      var s = document.getElementById("resStatus");
+      if (s) s.classList.remove("hidden");
+    }
+    function downloadResume() {
+      var blob = new Blob([resumeDocHTML()], { type: "text/html" });
+      var a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = fileName();
+      a.click();
+      showSaved();
+    }
+    function printResume() {
+      var w = window.open("", "_blank");
+      if (!w) { alert("Please allow pop-ups for this site to print."); return; }
+      w.document.write(resumeDocHTML());
+      w.document.close();
+      w.focus();
+      w.print();
+      showSaved();
+    }
+    function editResume() {
+      var card = document.getElementById("resFormCard");
+      if (card) card.scrollIntoView({ behavior: "smooth", block: "start" });
+      var n = document.getElementById("resName");
+      if (n) n.focus();
+      if (card) {
+        card.style.boxShadow = "0 0 0 3px #a078ff";
+        setTimeout(function () { card.style.boxShadow = ""; }, 1500);
+      }
+    }
+    ["resName", "resTitle", "resEmail", "resPhone", "resWebsite", "resAbout", "resSkills", "resProjects", "resEducation"].forEach(function (id) {
+      var el = document.getElementById(id);
+      if (el) el.addEventListener("input", renderResume);
+    });
+    var dl = document.getElementById("resDownload");
+    if (dl) dl.addEventListener("click", downloadResume);
+    var pr = document.getElementById("resPrint");
+    if (pr) pr.addEventListener("click", printResume);
+    var eb = document.getElementById("resEditBtn");
+    if (eb) eb.addEventListener("click", editResume);
+    var sb = document.getElementById("resStatusEditBtn");
+    if (sb) sb.addEventListener("click", editResume);
+    renderResume();
+  })();
+</script>
+</body></html>
