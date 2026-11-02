@@ -358,6 +358,7 @@
       iframe.style.height = "600px";
       iframe.style.border = "0";
       iframe.style.background = "#ffffff";
+      iframe.setAttribute("sandbox", "");
       iframe.srcdoc = generatedHTML;
       var pre = document.createElement("pre");
       pre.id = "realCodeView";
