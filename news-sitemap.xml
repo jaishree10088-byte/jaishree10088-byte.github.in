@@ -1,57 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://sandipk.qd.je/khabar/2026-11-08-bharat-1.html</loc>
-    <news:news><news:publication><news:name>Apna Akhbaar</news:name><news:language>hi</news:language></news:publication>
-    <news:publication_date>2026-11-08T05:00:00+05:30</news:publication_date>
-    <news:title>दीवाली पर जवानों के बीच रक्षा मंत्री राजनाथ सिंह, नाथू ला में शहीदों को श्रद्धांजलि</news:title></news:news>
+    <loc>https://sandipk.qd.je/khabar/2026-11-09-bharat-1.html</loc>
+    <news:news>
+      <news:publication><news:name>Apna Akhbaar</news:name><news:language>hi</news:language></news:publication>
+      <news:publication_date>2026-11-09T05:00:00+05:30</news:publication_date>
+      <news:title>प्रधानमंत्री मोदी ने बस्तर में जवानों के साथ मनाई दीवाली, बोले — हथियारबंद माओवादी खत्म</news:title>
+    </news:news>
   </url>
   <url>
-    <loc>https://sandipk.qd.je/khabar/2026-11-08-bharat-2.html</loc>
-    <news:news><news:publication><news:name>Apna Akhbaar</news:name><news:language>hi</news:language></news:publication>
-    <news:publication_date>2026-11-08T05:00:00+05:30</news:publication_date>
-    <news:title>चावल की कीमतों पर लगाम के लिए केंद्र सख्त, हर हफ्ते स्टॉक बताना होगा, बिक्री लक्ष्य दोगुना</news:title></news:news>
+    <loc>https://sandipk.qd.je/khabar/2026-11-09-bharat-2.html</loc>
+    <news:news>
+      <news:publication><news:name>Apna Akhbaar</news:name><news:language>hi</news:language></news:publication>
+      <news:publication_date>2026-11-09T05:00:00+05:30</news:publication_date>
+      <news:title>दिल्ली की हवा फिर &#x27;बहुत खराब&#x27;, AQI 376 पर; आज &#x27;गंभीर&#x27; श्रेणी में जाने की आशंका</news:title>
+    </news:news>
   </url>
   <url>
-    <loc>https://sandipk.qd.je/khabar/2026-11-08-bharat-3.html</loc>
-    <news:news><news:publication><news:name>Apna Akhbaar</news:name><news:language>hi</news:language></news:publication>
-    <news:publication_date>2026-11-08T05:00:00+05:30</news:publication_date>
-    <news:title>भारत-अमेरिका संयुक्त सैन्य अभ्यास टाइगर ट्रायम्फ 2026 विशाखापत्तनम में संपन्न</news:title></news:news>
+    <loc>https://sandipk.qd.je/khabar/2026-11-09-bharat-3.html</loc>
+    <news:news>
+      <news:publication><news:name>Apna Akhbaar</news:name><news:language>hi</news:language></news:publication>
+      <news:publication_date>2026-11-09T05:00:00+05:30</news:publication_date>
+      <news:title>दिल्ली के हौज काजी में इमारत हादसे में मरने वालों की संख्या सात हुई, 70 घंटे से जारी है बचाव कार्य</news:title>
+    </news:news>
   </url>
   <url>
-    <loc>https://sandipk.qd.je/khabar/2026-11-08-duniya-1.html</loc>
-    <news:news><news:publication><news:name>Apna Akhbaar</news:name><news:language>hi</news:language></news:publication>
-    <news:publication_date>2026-11-08T05:00:00+05:30</news:publication_date>
-    <news:title>पोलैंड के क्राको शहर में गोलीबारी, 6 की मौत, 15 घायल; दो दिन का राष्ट्रीय शोक</news:title></news:news>
+    <loc>https://sandipk.qd.je/khabar/2026-11-09-duniya-1.html</loc>
+    <news:news>
+      <news:publication><news:name>Apna Akhbaar</news:name><news:language>hi</news:language></news:publication>
+      <news:publication_date>2026-11-09T05:00:00+05:30</news:publication_date>
+      <news:title>ट्रंप बोले — ईरान पर नए हमले &#x27;बहुत असंभावित&#x27;, शांति वार्ता जारी रहने पर टलेगा टकराव</news:title>
+    </news:news>
   </url>
   <url>
-    <loc>https://sandipk.qd.je/khabar/2026-11-08-duniya-2.html</loc>
-    <news:news><news:publication><news:name>Apna Akhbaar</news:name><news:language>hi</news:language></news:publication>
-    <news:publication_date>2026-11-08T05:00:00+05:30</news:publication_date>
-    <news:title>इज़रायल में नेतन्याहू को झटका, राष्ट्रपति ने आइज़ेनकोट को सरकार बनाने का न्योता दिया</news:title></news:news>
+    <loc>https://sandipk.qd.je/khabar/2026-11-09-duniya-2.html</loc>
+    <news:news>
+      <news:publication><news:name>Apna Akhbaar</news:name><news:language>hi</news:language></news:publication>
+      <news:publication_date>2026-11-09T05:00:00+05:30</news:publication_date>
+      <news:title>मिस्र के गीज़ा प्रांत में दो ट्रेनों की टक्कर, सात की मौत, 100 से अधिक घायल</news:title>
+    </news:news>
   </url>
   <url>
-    <loc>https://sandipk.qd.je/khabar/2026-11-08-khel-1.html</loc>
-    <news:news><news:publication><news:name>Apna Akhbaar</news:name><news:language>hi</news:language></news:publication>
-    <news:publication_date>2026-11-08T05:00:00+05:30</news:publication_date>
-    <news:title>आज भारत-पाकिस्तान अंडर-19 मुकाबला, एशिया कप में सेहवाग के बेटे आर्यवीर पर नज़रें</news:title></news:news>
+    <loc>https://sandipk.qd.je/khabar/2026-11-09-duniya-3.html</loc>
+    <news:news>
+      <news:publication><news:name>Apna Akhbaar</news:name><news:language>hi</news:language></news:publication>
+      <news:publication_date>2026-11-09T05:00:00+05:30</news:publication_date>
+      <news:title>सेनेगल के तट पर प्रवासी नाव डूबी, कम से कम 21 लोगों की मौत</news:title>
+    </news:news>
   </url>
   <url>
-    <loc>https://sandipk.qd.je/khabar/2026-11-08-khel-2.html</loc>
-    <news:news><news:publication><news:name>Apna Akhbaar</news:name><news:language>hi</news:language></news:publication>
-    <news:publication_date>2026-11-08T05:00:00+05:30</news:publication_date>
-    <news:title>मोहम्मद शमी ने टेस्ट क्रिकेट से संन्यास लिया, 64 मैचों में 229 विकेट का सफर खत्म</news:title></news:news>
+    <loc>https://sandipk.qd.je/khabar/2026-11-09-khel-1.html</loc>
+    <news:news>
+      <news:publication><news:name>Apna Akhbaar</news:name><news:language>hi</news:language></news:publication>
+      <news:publication_date>2026-11-09T05:00:00+05:30</news:publication_date>
+      <news:title>अंडर-19 एशिया कप: पाकिस्तान ने भारत को तीन विकेट से हराया</news:title>
+    </news:news>
   </url>
   <url>
-    <loc>https://sandipk.qd.je/khabar/2026-11-08-vyapar-1.html</loc>
-    <news:news><news:publication><news:name>Apna Akhbaar</news:name><news:language>hi</news:language></news:publication>
-    <news:publication_date>2026-11-08T05:00:00+05:30</news:publication_date>
-    <news:title>दीवाली पर आज मुहूर्त ट्रेडिंग, सेंसेक्स-निफ्टी की 35 साल की सबसे बड़ी दीवाली-पूर्व तेज़ी</news:title></news:news>
+    <loc>https://sandipk.qd.je/khabar/2026-11-09-khel-2.html</loc>
+    <news:news>
+      <news:publication><news:name>Apna Akhbaar</news:name><news:language>hi</news:language></news:publication>
+      <news:publication_date>2026-11-09T05:00:00+05:30</news:publication_date>
+      <news:title>राइजिंग स्टार्स एशिया कप: पाटीदार बाहर, बदोनी टीम में; रिंकू सिंह बने उप-कप्तान</news:title>
+    </news:news>
   </url>
   <url>
-    <loc>https://sandipk.qd.je/khabar/2026-11-08-khaas-1.html</loc>
-    <news:news><news:publication><news:name>Apna Akhbaar</news:name><news:language>hi</news:language></news:publication>
-    <news:publication_date>2026-11-08T05:00:00+05:30</news:publication_date>
-    <news:title>धिनिधि देसिंघु ने रचा इतिहास, एक ही यूथ ओलंपिक में दो पदक जीतने वाली पहली भारतीय</news:title></news:news>
+    <loc>https://sandipk.qd.je/khabar/2026-11-09-vyapar-1.html</loc>
+    <news:news>
+      <news:publication><news:name>Apna Akhbaar</news:name><news:language>hi</news:language></news:publication>
+      <news:publication_date>2026-11-09T05:00:00+05:30</news:publication_date>
+      <news:title>मुहूर्त कारोबार: सेंसेक्स 80,999 और निफ्टी 24,986 पर बंद, आठ साल की दीवाली जीत का सिलसिला टूटा</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sandipk.qd.je/khabar/2026-11-09-khaas-1.html</loc>
+    <news:news>
+      <news:publication><news:name>Apna Akhbaar</news:name><news:language>hi</news:language></news:publication>
+      <news:publication_date>2026-11-09T05:00:00+05:30</news:publication_date>
+      <news:title>CBSE ने जारी की 2027 बोर्ड परीक्षा की तारीखें, 46 लाख से अधिक छात्र देंगे परीक्षा</news:title>
+    </news:news>
   </url>
 </urlset>
