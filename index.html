@@ -34,14 +34,15 @@
   .masthead .tag { color: #45464d; font-size: 15px; line-height: 1.5; max-width: 640px; margin: 0 auto; }
   .masthead .tag b { color: #0d1c2f; }
   .share-row { margin-top: 14px; display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap; }
-  .wa-btn { display: inline-block; background: #25D366; color: #06281a; font-weight: 700; padding: 10px 20px; border-radius: 8px; text-decoration: none; font-size: 14.5px; }
+  .wa-btn { display: inline-block; background: #25D366; color: #06281a; font-weight: 700; padding: 10px 20px; border-radius: 8px; text-decoration: none; font-size: 14.5px; transition: transform 160ms ease-out; }
+  .wa-btn:active { transform: scale(0.97); }
   .hashtags { color: #76777d; font-size: 12.5px; }
   /* ---- nav ---- */
   .nav { background: #131b2e; position: sticky; top: 0; z-index: 50; box-shadow: 0 1px 8px rgba(15,23,42,.18); }
   .nav-in { max-width: 1100px; margin: 0 auto; padding: 0 8px; display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; }
   .nav-in::-webkit-scrollbar { display: none; }
-  .nav a { color: #ebf1ff; text-decoration: none; font-size: 14px; font-weight: 600; padding: 12px 14px; white-space: nowrap; border-bottom: 3px solid transparent; }
-  .nav a:hover { color: #fff; border-bottom-color: #e02928; }
+  .nav a { color: #ebf1ff; text-decoration: none; font-size: 14px; font-weight: 600; padding: 12px 14px; white-space: nowrap; border-bottom: 3px solid transparent; transition: color 150ms ease-out, border-bottom-color 150ms ease-out, transform 160ms ease-out; }
+  .nav a:active { transform: scale(0.97); }
   .nav a.active { color: #fff; border-bottom-color: #e02928; }
   /* ---- breaking ticker ---- */
   .ticker { background: #fff; border-bottom: 1px solid #dde9ff; }
@@ -51,7 +52,6 @@
   @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
   .ticker-viewport { overflow: hidden; flex: 1; display: flex; align-items: center; mask-image: linear-gradient(to right, transparent, #000 24px, #000 calc(100% - 24px), transparent); -webkit-mask-image: linear-gradient(to right, transparent, #000 24px, #000 calc(100% - 24px), transparent); }
   .ticker-track { display: inline-flex; white-space: nowrap; animation: marquee 55s linear infinite; will-change: transform; }
-  .ticker-viewport:hover .ticker-track { animation-play-state: paused; }
   @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
   .ticker-item { font-size: 14px; font-weight: 500; color: #0d1c2f; padding: 0 4px; }
   .ticker-item .sep { color: #e02928; padding: 0 14px; }
@@ -65,36 +65,36 @@
   .err { color: #93000a; font-size: 14px; }
   .err a { color: #bb0112; }
   /* ---- hero ---- */
-  .hero { background: #fff; border: 1px solid #dde9ff; border-radius: 12px; overflow: hidden; box-shadow: 0 1px 8px rgba(15,23,42,.06); margin-top: 20px; }
+  .hero { background: #fff; border: 1px solid #dde9ff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 16px rgba(15,23,42,.10); margin-top: 20px; }
   .hero img.ph { width: 100%; height: 380px; object-fit: cover; display: block; background: #e6eeff; }
   .hero-body { padding: 20px 22px 22px; }
   .catchip { display: inline-block; background: #bb0112; color: #fff; font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; border-radius: 4px; padding: 4px 10px; margin-bottom: 10px; }
   .hero h3 { font-family: "Merriweather", Georgia, serif; font-size: 30px; line-height: 1.3; font-weight: 900; margin-bottom: 10px; }
-  .hero h3 a { text-decoration: none; }
-  .hero h3 a:hover { color: #bb0112; }
+  .hero h3 a { color: inherit; text-decoration: none; transition: color 150ms ease-out; }
   .hero p.body { color: #45464d; font-size: 16px; line-height: 1.7; margin-bottom: 10px; }
   .htags { color: #0d6efd; font-size: 13px; margin-top: 10px; line-height: 1.6; }
   .meta { font-size: 12.5px; color: #76777d; margin-top: 10px; }
   .meta a { color: #bb0112; font-weight: 600; text-decoration: none; }
   /* ---- story grid ---- */
   .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-  .card { background: #fff; border: 1px solid #dde9ff; border-radius: 12px; overflow: hidden; box-shadow: 0 1px 8px rgba(15,23,42,.05); }
+  .card { background: #fff; border: 1px solid #dde9ff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 16px rgba(15,23,42,.10); }
   .card img.ph { width: 100%; height: 200px; object-fit: cover; display: block; background: #e6eeff; }
   .card-body { padding: 16px 18px 18px; }
   .card .cat { display: inline-block; background: #131b2e; color: #fff; font-size: 11px; font-weight: 700; letter-spacing: .05em; border-radius: 4px; padding: 3px 9px; margin-bottom: 9px; }
   .card h3 { font-family: "Merriweather", Georgia, serif; font-size: 18px; line-height: 1.45; font-weight: 700; margin-bottom: 8px; }
-  .card h3 a { text-decoration: none; }
-  .card h3 a:hover { color: #bb0112; }
+  .card h3 a { color: inherit; text-decoration: none; transition: color 150ms ease-out; }
   .story p.body { color: #45464d; font-size: 14.5px; line-height: 1.65; margin-bottom: 8px; }
   .story .src { font-size: 12px; color: #76777d; }
   .story .src a { color: #bb0112; font-size: 12px; font-weight: 600; text-decoration: none; }
   /* ---- lang toggle ---- */
   .langbar { display: flex; gap: 8px; margin: 14px 0 4px; }
-  .langbtn { background: #fff; border: 1px solid #c6c6cd; color: #45464d; border-radius: 999px; padding: 7px 16px; font-size: 13.5px; font-weight: 600; cursor: pointer; font-family: inherit; }
+  .langbtn { background: #fff; border: 1px solid #c6c6cd; color: #45464d; border-radius: 999px; padding: 7px 16px; font-size: 13.5px; font-weight: 600; cursor: pointer; font-family: inherit; transition: transform 160ms ease-out, background-color 150ms ease-out, color 150ms ease-out; }
+  .langbtn:active { transform: scale(0.97); }
   .langbtn.active { background: #131b2e; color: #fff; border-color: #131b2e; }
   /* ---- trending ---- */
   .tgrid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
-  .tcard { background: #fff; border: 1px solid #dde9ff; border-radius: 12px; overflow: hidden; text-decoration: none; color: #0d1c2f; display: block; box-shadow: 0 1px 8px rgba(15,23,42,.05); }
+  .tcard { background: #fff; border: 1px solid #dde9ff; border-radius: 12px; overflow: hidden; text-decoration: none; color: #0d1c2f; display: block; box-shadow: 0 4px 16px rgba(15,23,42,.10); transition: transform 160ms ease-out, box-shadow 200ms ease-out; }
+  .tcard:active { transform: scale(0.97); }
   .tcard img { width: 100%; height: 120px; object-fit: cover; display: block; background: #e6eeff; }
   .tcard .tile { height: 120px; display: flex; align-items: center; justify-content: center; font-size: 38px; background: linear-gradient(135deg, #bb0112, #7f1d1d); }
   .tcard .tt { padding: 10px 12px; font-size: 14px; font-weight: 600; line-height: 1.4; }
@@ -104,17 +104,30 @@
   .mini { background: #fff; border: 1px solid #dde9ff; border-radius: 12px; overflow: hidden; }
   .mini img.ph { width: 100%; height: 150px; object-fit: cover; display: block; background: #e6eeff; }
   .mini-body { padding: 12px 14px 14px; }
-  .mini a { color: #0d1c2f; text-decoration: none; font-size: 15px; font-weight: 600; line-height: 1.45; display: block; }
-  .mini a:hover { color: #bb0112; }
+  .mini a { color: #0d1c2f; text-decoration: none; font-size: 15px; font-weight: 600; line-height: 1.45; display: block; transition: color 150ms ease-out, transform 160ms ease-out; }
+  .mini a:active { transform: scale(0.97); }
   /* ---- ebook ---- */
   .ebook { background: linear-gradient(135deg, #14532d, #166534); border-radius: 16px; padding: 24px; text-align: center; color: #fff; }
   .ebook h3 { font-family: "Merriweather", Georgia, serif; font-size: 21px; margin-bottom: 8px; }
   .ebook p { color: #d1fae5; font-size: 14.5px; margin-bottom: 14px; }
-  .ebook a.btn { display: inline-block; background: #ffbe28; color: #16295c; font-weight: 700; padding: 12px 24px; border-radius: 10px; text-decoration: none; font-size: 15px; }
+  .ebook a.btn { display: inline-block; background: #ffbe28; color: #16295c; font-weight: 700; padding: 12px 24px; border-radius: 10px; text-decoration: none; font-size: 15px; transition: transform 160ms ease-out; }
+  .ebook a.btn:active { transform: scale(0.97); }
   .ebook .note { color: #a7f3d0; font-size: 12px; margin-top: 12px; margin-bottom: 0; }
   .refresh-note { color: #76777d; font-size: 12.5px; text-align: center; margin-top: 20px; }
   footer { background: #131b2e; color: #cdd9f2; text-align: center; font-size: 13px; padding: 26px 16px 32px; margin-top: 28px; line-height: 1.7; }
   footer b { color: #fff; }
+  /* ---- Emil review fixes: hover gated to fine pointers; reduced motion ---- */
+  @media (hover: hover) and (pointer: fine) {
+    .nav a:hover { color: #fff; border-bottom-color: #e02928; }
+    .ticker-viewport:hover .ticker-track { animation-play-state: paused; }
+    .hero h3 a:hover { color: #bb0112; }
+    .card h3 a:hover { color: #bb0112; }
+    .mini a:hover { color: #bb0112; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .ticker-track { animation: none; }
+    .ticker-badge .pulse { animation: none; }
+  }
   @media (max-width: 720px) {
     .masthead h1 { font-size: 34px; }
     .grid, .list, .tgrid { grid-template-columns: 1fr; }
@@ -333,7 +346,8 @@
     var tags = (st.tags && st.tags.length) ? '<p class="htags">' + st.tags.map(esc).join(" ") + "</p>" : "";
     var src = st.source ? '<p class="src">Source: ' + esc(st.source) + (st.source_url ? ' • <a href="' + esc(st.source_url) + '" target="_blank" rel="noopener">asar khabar</a>' : "") + "</p>" : "";
     var pg = st.page ? '<p class="meta">🔗 <a href="' + esc(pageUrl(st.page)) + '">Poori khabar apne page par padho →</a></p>' : "";
-    return { title: title, img: img, parasHtml: parasHtml, tags: tags, src: src, pg: pg };
+    var pgUrl = st.page ? pageUrl(st.page) : "";
+    return { title: title, img: img, parasHtml: parasHtml, tags: tags, src: src, pg: pg, pgUrl: pgUrl };
   }
 
   function renderTicker() {
@@ -360,11 +374,11 @@
     var stories = akhData.stories;
     if (akhFilter === "all") {
       var lead = storyCard(stories[0], false);
-      heroBox.innerHTML = '<article class="hero">' + lead.img + '<div class="hero-body"><span class="catchip">' + (CATNAMES[stories[0].cat] || "⭐ Khaas") + "</span><h3>" + esc(lead.title) + "</h3>" + lead.parasHtml + lead.tags + lead.src + lead.pg + "</div></article>";
+      heroBox.innerHTML = '<article class="hero">' + lead.img + '<div class="hero-body"><span class="catchip">' + (CATNAMES[stories[0].cat] || "⭐ Khaas") + "</span><h3>" + (lead.pgUrl ? '<a href="' + esc(lead.pgUrl) + '">' + esc(lead.title) + "</a>" : esc(lead.title)) + "</h3>" + lead.parasHtml + lead.tags + lead.src + lead.pg + "</div></article>";
       var rest = stories.slice(1);
       box.innerHTML = rest.map(function (st) {
         var c = storyCard(st, true);
-        return '<article class="card story">' + c.img + '<div class="card-body"><span class="cat">' + (CATNAMES[st.cat] || "⭐ Khaas") + "</span><h3>" + esc(c.title) + "</h3>" + c.parasHtml + c.tags + c.src + c.pg + "</div></article>";
+        return '<article class="card story">' + c.img + '<div class="card-body"><span class="cat">' + (CATNAMES[st.cat] || "⭐ Khaas") + "</span><h3>" + (c.pgUrl ? '<a href="' + esc(c.pgUrl) + '">' + esc(c.title) + "</a>" : esc(c.title)) + "</h3>" + c.parasHtml + c.tags + c.src + c.pg + "</div></article>";
       }).join("");
     } else {
       heroBox.innerHTML = "";
@@ -375,7 +389,7 @@
       }
       box.innerHTML = filtered.map(function (st) {
         var c = storyCard(st, true);
-        return '<article class="card story">' + c.img + '<div class="card-body"><span class="cat">' + (CATNAMES[st.cat] || "⭐ Khaas") + "</span><h3>" + esc(c.title) + "</h3>" + c.parasHtml + c.tags + c.src + c.pg + "</div></article>";
+        return '<article class="card story">' + c.img + '<div class="card-body"><span class="cat">' + (CATNAMES[st.cat] || "⭐ Khaas") + "</span><h3>" + (c.pgUrl ? '<a href="' + esc(c.pgUrl) + '">' + esc(c.title) + "</a>" : esc(c.title)) + "</h3>" + c.parasHtml + c.tags + c.src + c.pg + "</div></article>";
       }).join("");
     }
   }
