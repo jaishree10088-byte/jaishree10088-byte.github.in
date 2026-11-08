@@ -354,6 +354,23 @@ Viral Video Studio — Video enhancement plus viral toolkit app</textarea>
 <label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Languages Known</label>
 <input id="resLanguages" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md" type="text" placeholder="Hindi, English, Other"/>
 </div>
+<div class="font-body-md text-body-md font-semibold text-slate-700">Declaration</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Declaration Text</label>
+<textarea id="resDeclText" rows="2" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md">I hereby declare that the information provided above is true and correct to the best of my knowledge.</textarea>
+</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Place</label>
+<input id="resDeclPlace" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md" type="text" placeholder="City name — leave empty for a blank line"/>
+</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Date</label>
+<input id="resDeclDate" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md" type="text" placeholder="DD/MM/YYYY — leave empty for a blank line"/>
+</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Signature</label>
+<input id="resDeclSig" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md" type="text" value="Sandip Kumar Mahto"/>
+</div>
 </div>
 <div class="rounded-xl bg-white text-slate-900 p-space-md shadow-md space-y-space-sm">
 <div class="flex items-center justify-between gap-space-sm">
@@ -593,9 +610,14 @@ Viral Video Studio — Video enhancement plus viral toolkit app</textarea>
         secs.push({ id: "personal", title: "Personal Details", html: prh });
       }
       var declTitle = "Declaration";
-      var declHtml = '<div style="font-size: 14px;">I hereby declare that the information provided above is true and correct to the best of my knowledge.</div>'
-        + '<div style="font-size: 14px; font-weight: bold; margin-top: 16px;">Place: __________________&nbsp;&nbsp;&nbsp;&nbsp;Date: __________________</div>'
-        + '<div style="font-size: 14px; text-align: right; margin-top: 16px;"><b>Signature</b><br/>(' + esc(name) + ')</div>';
+      var declText = val("resDeclText").trim();
+      var declPlace = val("resDeclPlace").trim();
+      var declDate = val("resDeclDate").trim();
+      var declSig = val("resDeclSig").trim() || name;
+      var declHtml = '';
+      if (declText) declHtml += '<div style="font-size: 14px;">' + esc(declText) + '</div>';
+      declHtml += '<div style="font-size: 14px; font-weight: bold; margin-top: 16px;">Place: ' + (declPlace ? esc(declPlace) : '__________________') + '&nbsp;&nbsp;&nbsp;&nbsp;Date: ' + (declDate ? esc(declDate) : '__________________') + '</div>';
+      declHtml += '<div style="font-size: 14px; text-align: right; margin-top: 16px;"><b>Signature</b><br/>(' + esc(declSig) + ')</div>';
       var bodyFont = "Aptos Display, Arial, Helvetica, sans-serif";
       function secById(id) { for (var i = 0; i < secs.length; i++) { if (secs[i].id === id) return secs[i]; } return null; }
       if (t.layout === "sidebar") {
@@ -725,7 +747,7 @@ Viral Video Studio — Video enhancement plus viral toolkit app</textarea>
       if (rb) rb.classList.add("hidden");
       renderResume();
     }
-    ["resName", "resTitle", "resEmail", "resPhone", "resWebsite", "resAbout", "resSkills", "resProjects", "edu10_qual", "edu10_school", "edu10_board", "edu10_year", "edu10_marks", "edu12_qual", "edu12_school", "edu12_board", "edu12_year", "edu12_marks", "eduGrad_qual", "eduGrad_school", "eduGrad_board", "eduGrad_year", "eduGrad_marks", "resCert", "resFather", "resDob", "resGender", "resReligion", "resNationality", "resMarital", "resLanguages"].forEach(function (id) {
+    ["resName", "resTitle", "resEmail", "resPhone", "resWebsite", "resAbout", "resSkills", "resProjects", "edu10_qual", "edu10_school", "edu10_board", "edu10_year", "edu10_marks", "edu12_qual", "edu12_school", "edu12_board", "edu12_year", "edu12_marks", "eduGrad_qual", "eduGrad_school", "eduGrad_board", "eduGrad_year", "eduGrad_marks", "resCert", "resFather", "resDob", "resGender", "resReligion", "resNationality", "resMarital", "resLanguages", "resDeclText", "resDeclPlace", "resDeclDate", "resDeclSig"].forEach(function (id) {
       var el = document.getElementById(id);
       if (el) el.addEventListener("input", renderResume);
     });
