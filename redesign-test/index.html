@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+<title>ResumeMaker – Free Resume Builder, AI Website Builder &amp; Security Scanner</title>
+<meta name="description" content="ResumeMaker: free resume builder, AI website builder, passive website security scanner, bug finder, vulnerability reports and image metadata cleaner — all free in your browser."/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        ink: "#0b1220",
+        sidebar: "#0d1526",
+        panel: "#111a2e",
+        panel2: "#16213a",
+        line: "#22304d",
+        accent: "#206bc4",
+        accent2: "#1a5cab",
+        mint: "#2fb344",
+        amber: "#f59f00",
+        violet: "#7048e8",
+        mut: "#8b98ad",
+        txt: "#e6ebf2"
+      },
+      fontFamily: {
+        sans: ["Inter", "system-ui", "sans-serif"],
+        mono: ["JetBrains Mono", "monospace"]
+      }
+    }
+  }
+};
+</script>
+<style>
+  html, body { margin: 0; padding: 0; }
+  body { overscroll-behavior: none; }
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-thumb { background: #22304d; border-radius: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  .nav-link, .tool-card, .stat-card { transition: all 150ms ease; }
+  .nav-link:active, .tool-card:active, button:active { transform: scale(0.97); }
+  @media (hover: hover) and (pointer: fine) {
+    .nav-link:hover { background: rgba(255,255,255,0.06); }
+    .tool-card:hover { transform: translateY(-2px); border-color: #2f4368; }
+    .stat-card:hover { border-color: #2f4368; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .animate-pulse, .animate-ping { animation: none !important; }
+  }
+</style>
+</head>
+<body class="bg-ink font-sans text-txt antialiased">
+
+<!-- ============ SIDEBAR (AdminLTE: dark sidebar + filter box + grouped nav + badges) ============ -->
+<aside id="sidebar" class="fixed left-0 top-0 h-full w-64 bg-sidebar border-r border-line z-50 flex flex-col justify-between -translate-x-full lg:translate-x-0 transition-transform duration-200">
+  <div class="flex flex-col flex-1 min-h-0">
+    <div class="h-16 px-4 flex items-center gap-3 border-b border-line">
+      <img alt="ResumeMaker Logo" class="h-8 w-auto object-contain" src="webforge-logo.png"/>
+      <div class="flex flex-col">
+        <span class="text-base font-bold tracking-tight">ResumeMaker</span>
+        <span class="font-mono text-[11px] text-accent tracking-widest">v5.0 · NEW DESIGN</span>
+      </div>
+    </div>
+    <div class="px-3 pt-3">
+      <div class="flex items-center gap-2 px-3 py-2 rounded-lg bg-ink border border-line">
+        <span class="material-symbols-outlined text-base text-mut">search</span>
+        <input id="menuFilter" class="w-full bg-transparent text-sm placeholder:text-mut focus:outline-none" placeholder="Filter menu…" type="text"/>
+      </div>
+    </div>
+    <div class="overflow-y-auto px-3 py-3 space-y-5 flex-1" id="sideNav">
+      <div class="nav-group space-y-1">
+        <div class="px-3 text-[11px] font-semibold text-mut tracking-wider uppercase">Core</div>
+        <nav class="space-y-1">
+          <a aria-current="page" class="nav-link flex items-center gap-3 px-3 py-2 rounded-lg bg-accent/15 text-white font-semibold" href="index.html"><span class="material-symbols-outlined text-lg">grid_view</span><span class="text-sm">Dashboard</span></a>
+          <a class="nav-link flex items-center gap-3 px-3 py-2 rounded-lg text-mut hover:text-txt" href="https://resumemaker.de5.net/resume-builder.html"><span class="material-symbols-outlined text-lg">description</span><span class="text-sm">Resume Builder</span></a>
+        </nav>
+      </div>
+      <div class="nav-group space-y-1">
+        <div class="px-3 text-[11px] font-semibold text-mut tracking-wider uppercase">AI Studio</div>
+        <nav class="space-y-1">
+          <a class="nav-link flex items-center gap-3 px-3 py-2 rounded-lg text-mut hover:text-txt" href="https://resumemaker.de5.net/ai-website-builder.html"><span class="material-symbols-outlined text-lg">auto_fix_high</span><span class="text-sm">AI Website Builder</span></a>
+          <a class="nav-link flex items-center gap-3 px-3 py-2 rounded-lg text-mut hover:text-txt" href="#"><span class="material-symbols-outlined text-lg">code_blocks</span><span class="text-sm">Website Editor</span></a>
+        </nav>
+      </div>
+      <div class="nav-group space-y-1">
+        <div class="px-3 text-[11px] font-semibold text-mut tracking-wider uppercase">Sec-Ops &amp; Audit</div>
+        <nav class="space-y-1">
+          <a class="nav-link flex items-center gap-3 px-3 py-2 rounded-lg text-mut hover:text-txt" href="https://resumemaker.de5.net/security-scanner.html"><span class="material-symbols-outlined text-lg">radar</span><span class="text-sm">Security Scanner</span></a>
+          <a class="nav-link flex items-center gap-3 px-3 py-2 rounded-lg text-mut hover:text-txt" href="https://resumemaker.de5.net/bug-finder.html"><span class="material-symbols-outlined text-lg">bug_report</span><span class="text-sm">Bug Finder</span></a>
+          <a class="nav-link flex items-center gap-3 px-3 py-2 rounded-lg text-mut hover:text-txt" href="https://resumemaker.de5.net/vulnerability-reports.html"><span class="material-symbols-outlined text-lg">shield_with_heart</span><span class="text-sm">Vulnerability Reports</span><span class="ml-auto px-1.5 py-0.5 rounded bg-accent text-white text-[10px] font-bold">3</span></a>
+          <a class="nav-link flex items-center gap-3 px-3 py-2 rounded-lg text-mut hover:text-txt" href="https://sandipk.qd.je/metadata-cleaner/"><span class="material-symbols-outlined text-lg">image</span><span class="text-sm">MetaClean</span></a>
+        </nav>
+      </div>
+      <div class="nav-group space-y-1">
+        <div class="px-3 text-[11px] font-semibold text-mut tracking-wider uppercase">System</div>
+        <nav class="space-y-1">
+          <a class="nav-link flex items-center gap-3 px-3 py-2 rounded-lg text-mut hover:text-txt" href="https://aahar.jharkhand.gov.in/" target="_blank" rel="noopener"><span class="material-symbols-outlined text-lg">shopping_basket</span><span class="text-sm">Ration Card</span></a>
+          <a class="nav-link flex items-center gap-3 px-3 py-2 rounded-lg text-mut hover:text-txt" href="https://myaadhaar.uidai.gov.in/" target="_blank" rel="noopener"><span class="material-symbols-outlined text-lg">badge</span><span class="text-sm">Aadhaar Card</span></a>
+          <a class="nav-link flex items-center gap-3 px-3 py-2 rounded-lg text-mut hover:text-txt" href="https://pmkisan.gov.in/" target="_blank" rel="noopener"><span class="material-symbols-outlined text-lg">agriculture</span><span class="text-sm">PM Kisan</span></a>
+          <a class="nav-link flex items-center gap-3 px-3 py-2 rounded-lg text-mut hover:text-txt" href="#"><span class="material-symbols-outlined text-lg">settings</span><span class="text-sm">Settings</span></a>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="p-3 border-t border-line space-y-2">
+    <div class="flex items-center gap-3 px-2">
+      <img alt="Profile" class="w-9 h-9 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAbFUrF1ZYkbVm8JiJxlEGKMuGB8miQ3YqTNMjNbgqB-5CADjgPloQ18JLgE120-LPMTIZKnZq_3W_iLBh2NXuKKbhy1qXXhuDuuzLXJvNm4Id6Z0WadnXpQ0UURRGhfnS15DVLcyhLOWg3lBfOasKDvDGbrBHDUp6vpRNShSbGon4jljFEh94MCvMyNeq8I1pE1giOyTXRs8WJ-uVMKZcOFLEA0DQVLdAOPbZQK-zp"/>
+      <div class="flex flex-col">
+        <span class="text-sm font-semibold">Sandip</span>
+        <span class="text-[11px] text-accent">Security Check</span>
+      </div>
+    </div>
+    <div class="px-3 py-2 rounded-lg bg-ink border border-line flex items-center justify-between">
+      <div class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-mint animate-pulse"></span><span class="font-mono text-[11px] text-mint">PASSIVE CHECK ONLY</span></div>
+      <span class="font-mono text-[11px] text-mut">TLS 1.3</span>
+    </div>
+  </div>
+</aside>
+
+<div class="lg:pl-64 flex flex-col min-h-screen">
+  <!-- ============ TOP BAR (Tabler: breadcrumb + search + actions) ============ -->
+  <header class="sticky top-0 h-16 bg-ink/90 backdrop-blur-xl z-40 border-b border-line">
+    <div class="h-16 w-full px-4 flex items-center justify-between gap-4">
+      <div class="flex items-center gap-3 min-w-0">
+        <button id="menuBtn" class="lg:hidden p-2 rounded-lg text-mut hover:text-txt" type="button" aria-label="Toggle menu"><span class="material-symbols-outlined">menu</span></button>
+        <nav class="flex items-center gap-1.5 text-sm whitespace-nowrap">
+          <a class="text-mut hover:text-txt" href="index.html">Home</a>
+          <span class="text-mut">/</span>
+          <span class="font-semibold">Dashboard</span>
+        </nav>
+        <div class="hidden md:flex items-center gap-2 px-3 py-1.5 rounded-full bg-panel border border-line text-mut">
+          <span class="material-symbols-outlined text-base">search</span>
+          <span class="text-xs">Quick Search...</span>
+          <kbd class="px-1.5 py-0.5 rounded bg-panel2 font-mono text-[11px] text-mut">Ctrl+K</kbd>
+        </div>
+      </div>
+      <div class="flex items-center gap-2">
+        <a class="hidden sm:flex items-center gap-2 px-3 py-2 rounded-lg bg-accent hover:bg-accent2 text-white text-xs font-bold transition-colors" href="https://resumemaker.de5.net/security-scanner.html"><span class="material-symbols-outlined text-base">bolt</span><span>START SCAN</span></a>
+        <a class="hidden sm:flex items-center gap-2 px-3 py-2 rounded-lg bg-panel2 hover:bg-panel text-xs font-bold transition-colors" href="https://resumemaker.de5.net/ai-website-builder.html"><span class="material-symbols-outlined text-base">add_box</span><span>NEW PROJECT</span></a>
+        <div class="relative flex items-center justify-center p-2 text-mut hover:text-txt cursor-pointer">
+          <span class="material-symbols-outlined">notifications</span>
+          <span class="absolute top-0.5 right-0.5 flex items-center justify-center w-4 h-4 rounded-full bg-red-500 text-white text-[10px] font-bold">3</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="w-full flex-1 px-4 py-6 xl:px-8 xl:py-8 space-y-6">
+
+    <!-- ============ HERO (HyperUI: headline + subtext + CTAs + trust row) ============ -->
+    <section class="relative overflow-hidden rounded-xl bg-panel border border-line p-6 xl:p-10">
+      <div class="absolute -right-24 -top-24 w-96 h-96 bg-accent/15 rounded-full blur-3xl pointer-events-none"></div>
+      <div class="absolute -left-12 -bottom-12 w-80 h-80 bg-violet/15 rounded-full blur-3xl pointer-events-none"></div>
+      <div class="relative z-10 max-w-3xl space-y-4">
+        <div class="flex items-center gap-2 flex-wrap">
+          <span class="px-2.5 py-1 rounded-full bg-mint/15 text-mint text-[11px] font-bold tracking-wider">FREE FOREVER</span>
+          <span class="px-2.5 py-1 rounded-full bg-panel2 text-mut text-[11px] font-bold tracking-wider">NO SIGN-UP</span>
+          <span class="px-2.5 py-1 rounded-full bg-panel2 text-mut text-[11px] font-bold tracking-wider">100% IN YOUR BROWSER</span>
+        </div>
+        <h1 class="text-3xl xl:text-5xl font-extrabold tracking-tight leading-tight">Build your resume, website &amp; security — free.</h1>
+        <p class="text-base xl:text-lg text-mut leading-relaxed">Welcome back, Sandip. Create a professional resume in minutes, generate a website with AI, and scan any site for security issues — no account, no payment, no upload.</p>
+        <div class="flex flex-wrap items-center gap-3 pt-1">
+          <button class="flex items-center gap-2 px-5 py-3 rounded-lg bg-accent hover:bg-accent2 text-white text-sm font-bold transition-colors" type="button"><span class="material-symbols-outlined text-lg">bolt</span><span>CREATE WEBSITE WITH AI</span></button>
+          <button class="flex items-center gap-2 px-5 py-3 rounded-lg bg-panel2 hover:bg-line text-txt text-sm font-bold transition-colors" type="button"><span class="material-symbols-outlined text-lg">shield</span><span>LAUNCH SECURITY AUDIT</span></button>
+          <button class="flex items-center gap-2 px-5 py-3 rounded-lg bg-transparent border border-line hover:border-mut text-mut hover:text-txt text-sm font-bold transition-colors" type="button"><span class="material-symbols-outlined text-lg">pest_control</span><span>DEEP BUG SCAN</span></button>
+          <button class="flex items-center gap-2 px-5 py-3 rounded-lg bg-transparent border border-line hover:border-mut text-mut hover:text-txt text-sm font-bold transition-colors" type="button"><span class="material-symbols-outlined text-lg">summarize</span><span>VIEW REPORT</span></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STATS (AdminLTE: 4 coloured boxes + "More info" strip; Tabler: big numbers) ============ -->
+    <section class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4">
+      <div class="stat-card relative overflow-hidden rounded-xl bg-panel border border-line p-5">
+        <div class="absolute top-0 left-0 right-0 h-1 bg-accent"></div>
+        <div class="flex items-start justify-between">
+          <div class="space-y-1">
+            <span class="text-[11px] font-semibold text-mut uppercase tracking-wider">Scans Run</span>
+            <div class="flex items-baseline gap-2">
+              <span id="statScans" class="font-mono text-3xl font-bold">14</span>
+              <span class="text-[11px] font-bold text-mint">saved scans</span>
+            </div>
+          </div>
+          <div class="p-2 rounded-lg bg-accent/15 text-accent"><span class="material-symbols-outlined">dns</span></div>
+        </div>
+        <div class="mt-4 pt-3 border-t border-line flex items-center justify-between text-xs text-mut">
+          <span class="flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-mint"></span>Uptime: 99.98%</span>
+          <a class="hover:text-txt font-semibold" href="https://resumemaker.de5.net/vulnerability-reports.html">More info →</a>
+        </div>
+      </div>
+      <div class="stat-card relative overflow-hidden rounded-xl bg-panel border border-line p-5">
+        <div class="absolute top-0 left-0 right-0 h-1 bg-mint"></div>
+        <div class="flex items-start justify-between">
+          <div class="space-y-1">
+            <span class="text-[11px] font-semibold text-mut uppercase tracking-wider">Security Health</span>
+            <div class="flex items-baseline gap-2">
+              <span id="statScore" class="font-mono text-3xl font-bold">94</span>
+              <span class="text-xs text-mut">/100</span>
+            </div>
+            <div class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-mint/15 text-mint">
+              <span class="w-1.5 h-1.5 rounded-full bg-mint animate-pulse"></span>
+              <span class="text-[11px] font-semibold">Grade: A · Fortified</span>
+            </div>
+          </div>
+          <div class="relative w-14 h-14 flex items-center justify-center">
+            <svg class="w-14 h-14 -rotate-90" viewbox="0 0 36 36">
+              <path class="text-line" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="3.5"></path>
+              <path class="text-mint" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="94, 100" stroke-linecap="round" stroke-width="3.5"></path>
+            </svg>
+            <span class="absolute font-mono text-xs font-bold">94%</span>
+          </div>
+        </div>
+        <div class="mt-4 pt-3 border-t border-line flex items-center justify-between text-xs text-mut">
+          <span>Latest scan</span>
+          <a class="hover:text-txt font-semibold" href="https://resumemaker.de5.net/security-scanner.html">More info →</a>
+        </div>
+      </div>
+      <div class="stat-card relative overflow-hidden rounded-xl bg-panel border border-line p-5">
+        <div class="absolute top-0 left-0 right-0 h-1 bg-amber"></div>
+        <div class="flex items-start justify-between">
+          <div class="space-y-1">
+            <span class="text-[11px] font-semibold text-mut uppercase tracking-wider">Open Issues</span>
+            <div class="flex items-baseline gap-2">
+              <span id="statOpen" class="font-mono text-3xl font-bold">87</span>
+              <span class="text-[11px] font-bold text-accent">Resolved</span>
+            </div>
+          </div>
+          <div class="p-2 rounded-lg bg-amber/15 text-amber"><span class="material-symbols-outlined">verified_user</span></div>
+        </div>
+        <div class="mt-4 pt-3 space-y-2">
+          <div class="flex justify-between items-center font-mono text-xs">
+            <span class="text-mut">Critical: <strong class="text-mint">0</strong></span>
+            <span class="text-mut">High: <strong class="text-mint">0</strong></span>
+            <span class="text-amber">Low: <strong>2</strong> Pending</span>
+          </div>
+          <div class="w-full bg-line rounded-full h-1.5 overflow-hidden flex">
+            <div class="bg-mint h-1.5" style="width: 95%"></div>
+            <div class="bg-accent h-1.5" style="width: 5%"></div>
+          </div>
+        </div>
+      </div>
+      <div class="stat-card relative overflow-hidden rounded-xl bg-panel border border-line p-5">
+        <div class="absolute top-0 left-0 right-0 h-1 bg-violet"></div>
+        <div class="flex items-start justify-between">
+          <div class="space-y-1">
+            <span class="text-[11px] font-semibold text-mut uppercase tracking-wider">Pass Rate</span>
+            <div class="flex items-baseline gap-2">
+              <span id="statPassRate" class="font-mono text-3xl font-bold">98.4%</span>
+              <span class="text-[11px] font-semibold text-mut">of checks passed</span>
+            </div>
+          </div>
+          <div class="p-2 rounded-lg bg-violet/15 text-violet"><span class="material-symbols-outlined">terminal</span></div>
+        </div>
+        <div class="mt-4 pt-3 border-t border-line flex items-center justify-between text-xs text-mut">
+          <span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded bg-panel2"><span class="material-symbols-outlined text-xs text-violet">auto_mode</span>AUTO-LINT PASS</span>
+          <span>0 Syntax Errors</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TOOLS GRID (HyperUI: 6 feature cards) ============ -->
+    <section>
+      <div class="flex items-end justify-between mb-3">
+        <div>
+          <h2 class="text-xl font-bold">All tools, one place</h2>
+          <p class="text-sm text-mut">Every tool runs free in your browser — nothing to install.</p>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4">
+        <a class="tool-card block rounded-xl bg-panel border border-line p-5 space-y-2" href="https://resumemaker.de5.net/resume-builder.html">
+          <div class="w-10 h-10 rounded-lg bg-accent/15 text-accent flex items-center justify-center"><span class="material-symbols-outlined">description</span></div>
+          <h3 class="font-bold">Resume Builder</h3>
+          <p class="text-sm text-mut">16 professional designs, live preview, download as HTML or print to PDF.</p>
+          <span class="inline-flex items-center gap-1 text-sm font-semibold text-accent">Open tool →</span>
+        </a>
+        <a class="tool-card block rounded-xl bg-panel border border-line p-5 space-y-2" href="https://resumemaker.de5.net/ai-website-builder.html">
+          <div class="w-10 h-10 rounded-lg bg-violet/15 text-violet flex items-center justify-center"><span class="material-symbols-outlined">auto_fix_high</span></div>
+          <h3 class="font-bold">AI Website Builder</h3>
+          <p class="text-sm text-mut">Describe your site in one line — get a full website with design themes and a visual editor.</p>
+          <span class="inline-flex items-center gap-1 text-sm font-semibold text-accent">Open tool →</span>
+        </a>
+        <a class="tool-card block rounded-xl bg-panel border border-line p-5 space-y-2" href="https://resumemaker.de5.net/security-scanner.html">
+          <div class="w-10 h-10 rounded-lg bg-mint/15 text-mint flex items-center justify-center"><span class="material-symbols-outlined">radar</span></div>
+          <h3 class="font-bold">Security Scanner</h3>
+          <p class="text-sm text-mut">Passive scan of any website — headers, TLS, and 30+ security checks.</p>
+          <span class="inline-flex items-center gap-1 text-sm font-semibold text-accent">Open tool →</span>
+        </a>
+        <a class="tool-card block rounded-xl bg-panel border border-line p-5 space-y-2" href="https://resumemaker.de5.net/bug-finder.html">
+          <div class="w-10 h-10 rounded-lg bg-amber/15 text-amber flex items-center justify-center"><span class="material-symbols-outlined">bug_report</span></div>
+          <h3 class="font-bold">Bug Finder</h3>
+          <p class="text-sm text-mut">Find common website bugs — broken links, missing tags, and bad markup.</p>
+          <span class="inline-flex items-center gap-1 text-sm font-semibold text-accent">Open tool →</span>
+        </a>
+        <a class="tool-card block rounded-xl bg-panel border border-line p-5 space-y-2" href="https://resumemaker.de5.net/vulnerability-reports.html">
+          <div class="w-10 h-10 rounded-lg bg-red-400/15 text-red-400 flex items-center justify-center"><span class="material-symbols-outlined">shield_with_heart</span></div>
+          <h3 class="font-bold">Vulnerability Reports</h3>
+          <p class="text-sm text-mut">Every scan saved as a clear report — what failed, why it matters, and the fix.</p>
+          <span class="inline-flex items-center gap-1 text-sm font-semibold text-accent">Open tool →</span>
+        </a>
+        <a class="tool-card block rounded-xl bg-panel border border-line p-5 space-y-2" href="https://sandipk.qd.je/metadata-cleaner/">
+          <div class="w-10 h-10 rounded-lg bg-cyan-400/15 text-cyan-400 flex items-center justify-center"><span class="material-symbols-outlined">image</span></div>
+          <h3 class="font-bold">MetaClean</h3>
+          <p class="text-sm text-mut">Strip EXIF, GPS and AI tags from photos before posting — fully private.</p>
+          <span class="inline-flex items-center gap-1 text-sm font-semibold text-accent">Open tool →</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS + TELEMETRY + RIGHT COLUMN ============ -->
+    <section class="grid grid-cols-1 xl:grid-cols-12 gap-6">
+      <div class="xl:col-span-8 space-y-6">
+        <div class="rounded-xl bg-panel border border-line p-5 space-y-4">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-1">
+            <div>
+              <h2 class="font-bold text-lg">Active Synthesized Projects</h2>
+              <p class="text-sm text-mut">Live instances running autonomous security runtime wrappers</p>
+            </div>
+            <div class="flex items-center gap-2">
+              <button class="px-3 py-1 rounded bg-panel2 text-xs font-semibold" type="button">All (14)</button>
+              <button class="px-3 py-1 rounded text-xs text-mut hover:text-txt" type="button">Production (11)</button>
+              <button class="px-3 py-1 rounded text-xs text-mut hover:text-txt" type="button">Staging (3)</button>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 gap-3">
+            <div class="flex flex-col md:flex-row md:items-center justify-between p-4 rounded-xl bg-panel2 hover:bg-line/40 transition-colors gap-4 group">
+              <div class="flex items-start md:items-center gap-4 min-w-0">
+                <div class="relative w-12 h-12 rounded-lg bg-ink flex-shrink-0 flex items-center justify-center overflow-hidden">
+                  <img class="object-cover w-full h-full opacity-60 group-hover:scale-110 transition-transform duration-300" data-alt="High tech financial dashboard interface dark theme with violet ambient glows, clean typography, trading graphs and modern cyber security accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQHxQhfBAYmpKKM5LDL4I81ygPY6WYf8hXdLcT617kCrHQ0RPF26ii-qsbEed7bcALPOFwsMSbuNAqfWVbVZ07wCzLTiIHvgWPIZpjJGxXAdvtNjdi5W5Rw7INSIjm8jXNfcmtZ-anrkbm1_NHarzoBWv0TkgbNw2EdeK8fm8F5BcCrdL-Qcz2bc0u7WzrqzX-WlcW4-M8nI-aJsV_PXEUxRFAx7ppPYVx6mlCw7Xe"/>
+                  <span class="absolute inset-0 bg-violet/20"></span>
+                </div>
+                <div class="space-y-1 min-w-0">
+                  <div class="flex items-center gap-2 flex-wrap">
+                    <span class="font-bold truncate">ApexFintech.io</span>
+                    <span class="px-2 py-0.5 rounded bg-ink text-accent text-[11px] font-bold">E-COMMERCE FINTECH</span>
+                    <span class="px-2 py-0.5 rounded bg-violet/20 text-violet text-[11px] font-bold">AI BUILT</span>
+                  </div>
+                  <div class="flex items-center gap-3 text-mut font-mono text-xs">
+                    <span class="flex items-center gap-1 text-mint"><span class="material-symbols-outlined text-sm">verified</span> SSL A+</span>
+                    <span>•</span><span>Clean Scan 12m ago</span><span>•</span><span>v2.4.1</span>
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-center gap-2 flex-shrink-0">
+                <button class="flex items-center gap-1.5 px-3 py-1.5 rounded bg-ink text-xs font-mono" type="button"><span class="material-symbols-outlined text-sm text-accent">open_in_new</span><span>Live Preview</span></button>
+                <button class="flex items-center gap-1.5 px-3 py-1.5 rounded bg-violet/20 hover:bg-violet/30 text-violet text-xs font-mono" type="button"><span class="material-symbols-outlined text-sm">code</span><span>Edit Code</span></button>
+              </div>
+            </div>
+            <div class="flex flex-col md:flex-row md:items-center justify-between p-4 rounded-xl bg-panel2 hover:bg-line/40 transition-colors gap-4 group">
+              <div class="flex items-start md:items-center gap-4 min-w-0">
+                <div class="relative w-12 h-12 rounded-lg bg-ink flex-shrink-0 flex items-center justify-center overflow-hidden">
+                  <img class="object-cover w-full h-full opacity-60 group-hover:scale-110 transition-transform duration-300" data-alt="Futuristic cloud computing SaaS interface panel with neon cyan network nodes, server latency metrics, deep void slate dark background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJS9OM3g3YRrkJt21KDBdGluHLA7kKl2yn_XahdcAMZiVIujDB__mvTVLkwI9E0wcCNjPViyYNI8DAaVGBJisG-atV-zdnGqP13Mv_HKpMGGLkZN2ordmTHyB_FdZKOD7oiTGBuZrk8LRj3AU0XwL4hppCrt-qLvrT2PsiYXNv2R2rcVZXPwz55-s5JNns1SGeX8aHLjmGlfpbqaZv3gWsjjmaCIDm6tN5zlvkQvbr"/>
+                  <span class="absolute inset-0 bg-accent/20"></span>
+                </div>
+                <div class="space-y-1 min-w-0">
+                  <div class="flex items-center gap-2 flex-wrap">
+                    <span class="font-bold truncate">CyberNova SaaS</span>
+                    <span class="px-2 py-0.5 rounded bg-ink text-mut text-[11px] font-bold">REACT CLOUD</span>
+                    <span class="px-2 py-0.5 rounded bg-accent/20 text-accent text-[11px] font-bold">PUBLISHED</span>
+                  </div>
+                  <div class="flex items-center gap-3 text-mut font-mono text-xs">
+                    <span class="flex items-center gap-1 text-amber"><span class="material-symbols-outlined text-sm">warning</span> 1 Low Warning</span>
+                    <span>•</span><span>Lodash bump pending</span><span>•</span><span>v1.1.0</span>
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-center gap-2 flex-shrink-0">
+                <button class="flex items-center gap-1.5 px-3 py-1.5 rounded bg-ink text-xs font-mono" type="button"><span class="material-symbols-outlined text-sm text-accent">open_in_new</span><span>Live Preview</span></button>
+                <button class="flex items-center gap-1.5 px-3 py-1.5 rounded bg-violet/20 hover:bg-violet/30 text-violet text-xs font-mono" type="button"><span class="material-symbols-outlined text-sm">code</span><span>Edit Code</span></button>
+              </div>
+            </div>
+            <div class="flex flex-col md:flex-row md:items-center justify-between p-4 rounded-xl bg-panel2 hover:bg-line/40 transition-colors gap-4 group">
+              <div class="flex items-start md:items-center gap-4 min-w-0">
+                <div class="relative w-12 h-12 rounded-lg bg-ink flex-shrink-0 flex items-center justify-center overflow-hidden">
+                  <img class="object-cover w-full h-full opacity-60 group-hover:scale-110 transition-transform duration-300" data-alt="Minimalist developer portfolio website design, dark mode typography, high contrast cyber aesthetic, subtle violet backglow, sleek developer showcase" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEwv3eJ4hC6l5sgHCHkIc6RxrKh0scagl4dqK8x5hEebzpJDmRujTIbv8n2FBWB5DDX5CWX9F5XLLj0kIwMJp1C8A2hqCpsrxbUWqu6PjJiAd6yxAlXo3fwJSLo1NHH1-S1wUfCyYrRdpzK89BYSFKJFdq9MWQzMbzf0ub-XnjEcFVCfMEv3ic-FSBOftEQpdqbd9iup_FyRbdBw3kbWNyGL9zUx-LBSUIbWhW9QAG"/>
+                  <span class="absolute inset-0 bg-mint/20"></span>
+                </div>
+                <div class="space-y-1 min-w-0">
+                  <div class="flex items-center gap-2 flex-wrap">
+                    <span class="font-bold truncate">QuantumDev Studio</span>
+                    <span class="px-2 py-0.5 rounded bg-ink text-mut text-[11px] font-bold">DEV PORTFOLIO</span>
+                    <span class="px-2 py-0.5 rounded bg-ink text-mut text-[11px] font-bold">STAGING</span>
+                  </div>
+                  <div class="flex items-center gap-3 text-mut font-mono text-xs">
+                    <span class="flex items-center gap-1 text-mint"><span class="material-symbols-outlined text-sm">check_circle</span> 0 Issues</span>
+                    <span>•</span><span>Built with Next.js 14</span><span>•</span><span>v0.9.8</span>
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-center gap-2 flex-shrink-0">
+                <button class="flex items-center gap-1.5 px-3 py-1.5 rounded bg-ink text-xs font-mono" type="button"><span class="material-symbols-outlined text-sm text-accent">open_in_new</span><span>Live Preview</span></button>
+                <button class="flex items-center gap-1.5 px-3 py-1.5 rounded bg-violet/20 hover:bg-violet/30 text-violet text-xs font-mono" type="button"><span class="material-symbols-outlined text-sm">code</span><span>Edit Code</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rounded-xl bg-panel border border-line p-5 space-y-4">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+            <div class="space-y-0.5">
+              <div class="flex items-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-accent animate-ping"></span>
+                <h3 class="font-bold">Live Security &amp; Traffic Telemetry</h3>
+              </div>
+              <p class="text-sm text-mut">Real-time edge firewall threat suppression and ingress metrics</p>
+            </div>
+            <div class="flex items-center gap-6">
+              <div class="text-right">
+                <div class="font-mono text-xl text-accent font-bold">4,219</div>
+                <div class="text-[11px] text-mut uppercase tracking-wider">Bots Intercepted</div>
+              </div>
+              <div class="text-right pl-4 bg-panel2 rounded p-2">
+                <div class="font-mono text-xl text-mint font-bold">60s</div>
+                <div class="text-[11px] text-mut uppercase tracking-wider">Scan Frequency</div>
+              </div>
+            </div>
+          </div>
+          <div class="relative w-full h-64 bg-ink rounded-lg p-4 flex flex-col justify-between overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-b from-violet/10 via-transparent to-transparent pointer-events-none"></div>
+            <div class="flex justify-between items-center z-10 font-mono text-xs text-mut">
+              <span class="flex items-center gap-2"><span class="w-3 h-0.5 bg-violet inline-block"></span> Total Requests (128.4k req/h) <span class="w-3 h-0.5 bg-accent inline-block ml-2"></span> Threat Mitigation (4.2k)</span>
+              <span class="text-accent font-bold">LIVE TELEMETRY STREAM</span>
+            </div>
+            <svg class="w-full h-44 my-auto overflow-visible" preserveaspectratio="none" viewbox="0 0 700 160">
+              <defs>
+                <lineargradient id="primaryArea" x1="0" x2="0" y1="0" y2="1">
+                  <stop offset="0%" stop-color="#7048e8" stop-opacity="0.25"></stop>
+                  <stop offset="100%" stop-color="#7048e8" stop-opacity="0"></stop>
+                </lineargradient>
+                <lineargradient id="secondaryArea" x1="0" x2="0" y1="0" y2="1">
+                  <stop offset="0%" stop-color="#206bc4" stop-opacity="0.3"></stop>
+                  <stop offset="100%" stop-color="#206bc4" stop-opacity="0"></stop>
+                </lineargradient>
+              </defs>
+              <line stroke="#22304d" stroke-dasharray="4 4" stroke-width="1" x1="0" x2="700" y1="40" y2="40"></line>
+              <line stroke="#22304d" stroke-dasharray="4 4" stroke-width="1" x1="0" x2="700" y1="80" y2="80"></line>
+              <line stroke="#22304d" stroke-dasharray="4 4" stroke-width="1" x1="0" x2="700" y1="120" y2="120"></line>
+              <path d="M0,130 C70,110 140,140 210,90 C280,40 350,70 420,50 C490,30 560,90 630,60 C665,45 700,30 700,30 L700,160 L0,160 Z" fill="url(#primaryArea)"></path>
+              <path d="M0,130 C70,110 140,140 210,90 C280,40 350,70 420,50 C490,30 560,90 630,60 C665,45 700,30 700,30" fill="none" stroke="#7048e8" stroke-width="2.5"></path>
+              <path d="M0,150 C80,145 150,152 230,135 C310,118 390,140 470,110 C550,80 620,105 700,75 L700,160 L0,160 Z" fill="url(#secondaryArea)"></path>
+              <path d="M0,150 C80,145 150,152 230,135 C310,118 390,140 470,110 C550,80 620,105 700,75" fill="none" stroke="#206bc4" stroke-width="2"></path>
+              <circle class="animate-ping" cx="420" cy="50" fill="#7048e8" opacity="0.75" r="4"></circle>
+              <circle cx="420" cy="50" fill="#d0bcff" r="3"></circle>
+              <circle cx="630" cy="60" fill="#206bc4" r="3"></circle>
+            </svg>
+            <div class="flex justify-between items-center z-10 font-mono text-xs text-mut pt-1">
+              <span>12:00</span><span>13:00</span><span>14:00</span><span>15:00</span><span>16:00</span><span>17:00 (NOW)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="xl:col-span-4 space-y-6">
+        <div class="rounded-xl bg-panel border border-line p-5 space-y-3">
+          <div class="flex items-center justify-between pb-1">
+            <div class="flex items-center gap-2">
+              <span class="material-symbols-outlined text-accent">security_update_good</span>
+              <h3 class="font-bold">Vulnerability Feed</h3>
+            </div>
+            <a class="text-[11px] font-bold text-accent hover:underline" href="#">Full Log</a>
+          </div>
+          <div class="space-y-3">
+            <div class="p-3 rounded-lg bg-panel2 space-y-1 hover:bg-line/40 transition-colors">
+              <div class="flex items-center justify-between">
+                <span class="inline-flex items-center gap-1 text-[11px] font-bold px-2 py-0.5 rounded bg-mint/15 text-mint"><span class="material-symbols-outlined text-sm">check</span> RESOLVED</span>
+                <span class="font-mono text-xs text-mut">4m ago</span>
+              </div>
+              <p class="text-sm font-medium">Strict-Transport-Security Header missing</p>
+              <p class="font-mono text-xs text-mut">Auto-patched in edge Nginx configuration via SecOps rule #8819 on staging.</p>
+            </div>
+            <div class="p-3 rounded-lg bg-panel2 space-y-1 hover:bg-line/40 transition-colors">
+              <div class="flex items-center justify-between">
+                <span class="inline-flex items-center gap-1 text-[11px] font-bold px-2 py-0.5 rounded bg-accent/15 text-accent"><span class="material-symbols-outlined text-sm">info</span> INFO</span>
+                <span class="font-mono text-xs text-mut">18m ago</span>
+              </div>
+              <p class="text-sm font-medium">Outdated Lodash dependency detected</p>
+              <p class="font-mono text-xs text-mut">Version bump required (4.17.20 -&gt; 4.17.21). Automated PR #44 created.</p>
+            </div>
+            <div class="p-3 rounded-lg bg-panel2 space-y-1 hover:bg-line/40 transition-colors">
+              <div class="flex items-center justify-between">
+                <span class="inline-flex items-center gap-1 text-[11px] font-bold px-2 py-0.5 rounded bg-mint/15 text-mint"><span class="material-symbols-outlined text-sm">format_image_left</span> PASSED</span>
+                <span class="font-mono text-xs text-mut">1h ago</span>
+              </div>
+              <p class="text-sm font-medium">SQLi &amp; Safe XSS Endpoint Audit</p>
+              <p class="font-mono text-xs text-mut">Fuzzed 34 input forms across active instances. 0 injection vulnerabilities detected.</p>
+            </div>
+          </div>
+        </div>
+        <div class="rounded-xl bg-panel2 border border-line p-5 space-y-4 relative overflow-hidden">
+          <div class="absolute -right-10 -bottom-10 w-48 h-48 bg-violet/20 rounded-full blur-2xl pointer-events-none"></div>
+          <div class="flex items-start justify-between">
+            <div class="flex items-center gap-3">
+              <div class="w-8 h-8 rounded-full bg-gradient-to-tr from-violet to-accent flex items-center justify-center text-white"><span class="material-symbols-outlined text-lg">smart_toy</span></div>
+              <div>
+                <h3 class="font-bold">ResumeMaker Sentinel</h3>
+                <span class="font-mono text-xs text-accent">SecOps Assistant · Online</span>
+              </div>
+            </div>
+            <span class="px-2 py-0.5 rounded bg-violet/25 text-violet text-[11px] font-bold uppercase">Model v4.9</span>
+          </div>
+          <div class="p-3 rounded-lg bg-ink/80 space-y-2">
+            <p class="text-sm">"I analyzed your CORS header policy on <strong class="text-accent font-mono text-xs">ApexFintech.io</strong>. The current wildcard declaration (<code class="text-mint">*</code>) introduces origin spoof risks. Shall I inject restrictive strict policies?"</p>
+            <div class="flex items-center justify-between pt-1 font-mono text-xs text-mut">
+              <span>Confidence: 99.4%</span>
+              <span class="text-mint">Safe to Apply</span>
+            </div>
+          </div>
+          <div class="space-y-2">
+            <span class="text-[11px] font-semibold text-mut uppercase tracking-wider">Quick Inquiries &amp; Actions</span>
+            <div class="flex flex-wrap gap-2">
+              <button class="px-3 py-1.5 rounded-lg bg-panel hover:bg-line text-xs font-mono transition-colors flex items-center gap-1" type="button"><span class="material-symbols-outlined text-sm text-violet">analytics</span><span>Analyze Auth Flow</span></button>
+              <button class="px-3 py-1.5 rounded-lg bg-panel hover:bg-line text-xs font-mono transition-colors flex items-center gap-1" type="button"><span class="material-symbols-outlined text-sm text-accent">lock</span><span>Verify SSL/TLS</span></button>
+              <button class="px-3 py-1.5 rounded-lg bg-panel hover:bg-line text-xs font-mono transition-colors flex items-center gap-1" type="button"><span class="material-symbols-outlined text-sm text-mint">code_blocks</span><span>Generate CSP Policy</span></button>
+            </div>
+          </div>
+          <div class="pt-1">
+            <div class="relative flex items-center">
+              <input class="w-full pl-3 pr-10 py-2 rounded-lg bg-ink text-sm placeholder:text-mut focus:outline-none focus:bg-panel" placeholder="Ask ResumeMaker Sentinel to fix or test..." type="text"/>
+              <button class="absolute right-2 p-1 text-accent hover:text-txt transition-colors" type="button"><span class="material-symbols-outlined">send</span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FOOTER (HyperUI: columns + bottom line) ============ -->
+    <footer class="rounded-xl bg-panel border border-line p-6">
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+        <div class="space-y-2">
+          <div class="flex items-center gap-2">
+            <img alt="ResumeMaker Logo" class="h-7 w-auto object-contain" src="webforge-logo.png"/>
+            <span class="font-bold">ResumeMaker</span>
+          </div>
+          <p class="text-sm text-mut">Free resume builder, AI website builder and passive security scanner — all in your browser.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-[11px] font-bold text-mut uppercase tracking-wider">Tools</h4>
+          <ul class="space-y-1.5 text-sm">
+            <li><a class="text-mut hover:text-txt" href="https://resumemaker.de5.net/resume-builder.html">Resume Builder</a></li>
+            <li><a class="text-mut hover:text-txt" href="https://resumemaker.de5.net/ai-website-builder.html">AI Website Builder</a></li>
+            <li><a class="text-mut hover:text-txt" href="https://resumemaker.de5.net/security-scanner.html">Security Scanner</a></li>
+            <li><a class="text-mut hover:text-txt" href="https://sandipk.qd.je/metadata-cleaner/">MetaClean</a></li>
+          </ul>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-[11px] font-bold text-mut uppercase tracking-wider">Resources</h4>
+          <ul class="space-y-1.5 text-sm">
+            <li><a class="text-mut hover:text-txt" href="https://aahar.jharkhand.gov.in/" target="_blank" rel="noopener">Ration Card</a></li>
+            <li><a class="text-mut hover:text-txt" href="https://myaadhaar.uidai.gov.in/" target="_blank" rel="noopener">Aadhaar Card</a></li>
+            <li><a class="text-mut hover:text-txt" href="https://pmkisan.gov.in/" target="_blank" rel="noopener">PM Kisan</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-6 pt-4 border-t border-line flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 text-xs text-mut">
+        <span>© 2026 ResumeMaker · Free forever</span>
+        <span>Design: Tabler × AdminLTE × HyperUI mix</span>
+        <span>Developer by Sandip Kumar Mahto</span>
+      </div>
+    </footer>
+  </main>
+</div>
+
+<script>
+  (function () {
+    function getHistory() { try { return JSON.parse(localStorage.getItem("realScannerHistory") || "[]"); } catch (e) { return []; } }
+    function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+    function smallestContaining(texts) {
+      var best = null, bestLen = Infinity;
+      var els = document.querySelectorAll("body *");
+      for (var i = 0; i < els.length; i++) {
+        var t = els[i].textContent || "";
+        var ok = true;
+        for (var j = 0; j < texts.length; j++) { if (t.indexOf(texts[j]) < 0) { ok = false; break; } }
+        if (ok && t.length < bestLen) { best = els[i]; bestLen = t.length; }
+      }
+      return best;
+    }
+    function setText(id, v) { var el = document.getElementById(id); if (el) el.textContent = v; }
+    var hist = getHistory();
+    if (hist.length === 0) {
+      setText("statScans", "0");
+      setText("statScore", "–");
+      setText("statOpen", "–");
+      setText("statPassRate", "–");
+    } else {
+      var s = hist[0];
+      setText("statScans", hist.length);
+      setText("statScore", s.score);
+      var missing = s.checks.filter(function (c) { return c.status === "MISSING"; }).length;
+      setText("statOpen", missing);
+      var scored = s.counts.PASS + s.counts.HIGH + s.counts.MED + s.counts.LOW;
+      setText("statPassRate", (scored ? Math.round(100 * s.counts.PASS / scored) : 100) + "%");
+      var g = s.score >= 90 ? "A" : (s.score >= 70 ? "B" : "C");
+      var els = document.querySelectorAll("body *");
+      for (var i = 0; i < els.length; i++) {
+        if (els[i].children.length === 0 && (els[i].textContent || "").indexOf("Grade:") >= 0) { els[i].textContent = "Grade: " + g + " · Fortified"; break; }
+      }
+      var best = null, bestLen = Infinity;
+      for (var j = 0; j < els.length; j++) {
+        var t = els[j].textContent || "";
+        if (t.indexOf("Critical:") >= 0 && t.indexOf("High:") >= 0 && t.indexOf("Low:") >= 0 && t.length < bestLen) { best = els[j]; bestLen = t.length; }
+      }
+      if (best) best.textContent = "Critical: " + s.counts.CRIT + " High: " + s.counts.HIGH + " Low: " + s.counts.LOW;
+    }
+    var previewBtns = document.querySelectorAll("button");
+    var cardsToRemove = [];
+    previewBtns.forEach(function (b) {
+      if ((b.textContent || "").trim() === "Live Preview") {
+        var card = b;
+        for (var k = 0; k < 5 && card; k++) {
+          card = card.parentElement;
+          if (card && card.className && card.className.indexOf("rounded-xl") >= 0) break;
+        }
+        if (card) cardsToRemove.push(card);
+      }
+    });
+    if (cardsToRemove.length) {
+      var parent = cardsToRemove[0].parentElement;
+      cardsToRemove.forEach(function (c) { c.remove(); });
+      if (parent) {
+        var wrap = document.createElement("div");
+        wrap.className = "space-y-3";
+        if (hist.length === 0) {
+          wrap.innerHTML = '<p class="text-sm text-mut">No scans yet. <a class="text-accent underline" href="https://resumemaker.de5.net/security-scanner.html">Run a scan first</a> to see your targets here.</p>';
+        } else {
+          var seen = {}, targets = [];
+          hist.forEach(function (sc) { if (!seen[sc.final_url]) { seen[sc.final_url] = true; targets.push(sc); } });
+          wrap.innerHTML = targets.map(function (sc) {
+            return '<div class="p-3 rounded-lg bg-panel2 space-y-1"><div class="flex items-center justify-between"><span class="font-semibold">' + esc(sc.final_url) + '</span><span class="font-mono text-xs text-mint">Score ' + sc.score + '</span></div><p class="text-sm text-mut">' + esc(sc.checked_at) + ' • Profile ' + esc(sc.profile) + '</p><a class="text-xs font-bold text-accent hover:underline" href="https://resumemaker.de5.net/vulnerability-reports.html">View Report</a></div>';
+          }).join("");
+        }
+        parent.appendChild(wrap);
+      }
+    }
+    var fullLog = null;
+    document.querySelectorAll("a").forEach(function (a) {
+      if ((a.textContent || "").trim() === "Full Log") { a.href = "https://resumemaker.de5.net/vulnerability-reports.html"; fullLog = a; }
+    });
+    if (fullLog) {
+      var card = fullLog;
+      for (var k = 0; k < 5 && card; k++) {
+        card = card.parentElement;
+        if (card && card.querySelector && card.querySelector('[class*="space-y-3"]')) break;
+      }
+      var feedList = card ? card.querySelector('[class*="space-y-3"]') : null;
+      if (feedList) {
+        if (hist.length === 0) {
+          feedList.innerHTML = '<p class="text-sm text-mut">No findings yet. Run a scan first.</p>';
+        } else {
+          var sc = hist[0];
+          feedList.innerHTML = sc.checks.map(function (c) {
+            return '<div class="p-3 rounded-lg bg-panel2 space-y-1"><div class="flex items-center justify-between"><span class="text-[11px] font-bold px-2 py-0.5 rounded bg-mint/15 text-mint">' + c.severity + ' • ' + c.status + '</span><span class="font-mono text-xs text-mut">' + esc(sc.checked_at) + '</span></div><p class="text-sm">' + esc(c.title) + ': ' + esc(c.detail) + '</p></div>';
+          }).join("");
+        }
+      }
+    }
+    var anaBox = smallestContaining(["I analyzed your CORS"]);
+    if (anaBox) {
+      if (hist.length === 0) {
+        anaBox.innerHTML = '<p class="text-sm">No scan yet. Run a scan on the Security Scanner page, then I will summarize it here.</p>';
+      } else {
+        var sc = hist[0];
+        var miss = sc.checks.filter(function (c) { return c.status === "MISSING"; }).map(function (c) { return c.title; }).join(", ");
+        anaBox.innerHTML = '<p class="text-sm">Latest scan of <strong>' + esc(sc.final_url) + '</strong> scored ' + sc.score + '. Missing: ' + esc(miss || "nothing") + '. See the full report for fixes.</p>';
+      }
+    }
+    document.querySelectorAll("button").forEach(function (b) {
+      var t = b.textContent || "";
+      if (t.indexOf("CREATE WEBSITE WITH AI") >= 0) b.addEventListener("click", function () { window.location.href = "https://resumemaker.de5.net/ai-website-builder.html"; });
+      else if (t.indexOf("LAUNCH SECURITY AUDIT") >= 0) b.addEventListener("click", function () { window.location.href = "https://resumemaker.de5.net/security-scanner.html"; });
+      else if (t.indexOf("DEEP BUG SCAN") >= 0) b.addEventListener("click", function () { window.location.href = "https://resumemaker.de5.net/bug-finder.html"; });
+      else if (t.indexOf("VIEW REPORT") >= 0) b.addEventListener("click", function () { window.location.href = "https://resumemaker.de5.net/vulnerability-reports.html"; });
+      else if (t.indexOf("Verify SSL/TLS") >= 0) b.addEventListener("click", function () { window.location.href = "https://resumemaker.de5.net/security-scanner.html"; });
+      else if (t.indexOf("Generate CSP Policy") >= 0) b.addEventListener("click", function () { window.location.href = "https://resumemaker.de5.net/vulnerability-reports.html"; });
+      else if (t.indexOf("Analyze Auth Flow") >= 0) b.addEventListener("click", function () { alert("Auth flow analysis is not available in this passive scanner. Use the Security Scanner for header checks."); });
+    });
+  })();
+  (function () {
+    var btn = document.getElementById("menuBtn");
+    var sb = document.getElementById("sidebar");
+    if (btn && sb) {
+      btn.addEventListener("click", function () { sb.classList.toggle("-translate-x-full"); });
+    }
+    var f = document.getElementById("menuFilter");
+    if (f) {
+      f.addEventListener("input", function () {
+        var q = (f.value || "").toLowerCase();
+        document.querySelectorAll("#sideNav .nav-group").forEach(function (g) {
+          var any = false;
+          g.querySelectorAll("a").forEach(function (a) {
+            var show = !q || (a.textContent || "").toLowerCase().indexOf(q) >= 0;
+            a.style.display = show ? "" : "none";
+            if (show) any = true;
+          });
+          g.style.display = any ? "" : "none";
+        });
+      });
+    }
+  })();
+</script>
+</body>
+</html>
