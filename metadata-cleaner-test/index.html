@@ -262,7 +262,7 @@ function parsePngChunks(buf){
       const raw=bufToLatin1(buf.slice(p+8,p+8+Math.min(len,400)));
       const key=(raw.split("\0")[0]||"").trim();
       if(key==="parameters")items.push({icon:"🧩",label:"PNG generation parameters (Stable Diffusion)",detail:"Prompt, seed, CFG scale and model hash are embedded in this PNG.",ai:true});
-      else if(key==="Software")items.push({icon:"🗂️",label:"PNG Software tag",detail:"The app that created this image is recorded: "+esc(raw.slice(0,80)),ai:false});
+      else if(key==="Software"){const val=raw.split("\0").slice(1).join(" ").trim();items.push({icon:"🗂️",label:"PNG Software tag",detail:"The app that created this image is recorded: "+esc(val.slice(0,80)),ai:false});}
       else if(key.indexOf("XML:com.adobe.xmp")===0)items.push({icon:"🗂️",label:"XMP editing history",detail:"Adobe XMP metadata is embedded in this PNG.",ai:false});
       else if(key)items.push({icon:"🧩",label:"PNG text chunk: "+esc(key),detail:"Extra text data is embedded in this PNG.",ai:false});
     }
@@ -379,7 +379,8 @@ async function addFile(file){
     const thumbUrl=URL.createObjectURL(file);
     const thumb=card.querySelector(".thumb");
     thumb.outerHTML='<img class="thumb" src="'+thumbUrl+'" alt="">';
-    card.querySelector(".size").textContent=fmtBytes(file.size)+" · "+(file.type||"image")+" · "+found.length+" metadata item"+(found.length===1?"":"s")+" found";
+    const realCount=found.filter(f=>f.label.indexOf("No metadata found")!==0).length;
+    card.querySelector(".size").textContent=fmtBytes(file.size)+" · "+(file.type||"image")+" · "+(realCount===0?"no metadata found":realCount+" metadata item"+(realCount===1?"":"s")+" found");
     card.querySelector(".meta-list").innerHTML=found.map(i=>'<div class="meta-item'+(i.ai?" ai":i.label.indexOf("No metadata")===0?" ok":"")+'"><span class="ic">'+i.icon+'</span><span><b>'+i.label+'</b><small>'+i.detail+'</small></span></div>').join("");
     setP(60);
     const clean=await cleanImage(file);
