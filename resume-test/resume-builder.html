@@ -419,16 +419,28 @@ Viral Video Studio — Video enhancement plus viral toolkit app</textarea>
     function tpl() { for (var i = 0; i < TEMPLATES.length; i++) { if (TEMPLATES[i].id === activeTemplateId) return TEMPLATES[i]; } return TEMPLATES[0]; }
     function tplCardHTML(tp) {
       var sel = tp.id === activeTemplateId;
-      var sw = '<div style="height: 56px; border-radius: 6px; overflow: hidden; border: 1px solid #cbd5e1; background: #ffffff;">'
-        + '<div style="height: 18px; background: ' + tp.headerBg + ';"></div>'
-        + '<div style="height: 8px; margin: 6px 8px 0; background: ' + tp.accent + '; width: 45%; border-radius: 2px;"></div>'
-        + '<div style="height: 4px; margin: 6px 8px 0; background: #cbd5e1; border-radius: 2px;"></div>'
-        + '<div style="height: 4px; margin: 4px 8px 0; background: #e2e8f0; border-radius: 2px; width: 70%;"></div></div>';
+      var mini = '<div class="tpl-mini" style="height: 200px; border-radius: 6px; overflow: hidden; border: 1px solid #cbd5e1; background: #ffffff;"><div class="tpl-mini-in" data-tpl="' + tp.id + '" style="width: 960px; transform-origin: top left;"></div></div>';
       return '<button type="button" data-tpl="' + tp.id + '" class="tpl-card text-left rounded-lg p-2 ' + (sel ? 'ring-2 ring-violet-400 bg-white/10' : 'bg-white/5 hover:bg-white/10') + '">'
-        + sw
+        + mini
         + '<div class="font-body-sm text-body-sm font-semibold text-on-surface mt-1">' + tp.name + '</div>'
         + '<div class="text-[11px] leading-4 text-on-surface-variant">' + tp.desc + '</div></button>';
     }
+    var tplPrevTimer = null;
+    function refreshTplPreviews() {
+      var cur = activeTemplateId;
+      document.querySelectorAll(".tpl-mini-in").forEach(function (el) {
+        var w = el.parentElement.clientWidth || 190;
+        el.style.transform = "scale(" + (w / 960) + ")";
+        activeTemplateId = el.getAttribute("data-tpl");
+        el.innerHTML = resumeBodyHTML();
+      });
+      activeTemplateId = cur;
+    }
+    function scheduleTplPreviews() {
+      if (tplPrevTimer) clearTimeout(tplPrevTimer);
+      tplPrevTimer = setTimeout(refreshTplPreviews, 300);
+    }
+
     function renderTemplatePicker() {
       var p = document.getElementById("tplPicker");
       if (!p) return;
@@ -436,6 +448,7 @@ Viral Video Studio — Video enhancement plus viral toolkit app</textarea>
       p.querySelectorAll(".tpl-card").forEach(function (b) {
         b.addEventListener("click", function () { activeTemplateId = b.getAttribute("data-tpl"); renderTemplatePicker(); renderResume(); });
       });
+      refreshTplPreviews();
     }
 
     function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
@@ -672,6 +685,7 @@ Viral Video Studio — Video enhancement plus viral toolkit app</textarea>
     function renderResume() {
       var p = document.getElementById("resumePreview");
       if (p) p.innerHTML = resumeBodyHTML();
+      scheduleTplPreviews();
     }
     function fileName() {
       var name = val("resName").trim() || "resume";
