@@ -247,6 +247,11 @@
 </div>
 <div class="rounded-xl bg-surface-container p-space-md space-y-space-sm">
 <h2 class="font-title-lg text-title-lg text-on-surface">Website Design</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Choose a design:</p>
+<div id="design-picker" class="flex flex-wrap gap-space-sm">
+<button type="button" class="design-btn rounded-lg border px-space-md py-2 font-body-md text-body-md" data-design="classic" aria-pressed="true">Classic</button>
+<button type="button" class="design-btn rounded-lg border px-space-md py-2 font-body-md text-body-md" data-design="freelancer" aria-pressed="false">Freelancer</button>
+</div>
 <p class="font-body-md text-body-md text-on-surface-variant">Choose a theme (these colours will be used in your website):</p>
 <div id="theme-picker" class="flex flex-wrap gap-space-sm">
 <button type="button" class="theme-btn rounded-lg border px-space-md py-2 font-body-md text-body-md" data-theme="blue" aria-pressed="true"><span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#2563eb;vertical-align:middle;margin-right:6px;"></span>Blue</button>
@@ -313,6 +318,7 @@
     var generatedHeading = "";
     var logoDataURL = "";
     var selectedTheme = "blue";
+    var selectedDesign = "classic";
     var THEMES = {
       blue:   { bg: "#ffffff", text: "#0f172a", accent: "#2563eb", card: "#f1f5f9", headerBg: "#2563eb", headerText: "#ffffff" },
       dark:   { bg: "#0f131d", text: "#dfe2f1", accent: "#a078ff", card: "#1c1f2a", headerBg: "#0f131d", headerText: "#dfe2f1" },
@@ -333,13 +339,54 @@
     }
     function extraFor(prompt) {
       var p = prompt.toLowerCase();
-      if (/(shop|store|dukaan|buy|sell|price|product|kirana|boutique)/.test(p)) return { title: "Our Products", items: ["Product 1", "Product 2", "Product 3"], note: "Price on request — replace with your real products and prices." };
-      if (/(portfolio|photograph|designer|gallery|photo|work)/.test(p)) return { title: "My Work", items: ["Work 1", "Work 2", "Work 3"], note: "Replace these boxes with your real work and photos." };
-      if (/(restaurant|food|khana|menu|dish|cafe|dhaba|hotel)/.test(p)) return { title: "Our Menu", items: ["Dish 1", "Dish 2", "Dish 3"], note: "Price on request — replace with your real dishes and prices." };
-      if (/(school|coaching|education|course|student|teacher|class|academy)/.test(p)) return { title: "Our Courses", items: ["Course 1", "Course 2", "Course 3"], note: "Replace with your real courses and details." };
-      return { title: "Why Choose Us", items: ["Quality", "Fast Support", "Trusted"], note: "Edit these cards to describe your own strengths." };
+      if (/(shop|store|dukaan|buy|sell|price|product|kirana|boutique)/.test(p)) return { title: "Our Products", items: ["Product 1", "Product 2", "Product 3"], more: ["Product 4", "Product 5", "Product 6"], note: "Price on request — replace with your real products and prices." };
+      if (/(portfolio|photograph|designer|gallery|photo|work)/.test(p)) return { title: "My Work", items: ["Work 1", "Work 2", "Work 3"], more: ["Work 4", "Work 5", "Work 6"], note: "Replace these boxes with your real work and photos." };
+      if (/(restaurant|food|khana|menu|dish|cafe|dhaba|hotel)/.test(p)) return { title: "Our Menu", items: ["Dish 1", "Dish 2", "Dish 3"], more: ["Dish 4", "Dish 5", "Dish 6"], note: "Price on request — replace with your real dishes and prices." };
+      if (/(school|coaching|education|course|student|teacher|class|academy)/.test(p)) return { title: "Our Courses", items: ["Course 1", "Course 2", "Course 3"], more: ["Course 4", "Course 5", "Course 6"], note: "Replace with your real courses and details." };
+      return { title: "Why Choose Us", items: ["Quality", "Fast Support", "Trusted"], more: ["Affordable", "Reliable", "Friendly"], note: "Edit these cards to describe your own strengths." };
+    }
+    function starDivider(color) {
+      return '<div style="display:flex;align-items:center;justify-content:center;gap:12px;margin:16px auto;max-width:300px;"><span style="flex:1;height:3px;background:' + color + ';border-radius:2px;"></span><span style="font-size:28px;color:' + color + ';">&#9733;</span><span style="flex:1;height:3px;background:' + color + ';border-radius:2px;"></span></div>';
+    }
+    function initialsFrom(head) {
+      var words = head.split(/\s+/).filter(function (w) { return w; });
+      var init = words.slice(0, 2).map(function (w) { return w.charAt(0).toUpperCase(); }).join("");
+      return init || "W";
+    }
+    function buildFreelancer(prompt) {
+      var t = THEMES[selectedTheme] || THEMES.blue;
+      var head = headingFromPrompt(prompt);
+      var full = cleanPrompt(prompt);
+      var about = (full && full !== head) ? full : ("We are here to help you with " + head + ". Explore what we offer below and get in touch.");
+      var extra = extraFor(prompt);
+      var showAbout = document.getElementById("sec-about").checked;
+      var showServices = document.getElementById("sec-services").checked;
+      var showExtra = document.getElementById("sec-extra").checked;
+      var showContact = document.getElementById("sec-contact").checked;
+      var accent = t.accent;
+      var navy = "#2c3e50";
+      var tiles = extra.items.concat(extra.more || []).slice(0, 6);
+      var tileColors = ["#1abc9c", "#3498db", "#9b59b6", "#e74c3c", "#f39c12", "#2ecc71"];
+      var tilesHTML = tiles.map(function (it, i) {
+        return '<div style="border-radius:12px;overflow:hidden;background:' + tileColors[i % tileColors.length] + ';color:#ffffff;padding:48px 16px;text-align:center;"><div style="font-size:22px;font-weight:700;">' + esc(it) + '</div><div style="opacity:.85;margin-top:8px;">' + esc(extra.title) + '</div></div>';
+      }).join("");
+      var navLinks = "";
+      if (showExtra) navLinks += '<a href="#extra" style="color:#ffffff;text-decoration:none;margin-left:20px;">Portfolio</a>';
+      if (showAbout) navLinks += '<a href="#about" style="color:#ffffff;text-decoration:none;margin-left:20px;">About</a>';
+      if (showContact) navLinks += '<a href="#contact" style="color:#ffffff;text-decoration:none;margin-left:20px;">Contact</a>';
+      var sections = "";
+      if (showExtra) sections += '<section id="extra" style="max-width:900px;margin:0 auto;padding:48px 24px;"><h2 style="text-align:center;margin:0 0 8px;">' + esc(extra.title) + '</h2>' + starDivider(navy) + '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:24px;">' + tilesHTML + '</div><p style="text-align:center;color:#555;margin-top:16px;">' + esc(extra.note) + '</p></section>';
+      if (showServices) sections += '<section style="max-width:900px;margin:0 auto;padding:48px 24px;"><h2 style="text-align:center;margin:0 0 8px;">What I Do</h2>' + starDivider(navy) + '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:24px;">' +
+        '<div style="background:#f1f5f9;border-radius:12px;padding:20px;text-align:center;"><h3>Quality</h3><p>Best quality for ' + esc(head) + '.</p></div>' +
+        '<div style="background:#f1f5f9;border-radius:12px;padding:20px;text-align:center;"><h3>Fast Support</h3><p>We reply fast and help you at every step.</p></div>' +
+        '<div style="background:#f1f5f9;border-radius:12px;padding:20px;text-align:center;"><h3>Trusted</h3><p>People trust us for ' + esc(head) + '.</p></div></div></section>';
+      if (showAbout) sections += '<section id="about" style="background:' + accent + ';color:#ffffff;padding:48px 24px;"><div style="max-width:900px;margin:0 auto;"><h2 style="text-align:center;margin:0 0 8px;">About</h2>' + starDivider("#ffffff") + '<div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:24px;"><p style="line-height:1.7;margin:0;">' + esc(about) + '</p><p style="line-height:1.7;margin:0;">This website was built with the ResumeMaker Website Builder. Replace this text with your own story, experience and what makes you different.</p></div><div style="text-align:center;margin-top:32px;"><a href="#contact" style="display:inline-block;padding:12px 28px;border:2px solid #ffffff;border-radius:8px;color:#ffffff;font-weight:700;text-decoration:none;">Get In Touch</a></div></div></section>';
+      if (showContact) sections += '<section id="contact" style="max-width:900px;margin:0 auto;padding:48px 24px;"><h2 style="text-align:center;margin:0 0 8px;">Contact Me</h2>' + starDivider(navy) + '<p style="text-align:center;color:#555;">Email: [your email]<br/>Phone: [your phone number]</p><p style="text-align:center;color:#555;">Replace the bracketed text with your real details.</p></section>';
+      var brand = logoDataURL ? '<img src="' + logoDataURL + '" alt="Logo" style="height:40px;width:auto;vertical-align:middle;"/>' : esc(head);
+      return '<!DOCTYPE html>\n<html lang="en">\n<head>\n<meta charset="utf-8"/>\n<meta name="viewport" content="width=device-width, initial-scale=1"/>\n<title>' + esc(head) + '</title>\n<style>\nbody{margin:0;font-family:Inter,Arial,sans-serif;background:#ffffff;color:#0f172a}\nsection h2{font-size:32px}\nfooter a{color:#ffffff}\n</style>\n</head>\n<body>\n<nav style="background:' + navy + ';color:#ffffff;padding:16px 24px;display:flex;justify-content:space-between;align-items:center;"><span style="font-size:20px;font-weight:700;">' + brand + '</span><span>' + navLinks + '</span></nav>\n<header style="background:' + accent + ';color:#ffffff;text-align:center;padding:64px 24px;"><div style="width:160px;height:160px;border-radius:50%;background:' + navy + ';color:#ffffff;font-size:56px;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 24px;">' + esc(initialsFrom(head)) + '</div><h1 style="font-size:44px;margin:0 0 12px;">' + esc(head) + '</h1>' + starDivider("#ffffff") + '<p style="font-size:20px;opacity:.95;">Welcome — explore my work below and get in touch.</p></header>\n' + sections + '\n<footer style="background:' + navy + ';color:#ffffff;padding:48px 24px;"><div style="max-width:900px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px;"><div><h3>Location</h3><p>Your City, Your Country</p></div><div><h3>Around the Web</h3><p>Facebook &middot; Twitter &middot; LinkedIn &middot; Instagram</p></div><div><h3>About ' + esc(head) + '</h3><p>' + esc(about) + '</p></div></div><p style="text-align:center;opacity:.7;margin:32px 0 0;">Copyright &copy; ' + esc(head) + ' 2026 &middot; Template starter inspired by the Freelancer theme (MIT) — edit this file to make it your own.</p></footer>\n</body>\n</html>';
     }
     function buildSite(prompt) {
+      if (selectedDesign === "freelancer") return buildFreelancer(prompt);
       var t = THEMES[selectedTheme] || THEMES.blue;
       var head = headingFromPrompt(prompt);
       var full = cleanPrompt(prompt);
@@ -554,6 +601,8 @@
       var input = document.getElementById("prompt-input");
       if (input) input.value = "";
       selectedTheme = "blue";
+      selectedDesign = "classic";
+      paintDesignButtons();
       document.querySelectorAll(".theme-btn").forEach(function (b) {
         var on = b.getAttribute("data-theme") === "blue";
         b.setAttribute("aria-pressed", on ? "true" : "false");
@@ -596,6 +645,20 @@
         paintThemeButtons();
       });
     });
+    function paintDesignButtons() {
+      document.querySelectorAll(".design-btn").forEach(function (b) {
+        var on = b.getAttribute("data-design") === selectedDesign;
+        b.setAttribute("aria-pressed", on ? "true" : "false");
+        b.style.outline = on ? "2px solid #ffffff" : "none";
+      });
+    }
+    document.querySelectorAll(".design-btn").forEach(function (b) {
+      b.addEventListener("click", function () {
+        selectedDesign = b.getAttribute("data-design") || "classic";
+        paintDesignButtons();
+      });
+    });
+    paintDesignButtons();
     paintThemeButtons();
     var gen = document.getElementById("btn-generate-main");
     if (gen) gen.addEventListener("click", generate);
