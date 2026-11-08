@@ -70,7 +70,7 @@
   .hero-body { padding: 20px 22px 22px; }
   .catchip { display: inline-block; background: #bb0112; color: #fff; font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; border-radius: 4px; padding: 4px 10px; margin-bottom: 10px; }
   .hero h3 { font-family: "Merriweather", Georgia, serif; font-size: 30px; line-height: 1.3; font-weight: 900; margin-bottom: 10px; }
-  .hero h3 a { text-decoration: none; transition: color 150ms ease-out; }
+  .hero h3 a { color: inherit; text-decoration: none; transition: color 150ms ease-out; }
   .hero p.body { color: #45464d; font-size: 16px; line-height: 1.7; margin-bottom: 10px; }
   .htags { color: #0d6efd; font-size: 13px; margin-top: 10px; line-height: 1.6; }
   .meta { font-size: 12.5px; color: #76777d; margin-top: 10px; }
@@ -82,7 +82,7 @@
   .card-body { padding: 16px 18px 18px; }
   .card .cat { display: inline-block; background: #131b2e; color: #fff; font-size: 11px; font-weight: 700; letter-spacing: .05em; border-radius: 4px; padding: 3px 9px; margin-bottom: 9px; }
   .card h3 { font-family: "Merriweather", Georgia, serif; font-size: 18px; line-height: 1.45; font-weight: 700; margin-bottom: 8px; }
-  .card h3 a { text-decoration: none; transition: color 150ms ease-out; }
+  .card h3 a { color: inherit; text-decoration: none; transition: color 150ms ease-out; }
   .story p.body { color: #45464d; font-size: 14.5px; line-height: 1.65; margin-bottom: 8px; }
   .story .src { font-size: 12px; color: #76777d; }
   .story .src a { color: #bb0112; font-size: 12px; font-weight: 600; text-decoration: none; }
@@ -346,7 +346,8 @@
     var tags = (st.tags && st.tags.length) ? '<p class="htags">' + st.tags.map(esc).join(" ") + "</p>" : "";
     var src = st.source ? '<p class="src">Source: ' + esc(st.source) + (st.source_url ? ' • <a href="' + esc(st.source_url) + '" target="_blank" rel="noopener">asar khabar</a>' : "") + "</p>" : "";
     var pg = st.page ? '<p class="meta">🔗 <a href="' + esc(pageUrl(st.page)) + '">Poori khabar apne page par padho →</a></p>' : "";
-    return { title: title, img: img, parasHtml: parasHtml, tags: tags, src: src, pg: pg };
+    var pgUrl = st.page ? pageUrl(st.page) : "";
+    return { title: title, img: img, parasHtml: parasHtml, tags: tags, src: src, pg: pg, pgUrl: pgUrl };
   }
 
   function renderTicker() {
@@ -373,11 +374,11 @@
     var stories = akhData.stories;
     if (akhFilter === "all") {
       var lead = storyCard(stories[0], false);
-      heroBox.innerHTML = '<article class="hero">' + lead.img + '<div class="hero-body"><span class="catchip">' + (CATNAMES[stories[0].cat] || "⭐ Khaas") + "</span><h3>" + esc(lead.title) + "</h3>" + lead.parasHtml + lead.tags + lead.src + lead.pg + "</div></article>";
+      heroBox.innerHTML = '<article class="hero">' + lead.img + '<div class="hero-body"><span class="catchip">' + (CATNAMES[stories[0].cat] || "⭐ Khaas") + "</span><h3>" + (lead.pgUrl ? '<a href="' + esc(lead.pgUrl) + '">' + esc(lead.title) + "</a>" : esc(lead.title)) + "</h3>" + lead.parasHtml + lead.tags + lead.src + lead.pg + "</div></article>";
       var rest = stories.slice(1);
       box.innerHTML = rest.map(function (st) {
         var c = storyCard(st, true);
-        return '<article class="card story">' + c.img + '<div class="card-body"><span class="cat">' + (CATNAMES[st.cat] || "⭐ Khaas") + "</span><h3>" + esc(c.title) + "</h3>" + c.parasHtml + c.tags + c.src + c.pg + "</div></article>";
+        return '<article class="card story">' + c.img + '<div class="card-body"><span class="cat">' + (CATNAMES[st.cat] || "⭐ Khaas") + "</span><h3>" + (c.pgUrl ? '<a href="' + esc(c.pgUrl) + '">' + esc(c.title) + "</a>" : esc(c.title)) + "</h3>" + c.parasHtml + c.tags + c.src + c.pg + "</div></article>";
       }).join("");
     } else {
       heroBox.innerHTML = "";
@@ -388,7 +389,7 @@
       }
       box.innerHTML = filtered.map(function (st) {
         var c = storyCard(st, true);
-        return '<article class="card story">' + c.img + '<div class="card-body"><span class="cat">' + (CATNAMES[st.cat] || "⭐ Khaas") + "</span><h3>" + esc(c.title) + "</h3>" + c.parasHtml + c.tags + c.src + c.pg + "</div></article>";
+        return '<article class="card story">' + c.img + '<div class="card-body"><span class="cat">' + (CATNAMES[st.cat] || "⭐ Khaas") + "</span><h3>" + (c.pgUrl ? '<a href="' + esc(c.pgUrl) + '">' + esc(c.title) + "</a>" : esc(c.title)) + "</h3>" + c.parasHtml + c.tags + c.src + c.pg + "</div></article>";
       }).join("");
     }
   }
