@@ -1,646 +1,302 @@
 {
- "updated_at": "2026-11-08T05:09:51+05:30",
- "count": 80,
+ "updated_at": "2026-11-09T05:10:27+05:30",
+ "count": 37,
  "items": [
   {
-   "t": "poland krakow shooting market square six dead fifteen injured gunman injured",
-   "u": "https://www.prabhasakshi.com/international/poland-krakow-shooting-market-square-six-dead-fifteen-injured-gunman-injured",
-   "img": "https://images.prabhasakshi.com/2026/11/7/poland-krakow-shooting-market-square-six-dead-fifteen-injured-gunman-injured_large_20261107235313404_446634c_.jpg",
-   "d": "prabhasakshi.com",
-   "time": "20261107T220000Z",
-   "cat": "bharat-hi"
+   "t": "Michigan Palisades Nuclear Plant Restart Date is Still Unclear",
+   "u": "https://www.enr.com/articles/64245-michigans-palisades-nuclear-plant-restart-date-is-still-unclear",
+   "img": "https://www.enr.com/ext/resources/2026/11/08/Holtec.PalisadesNukeWorkers.jpg?&t=1794155528",
+   "d": "enr.com",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
+  },
+  {
+   "t": "Democrats plan to push clean energy to lower bills and challenge Trump fossil fuel agenda | National",
+   "u": "http://www.thedailytimes.com/ap/national/democrats-plan-to-push-clean-energy-to-lower-bills-and-challenge-trump-s-fossil-fuel/article_87dbe6de-c3b2-54d7-90a3-b5297add1bff.html",
+   "img": "https://bloximages.chicago2.vip.townnews.com/thedailytimes.com/content/tncms/custom/image/4c01e2ce-7067-11e6-87cd-0725ce0cc960.jpg",
+   "d": "thedailytimes.com",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
+  },
+  {
+   "t": "🏈 Coyotes fall to McPherson 41 - 7",
+   "u": "https://salinapost.com/posts/5f35c9ee-ca8a-4539-b2dd-c9bb7a7b06c9",
+   "img": "https://media.eaglewebservices.com/public/2026/11/1794154824869.jpeg",
+   "d": "salinapost.com",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
+  },
+  {
+   "t": "AP Top 25 live updates : Georgia is back at No . 1 , followed by Utah and Notre Dame",
+   "u": "https://www.wsls.com/news/national/2026/11/08/ap-top-25-live-updates-notre-dame-and-georgia-are-in-line-for-no-1/",
+   "img": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/gmg/E6BZJGY3PVBSFEALJSP25IZFPQ.jpg?api_key=wsls_8c3a4bc35af7684e",
+   "d": "wsls.com",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
+  },
+  {
+   "t": "Jeffries Supports Impeachment Of Defense Secretary Hegseth",
+   "u": "https://wiba.iheart.com/content/2026-11-08-jeffries-supports-impeachment-of-defense-secretary-hegseth/",
+   "img": "https://i.iheart.com/v3/re/assets.getty/6af0b33863270aea35ed0639?ops=gravity(%22north%22),fit(1200,675),quality(65)",
+   "d": "wiba.iheart.com",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
+  },
+  {
+   "t": "🏈 K - State Game at TCU Set for Afternoon Kick",
+   "u": "https://salinapost.com/posts/87843001-22d5-4c4c-b158-7e2e9aa550e7",
+   "img": "https://media.eaglewebservices.com/public/2024/8/1723857886537.png",
+   "d": "salinapost.com",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
+  },
+  {
+   "t": "Collision between 2 trains in Egypt kills 7 and injures at least 125",
+   "u": "https://www.ksat.com/news/world/2026/11/08/collision-between-2-trains-in-egypt-kills-4-and-injures-88/",
+   "img": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/gmg/DPILXM5LCVEQ3JENYW5KAR5KUI.jpg?api_key=ksat_9a37fc89631abedf",
+   "d": "ksat.com",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
+  },
+  {
+   "t": "GOP civil war ignites in Arizona as Meghan McCain takes on Kirk Turning Point group",
+   "u": "https://www.rawstory.com/meghan-mccain-2678334643/",
+   "img": "https://www.rawstory.com/media-library/meghan-mccain-attends-the-2023-time100-gala-at-jazz-at-lincoln-center-on-april-26-2023-in-new-york-city-photo-by-arturo-holm.jpg?id=52978927&coordinates=0%2C332%2C0%2C332",
+   "d": "rawstory.com",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
+  },
+  {
+   "t": "Californians vote to keep environmental protections , even with the red tape",
+   "u": "https://laist.com/news/climate-environment/californians-vote-to-keep-environmental-protections-even-with-the-red-tape",
+   "img": "http://scpr-brightspot.s3.us-west-2.amazonaws.com/c7/d7/e770cfd34269adc42f4ddad88a99/102722-housing-construction-san-diego-reuters-mb-cm-1.jpeg",
+   "d": "laist.com",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
+  },
+  {
+   "t": "Beloit man sentenced to four years for May stabbing",
+   "u": "http://www.beloitdailynews.com/news/crime/beloit-man-sentenced-to-four-years-for-may-stabbing/article_319e23de-f9f7-4e76-a160-e6a434b9942c.html",
+   "img": "https://bloximages.newyork1.vip.townnews.com/beloitdailynews.com/content/tncms/assets/v3/editorial/d/ce/dcec28ad-6d99-5aa3-bd8f-6e2888e9b3d5/5fac82fae8d14.image.jpg?crop=1000%2C525%2C0%2C92",
+   "d": "beloitdailynews.com",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
+  },
+  {
+   "t": "Europe to join U . S .- brokered Ukraine talks in Abu Dhabi , defying Kremlin objections",
+   "u": "https://www.wuft.org/2026-11-08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections",
+   "img": "http://npr-brightspot.s3.amazonaws.com/fa/a1/91147a0b4187a331f76a4c33d532/ap26311445819542.jpg",
+   "d": "wuft.org",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
+  },
+  {
+   "t": "Tottenham Women 2 - 1 Brighton : Spurs score two goals in 60 seconds to secure second straight win",
+   "u": "https://cartilagefreecaptain.sbnation.com/tottenham-hotspur-women/74792/tottenham-women-2-1-brighton-spurs-score-two-goals-in-60-seconds-to-secure-second-straight-win",
+   "img": "https://platform.cartilagefreecaptain.sbnation.com/wp-content/uploads/sites/60/2026/11/gettyimages-2304132623.jpg?quality=90&strip=all&crop=0%2C12.115759086535%2C100%2C75.76848182693",
+   "d": "cartilagefreecaptain.sbnation.com",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
+  },
+  {
+   "t": "Houston to limit ICE cooperation after Democrats take power in Texas",
+   "u": "https://www.kristv.com/news/texas-news/houston-will-limit-ice-cooperation-in-response-to-democrats-taking-power-in-texas-mayor-says",
+   "img": "https://ewscripps.brightspotcdn.com/4d/8e/43220a3246cc87e3d034772a3a9e/ice-out-houston-apfile.png",
+   "d": "kristv.com",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
   },
   {
-   "t": "Karnataka E20 Petrol Controversy | Center Rejects Ethanol Claims",
-   "u": "https://www.bhaskar.com/national/news/karnataka-e20-petrol-ethanol-center-statement-rahul-gandhi-controversy-139627063.html",
-   "img": "https://images.bhaskarassets.com/thumb/730x0/web2images/521/2026/11/08/newsroom-composite-730x548__43_1794086531984.jpg",
-   "d": "bhaskar.com",
-   "time": "20261107T220000Z",
-   "cat": "bharat-hi"
+   "t": "Spirit Christmas Opens 4 Stores in New York for 2026",
+   "u": "https://wgna.com/ixp/39/p/spirit-christmas-new-york/",
+   "img": "https://townsquare.media/site/39/files/2026/11/attachment-untitled-design-1-53.jpg?&q=75&format=natural",
+   "d": "wgna.com",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
   },
   {
-   "t": "mumbai special court jails doctor adnan ali sarkar six years isis module",
-   "u": "https://www.prabhasakshi.com/national/mumbai-special-court-jails-doctor-adnan-ali-sarkar-six-years-isis-module",
-   "img": "https://images.prabhasakshi.com/2026/11/7/mumbai-special-court-jails-doctor-adnan-ali-sarkar-six-years-isis-module_large_20261107234314112_a9b7485_.jpg",
-   "d": "prabhasakshi.com",
-   "time": "20261107T220000Z",
-   "cat": "bharat-hi"
+   "t": "Fox News pundit exposes how her colleagues are lying to viewers",
+   "u": "https://www.alternet.org/fox-news-midterms-jessica-tarlov/",
+   "img": "https://www.alternet.org/media-library/fox-news-pundit-jessica-tarlov-speaks-at-crooked-con-image-screengrab-via-brian-tyler-cohen.png?id=68634130&coordinates=0%2C164%2C0%2C165",
+   "d": "alternet.org",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
   },
   {
-   "t": "आज का शब्द : दीपाली और महादेवी वर्मा की कविता - सब बुझे दीपक जला लूं - Aaj Ka Shabd Deepali Mahadevi Verma Ki Kavita Sab Bujhe Deepak Jala Lun",
-   "u": "https://www.amarujala.com/kavya/shabd-sangrah/aaj-ka-shabd-deepali-mahadevi-verma-ki-kavita-sab-bujhe-deepak-jala-lun-2026-11-07",
-   "img": "https://staticimg.amarujala.com/assets/images/2026/11/07/aaj-ka-shabd_4bbfd884f5085a4ec22548cf400a86d2.jpeg?&dpr=1.0",
-   "d": "amarujala.com",
-   "time": "20261107T220000Z",
-   "cat": "bharat-hi"
+   "t": "Mindful Reflections - Remembrances 2",
+   "u": "https://www.kvnf.org/show/mindful-reflections/2026-11-08/mindful-reflections-remembrances-2",
+   "img": "http://npr-brightspot.s3.amazonaws.com/3f/7f/940fae064bc19ad4b0472e7da255/mindfulreflections.png",
+   "d": "kvnf.org",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
   },
   {
-   "t": "India Defence Export Surge | Private Sector Contribution Over 45 Percent",
-   "u": "https://www.bhaskar.com/national/news/india-defence-export-growth-private-sector-contribution-update-139626734.html",
-   "img": "https://images.bhaskarassets.com/thumb/730x0/web2images/521/2026/11/08/newsroom-composite-730x548__42_1794085218964.jpg",
-   "d": "bhaskar.com",
-   "time": "20261107T220000Z",
-   "cat": "bharat-hi"
+   "t": "Sunday Edition : Behind the Blue Wave",
+   "u": "https://www.whqr.org/local/2026-11-08/sunday-edition-behind-the-blue-wave",
+   "img": "http://npr-brightspot.s3.amazonaws.com/7f/ee/f8113a9e4e3b98ad0cc7703b074b/schaferle-wave-1913559.jpg",
+   "d": "whqr.org",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
   },
   {
-   "t": "kc venugopal accuses cec gyanesh kumar over voter list deletion row",
-   "u": "https://www.prabhasakshi.com/national/kc-venugopal-accuses-cec-gyanesh-kumar-over-voter-list-deletion-row",
-   "img": "https://images.prabhasakshi.com/Images/prabhasakshi-news-image.jpg",
-   "d": "prabhasakshi.com",
-   "time": "20261107T220000Z",
-   "cat": "bharat-hi"
+   "t": "Astronomers found a  hidden  world lurking beyond Pluto that could be one of the biggest dwarf planets ever seen",
+   "u": "https://www.ecoportal.net/en/hidden-world-beyond-pluto/44558/",
+   "img": "https://www.ecoportal.net/en/wp-content/uploads/2026/11/Astronomers-found-a-_hidden_-world-lurking-beyond-Pluto-that-could-be-one-of-the-biggest-dwarf-planets-ever-seen.webp",
+   "d": "ecoportal.net",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
   },
   {
-   "t": "hyderabad college principal lecturer arrested student suicide over seized phone",
-   "u": "https://www.prabhasakshi.com/national/hyderabad-college-principal-lecturer-arrested-student-suicide-over-seized-phone",
-   "img": "https://images.prabhasakshi.com/Images/prabhasakshi-news-image.jpg",
-   "d": "prabhasakshi.com",
-   "time": "20261107T220000Z",
-   "cat": "bharat-hi"
+   "t": "Sunshine makes a comeback as West Texas dries out",
+   "u": "https://www.kcbd.com/2026/11/08/sunshine-makes-comeback-west-texas-dries-out/",
+   "img": "https://gray-kcbd-prod.gtv-cdn.com/resizer/v2/5XUXT5PDNJAIBD7Q2H2HOE4Y7M.png?auth=66114bb3b3461c6e64c42c87e3bb61053347e941069cee742a4aae0279ef2537&smart=true",
+   "d": "kcbd.com",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
   },
   {
-   "t": "उपराष्ट्रपति ने रेल मंत्रालय को  पीएम सूर्य घर एक्सीलेंस अवार्ड  से सम्मानित किया",
-   "u": "https://pressnote.in/article4c3e4b2f_545924.html",
-   "img": "https://pressnote.in/upload/opt/545924/w1600.jpg",
-   "d": "pressnote.in",
-   "time": "20261107T190000Z",
-   "cat": "bharat-hi"
+   "t": "6 High - End Coffee Makers To Look For At Costco",
+   "u": "https://www.thedailymeal.com/2306160/high-end-coffee-makers-look-for-costco/",
+   "img": "https://www.thedailymeal.com/img/gallery/6-high-end-coffee-makers-to-look-for-at-costco/l-intro-1793755238.jpg",
+   "d": "thedailymeal.com",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
   },
   {
-   "t": "तप से आत्मिक व शारीरिक दोनों लाभ मिलतेःडॉ . राजेन्द्र मुनि",
-   "u": "https://pressnote.in/article7281_545910.html",
-   "img": "https://pressnote.in/upload/opt/545910/w1600.jpg",
-   "d": "pressnote.in",
-   "time": "20261107T190000Z",
-   "cat": "bharat-hi"
+   "t": "Thousands in Manchester for marathon",
+   "u": "https://www.wmur.com/article/thousands-in-manchester-for-marathon/74368525",
+   "img": "https://kubrick.htvapps.com/vidthumb/41ad5ee5-03b3-45c8-a3bc-5f16195a3026/29b0bb1e-3fb9-4b1b-9e9d-55bb372cba68.jpg?crop=1xw%3A1.0xh%3Bcenter%2Ctop",
+   "d": "wmur.com",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
   },
   {
-   "t": "संगीत के सुरों के साथ रिश्तों में घुलेगी मिठास , शहर की विभिन्न जोड़ियां देंगी शानदार संगीतमय प्रस्तुतियां",
-   "u": "https://pressnote.in/articlea37448f5_545923.html",
-   "img": "https://pressnote.in/upload/opt/545923/w1024.jpg",
-   "d": "pressnote.in",
-   "time": "20261107T190000Z",
-   "cat": "bharat-hi"
+   "t": "Dana White to visit White House after Trump offers him press secretary role",
+   "u": "https://www.wxii12.com/article/ufc-ceo-dana-white-press-secretary-offer/74367833",
+   "img": "https://kubrick.htvapps.com/htv-prod/images/b8a9d89f-3b74-44e9-a9bf-3370fa0805b6.jpg?crop=1xw%3A0.7879616963064295xh%3Bcenter%2Ctop",
+   "d": "wxii12.com",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
   },
   {
-   "t": "टाटा स्टील का भारत में मुनाफा 20 फीसदी बढ़कर 5 , 055 करोड़",
-   "u": "https://www.tarunmitra.in/state/tata-steels-profit-in-india-increased-by-20-percent-to/article-171217",
-   "img": "https://www.tarunmitra.in/media-webp/c600x315/2026-11/64fc162c86aad1d2df6846cc5e9773c5_2146836296.jpg",
-   "d": "tarunmitra.in",
-   "time": "20261107T190000Z",
-   "cat": "bharat-hi"
+   "t": "7 Dead , 112 Injured In Egypt Train Collision | Newsradio WFLA Orlando",
+   "u": "https://wflaorlando.iheart.com/content/2026-11-08-7-dead-112-injured-in-egypt-train-collision/",
+   "img": "https://i.iheart.com/v3/re/assets.getty/6af0c9a90bc03b06a2b938f3?ops=gravity(%22north%22),fit(1200,675),quality(65)",
+   "d": "wflaorlando.iheart.com",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
   },
   {
-   "t": "दिवाली पार्टी में अनन्या पांडे ने लौटाया 2001 का जादू , रानी मुखर्जी के  शावा शावा  लहंगे को नए अंदाज में पहनकर बटोरी सुर्खियां",
-   "u": "https://www.palpalindia.com/2026/11/07/lifestyle-ananya-panday-rani-mukerji-shava-shava-silver-lehenga-manish-malhotra-diwali-party.html",
-   "img": "https://palpalindia.com/2026/11/07/lifestyle-ananya-panday-rani-mukerji-shava-shava-silver-lehenga-manish-malhotra-diwali-party.jpg",
-   "d": "palpalindia.com",
-   "time": "20261107T190000Z",
-   "cat": "bharat-hi"
+   "t": "10 Best Task Management Software Tools",
+   "u": "https://smallbiztrends.com/task-management-software/",
+   "img": "https://media.smallbiztrends.com/2026/09/5iYGUqgK-key-takeaways.jpg",
+   "d": "smallbiztrends.com",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
   },
   {
-   "t": "लियो ग्रुप ऑफ स्कूल्स के सनलाइट विद्यालय में दिवाली समारोह और स्नेह मिलन समारोह आयोजित",
-   "u": "https://www.loktej.com/article/154335/diwali-celebration-and-affection-get-together-organized-in-sunlight-vidyalaya",
-   "img": "https://www.loktej.com/media-webp/c600x315/2026-11/b07112026-04.jpg",
-   "d": "loktej.com",
-   "time": "20261107T190000Z",
-   "cat": "bharat-hi"
+   "t": "I deleted Instagram , YouTube , and 6 other Android apps to take back control of my screen time",
+   "u": "https://www.androidpolice.com/deleted-android-apps-to-take-back-control-of-my-screen-time/",
+   "img": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2025/06/smiling-woman-sitting-on-a-couch-using-her-smartphone-with-a-screen-time-chart-beside-her-showing-a-daily-average-of-39-minutes-and-a-downward-trend-throughout-the-week.png?&fit=crop",
+   "d": "androidpolice.com",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
   },
   {
-   "t": "1979 के मशहूर Walkman हेडफोन की वापसी , Sony ने USB Type - C के साथ लॉन्च किया MDR - 3R का रेट्रो अवतार",
-   "u": "https://www.palpalindia.com/2026/11/07/gadget-sony-mdr-3r-retro-walkman-headphones-usb-type-c-stranger-things-edition.html",
-   "img": "https://palpalindia.com/2026/11/07/gadget-sony-mdr-3r-retro-walkman-headphones-usb-type-c-stranger-things-edition.jpg",
-   "d": "palpalindia.com",
-   "time": "20261107T190000Z",
-   "cat": "bharat-hi"
+   "t": "CEQA preserved",
+   "u": "https://laist.com/brief/news/climate-environment/californians-vote-to-keep-environmental-protections-even-with-the-red-tape",
+   "img": "http://scpr-brightspot.s3.us-west-2.amazonaws.com/c7/d7/e770cfd34269adc42f4ddad88a99/102722-housing-construction-san-diego-reuters-mb-cm-1.jpeg",
+   "d": "laist.com",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
   },
   {
-   "t": "YouTube में बड़ा बदलाव अब नीचे नहीं मिलेगा Subscriptions टैब , Shorts और वीडियो क्रिएशन के लिए बदला पूरा मोबाइल ऐप",
-   "u": "https://www.palpalindia.com/2026/11/07/info-youtube-new-mobile-app-update-subscription-tab-removed-custom-feeds-shorts.html",
-   "img": "https://palpalindia.com/2026/11/07/info-youtube-new-mobile-app-update-subscription-tab-removed-custom-feeds-shorts.jpg",
-   "d": "palpalindia.com",
-   "time": "20261107T190000Z",
-   "cat": "bharat-hi"
+   "t": "Texas Tech Humanities Center to host panel on universitie role in public good , sharing knowledge",
+   "u": "https://www.kcbd.com/2026/11/08/texas-tech-humanities-center-host-panel/",
+   "img": "https://gray-kcbd-prod.gtv-cdn.com/resizer/v2/LJT4C7FBSFBHBGTJDPPRDLPIFE.png?auth=df3c9ec37d5fc2cf3e3b6ce983d83e68b03df5f7826c2e6b879cf99bc693cbc3&smart=true",
+   "d": "kcbd.com",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
   },
   {
-   "t": "चतुर्थ चरण के लिए ईवीएम का रेण्डेमाईजेशन सम्पन्न",
-   "u": "https://pressnote.in/articlefe07a299_545922.html",
-   "img": "https://pressnote.in/upload/opt/545922/w1280.jpg",
-   "d": "pressnote.in",
-   "time": "20261107T190000Z",
-   "cat": "bharat-hi"
+   "t": "Trump is breaking new ground in letting people starve",
+   "u": "https://www.alternet.org/trump-usaid-global-starvation/",
+   "img": "https://www.alternet.org/media-library/us-president-donald-trump-speaks-to-members-of-the-media-as-he-departs-the-white-house-en-route-to-kansas-in-washington-dc-us.png?id=68487574&coordinates=0%2C60%2C0%2C60",
+   "d": "alternet.org",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
   },
   {
-   "t": "त्रिपुरा सीमा के पास बीएसएफ जवानों पर हमले के मामले में एक महिला समेत तीन और लोग गिरफ्तार",
-   "u": "https://www.punjabkesari.com/india-news/hindi-woman-among-three-more-arrested-in-attack-on-bsf-personnel-along-tripura-border-lead/",
-   "img": "https://punjabkesari.imagibyte.sortdcdn.net/wp-content/uploads/2026/11/202611074005966.jpg",
-   "d": "punjabkesari.com",
-   "time": "20261107T190000Z",
-   "cat": "bharat-hi"
+   "t": "Godzilla Minus Zero  stomps to a record - setting $31 . 6 debut , clobbering  The Cat in the Hat",
+   "u": "https://www.wsls.com/entertainment/2026/11/08/godzilla-minus-zero-stomps-to-a-record-setting-316-debut-clobbering-the-cat-in-the-hat/",
+   "img": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/gmg/4OLHWBQYSJHYRFGYIJ6L4PLOEU.jpg?api_key=wsls_8c3a4bc35af7684e",
+   "d": "wsls.com",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
   },
   {
-   "t": "284 शहरों में प्रदूषण का कहर , बल्लभगढ़ सबसे जहरीला और दिल्ली पांचवें स्थान पर , कई शहरों में सांस लेना हुआ मुश्किल",
-   "u": "https://www.palpalindia.com/2026/11/07/delhi-ballabhgarh-most-polluted-city-aqi-409-delhi-air-quality-november-7.html",
-   "img": "https://palpalindia.com/2026/11/07/delhi-ballabhgarh-most-polluted-city-aqi-409-delhi-air-quality-november-7.jpg",
-   "d": "palpalindia.com",
-   "time": "20261107T190000Z",
-   "cat": "bharat-hi"
+   "t": "19 - year - old killed , woman injured in WSSU shooting ; man charged",
+   "u": "https://www.wxii12.com/article/19-year-old-killed-winston-salem-state-university-campus-shooting/74368604",
+   "img": "https://kubrick.htvapps.com/htv-prod/images/d513554e-ca40-4e9e-bc67-7f3c653b48eb.png?crop=0.995xw%3A1.00xh%3B0.00326xw%2C0",
+   "d": "wxii12.com",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
   },
   {
-   "t": "बेंगलुरु - लखनऊ इंडिगो उड़ान सुरक्षा अलर्ट के बाद एहतियातन लौटाई गई",
-   "u": "https://www.punjabkesari.com/india-news/bengaluru-lucknow-indigo-flight-ko-suraksha-khatre-ki-soochna-ke-baad-wapas-lautaya-gaya/",
-   "img": "https://punjabkesari.imagibyte.sortdcdn.net/wp-content/uploads/2026/11/202611074005995.jpg",
-   "d": "punjabkesari.com",
-   "time": "20261107T190000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "भारतीय हॉकी का स्वर्णिम गौरव : एशिया पर फिर छाया तिरंगा",
-   "u": "https://pressnote.in/articlef5d59407_545914.html",
-   "img": "https://pressnote.in/upload/opt/545914/w1920.jpg",
-   "d": "pressnote.in",
-   "time": "20261107T190000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "Indigo Flight Hijack Threat | Bengaluru to Lucknow Plane Returns",
-   "u": "https://www.bhaskar.com/national/news/indigo-flight-hijack-threat-bengaluru-lucknow-emergency-landing-139625002.html",
-   "img": "https://images.bhaskarassets.com/thumb/730x0/web2images/521/2026/11/07/cover_1794073363609.jpg",
-   "d": "bhaskar.com",
-   "time": "20261107T183000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "सीएम ने प्रदेशवासियों को दी दीपावली की बधाई , कहा - प्रदेश विकास , खुशहाली के नए कीर्तिमान बना रहा",
-   "u": "https://navbharattimes.indiatimes.com/state/chhattisgarh/raipur/cm-extends-diwali-greetings-to-the-people-of-the-state-new-milestones-in-development-and-prosperity/articleshow/135643311.cms",
-   "img": "https://static.langimg.com/nbt/thumb/135643439/vishnu-deo-sai.jpg?imgsize=75092&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261107T180000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "… तो आईपीएल 2027 में मुंबई इंडियंस को क्या नया कप्तान मिलेगा",
-   "u": "https://navabharat.com/?p=617678",
-   "img": "https://navabharat.com/wp-content/uploads/2026/11/MI.jpg",
-   "d": "navabharat.com",
-   "time": "20261107T180000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "भारत - यूरोपीय संघ ने होराइजन यूरोप कार्यक्रम से जुड़ने के लिए वार्ताएँ संपन्न कीं",
-   "u": "https://navabharat.com/?p=617643",
-   "img": "https://navabharat.com/wp-content/uploads/2026/11/37-5.jpg",
-   "d": "navabharat.com",
-   "time": "20261107T180000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "शेयर बाजार में फिर आई बहार , विदेशी निवेशकों ने एक हफ्ते में झोंके 45 हजार करोड़",
-   "u": "https://www.khabarfast.com/the-stock-market-is-booming-again-foreign-investors-invested-rs-45-thousand-crores-in-a-week",
-   "img": "https://www.khabarfast.com/Upload/News/%E0%A4%B6%E0%A5%87%E0%A4%AF%E0%A4%B0-%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0-%E0%A4%AE%E0%A5%87%E0%A4%82-%E0%A4%AB%E0%A4%BF%E0%A4%B0-%E0%A4%86%E0%A4%88-%E0%A4%AC%E0%A4%B9%E0%A4%BE%E0%A4%B0-%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%87%E0%A4%B6%E0%A5%80-%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A5%87%E0%A4%B6%E0%A4%95%E0%A5%8B%E0%A4%82-%E0%A4%A8%E0%A5%87-%E0%A4%8F%E0%A4%95-%E0%A4%B9%E0%A4%AB%E0%A5%8D%E0%A4%A4%E0%A5%87-%E0%A4%AE%E0%A5%87%E0%A4%82-%E0%A4%9D-1779.jpg",
-   "d": "khabarfast.com",
-   "time": "20261107T180000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "महिला से छेड़छाड़ के बाद घर में घुसकर चोरी का प्रयास",
-   "u": "https://navabharat.com/?p=617719",
-   "img": "https://navabharat.com/wp-content/uploads/2026/11/IMG-20261107-WA0039-e1794068343242-1024x564.jpg",
-   "d": "navabharat.com",
-   "time": "20261107T180000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "डिजिटल बैंक के डूबने से पराग्वे की आधी आबादी के पास नहीं बचे पैसे , राष्ट्रपति नजरबंद - paraguay bank collapse president impeached millions affected",
-   "u": "https://www.jagran.com/world/other-paraguay-bank-collapse-president-impeached-millions-affected-40430597.html",
-   "img": "https://www.jagranimages.com/images/2026/11/07/template/image/Paraguay-President-arrest-1794068368408_v.webp",
-   "d": "jagran.com",
-   "time": "20261107T180000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "फाजिल्का की लक्कड़ मंडी में दीपावली की पूर्व संध्या पर लगी भीषण आग , मौके पर फायर ब्रिगेड की कई गाड़ियां - a massive fire broke out in the wood market of fazilka on the eve of diwali with several fire brigade vehicles present at the spot",
-   "u": "https://www.jagran.com/punjab/fazilka-a-massive-fire-broke-out-in-the-wood-market-of-fazilka-on-the-eve-of-diwali-with-several-fire-brigade-vehicles-present-at-the-spot-40430651.html",
-   "img": "https://www.jagranimages.com/images/2026/11/07/template/image/AAG-1794072963388_v.webp",
-   "d": "jagran.com",
-   "time": "20261107T180000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "पश्चिम बर्धमान में रेशम उत्पादन को पुनर्जीवित करने के लिए  सॉयल - टू - सिल्क  पहल को बढ़ावा देने को सरकार प्रतिबद्ध : गिरिराज",
-   "u": "https://navabharat.com/?p=617663",
-   "img": "https://navabharat.com/wp-content/uploads/2026/11/40-3.jpg",
-   "d": "navabharat.com",
-   "time": "20261107T180000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "युद्ध समाप्ति के बाद बदल जाएगी यूक्रेन की सुरक्षा तस्वीर , यूरोप में बनाई बहुराष्ट्रीय सेना की योजना ; बढ़ेगी पुतिन की चिंता - europe boosts ukraine security multinational military exercise",
-   "u": "https://www.jagran.com/world/other-europe-boosts-ukraine-security-multinational-military-exercise-40430655.html",
-   "img": "https://www.jagranimages.com/images/2026/11/07/template/image/europe-ukrain-war-planning-1794072695836_v.webp",
-   "d": "jagran.com",
-   "time": "20261107T180000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "पैर के अंगूठे में चोट के कारण टंग ऑस्ट्रेलिया वनडे सीरीज से बाहर",
-   "u": "https://navabharat.com/?p=617669",
-   "img": "https://navabharat.com/wp-content/uploads/2026/11/42-3.jpg",
-   "d": "navabharat.com",
-   "time": "20261107T180000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "गन्ना और चावल के बाद अब मक्का पर एथनॉल का दबाव ; महंगे हो सकते हैं अंडे , चिकन और दूध - maize ethanol shift indias food prices and supply impact",
-   "u": "https://www.jagran.com/news/national-maize-ethanol-shift-indias-food-prices-and-supply-impact-40430509.html",
-   "img": "https://www.jagranimages.com/images/2026/11/07/template/image/ethanol-production-news-1794062228477_v.webp",
-   "d": "jagran.com",
-   "time": "20261107T180000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "आज घर - घर जगमगाएंगे दीपक , आतिशबाजी से रोशन होगा आसमान",
-   "u": "https://navabharat.com/?p=617638",
-   "img": "https://navabharat.com/wp-content/uploads/2026/11/IMG-20261107-WA0032.jpg",
-   "d": "navabharat.com",
-   "time": "20261107T180000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "IITians get shocked when they learn a paani puri seller has Rs 4 . 5 lakh per month in profit :  He works for six hours …",
-   "u": "https://economictimes.indiatimes.com/magazines/panache/iitians-get-shocked-when-they-learn-a-paani-puri-seller-has-rs-4-5-lakh-per-month-in-profit-he-works-for-six-hours/articleshow/135646441.cms",
-   "img": "https://img.etimg.com/thumb/msid-135646450,width-1200,height-900,imgsize-155530,overlay-etpanache/articleshow.jpg",
-   "d": "economictimes.indiatimes.com",
-   "time": "20261107T220000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Israel President Herzog tasks Eisenkot to form government",
-   "u": "https://organiser.org/2026/11/08/424952/international/israel-gadi-eisenkot-receives-mandate-to-form-government-from-president-isaac-herzog/",
-   "img": "https://organiser.org/wp-content/uploads/2026/11/whatsapp-image-2026-11-08-at-02.01.15-1.webp",
-   "d": "organiser.org",
-   "time": "20261107T220000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Virgo Horoscope Today , November 08 , 2026 : Communicate carefully and avoid impulsive decisions in relationships and financial matters .",
-   "u": "https://timesofindia.indiatimes.com/astrology/horoscope/virgo-horoscope-today-november-08-2026-communicate-carefully-and-avoid-impulsive-decisions-in-relationships-and-financial-matters-/articleshow/135623597.cms",
-   "img": "https://static.toiimg.com/thumb/msid-135623614,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-   "d": "timesofindia.indiatimes.com",
-   "time": "20261107T220000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "DMK flays govt . decision to remit money in lieu of distributing rice to ration cardholders in U . T .",
-   "u": "https://www.thehindu.com/news/cities/puducherry/dmk-flays-govts-decision-to-remit-money-in-lieu-of-distributing-rice-to-ration-cardholders-in-ut/article71677629.ece",
-   "img": "https://www.thehindu.com/theme/images/og-image.png",
-   "d": "thehindu.com",
-   "time": "20261107T220000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Why are the U . S . midterm elections significant ?",
-   "u": "https://www.thehindu.com/news/international/why-are-the-us-midterm-elections-significant/article71679440.ece",
-   "img": "https://th-i.thgim.com/public/incoming/wlwfpc/article71679444.ece/alternates/LANDSCAPE_1200/APTOPIX_Election_2_26_New_Hampshire_Senate_12184.jpg",
-   "d": "thehindu.com",
-   "time": "20261107T220000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Bharat Ratna LK Advani enters 100th year ; BJP plans grand event",
-   "u": "https://organiser.org/2026/11/08/424946/bharat/bharat-ratna-lk-advani-enters-100th-year-bjp-to-organise-special-programme-at-central-office-in-new-delhi/",
-   "img": "https://organiser.org/wp-content/uploads/2026/11/screenshot-2026-11-08-011611.webp",
-   "d": "organiser.org",
-   "time": "20261107T220000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "US military looks to curb Iranian land commerce",
-   "u": "https://timesofindia.indiatimes.com/world/middle-east/us-military-looks-to-curb-iranian-land-commerce/articleshow/135646369.cms",
-   "img": "https://static.toiimg.com/thumb/msid-135646375,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-   "d": "timesofindia.indiatimes.com",
-   "time": "20261107T220000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "A moth collected by Alfred Russel Wallace nearly 170 years ago was rediscovered in a museum drawer and helped identify 11 new species",
-   "u": "https://timesofindia.indiatimes.com/science/wildlife/a-moth-collected-by-alfred-russel-wallace-nearly-170-years-ago-was-rediscovered-in-a-museum-drawer-and-helped-identify-11-new-species/articleshow/135537442.cms",
-   "img": "https://static.toiimg.com/thumb/msid-135537565,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-   "d": "timesofindia.indiatimes.com",
-   "time": "20261107T220000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Leo Horoscope Today , November 08 , 2026 : Take practical steps towards your goals and exercise caution in shared financial matters .",
-   "u": "https://timesofindia.indiatimes.com/astrology/horoscope/leo-horoscope-today-november-08-2026-take-practical-steps-towards-your-goals-and-exercise-caution-in-shared-financial-matters-/articleshow/135623418.cms",
-   "img": "https://static.toiimg.com/thumb/msid-135623561,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-   "d": "timesofindia.indiatimes.com",
-   "time": "20261107T220000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Delhi couple buys 5 kg of fish from fishermen . What they did next went viral :  The ocean didnt need your charity …",
-   "u": "https://economictimes.indiatimes.com/magazines/panache/delhi-couple-buys-5-kg-of-fish-from-fishermen-what-they-did-next-went-viral-the-ocean-didnt-need-your-charity/articleshow/135646422.cms",
-   "img": "https://img.etimg.com/thumb/msid-135646434,width-1200,height-900,imgsize-86840,overlay-etpanache/articleshow.jpg",
-   "d": "economictimes.indiatimes.com",
-   "time": "20261107T220000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Gemini Shani Horoscope Today , 8 November 2026 : Moon Meets Mercury Retrograde Tonight , Shani Wants Careful Messages",
-   "u": "https://timesofindia.indiatimes.com/astrology/horoscope/gemini-shani-horoscope-today-8-november-2026-moon-meets-mercury-retrograde-tonight-shani-wants-careful-messages/articleshow/135501187.cms",
-   "img": "https://static.toiimg.com/thumb/msid-135501196,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-   "d": "timesofindia.indiatimes.com",
-   "time": "20261107T220000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "A Minnesota county sold a woman condo for $40 , 000 over a $15 , 000 tax debt and kept the rest ; what did the US Supreme Court say ?",
-   "u": "https://economictimes.indiatimes.com/news/international/us/a-minnesota-county-sold-a-womans-condo-for-40000-over-a-15000-tax-debt-and-kept-the-rest-what-did-the-us-supreme-court-say/articleshow/135646272.cms",
-   "img": "https://img.etimg.com/thumb/msid-135646326,width-1200,height-900,imgsize-81090,overlay-economictimes/articleshow.jpg",
-   "d": "economictimes.indiatimes.com",
-   "time": "20261107T220000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Cyberattack shuts down internet fan fiction library",
-   "u": "https://timesofindia.indiatimes.com/world/us/cyberattack-shuts-down-internet-fan-fiction-library/articleshow/135646389.cms",
-   "img": "https://static.toiimg.com/thumb/msid-135646400,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-   "d": "timesofindia.indiatimes.com",
-   "time": "20261107T220000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Gemini Shani Horoscope Today , 9 November 2026 : Shani Still Keeping Friends Talking Today , Mercury Retrograde Quincunx Uranus",
-   "u": "https://timesofindia.indiatimes.com/astrology/horoscope/gemini-shani-horoscope-today-9-november-2026-shani-still-keeping-friends-talking-today-mercury-retrograde-quincunx-uranus/articleshow/135535629.cms",
-   "img": "https://static.toiimg.com/thumb/msid-135535658,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-   "d": "timesofindia.indiatimes.com",
-   "time": "20261107T220000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Cancer Shani Horoscope Today , 8 November 2026 : Kuber Puja and Shani Retrograde Reward Steady Work",
-   "u": "https://timesofindia.indiatimes.com/astrology/horoscope/cancer-shani-horoscope-today-8-november-2026-kuber-puja-and-shani-retrograde-reward-steady-work/articleshow/135501229.cms",
-   "img": "https://static.toiimg.com/thumb/msid-135501252,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-   "d": "timesofindia.indiatimes.com",
-   "time": "20261107T220000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Cancer Shani Horoscope Today , 9 November 2026 : Mars Closes In on Jupiter in Magha , Shani Tests Your Work Plans",
-   "u": "https://timesofindia.indiatimes.com/astrology/horoscope/cancer-shani-horoscope-today-9-november-2026-mars-closes-in-on-jupiter-in-magha-shani-tests-your-work-plans/articleshow/135535703.cms",
-   "img": "https://static.toiimg.com/thumb/msid-135535713,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-   "d": "timesofindia.indiatimes.com",
-   "time": "20261107T220000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "UAE to Introduce Online Rough Valuations",
-   "u": "https://www.idexonline.com/FullArticle?Id=51496",
-   "img": "https://www.idexonline.com/image_bank/NewsRoom_FullArticle/technology/evaluer_hero.jpg",
-   "d": "idexonline.com",
-   "time": "20261107T220000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Krakow Terror : Gunman kills 5 in main market square",
-   "u": "https://organiser.org/2026/11/07/424942/international/krakow-shooting-gunman-indiscriminately-fires-kills-5-injures-several-at-cultural-hub-of-poland/",
-   "img": "https://organiser.org/wp-content/uploads/2026/11/image-2026-11-07t232255.207-1.webp",
-   "d": "organiser.org",
-   "time": "20261107T220000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "New Zealand govt holds narrow lead in poll nailbiter",
-   "u": "https://timesofindia.indiatimes.com/world/rest-of-world/new-zealand-govt-holds-narrow-lead-in-poll-nailbiter/articleshow/135646358.cms",
-   "img": "https://static.toiimg.com/thumb/msid-135646365,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-   "d": "timesofindia.indiatimes.com",
-   "time": "20261107T220000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "EOW ends search at ex - BJD MP Bhaskar Rao properties | Bhubaneswar News",
-   "u": "https://timesofindia.indiatimes.com/city/bhubaneswar/eow-ends-search-at-ex-bjd-mp-bhaskar-raos-properties/articleshow/135644709.cms",
-   "img": "https://static.toiimg.com/photo/msid-47529300/47529300.jpg",
-   "d": "timesofindia.indiatimes.com",
-   "time": "20261107T190000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Thane residents launch creative tree conservation initiatives | Mumbai News",
-   "u": "https://timesofindia.indiatimes.com/city/mumbai/thane-residents-launch-creative-tree-conservation-initiatives/articleshow/135644699.cms",
-   "img": "https://static.toiimg.com/photo/msid-47529300/47529300.jpg",
-   "d": "timesofindia.indiatimes.com",
-   "time": "20261107T190000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Parvinder father urges youth to shun drugs after Diwali | Chandigarh News",
-   "u": "https://timesofindia.indiatimes.com/city/chandigarh/parvinders-father-urges-youth-to-shun-drugs-after-diwali/articleshow/135644643.cms",
-   "img": "https://static.toiimg.com/thumb/msid-135644640,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-   "d": "timesofindia.indiatimes.com",
-   "time": "20261107T190000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "HC upholds PGIMER fresh tender for medical gas pipeline maintenance | Chandigarh News",
-   "u": "https://timesofindia.indiatimes.com/city/chandigarh/hc-upholds-pgimers-fresh-tender-for-medical-gas-pipeline-maintenance/articleshow/135644624.cms",
-   "img": "https://static.toiimg.com/thumb/msid-134949828,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-   "d": "timesofindia.indiatimes.com",
-   "time": "20261107T190000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "FC Goa call for accountability and transparency from AIFF over ISL refereeing standards",
-   "u": "https://timesofindia.indiatimes.com/city/goa/fc-goa-call-for-accountability-and-transparency-from-aiff-over-isl-refereeing-standards/articleshow/135644625.cms",
-   "img": "https://static.toiimg.com/thumb/msid-135644633,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-   "d": "timesofindia.indiatimes.com",
-   "time": "20261107T190000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "History made in Asia : EB women make AWCL knockouts",
-   "u": "https://timesofindia.indiatimes.com/city/kolkata/history-made-in-asia-eb-women-make-awcl-knockouts/articleshow/135644711.cms",
-   "img": "https://static.toiimg.com/thumb/msid-135644710,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-   "d": "timesofindia.indiatimes.com",
-   "time": "20261107T190000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Syria rules out troop deployment to Yemen , says military ties with Saudi Arabia could expand",
-   "u": "https://timesofindia.indiatimes.com/world/middle-east/syria-rules-out-troop-deployment-to-yemen-says-military-ties-with-saudi-arabia-could-expand/articleshow/135643192.cms",
-   "img": "https://static.toiimg.com/thumb/msid-135643315,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-   "d": "timesofindia.indiatimes.com",
-   "time": "20261107T190000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Meenangadi school trip row : Pocso case filed over social media abuse | Kochi News",
-   "u": "https://timesofindia.indiatimes.com/city/kochi/meenangadi-school-trip-row-pocso-case-filed-over-social-media-abuse/articleshow/135644659.cms",
-   "img": "https://static.toiimg.com/photo/msid-47529300/47529300.jpg",
-   "d": "timesofindia.indiatimes.com",
-   "time": "20261107T190000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Why should i work hard ?: Sarfaraz frustrated over delay in India recall",
-   "u": "https://www.orissapost.com/why-should-i-work-hard-sarfaraz-frustrated-over-delay-in-india-recall/",
-   "img": "https://www.orissapost.com/wp-content/uploads/2020/01/Sarfaraz-Khan.jpg",
-   "d": "orissapost.com",
-   "time": "20261107T190000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "No matter how much you praise him , it is less : BCCI VP Rajeev Shukla lauds Shami after Test retirement",
-   "u": "http://www.indiagazette.com/news/279418498/no-matter-how-much-you-praise-him-it-is-less-bcci-vp-rajeev-shukla-lauds-shami-after-test-retirement",
-   "img": "https://chitra-api.kreatio.com/api/v1/wps/086bf7b/700c74bc-d3ea-4a2b-b9a7-ec5535e4db40/0/ANI-20261107121032-600x315.jpg",
-   "d": "indiagazette.com",
-   "time": "20261107T183000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Students urged to dream big , prepare for a self - reliant India",
-   "u": "https://www.thehindu.com/news/national/andhra-pradesh/students-urged-to-dream-big-prepare-for-a-self-reliant-india/article71679044.ece",
-   "img": "https://www.thehindu.com/theme/images/og-image.png",
-   "d": "thehindu.com",
-   "time": "20261107T183000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Jindal Panther Crowned Indian Masters Champions with Thrilling 12 - 11 Victory",
-   "u": "http://www.indiagazette.com/news/279418508/jindal-panther-crowned-indian-masters-champions-with-thrilling-12-11-victory",
-   "img": "https://chitra-api.kreatio.com/api/v1/wps/28d3c11/0631fd26-6894-475d-916a-22231f4a2800/0/ANI-20261107124227-600x315.jpg",
-   "d": "indiagazette.com",
-   "time": "20261107T183000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Family Politics : Father Wins for YSRCP , Daughter for TDP !",
-   "u": "https://www.gulte.com/political-news/440363/family-politics-father-wins-for-ysrcp-daughter-for-tdp",
-   "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/HWhtLMHbEAA8-4e.jpeg",
-   "d": "gulte.com",
-   "time": "20261107T183000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Mamata alleges pre - planned attack on Abhishek residence , t",
-   "u": "https://dailypioneer.com/law-justice/mamata-alleges-pre-planned-attack-on-abhisheks-residence-threatens-to-move-supreme-court",
-   "img": "https://media.assettype.com/dailypioneer%2Fimport%2Fuploads%2F2021%2Fstory%2Fimages%2Fmedium%2FR300_bengal-cm-mamata-banerjee-visits-abhishek-s-residence-ahead-of-cbi--examination-in-coal-theft-case-2021-02-23.jpg?&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-   "d": "dailypioneer.com",
-   "time": "20261107T183000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "GATE 2027 CSE Cutoff for All NITs : Category - Wise Previous Year Trends and Expected Scores",
-   "u": "https://www.jagranjosh.com/articles/gate-2027-cse-cutoff-for-all-nits-categorywise-previous-year-trends-and-expected-scores-1800018839-1",
-   "img": "https://img.jagranjosh.com/images/2026/11/07/template/image/GATE-2027-CSE-Cutoff-for-All-NITs-1794072363215.webp",
-   "d": "jagranjosh.com",
-   "time": "20261107T183000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Deepotsav 2026 : 3 million diyas illuminate Saryu banks in Ayodhya",
-   "u": "https://www.business-standard.com/india-news/deepotsav-2026-3-million-diyas-illuminate-saryu-banks-in-ayodhya-126110701223_1.html",
-   "img": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-11/07/thumb/fitandfill/1200X628/1794072771-9101.jpg",
-   "d": "business-standard.com",
-   "time": "20261107T183000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Mahant Guruji Raju Nath Chandel Meets BJP National Office Secretary Tarun Chugh on Diwali , Extends Festive Greetings",
-   "u": "http://www.indiagazette.com/news/279418479/mahant-guruji-raju-nath-chandel-meets-bjp-national-office-secretary-tarun-chugh-on-diwali-extends-festive-greetings",
-   "img": "https://chitra-api.kreatio.com/api/v1/wps/ad90e0a/9c95424f-d855-421e-ba97-6890c977a54c/0/ANI-20261107114815-600x315.jpg",
-   "d": "indiagazette.com",
-   "time": "20261107T183000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Sonia Gandhi : Penguin was  uneasy  with criticism of the gov",
-   "u": "https://dailypioneer.com/india/sonia-gandhi-penguin-was-uneasy-with-criticism-of-the-government",
-   "img": "https://media.assettype.com/dailypioneer%2Fimport%2Fuploads%2F2026%2Fstory%2Fimages%2Fbig%2F-theft-of-democracy---bjp-on-cong-after-court-order-on-sonia-gandhi-s-voter-roll-entry-2026-09-22.jpg?&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-   "d": "dailypioneer.com",
-   "time": "20261107T183000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "It was a tricky wicket : NZ skipper Santner after loss to India in 2nd ODI",
-   "u": "http://www.indiagazette.com/news/279418474/it-was-a-tricky-wicket-nz-skipper-santner-after-loss-to-india-in-2nd-odi",
-   "img": "https://chitra-api.kreatio.com/api/v1/wps/e104156/16d5288a-913b-40e4-93c2-d4d972130352/0/ANI-20261107112329-600x315.jpg",
-   "d": "indiagazette.com",
-   "time": "20261107T183000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Netanyahu Iran Attack Plan | Trump Stopped Israel PM Mosad Operation",
-   "u": "https://www.bhaskar.com/international/news/netanyahu-mosad-chief-plan-iran-attack-trump-stop-israel-news-139624855.html",
+   "t": "Alphatec Holdings , Inc . ( ATEC ) Investigation : Bronstein , Gewirtz & ...",
+   "u": "https://www.pr-inside.com/alphatec-holdings-inc-atec-investigation-bronstein-gewirtz-r5241977.htm",
    "img": "",
-   "d": "bhaskar.com",
-   "time": "20261107T220000Z",
-   "cat": "bharat-hi"
+   "d": "pr-inside.com",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
   },
   {
-   "t": "FSSAI Raid : Adulterated Food Seized , Shops Sealed Across India",
-   "u": "https://www.bhaskar.com/national/news/fssai-raid-adulterated-food-seized-shops-sealed-india-139625952.html",
+   "t": "COP31 starts Monday . As global temperatures continue to rise , do climate talks matter ?",
+   "u": "https://www.kvnf.org/2026-11-08/cop31-starts-monday-as-global-temperatures-continue-to-rise-do-climate-talks-matter",
    "img": "",
-   "d": "bhaskar.com",
-   "time": "20261107T220000Z",
-   "cat": "bharat-hi"
+   "d": "kvnf.org",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
   },
   {
-   "t": "Israel Prime Minister Election Update | Eisenkot Gains Support vs Netanyahu",
-   "u": "https://www.bhaskar.com/international/news/israel-prime-minister-election-eisenkot-netanyahu-government-update-139623287.html",
+   "t": "Two syndicalists gut the 1926 General Strike of its political lessons Part Two",
+   "u": "https://www.wsws.org/en/articles/2026/11/08/wggs-n08.html",
    "img": "",
-   "d": "bhaskar.com",
-   "time": "20261107T220000Z",
-   "cat": "bharat-hi"
+   "d": "wsws.org",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
   },
   {
-   "t": "Ramayan Movie Jaipur Jewelry | Ranbir Kapoor Sai Pallavi Ornaments",
-   "u": "https://www.bhaskar.com/local/rajasthan/news/ramayan-movie-jaipur-jewelry-ranbir-kapoor-sai-pallavi-design-139617907.html",
+   "t": "U . S . District Court Judge Issues TRO to Prevent Federal Government from Ordering Washington State Election Officials Not to Process 400 Ballots",
+   "u": "https://ballot-access.org/2026/11/08/u-s-district-court-judge-issues-tro-to-prevent-federal-government-from-ordering-washington-state-election-officials-from-processing-400-ballots/",
    "img": "",
-   "d": "bhaskar.com",
-   "time": "20261107T220000Z",
-   "cat": "bharat-hi"
+   "d": "ballot-access.org",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
   },
   {
-   "t": "धन - संपत्ति नहीं , आत्मबोध से धन्य होता है जीवनःसाध्वी विद्युतप्रभा श्रीजी",
-   "u": "https://pressnote.in/article7271_545909.html",
+   "t": "Bronstein , Gewirtz & Grossman , LLC Is Investigating Dollar General ...",
+   "u": "https://www.pr-inside.com/bronstein-gewirtz-grossman-llc-is-investigating-dollar-general-r5241976.htm",
    "img": "",
-   "d": "pressnote.in",
-   "time": "20261107T190000Z",
-   "cat": "bharat-hi"
+   "d": "pr-inside.com",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
   },
   {
-   "t": "सिनेमाघरों में धमाल मचाने के बाद ओटीटी पर आएगी  हनुमान अंश",
-   "u": "https://www.loktej.com/article/154313/after-making-a-splash-in-theatres-hanuman-ansh-will-come",
+   "t": "Let Get Back to the Basics at JTA",
+   "u": "https://forum.metrojacksonville.com/index.php/topic,38458.msg539025/topicseen.html",
    "img": "",
-   "d": "loktej.com",
-   "time": "20261107T190000Z",
-   "cat": "bharat-hi"
+   "d": "forum.metrojacksonville.com",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
   },
   {
-   "t": "Poland Krakow Market Shooting Attack | Police Action & Casualties Update",
-   "u": "https://www.bhaskar.com/international/news/poland-krakow-market-shooting-attack-police-update-139624465.html",
+   "t": "Bronstein , Gewirtz & Grossman , LLC Encourages Sysco Corporation ( SYY ) ...",
+   "u": "https://www.pr-inside.com/bronstein-gewirtz-grossman-llc-encourages-sysco-corporation-syy-r5241981.htm",
    "img": "",
-   "d": "bhaskar.com",
-   "time": "20261107T183000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "Kirti vs Mmtc Limited on 1 November , 2026",
-   "u": "https://indiankanoon.org/doc/137547609/",
-   "img": "",
-   "d": "indiankanoon.org",
-   "time": "20261107T190000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "BIAL responds to concerns over local employment , says Kannadigas form majority of workforce",
-   "u": "https://aninews.in/news/national/general-news/bial-responds-to-concerns-over-local-employment-says-kannadigas-form-majority-of-workforce20261107213953/",
-   "img": "",
-   "d": "aninews.in",
-   "time": "20261107T183000Z",
-   "cat": "bharat-en"
+   "d": "pr-inside.com",
+   "time": "20261108T210000Z",
+   "cat": "duniya"
   }
  ]
 }
