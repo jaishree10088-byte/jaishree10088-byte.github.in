@@ -540,16 +540,14 @@
     function applyVisualEdits() {
       if (!gjsEditor || !generatedHTML) return;
       var html = gjsEditor.getHtml();
+      html = html.replace(/^\s*<html[^>]*>/i, "").replace(/<\/html>\s*$/i, "");
+      html = html.replace(/^\s*<body[^>]*>/i, "").replace(/<\/body>\s*$/i, "");
       var css = gjsEditor.getCss();
       generatedHTML = generatedHTML
         .replace(/<style>[\s\S]*?<\/style>/, "<style>\n" + (gjsBaseCss || "") + "\n/* Visual editor changes */\n" + css + "\n</style>")
         .replace(/<body>[\s\S]*?<\/body>/, "<body>\n" + html + "\n</body>");
-      var w = window._realPreview;
-      if (w) {
-        w.iframe.srcdoc = generatedHTML;
-        w.pre.textContent = generatedHTML;
-      }
       closeVisualEditor();
+      showPreview();
       setStatus("Visual edits applied — preview updated. Click Download .HTML File to save it.");
     }
     function resetNew() {
