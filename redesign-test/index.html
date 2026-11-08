@@ -5,7 +5,7 @@
 <meta name="description" content="ResumeMaker: free resume builder, AI website builder, passive website security scanner, bug finder, vulnerability reports and image metadata cleaner — all free in your browser."/>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;700&amp;family=Playfair+Display:wght@600;700;800&amp;family=DM+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
@@ -14,18 +14,21 @@ tailwind.config = {
   theme: {
     extend: {
       colors: {
-        ink: "#0b1220",
-        sidebar: "#0d1526",
-        panel: "#111a2e",
-        panel2: "#16213a",
-        line: "#22304d",
-        accent: "#206bc4",
-        accent2: "#1a5cab",
-        mint: "#2fb344",
-        amber: "#f59f00",
-        violet: "#7048e8",
-        mut: "#8b98ad",
-        txt: "#e6ebf2"
+        ink: "#0F211A",
+        sidebar: "#1B4332",
+        panel: "#1E3A2C",
+        panel2: "#244534",
+        line: "#2E5240",
+        accent: "#4ADE80",
+        accent2: "#16A34A",
+        mint: "#4ADE80",
+        amber: "#D2691E",
+        violet: "#6B7F3A",
+        mut: "#A8BFA9",
+        sage: "#87AE73",
+        gold: "#E9C46A",
+        terra: "#C4622D",
+        txt: "#FFFEF5"
       },
       fontFamily: {
         sans: ["Inter", "system-ui", "sans-serif"],
@@ -39,7 +42,8 @@ tailwind.config = {
   html, body { margin: 0; padding: 0; }
   body { overscroll-behavior: none; }
   ::-webkit-scrollbar { width: 10px; height: 10px; }
-  ::-webkit-scrollbar-thumb { background: #22304d; border-radius: 6px; }
+  ::-webkit-scrollbar-thumb { background: #2E5240; border-radius: 6px; }
+  h1, h2, h3 { font-family: "Playfair Display", Georgia, serif; }
   ::-webkit-scrollbar-track { background: transparent; }
   .nav-link, .tool-card, .stat-card { transition: all 150ms ease; }
   .nav-link:active, .tool-card:active, button:active { transform: scale(0.97); }
@@ -62,7 +66,7 @@ tailwind.config = {
       <img alt="ResumeMaker Logo" class="h-8 w-auto object-contain" src="webforge-logo.png"/>
       <div class="flex flex-col">
         <span class="text-base font-bold tracking-tight">ResumeMaker</span>
-        <span class="font-mono text-[11px] text-accent tracking-widest">v5.0 · NEW DESIGN</span>
+        <span class="font-mono text-[11px] text-accent tracking-widest">v5.1 · NATURE MIX</span>
       </div>
     </div>
     <div class="px-3 pt-3">
@@ -91,7 +95,7 @@ tailwind.config = {
         <nav class="space-y-1">
           <a class="nav-link flex items-center gap-3 px-3 py-2 rounded-lg text-mut hover:text-txt" href="https://resumemaker.de5.net/security-scanner.html"><span class="material-symbols-outlined text-lg">radar</span><span class="text-sm">Security Scanner</span></a>
           <a class="nav-link flex items-center gap-3 px-3 py-2 rounded-lg text-mut hover:text-txt" href="https://resumemaker.de5.net/bug-finder.html"><span class="material-symbols-outlined text-lg">bug_report</span><span class="text-sm">Bug Finder</span></a>
-          <a class="nav-link flex items-center gap-3 px-3 py-2 rounded-lg text-mut hover:text-txt" href="https://resumemaker.de5.net/vulnerability-reports.html"><span class="material-symbols-outlined text-lg">shield_with_heart</span><span class="text-sm">Vulnerability Reports</span><span class="ml-auto px-1.5 py-0.5 rounded bg-accent text-white text-[10px] font-bold">3</span></a>
+          <a class="nav-link flex items-center gap-3 px-3 py-2 rounded-lg text-mut hover:text-txt" href="https://resumemaker.de5.net/vulnerability-reports.html"><span class="material-symbols-outlined text-lg">shield_with_heart</span><span class="text-sm">Vulnerability Reports</span><span class="ml-auto px-1.5 py-0.5 rounded bg-accent text-[#0F211A] text-[10px] font-bold">3</span></a>
           <a class="nav-link flex items-center gap-3 px-3 py-2 rounded-lg text-mut hover:text-txt" href="https://sandipk.qd.je/metadata-cleaner/"><span class="material-symbols-outlined text-lg">image</span><span class="text-sm">MetaClean</span></a>
         </nav>
       </div>
@@ -139,7 +143,7 @@ tailwind.config = {
         </div>
       </div>
       <div class="flex items-center gap-2">
-        <a class="hidden sm:flex items-center gap-2 px-3 py-2 rounded-lg bg-accent hover:bg-accent2 text-white text-xs font-bold transition-colors" href="https://resumemaker.de5.net/security-scanner.html"><span class="material-symbols-outlined text-base">bolt</span><span>START SCAN</span></a>
+        <a class="hidden sm:flex items-center gap-2 px-3 py-2 rounded-lg bg-accent hover:bg-accent2 text-[#0F211A] text-xs font-bold transition-colors" href="https://resumemaker.de5.net/security-scanner.html"><span class="material-symbols-outlined text-base">bolt</span><span>START SCAN</span></a>
         <a class="hidden sm:flex items-center gap-2 px-3 py-2 rounded-lg bg-panel2 hover:bg-panel text-xs font-bold transition-colors" href="https://resumemaker.de5.net/ai-website-builder.html"><span class="material-symbols-outlined text-base">add_box</span><span>NEW PROJECT</span></a>
         <div class="relative flex items-center justify-center p-2 text-mut hover:text-txt cursor-pointer">
           <span class="material-symbols-outlined">notifications</span>
@@ -164,7 +168,7 @@ tailwind.config = {
         <h1 class="text-3xl xl:text-5xl font-extrabold tracking-tight leading-tight">Build your resume, website &amp; security — free.</h1>
         <p class="text-base xl:text-lg text-mut leading-relaxed">Welcome back, Sandip. Create a professional resume in minutes, generate a website with AI, and scan any site for security issues — no account, no payment, no upload.</p>
         <div class="flex flex-wrap items-center gap-3 pt-1">
-          <button class="flex items-center gap-2 px-5 py-3 rounded-lg bg-accent hover:bg-accent2 text-white text-sm font-bold transition-colors" type="button"><span class="material-symbols-outlined text-lg">bolt</span><span>CREATE WEBSITE WITH AI</span></button>
+          <button class="flex items-center gap-2 px-5 py-3 rounded-lg bg-accent hover:bg-accent2 text-[#0F211A] text-sm font-bold transition-colors" type="button"><span class="material-symbols-outlined text-lg">bolt</span><span>CREATE WEBSITE WITH AI</span></button>
           <button class="flex items-center gap-2 px-5 py-3 rounded-lg bg-panel2 hover:bg-line text-txt text-sm font-bold transition-colors" type="button"><span class="material-symbols-outlined text-lg">shield</span><span>LAUNCH SECURITY AUDIT</span></button>
           <button class="flex items-center gap-2 px-5 py-3 rounded-lg bg-transparent border border-line hover:border-mut text-mut hover:text-txt text-sm font-bold transition-colors" type="button"><span class="material-symbols-outlined text-lg">pest_control</span><span>DEEP BUG SCAN</span></button>
           <button class="flex items-center gap-2 px-5 py-3 rounded-lg bg-transparent border border-line hover:border-mut text-mut hover:text-txt text-sm font-bold transition-colors" type="button"><span class="material-symbols-outlined text-lg">summarize</span><span>VIEW REPORT</span></button>
@@ -192,7 +196,7 @@ tailwind.config = {
         </div>
       </div>
       <div class="stat-card relative overflow-hidden rounded-xl bg-panel border border-line p-5">
-        <div class="absolute top-0 left-0 right-0 h-1 bg-mint"></div>
+        <div class="absolute top-0 left-0 right-0 h-1 bg-sage"></div>
         <div class="flex items-start justify-between">
           <div class="space-y-1">
             <span class="text-[11px] font-semibold text-mut uppercase tracking-wider">Security Health</span>
@@ -283,7 +287,7 @@ tailwind.config = {
           <span class="inline-flex items-center gap-1 text-sm font-semibold text-accent">Open tool →</span>
         </a>
         <a class="tool-card block rounded-xl bg-panel border border-line p-5 space-y-2" href="https://resumemaker.de5.net/security-scanner.html">
-          <div class="w-10 h-10 rounded-lg bg-mint/15 text-mint flex items-center justify-center"><span class="material-symbols-outlined">radar</span></div>
+          <div class="w-10 h-10 rounded-lg bg-sage/15 text-sage flex items-center justify-center"><span class="material-symbols-outlined">radar</span></div>
           <h3 class="font-bold">Security Scanner</h3>
           <p class="text-sm text-mut">Passive scan of any website — headers, TLS, and 30+ security checks.</p>
           <span class="inline-flex items-center gap-1 text-sm font-semibold text-accent">Open tool →</span>
@@ -301,7 +305,7 @@ tailwind.config = {
           <span class="inline-flex items-center gap-1 text-sm font-semibold text-accent">Open tool →</span>
         </a>
         <a class="tool-card block rounded-xl bg-panel border border-line p-5 space-y-2" href="https://sandipk.qd.je/metadata-cleaner/">
-          <div class="w-10 h-10 rounded-lg bg-cyan-400/15 text-cyan-400 flex items-center justify-center"><span class="material-symbols-outlined">image</span></div>
+          <div class="w-10 h-10 rounded-lg bg-gold/15 text-gold flex items-center justify-center"><span class="material-symbols-outlined">image</span></div>
           <h3 class="font-bold">MetaClean</h3>
           <p class="text-sm text-mut">Strip EXIF, GPS and AI tags from photos before posting — fully private.</p>
           <span class="inline-flex items-center gap-1 text-sm font-semibold text-accent">Open tool →</span>
@@ -425,24 +429,24 @@ tailwind.config = {
             <svg class="w-full h-44 my-auto overflow-visible" preserveaspectratio="none" viewbox="0 0 700 160">
               <defs>
                 <lineargradient id="primaryArea" x1="0" x2="0" y1="0" y2="1">
-                  <stop offset="0%" stop-color="#7048e8" stop-opacity="0.25"></stop>
-                  <stop offset="100%" stop-color="#7048e8" stop-opacity="0"></stop>
+                  <stop offset="0%" stop-color="#6B7F3A" stop-opacity="0.25"></stop>
+                  <stop offset="100%" stop-color="#6B7F3A" stop-opacity="0"></stop>
                 </lineargradient>
                 <lineargradient id="secondaryArea" x1="0" x2="0" y1="0" y2="1">
-                  <stop offset="0%" stop-color="#206bc4" stop-opacity="0.3"></stop>
-                  <stop offset="100%" stop-color="#206bc4" stop-opacity="0"></stop>
+                  <stop offset="0%" stop-color="#4ADE80" stop-opacity="0.3"></stop>
+                  <stop offset="100%" stop-color="#4ADE80" stop-opacity="0"></stop>
                 </lineargradient>
               </defs>
               <line stroke="#22304d" stroke-dasharray="4 4" stroke-width="1" x1="0" x2="700" y1="40" y2="40"></line>
               <line stroke="#22304d" stroke-dasharray="4 4" stroke-width="1" x1="0" x2="700" y1="80" y2="80"></line>
               <line stroke="#22304d" stroke-dasharray="4 4" stroke-width="1" x1="0" x2="700" y1="120" y2="120"></line>
               <path d="M0,130 C70,110 140,140 210,90 C280,40 350,70 420,50 C490,30 560,90 630,60 C665,45 700,30 700,30 L700,160 L0,160 Z" fill="url(#primaryArea)"></path>
-              <path d="M0,130 C70,110 140,140 210,90 C280,40 350,70 420,50 C490,30 560,90 630,60 C665,45 700,30 700,30" fill="none" stroke="#7048e8" stroke-width="2.5"></path>
+              <path d="M0,130 C70,110 140,140 210,90 C280,40 350,70 420,50 C490,30 560,90 630,60 C665,45 700,30 700,30" fill="none" stroke="#6B7F3A" stroke-width="2.5"></path>
               <path d="M0,150 C80,145 150,152 230,135 C310,118 390,140 470,110 C550,80 620,105 700,75 L700,160 L0,160 Z" fill="url(#secondaryArea)"></path>
-              <path d="M0,150 C80,145 150,152 230,135 C310,118 390,140 470,110 C550,80 620,105 700,75" fill="none" stroke="#206bc4" stroke-width="2"></path>
-              <circle class="animate-ping" cx="420" cy="50" fill="#7048e8" opacity="0.75" r="4"></circle>
-              <circle cx="420" cy="50" fill="#d0bcff" r="3"></circle>
-              <circle cx="630" cy="60" fill="#206bc4" r="3"></circle>
+              <path d="M0,150 C80,145 150,152 230,135 C310,118 390,140 470,110 C550,80 620,105 700,75" fill="none" stroke="#4ADE80" stroke-width="2"></path>
+              <circle class="animate-ping" cx="420" cy="50" fill="#6B7F3A" opacity="0.75" r="4"></circle>
+              <circle cx="420" cy="50" fill="#BBF7D0" r="3"></circle>
+              <circle cx="630" cy="60" fill="#4ADE80" r="3"></circle>
             </svg>
             <div class="flex justify-between items-center z-10 font-mono text-xs text-mut pt-1">
               <span>12:00</span><span>13:00</span><span>14:00</span><span>15:00</span><span>16:00</span><span>17:00 (NOW)</span>
@@ -553,7 +557,7 @@ tailwind.config = {
       </div>
       <div class="mt-6 pt-4 border-t border-line flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 text-xs text-mut">
         <span>© 2026 ResumeMaker · Free forever</span>
-        <span>Design: Tabler × AdminLTE × HyperUI mix</span>
+        <span>Design: Verdant Journal × Verde Living nature mix</span>
         <span>Developer by Sandip Kumar Mahto</span>
       </div>
     </footer>
