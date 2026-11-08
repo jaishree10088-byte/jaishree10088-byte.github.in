@@ -434,7 +434,7 @@ Viral Video Studio — Video enhancement plus viral toolkit app</textarea>
       }
       if (t.section === "icon") {
         var ch = title.charAt(0);
-        return '<div style="font-size: 15px; font-weight: bold; color: ' + t.dark + '; text-transform: uppercase; margin-top: 18px; margin-bottom: 6px; padding-bottom: 5px; border-bottom: 2px solid ' + t.accent + ';"><span style="display: inline-block; width: 24px; height: 24px; border-radius: 50%; background: ' + t.dark + '; color: #ffffff; text-align: center; line-height: 24px; font-size: 13px; margin-right: 8px; vertical-align: middle;">' + ch + '</span>' + title + '</div>';
+        return '<div style="font-size: 15px; font-weight: bold; color: ' + t.dark + '; text-transform: uppercase; margin-top: 18px; margin-bottom: 6px; padding-bottom: 5px; border-bottom: 2px solid ' + t.accent + ';"><span style="display: inline-block; width: 24px; height: 24px; border-radius: 50%; background: ' + t.dark + '; color: #ffffff; text-align: center; line-height: 24px; font-size: 13px; margin-right: 10px; vertical-align: middle;">' + ch + '</span>' + title + '</div>';
       }
       if (t.section === "line") {
         return '<div style="font-size: 15px; font-weight: bold; color: ' + t.dark + '; text-transform: uppercase; margin-top: 18px; margin-bottom: 6px; border-left: 4px solid ' + t.accent + '; padding-left: 10px;">' + title + '</div>';
@@ -507,35 +507,7 @@ Viral Video Studio — Video enhancement plus viral toolkit app</textarea>
       return h4;
     }
 
-    function headerHTML() {
-      var name = val("resName").trim() || "Your Name";
-      var title = val("resTitle").trim();
-      var email = val("resEmail").trim();
-      var phone = val("resPhone").trim();
-      var website = val("resWebsite").trim();
-      var parts = [];
-      if (phone) parts.push("PHONE  " + phone);
-      if (email) parts.push("EMAIL  " + email);
-      var contact1 = parts.join("   |   ");
-      var photoBox = "";
-      if (photoDataURL) {
-        photoBox = '<img src="' + photoDataURL + '" style="width: 100%; height: 100%; object-fit: cover; display: block;" alt="Photo"/>';
-      } else {
-        photoBox = '<div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; text-align: center; color: #ffffff; font-weight: bold; font-size: 14px; line-height: 1.4;">ADD<br/>PHOTO<br/>HERE</div>';
-      }
-      var h = '<div style="display: table; width: 100%; background: #16324F;">';
-      h += '<div style="display: table-cell; vertical-align: middle; padding: 20px;">';
-      h += '<div style="font-size: 30px; font-weight: bold; color: #ffffff; line-height: 1.2;">' + esc(name) + '</div>';
-      if (title) h += '<div style="font-size: 14px; color: #E0EBF2; margin-top: 4px;">' + esc(title) + '</div>';
-      if (contact1) h += '<div style="font-size: 12px; color: #E0EBF2; margin-top: 6px;">' + esc(contact1) + '</div>';
-      if (website) h += '<div style="font-size: 12px; color: #E0EBF2; margin-top: 2px;">' + esc(website) + '</div>';
-      h += '</div>';
-      h += '<div style="display: table-cell; width: 170px; vertical-align: middle; padding: 10px;">';
-      h += '<div style="width: 150px; height: 170px; border: 2px solid #ffffff; background: #16324F; overflow: hidden;">' + photoBox + '</div>';
-      h += '</div>';
-      h += '</div>';
-      return h;
-    }
+
         function eduRows() {
       var rows = [];
       [["edu10_qual", "edu10_school", "edu10_board", "edu10_year", "edu10_marks"],
