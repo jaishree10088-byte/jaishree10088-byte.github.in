@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+<title>ResumeMaker – Free Resume Builder (Design Preview)</title>
+<meta name="description" content="ResumeMaker: free resume builder with 16 designs, live preview, download or print — all free in your browser."/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;family=Open+Sans:wght@300;400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        ink: "#F8FAFC",
+        sidebar: "#1E3A5F",
+        panel: "#ffffff",
+        panel2: "#E9EEF5",
+        line: "#CBD5E1",
+        accent: "#16A34A",
+        accent2: "#15803D",
+        mint: "#16A34A",
+        amber: "#e67e22",
+        violet: "#1E3A5F",
+        mut: "#475569",
+        sage: "#1E3A5F",
+        gold: "#16A34A",
+        secondary: "#2563EB",
+        terra: "#C4622D",
+        txt: "#0F172A"
+      },
+      fontFamily: {
+        sans: ["Open Sans", "system-ui", "sans-serif"],
+        mono: ["JetBrains Mono", "monospace"]
+      }
+    }
+  }
+};
+</script>
+<style>
+  html, body { margin: 0; padding: 0; }
+  body { overscroll-behavior: none; }
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-thumb { background: #1E3A5F; border-radius: 6px; }
+  h1, h2, h3 { font-family: "Poppins", sans-serif; }
+  h2 { text-transform: uppercase; letter-spacing: .02em; }
+  #sidebar { color: #fff; }
+  #sidebar .text-mut { color: rgba(255,255,255,.65); }
+  #sidebar .text-txt { color: #fff; }
+  #sidebar .text-accent { color: #16A34A; }
+  #sidebar .nav-link { color: rgba(255,255,255,.85); }
+  #sidebar .nav-link:hover { color: #fff; background: rgba(255,255,255,.08); }
+  #sidebar .bg-ink { background: rgba(255,255,255,.08); border-color: rgba(255,255,255,.15); }
+  #sidebar input { color: #fff; }
+  #sidebar input::placeholder { color: rgba(255,255,255,.5); }
+  ::-webkit-scrollbar-track { background: transparent; }
+  .nav-link, .tool-card, .stat-card { transition: all 150ms ease; }
+  .nav-link:active, .tool-card:active, button:active { transform: scale(0.97); }
+  @media (hover: hover) and (pointer: fine) {
+    .nav-link:hover { background: rgba(255,255,255,0.06); }
+    .tool-card:hover { transform: translateY(-2px); border-color: #2563EB; }
+    .stat-card:hover { border-color: #2563EB; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .animate-pulse, .animate-ping { animation: none !important; }
+  }
+</style>
+</head>
+<body class="bg-ink font-sans text-txt antialiased">
+
+<!-- ============ SIDEBAR (AdminLTE: dark sidebar + filter box + grouped nav + badges) ============ -->
+<aside id="sidebar" class="fixed left-0 top-0 h-full w-64 bg-sidebar border-r border-line z-50 flex flex-col justify-between -translate-x-full lg:translate-x-0 transition-transform duration-200">
+  <div class="flex flex-col flex-1 min-h-0">
+    <div class="h-16 px-4 flex items-center gap-3 border-b border-line">
+      <img alt="ResumeMaker Logo" class="h-8 w-auto object-contain" src="webforge-logo.png"/>
+      <div class="flex flex-col">
+        <span class="text-base font-bold tracking-tight">ResumeMaker</span>
+        <span class="font-mono text-[11px] text-accent tracking-widest">NEW DESIGN · PRO MAX</span>
+      </div>
+    </div>
+    <div class="px-3 pt-3">
+      <div class="flex items-center gap-2 px-3 py-2 rounded-lg bg-ink border border-line">
+        <span class="material-symbols-outlined text-base text-mut">search</span>
+        <input id="menuFilter" class="w-full bg-transparent text-sm placeholder:text-mut focus:outline-none" placeholder="Filter menu…" type="text"/>
+      </div>
+    </div>
+    <div class="overflow-y-auto px-3 py-3 space-y-5 flex-1" id="sideNav">
+      <div class="nav-group space-y-1">
+        <div class="px-3 text-[11px] font-semibold text-mut tracking-wider uppercase">Core</div>
+        <nav class="space-y-1">
+          <a aria-current="page" class="nav-link flex items-center gap-3 px-3 py-2 rounded-lg bg-accent/15 text-white font-semibold" href="index.html"><span class="material-symbols-outlined text-lg">grid_view</span><span class="text-sm">Dashboard</span></a>
+          <a class="nav-link flex items-center gap-3 px-3 py-2 rounded-lg text-mut hover:text-txt" href="https://resumemaker.de5.net/resume-builder.html"><span class="material-symbols-outlined text-lg">description</span><span class="text-sm">Resume Builder</span></a>
+        </nav>
+      </div>
+      <div class="nav-group space-y-1">
+        <div class="px-3 text-[11px] font-semibold text-mut tracking-wider uppercase">Tools</div>
+        <nav class="space-y-1">
+          <a class="nav-link flex items-center gap-3 px-3 py-2 rounded-lg text-mut hover:text-txt" href="https://sandipk.qd.je/metadata-cleaner/"><span class="material-symbols-outlined text-lg">image</span><span class="text-sm">MetaClean</span></a>
+        </nav>
+      </div>
+      <div class="nav-group space-y-1">
+        <div class="px-3 text-[11px] font-semibold text-mut tracking-wider uppercase">System</div>
+        <nav class="space-y-1">
+          <a class="nav-link flex items-center gap-3 px-3 py-2 rounded-lg text-mut hover:text-txt" href="https://aahar.jharkhand.gov.in/" target="_blank" rel="noopener"><span class="material-symbols-outlined text-lg">shopping_basket</span><span class="text-sm">Ration Card</span></a>
+          <a class="nav-link flex items-center gap-3 px-3 py-2 rounded-lg text-mut hover:text-txt" href="https://myaadhaar.uidai.gov.in/" target="_blank" rel="noopener"><span class="material-symbols-outlined text-lg">badge</span><span class="text-sm">Aadhaar Card</span></a>
+          <a class="nav-link flex items-center gap-3 px-3 py-2 rounded-lg text-mut hover:text-txt" href="https://pmkisan.gov.in/" target="_blank" rel="noopener"><span class="material-symbols-outlined text-lg">agriculture</span><span class="text-sm">PM Kisan</span></a>
+          <a class="nav-link flex items-center gap-3 px-3 py-2 rounded-lg text-mut hover:text-txt" href="#"><span class="material-symbols-outlined text-lg">settings</span><span class="text-sm">Settings</span></a>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="p-3 border-t border-line space-y-2">
+    <div class="flex items-center gap-3 px-2">
+      <img alt="Profile" class="w-9 h-9 rounded-full object-cover" src="avatar-cartoon.png"/>
+      <div class="flex flex-col">
+        <span class="text-sm font-semibold">Sandip</span>
+        <span class="text-[11px] text-accent">Resume Builder</span>
+      </div>
+    </div>
+    <div class="px-3 py-2 rounded-lg bg-ink border border-line flex items-center justify-between">
+      <div class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-mint animate-pulse"></span><span class="font-mono text-[11px] text-mint">FREE FOREVER</span></div>
+      <span class="font-mono text-[11px] text-mut">NO SIGN-UP</span>
+    </div>
+  </div>
+</aside>
+
+<div class="lg:pl-64 flex flex-col min-h-screen">
+  <!-- ============ TOP BAR (Tabler: breadcrumb + search + actions) ============ -->
+  <header class="sticky top-0 h-16 bg-ink/90 backdrop-blur-xl z-40 border-b border-line">
+    <div class="h-16 w-full px-4 flex items-center justify-between gap-4">
+      <div class="flex items-center gap-3 min-w-0">
+        <button id="menuBtn" class="lg:hidden p-2 rounded-lg text-mut hover:text-txt" type="button" aria-label="Toggle menu"><span class="material-symbols-outlined">menu</span></button>
+        <nav class="flex items-center gap-1.5 text-sm whitespace-nowrap">
+          <a class="text-mut hover:text-txt" href="index.html">Home</a>
+          <span class="text-mut">/</span>
+          <span class="font-semibold">Dashboard</span>
+        </nav>
+        <div class="hidden md:flex items-center gap-2 px-3 py-1.5 rounded-full bg-panel border border-line text-mut">
+          <span class="material-symbols-outlined text-base">search</span>
+          <span class="text-xs">Quick Search...</span>
+          <kbd class="px-1.5 py-0.5 rounded bg-panel2 font-mono text-[11px] text-mut">Ctrl+K</kbd>
+        </div>
+      </div>
+      <div class="flex items-center gap-2">
+        <a class="hidden sm:flex items-center gap-2 px-3 py-2 rounded-lg bg-accent hover:bg-accent2 text-black text-xs font-bold transition-colors" href="https://resumemaker.de5.net/resume-builder.html"><span class="material-symbols-outlined text-base">description</span><span>BUILD RESUME</span></a>
+        <div class="relative flex items-center justify-center p-2 text-mut hover:text-txt cursor-pointer">
+          <span class="material-symbols-outlined">notifications</span>
+          <span class="absolute top-0.5 right-0.5 flex items-center justify-center w-4 h-4 rounded-full bg-red-500 text-white text-[10px] font-bold">3</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="w-full flex-1 px-4 py-6 xl:px-8 xl:py-8 space-y-6">
+
+    <!-- ============ HERO (Start Bootstrap Freelancer: teal hero, avatar, star divider) ============ -->
+    <section class="relative overflow-hidden rounded-xl bg-[#1E3A5F] text-white">
+      <div class="px-6 py-14 xl:py-16 text-center space-y-5">
+        <div class="mx-auto w-28 h-28 rounded-full bg-white flex items-center justify-center shadow-lg">
+          <span class="text-4xl font-extrabold text-[#1E3A5F]">RM</span>
+        </div>
+        <h1 class="text-4xl xl:text-6xl font-extrabold tracking-wide uppercase">ResumeMaker</h1>
+        <div class="flex items-center justify-center gap-3">
+          <span class="w-24 h-1 bg-white rounded"></span>
+          <span class="text-3xl leading-none">★</span>
+          <span class="w-24 h-1 bg-white rounded"></span>
+        </div>
+        <p class="text-lg xl:text-xl font-bold text-white/95">Professional Resume Builder — 16 Designs, Free Forever</p>
+        <p class="text-base text-white/85 max-w-2xl mx-auto">Build your resume — free. Welcome back, Sandip. Create a professional resume in minutes — 16 designs, live preview, download or print. No account, no payment, no upload.</p>
+        <div class="flex flex-wrap items-center justify-center gap-3 pt-2">
+          <a class="flex items-center gap-2 px-5 py-3 rounded-lg bg-[#16A34A] text-black text-sm font-bold transition-colors" href="https://resumemaker.de5.net/resume-builder.html"><span class="material-symbols-outlined text-lg">description</span><span>BUILD MY RESUME</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TOOLS GRID (HyperUI: 6 feature cards) ============ -->
+    <section>
+      <div class="flex items-end justify-between mb-3">
+        <div>
+          <h2 class="text-xl font-bold">All tools, one place</h2>
+          <p class="text-sm text-mut">Every tool runs free in your browser — nothing to install.</p>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4">
+        <a class="tool-card block rounded-xl bg-panel border border-line p-5 space-y-2" href="https://resumemaker.de5.net/resume-builder.html">
+          <div class="w-10 h-10 rounded-lg bg-accent/15 text-accent flex items-center justify-center"><span class="material-symbols-outlined">description</span></div>
+          <h3 class="font-bold">Resume Builder</h3>
+          <p class="text-sm text-mut">16 professional designs, live preview, download as HTML or print to PDF.</p>
+          <span class="inline-flex items-center gap-1 text-sm font-semibold text-accent">Open tool →</span>
+        </a>
+        <a class="tool-card block rounded-xl bg-panel border border-line p-5 space-y-2" href="https://sandipk.qd.je/metadata-cleaner/">
+          <div class="w-10 h-10 rounded-lg bg-secondary/15 text-secondary flex items-center justify-center"><span class="material-symbols-outlined">image</span></div>
+          <h3 class="font-bold">MetaClean</h3>
+          <p class="text-sm text-mut">Strip EXIF, GPS and AI tags from photos before posting — fully private.</p>
+          <span class="inline-flex items-center gap-1 text-sm font-semibold text-accent">Open tool →</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============ FOOTER (Start Bootstrap Freelancer: navy 3-col + dark bar) ============ -->
+    <footer class="rounded-xl overflow-hidden">
+      <div class="bg-[#1E3A5F] text-white">
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 px-6 py-10 text-center">
+          <div class="space-y-2">
+            <h4 class="text-lg font-bold uppercase tracking-wide">ResumeMaker</h4>
+            <p class="text-sm text-white/75">Free resume builder — 16 designs, live preview, download or print. All in your browser.</p>
+          </div>
+          <div class="space-y-2">
+            <h4 class="text-lg font-bold uppercase tracking-wide">Tools</h4>
+            <ul class="space-y-1.5 text-sm">
+              <li><a class="text-white/75 hover:text-white" href="https://resumemaker.de5.net/resume-builder.html">Resume Builder</a></li>
+                  <li><a class="text-white/75 hover:text-white" href="https://sandipk.qd.je/metadata-cleaner/">MetaClean</a></li>
+            </ul>
+          </div>
+          <div class="space-y-2">
+            <h4 class="text-lg font-bold uppercase tracking-wide">Resources</h4>
+            <ul class="space-y-1.5 text-sm">
+              <li><a class="text-white/75 hover:text-white" href="https://aahar.jharkhand.gov.in/" target="_blank" rel="noopener">Ration Card</a></li>
+              <li><a class="text-white/75 hover:text-white" href="https://myaadhaar.uidai.gov.in/" target="_blank" rel="noopener">Aadhaar Card</a></li>
+              <li><a class="text-white/75 hover:text-white" href="https://pmkisan.gov.in/" target="_blank" rel="noopener">PM Kisan</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="bg-[#152C4A] text-center py-4 px-4 text-xs text-white/70">Copyright © ResumeMaker 2026 · Design: UI/UX Pro Max system (MIT) · Minimalism &amp; Swiss Style · Developer by Sandip Kumar Mahto</div>
+    </footer>
+  </main>
+</div>
+
+<script>
+  (function () {
+    var btn = document.getElementById("menuBtn");
+    var sb = document.getElementById("sidebar");
+    if (btn && sb) {
+      btn.addEventListener("click", function () { sb.classList.toggle("-translate-x-full"); });
+    }
+    var f = document.getElementById("menuFilter");
+    if (f) {
+      f.addEventListener("input", function () {
+        var q = (f.value || "").toLowerCase();
+        document.querySelectorAll("#sideNav .nav-group").forEach(function (g) {
+          var any = false;
+          g.querySelectorAll("a").forEach(function (a) {
+            var show = !q || (a.textContent || "").toLowerCase().indexOf(q) >= 0;
+            a.style.display = show ? "" : "none";
+            if (show) any = true;
+          });
+          g.style.display = any ? "" : "none";
+        });
+      });
+    }
+  })();
+</script>
+</body>
+</html>
