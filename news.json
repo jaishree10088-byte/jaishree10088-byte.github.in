@@ -1,189 +1,186 @@
 {
-  "edition": "मंगलवार, 10 नवंबर 2026",
-  "updated_at": "2026-11-10T05:00:00+05:30",
+  "edition": "बुधवार, 11 नवंबर 2026",
   "stories": [
     {
-      "id": "2026-11-10-bharat-1",
+      "body_en": "Former Congress president Sonia Gandhi has revealed in her memoir that she was diagnosed with cancer twice during the second term of the UPA government. The disclosure is among the most personal passages in the book, which looks back at her decades in public life.\n\nShe has also recalled how she first rejected the proposal to become prime minister after the UPA's electoral victory, briefly answered with a hesitant \"theek hai\", and then went back to her refusal. In the same memoir she says Prime Minister Narendra Modi avoids eye contact and that there is practically no real contact between them. The BJP has attacked the book, accusing it of sugar-coating historical wrongs.",
+      "body_hi": "कांग्रेस की पूर्व अध्यक्ष सोनिया गांधी ने अपने संस्मरण में खुलासा किया है कि यूपीए सरकार के दूसरे कार्यकाल के दौरान उन्हें दो बार कैंसर हुआ था। यह खुलासा किताब के सबसे निजी हिस्सों में से एक है, जिसमें उन्होंने सार्वजनिक जीवन के अपने दशकों पर पीछे मुड़कर देखा है।\n\nउन्होंने यह भी याद किया है कि यूपीए की चुनावी जीत के बाद प्रधानमंत्री बनने के प्रस्ताव को उन्होंने पहले ठुकरा दिया था, फिर कुछ देर के लिए हिचकिचाते हुए \"ठीक है\" कहा, और बाद में फिर से इनकार कर दिया। उसी संस्मरण में उन्होंने कहा है कि प्रधानमंत्री नरेंद्र मोदी आंखों में आंखें डालकर बात नहीं करते और उनके बीच व्यावहारिक रूप से कोई वास्तविक संपर्क नहीं है। भाजपा ने किताब पर हमला करते हुए इस पर ऐतिहासिक गलतियों को छिपाने का आरोप लगाया है।",
       "cat": "bharat",
-      "title_hi": "दिल्ली में पाँच साल की सबसे प्रदूषित दीवाली, कई मॉनिटरिंग स्टेशन बंद मिलने पर आँकड़ों पर सवाल",
-      "title_en": "Delhi Records Most Polluted Diwali In Five Years; Monitoring Gaps Raise Questions Over AQI Data",
-      "body_hi": "दिल्ली ने पाँच साल की सबसे प्रदूषित दीवाली दर्ज की — औसत वायु गुणवत्ता सूचकांक 376 रहा और दीवाली के अगले दिन सुबह 10 बजे भी यह 371 पर था, जो 'बहुत खराब' श्रेणी में आता है। शहर पर धुएँ और कोहरे की मोटी चादर छाई रही।\n\nचिंता की बात यह है कि दीवाली की रात पटाखों के सबसे ज़्यादा इस्तेमाल के समय कई मॉनिटरिंग स्टेशन बंद हो गए, जिससे आधिकारिक आँकड़ों की विश्वसनीयता पर सवाल उठ रहे हैं। विशेषज्ञों का कहना है कि असली प्रदूषण दर्ज आँकड़ों से भी ज़्यादा हो सकता है।",
-      "body_en": "Delhi recorded its most polluted Diwali in five years, with the average air quality index at 376, and it was only marginally better at 371 at 10 am the morning after, when smog and fog blanketed the city.\n\nSeveral monitoring stations went offline on Diwali night during the peak period of firecracker use, raising questions over the reliability of the official figures. Experts say the actual pollution may have been worse than what was recorded.",
-      "source": "Mathrubhumi",
-      "source_url": "https://english.mathrubhumi.com/education/news/school-assembly-news-headlines-script-tuesday-november-10-2026-xmrhh4jk",
-      "img": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1v051ehcwe6p7ydpt9b/1/school-assembly-headlines-jpg.jpeg?f=40%3A21&w=1200&q=0.60",
+      "id": "2026-11-11-bharat-1",
+      "img": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1v11cio15q2di39yo3y/0/whatsapp-image-2026-11-10-at-9-53-27-pm-jpg.webp?f=40:21&w=1200&q=1",
+      "source": "Mathrubhumi English",
+      "source_url": "https://english.mathrubhumi.com/amp/education/news/school-assembly-news-headlines-today-november-11-2026-ifjun0hf",
+      "tags": [
+        "#SoniaGandhi",
+        "#Congress",
+        "#Memoir",
+        "#TaazaKhabar"
+      ],
+      "title_en": "Sonia Gandhi's memoir reveals she battled cancer twice and turned down the prime minister's post",
+      "title_hi": "सोनिया गांधी के संस्मरण में बड़े खुलासे: दो बार कैंसर से लड़ीं, प्रधानमंत्री बनने से किया था इनकार",
+      "page": "khabar/2026-11-11-bharat-1.html"
+    },
+    {
+      "body_en": "Satellite images show a dense layer of smog still hanging over northern India two days after Diwali. Delhi recorded its most polluted Diwali in five years, and Chennai's air quality turned 'very poor' as its AQI crossed 300.\n\nStage III restrictions under the Graded Response Action Plan remain in force across Delhi-NCR, and the post-Diwali haze led to delays in 44 per cent of flight departures from Delhi. A global list of the most polluted cities placed 47 Indian cities among the top 50, with Hisar at the top and Delhi at ninth place.",
+      "body_hi": "उपग्रह तस्वीरों में दिख रहा है कि दिवाली के दो दिन बाद भी उत्तर भारत पर धुंध की घनी परत छाई हुई है। दिल्ली ने पांच साल की सबसे प्रदूषित दिवाली दर्ज की, जबकि चेन्नई में वायु गुणवत्ता 'बहुत खराब' श्रेणी में पहुंच गई और एक्यूआई 300 के पार चला गया।\n\nदिल्ली-एनसीआर में ग्रेडेड रिस्पांस एक्शन प्लान के तीसरे चरण की पाबंदियां लागू हैं, और दिवाली के बाद के धुंध के कारण दिल्ली से उड़ने वाली 44 प्रतिशत उड़ानों में देरी हुई। दुनिया के सबसे प्रदूषित शहरों की सूची में शीर्ष 50 में भारत के 47 शहर हैं — हिसार पहले स्थान पर और दिल्ली नौवें स्थान पर है।",
+      "cat": "bharat",
+      "id": "2026-11-11-bharat-2",
+      "img": "https://im.whatshot.in/img/2022/Oct/og-image-1666788848.jpg?wm=1&",
+      "source": "NDTV",
+      "source_url": "https://www.ndtv.com/education/school-assembly-news-headlines-november-11-top-national-international-news-12308882/amp/1",
       "tags": [
         "#DelhiPollution",
-        "#Diwali",
-        "#AQI",
-        "#Delhi",
+        "#DiwaliSmog",
+        "#AirQuality",
         "#TaazaKhabar"
       ],
-      "page": "khabar/2026-11-10-bharat-1.html"
+      "title_en": "Thick smog still blankets north India two days after Diwali; GRAP-III curbs stay in Delhi-NCR",
+      "title_hi": "दिवाली के दो दिन बाद भी उत्तर भारत में घना धुंध, दिल्ली में GRAP-3 की पाबंदियां जारी",
+      "page": "khabar/2026-11-11-bharat-2.html"
     },
     {
-      "id": "2026-11-10-bharat-2",
+      "body_en": "Delhi is set to get its first recreational river cruise service on the Yamuna. Union Minister Sarbananda Sonowal, along with Delhi Chief Minister Rekha Gupta and Lieutenant Governor Taranjit Singh Sandhu, is scheduled to inaugurate the service, which will run along the Sonia Vihar-Jagatpur stretch of the river.\n\nThe Delhi government has also declared November 16 a public holiday on account of Chhath Puja, allowing devotees to celebrate the festival. Preparations for Chhath are under way across the capital.",
+      "body_hi": "दिल्ली को यमुना पर अपनी पहली मनोरंजक क्रूज़ सेवा मिलने जा रही है। केंद्रीय मंत्री सर्बानंद सोनोवाल, दिल्ली की मुख्यमंत्री रेखा गुप्ता और उपराज्यपाल तरणजीत सिंह संधू इस सेवा का उद्घाटन करेंगे, जो यमुना के सोनिया विहार-जगतपुर हिस्से में चलेगी।\n\nदिल्ली सरकार ने छठ पूजा के अवसर पर 16 नवंबर को सार्वजनिक अवकाश भी घोषित किया है, ताकि श्रद्धालु त्योहार मना सकें। राजधानी भर में छठ की तैयारियां चल रही हैं।",
       "cat": "bharat",
-      "title_hi": "प्रधानमंत्री मोदी ने यूक्रेन के राष्ट्रपति ज़ेलेंस्की से की बात, मानव-केंद्रित रुख दोहराया",
-      "title_en": "PM Modi Speaks To Ukraine President Zelenskyy, Reaffirms Human-Centric Approach",
-      "body_hi": "प्रधानमंत्री नरेंद्र मोदी ने यूक्रेन के राष्ट्रपति वोलोडिमिर ज़ेलेंस्की से फोन पर बात की। ज़ेलेंस्की ने चल रहे संघर्ष से जुड़े हालिया घटनाक्रमों पर अपना दृष्टिकोण साझा किया।\n\nबातचीत के दौरान प्रधानमंत्री मोदी ने भारत के मानव-केंद्रित दृष्टिकोण की पुष्टि की और कहा कि भारत शांति के हर प्रयास का समर्थन करता है।",
-      "body_en": "Prime Minister Narendra Modi spoke on the phone with Ukrainian President Volodymyr Zelenskyy, who shared his perspective on recent developments related to the ongoing conflict.\n\nDuring the conversation, Prime Minister Modi reaffirmed India's human-centric approach and said India supports every effort towards peace.",
-      "source": "The Knowledge Library",
-      "source_url": "https://www.theknowledgelibrary.in/daily-current-affairs-news-headlines-10-11-2026/",
-      "img": "https://d2zfbyesi0qka0.cloudfront.net/wp-content/uploads/2025/08/08-6.jpg",
-      "tags": [
-        "#PMModi",
-        "#Zelenskyy",
-        "#Ukraine",
-        "#India",
-        "#TaazaKhabar"
-      ],
-      "page": "khabar/2026-11-10-bharat-2.html"
-    },
-    {
-      "id": "2026-11-10-bharat-3",
-      "cat": "bharat",
-      "title_hi": "दिल्ली में आज से शुरू होगी यमुना पर पहली मनोरंजक क्रूज़ सेवा",
-      "title_en": "Delhi To Launch First Recreational Yamuna River Cruise Service Today",
-      "body_hi": "दिल्ली में आज से यमुना नदी पर पहली मनोरंजक क्रूज़ सेवा शुरू हो रही है। यह सेवा यात्रियों को नदी से शहर के ऐतिहासिक किनारों का नज़ारा दिखाएगी।\n\nप्रशासन का कहना है कि यह पहल नदी पर्यटन को बढ़ावा देगी और यमुना को शहर की जीवनरेखा के रूप में फिर से जोड़ने की दिशा में एक कदम है।",
-      "body_en": "Delhi is set to launch its first recreational cruise service on the Yamuna river today, offering passengers a view of the city's historic banks from the water.\n\nOfficials say the initiative will boost river tourism and is a step towards reconnecting the Yamuna with the city's daily life.",
-      "source": "NDTV",
-      "source_url": "https://www.ndtv.com/education/school-assembly-news-headlines-november-10-top-national-international-sports-news-12304388/amp/1",
+      "id": "2026-11-11-bharat-3",
       "img": "https://images.timesnownews.com/thumb/msid-153035619,thumbsize-65848,width-1280,height-720,resizemode-75/153035619.jpg",
+      "source": "Jagran Josh",
+      "source_url": "https://www.jagranjosh.com/lite/articles/school-assembly-news-headlines-november-11-2026-qualcomm-nvidia-ceo-8th-pay-commission-grap-4-and-other-news-1800018941-1",
       "tags": [
-        "#Yamuna",
+        "#YamunaCruise",
         "#Delhi",
-        "#Cruise",
-        "#RiverTourism",
+        "#ChhathPuja",
         "#TaazaKhabar"
       ],
-      "page": "khabar/2026-11-10-bharat-3.html"
+      "title_en": "Delhi gets its first Yamuna river cruise; November 16 declared a public holiday for Chhath",
+      "title_hi": "दिल्ली को पहली यमुना क्रूज़ सेवा, छठ पर 16 नवंबर को सार्वजनिक अवकाश",
+      "page": "khabar/2026-11-11-bharat-3.html"
     },
     {
-      "id": "2026-11-10-duniya-1",
+      "body_en": "Negotiators from the United States, Russia and Ukraine began a two-day round of talks in Abu Dhabi on Tuesday, November 10, aimed at ending the war that began with Russia's full-scale invasion in February 2022. It is the first trilateral session since February, and the Kremlin has described it as running through November 10-11.\n\nThe talks are being led by US envoys Steve Witkoff and Jared Kushner, with security guarantees for Ukraine at the centre of the agenda, along with post-war security arrangements, de-escalation and humanitarian efforts. European delegates are also attending. No breakthrough has been announced so far.",
+      "body_hi": "अमेरिका, रूस और यूक्रेन के वार्ताकारों ने मंगलवार, 10 नवंबर को अबू धाबी में दो दिन की वार्ता शुरू की, जिसका मकसद फरवरी 2022 में रूस के पूर्ण आक्रमण से शुरू हुए युद्ध को समाप्त करना है। फरवरी के बाद यह पहली त्रिपक्षीय बैठक है, और क्रेमलिन के अनुसार यह 10-11 नवंबर तक चलेगी।\n\nवार्ता का नेतृत्व अमेरिका के दूत स्टीव विटकॉफ और जेरेड कुशनर कर रहे हैं। एजेंडे के केंद्र में यूक्रेन के लिए सुरक्षा गारंटी है, साथ ही युद्ध के बाद की सुरक्षा व्यवस्था, तनाव कम करने और मानवीय प्रयासों पर भी चर्चा हो रही है। यूरोपीय प्रतिनिधि भी इसमें शामिल हैं। अब तक किसी बड़ी सफलता की घोषणा नहीं हुई है।",
       "cat": "duniya",
-      "title_hi": "रूस-यूक्रेन शांति वार्ता आज से अबू धाबी में, अमेरिका की मध्यस्थता में दो दिन चलेगी बैठक",
-      "title_en": "Russia-Ukraine Peace Talks Begin Today In Abu Dhabi, US-Mediated Meeting To Run Two Days",
-      "body_hi": "रूस और यूक्रेन के बीच अमेरिका की मध्यस्थता में नई शांति वार्ता आज अबू धाबी में शुरू हो रही है। यह बैठक 10 और 11 नवंबर को चलेगी।\n\nवार्ता से पहले दोनों पक्षों ने एक-दूसरे की ऊर्जा और तेल सुविधाओं पर हमले किए, जिससे बातचीत की पृष्ठभूमि तनावपूर्ण बनी हुई है। दुनिया की नज़रें इस बात पर हैं कि क्या इस बार कोई ठोस प्रगति होगी।",
-      "body_en": "A new round of US-mediated peace talks between Russia and Ukraine begins today in Abu Dhabi, running over November 10 and 11.\n\nHours before the delegations were due to meet, Russia struck Ukraine's power grid again while Ukrainian forces hit another of Russia's biggest oil refineries, leaving the backdrop to the talks tense. The world is watching to see whether any concrete progress emerges this time.",
-      "source": "KIMKJ",
-      "source_url": "https://kimkj.com/en/global-conflict-board-en/?mod=document&uid=21229",
-      "img": "https://www.aljazeera.com/wp-content/uploads/2026/01/epa_6973ded12f33-1769201361.jpg?resize=1920%2C1440",
+      "id": "2026-11-11-duniya-1",
+      "img": "https://i0.wp.com/political.org/wp-content/uploads/2026/09/4bb1407f60c0.jpg?fit=1027%2C662&ssl=1",
+      "source": "Political.org",
+      "source_url": "https://political.org/2026/11/10/u-s-russia-and-ukraine-begin-two-day-talks-in-abu-dhabi-aimed-at-ending-the-war/",
       "tags": [
-        "#RussiaUkraine",
+        "#Ukraine",
+        "#Russia",
         "#PeaceTalks",
-        "#AbuDhabi",
         "#WorldNews"
       ],
-      "page": "khabar/2026-11-10-duniya-1.html"
+      "title_en": "Russia-Ukraine peace talks open in Abu Dhabi, first trilateral meeting in nine months",
+      "title_hi": "अबू धाबी में रूस-यूक्रेन शांति वार्ता: नौ महीने बाद पहली त्रिपक्षीय बैठक",
+      "page": "khabar/2026-11-11-duniya-1.html"
     },
     {
-      "id": "2026-11-10-duniya-2",
+      "body_en": "US President Donald Trump has said the war with Iran is \"effectively over\" in military terms, adding that negotiations with Tehran are going very well. Speaking at the White House, he said the United States is \"fully locked and loaded\" but does not think there will be a need to use its military equipment.\n\nIran has said negotiations cannot proceed unless the US lifts the blockade and sanctions and releases frozen assets. Trump also said the Russia-Ukraine ceasefire shows a \"very strong inclination\", though neither conflict is near a guaranteed settlement yet.",
+      "body_hi": "अमेरिकी राष्ट्रपति डोनाल्ड ट्रंप ने कहा है कि ईरान के साथ युद्ध सैन्य रूप से \"व्यावहारिक रूप से खत्म\" हो गया है, और तेहरान के साथ बातचीत बहुत अच्छी चल रही है। व्हाइट हाउस में बोलते हुए उन्होंने कहा कि अमेरिका \"पूरी तरह तैयार\" है, लेकिन उन्हें नहीं लगता कि सैन्य ताकत के इस्तेमाल की जरूरत पड़ेगी।\n\nईरान ने कहा है कि जब तक अमेरिका नाकाबंदी और प्रतिबंध नहीं हटाता और जब्त संपत्ति नहीं लौटाता, तब तक बातचीत आगे नहीं बढ़ सकती। ट्रंप ने यह भी कहा कि रूस-यूक्रेन संघर्षविराम की ओर \"बहुत मजबूत रुझान\" दिख रहा है, हालांकि दोनों में से कोई भी संघर्ष अभी पक्के समझौते के करीब नहीं है।",
       "cat": "duniya",
-      "title_hi": "तुर्की में COP31 जलवायु शिखर सम्मेलन शुरू, नेताओं ने जलवायु कार्रवाई तेज़ करने की अपील की",
-      "title_en": "COP31 Climate Summit Begins In Turkey As Leaders Urge Faster Action On Global Warming",
-      "body_hi": "तुर्की में COP31 जलवायु शिखर सम्मेलन शुरू हो गया है। बैठक में विश्व नेताओं ने देशों से ग्लोबल वार्मिंग रोकने के लिए कहीं तेज़ी से काम करने की अपील की और चेतावनी दी कि जलवायु संकट लगातार बिगड़ रहा है।\n\nसंयुक्त राष्ट्र महासचिव ने कहा है कि दुनिया 'जलवायु चरम' के युग में प्रवेश कर रही है, जहाँ बढ़ता तापमान, हिंसक मौसम और पिघलती बर्फ़ समुदायों के लिए अस्तित्व का संकट बन रही है।",
-      "body_en": "The COP31 climate summit has begun in Turkey, where world leaders urged countries to act much faster to stop global warming, warning that the climate crisis is getting worse.\n\nThe UN Secretary-General has declared that the world is entering an 'age of climate extremes', with rising temperatures, violent weather and melting ice posing existential risks to communities.",
-      "source": "The Knowledge Library",
-      "source_url": "https://www.theknowledgelibrary.in/daily-current-affairs-news-headlines-10-11-2026/",
-      "img": "https://theglobalobservatory.org/wp-content/uploads/2026/02/GO-3-2-1300x500.jpg",
-      "tags": [
-        "#COP31",
-        "#Climate",
-        "#Turkey",
-        "#WorldNews"
-      ],
-      "page": "khabar/2026-11-10-duniya-2.html"
-    },
-    {
-      "id": "2026-11-10-duniya-3",
-      "cat": "duniya",
-      "title_hi": "ट्रंप बोले — चीन में APEC शिखर सम्मेलन में शी और पुतिन से मिल सकते हैं",
-      "title_en": "Trump Says He May Meet Xi And Putin At APEC Summit In China",
-      "body_hi": "अमेरिका के राष्ट्रपति डोनाल्ड ट्रंप ने कहा है कि वह चीन में होने वाले APEC शिखर सम्मेलन में चीनी राष्ट्रपति शी जिनपिंग और रूसी राष्ट्रपति व्लादिमीर पुतिन से मिल सकते हैं।\n\nबीजिंग ने कहा है कि वह इस प्रस्ताव पर संबंधित पक्षों से संपर्क में है। अगर यह मुलाकात होती है, तो यह तीनों बड़े नेताओं की एक अहम त्रिपक्षीय बैठक होगी।",
-      "body_en": "US President Donald Trump has said he may meet Chinese President Xi Jinping and Russian President Vladimir Putin at the APEC summit in China.\n\nBeijing said it is 'in communication with parties' on the proposed meeting. If it happens, it would be a significant trilateral gathering of the three leaders.",
-      "source": "NDTV",
-      "source_url": "https://www.ndtv.com/education/school-assembly-news-headlines-november-10-top-national-international-sports-news-12304388/amp/1",
-      "img": "https://www.rappler.com/tachyon/2026/05/2026-05-14T023551Z_24980325_RC2Q8LAEL78Q_RTRMADP_3_CHINA-USA.jpg?resize=545%2C545&crop=318px%2C0px%2C1534px%2C1534px&zoom=1",
+      "id": "2026-11-11-duniya-2",
+      "img": "https://img.jagranjosh.com/images/2026/11/10/template/image/stakeholderjio-(51)-1794319490812.webp",
+      "source": "Jagran Josh",
+      "source_url": "https://www.jagranjosh.com/lite/general-knowledge/usiran-war-is-effectively-over-russiaukraine-war-ceasefire-shows-very-strong-inclination-trump-are-the-2-big-conflicts-ending-1820013739-1",
       "tags": [
         "#Trump",
-        "#XiJinping",
-        "#APEC",
+        "#Iran",
+        "#USIran",
         "#WorldNews"
       ],
-      "page": "khabar/2026-11-10-duniya-3.html"
+      "title_en": "Trump says US-Iran war is 'effectively over' as talks progress; Ukraine ceasefire also in sight",
+      "title_hi": "ट्रंप बोले — अमेरिका-ईरान युद्ध 'व्यावहारिक रूप से खत्म', रूस-यूक्रेन संघर्षविराम की भी उम्मीद",
+      "page": "khabar/2026-11-11-duniya-2.html"
     },
     {
-      "id": "2026-11-10-khel-1",
+      "body_en": "Aaryavir Sehwag, son of India great Virender Sehwag, smashed 160 off 168 balls to power India Under-19 to a 70-run win over the UAE in the U19 Asia Cup at Al Amerat on Tuesday. It was his maiden hundred in Youth ODIs, brought up off 131 balls, and featured 17 fours and seven sixes.\n\nIndia posted 309 for 7, with VK Vineeth contributing 67 off 69 in a 193-run partnership with Aaryavir. The win confirmed India's place in the semifinals, where they will face Afghanistan on Thursday, November 12. Aaryavir, who leads the tournament charts with 252 runs in three matches, later revealed he had promised his father a big hundred in the must-win game.",
+      "body_hi": "भारत के महान बल्लेबाज वीरेंद्र सहवाग के बेटे आर्यवीर सहवाग ने मंगलवार को अल अमरात में अंडर-19 एशिया कप में यूएई के खिलाफ 168 गेंदों पर 160 रन ठोककर भारत को 70 रन से जीत दिलाई। यह यूथ वनडे में उनका पहला शतक था, जो 131 गेंदों पर पूरा हुआ और इसमें 17 चौके और सात छक्के शामिल थे।\n\nभारत ने 309 रन बनाए, जिसमें वीके विनीत ने 69 गेंदों पर 67 रन का योगदान दिया और आर्यवीर के साथ 193 रन की साझेदारी की। इस जीत से भारत ने सेमीफाइनल में जगह पक्की कर ली, जहां गुरुवार, 12 नवंबर को उसका सामना अफगानिस्तान से होगा। तीन मैचों में 252 रन बनाकर टूर्नामेंट में सबसे आगे चल रहे आर्यवीर ने बाद में बताया कि उन्होंने अपने पिता से इस अहम मैच में बड़ा शतक लगाने का वादा किया था।",
       "cat": "khel",
-      "title_hi": "भारत-न्यूज़ीलैंड तीसरा वनडे आज हैमिल्टन में, सीरीज़ जीतने के इरादे से उतरेगी टीम इंडिया",
-      "title_en": "India Eye Series Win As Third ODI Against New Zealand Gets Underway In Hamilton Today",
-      "body_hi": "भारत और न्यूज़ीलैंड के बीच पाँच मैचों की वनडे सीरीज़ का तीसरा मुकाबला आज हैमिल्टन के सेडन पार्क में खेला जा रहा है। मैच भारतीय समयानुसार सुबह 7:30 बजे शुरू हुआ।\n\nभारत सीरीज़ में 2-0 से आगे है और आज जीत के साथ सीरीज़ पर कब्ज़ा करना चाहेगा। कप्तान शुभमन गिल इस मैच के बाद वनडे टीम से अलग होकर टेस्ट सीरीज़ की तैयारी में जुटेंगे।",
-      "body_en": "The third ODI of the five-match series between India and New Zealand is being played today at Seddon Park in Hamilton, starting at 7:30 am IST.\n\nIndia lead the series 2-0 and will look to seal it with a win today. Captain Shubman Gill will leave the ODI squad after this match to prepare for the two-match Test series.",
-      "source": "ABP Live",
-      "source_url": "https://news.abplive.com/sports/cricket/ind-vs-nz-3rd-odi-live-streaming-tv-broadcast-when-where-to-watch-potential-series-decider-1875278",
-      "img": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/11/09/f2505589d891a16d490c901186f83ac017942232176471303_original.png?impolicy=abp_cdn&imwidth=1200",
+      "id": "2026-11-11-khel-1",
+      "img": "https://img.cricketnmore.com/uploads/2026/11/aaryavir-sehwags-160-carnage-powers-india-u19-to-70-run-win-over-uae-and-into-asia-cup-sf-md.jpg",
+      "source": "Cricketnmore",
+      "source_url": "https://www.cricketnmore.com/cricket-news/aaryavir-sehwags-160-carnage-powers-india-u19-to-70-run-win-over-uae-and-into-asia-cup-sf-207931",
       "tags": [
-        "#INDvsNZ",
         "#Cricket",
-        "#TeamIndia",
+        "#U19AsiaCup",
+        "#AaryavirSehwag",
         "#TaazaKhabar"
       ],
-      "page": "khabar/2026-11-10-khel-1.html"
+      "title_en": "Aaryavir Sehwag's blazing 160 takes India U19 into the Asia Cup semifinals",
+      "title_hi": "आर्यवीर सहवाग का धमाकेदार 160: भारत अंडर-19 एशिया कप सेमीफाइनल में",
+      "page": "khabar/2026-11-11-khel-1.html"
     },
     {
-      "id": "2026-11-10-khel-2",
+      "body_en": "Manu Bhaker, Esha Singh and Divya have sealed India's second gold medal of the 2026 World Shooting Championships. The trio's success adds another major honour to India's growing shooting medal tally at the world championships.\n\nThe gold underlines the depth of Indian shooting, with three of the country's leading women shooters combining to deliver on the sport's biggest stage.",
+      "body_hi": "मनु भाकर, ईशा सिंह और दिव्या ने 2026 विश्व शूटिंग चैंपियनशिप में भारत को दूसरा स्वर्ण पदक दिलाया है। इस तिकड़ी की सफलता ने विश्व चैंपियनशिप में भारत के बढ़ते शूटिंग पदक खाते में एक और बड़ा सम्मान जोड़ दिया है।\n\nयह स्वर्ण भारतीय शूटिंग की गहराई को दिखाता है, जहां देश की तीन अग्रणी महिला निशानेबाजों ने मिलकर खेल के सबसे बड़े मंच पर कमाल किया।",
       "cat": "khel",
-      "title_hi": "सूर्यकुमार यादव बने मुंबई के नए कप्तान, सैयद मुश्ताक अली ट्रॉफी में करेंगे अगुवाई",
-      "title_en": "Suryakumar Yadav Named Mumbai's New Captain For Syed Mushtaq Ali Trophy",
-      "body_hi": "सूर्यकुमार यादव को मुंबई का नया कप्तान बनाया गया है। वह 2026-27 सैयद मुश्ताक अली ट्रॉफी में टीम की अगुवाई करेंगे। उन्होंने शार्दुल ठाकुर की जगह ली है।\n\nसूर्यकुमार 2026 आईपीएल के बाद पहली बार पेशेवर क्रिकेट में वापसी कर रहे हैं। मुंबई का अभियान 14 नवंबर को हैदराबाद के खिलाफ कोलकाता में शुरू होगा।",
-      "body_en": "Suryakumar Yadav has been appointed as Mumbai's new captain and will lead the team in the 2026-27 Syed Mushtaq Ali Trophy, replacing Shardul Thakur.\n\nSuryakumar returns to professional cricket for the first time since the 2026 IPL. Mumbai open their campaign against Hyderabad on November 14 in Kolkata.",
+      "id": "2026-11-11-khel-2",
+      "img": "https://images.timesnownews.com/thumb/msid-156490195,thumbsize-186644,width-1280,height-720,resizemode-75/156490195.jpg",
       "source": "Times Now",
-      "source_url": "https://www.timesnownews.com/sports/cricket/suryakumar-yadav-named-new-mumbai-captain-syed-mushtaq-ali-trophy-2026-2027-article-156486221",
-      "img": "https://images.timesnownews.com/thumb/msid-156486453,thumbsize-425435,width-1280,height-720,resizemode-75/156486453.jpg",
+      "source_url": "https://www.timesnownews.com/education/school-assembly-news-headlines-today-nov-11-top-national-international-sports-updates-thought-of-the-day-article-156490013/amp",
       "tags": [
-        "#SuryakumarYadav",
-        "#Mumbai",
-        "#Cricket",
+        "#Shooting",
+        "#ManuBhaker",
+        "#WorldChampionship",
         "#TaazaKhabar"
       ],
-      "page": "khabar/2026-11-10-khel-2.html"
+      "title_en": "Manu Bhaker, Esha Singh and Divya win India its second gold at the World Shooting Championships",
+      "title_hi": "मनु भाकर, ईशा सिंह और दिव्या ने दिलाया भारत को विश्व शूटिंग चैंपियनशिप में दूसरा स्वर्ण",
+      "page": "khabar/2026-11-11-khel-2.html"
     },
     {
-      "id": "2026-11-10-vyapar-1",
+      "body_en": "Indian stock markets will resume trading on Wednesday, November 11, after staying closed on Tuesday for Diwali-Balipratipada. In the previous session on Monday, the BSE Sensex settled at 81,106.65, gaining 107.25 points, while the NSE Nifty closed at 25,044.65, up 58.25 points — their highest closing levels since February 27, 2026.\n\nThe benchmarks have surged about 10.5 per cent over seven sessions, helped by falling crude oil prices — Brent slipped below $95 a barrel — and renewed foreign investor buying. HSBC has upgraded Indian equities to 'overweight' and Citigroup has raised its Nifty target to 28,000. This report carries only facts and no investment advice.",
+      "body_hi": "भारतीय शेयर बाजार मंगलवार को दिवाली-बलिप्रतिपदा के कारण बंद रहने के बाद बुधवार, 11 नवंबर से फिर खुलेंगे। सोमवार के पिछले सत्र में बीएसई सेंसेक्स 107.25 अंक बढ़कर 81,106.65 पर बंद हुआ, जबकि एनएसई निफ्टी 58.25 अंक चढ़कर 25,044.65 पर रहा — 27 फरवरी 2026 के बाद का यह उनका सबसे ऊंचा बंद स्तर है।\n\nसात सत्रों में सूचकांक लगभग 10.5 प्रतिशत चढ़े हैं, जिसमें कच्चे तेल की गिरती कीमतों — ब्रेंट 95 डॉलर प्रति बैरल से नीचे — और विदेशी निवेशकों की खरीदारी का योगदान रहा। एचएसबीसी ने भारतीय शेयरों की रेटिंग बढ़ाकर 'ओवरवेट' कर दी है और सिटीग्रुप ने निफ्टी का लक्ष्य 28,000 कर दिया है। इस खबर में सिर्फ तथ्य हैं, कोई निवेश सलाह नहीं।",
       "cat": "vyapar",
-      "title_hi": "दिवाली-बलीप्रतिपदा पर आज शेयर बाज़ार बंद, सोमवार को सेंसेक्स 81,107 पर बंद हुआ था",
-      "title_en": "Stock Markets Closed Today For Diwali-Balipratipada; Sensex Had Ended At 81,107 On Monday",
-      "body_hi": "दीवाली-बलीप्रतिपदा के मौके पर आज भारतीय शेयर बाज़ार बंद रहेंगे। नेशनल स्टॉक एक्सचेंज और बॉम्बे स्टॉक एक्सचेंज दोनों में इक्विटी कारोबार स्थगित रहेगा।\n\nसोमवार को बेंचमार्क सूचकांक बढ़त के साथ बंद हुए थे — सेंसेक्स 107 अंक चढ़कर 81,106.65 पर और निफ्टी 58 अंक बढ़कर 25,044.65 पर बंद हुआ था। सार्वजनिक क्षेत्र के बैंकों और रक्षा शेयरों में खरीदारी से बाज़ार को सहारा मिला था। नियमित कारोबार बुधवार 11 नवंबर से फिर शुरू होगा।",
-      "body_en": "Indian stock markets will remain closed today on account of Diwali-Balipratipada, with trading suspended on both the National Stock Exchange and the Bombay Stock Exchange.\n\nBenchmark indices had ended higher on Monday — the Sensex gained 107 points to close at 81,106.65, while the Nifty rose 58 points to 25,044.65, supported by buying in public sector banks and defence stocks. Regular trading resumes on Wednesday, November 11.",
-      "source": "CNBC-TV18",
-      "source_url": "https://www.cnbctv18.com/market/stock-market-holiday-will-nse-bse-remain-closed-on-november-10-tomorrow-check-details-20030527.htm",
-      "img": "https://images.cnbctv18.com/uploads/2026/11/stock-market-holiday-2026-11-470d136f1a8df2c18a03b3536f0bdf2b.jpg?im=FitAndFill,width=1200,height=675",
+      "id": "2026-11-11-vyapar-1",
+      "img": "https://static.langimg.com/photo/imgsize-106122,msid-92798696/malayalam-samayam.jpg",
+      "source": "The Telegraph",
+      "source_url": "https://www.telegraphindia.com/business/sensex-nifty-close-at-eight-month-highs-as-falling-crude-prices-lift-indian-stocks-prnt/cid/2188665",
       "tags": [
         "#Sensex",
         "#Nifty",
         "#StockMarket",
         "#TaazaKhabar"
       ],
-      "page": "khabar/2026-11-10-vyapar-1.html"
+      "title_en": "Sensex, Nifty at eight-month highs as markets reopen today after the Diwali break",
+      "title_hi": "सेंसेक्स-निफ्टी आठ महीने के उच्चतम स्तर पर, दिवाली के बाद आज से फिर कारोबार",
+      "page": "khabar/2026-11-11-vyapar-1.html"
     },
     {
-      "id": "2026-11-10-khaas-1",
-      "cat": "khaas",
-      "title_hi": "अनुज श्रीवात्री बने भारत के 100वें ग्रैंडमास्टर, मध्य प्रदेश के पहले शतरंज सितारे",
-      "title_en": "Anuj Shrivatri Becomes India's 100th Grandmaster, First From Madhya Pradesh",
-      "body_hi": "मध्य प्रदेश के अनुज श्रीवात्री ने फिलीपींस में 7वीं आसियान प्लस इंडिविजुअल ओपन शतरंज चैंपियनशिप जीतकर भारत के 100वें ग्रैंडमास्टर बनने का गौरव हासिल किया।\n\nअनुज अपने राज्य से यह खिताब पाने वाले पहले खिलाड़ी हैं। उन्होंने कहा कि यह उपलब्धि वर्षों की मेहनत का नतीजा है और भारतीय शतरंज के लिए यह एक ऐतिहासिक पल है।",
-      "body_en": "Anuj Shrivatri of Madhya Pradesh has become India's 100th Grandmaster after winning the 7th ASEAN Plus Individual Open Chess Championship in the Philippines.\n\nAnuj is the first player from his state to achieve the title. He said the achievement is the result of years of hard work and a historic moment for Indian chess.",
-      "source": "The Daily Jagran",
-      "source_url": "https://www.thedailyjagran.com/education/news/todays-school-assembly-news-headline-november-10-check-top-national-international-and-sports-news-here-10335693",
-      "img": "https://images.thedailyjagran.com/images/2026/11/09/template/image/10nov-1794223135527.webp",
+      "body_en": "Foreign investors have purchased Indian shares worth more than $4.1 billion so far in November, marking their biggest monthly inflows since September 2024. The Sensex and Nifty 50 have risen over 6 per cent in the past five trading sessions, climbing to their highest closing levels in more than eight months.\n\nThe rally has been supported by falling crude oil prices — Brent fell nearly 14 per cent last week to around $99 a barrel — along with improving global sentiment. Market watchers say the immediate direction will depend on global cues, crude movements, foreign investor flows and upcoming inflation data.",
+      "body_hi": "विदेशी निवेशकों ने नवंबर में अब तक 4.1 अरब डॉलर से ज्यादा के भारतीय शेयर खरीदे हैं, जो सितंबर 2024 के बाद का सबसे बड़ा मासिक प्रवाह है। सेंसेक्स और निफ्टी 50 पिछले पांच कारोबारी सत्रों में 6 प्रतिशत से ज्यादा चढ़कर आठ महीने से अधिक के उच्चतम बंद स्तर पर पहुंच गए हैं।\n\nइस तेजी को कच्चे तेल की गिरती कीमतों — ब्रेंट पिछले हफ्ते लगभग 14 प्रतिशत गिरकर करीब 99 डॉलर प्रति बैरल पर आ गया — और बेहतर वैश्विक धारणा का सहारा मिला है। बाजार पर नजर रखने वालों का कहना है कि आगे की दिशा वैश्विक संकेतों, कच्चे तेल, विदेशी निवेशकों के प्रवाह और आने वाले महंगाई आंकड़ों पर निर्भर करेगी।",
+      "cat": "vyapar",
+      "id": "2026-11-11-vyapar-2",
+      "img": "https://s.tradingview.com/static/images/illustrations/news-story.jpg",
+      "source": "TradingView",
+      "source_url": "https://www.tradingview.com/news/moodys:ae47ae52f0993:0-sensex-nifty-50-rise-over-6-in-past-5-sessions-more-rally-from-tomorrow-or-profit-booking-will-dent-returns-hopes/",
       "tags": [
-        "#Chess",
-        "#Grandmaster",
-        "#AnujShrivatri",
+        "#FII",
+        "#Sensex",
+        "#StockMarket",
         "#TaazaKhabar"
       ],
-      "page": "khabar/2026-11-10-khaas-1.html"
+      "title_en": "Foreign investors pour in $4.1 billion in November, their biggest monthly inflow since September 2024",
+      "title_hi": "विदेशी निवेशकों ने नवंबर में अब तक 4.1 अरब डॉलर के शेयर खरीदे",
+      "page": "khabar/2026-11-11-vyapar-2.html"
+    },
+    {
+      "body_en": "A 307-year-old palm-leaf manuscript containing a portion of the Mahabharata, preserved at Visva-Bharati University in Santiniketan, has been included in UNESCO's Memory of the World Asia-Pacific Regional Register. The recognition places the centuries-old manuscript among the region's most significant documentary heritage.\n\nThe honour highlights the manuscript's historical and cultural value and the role of Visva-Bharati in preserving India's ancient literary traditions for future generations.",
+      "body_hi": "शांतिनिकेतन स्थित विश्वभारती विश्वविद्यालय में संरक्षित महाभारत के एक भाग वाली 307 साल पुरानी ताड़पत्र पांडुलिपि को यूनेस्को के 'मेमोरी ऑफ द वर्ल्ड एशिया-पैसिफिक रीजनल रजिस्टर' में शामिल किया गया है। इस मान्यता से यह सदियों पुरानी पांडुलिपि क्षेत्र की सबसे महत्वपूर्ण दस्तावेजी धरोहरों में शामिल हो गई है।\n\nयह सम्मान पांडुलिपि के ऐतिहासिक और सांस्कृतिक महत्व को दर्शाता है और भारत की प्राचीन साहित्यिक परंपराओं को आने वाली पीढ़ियों के लिए सहेजने में विश्वभारती की भूमिका को रेखांकित करता है।",
+      "cat": "khaas",
+      "id": "2026-11-11-khaas-1",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Bali-lontar-Balai_Bahasa_Bali-Kakawin_Sang_Karna_%28Mahabrata%29.jpg/3840px-Bali-lontar-Balai_Bahasa_Bali-Kakawin_Sang_Karna_%28Mahabrata%29.jpg?utm_source=ban.wikisource.org&utm_campaign=index&utm_content=thumbnail",
+      "source": "Mathrubhumi English",
+      "source_url": "https://english.mathrubhumi.com/amp/education/news/school-assembly-news-headlines-today-november-11-2026-ifjun0hf",
+      "tags": [
+        "#Mahabharata",
+        "#UNESCO",
+        "#VisvaBharati",
+        "#TaazaKhabar"
+      ],
+      "title_en": "307-year-old Mahabharata manuscript at Visva-Bharati gets UNESCO recognition",
+      "title_hi": "विश्वभारती की 307 साल पुरानी महाभारत पांडुलिपि को यूनेस्को की मान्यता",
+      "page": "khabar/2026-11-11-khaas-1.html"
     }
-  ]
+  ],
+  "updated_at": "2026-11-11T05:00:00+05:30"
 }
