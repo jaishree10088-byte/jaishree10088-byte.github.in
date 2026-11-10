@@ -28,11 +28,8 @@
   .topbar b { color: #450A0A; }
   /* ---- masthead ---- */
   .masthead { background: #fff; text-align: center; padding: 22px 16px 16px; border-bottom: 1px solid #FECACA; }
-  .masthead .kicker { font-size: 11px; font-weight: 700; letter-spacing: .14em; color: #DC2626; text-transform: uppercase; }
   .masthead h1 { font-family: "Newsreader", Georgia, serif; font-size: 44px; font-weight: 900; letter-spacing: -.02em; line-height: 1.1; margin: 6px 0 8px; }
   .masthead h1 .red { color: #DC2626; }
-  .masthead .tag { color: #475569; font-size: 15px; line-height: 1.5; max-width: 640px; margin: 0 auto; }
-  .masthead .tag b { color: #450A0A; }
   .share-row { margin-top: 14px; display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap; }
   .wa-btn { display: inline-block; background: #25D366; color: #06281a; font-weight: 700; padding: 10px 20px; border-radius: 8px; text-decoration: none; font-size: 14.5px; transition: transform 160ms ease-out; }
   .wa-btn:active { transform: scale(0.97); }
@@ -146,9 +143,7 @@
 </div></div>
 
 <header class="masthead">
-  <div class="kicker">Roz Subah &nbsp;•&nbsp; Apni Kalam Se &nbsp;•&nbsp; Photo ke Sath</div>
   <h1>🗞️ Apna <span class="red">Akhbaar</span></h1>
-  <p class="tag">Bharat aur poori duniya ki sabse badi khabrein — <b>photo ke sath</b>, Hindi aur English me. Roz subah humari kalam se likha akhbaar + Google par sabse zyada search hone wali trending khabrein.</p>
   <div class="share-row">
     <a class="wa-btn" id="waShare" href="#" target="_blank" rel="noopener">📲 WhatsApp par Share karo</a>
     <span class="hashtags">#ताज़ाखबर #ApnaAkhbaar #TrendingNews #HindiNews #IndiaNews</span>
@@ -176,7 +171,6 @@
 
   <section id="akhbaarSec">
     <h2 class="sec">✍️ Apna Akhbaar <span class="rule-red">—</span> Humari Kalam Se</h2>
-    <p class="sec-sub" id="akhbaarEdition">Aaj ka akhbaar aa raha hai…</p>
     <div class="langbar">
       <button class="langbtn active" id="btnHi">Hindi</button>
       <button class="langbtn" id="btnEn">English</button>
@@ -368,7 +362,6 @@
       heroBox.innerHTML = "";
       return;
     }
-    document.getElementById("akhbaarEdition").textContent = "🗓️ " + (akhData.edition || "") + " ka akhbaar • Apne shabdon me likha hua";
     document.getElementById("topEdition").textContent = "🗓️ " + (akhData.edition || "") + " ka akhbaar";
     renderTicker();
     var stories = akhData.stories;
