@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<script>(function(s){s.dataset.zone='12089187',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ताज़ा ख़बर | Apna Akhbaar — Design Preview</title>
+<meta name="description" content="Bharat aur duniya ki sabse badi khabrein photo ke sath, Google par trending topics, aur humari kalam se likha Apna Akhbaar — Hindi aur English me, roz taaza.">
+<link rel="canonical" href="https://sandipk.qd.je/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#450A0A">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Apna Akhbaar">
+<meta property="og:title" content="ताज़ा ख़बर | Apna Akhbaar — Roz ki Badi Khabrein, Photo ke Sath">
+<meta property="og:description" content="Bharat aur duniya ki sabse badi khabrein photo ke sath — Hindi aur English me, roz subah taaza.">
+<meta property="og:url" content="https://sandipk.qd.je/">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsMediaOrganization","name":"Apna Akhbaar","url":"https://sandipk.qd.je/","founder":{"@type":"Person","name":"Sandip Kumar Mahto"}}</script>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: "Roboto", system-ui, sans-serif; background: #FEF2F2; color: #450A0A; -webkit-font-smoothing: antialiased; }
+  a { color: inherit; }
+  /* ---- top utility bar ---- */
+  .topbar { background: #F0EDF1; color: #475569; font-size: 12.5px; }
+  .topbar-in { max-width: 1100px; margin: 0 auto; padding: 7px 16px; display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  .topbar .dot { color: #FECACA; padding: 0 6px; }
+  .topbar b { color: #450A0A; }
+  /* ---- masthead ---- */
+  .masthead { background: #fff; text-align: center; padding: 22px 16px 16px; border-bottom: 1px solid #FECACA; }
+  .masthead .kicker { font-size: 11px; font-weight: 700; letter-spacing: .14em; color: #DC2626; text-transform: uppercase; }
+  .masthead h1 { font-family: "Newsreader", Georgia, serif; font-size: 44px; font-weight: 900; letter-spacing: -.02em; line-height: 1.1; margin: 6px 0 8px; }
+  .masthead h1 .red { color: #DC2626; }
+  .masthead .tag { color: #475569; font-size: 15px; line-height: 1.5; max-width: 640px; margin: 0 auto; }
+  .masthead .tag b { color: #450A0A; }
+  .share-row { margin-top: 14px; display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap; }
+  .wa-btn { display: inline-block; background: #25D366; color: #06281a; font-weight: 700; padding: 10px 20px; border-radius: 8px; text-decoration: none; font-size: 14.5px; transition: transform 160ms ease-out; }
+  .wa-btn:active { transform: scale(0.97); }
+  .hashtags { color: #475569; font-size: 12.5px; }
+  /* ---- nav ---- */
+  .nav { background: #450A0A; position: sticky; top: 0; z-index: 50; box-shadow: 0 1px 8px rgba(69,10,10,.18); }
+  .nav-in { max-width: 1100px; margin: 0 auto; padding: 0 8px; display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; }
+  .nav-in::-webkit-scrollbar { display: none; }
+  .nav a { color: #FFFFFF; text-decoration: none; font-size: 14px; font-weight: 600; padding: 12px 14px; white-space: nowrap; border-bottom: 3px solid transparent; transition: color 150ms ease-out, border-bottom-color 150ms ease-out, transform 160ms ease-out; }
+  .nav a:active { transform: scale(0.97); }
+  .nav a.active { color: #fff; border-bottom-color: #EF4444; }
+  /* ---- breaking ticker ---- */
+  .ticker { background: #fff; border-bottom: 1px solid #FECACA; }
+  .ticker-in { max-width: 1100px; margin: 0 auto; padding: 0 16px; display: flex; align-items: stretch; }
+  .ticker-badge { background: #DC2626; color: #fff; font-size: 12px; font-weight: 700; letter-spacing: .06em; display: flex; align-items: center; gap: 6px; padding: 9px 12px; margin: 8px 0; border-radius: 4px; flex-shrink: 0; }
+  .ticker-badge .pulse { width: 8px; height: 8px; border-radius: 50%; background: #fff; display: inline-block; animation: pulse 1.4s infinite; }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+  .ticker-viewport { overflow: hidden; flex: 1; display: flex; align-items: center; mask-image: linear-gradient(to right, transparent, #000 24px, #000 calc(100% - 24px), transparent); -webkit-mask-image: linear-gradient(to right, transparent, #000 24px, #000 calc(100% - 24px), transparent); }
+  .ticker-track { display: inline-flex; white-space: nowrap; animation: marquee 55s linear infinite; will-change: transform; }
+  @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  .ticker-item { font-size: 14px; font-weight: 500; color: #450A0A; padding: 0 4px; }
+  .ticker-item .sep { color: #EF4444; padding: 0 14px; }
+  /* ---- layout ---- */
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 20px 16px 10px; }
+  section { scroll-margin-top: 60px; }
+  h2.sec { font-family: "Newsreader", Georgia, serif; font-size: 22px; font-weight: 700; line-height: 1.3; margin: 28px 0 4px; padding-bottom: 10px; border-bottom: 3px solid #450A0A; }
+  h2.sec .rule-red { color: #DC2626; }
+  .sec-sub { color: #475569; font-size: 13.5px; margin: 0 0 14px; }
+  .loading { color: #475569; font-size: 14px; padding: 10px 2px; }
+  .err { color: #DC2626; font-size: 14px; }
+  .err a { color: #DC2626; }
+  /* ---- hero ---- */
+  .hero { background: #fff; border: 1px solid #FECACA; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 16px rgba(69,10,10,.10); margin-top: 20px; }
+  .hero img.ph { width: 100%; height: 380px; object-fit: cover; display: block; background: #F0EDF1; }
+  .hero-body { padding: 20px 22px 22px; }
+  .catchip { display: inline-block; background: #DC2626; color: #fff; font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; border-radius: 4px; padding: 4px 10px; margin-bottom: 10px; }
+  .hero h3 { font-family: "Newsreader", Georgia, serif; font-size: 30px; line-height: 1.3; font-weight: 900; margin-bottom: 10px; }
+  .hero h3 a { color: inherit; text-decoration: none; transition: color 150ms ease-out; }
+  .hero p.body { color: #475569; font-size: 16px; line-height: 1.7; margin-bottom: 10px; }
+  .htags { color: #1E40AF; font-size: 13px; margin-top: 10px; line-height: 1.6; }
+  .meta { font-size: 12.5px; color: #475569; margin-top: 10px; }
+  .meta a { color: #DC2626; font-weight: 600; text-decoration: none; }
+  /* ---- story grid ---- */
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .card { background: #fff; border: 1px solid #FECACA; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 16px rgba(69,10,10,.10); }
+  .card img.ph { width: 100%; height: 200px; object-fit: cover; display: block; background: #F0EDF1; }
+  .card-body { padding: 16px 18px 18px; }
+  .card .cat { display: inline-block; background: #450A0A; color: #fff; font-size: 11px; font-weight: 700; letter-spacing: .05em; border-radius: 4px; padding: 3px 9px; margin-bottom: 9px; }
+  .card h3 { font-family: "Newsreader", Georgia, serif; font-size: 18px; line-height: 1.45; font-weight: 700; margin-bottom: 8px; }
+  .card h3 a { color: inherit; text-decoration: none; transition: color 150ms ease-out; }
+  .story p.body { color: #475569; font-size: 14.5px; line-height: 1.65; margin-bottom: 8px; }
+  .story .src { font-size: 12px; color: #475569; }
+  .story .src a { color: #DC2626; font-size: 12px; font-weight: 600; text-decoration: none; }
+  /* ---- lang toggle ---- */
+  .langbar { display: flex; gap: 8px; margin: 14px 0 4px; }
+  .langbtn { background: #fff; border: 1px solid #FECACA; color: #475569; border-radius: 999px; padding: 7px 16px; font-size: 13.5px; font-weight: 600; cursor: pointer; font-family: inherit; transition: transform 160ms ease-out, background-color 150ms ease-out, color 150ms ease-out; }
+  .langbtn:active { transform: scale(0.97); }
+  .langbtn.active { background: #450A0A; color: #fff; border-color: #450A0A; }
+  /* ---- trending ---- */
+  .tgrid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
+  .tcard { background: #fff; border: 1px solid #FECACA; border-radius: 12px; overflow: hidden; text-decoration: none; color: #450A0A; display: block; box-shadow: 0 4px 16px rgba(69,10,10,.10); transition: transform 160ms ease-out, box-shadow 200ms ease-out; }
+  .tcard:active { transform: scale(0.97); }
+  .tcard img { width: 100%; height: 120px; object-fit: cover; display: block; background: #F0EDF1; }
+  .tcard .tile { height: 120px; display: flex; align-items: center; justify-content: center; font-size: 38px; background: linear-gradient(135deg, #DC2626, #450A0A); }
+  .tcard .tt { padding: 10px 12px; font-size: 14px; font-weight: 600; line-height: 1.4; }
+  .tcard .tm { padding: 0 12px 12px; font-size: 12px; color: #475569; }
+  /* ---- gdelt / feed lists ---- */
+  .list { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .mini { background: #fff; border: 1px solid #FECACA; border-radius: 12px; overflow: hidden; }
+  .mini img.ph { width: 100%; height: 150px; object-fit: cover; display: block; background: #F0EDF1; }
+  .mini-body { padding: 12px 14px 14px; }
+  .mini a { color: #450A0A; text-decoration: none; font-size: 15px; font-weight: 600; line-height: 1.45; display: block; transition: color 150ms ease-out, transform 160ms ease-out; }
+  .mini a:active { transform: scale(0.97); }
+  /* ---- ebook ---- */
+  .ebook { background: linear-gradient(135deg, #14532d, #166534); border-radius: 16px; padding: 24px; text-align: center; color: #fff; }
+  .ebook h3 { font-family: "Newsreader", Georgia, serif; font-size: 21px; margin-bottom: 8px; }
+  .ebook p { color: #d1fae5; font-size: 14.5px; margin-bottom: 14px; }
+  .ebook a.btn { display: inline-block; background: #ffbe28; color: #16295c; font-weight: 700; padding: 12px 24px; border-radius: 10px; text-decoration: none; font-size: 15px; transition: transform 160ms ease-out; }
+  .ebook a.btn:active { transform: scale(0.97); }
+  .ebook .note { color: #a7f3d0; font-size: 12px; margin-top: 12px; margin-bottom: 0; }
+  .refresh-note { color: #475569; font-size: 12.5px; text-align: center; margin-top: 20px; }
+  footer { background: #450A0A; color: #FECACA; text-align: center; font-size: 13px; padding: 26px 16px 32px; margin-top: 28px; line-height: 1.7; }
+  footer b { color: #fff; }
+  /* ---- Emil review fixes: hover gated to fine pointers; reduced motion ---- */
+  @media (hover: hover) and (pointer: fine) {
+    .nav a:hover { color: #fff; border-bottom-color: #EF4444; }
+    .ticker-viewport:hover .ticker-track { animation-play-state: paused; }
+    .hero h3 a:hover { color: #DC2626; }
+    .card h3 a:hover { color: #DC2626; }
+    .mini a:hover { color: #DC2626; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .ticker-track { animation: none; }
+    .ticker-badge .pulse { animation: none; }
+  }
+  @media (max-width: 720px) {
+    .masthead h1 { font-size: 34px; }
+    .grid, .list, .tgrid { grid-template-columns: 1fr; }
+    .hero img.ph { height: 220px; }
+    .hero h3 { font-size: 23px; }
+    .hero-body, .card-body { padding: 16px; }
+    .topbar-in { font-size: 12px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar"><div class="topbar-in">
+  <span><b id="topDate">…</b><span class="dot">•</span><span id="topEdition">Roz subah 5 baje taaza akhbaar</span></span>
+  <span>Apna Akhbaar <span class="dot">•</span> Hindi + English <span class="dot">•</span> Bilkul Free</span>
+</div></div>
+
+<header class="masthead">
+  <div class="kicker">Roz Subah &nbsp;•&nbsp; Apni Kalam Se &nbsp;•&nbsp; Photo ke Sath</div>
+  <h1>🗞️ Apna <span class="red">Akhbaar</span></h1>
+  <p class="tag">Bharat aur poori duniya ki sabse badi khabrein — <b>photo ke sath</b>, Hindi aur English me. Roz subah humari kalam se likha akhbaar + Google par sabse zyada search hone wali trending khabrein.</p>
+  <div class="share-row">
+    <a class="wa-btn" id="waShare" href="#" target="_blank" rel="noopener">📲 WhatsApp par Share karo</a>
+    <span class="hashtags">#ताज़ाखबर #ApnaAkhbaar #TrendingNews #HindiNews #IndiaNews</span>
+  </div>
+</header>
+
+<nav class="nav"><div class="nav-in" id="catNav">
+  <a href="#akhbaar" data-cat="all" class="active">📰 Home</a>
+  <a href="#akhbaar" data-cat="bharat">🇮🇳 Bharat</a>
+  <a href="#akhbaar" data-cat="duniya">🌐 World</a>
+  <a href="#akhbaar" data-cat="khel">🏏 Sport</a>
+  <a href="#akhbaar" data-cat="vyapar">💰 Business</a>
+  <a href="#trendsSec">🔥 Trending</a>
+  <a href="#feedSec">⚡ 100 News</a>
+  <a href="#ebookSec">📚 eBook</a>
+  <a href="https://resumemaker.de5.net/resume-builder.html">📝 Resume Maker</a>
+</div></nav>
+
+<div class="ticker"><div class="ticker-in">
+  <span class="ticker-badge"><span class="pulse"></span>BREAKING</span>
+  <div class="ticker-viewport"><div class="ticker-track" id="tickerTrack"><span class="ticker-item">Aaj ka akhbaar load ho raha hai…</span></div></div>
+</div></div>
+
+<div class="wrap">
+
+  <section id="akhbaarSec">
+    <h2 class="sec">✍️ Apna Akhbaar <span class="rule-red">—</span> Humari Kalam Se</h2>
+    <p class="sec-sub" id="akhbaarEdition">Aaj ka akhbaar aa raha hai…</p>
+    <div class="langbar">
+      <button class="langbtn active" id="btnHi">Hindi</button>
+      <button class="langbtn" id="btnEn">English</button>
+    </div>
+    <div id="hero"></div>
+    <div id="akhbaar" class="grid" style="margin-top:16px"><p class="loading">Akhbaar load ho raha hai…</p></div>
+  </section>
+
+  <section id="trendsSec">
+    <h2 class="sec">🔥 Abhi Google par Trending <span class="rule-red">—</span> Sabse Zyada Search</h2>
+    <div id="trends" class="tgrid"><p class="loading">Trending topics aa rahe hain…</p></div>
+  </section>
+
+  <section id="gdeltHiSec">
+    <h2 class="sec">🗞️ Aaj ki Badi Khabrein <span class="rule-red">(Hindi)</span></h2>
+    <div id="newsHi" class="list"><p class="loading">Khabrein aa rahi hain… (kuch pal lag sakte hain)</p></div>
+  </section>
+
+  <section id="gdeltEnSec">
+    <h2 class="sec">🌍 Top Headlines <span class="rule-red">(English)</span></h2>
+    <div id="newsEn" class="list"><p class="loading">Headlines loading… (may take a few moments)</p></div>
+  </section>
+
+  <section id="feedSec">
+    <h2 class="sec">⚡ 100 News <span class="rule-red">—</span> Photo ke Sath</h2>
+    <p class="sec-sub" id="feed100Meta">Roz subah ki 100 badi khabrein ikatthe…</p>
+    <div id="feed100" class="list"><p class="loading">100 khabrein aa rahi hain…</p></div>
+  </section>
+
+  <section id="ebookSec">
+    <h2 class="sec">📚 eBook Library <span class="rule-red">—</span> Free Kitabein</h2>
+    <div class="ebook">
+      <h3>📖 50+ Kitabein, Bilkul Free</h3>
+      <p>Khud ko behtar banane wali mashhoor kitabein — Hindi + English me padho, sirf app me.</p>
+      <a class="btn" href="https://drive.google.com/file/d/12mJUDAb4QzpIj2zVjQwlt0mUgzJwiUzz/view?usp=drivesdk">📥 eBook Library App Download</a>
+      <p class="note">Install par Play Protect warning aaye to "Install anyway" chuno — app surakshit hai.</p>
+    </div>
+  </section>
+
+  <p class="refresh-note">🔄 Ye page har visit par khud taaza khabar laata hai. Nayi khabar ke liye page refresh karo.</p>
+</div>
+
+<footer>
+  <b>Developer by Sandip Kumar Mahto</b><br>
+  🌐 sandipk.qd.je — Taaza Khabar + Apna Akhbaar
+</footer>
+
+<script>
+(function () {
+  var PAGE_URL = "https://sandipk.qd.je/";
+  var shareText = "🗞️ ताज़ा ख़बरें + Trending Topics — photo ke sath, Hindi aur English me, bilkul free 👇\n" + PAGE_URL + "\n#ताज़ाखबर #ApnaAkhbaar #TrendingNews #HindiNews #ViralKhabar #IndiaNews";
+  document.getElementById("waShare").href = "https://wa.me/?text=" + encodeURIComponent(shareText);
+
+  // Real date, correct weekday, from the visitor's own clock
+  try {
+    document.getElementById("topDate").textContent =
+      new Date().toLocaleDateString("hi-IN", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
+  } catch (e) { document.getElementById("topDate").textContent = ""; }
+
+  window.__imgPool = [];
+  window.__trendItems = null;
+
+  function esc(s) {
+    return String(s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  }
+  function pageUrl(p) {
+    if (!p) return "";
+    if (/^(https?:)?\/\//.test(p) || p.charAt(0) === "/") return p;
+    return "/" + p;
+  }
+
+  function fetchText(url, ms) {
+    return new Promise(function (resolve, reject) {
+      var ctrl = new AbortController();
+      var t = setTimeout(function () { ctrl.abort(); }, ms || 20000);
+      fetch(url, { signal: ctrl.signal }).then(function (r) {
+        clearTimeout(t);
+        if (!r.ok) throw new Error("http " + r.status);
+        return r.text();
+      }).then(resolve, reject);
+    });
+  }
+
+  function parseGdeltDate(s) {
+    if (!s || s.length < 15) return null;
+    var y = +s.slice(0, 4), mo = +s.slice(4, 6) - 1, d = +s.slice(6, 8);
+    var h = +s.slice(9, 11), mi = +s.slice(11, 13), se = +s.slice(13, 15);
+    var dt = new Date(Date.UTC(y, mo, d, h, mi, se));
+    return isNaN(dt.getTime()) ? null : dt;
+  }
+
+  function timeAgo(dt) {
+    if (!dt) return "";
+    var mins = Math.floor((Date.now() - dt.getTime()) / 60000);
+    if (mins < 1) return "abhi-abhi";
+    if (mins < 60) return mins + " minute pehle";
+    var hrs = Math.floor(mins / 60);
+    if (hrs < 24) return hrs + " ghante pehle";
+    return Math.floor(hrs / 24) + " din pehle";
+  }
+
+  function renderGdelt(elId, articles, fallbackUrl, fallbackLabel) {
+    var el = document.getElementById(elId);
+    var seenTitles = {}, domainCount = {}, picked = [];
+    articles.forEach(function (a) {
+      if (!a.title || !a.url) return;
+      var key = a.title.toLowerCase().slice(0, 60);
+      if (seenTitles[key]) return;
+      seenTitles[key] = 1;
+      var dom = a.domain || "";
+      domainCount[dom] = (domainCount[dom] || 0) + 1;
+      if (domainCount[dom] > 3) return;
+      picked.push(a);
+      if (a.socialimage) window.__imgPool.push({ title: a.title, img: a.socialimage });
+    });
+    if (!picked.length) {
+      el.innerHTML = '<p class="err">Khabar load nahi ho payi. <a href="' + fallbackUrl + '" target="_blank" rel="noopener">' + fallbackLabel + "</a></p>";
+      return;
+    }
+    el.innerHTML = picked.slice(0, 10).map(function (a) {
+      var meta = [];
+      if (a.domain) meta.push(esc(a.domain));
+      var ta = timeAgo(parseGdeltDate(a.seendate));
+      if (ta) meta.push(ta);
+      var img = a.socialimage ? '<img class="ph" loading="lazy" src="' + esc(a.socialimage) + '" alt="" onerror="this.style.display=\'none\'">' : "";
+      return '<div class="mini"><div class="mini-body">' + img + '<a href="' + esc(a.url) + '" target="_blank" rel="noopener">' + esc(a.title) + "</a>" +
+        (meta.length ? '<p class="meta">' + meta.join(" • ") + "</p>" : "") + "</div></div>";
+    }).join("");
+    if (window.__trendItems) renderTrends(window.__trendItems);
+  }
+
+  function gdeltUrl(lang) {
+    var q = encodeURIComponent("sourcecountry:IN sourcelang:" + lang);
+    return "https://api.gdeltproject.org/api/v2/doc/doc?query=" + q +
+      "&mode=artlist&maxrecords=15&format=json&sort=datedesc&timespan=24h";
+  }
+
+  function loadGdelt(elId, lang, delay, fallbackUrl, fallbackLabel) {
+    function attempt(isRetry) {
+      fetchText(gdeltUrl(lang), 25000).then(function (txt) {
+        var data = null;
+        try { data = JSON.parse(txt); } catch (e) { data = null; }
+        if (!data || !data.articles || !data.articles.length) throw new Error("no articles");
+        renderGdelt(elId, data.articles, fallbackUrl, fallbackLabel);
+      }).catch(function () {
+        if (!isRetry) {
+          setTimeout(function () { attempt(true); }, 12000);
+        } else {
+          renderGdelt(elId, [], fallbackUrl, fallbackLabel);
+        }
+      });
+    }
+    setTimeout(function () { attempt(false); }, delay);
+  }
+
+  // ---- Apna Akhbaar (khud ka likha hua, roz automatic) — photo + hashtag ke sath ----
+  var akhLang = "hi", akhData = null, akhFilter = "all";
+  var CATNAMES = { bharat: "🇮🇳 Bharat", duniya: "🌐 World", khel: "🏏 Sport", vyapar: "💰 Business", khaas: "⭐ Khaas" };
+
+  function storyCard(st, full) {
+    var title = akhLang === "hi" ? st.title_hi : st.title_en;
+    var body = akhLang === "hi" ? st.body_hi : st.body_en;
+    var img = st.img ? '<img class="ph" loading="lazy" src="' + esc(st.img) + '" alt="" onerror="this.style.display=\'none\'">' : "";
+    var paras = String(body || "").split("\n\n");
+    var show = full ? paras : paras.slice(0, 2);
+    var parasHtml = show.map(function (x) { return '<p class="body">' + esc(x) + "</p>"; }).join("");
+    var tags = (st.tags && st.tags.length) ? '<p class="htags">' + st.tags.map(esc).join(" ") + "</p>" : "";
+    var src = st.source ? '<p class="src">Source: ' + esc(st.source) + (st.source_url ? ' • <a href="' + esc(st.source_url) + '" target="_blank" rel="noopener">asar khabar</a>' : "") + "</p>" : "";
+    var pg = st.page ? '<p class="meta">🔗 <a href="' + esc(pageUrl(st.page)) + '">Poori khabar apne page par padho →</a></p>' : "";
+    var pgUrl = st.page ? pageUrl(st.page) : "";
+    return { title: title, img: img, parasHtml: parasHtml, tags: tags, src: src, pg: pg, pgUrl: pgUrl };
+  }
+
+  function renderTicker() {
+    var track = document.getElementById("tickerTrack");
+    if (!akhData || !akhData.stories || !akhData.stories.length) return;
+    var items = akhData.stories.map(function (st) {
+      var t = akhLang === "hi" ? st.title_hi : st.title_en;
+      return '<span class="ticker-item">' + esc(t) + '<span class="sep">///</span></span>';
+    }).join("");
+    track.innerHTML = items + items; // duplicated for a seamless loop
+  }
+
+  function renderAkhbaar() {
+    var box = document.getElementById("akhbaar");
+    var heroBox = document.getElementById("hero");
+    if (!akhData || !akhData.stories || !akhData.stories.length) {
+      box.innerHTML = '<p class="loading">🗞️ Aaj ka akhbaar taiyaar ho raha hai — thodi der me yahan dikhega.</p>';
+      heroBox.innerHTML = "";
+      return;
+    }
+    document.getElementById("akhbaarEdition").textContent = "🗓️ " + (akhData.edition || "") + " ka akhbaar • Apne shabdon me likha hua";
+    document.getElementById("topEdition").textContent = "🗓️ " + (akhData.edition || "") + " ka akhbaar";
+    renderTicker();
+    var stories = akhData.stories;
+    if (akhFilter === "all") {
+      var lead = storyCard(stories[0], false);
+      heroBox.innerHTML = '<article class="hero">' + lead.img + '<div class="hero-body"><span class="catchip">' + (CATNAMES[stories[0].cat] || "⭐ Khaas") + "</span><h3>" + (lead.pgUrl ? '<a href="' + esc(lead.pgUrl) + '">' + esc(lead.title) + "</a>" : esc(lead.title)) + "</h3>" + lead.parasHtml + lead.tags + lead.src + lead.pg + "</div></article>";
+      var rest = stories.slice(1);
+      box.innerHTML = rest.map(function (st) {
+        var c = storyCard(st, true);
+        return '<article class="card story">' + c.img + '<div class="card-body"><span class="cat">' + (CATNAMES[st.cat] || "⭐ Khaas") + "</span><h3>" + (c.pgUrl ? '<a href="' + esc(c.pgUrl) + '">' + esc(c.title) + "</a>" : esc(c.title)) + "</h3>" + c.parasHtml + c.tags + c.src + c.pg + "</div></article>";
+      }).join("");
+    } else {
+      heroBox.innerHTML = "";
+      var filtered = stories.filter(function (st) { return st.cat === akhFilter; });
+      if (!filtered.length) {
+        box.innerHTML = '<p class="loading">Is shreni me aaj koi khabar nahi hai.</p>';
+        return;
+      }
+      box.innerHTML = filtered.map(function (st) {
+        var c = storyCard(st, true);
+        return '<article class="card story">' + c.img + '<div class="card-body"><span class="cat">' + (CATNAMES[st.cat] || "⭐ Khaas") + "</span><h3>" + (c.pgUrl ? '<a href="' + esc(c.pgUrl) + '">' + esc(c.title) + "</a>" : esc(c.title)) + "</h3>" + c.parasHtml + c.tags + c.src + c.pg + "</div></article>";
+      }).join("");
+    }
+  }
+
+  function setLang(l) {
+    akhLang = l;
+    document.getElementById("btnHi").className = "langbtn" + (l === "hi" ? " active" : "");
+    document.getElementById("btnEn").className = "langbtn" + (l === "en" ? " active" : "");
+    renderAkhbaar();
+  }
+  document.getElementById("btnHi").onclick = function () { setLang("hi"); };
+  document.getElementById("btnEn").onclick = function () { setLang("en"); };
+
+  document.getElementById("catNav").addEventListener("click", function (e) {
+    var a = e.target.closest("a[data-cat]");
+    if (!a) return;
+    akhFilter = a.getAttribute("data-cat");
+    var links = document.querySelectorAll("#catNav a[data-cat]");
+    links.forEach(function (x) { x.classList.remove("active"); });
+    a.classList.add("active");
+    renderAkhbaar();
+  });
+
+  fetch("/news.json?t=" + Date.now()).then(function (r) {
+    if (!r.ok) throw new Error("no paper yet");
+    return r.json();
+  }).then(function (d) { akhData = d; renderAkhbaar(); })
+    .catch(function () { renderAkhbaar(); });
+
+  // ---- Trending (Google Trends) — photo card: GDELT pool se milti-jhulti photo ----
+  function trendImg(title) {
+    var words = String(title || "").toLowerCase().split(/\s+/).filter(function (w) { return w.length >= 4; });
+    var best = null, bestScore = 0;
+    window.__imgPool.forEach(function (p) {
+      var t = p.title.toLowerCase(), score = 0;
+      words.forEach(function (w) { if (t.indexOf(w) !== -1) score++; });
+      if (score > bestScore) { bestScore = score; best = p.img; }
+    });
+    return bestScore >= 1 ? best : null;
+  }
+
+  function renderTrends(items) {
+    window.__trendItems = items;
+    var el = document.getElementById("trends");
+    if (!items.length) {
+      el.innerHTML = '<p class="err">Trending load nahi ho paya. <a href="https://trends.google.com/trending?geo=IN" target="_blank" rel="noopener">Google Trends dekho</a></p>';
+      return;
+    }
+    el.innerHTML = items.slice(0, 12).map(function (it) {
+      var q = encodeURIComponent(it.title);
+      var img = trendImg(it.title);
+      var visual = img ? '<img loading="lazy" src="' + esc(img) + '" alt="" onerror="this.style.display=\'none\'">'
+                       : '<div class="tile">🔥</div>';
+      var meta = it.traffic ? esc(it.traffic) + " searches" : "Trending";
+      return '<a class="tcard" href="https://www.google.com/search?q=' + q + '" target="_blank" rel="noopener">' + visual +
+        '<div class="tt">🔥 ' + esc(it.title) + '</div><div class="tm">' + meta + " • #Trending</div></a>";
+    }).join("");
+  }
+
+  var PROXIES = [
+    function (u) { return "https://api.allorigins.win/raw?url=" + encodeURIComponent(u); },
+    function (u) { return "https://api.codetabs.com/v1/proxy/?quest=" + encodeURIComponent(u); }
+  ];
+
+  function fetchFeed(rssUrl) {
+    var chain = Promise.reject(new Error("start"));
+    PROXIES.forEach(function (p) {
+      chain = chain.catch(function () { return fetchText(p(rssUrl), 15000); });
+    });
+    return chain;
+  }
+
+  function parseItems(xmlText) {
+    var doc = new DOMParser().parseFromString(xmlText, "text/xml");
+    var nodes = doc.querySelectorAll("item");
+    var out = [];
+    nodes.forEach(function (n) {
+      var t = n.querySelector("title");
+      var tr = n.getElementsByTagName("ht:approx_traffic")[0];
+      out.push({ title: t ? t.textContent.trim() : "", traffic: tr ? tr.textContent.trim() : "" });
+    });
+    return out;
+  }
+
+  function loadTrends(isRetry) {
+    fetchFeed("https://trends.google.com/trending/rss?geo=IN")
+      .then(function (x) {
+        var items = parseItems(x).filter(function (i) { return i.title; });
+        if (!items.length) throw new Error("empty");
+        renderTrends(items);
+      })
+      .catch(function () {
+        if (!isRetry) setTimeout(function () { loadTrends(true); }, 12000);
+        else renderTrends([]);
+      });
+  }
+
+  // ---- 100 News (roz subah 5 baje naya sangrah) ----
+  var CATLBL = { "bharat-hi": "🇮🇳 Bharat", "bharat-en": "🇮🇳 Bharat", khel: "🏏 Sport", vyapar: "💰 Business", duniya: "🌐 World" };
+  fetch("/feed100.json?t=" + Date.now()).then(function (r) {
+    if (!r.ok) throw new Error("no feed");
+    return r.json();
+  }).then(function (d) {
+    var el = document.getElementById("feed100");
+    if (!d.items || !d.items.length) { el.innerHTML = '<p class="loading">Aaj ki 100 khabrein taiyaar ho rahi hain…</p>'; return; }
+    document.getElementById("feed100Meta").textContent = "🗓️ Roz subah 5 baje taaza sangrah • Kul " + d.items.length + " khabrein";
+    el.innerHTML = d.items.map(function (a) {
+      var img = a.img ? '<img class="ph" loading="lazy" src="' + esc(a.img) + '" alt="" onerror="this.style.display=\'none\'">' : "";
+      var meta = [];
+      if (a.d) meta.push(esc(a.d));
+      var ta = timeAgo(parseGdeltDate(a.time));
+      if (ta) meta.push(ta);
+      return '<div class="mini">' + img + '<div class="mini-body"><span class="catchip">' + (CATLBL[a.cat] || "🗞️ Khabar") + '</span><a href="' + esc(a.u) + '" target="_blank" rel="noopener">' + esc(a.t) + "</a>" +
+        (meta.length ? '<p class="meta">' + meta.join(" • ") + "</p>" : "") + "</div></div>";
+    }).join("");
+  }).catch(function () {
+    document.getElementById("feed100").innerHTML = '<p class="loading">Aaj ki 100 khabrein taiyaar ho rahi hain…</p>';
+  });
+
+  // GDELT ki shart: ek samay par ek hi mang — isiliye antar rakh kar mangte hain
+  loadGdelt("newsHi", "hindi", 0, "https://news.google.com/?hl=hi&gl=IN", "Google News par dekho");
+  loadGdelt("newsEn", "english", 8000, "https://news.google.com/?hl=en-IN&gl=IN", "See on Google News");
+  setTimeout(function () { loadTrends(false); }, 10000);
+})();
+</script>
+</body>
+</html>
