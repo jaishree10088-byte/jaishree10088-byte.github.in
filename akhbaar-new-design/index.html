@@ -338,7 +338,7 @@
     var show = full ? paras : paras.slice(0, 2);
     var parasHtml = show.map(function (x) { return '<p class="body">' + esc(x) + "</p>"; }).join("");
     var tags = (st.tags && st.tags.length) ? '<p class="htags">' + st.tags.map(esc).join(" ") + "</p>" : "";
-    var src = st.source ? '<p class="src">Source: ' + esc(st.source) + (st.source_url ? ' • <a href="' + esc(st.source_url) + '" target="_blank" rel="noopener">asar khabar</a>' : "") + "</p>" : "";
+    var src = st.source ? '<p class="src">Source: ' + esc(st.source) + (st.source_url ? ' • <a href="' + esc(st.source_url) + '" target="_blank" rel="noopener">Taaza khabar</a>' : "") + "</p>" : "";
     var pg = st.page ? '<p class="meta">🔗 <a href="' + esc(pageUrl(st.page)) + '">Poori khabar apne page par padho →</a></p>' : "";
     var pgUrl = st.page ? pageUrl(st.page) : "";
     return { title: title, img: img, parasHtml: parasHtml, tags: tags, src: src, pg: pg, pgUrl: pgUrl };
