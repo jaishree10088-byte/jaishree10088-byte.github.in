@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><title>ResumeMaker Resume Builder – Free Professional Resume Maker</title><meta name="description" content="Create a professional resume free in your browser: photo, education table, certifications, and download as .HTML or print to PDF."/><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Open+Sans:wght@300;400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+  theme: {
+    extend: {
+      "colors": {
+        "surface-dim": "#F8FAFC",
+        "on-secondary-container": "#000000",
+        "secondary-fixed-dim": "#16A34A",
+        "outline-variant": "#CBD5E1",
+        "inverse-surface": "#0F172A",
+        "tertiary-container": "#DCFCE7",
+        "on-error-container": "#ffffff",
+        "primary-container": "#16A34A",
+        "surface-container-high": "#2A4A6B",
+        "on-primary-fixed": "#14532D",
+        "tertiary-fixed-dim": "#16A34A",
+        "inverse-primary": "#16A34A",
+        "tertiary": "#16A34A",
+        "primary": "#16A34A",
+        "on-primary": "#000000",
+        "outline": "#94A3B8",
+        "surface-container-low": "#1E3A5F",
+        "on-tertiary-container": "#14532D",
+        "on-tertiary-fixed": "#14532D",
+        "surface-tint": "#16A34A",
+        "secondary": "#1E3A5F",
+        "surface-container-lowest": "#152C4A",
+        "tertiary-fixed": "#DCFCE7",
+        "background": "#F8FAFC",
+        "primary-fixed": "#DCFCE7",
+        "on-secondary": "#ffffff",
+        "on-tertiary": "#000000",
+        "primary-fixed-dim": "#16A34A",
+        "secondary-container": "#16A34A",
+        "on-surface-variant": "#475569",
+        "surface-container-highest": "#E9EEF5",
+        "surface-container": "#ffffff",
+        "inverse-on-surface": "#ffffff",
+        "on-primary-container": "#000000",
+        "surface-bright": "#ffffff",
+        "on-secondary-fixed": "#14532D",
+        "on-secondary-fixed-variant": "#14532D",
+        "surface-variant": "#E9EEF5",
+        "on-error": "#ffffff",
+        "secondary-fixed": "#DCFCE7",
+        "surface": "#F8FAFC",
+        "error": "#DC2626",
+        "on-primary-fixed-variant": "#14532D",
+        "on-surface": "#0F172A",
+        "on-tertiary-fixed-variant": "#14532D",
+        "on-background": "#dfe2f1",
+        "error-container": "#DC2626"
+      },
+      "borderRadius": {
+        "DEFAULT": "0.125rem",
+        "lg": "0.25rem",
+        "xl": "0.5rem",
+        "full": "0.75rem"
+      },
+      "spacing": {
+        "space-md": "1rem",
+        "gutter-mobile": "0.75rem",
+        "margin-mobile": "1rem",
+        "space-xl": "2.5rem",
+        "margin": "2rem",
+        "space-xs": "0.25rem",
+        "space-lg": "1.5rem",
+        "gutter": "1.25rem",
+        "space-sm": "0.5rem"
+      },
+      "fontFamily": {
+        "telemetry-metric": [
+          "JetBrains Mono"
+        ],
+        "headline-lg-mobile": [
+          "Poppins"
+        ],
+        "body-md": [
+          "Open Sans"
+        ],
+        "code-sm": [
+          "JetBrains Mono"
+        ],
+        "title-md": [
+          "Poppins"
+        ],
+        "label-caps": [
+          "JetBrains Mono"
+        ],
+        "code-lg": [
+          "JetBrains Mono"
+        ],
+        "headline-md": [
+          "Poppins"
+        ],
+        "headline-sm": [
+          "Poppins"
+        ],
+        "display-xl-mobile": [
+          "Poppins"
+        ],
+        "display-xl": [
+          "Poppins"
+        ],
+        "body-lg": [
+          "Open Sans"
+        ],
+        "body-sm": [
+          "Open Sans"
+        ],
+        "headline-lg": [
+          "Poppins"
+        ]
+      },
+      "fontSize": {
+        "telemetry-metric": [
+          "22px",
+          {
+            "lineHeight": "28px",
+            "letterSpacing": "0.02em",
+            "fontWeight": "700"
+          }
+        ],
+        "headline-lg-mobile": [
+          "26px",
+          {
+            "lineHeight": "34px",
+            "letterSpacing": "-0.015em",
+            "fontWeight": "600"
+          }
+        ],
+        "body-md": [
+          "14px",
+          {
+            "lineHeight": "22px",
+            "fontWeight": "400"
+          }
+        ],
+        "code-sm": [
+          "12px",
+          {
+            "lineHeight": "18px",
+            "fontWeight": "400"
+          }
+        ],
+        "title-md": [
+          "16px",
+          {
+            "lineHeight": "24px",
+            "letterSpacing": "-0.005em",
+            "fontWeight": "600"
+          }
+        ],
+        "label-caps": [
+          "11px",
+          {
+            "lineHeight": "16px",
+            "letterSpacing": "0.08em",
+            "fontWeight": "600"
+          }
+        ],
+        "code-lg": [
+          "14px",
+          {
+            "lineHeight": "22px",
+            "fontWeight": "500"
+          }
+        ],
+        "headline-md": [
+          "24px",
+          {
+            "lineHeight": "32px",
+            "letterSpacing": "-0.015em",
+            "fontWeight": "600"
+          }
+        ],
+        "headline-sm": [
+          "20px",
+          {
+            "lineHeight": "28px",
+            "letterSpacing": "-0.01em",
+            "fontWeight": "600"
+          }
+        ],
+        "display-xl-mobile": [
+          "36px",
+          {
+            "lineHeight": "44px",
+            "letterSpacing": "-0.02em",
+            "fontWeight": "700"
+          }
+        ],
+        "display-xl": [
+          "56px",
+          {
+            "lineHeight": "64px",
+            "letterSpacing": "-0.03em",
+            "fontWeight": "700"
+          }
+        ],
+        "body-lg": [
+          "16px",
+          {
+            "lineHeight": "26px",
+            "fontWeight": "400"
+          }
+        ],
+        "body-sm": [
+          "12px",
+          {
+            "lineHeight": "18px",
+            "fontWeight": "400"
+          }
+        ],
+        "headline-lg": [
+          "32px",
+          {
+            "lineHeight": "40px",
+            "letterSpacing": "-0.02em",
+            "fontWeight": "600"
+          }
+        ]
+      }
+    }
+  }
+}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><aside class="fixed left-0 top-0 h-full w-64 bg-surface-container-low/90 backdrop-blur-xl z-50 flex flex-col justify-between shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex flex-col flex-1 min-h-0"><div class="h-16 px-space-md flex items-center gap-space-sm bg-surface-container-lowest/60"><img alt="ResumeMaker Logo" class="h-8 w-auto object-contain" src="webforge-logo.png"/><div class="flex flex-col"><span class="font-title-md text-title-md tracking-tight text-white font-bold">ResumeMaker</span><span class="font-label-caps text-label-caps text-[#16A34A] tracking-widest">v6.0</span></div></div><div class="overflow-y-auto px-space-sm py-space-sm space-y-space-md flex-1"><div class="space-y-space-xs"><div class="px-space-sm font-label-caps text-label-caps text-white/60 tracking-wider uppercase">Core</div><nav class="space-y-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-lg shadow-[0_0_12px_rgba(22,163,74,0.25)]"><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-white/85 hover:bg-surface-container-high hover:text-white transition-all" data-path="dashboard" href="https://resumemaker.de5.net/"><span class="material-symbols-outlined text-title-md">grid_view</span><span class="font-body-md text-body-md">Dashboard</span></a><a aria-current="page" class="flex items-center gap-space-sm px-space-sm py-space-xs transition-all bg-primary-container text-on-primary-container font-semibold rounded-lg shadow-[0_0_12px_rgba(22,163,74,0.25)]" data-path="resume-builder" href="resume-builder.html"><span class="material-symbols-outlined text-title-md">description</span><span class="font-body-md text-body-md">Resume Builder</span></a></nav></div><div class="space-y-space-xs"><div class="px-space-sm font-label-caps text-label-caps text-white/60 tracking-wider uppercase">Tools</div><nav class="space-y-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-lg shadow-[0_0_12px_rgba(22,163,74,0.25)]"><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-white/85 hover:bg-surface-container-high hover:text-white transition-all" data-path="metaclean" href="https://sandipk.qd.je/metadata-cleaner/"><span class="material-symbols-outlined text-title-md">image</span><span class="font-body-md text-body-md">MetaClean</span></a></nav></div><div class="space-y-space-xs"><div class="px-space-sm font-label-caps text-label-caps text-white/60 tracking-wider uppercase">System</div><nav class="space-y-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-lg shadow-[0_0_12px_rgba(22,163,74,0.25)]"><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-white/85 hover:bg-surface-container-high hover:text-white transition-all" href="https://aahar.jharkhand.gov.in/" target="_blank" rel="noopener"><span class="material-symbols-outlined text-title-md">shopping_basket</span><span class="font-body-md text-body-md">Ration Card</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-white/85 hover:bg-surface-container-high hover:text-white transition-all" href="https://myaadhaar.uidai.gov.in/" target="_blank" rel="noopener"><span class="material-symbols-outlined text-title-md">badge</span><span class="font-body-md text-body-md">Aadhaar Card</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-white/85 hover:bg-surface-container-high hover:text-white transition-all" href="https://pmkisan.gov.in/" target="_blank" rel="noopener"><span class="material-symbols-outlined text-title-md">agriculture</span><span class="font-body-md text-body-md">PM Kisan</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-white/85 hover:bg-surface-container-high hover:text-white transition-all" data-path="settings" href="#"><span class="material-symbols-outlined text-title-md">settings</span><span class="font-body-md text-body-md">Settings</span></a></nav></div></div></div><div class="p-space-sm bg-surface-container-lowest/80"><div class="p-space-sm rounded-lg bg-surface-container-high/60 flex items-center justify-between"><div class="flex items-center gap-space-xs"><span class="w-2 h-2 rounded-full bg-tertiary animate-pulse"></span><span class="font-code-sm text-code-sm text-tertiary">FREE FOREVER</span></div><span class="font-code-sm text-code-sm text-white/60">NO SIGN-UP</span></div></div></aside><div class="pl-64 flex flex-col min-h-screen"><header class="fixed top-0 left-64 right-0 h-16 bg-surface/85 backdrop-blur-xl z-40 shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 w-full px-space-md flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><img alt="ResumeMaker Logo" class="h-8 w-auto object-contain" src="webforge-logo.png"/><div class="flex items-center gap-space-xs px-space-sm py-space-xs rounded-lg bg-surface-container-low text-white/70 hover:text-white transition-colors cursor-pointer"><span class="material-symbols-outlined text-title-md">search</span><span class="font-body-sm text-body-sm text-white/70">Quick Search...</span><kbd class="px-space-xs py-0.5 rounded bg-surface-container-highest font-code-sm text-code-sm text-[#0F172A]">Ctrl+K</kbd></div></div><div class="flex items-center gap-space-sm"><div class="relative flex items-center justify-center p-space-xs text-[#475569] hover:text-[#0F172A] cursor-pointer"><span class="material-symbols-outlined text-headline-sm">notifications</span><span class="absolute top-1 right-1 flex items-center justify-center w-4 h-4 rounded-full bg-error-container text-on-error-container font-label-caps text-[10px] font-bold">3</span></div><div class="flex items-center gap-space-xs pl-space-xs"><div class="hidden md:flex flex-col text-right"><span class="font-body-sm text-body-sm font-semibold text-[#0F172A]">Sandip</span><span class="font-label-caps text-label-caps text-[#16A34A]">Resume Builder</span></div><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="avatar-cartoon.png"/></div></div></div></header><main class="w-full pt-16 bg-surface flex-1">
+<div class="space-y-space-md">
+<div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Resume Builder</h1>
+<p class="font-body-md text-body-md text-on-surface-variant">Build a professional resume. Edit any field and the preview updates instantly. Your resume uses its own professional design, separate from this dashboard.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-space-md items-start">
+<div id="resFormCard" class="rounded-xl bg-white text-slate-900 p-space-md shadow-md space-y-space-sm">
+<h2 class="font-title-md text-title-md font-bold">Your Details</h2>
+<p class="font-body-sm text-body-sm text-slate-600">Phone and education are empty because those details are not known yet. Fill them in here.</p>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Full Name</label>
+<input id="resName" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md" type="text" value="Sandip Kumar Mahto"/>
+</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Professional Title</label>
+<input id="resTitle" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md" type="text" value="Android App Developer &amp; Content Creator"/>
+</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Email</label>
+<input id="resEmail" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md" type="text" placeholder="Add your email address" value=""/>
+</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Phone</label>
+<input id="resPhone" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md" type="text" placeholder="Add your phone number" value=""/>
+</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Website</label>
+<input id="resWebsite" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md" type="text" value="https://sandipk.qd.je"/>
+</div>
+<div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Photo (optional)</label>
+<input id="resPhoto" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md" type="file" accept="image/*"/>
+<p class="font-body-sm text-body-sm text-slate-600 mt-1">Photo appears in the "Add Photo Here" box in the header. It is saved inside the downloaded file.</p>
+<button id="resPhotoRemove" class="hidden mt-1 px-space-sm py-1.5 rounded-lg bg-[#1E3A5F] text-white font-label-caps text-label-caps" type="button">Remove Photo</button>
+</div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">About</label>
+<textarea id="resAbout" rows="3" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md">Android app developer and content creator. I build practical Android apps and run a daily newspaper and a classic silent-comedy YouTube channel.</textarea>
+</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Skills (comma-separated)</label>
+<textarea id="resSkills" rows="3" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md">Android, Java, Python, Blender, Video Editing, HTML, CSS, JavaScript, GitHub Pages, YouTube</textarea>
+</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Projects (one per line: Title — description)</label>
+<textarea id="resProjects" rows="8" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md">Video Editing AI Enhancer 4K — Android app for 4K-style video enhancement
+eBook Library — 50 original bilingual stories with an in-app reader
+Sandip AI Chat — Personal WhatsApp AI auto-reply with Gemini
+Musa AI Assistant — Personal AI assistant with Excel Studio
+Apna Akhbaar — Daily bilingual newspaper on sandipk.qd.je
+Hasgulla — YouTube channel for classic silent-comedy public-domain films
+Taaza Khabar — Android news app
+Viral Video Studio — Video enhancement plus viral toolkit app</textarea>
+</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Education</label>
+<p class="font-body-sm text-body-sm text-slate-600 mb-2">Fill the table like the format. Use + Add Row below to insert more rows. Empty rows will not appear in the resume.</p>
+<div style="overflow-x:auto;">
+<table style="width:100%;border-collapse:collapse;font-size:13px;">
+<thead><tr>
+<th style="border:1px solid #94a3b8;background:#DCE6F1;color:#16324F;font-weight:bold;padding:6px;text-align:left;">Qualification</th>
+<th style="border:1px solid #94a3b8;background:#DCE6F1;color:#16324F;font-weight:bold;padding:6px;text-align:left;">School / College</th>
+<th style="border:1px solid #94a3b8;background:#DCE6F1;color:#16324F;font-weight:bold;padding:6px;text-align:left;">Board / University</th>
+<th style="border:1px solid #94a3b8;background:#DCE6F1;color:#16324F;font-weight:bold;padding:6px;text-align:left;">Year</th>
+<th style="border:1px solid #94a3b8;background:#DCE6F1;color:#16324F;font-weight:bold;padding:6px;text-align:left;">Marks</th>
+<th style="border:1px solid #94a3b8;background:#DCE6F1;color:#16324F;font-weight:bold;padding:6px;text-align:left;">Action</th>
+</tr></thead>
+<tbody id="eduFormBody">
+<tr>
+<td style="border:1px solid #94a3b8;padding:4px;"><input id="edu10_qual" value="10th" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
+<td style="border:1px solid #94a3b8;padding:4px;"><input id="edu10_school" placeholder="School name" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
+<td style="border:1px solid #94a3b8;padding:4px;"><input id="edu10_board" placeholder="Board name" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
+<td style="border:1px solid #94a3b8;padding:4px;"><input id="edu10_year" placeholder="Year" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
+<td style="border:1px solid #94a3b8;padding:4px;"><input id="edu10_marks" placeholder="Marks / %" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
+<td style="border:1px solid #94a3b8;padding:4px;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #94a3b8;padding:4px;"><input id="edu12_qual" value="12th" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
+<td style="border:1px solid #94a3b8;padding:4px;"><input id="edu12_school" placeholder="School / College" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
+<td style="border:1px solid #94a3b8;padding:4px;"><input id="edu12_board" placeholder="Board name" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
+<td style="border:1px solid #94a3b8;padding:4px;"><input id="edu12_year" placeholder="Year" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
+<td style="border:1px solid #94a3b8;padding:4px;"><input id="edu12_marks" placeholder="Marks / %" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
+<td style="border:1px solid #94a3b8;padding:4px;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #94a3b8;padding:4px;"><input id="eduGrad_qual" value="Graduation / Other" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
+<td style="border:1px solid #94a3b8;padding:4px;"><input id="eduGrad_school" placeholder="College name" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
+<td style="border:1px solid #94a3b8;padding:4px;"><input id="eduGrad_board" placeholder="University / Board" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
+<td style="border:1px solid #94a3b8;padding:4px;"><input id="eduGrad_year" placeholder="Year" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
+<td style="border:1px solid #94a3b8;padding:4px;"><input id="eduGrad_marks" placeholder="Marks / %" class="w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text"/></td>
+<td style="border:1px solid #94a3b8;padding:4px;"></td>
+</tr>
+</tbody></table></div><button id="eduAddRow" class="mt-2 px-space-sm py-1.5 rounded-lg bg-[#1E3A5F] text-white font-label-caps text-label-caps" type="button">+ Add Row</button></div>
+
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Certifications / Training</label>
+<textarea id="resCert" rows="3" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md" placeholder="Course / Certificate — Institute Name, Year (one per line)"></textarea>
+</div>
+<div class="font-body-md text-body-md font-semibold text-slate-700">Personal Details</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Father's Name</label>
+<input id="resFather" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md" type="text" placeholder="Your Father's Name"/>
+</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Date of Birth</label>
+<input id="resDob" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md" type="text" placeholder="DD/MM/YYYY"/>
+</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Gender</label>
+<input id="resGender" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md" type="text" placeholder="Your Gender"/>
+</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Religion</label>
+<input id="resReligion" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md" type="text" placeholder="Your Religion"/>
+</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Nationality</label>
+<input id="resNationality" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md" type="text" placeholder="Indian"/>
+</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Marital Status</label>
+<input id="resMarital" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md" type="text" placeholder="Single / Married"/>
+</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Languages Known</label>
+<input id="resLanguages" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md" type="text" placeholder="Hindi, English, Other"/>
+</div>
+<div class="font-body-md text-body-md font-semibold text-slate-700">Declaration</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Declaration Text</label>
+<textarea id="resDeclText" rows="2" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md">I hereby declare that the information provided above is true and correct to the best of my knowledge.</textarea>
+</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Place</label>
+<input id="resDeclPlace" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md" type="text" placeholder="City name — leave empty for a blank line"/>
+</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Date</label>
+<input id="resDeclDate" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md" type="text" placeholder="DD/MM/YYYY — leave empty for a blank line"/>
+</div>
+<div>
+<label class="block font-body-sm text-body-sm font-semibold text-slate-700 mb-1">Signature</label>
+<input id="resDeclSig" class="w-full bg-white border border-slate-300 text-slate-900 rounded-lg px-space-md py-2.5 font-body-md text-body-md" type="text" value="Sandip Kumar Mahto"/>
+</div>
+</div>
+<div class="rounded-xl bg-white text-slate-900 p-space-md shadow-md space-y-space-sm">
+<div class="flex items-center justify-between gap-space-sm">
+<h2 class="font-title-md text-title-md font-bold">Preview</h2>
+<button id="resEditBtn" class="px-space-sm py-1.5 rounded-lg bg-[#1E3A5F] text-white font-label-caps text-label-caps" type="button">Edit Resume</button>
+</div>
+<p class="font-body-sm text-body-sm text-slate-600">This is how your resume will look. Use Edit Resume to change anything, even after downloading.</p>
+<div class="mt-2">
+<h3 class="font-title-md text-title-md font-bold text-on-surface">Choose a Design</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">16 designs inspired by open-source resume templates. Pick one — the preview, download and print all use it.</p>
+<div id="tplPicker" class="grid grid-cols-2 sm:grid-cols-4 gap-2 mt-2"></div>
+</div>
+<div id="resumePreview" class="border border-slate-200 rounded-lg p-space-md bg-white"></div>
+<div class="flex flex-wrap gap-space-xs">
+<button id="resDownload" class="px-space-md py-2 rounded-lg bg-primary-container text-on-primary-container font-label-caps text-label-caps font-bold" type="button">Download .HTML</button>
+<button id="resPrint" class="px-space-md py-2 rounded-lg bg-[#1E3A5F] text-white font-label-caps text-label-caps" type="button">Print / Save as PDF</button>
+</div>
+<div id="resStatus" class="hidden rounded-lg bg-tertiary-container/20 text-tertiary font-body-sm text-body-sm p-space-sm">Resume saved. Want changes? <button id="resStatusEditBtn" class="underline font-semibold" type="button">Edit Resume</button></div>
+</div>
+</div>
+</div>
+</main></div>
+<script>
+  (function () {
+    var photoDataURL = "";
+    var eduDynCount = 0;
+    var TEMPLATES = [
+      { id: "classic-navy", name: "Classic Navy", desc: "Dark navy banner, clean tables", layout: "single", header: "banner", section: "bar", accent: "#16324F", dark: "#16324F", headerBg: "#16324F", headerText: "#ffffff", subText: "#E0EBF2", thBg: "#DCE6F1", thText: "#16324F", labelBg: "#F0F4F8", nameFont: "sans", photo: "rect" },
+      { id: "twocolor-classic", name: "Two-Color Classic", desc: "Navy and green angled bars, tab headings", layout: "single", header: "topbar", section: "tab", accent: "#1F3864", dark: "#1F3864", headerBg: "#1F3864", headerText: "#ffffff", subText: "#E0EBF2", thBg: "#DCE6F1", thText: "#1F3864", labelBg: "#F0F4F8", nameFont: "serif", photo: "rect", bar2: "#6FA287" },
+      { id: "deepblue-sidebar", name: "Deep Blue Sidebar", desc: "Navy sidebar with photo, skills and contact", layout: "sidebar", header: "sidebar", section: "icon", accent: "#4487C6", dark: "#254665", headerBg: "#254665", headerText: "#ffffff", subText: "#D6E4F0", thBg: "#DCE6F1", thText: "#254665", labelBg: "#F0F4F8", nameFont: "sans", photo: "rect", sidebarBg: "#254665", sidebarText: "#ffffff" },
+      { id: "minimal-light", name: "Minimal Light", desc: "Airy and light, headings in a left column", layout: "labelcol", header: "plain", section: "label", accent: "#1F3864", dark: "#1F3864", headerBg: "#ffffff", headerText: "#1F2937", subText: "#6B7280", thBg: "#F1F5F9", thText: "#1F3864", labelBg: "#F8FAFC", nameFont: "sans", photo: "rect" },
+      { id: "curve-label", name: "Curve Label Classic", desc: "Rounded tab headings, teal accent", layout: "single", header: "banner", section: "tabround", accent: "#00C091", dark: "#16324F", headerBg: "#16324F", headerText: "#ffffff", subText: "#E0EBF2", thBg: "#D9F7EF", thText: "#0B6B52", labelBg: "#F0F4F8", nameFont: "sans", photo: "rect" },
+      { id: "elegant-twocolor", name: "Elegant Two-Color", desc: "Teal and slate, refined and calm", layout: "single", header: "banner", section: "bar", accent: "#00C091", dark: "#334155", headerBg: "#334155", headerText: "#ffffff", subText: "#D9F7EF", thBg: "#D9F7EF", thText: "#0B6B52", labelBg: "#F0F4F8", nameFont: "sans", photo: "rect" },
+      { id: "red-classic", name: "Red Classic", desc: "Bold red banner and ribbon headings", layout: "single", header: "banner", section: "ribbon", accent: "#C0392B", dark: "#7B241C", headerBg: "#C0392B", headerText: "#ffffff", subText: "#FDEDEC", thBg: "#FADBD8", thText: "#7B241C", labelBg: "#FDF2F2", nameFont: "sans", photo: "rect" },
+      { id: "blue-ribbon", name: "Blue Ribbon", desc: "Blue banner, ribbon headings", layout: "single", header: "banner", section: "ribbon", accent: "#2B8FD4", dark: "#1B5E8A", headerBg: "#2B8FD4", headerText: "#ffffff", subText: "#EAF4FC", thBg: "#D6EAF8", thText: "#1B5E8A", labelBg: "#EFF7FD", nameFont: "sans", photo: "rect" },
+      { id: "grey-classic", name: "Grey Classic", desc: "Understated grey monochrome", layout: "single", header: "banner", section: "bar", accent: "#5F6B7A", dark: "#374151", headerBg: "#5F6B7A", headerText: "#ffffff", subText: "#E5E7EB", thBg: "#E5E7EB", thText: "#374151", labelBg: "#F3F4F6", nameFont: "sans", photo: "rect" },
+      { id: "professional-blue", name: "Professional Blue", desc: "Confident blue, crisp lines", layout: "single", header: "banner", section: "bar", accent: "#0B70BD", dark: "#0B3D66", headerBg: "#0B70BD", headerText: "#ffffff", subText: "#D6EAF8", thBg: "#D6EAF8", thText: "#0B3D66", labelBg: "#EFF7FD", nameFont: "sans", photo: "rect" },
+      { id: "tech-creative", name: "Tech Creative", desc: "Dark header, cyan accent", layout: "single", header: "darktech", section: "line", accent: "#00C2FF", dark: "#1A1A2E", headerBg: "#1A1A2E", headerText: "#ffffff", subText: "#A5F3FC", thBg: "#E0F2FE", thText: "#0C4A6E", labelBg: "#F0F9FF", nameFont: "sans", photo: "rect" },
+      { id: "line-creative", name: "Line Creative", desc: "Accent side-lines on headings", layout: "single", header: "banner", section: "line", accent: "#2C3E50", dark: "#2C3E50", headerBg: "#2C3E50", headerText: "#ffffff", subText: "#D5D8DC", thBg: "#EAEDED", thText: "#2C3E50", labelBg: "#F2F3F4", nameFont: "sans", photo: "rect" },
+      { id: "ink-elegant", name: "Ink Elegant", desc: "Black ink, serif name, centered", layout: "single", header: "center", section: "bar", accent: "#1A1A1A", dark: "#1A1A1A", headerBg: "#ffffff", headerText: "#1A1A1A", subText: "#4B5563", thBg: "#F3F4F6", thText: "#1A1A1A", labelBg: "#F9FAFB", nameFont: "serif", photo: "rect" },
+      { id: "yellow-accent", name: "Yellow Accent", desc: "Grey and white with a yellow pop", layout: "single", header: "banner", section: "bar", accent: "#D9A400", dark: "#3A3F44", headerBg: "#3A3F44", headerText: "#ffffff", subText: "#FEF3C7", thBg: "#FEF3C7", thText: "#713F12", labelBg: "#FFFBEB", nameFont: "sans", photo: "rect" },
+      { id: "fashion-twocol", name: "Fashion Two-Column", desc: "Curved navy sidebar with timeline", layout: "sidebar", header: "sidebar", section: "icon", accent: "#254665", dark: "#254665", headerBg: "#254665", headerText: "#ffffff", subText: "#D6E4F0", thBg: "#DCE6F1", thText: "#254665", labelBg: "#F0F4F8", nameFont: "sans", photo: "circle", sidebarBg: "#254665", sidebarText: "#ffffff", sidebarCurve: true },
+      { id: "titlebar-classic", name: "Title Bar Classic", desc: "Centered title bar, classic feel", layout: "single", header: "center", section: "bar", accent: "#16324F", dark: "#16324F", headerBg: "#16324F", headerText: "#ffffff", subText: "#E0EBF2", thBg: "#DCE6F1", thText: "#16324F", labelBg: "#F0F4F8", nameFont: "sans", photo: "rect" }
+    ];
+    var activeTemplateId = "classic-navy";
+    function tpl() { for (var i = 0; i < TEMPLATES.length; i++) { if (TEMPLATES[i].id === activeTemplateId) return TEMPLATES[i]; } return TEMPLATES[0]; }
+    function tplCardHTML(tp) {
+      var sel = tp.id === activeTemplateId;
+      var mini = '<div class="tpl-mini" style="height: 200px; border-radius: 6px; overflow: hidden; border: 1px solid #cbd5e1; background: #ffffff;"><div class="tpl-mini-in" data-tpl="' + tp.id + '" style="width: 960px; transform-origin: top left;"></div></div>';
+      return '<button type="button" data-tpl="' + tp.id + '" class="tpl-card text-left rounded-lg p-2 ' + (sel ? 'ring-2 ring-[#16A34A] bg-[#E9EEF5]' : 'bg-[#F8FAFC] hover:bg-[#E9EEF5]') + '">'
+        + mini
+        + '<div class="font-body-sm text-body-sm font-semibold text-on-surface mt-1">' + tp.name + '</div>'
+        + '<div class="text-[11px] leading-4 text-on-surface-variant">' + tp.desc + '</div></button>';
+    }
+    var tplPrevTimer = null;
+    function refreshTplPreviews() {
+      var cur = activeTemplateId;
+      document.querySelectorAll(".tpl-mini-in").forEach(function (el) {
+        var w = el.parentElement.clientWidth || 190;
+        el.style.transform = "scale(" + (w / 960) + ")";
+        activeTemplateId = el.getAttribute("data-tpl");
+        el.innerHTML = resumeBodyHTML();
+      });
+      activeTemplateId = cur;
+    }
+    function scheduleTplPreviews() {
+      if (tplPrevTimer) clearTimeout(tplPrevTimer);
+      tplPrevTimer = setTimeout(refreshTplPreviews, 300);
+    }
+
+    function renderTemplatePicker() {
+      var p = document.getElementById("tplPicker");
+      if (!p) return;
+      p.innerHTML = TEMPLATES.map(tplCardHTML).join("");
+      p.querySelectorAll(".tpl-card").forEach(function (b) {
+        b.addEventListener("click", function () { activeTemplateId = b.getAttribute("data-tpl"); renderTemplatePicker(); renderResume(); });
+      });
+      refreshTplPreviews();
+    }
+
+    function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+    function val(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+    function section(title) {
+      var t = tpl();
+      if (t.section === "tab" || t.section === "tabround") {
+        var rad = t.section === "tabround" ? "border-radius: 0 12px 12px 0;" : "";
+        return '<div style="margin-top: 18px; margin-bottom: 0;"><span style="display: inline-block; background: ' + t.accent + '; color: #ffffff; font-size: 15px; font-weight: bold; text-transform: uppercase; padding: 5px 16px; ' + rad + '">' + title + '</span></div><div style="border-top: 2px solid ' + t.accent + '; margin-bottom: 8px;"></div>';
+      }
+      if (t.section === "ribbon") {
+        return '<div style="margin-top: 18px; margin-bottom: 0;"><span style="display: inline-block; background: ' + t.accent + '; color: #ffffff; font-size: 15px; font-weight: bold; text-transform: uppercase; padding: 5px 16px; border-radius: 2px;">' + title + '</span></div><div style="border-top: 2px solid ' + t.accent + '; margin-bottom: 8px;"></div>';
+      }
+      if (t.section === "icon") {
+        var ch = title.charAt(0);
+        return '<div style="font-size: 15px; font-weight: bold; color: ' + t.dark + '; text-transform: uppercase; margin-top: 18px; margin-bottom: 6px; padding-bottom: 5px; border-bottom: 2px solid ' + t.accent + ';"><span style="display: inline-block; width: 24px; height: 24px; border-radius: 50%; background: ' + t.dark + '; color: #ffffff; text-align: center; line-height: 24px; font-size: 13px; margin-right: 10px; vertical-align: middle;">' + ch + '</span>' + title + '</div>';
+      }
+      if (t.section === "line") {
+        return '<div style="font-size: 15px; font-weight: bold; color: ' + t.dark + '; text-transform: uppercase; margin-top: 18px; margin-bottom: 6px; border-left: 4px solid ' + t.accent + '; padding-left: 10px;">' + title + '</div>';
+      }
+      return '<div style="font-size: 15px; font-weight: bold; color: ' + t.accent + '; text-transform: uppercase; margin-top: 18px; margin-bottom: 6px;">' + title + '</div>';
+    }
+    function photoHTML(w, h) {
+      var t = tpl();
+      var br = t.photo === "circle" ? "border-radius: 50%;" : "";
+      var inner = "";
+      if (photoDataURL) {
+        inner = '<img src="' + photoDataURL + '" style="width: 100%; height: 100%; object-fit: cover; display: block;" alt="Photo"/>';
+      } else {
+        inner = '<div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; text-align: center; color: #ffffff; font-weight: bold; font-size: 14px; line-height: 1.4;">ADD<br/>PHOTO<br/>HERE</div>';
+      }
+      return '<div style="width: ' + w + 'px; height: ' + h + 'px; border: 2px solid #ffffff; background: ' + t.dark + '; overflow: hidden; ' + br + '">' + inner + '</div>';
+    }
+    function headerHTML() {
+      var t = tpl();
+      var name = val("resName").trim() || "Your Name";
+      var title = val("resTitle").trim();
+      var email = val("resEmail").trim();
+      var phone = val("resPhone").trim();
+      var website = val("resWebsite").trim();
+      var parts = [];
+      if (phone) parts.push("PHONE  " + phone);
+      if (email) parts.push("EMAIL  " + email);
+      var contact1 = parts.join("   |   ");
+      var nameStyle = t.nameFont === "serif" ? "Georgia, 'Times New Roman', serif" : "inherit";
+      if (t.header === "center") {
+        var h = '<div style="text-align: center; padding: 18px 10px 14px; background: ' + t.headerBg + '; border-bottom: 3px solid ' + t.accent + ';">';
+        h += '<div style="font-family: ' + nameStyle + '; font-size: 32px; font-weight: bold; color: ' + t.headerText + '; line-height: 1.2;">' + esc(name) + '</div>';
+        if (title) h += '<div style="font-size: 14px; color: ' + t.subText + '; margin-top: 4px;">' + esc(title) + '</div>';
+        if (contact1) h += '<div style="font-size: 12px; color: ' + t.subText + '; margin-top: 6px;">' + esc(contact1) + '</div>';
+        if (website) h += '<div style="font-size: 12px; color: ' + t.subText + '; margin-top: 2px;">' + esc(website) + '</div>';
+        h += '</div>';
+        return h;
+      }
+      if (t.header === "plain") {
+        var h2 = '<div style="display: table; width: 100%;">';
+        h2 += '<div style="display: table-cell; width: 170px; vertical-align: top; padding: 4px 16px 4px 0;">' + photoHTML(150, 170) + '</div>';
+        h2 += '<div style="display: table-cell; vertical-align: middle;">';
+        h2 += '<div style="font-family: ' + nameStyle + '; font-size: 34px; font-weight: bold; color: ' + t.headerText + '; line-height: 1.15;">' + esc(name) + '</div>';
+        if (title) h2 += '<div style="font-size: 14px; color: ' + t.subText + '; margin-top: 6px;">' + esc(title) + '</div>';
+        if (contact1) h2 += '<div style="font-size: 12px; color: ' + t.subText + '; margin-top: 8px;">' + esc(contact1) + '</div>';
+        if (website) h2 += '<div style="font-size: 12px; color: ' + t.subText + '; margin-top: 2px;">' + esc(website) + '</div>';
+        h2 += '</div></div>';
+        return h2;
+      }
+      if (t.header === "topbar") {
+        var h3 = '<div style="padding: 6px 0 0;">';
+        h3 += '<div style="font-family: ' + nameStyle + '; font-size: 30px; font-weight: bold; color: ' + t.dark + '; line-height: 1.2;">' + esc(name) + '</div>';
+        if (title) h3 += '<div style="font-size: 14px; color: ' + t.subText + '; margin-top: 4px;">' + esc(title) + '</div>';
+        h3 += '<div style="display: flex; margin-top: 12px;"><div style="flex: 3; height: 14px; background: ' + t.dark + '; clip-path: polygon(0 0, 100% 0, calc(100% - 14px) 100%, 0 100%);"></div><div style="flex: 1; height: 14px; background: ' + (t.bar2 || t.accent) + '; clip-path: polygon(14px 0, 100% 0, 100% 100%, 0 100%); margin-left: 8px;"></div></div>';
+        h3 += '<div style="display: table; width: 100%; margin-top: 14px;"><div style="display: table-cell; vertical-align: middle;">';
+        if (contact1) h3 += '<div style="font-size: 12px; color: #6B7280;">' + esc(contact1) + '</div>';
+        if (website) h3 += '<div style="font-size: 12px; color: #6B7280; margin-top: 2px;">' + esc(website) + '</div>';
+        h3 += '</div><div style="display: table-cell; width: 170px; vertical-align: middle; padding: 10px;">' + photoHTML(150, 170) + '</div></div></div>';
+        return h3;
+      }
+      var h4 = '<div style="display: table; width: 100%; background: ' + t.headerBg + ';">';
+      h4 += '<div style="display: table-cell; vertical-align: middle; padding: 20px;">';
+      h4 += '<div style="font-family: ' + nameStyle + '; font-size: 30px; font-weight: bold; color: ' + t.headerText + '; line-height: 1.2;">' + esc(name) + '</div>';
+      if (title) h4 += '<div style="font-size: 14px; color: ' + t.subText + '; margin-top: 4px;">' + esc(title) + '</div>';
+      if (contact1) h4 += '<div style="font-size: 12px; color: ' + t.subText + '; margin-top: 6px;">' + esc(contact1) + '</div>';
+      if (website) h4 += '<div style="font-size: 12px; color: ' + t.subText + '; margin-top: 2px;">' + esc(website) + '</div>';
+      h4 += '</div>';
+      h4 += '<div style="display: table-cell; width: 170px; vertical-align: middle; padding: 10px;">' + photoHTML(150, 170) + '</div>';
+      h4 += '</div>';
+      return h4;
+    }
+
+
+        function eduRows() {
+      var rows = [];
+      [["edu10_qual", "edu10_school", "edu10_board", "edu10_year", "edu10_marks"],
+       ["edu12_qual", "edu12_school", "edu12_board", "edu12_year", "edu12_marks"],
+       ["eduGrad_qual", "eduGrad_school", "eduGrad_board", "eduGrad_year", "eduGrad_marks"]].forEach(function (ids) {
+        var q = val(ids[0]).trim(), sc = val(ids[1]).trim(), bd = val(ids[2]).trim(), yr = val(ids[3]).trim(), mk = val(ids[4]).trim();
+        if (sc || bd || yr || mk) rows.push([q, sc, bd, yr, mk]);
+      });
+      document.querySelectorAll(".edu-dyn-row").forEach(function (tr) {
+        var qEl = tr.querySelector(".edu-dyn-qual");
+        var scEl = tr.querySelector(".edu-dyn-school");
+        var bdEl = tr.querySelector(".edu-dyn-board");
+        var yrEl = tr.querySelector(".edu-dyn-year");
+        var mkEl = tr.querySelector(".edu-dyn-marks");
+        var q = qEl ? qEl.value.trim() : "";
+        var sc = scEl ? scEl.value.trim() : "";
+        var bd = bdEl ? bdEl.value.trim() : "";
+        var yr = yrEl ? yrEl.value.trim() : "";
+        var mk = mkEl ? mkEl.value.trim() : "";
+        if (sc || bd || yr || mk) rows.push([q, sc, bd, yr, mk]);
+      });
+      return rows;
+    }
+    function addEduRow() {
+      var body = document.getElementById("eduFormBody");
+      if (!body) return;
+      eduDynCount += 1;
+      var tr = document.createElement("tr");
+      tr.className = "edu-dyn-row";
+      tr.innerHTML = '<td style="border:1px solid #94a3b8;padding:4px;"><input class="edu-dyn-qual w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text" placeholder="Qualification"/></td><td style="border:1px solid #94a3b8;padding:4px;"><input class="edu-dyn-school w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text" placeholder="School / College"/></td><td style="border:1px solid #94a3b8;padding:4px;"><input class="edu-dyn-board w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text" placeholder="Board / University"/></td><td style="border:1px solid #94a3b8;padding:4px;"><input class="edu-dyn-year w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text" placeholder="Year"/></td><td style="border:1px solid #94a3b8;padding:4px;"><input class="edu-dyn-marks w-full bg-white border border-slate-300 text-slate-900 rounded px-2 py-1.5 font-body-sm text-body-sm" type="text" placeholder="Marks / %"/></td><td style="border:1px solid #94a3b8;padding:4px;"><button type="button" class="edu-dyn-remove px-2 py-1 rounded bg-[#1E3A5F] text-white font-label-caps text-label-caps">Remove</button></td>';
+      body.appendChild(tr);
+      tr.querySelectorAll("input").forEach(function (el) { el.addEventListener("input", renderResume); });
+      var rm = tr.querySelector(".edu-dyn-remove");
+      if (rm) rm.addEventListener("click", function () { tr.remove(); renderResume(); });
+    }
+    function resumeBodyHTML() {
+      var t = tpl();
+      var about = val("resAbout").trim();
+      var skills = val("resSkills").split(",").map(function (x) { return x.trim(); }).filter(Boolean);
+      var projects = val("resProjects").split("\n").map(function (x) { return x.trim(); }).filter(Boolean);
+      var edu = eduRows();
+      var name = val("resName").trim() || "Your Name";
+      var cert = val("resCert").split("\n").map(function (x) { return x.trim(); }).filter(Boolean);
+      var personal = [["Father's Name", "resFather"], ["Date of Birth", "resDob"], ["Gender", "resGender"], ["Religion", "resReligion"], ["Nationality", "resNationality"], ["Marital Status", "resMarital"], ["Languages Known", "resLanguages"]].map(function (pair) { return [pair[0], val(pair[1]).trim()]; }).filter(function (r) { return r[1]; });
+      var secs = [];
+      if (about) secs.push({ id: "summary", title: "Professional Summary / Career Objective", html: '<div style="font-size: 14px;">' + esc(about) + '</div>' });
+      if (edu.length) {
+        var eh = '<table style="width: 100%; border-collapse: collapse; font-size: 14px;">';
+        eh += '<tr><th style="border: 1px solid #94a3b8; background: ' + t.thBg + '; color: ' + t.thText + '; font-weight: bold; padding: 6px 8px; text-align: left;">Qualification</th><th style="border: 1px solid #94a3b8; background: ' + t.thBg + '; color: ' + t.thText + '; font-weight: bold; padding: 6px 8px; text-align: left;">School / College</th><th style="border: 1px solid #94a3b8; background: ' + t.thBg + '; color: ' + t.thText + '; font-weight: bold; padding: 6px 8px; text-align: left;">Board / University</th><th style="border: 1px solid #94a3b8; background: ' + t.thBg + '; color: ' + t.thText + '; font-weight: bold; padding: 6px 8px; text-align: left;">Year</th><th style="border: 1px solid #94a3b8; background: ' + t.thBg + '; color: ' + t.thText + '; font-weight: bold; padding: 6px 8px; text-align: left;">Marks</th></tr>';
+        edu.forEach(function (r) {
+          eh += '<tr><td style="border: 1px solid #94a3b8; padding: 6px 8px;">' + esc(r[0]) + '</td><td style="border: 1px solid #94a3b8; padding: 6px 8px;">' + esc(r[1]) + '</td><td style="border: 1px solid #94a3b8; padding: 6px 8px;">' + esc(r[2]) + '</td><td style="border: 1px solid #94a3b8; padding: 6px 8px;">' + esc(r[3]) + '</td><td style="border: 1px solid #94a3b8; padding: 6px 8px;">' + esc(r[4]) + '</td></tr>';
+        });
+        eh += '</table>';
+        secs.push({ id: "education", title: "Education", html: eh });
+      }
+      if (projects.length) {
+        var ph = '<ul style="font-size: 14px; margin: 0; padding-left: 20px;">';
+        projects.forEach(function (line) {
+          var parts = line.split(" — ");
+          if (parts.length > 1) ph += '<li><b>' + esc(parts[0]) + '</b> — ' + esc(parts.slice(1).join(" — ")) + '</li>';
+          else ph += '<li>' + esc(line) + '</li>';
+        });
+        ph += '</ul>';
+        secs.push({ id: "experience", title: "Work Experience", html: ph });
+      }
+      if (skills.length) {
+        var sh = '<ul style="font-size: 14px; margin: 0; padding-left: 20px;">';
+        skills.forEach(function (line) { sh += '<li>' + esc(line) + '</li>'; });
+        sh += '</ul>';
+        secs.push({ id: "skills", title: "Key Skills", html: sh });
+      }
+      if (cert.length) {
+        var ch = '';
+        cert.forEach(function (line) { ch += '<div style="font-size: 14px;">' + esc(line) + '</div>'; });
+        secs.push({ id: "certs", title: "Certifications / Training", html: ch });
+      }
+      if (personal.length) {
+        var prh = '<table style="width: 100%; border-collapse: collapse; font-size: 14px;">';
+        personal.forEach(function (r) {
+          prh += '<tr><td style="border: 1px solid #94a3b8; background: ' + t.labelBg + '; color: ' + t.thText + '; font-weight: bold; padding: 6px 8px;">' + esc(r[0]) + '</td><td style="border: 1px solid #94a3b8; padding: 6px 8px;">' + esc(r[1]) + '</td></tr>';
+        });
+        prh += '</table>';
+        secs.push({ id: "personal", title: "Personal Details", html: prh });
+      }
+      var declTitle = "Declaration";
+      var declText = val("resDeclText").trim();
+      var declPlace = val("resDeclPlace").trim();
+      var declDate = val("resDeclDate").trim();
+      var declSig = val("resDeclSig").trim() || name;
+      var declHtml = '';
+      if (declText) declHtml += '<div style="font-size: 14px;">' + esc(declText) + '</div>';
+      declHtml += '<div style="font-size: 14px; font-weight: bold; margin-top: 16px;">Place: ' + (declPlace ? esc(declPlace) : '__________________') + '&nbsp;&nbsp;&nbsp;&nbsp;Date: ' + (declDate ? esc(declDate) : '__________________') + '</div>';
+      declHtml += '<div style="font-size: 14px; text-align: right; margin-top: 16px;"><b>Signature</b><br/>(' + esc(declSig) + ')</div>';
+      var bodyFont = "Aptos Display, Arial, Helvetica, sans-serif";
+      function secById(id) { for (var i = 0; i < secs.length; i++) { if (secs[i].id === id) return secs[i]; } return null; }
+      if (t.layout === "sidebar") {
+        var email = val("resEmail").trim(), phone = val("resPhone").trim(), website = val("resWebsite").trim();
+        var sk = secById("skills"), ps = secById("personal");
+        var side = '<div style="display: table-cell; width: 250px; background: ' + t.sidebarBg + '; color: ' + t.sidebarText + '; padding: 24px 18px; vertical-align: top;' + (t.sidebarCurve ? ' border-radius: 0 0 110px 0;' : '') + '">';
+        side += '<div style="text-align: center;">' + photoHTML(140, 160) + '</div>';
+        side += '<div style="font-size: 24px; font-weight: bold; text-align: center; margin-top: 14px; line-height: 1.2;">' + esc(name) + '</div>';
+        var ttl = val("resTitle").trim();
+        if (ttl) side += '<div style="font-size: 13px; text-align: center; margin-top: 6px; opacity: 0.85;">' + esc(ttl) + '</div>';
+        side += '<div style="margin-top: 18px; font-size: 13px; line-height: 1.9;">';
+        if (phone) side += '<div>Phone: ' + esc(phone) + '</div>';
+        if (email) side += '<div>Email: ' + esc(email) + '</div>';
+        if (website) side += '<div>' + esc(website) + '</div>';
+        side += '</div>';
+        if (sk) side += '<div style="font-size: 14px; font-weight: bold; text-transform: uppercase; margin-top: 22px; margin-bottom: 8px; border-bottom: 1px solid rgba(255,255,255,0.4); padding-bottom: 4px;">Key Skills</div>' + sk.html;
+        if (ps) {
+          side += '<div style="font-size: 14px; font-weight: bold; text-transform: uppercase; margin-top: 22px; margin-bottom: 8px; border-bottom: 1px solid rgba(255,255,255,0.4); padding-bottom: 4px;">Personal Details</div><div style="font-size: 13px; line-height: 1.9;">';
+          personal.forEach(function (r) { side += '<div><b>' + esc(r[0]) + ':</b> ' + esc(r[1]) + '</div>'; });
+          side += '</div>';
+        }
+        side += '</div>';
+        var main = '<div style="display: table-cell; vertical-align: top; padding: 24px 22px;">';
+        secs.forEach(function (s) { if (s.id !== "skills" && s.id !== "personal") main += section(s.title) + s.html; });
+        main += section(declTitle) + declHtml;
+        main += '</div>';
+        return '<div style="font-family: ' + bodyFont + '; color: #1f2937; line-height: 1.5;"><div style="display: table; width: 100%;">' + side + main + '</div></div>';
+      }
+      if (t.layout === "labelcol") {
+        var lh = '<div style="font-family: ' + bodyFont + '; color: #1f2937; line-height: 1.5;">';
+        lh += headerHTML();
+        lh += '<table style="width: 100%; border-collapse: collapse; margin-top: 10px;">';
+        secs.forEach(function (s) {
+          lh += '<tr><td style="width: 150px; vertical-align: top; padding: 12px 12px 12px 0; font-size: 15px; font-weight: bold; color: ' + t.dark + '; text-transform: uppercase;">' + s.title + '</td><td style="vertical-align: top; padding: 12px 0;">' + s.html + '</td></tr>';
+        });
+        lh += '<tr><td style="width: 150px; vertical-align: top; padding: 12px 12px 12px 0; font-size: 15px; font-weight: bold; color: ' + t.dark + '; text-transform: uppercase;">' + declTitle + '</td><td style="vertical-align: top; padding: 12px 0;">' + declHtml + '</td></tr>';
+        lh += '</table></div>';
+        return lh;
+      }
+      var h = '<div style="font-family: ' + bodyFont + '; color: #1f2937; line-height: 1.5;">';
+      h += headerHTML();
+      secs.forEach(function (s) { h += section(s.title) + s.html; });
+      h += section(declTitle) + declHtml;
+      h += '</div>';
+      return h;
+    }
+
+    function resumeDocHTML() {
+      var name = val("resName").trim() || "Your Name";
+      return '<!DOCTYPE html>\n<html lang="en">\n<head>\n<meta charset="utf-8"/>\n<title>Resume - ' + esc(name) + '</title>\n<style>body{margin:0;padding:40px;background:#f3f4f6;} .page{max-width:800px;margin:0 auto;background:#ffffff;padding:40px;}</style>\n</head>\n<body>\n<div class="page">' + resumeBodyHTML() + '</div>\n</body>\n</html>';
+    }
+    function renderResume() {
+      var p = document.getElementById("resumePreview");
+      if (p) p.innerHTML = resumeBodyHTML();
+      scheduleTplPreviews();
+    }
+    function fileName() {
+      var name = val("resName").trim() || "resume";
+      return name.replace(/\s+/g, "-") + "-Resume.html";
+    }
+    function showSaved() {
+      var s = document.getElementById("resStatus");
+      if (s) s.classList.remove("hidden");
+    }
+    function downloadResume() {
+      var blob = new Blob([resumeDocHTML()], { type: "text/html" });
+      var a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = fileName();
+      a.click();
+      showSaved();
+    }
+    function printResume() {
+      var w = window.open("", "_blank");
+      if (!w) { alert("Please allow pop-ups for this site to print."); return; }
+      w.document.write(resumeDocHTML());
+      w.document.close();
+      w.focus();
+      w.print();
+      showSaved();
+    }
+    function editResume() {
+      var card = document.getElementById("resFormCard");
+      if (card) card.scrollIntoView({ behavior: "smooth", block: "start" });
+      var n = document.getElementById("resName");
+      if (n) n.focus();
+      if (card) {
+        card.style.boxShadow = "0 0 0 3px #16A34A";
+        setTimeout(function () { card.style.boxShadow = ""; }, 1500);
+      }
+    }
+    function afterPhoto() {
+      renderResume();
+      var rb = document.getElementById("resPhotoRemove");
+      if (rb) rb.classList.remove("hidden");
+    }
+    function handlePhoto(file) {
+      if (!file) return;
+      if (file.type && file.type.indexOf("image/") !== 0) { alert("Please choose an image file (JPG or PNG) for the photo."); return; }
+      var reader = new FileReader();
+      reader.onload = function (e) {
+        var img = new Image();
+        img.onload = function () {
+          try {
+            var max = 400;
+            var w = img.width, hh = img.height;
+            var scale = Math.min(1, max / Math.max(w, hh));
+            var cw = Math.round(w * scale), ch = Math.round(hh * scale);
+            var cv = document.createElement("canvas");
+            cv.width = cw; cv.height = ch;
+            var ctx = cv.getContext("2d");
+            ctx.drawImage(img, 0, 0, cw, ch);
+            photoDataURL = cv.toDataURL("image/jpeg", 0.85);
+          } catch (err) {
+            photoDataURL = "";
+            alert("That image could not be used (SVG or protected image). Please choose a JPG or PNG photo.");
+          }
+          afterPhoto();
+        };
+        img.onerror = function () { alert("That file could not be read as an image. Please choose a JPG or PNG photo."); };
+        img.src = e.target.result;
+      };
+      reader.readAsDataURL(file);
+    }
+    function removePhoto() {
+      photoDataURL = "";
+      var inp = document.getElementById("resPhoto");
+      if (inp) inp.value = "";
+      var rb = document.getElementById("resPhotoRemove");
+      if (rb) rb.classList.add("hidden");
+      renderResume();
+    }
+    ["resName", "resTitle", "resEmail", "resPhone", "resWebsite", "resAbout", "resSkills", "resProjects", "edu10_qual", "edu10_school", "edu10_board", "edu10_year", "edu10_marks", "edu12_qual", "edu12_school", "edu12_board", "edu12_year", "edu12_marks", "eduGrad_qual", "eduGrad_school", "eduGrad_board", "eduGrad_year", "eduGrad_marks", "resCert", "resFather", "resDob", "resGender", "resReligion", "resNationality", "resMarital", "resLanguages", "resDeclText", "resDeclPlace", "resDeclDate", "resDeclSig"].forEach(function (id) {
+      var el = document.getElementById(id);
+      if (el) el.addEventListener("input", renderResume);
+    });
+    var ph = document.getElementById("resPhoto");
+    if (ph) ph.addEventListener("change", function () { if (ph.files && ph.files[0]) handlePhoto(ph.files[0]); });
+    var rb = document.getElementById("resPhotoRemove");
+    if (rb) rb.addEventListener("click", removePhoto);
+    var dl = document.getElementById("resDownload");
+    if (dl) dl.addEventListener("click", downloadResume);
+    var pr = document.getElementById("resPrint");
+    if (pr) pr.addEventListener("click", printResume);
+    var eb = document.getElementById("resEditBtn");
+    if (eb) eb.addEventListener("click", editResume);
+    var sb = document.getElementById("resStatusEditBtn");
+    if (sb) sb.addEventListener("click", editResume);
+    var addRowBtn = document.getElementById("eduAddRow");
+    if (addRowBtn) addRowBtn.addEventListener("click", addEduRow);
+    renderResume();
+    renderTemplatePicker();
+  })();
+</script>
+</body></html>
