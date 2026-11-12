@@ -1,806 +1,326 @@
 {
- "updated_at": "2026-11-12T05:07:43+05:30",
- "count": 100,
+ "updated_at": "2026-11-13T05:13:10+05:30",
+ "count": 40,
  "items": [
   {
-   "t": "US - China AI cooperation and competition : Bessent",
-   "u": "https://www.chinatechnews.com/2026/11/11/132538-us-china-ai-cooperation-and-competition-bessent",
-   "img": "https://cassette.sphdigital.com.sg/image/straitstimes/5ae624a43e84377313549dadccc42adac91d44d3120842ae4be5cc5015ceabbc",
-   "d": "chinatechnews.com",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Abilene Turkey Prices And Thanksgiving Dinner Etiquette",
-   "u": "https://965therock.com/ixp/114/p/abilene-thanksgiving-turkey-prices-table-manners/",
-   "img": "https://townsquare.media/site/114/files/2026/11/attachment-triple-turkey-shot.jpg?&q=75&format=natural",
-   "d": "965therock.com",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Nvidia board backs Huang as spy probe raises questions",
-   "u": "http://www.taiwansun.com/news/279422428/nvidia-board-backs-huang-as-spy-probe-raises-questions",
-   "img": "https://chitra-api.kreatio.com/api/v1/wps/986332d/10897fad-56a8-4e2e-b772-c10061ec143f/1/Jensen-Huang-600x315.jpg",
-   "d": "taiwansun.com",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Sensex zooms 1 , 100 pts , Nifty crosses 25 , 300 mark on positive global cues",
-   "u": "https://www.businesstoday.in/markets/stocks/story/sensex-zooms-1100-pts-nifty-crosses-25300-mark-on-positive-global-cues-566767-2026-11-11",
-   "img": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202611/6af3e9ae150ca-market-cap-of-bse-listed-firms-rose-to-rs-51121-lakh-crore-110605298-16x9.jpg",
-   "d": "businesstoday.in",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "MSCI November rejig : Coforge , LIC , Adani Green and Meesho stocks likely to be added",
-   "u": "https://www.thehindubusinessline.com/markets/msci-november-rejig-coforge-lic-adani-green-and-meesho-stocks-likely-to-be-added/article71688448.ece",
-   "img": "https://bl-i.thgim.com/public/incoming/e0gpry/article71685908.ece/alternates/LANDSCAPE_1200/iStock-1367783784.jpg",
-   "d": "thehindubusinessline.com",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Your next enterprise customer will ask an AI for a shortlist of IT partners . Here what it reads",
-   "u": "https://itbrief.co.nz/story/your-next-enterprise-customer-will-ask-an-ai-for-a-shortlist-of-it-partners-here-s-what-it-reads",
-   "img": "https://itbrief.co.nz/uploads/story/2026/11/11/compatible_joseph-tannous-headshot-1200x700-story-bfecf2e58d10e5da.jpg",
-   "d": "itbrief.co.nz",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Hanoi 1960s apartment blocks reveal rich history and charm | Merimbula News Weekly",
-   "u": "https://www.merimbulanewsweekly.com.au/story/9384693/hanoi-1960s-apartment-blocks-reveal-rich-history-and-charm/",
-   "img": "https://www.merimbulanewsweekly.com.au/images/transform/v1/crop/frm/130854433/b7fc1362-90ed-48ab-baa6-9c4ef4b442da.jpg/r0_442_6240_3718_w1200_h630_fmax.jpg",
-   "d": "merimbulanewsweekly.com.au",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "New home loans suffer largest drop on record",
-   "u": "https://www.theadviser.com.au/borrower/49205-new-home-loans-suffer-largest-drop-on-record",
-   "img": "https://res.cloudinary.com/momentum-media-group-pty-ltd/image/upload/v1794361529/The%20Adviser/arrow-decline_ta_ift3mb.jpg",
-   "d": "theadviser.com.au",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Shock decline in mortgage numbers stirs up the banks",
-   "u": "https://www.merimbulanewsweekly.com.au/story/9389951/shock-decline-in-mortgage-numbers-stirs-up-the-banks/",
-   "img": "https://www.merimbulanewsweekly.com.au/images/transform/v1/crop/frm/silverstone-feed-data/d2c42a6f-59a7-4a46-a15f-90b87c8a3ccf.jpg/r0_90_800_510_w1200_h630_fmax.jpg",
-   "d": "merimbulanewsweekly.com.au",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Ample opportunities to expand China - Europe business cooperation , says Polish business leader",
-   "u": "http://www.taiwansun.com/news/279424560/ample-opportunities-to-expand-china-europe-business-cooperation-says-polish-business-leader",
-   "img": "https://chitra-api.kreatio.com/api/v1/wps/5193971/d029b13e-c6cb-4f75-b553-23aa1bb90237/0/CbsbeeE000129-20261111-PRMFN0A001-600x315.jpg",
-   "d": "taiwansun.com",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "U . S . stocks slide Tuesday as sell - off in Nvidia extends",
-   "u": "http://www.indiagazette.com/news/279424719/u-s-stocks-slide-tuesday-as-sell-off-in-nvidia-extends",
-   "img": "https://chitra-api.kreatio.com/api/v1/wps/bb592cd/865dc709-3e48-4b13-b02b-2e038b097d6c/4/Wall-Street-600x315.jpeg",
-   "d": "indiagazette.com",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Brian Cashman accepts Pat Murphy apology for saying 2023 New York Yankees had selfish culture",
-   "u": "https://www.tsn.ca/mlb/article/cashman-accepts-murphys-apology-for-saying-2023-yankees-had-selfish-culture/",
-   "img": "https://www.tsn.ca/resizer/v2/QNLEVKTYAONTZST6OODGG3ELLY.jpg?smart=true&auth=3c0e8d02614dc824b5021ae0b7c73d7cd618d8f5f08f9e35fec0acf14d724c61",
-   "d": "tsn.ca",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Skin Pharm Opens Its First Northeast Clinic",
-   "u": "https://wwd.com/beauty-industry-news/skin-care/skin-pharm-boston-clinic-opening-1239408053/",
-   "img": "https://wwd.com/wp-content/uploads/2026/11/MixCollage-10-Nov-2026-10-13-AM-4540.jpg?&crop=1",
-   "d": "wwd.com",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Padres appear intent on addressing glaring rotation needs",
-   "u": "https://www.sandiegouniontribune.com/2026/11/10/padres-appear-intent-on-addressing-glaring-rotation-needs/",
-   "img": "https://www.sandiegouniontribune.com/wp-content/uploads/2026/11/AP26276749902954.jpg",
-   "d": "sandiegouniontribune.com",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "US beef market leads Australian exports despite softer demand | North Queensland Register",
-   "u": "https://www.northqueenslandregister.com.au/story/9388746/us-beef-market-leads-australian-exports-despite-softer-demand/",
-   "img": "https://www.northqueenslandregister.com.au/images/transform/v1/crop/frm/263550519/5e671ffb-9aa9-4a7f-885b-d963a3387b3f_rotated_270.JPG/r0_997_2000_2047_w1200_h630_fmax.jpg",
-   "d": "northqueenslandregister.com.au",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Alleged spy plot targeting CEO Jensen Huang raises questions about Nvidia future",
-   "u": "https://www.thehindubusinessline.com/info-tech/alleged-spy-plot-targeting-ceo-jensen-huang-raises-questions-about-nvidias-future/article71688237.ece",
-   "img": "https://bl-i.thgim.com/public/incoming/dx7jfg/article71686057.ece/alternates/LANDSCAPE_1200/2026-10-10T192752Z_1048128444_RC2LEGAMRPVA_RTRMADP_3_REFLECTION-AI-M-A-NVIDIA.JPG",
-   "d": "thehindubusinessline.com",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "First homes in Hillpointe 358 - unit South Reno rental community due January 2028",
-   "u": "https://mynews4.com/news/local/first-homes-in-hillpointes-south-reno-rental-project-expected-by-january-2028-wedge-parkway-apartments-townhomes-northern-nevada-attaintable-housing-south-reno-city-council-brandi-anderson-carson-city",
-   "img": "https://mynews4.com/resources/media2/16x9/714/1320/4x0/90/caa0028e-4364-49c6-9a13-1bf3da9ce40b-Screenshot20261110153104.png",
-   "d": "mynews4.com",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Pendle Buybacks Exceeded Token Emissions as Q3 Revenue Fell",
-   "u": "https://econotimes.com/Pendle-Buybacks-Exceeded-Token-Emissions-as-Q3-Revenue-Fell-1775006",
-   "img": "https://wfuxxvxhdynkhcrlavdu.supabase.co/storage/v1/object/public/article-media/articles/5288bab4e5b1ea80b35f67742e50c3dc1c2bddc3bbec043a1750a7cce4fc170a.webp",
-   "d": "econotimes.com",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Pune : FDA Suspends Licences Of Two Karachi Sweet Units After Seizing 93 Kg Of Sweets",
-   "u": "https://www.freepressjournal.in/pune/pune-fda-suspends-licences-of-two-karachi-sweet-units-after-seizing-93-kg-of-sweets",
-   "img": "https://media.assettype.com/freepressjournal/2026-11-11/xobku24p/MixCollage-11-Nov-2026-11-24-AM-9916.jpg",
-   "d": "freepressjournal.in",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Havells India shares see bullish breakout ; where is stock headed ?",
-   "u": "https://www.businesstoday.in/markets/stocks/story/havells-india-shares-see-bullish-breakout-where-is-stock-headed-566780-2026-11-11",
-   "img": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202611/6af3fdd267893-on-the-higher-timeframe--the-havells-india-stock-has-gained-1437-per-cent-so-far-this-month-and-is-113200798-16x9.jpg",
-   "d": "businesstoday.in",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "China issues 4 billion yuan in first sovereign green bonds in Canada , boosting financial cooperation",
-   "u": "https://www.globaltimes.cn/page/202611/1374066.shtml",
-   "img": "https://www.globaltimes.cn/Portals/0/attachment/2026/2026-11-11/9a9fb9ba-1aa9-4ad6-85d4-c378992ca3e6.jpg",
-   "d": "globaltimes.cn",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Ferrara closing Little Village candy plant , laying off 154",
-   "u": "https://www.chicagotribune.com/2026/11/10/ferrara-little-village-candy-plant/",
-   "img": "https://www.chicagotribune.com/wp-content/uploads/2026/11/ctc-l-ferrara-candy-layoffs06.jpg",
-   "d": "chicagotribune.com",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "19 death notices in Stoke - on - Trent and North Staffordshire this week",
-   "u": "https://www.stokesentinel.co.uk/news/stoke-on-trent-news/19-death-notices-stoke-trent-11235338",
-   "img": "https://i2-prod.stokesentinel.co.uk/article11235415.ece/ALTERNATES/s1200d/2_Screenshot-2026-11-10-100031.png",
-   "d": "stokesentinel.co.uk",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Asian shares mostly rise on AI chip demand despite Wall Street retreat on inflation data",
-   "u": "http://www.cecildaily.com/ap/world/asian-shares-mostly-rise-on-ai-chip-demand-despite-wall-streets-retreat-on-inflation-data/article_522e22f1-f96b-5d57-9825-639aa30d192d.html",
-   "img": "https://bloximages.chicago2.vip.townnews.com/cecildaily.com/content/tncms/assets/v3/editorial/2/49/249aba96-77e5-53be-97b7-646e7d959f43/6af3f891090c6.image.jpg?crop=1763%2C926%2C0%2C124",
-   "d": "cecildaily.com",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Cloud Sovereignty in India : Moving beyond data residency to control",
-   "u": "https://www.moneycontrol.com/news/opinion/cloud-sovereignty-in-india-moving-beyond-data-residency-to-control-14076843.html",
-   "img": "https://images.moneycontrol.com/static-mcnews/2025/10/20251013040113_cybercrime.png",
+   "t": "India , Canada discuss advancing CEPA talks to boost trade and investment ties",
+   "u": "https://www.moneycontrol.com/world/india-canada-discuss-advancing-cepa-talks-to-boost-trade-and-investment-ties-article-14077984.html",
+   "img": "https://images.moneycontrol.com/static-mcnews/2025/12/20251226001815_canadaindia.png",
    "d": "moneycontrol.com",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "What to expect from Oxford Christmas Light Festival 2026",
-   "u": "https://www.thisisoxfordshire.co.uk/news/26716408.expect-oxfords-christmas-light-festival-2026/",
-   "img": "https://www.thisisoxfordshire.co.uk/resources/images/21618741.jpg?type=og-image",
-   "d": "thisisoxfordshire.co.uk",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
+   "t": "Adani group looking to raise $2 . 5 billion from MUFG , Barclays and Sumitomo to refinance Ambuja , ACC acquisition debt",
+   "u": "https://www.moneycontrol.com/news/business/adani-group-looking-to-raise-2-5-billion-from-mufg-barclays-and-sumitomo-to-refinance-ambuja-acc-acquisition-debt-14078020.html",
+   "img": "https://images.moneycontrol.com/static-mcnews/2026/10/20261002070713_Adani-Pranav.jpg",
+   "d": "moneycontrol.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "Bears GM Ryan Poles , Vikings Fan Sanity among Winners at 2026 Trade Deadline , Colts and Cowboys among the Losers",
-   "u": "https://www.si.com/nfl/2026-trade-deadline-winners-losers-bears-ryan-poles-vikings-fans-colts-cowboys",
-   "img": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_3700,h_2081/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/si/01m74g232g1etsa0jma4.jpg",
-   "d": "si.com",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
+   "t": "CII Summit Delegates Receive Traditional Welcome with Folk Dances in Vizag",
+   "u": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cii-summit-delegates-receive-traditional-welcome-with-folk-dances-in-vizag-2003698",
+   "img": "https://www.deccanchronicle.com/h-upload/2026/11/12/2112008-goyal.jpg",
+   "d": "deccanchronicle.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "Immigration arrests go on unabated after GOP midterm wipeout",
-   "u": "https://www.wokv.com/news/national/immigration-arrests/C5RMEWOR7Q3OFGD5V4BJOAI5VQ/",
-   "img": "https://cmg-cmg-rd-20056-prod.cdn.arcpublishing.com/resizer/v2/https%3A%2F%2Fcloudfront-us-east-1.images.arcpublishing.com%2Fcmg%2FEXXZ6G3HXE5NZD5YVTATRDXPT4.jpg?auth=4dee13392026c6ac04b1aa71db4504110ddbf6262201af14df6110e8101ee764&smart=true",
-   "d": "wokv.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "t": "Who is Kang Wei , Alice Huang reported husband linked to Nvidia CEO Jensen Huang affair ?",
+   "u": "https://www.moneycontrol.com/news/business/who-is-kang-wei-alice-huang-s-reported-husband-linked-to-nvidia-ceo-jensen-huang-affair-14077936.html",
+   "img": "https://images.moneycontrol.com/static-mcnews/2026/11/20261112050642_Alison-Huang-and-Jensen-huang-AFP.jpg",
+   "d": "moneycontrol.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "NASA Astronaut Applications Close Dec . 3 in Current Recruiting Push",
-   "u": "https://econotimes.com/NASA-Astronaut-Applications-Close-Dec-3-in-Current-Recruiting-Push-1774993",
-   "img": "https://wfuxxvxhdynkhcrlavdu.supabase.co/storage/v1/object/public/article-media/articles/dcaf1d9a073a50218d50334f88867bd6735357044042ae72a97b32f01c04f162.webp",
-   "d": "econotimes.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "t": "Priya Bhavani Shankar Marries Longtime Boyfriend Rajvel Raj",
+   "u": "https://www.filmfare.com/news/south/priya-bhavani-shankar-marries-longtime-boyfriend-rajvel-raj-87102.html",
+   "img": "https://filmfare.wwmindia.com/content/2026/nov/priyabhavanishankarweddingsoooo1794460398.jpg",
+   "d": "filmfare.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "Double the Moose , double the fun : Moose Too opens for teens , adults , and the playfully curious",
-   "u": "https://www.northcentralpa.com/business/double-the-moose-double-the-fun-moose-too-opens-for-teens-adults-and-the-playfully/article_a0795f38-ad62-4e60-b4da-ac388e03de5a.html",
-   "img": "https://bloximages.newyork1.vip.townnews.com/northcentralpa.com/content/tncms/assets/v3/editorial/a/07/a0795f38-ad62-4e60-b4da-ac388e03de5a/6af33f6122eac.preview.png?crop=1000%2C525%2C0%2C27",
-   "d": "northcentralpa.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "t": "Elon Musk Calls Hiring Nvidia CEO Jensen Huang  An Honour  Amid Leadership Controversy",
+   "u": "https://openthemagazine.com/world/elon-musk-on-hiring-nvidia-ceo-jensen-huang-that-would-be-an-honour",
+   "img": "https://media.openthemagazine.com/openthemagazine/2026-11-12/n3ht42f5/ok.jpeg?&ar=40:21&auto=format,compress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+   "d": "openthemagazine.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "Federal government failed to hold Epstein accountable , Republican committee says",
-   "u": "https://www.wvtf.org/2026-11-10/federal-government-failed-to-hold-epstein-accountable-republican-committee-says",
-   "img": "http://npr-brightspot.s3.amazonaws.com/e0/45/ffc72e00436fb1bd4bc7655ebe96/ap26161511274406.jpg",
-   "d": "wvtf.org",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "t": "Anirudh Ravichander and Kavya Maran to Marry Today in Greece",
+   "u": "https://udaipurkiran.com/anirudh-ravichander-and-kavya-maran-to-marry-today-in-greece/",
+   "img": "https://udaipurkiran.com/wp-content/uploads/2026/11/anirudh-ravichander-and-kavya-maran-to-marry-today-in-greece-1227722.webp",
+   "d": "udaipurkiran.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "Minivan crashes into people outside Los Angeles metro station , killing 3",
-   "u": "http://www.postregister.com/news/national/3-dead-after-vehicle-crashes-into-people-in-north-hollywood/article_7a5354ba-0f83-554b-a5a6-36190e7811d6.html",
-   "img": "https://bloximages.chicago2.vip.townnews.com/postregister.com/content/tncms/assets/v3/editorial/c/d2/cd27e8e3-8def-549e-be4d-a2f4b1bca945/6af3e5c71fc94.image.jpg?crop=1920%2C1008%2C0%2C35",
-   "d": "postregister.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "t": "Terror Attack in Khyber Pakhtunkhwa Claims 11 Policemen Lives",
+   "u": "https://udaipurkiran.com/terror-attack-in-khyber-pakhtunkhwa-claims-11-policemen-lives/",
+   "img": "https://udaipurkiran.com/wp-content/uploads/2026/11/terror-attack-in-khyber-pakhtunkhwa-claims-11-policemen-lives.webp",
+   "d": "udaipurkiran.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "Treasury Secretary Scott Bessent calls for more balanced US - China trade ties ahead of Trump - Xi talks",
-   "u": "http://www.cecildaily.com/ap/nation/treasury-secretary-scott-bessent-calls-for-more-balanced-us-china-trade-ties-ahead-of-trump/article_f0b5c6af-43c8-5dce-a2a5-0a286f8fe201.html",
-   "img": "https://bloximages.chicago2.vip.townnews.com/cecildaily.com/content/tncms/assets/v3/editorial/7/33/733cea9f-ff0f-51c6-8acc-e6ffbd8f1271/6af3d4e446399.image.jpg?crop=1763%2C926%2C0%2C124",
-   "d": "cecildaily.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "t": "Two SPOs Found Murdered in Jammu and Kashmir",
+   "u": "https://udaipurkiran.com/two-spos-found-murdered-in-jammu-and-kashmir/",
+   "img": "https://udaipurkiran.com/wp-content/uploads/2026/11/two-spos-found-murdered-in-jammu-and-kashmir.webp",
+   "d": "udaipurkiran.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "NFL trade deadline roundup : Kirk Cousins , Keenan Allen join contenders",
-   "u": "http://www.coloradostar.com/news/279425433/nfl-trade-deadline-roundup-kirk-cousins-keenan-allen-join-contenders",
-   "img": "https://chitra-api.kreatio.com/api/v1/wps/1bb7c24/2ae0b98e-135c-4053-a9d7-d82b9ae3fc1d/0/ZmM3YTU1MGUtZjI-600x315.jpg",
-   "d": "coloradostar.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "t": "Trump - Xi - Putin Summit : Will China Join Nuclear Talks Amid Global Tensions ?",
+   "u": "https://openthemagazine.com/world/rubio-wang-call-puts-trump-xi-putin-summit-in-focus-will-china-agree-to-nuclear-talks",
+   "img": "https://media.openthemagazine.com/openthemagazine/2026-11-12/if40zq87/ok.png?&ar=40:21&auto=format,compress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+   "d": "openthemagazine.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "Walliams and Brand were leading united kingdom comics . Now they are part of a reckoning over sexual misconduct",
-   "u": "http://www.stardem.com/ap/world/walliams-and-brand-were-leading-uk-comics-now-they-are-part-of-a-reckoning-over/article_bc9e126e-67cf-5115-9719-06ad89b6c0d9.html",
-   "img": "https://bloximages.chicago2.vip.townnews.com/stardem.com/content/tncms/assets/v3/editorial/4/74/474e65f9-68a5-5a8f-94a1-fe6040806977/6aecae2008c01.image.jpg?crop=1763%2C926%2C0%2C124",
-   "d": "stardem.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "t": "Pollution - linked health insurance claims surge 4 . 3 times in three years ; working professionals account for 59 % of claims : Report",
+   "u": "https://www.moneycontrol.com/news/business/insurance/pollution-linked-health-insurance-claims-surge-4-3-times-in-three-years-working-professionals-account-for-59-of-claims-report-14078007.html",
+   "img": "https://images.moneycontrol.com/static-mcnews/2026/11/20261112055743_Smog.png",
+   "d": "moneycontrol.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "Bob Mills , founder of Bob Mills furniture , dies at 79",
-   "u": "https://www.chickashanews.com/news/bob-mills-founder-of-bob-mills-furniture-dies-at-79/article_bf1d1574-0217-5dc1-a47d-c37449149a82.html",
-   "img": "https://bloximages.chicago2.vip.townnews.com/chickashanews.com/content/tncms/assets/v3/editorial/b/f4/bf4b9453-1031-527f-8c3d-d8c0033b2a9f/6af3df1ad9199.image.jpg?crop=1080%2C567%2C0%2C526",
-   "d": "chickashanews.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "t": "From Mumbai lightman to rice exporter : Who is Shamsuddin Midya , the West Bengal businessman who gifted his 15 - year - old son a Rs 2 . 30 crore BMW ?",
+   "u": "https://www.moneycontrol.com/education/from-mumbai-lightman-to-rice-exporter-who-is-shamsuddin-midya-the-west-bengal-businessman-who-gifted-his-15-year-old-son-a-rs-2-30-crore-bmw-article-14077920.html",
+   "img": "https://images.moneycontrol.com/static-mcnews/2026/11/20261112045507_shamsuddin.png",
+   "d": "moneycontrol.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "Man Arrested For 2013 Murder Of Phoenix Security Guard Arrested In Globe",
-   "u": "https://arizonadailyindependent.com/2026/11/10/man-arrested-for-2013-murder-of-phoenix-security-guard-arrested-in-globe/",
-   "img": "http://arizonadailyindependent.com/wp-content/uploads/2026/11/mugshot-2.jpg",
-   "d": "arizonadailyindependent.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "t": "Rapper Yella Beezy convicted of murder and sentenced to life in prison 6 years after rapper Mo3 shoot - out - Report |",
+   "u": "https://timesofindia.indiatimes.com/entertainment/english/music/news/rapper-yella-beezy-convicted-of-murder-and-sentenced-to-life-in-prison-6-years-after-rapper-mo3s-shoot-out-report/articleshow/135758326.cms",
+   "img": "https://static.toiimg.com/thumb/msid-135758439,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "d": "timesofindia.indiatimes.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "BODY CAM : Florida officer hospitalized with traumatic brain injury after incident at Wawa",
-   "u": "https://fox56.com/news/nation-world/bradenton-officer-traumatic-brain-injury-backed-into-suspect-body-camera-footage-domestic-disturbance-wawa-bradenton-police-department-florida-news",
-   "img": "https://fox56.com/resources/media2/16x9/1715/1320/53x0/90/a7c10c9f-fbb6-4c88-862a-313f41aa4e22-Screenshot20261110101839.png",
-   "d": "fox56.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "t": "Sensex falls 500 pts from day high , Nifty below 25 , 250 : Key reasons behind markets turning red",
+   "u": "https://www.moneycontrol.com/news/business/markets/sensex-falls-250-pts-from-day-s-high-nifty-below-25-300-key-reasons-behind-market-paring-gains-14078006.html",
+   "img": "https://images.moneycontrol.com/static-mcnews/2026/10/20261024035250_sensex_nifty_market_Nifty_nse_bse.jpg",
+   "d": "moneycontrol.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "Trump private message to Biden emerges in new memoir",
-   "u": "https://www.wmtw.com/article/trump-letter-to-joe-biden-white-house-book/74394674",
-   "img": "https://kubrick.htvapps.com/htv-prod/images/1a450900-967e-4204-80da-31f3bc8ddfce.jpg?crop=1.00xw%3A0.846xh%3B0%2C0.0120xh",
-   "d": "wmtw.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "t": "In her memoir , Sonia Gandhi recalls palmist prediction that Rajiv , not Sanjay , would be PM",
+   "u": "https://www.prokerala.com/news/articles/a1835731.html",
+   "img": "https://www.prokerala.com/news/photos/imgs/1280x720/sonia-gandhi-unveils-first-look-of-memoir-2120899.jpg",
+   "d": "prokerala.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "The McGuffey Art Center breathes life into Día de Muertos for Charlottesville",
-   "u": "https://www.cavalierdaily.com/article/2026/11/the-mcguffey-art-center-breathes-life-into-da-de-muertos-for-charlottesville",
-   "img": "https://snworksceo.imgix.net/cav/1dceb0df-acce-439f-8394-9151f92ef61e.sized-1000x1000.jpg",
-   "d": "cavalierdaily.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "t": "Last Chance to Correct CSIR UGC NET Application Today",
+   "u": "https://udaipurkiran.com/last-chance-to-correct-csir-ugc-net-application-today/",
+   "img": "https://udaipurkiran.com/wp-content/uploads/2026/11/CSIR-UGC-NET-Correction-Deadline.webp",
+   "d": "udaipurkiran.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "Mother and two young children killed in Missouri crash after semitruck struck their minivan",
-   "u": "https://www.wmtw.com/article/kansas-city-71-highway-crash-kills-mother-two-children/74395301",
-   "img": "https://kubrick.htvapps.com/htv-prod/images/3c16aadc-fb68-43fe-986f-6b4233c8e380.png?crop=1.00xw%3A1.00xh%3B0%2C0",
-   "d": "wmtw.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "t": "6 Reasons to add fatty fishes to the daily diet",
+   "u": "https://timesofindia.indiatimes.com/etimes/wellness/6-reasons-to-add-fatty-fishes-to-the-daily-diet/articleshow/135756757.cms",
+   "img": "https://static.toiimg.com/thumb/msid-135758133,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "d": "timesofindia.indiatimes.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "Mike Lindell Calls for a Midterms Recount",
-   "u": "https://politicalwire.com/2026/11/10/mike-lindell-calls-for-a-midterms-recount/",
-   "img": "https://politicalwire.com/wp-content/uploads/pw-social-cards/2023244-29a1c1e9.png",
-   "d": "politicalwire.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "t": "Watch : Massive fire at Ujjain Bagadiya Tower , 300+ rescued",
+   "u": "https://www.moneycontrol.com/city/watch-massive-fire-at-ujjain-s-bagadiya-tower-300-rescued-article-14077918.html",
+   "img": "https://images.moneycontrol.com/static-mcnews/2026/11/20261112045123_ujjain-fire.png",
+   "d": "moneycontrol.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "Biden Reveals Trump Message In 2021 Letter",
-   "u": "https://wsyr.iheart.com/content/2026-11-11-biden-reveals-trumps-message-in-2021-letter/",
-   "img": "https://i.iheart.com/v3/re/assets.getty/6af3eea4bc8f90db5c7f27e8?ops=gravity(%22north%22),fit(1200,675),quality(65)",
-   "d": "wsyr.iheart.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "t": "Tripura techie quits job after 9 months , serves notice period . Company later demands Rs 90 , 000 for training",
+   "u": "https://www.moneycontrol.com/news/trends/tripura-techie-quits-job-after-9-months-serves-notice-period-then-company-demanded-rs-90-000-for-training-14077970.html",
+   "img": "https://images.moneycontrol.com/static-mcnews/2026/11/20261112053947_bdfbhvkjdfkdjfds.jpg",
+   "d": "moneycontrol.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "Study examines community factors linked to diabetes in the South",
-   "u": "https://meridianstar.com/2026/11/10/study-examines-community-factors-linked-to-diabetes-in-the-south/",
-   "img": "https://meridianstar.com/wp-content/uploads/sites/12/2025/07/The-Meridian-Star.png",
-   "d": "meridianstar.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "t": "Class 9 student gets Rs 1 . 6 crore BMW M4 from father for scoring good marks in half - yearly exams",
+   "u": "https://www.moneycontrol.com/news/trends/class-9-student-gets-rs-1-6-crore-bmw-m4-from-father-for-scoring-good-marks-in-half-yearly-exams-14077932.html",
+   "img": "https://images.moneycontrol.com/static-mcnews/2026/11/20261112051325_bdfbhvkjdfkdjf.jpg",
+   "d": "moneycontrol.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "Jury deadlocks in Forrest County jail aggravated assault trial",
-   "u": "https://www.wdam.com/2026/11/11/jury-deadlocks-forrest-county-jail-aggravated-assault-trial/",
-   "img": "https://gray-wdam-prod.gtv-cdn.com/resizer/v2/IXQ2ZN3ZJFATZLEJ32XX6W6QBY.png?auth=c615bd1f5914123ea35ce0e22b4896e0cb06b32e74e397654ce2b7671afe6e3c&smart=true",
-   "d": "wdam.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "t": "West Bengal Weather Update : Light Rain Likely in Several Districts , Temperatures to Drop by 2 – 3°C",
+   "u": "https://udaipurkiran.com/west-bengal-weather-update-light-rain-likely-in-several-districts-temperatures-to-drop-by-2-3c/",
+   "img": "https://udaipurkiran.com/wp-content/uploads/2026/11/West-Bengal-Weather.webp",
+   "d": "udaipurkiran.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "Los Angeles police probe deadly North Hollywood sidewalk crash",
-   "u": "https://www.kmbc.com/article/los-angeles-north-hollywood-car-crash-pedestrians-dead/74395346",
-   "img": "https://kubrick.htvapps.com/htv-prod/images/25e88be9-efd5-4937-a3a5-4d827f56a121.jpg?crop=1.00xw%3A0.846xh%3B0%2C0.0673xh",
-   "d": "kmbc.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "t": "Most SIF funds lost money in October : Should investors worry before betting on this new investment category ?",
+   "u": "https://www.moneycontrol.com/news/business/personal-finance/most-sif-funds-lost-money-in-october-should-investors-worry-before-betting-on-this-new-investment-category-14077994.html",
+   "img": "https://images.moneycontrol.com/static-mcnews/2026/11/20261112054054_Market-Balance-Amid-Decline.png",
+   "d": "moneycontrol.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "House Blocks Impeachment Effort Against Hegseth",
-   "u": "https://650keni.iheart.com/content/2026-11-11-house-blocks-impeachment-effort-against-hegseth/",
-   "img": "https://i.iheart.com/v3/re/assets.getty/6af3dd12bc8f90db5c7f27e6?ops=gravity(%22north%22),fit(1200,675),quality(65)",
-   "d": "650keni.iheart.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "t": "Infosys Prize 2026 recognises research in quantum computing , wireless networks and human health",
+   "u": "https://www.moneycontrol.com/technology/infosys-prize-2026-recognises-research-in-quantum-computing-wireless-networks-and-human-health-article-14076963.html",
+   "img": "https://images.moneycontrol.com/static-mcnews/2026/11/20261111060513_ISF.png",
+   "d": "moneycontrol.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "No . 5 Michigan State knocks off No . 2 Duke 79 - 73",
-   "u": "https://www.chicagotribune.com/2026/11/10/michigan-state-beats-duke-champions-classic/",
-   "img": "https://www.chicagotribune.com/wp-content/uploads/2026/11/Michigan_State_Duke_Basketball_18739-1.jpg",
-   "d": "chicagotribune.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "t": "Delhi Continues to Battle Smog Despite Marginal Improvement in Air Quality",
+   "u": "https://www.deccanchronicle.com/news/current-affairs/delhi-continues-to-battle-smog-despite-marginal-improvement-in-air-quality-2003696",
+   "img": "https://www.deccanchronicle.com/h-upload/2026/11/12/2111990-aa-8580824.jpg",
+   "d": "deccanchronicle.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "Tracking the snowpack at Bozeman Creek headwaters",
-   "u": "https://helenair.com/news/community/article_609060c4-3f5a-52ec-9e67-c7533e7cce3f.html",
-   "img": "https://bloximages.chicago2.vip.townnews.com/helenair.com/content/tncms/assets/v3/editorial/2/ca/2ca6ac10-f6d6-5bd2-beb4-06039e134c3c/6af404f773151.image.jpg",
-   "d": "helenair.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "t": "Ness Wadia Comments on Hardik Pandya Transfer to Punjab Kings",
+   "u": "https://udaipurkiran.com/ness-wadia-comments-on-hardik-pandyas-transfer-to-punjab-kings/",
+   "img": "https://udaipurkiran.com/wp-content/uploads/2026/11/ness-wadia-comments-on-hardik-pandyas-transfer-to-punjab-kin-1227731.webp",
+   "d": "udaipurkiran.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "The Storage Center invites Mississippi students to apply for scholarship",
-   "u": "https://meridianstar.com/2026/11/10/the-storage-center-invites-mississippi-students-to-apply-for-scholarship/",
-   "img": "https://meridianstar.com/wp-content/uploads/sites/12/2026/11/scholarship.jpeg",
-   "d": "meridianstar.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "t": "Nvidia Board May Remove CEO Jensen Huang Amid Scandal",
+   "u": "https://udaipurkiran.com/nvidia-board-may-remove-ceo-jensen-huang-amid-scandal/",
+   "img": "https://udaipurkiran.com/wp-content/uploads/2026/11/nvidia-board-may-remove-ceo-jensen-huang-amid-scandal-1227702.webp",
+   "d": "udaipurkiran.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "Democrats take majority for first time in Long Hill history",
-   "u": "https://www.newjerseyhills.com/echoes-sentinel/news/democrats-take-majority-for-first-time-in-long-hill-history/article_00191298-aefe-4bf8-b6e6-341ae6d4738a.html",
-   "img": "https://bloximages.chicago2.vip.townnews.com/newjerseyhills.com/content/tncms/assets/v3/editorial/9/55/9553cfde-9d3c-40aa-b4c4-bb99e3f4dfca/68deb08ee0795.image.jpg?crop=759%2C398%2C148%2C132",
-   "d": "newjerseyhills.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "t": "Ramayana : Fans spot extra scenes in international version , question cuts in Hindi release",
+   "u": "https://www.moneycontrol.com/entertainment/ramayana-fans-spot-extra-scenes-in-international-version-question-cuts-in-hindi-release-article-14077876.html",
+   "img": "https://images.moneycontrol.com/static-mcnews/2026/10/20261011120134_ramayana-posterr.jpg",
+   "d": "moneycontrol.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "Former Reds Closer Emilio Pagan Lands Surprising Deal With AL Contender",
-   "u": "https://www.si.com/mlb/reds/onsi/former-reds-closer-emilio-pagan-lands-surprising-deal-with-al-contender-01m74hf3kkea",
-   "img": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_5037,h_2833/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/inside_the_reds/01m74hgr5vy7r6dacsax.jpg",
-   "d": "si.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "t": "Ramayana Part One Tops $30M Overseas , Crosses ₹800 Crore Worldwide",
+   "u": "https://udaipurkiran.com/ramayana-part-one-tops-30m-overseas-crosses-%E2%82%B9800-crore-worldwide/",
+   "img": "https://udaipurkiran.com/wp-content/uploads/2026/11/ramayana-part-one-tops-30m-overseas-crosses-e282b9800-cro-1227728.webp",
+   "d": "udaipurkiran.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "Capital of Arab America : El - Sayed Virginia summit speech draws new scrutiny online",
-   "u": "https://wgxa.tv/news/nation-world/capital-of-arab-america-el-sayeds-virginia-summit-speech-draws-new-scrutiny-online-michigan",
-   "img": "https://wgxa.tv/resources/media2/16x9/3903/1320/0x204/90/54b5400f-1a4c-4bf7-9006-f411f8cd6657-GettyImages23043237431.jpg",
-   "d": "wgxa.tv",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "t": "London AQI drops to 63 , Delhi stuck at 321 , why are two capitals breathing such different air ?",
+   "u": "https://www.moneycontrol.com/science/london-aqi-drops-to-63-delhi-stuck-at-321-why-are-two-capitals-breathing-such-different-air-article-14077912.html",
+   "img": "https://images.moneycontrol.com/static-mcnews/2026/11/20261112051120_London-vs.jpg",
+   "d": "moneycontrol.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "Days of Our Lives Spoilers Wednesday , November 11 : Chanel ASAP Exit Plan Shocks Johnny – Leo Dangerous Twist",
-   "u": "https://www.celebdirtylaundry.com/2026/days-of-our-lives-spoilers-wednesday-november-11-chanels-asap-exit-plan-shocks-johnny-leos-dangerous-twist/",
-   "img": "https://www.celebdirtylaundry.com/wp-content/uploads/Days-of-Our-Lives-Spoilers-Wednesday-November-11_-Chanels-ASAP-Exit-Plan-Shocks-Johnny-Leos-Dangerous-Twist.png",
-   "d": "celebdirtylaundry.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "t": "Bihar Weather Update : Dry Weather Across State Today , Light Rain Possible in Some Areas on November 13",
+   "u": "https://udaipurkiran.com/bihar-weather-update-dry-weather-across-state-today-light-rain-possible-in-some-areas-on-november-13/",
+   "img": "https://udaipurkiran.com/wp-content/uploads/2026/10/Bihar-Weather.webp",
+   "d": "udaipurkiran.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "Stevens Honored , Set For Speaker Role",
-   "u": "https://www.yankton.net/community/article_3645192e-f193-4376-aaa7-c97bd922f19e.html",
-   "img": "https://bloximages.chicago2.vip.townnews.com/yankton.net/content/tncms/assets/v3/editorial/c/2a/c2a9e2e2-e5c3-4a93-8c5d-657128ccb6ff/6af3ecee31608.image.jpg?crop=1374%2C721%2C0%2C393",
-   "d": "yankton.net",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "t": "Cummins to address media after Khawaja bombshell tampering claims on Friday",
+   "u": "https://www.prokerala.com/news/articles/a1835742.html",
+   "img": "https://www.prokerala.com/news/photos/imgs/1280x720/ipl-2026-rajasthan-royals-vs-sunrisers-hyderabad-2019637.jpg",
+   "d": "prokerala.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "Will Democrats quickly repeal Act 10 ? Answers among the party leaders vary",
-   "u": "https://www.cbs58.com/news/will-democrats-quickly-repeal-act-10-answers-among-the-partys-leaders-vary",
-   "img": "https://newscdn2.weigelbroadcasting.com/jChio-1794369230-327438-blog-assembly%20dem%20majority%20.png",
-   "d": "cbs58.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
-  },
-  {
-   "t": "Sanders Opposes Schumer Bid For Senate Majority Leader",
-   "u": "https://wrak.iheart.com/content/2026-11-11-sanders-opposes-schumers-bid-for-senate-majority-leader/",
-   "img": "https://i.iheart.com/v3/re/assets.getty/6af3ed2d2dfa2ee989b7b641?ops=gravity(%22north%22),fit(1200,675),quality(65)",
-   "d": "wrak.iheart.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
-  },
-  {
-   "t": "Vikings reacquire Kirk Cousins in deadline deal with Raiders",
-   "u": "http://www.coloradostar.com/news/279424579/vikings-reacquire-kirk-cousins-in-deadline-deal-with-raiders",
-   "img": "https://chitra-api.kreatio.com/api/v1/wps/c40699e/9a61237c-9c18-4c4c-9646-533d8a24e417/0/ZmVmNmUzMDAtOGV-600x315.jpg",
-   "d": "coloradostar.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
-  },
-  {
-   "t": "3 New Anime to Watch If You Miss 90s Anime",
-   "u": "https://comicbook.com/anime/list/3-new-anime-to-watch-if-you-miss-90s-anime/",
-   "img": "https://comicbook.com/wp-content/uploads/sites/4/2026/11/Anime-Lazarus.jpg",
-   "d": "comicbook.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
-  },
-  {
-   "t": "Uttarakhand News : बाबा केदार के कपाट शीतकाल के लिए बंद , इस साल 19 . 20 लाख भक्तों ने किए दर्शन",
-   "u": "https://www.khabarfast.com/uttarakhand-kedarnath-dham-temple-doors-closed-winter-19-20-lakh-devotees-darshan",
-   "img": "https://www.khabarfast.com/Upload/News/Uttarakhand-News-6099.jpg",
-   "d": "khabarfast.com",
-   "time": "20261111T063000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "Haryana News : हरियाणा में बड़ा प्रशासनिक फेरबदल , 7 IAS और 7 HCS अधिकारियों के तबादले , देखे पूरी लिस्ट",
-   "u": "https://www.khabarfast.com/haryana-news-major-administrative-reshuffle-in-haryana-transfer-of-7-ias-and-7-hcs-officers-see-full-list",
-   "img": "https://www.khabarfast.com/Upload/News/%E0%A4%B9%E0%A4%B0%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%A3%E0%A4%BE-%E0%A4%AE%E0%A5%87%E0%A4%82-%E0%A4%AC%E0%A4%A1%E0%A4%BC%E0%A4%BE-%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A4%A8%E0%A4%BF%E0%A4%95-%E0%A4%AB%E0%A5%87%E0%A4%B0%E0%A4%AC%E0%A4%A6%E0%A4%B2-4392.jpg",
-   "d": "khabarfast.com",
-   "time": "20261111T063000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "दिल्ली से करनाल जाना होगा आसान , मात्र 90 मिनट में पूरा होगा सफर ; नमो भारत कॉरिडोर को मिला ग्रीन सिग्नल",
-   "u": "https://www.khabarfast.com/it-will-be-easy-to-go-from-delhi-to-karnal-the-journey-will-be-completed-in-just-90-minutes",
-   "img": "https://www.khabarfast.com/Upload/News/New-Project---2026-11-11T114118-030-2227.jpg",
-   "d": "khabarfast.com",
-   "time": "20261111T063000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "Ind vs NZ Test Series : भारत से भिड़ंत के लिए न्यूजीलैंड टीम का ऐलान , 3 चोटिल खिलाड़ियों पर भी जताया भरोसा",
-   "u": "https://www.khabarfast.com/india-vs-new-zealand-test-series-2026-nz-squad-announced-rachin-conway",
-   "img": "https://www.khabarfast.com/Upload/News/Ind-vs-NZ-Test-Series-8738.jpg",
-   "d": "khabarfast.com",
-   "time": "20261111T063000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "Assam Train Accident : असम में बड़ा रेल हादसा , कोलकाता - सैरंग एक्सप्रेस के 6 डिब्बे पटरी से उतरे , सभी यात्री सुरक्षित",
-   "u": "https://www.khabarfast.com/assam-train-accident-kolkata-sairang-express-derailment",
-   "img": "https://www.khabarfast.com/Upload/News/Assam-Train-Accident-5929.jpg",
-   "d": "khabarfast.com",
-   "time": "20261111T063000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "Virat Kohli : भाई दूज पर विराट कोहली की बहन ने शेयर की पुरानी फोटो , प्यार भरे संदेश ने जीता दिल",
-   "u": "https://www.khabarfast.com/virat-kohli-sister-bhavna-kohli-bhai-dooj-special-message",
-   "img": "https://www.khabarfast.com/Upload/News/Virat-Kohli-1058.jpg",
-   "d": "khabarfast.com",
-   "time": "20261111T063000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "Ramayana Movie Collection : छठे दिन  धुरंधर 2  को चटाई धूल , टूटे 11 बॉक्‍स ऑफिस रिकॉर्ड , टॉप - 20 में ग्रैंड एंट्री",
-   "u": "https://navbharattimes.indiatimes.com/entertainment/box-office/ramayana-movie-collection-day-6-ranbir-kapoor-film-beats-dhurandhar-2-makes-grand-entry-in-worldwide-top-20-breaks-10-box-office-records/articleshow/135727347.cms",
-   "img": "https://static.langimg.com/nbt/thumb/135727351/ramayana-box-office-collection-day-6.jpg?imgsize=902515&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261111T063000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "वाराणसी में दीवार गिरने से 2 मासूम बच्चियों की मौत , SDRF ने 8 घंटे तक चलाया रेस्क्यू ऑपरेशन",
-   "u": "https://navbharattimes.indiatimes.com/state/uttar-pradesh/varanasi/bachhav-village-two-girls-died-after-house-wall-collapsed-sdrf-conducted-rescue-operation/articleshow/135727359.cms",
-   "img": "https://static.langimg.com/nbt/thumb/135727605/wall-collapses-in-varanasibr.jpg?imgsize=64418&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261111T063000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "Delhi Pollution : दिल्ली - NCR में सांसों पर संकट ! कहीं AQI 396 तो कहीं 300 पार , जानें अपने इलाके का हाल",
-   "u": "https://www.khabarfast.com/delhi-pollution-aqi-today-ncr-air-quality-396-delhi-aqi-update",
-   "img": "https://www.khabarfast.com/Upload/News/Delhi-Pollution-2283.jpg",
-   "d": "khabarfast.com",
-   "time": "20261111T063000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "IPL 2027 : आईपीएल में सबसे बड़ा उलटफेर ! हार्दिक पांड्या PBKS में गए , अर्शदीप MI से जुड़े",
-   "u": "https://www.khabarfast.com/ipl-2027-biggest-player-trade-hardik-pandya-pbks-arshdeep-singh-mi",
-   "img": "https://www.khabarfast.com/Upload/News/IPL-2027-9381.jpg",
-   "d": "khabarfast.com",
-   "time": "20261111T063000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "Stock Market Today : शेयर बाजार में तूफानी तेजी , सेंसेक्स 1 , 144 अंक उछला , निफ्टी भी 25 , 337 के पार",
-   "u": "https://www.khabarfast.com/stock-market-today-sensex-surges-1144-points-nifty-crosses-25337",
-   "img": "https://www.khabarfast.com/Upload/News/Stock-Market-Today-%E0%A4%B6%E0%A5%87%E0%A4%AF%E0%A4%B0-%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0-%E0%A4%AE%E0%A5%87%E0%A4%82-%E0%A4%A4%E0%A5%82%E0%A4%AB%E0%A4%BE%E0%A4%A8%E0%A5%80-%E0%A4%A4%E0%A5%87%E0%A4%9C%E0%A5%80-%E0%A4%B8%E0%A5%87%E0%A4%82%E0%A4%B8%E0%A5%87%E0%A4%95%E0%A5%8D%E0%A4%B8-1-144-7972.jpg",
-   "d": "khabarfast.com",
-   "time": "20261111T063000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "बिलो द बेल्ट हमला , सोनिया गांधी की किताब में नीतीश कुमार पर लिखी बातों से भड़के संजय झा",
-   "u": "https://navbharattimes.indiatimes.com/state/bihar/patna/sonia-gandhi-book-belonging-a-journey-of-love-creates-political-turmoil-in-bihar-nitish-kumar-party/articleshow/135726819.cms",
-   "img": "https://static.langimg.com/nbt/thumb/135727696/nitish-kumar-sonia-gandhi-old.jpg?imgsize=567206&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261111T063000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "काली पूजा में ममता बनर्जी के भाई बाबुन ने छुए शुभेंदु अधिकारी के पैर , टीएमसी नेता कुणाल घोष बोले , दीदी उसे त्याग चुकी हैं - kolkata kali puja mamata banerjee brother babun banerjee touched suvendu adhikari feet tmc responded",
-   "u": "https://navbharattimes.indiatimes.com/state/west-bengal/kolkata/kolkata-kali-puja-mamata-banerjee-brother-babun-banerjee-touched-suvendu-adhikari-feet-tmc-responded/articleshow/135727604.cms",
-   "img": "https://static.langimg.com/nbt/thumb/135727710/suvendu-adhikari-babun-banerjee-kali-puja-kolkata.jpg?imgsize=113118&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261111T063000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "Aaj Ka Mausam 11 November 2026 : 20 राज्यों में बारिश का अलर्ट , दिल्ली - UP समेत इन राज्यों में बदलेगा मौसम , बढ़ेगी ठंड",
-   "u": "https://www.khabarfast.com/aaj-ka-mausam-11-november-20-states-rain-alert-delhi-up-weather-update",
-   "img": "https://www.khabarfast.com/Upload/News/Aaj-Ka-Mausam-11-November-2026-6732.jpg",
-   "d": "khabarfast.com",
-   "time": "20261111T063000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "NSUI नेता पर बड़ा आरोप :  आकर्षक देह वाली छात्राओं की मांग , रामानुजन कॉलेज के अनस खान सस्पेंड , NIA जांच की मांग",
-   "u": "https://panchjanya.com/2026/11/11/498506/bharat/delhi/nsui-leader-alleges-demand-for-attractive-female-students-ramanujan-college-anas-khan-suspended-nia-probe-demanded/",
-   "img": "https://panchjanya.com/wp-content/uploads/2026/11/anas-khan-nsui.webp",
-   "d": "panchjanya.com",
-   "time": "20261111T053000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "दूसरे राज्य में मिली छूट यहां नहीं चलेगी , शादी कर राजस्थान आईं महिलाओं पर राजस्थान हाईकोर्ट का बड़ा फैसला - rajasthan hc interstate reservation rule general category verdict",
-   "u": "https://navbharattimes.indiatimes.com/state/rajasthan/jodhpur/rajasthan-hc-interstate-reservation-rule-general-category-verdict/articleshow/135726286.cms",
-   "img": "https://static.langimg.com/nbt/thumb/135726286/rajasthan-high-court-madarsa-education.jpg?imgsize=59490&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261111T053000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "Professional Makeup Tips : बोल्ड नहीं बैलेंस मेकअप करना सीखें , तभी मिलेगा मेकअप आर्टिस्ट जैसा लुक",
-   "u": "https://navbharattimes.indiatimes.com/lifestyle/beauty-skin/makeup-never-means-applying-every-thing-know-the-makeup-artist-tips-to-balance-the-makeup-look/articleshow/135450412.cms",
-   "img": "https://static.langimg.com/nbt/thumb/135454340/makeup-1-istock.jpg?imgsize=1237433&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261111T053000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "आधार कार्ड में ये जानकारी नहीं सुधारी तो अटक सकते हैं बैंक और सरकारी योजनाओं के काम",
-   "u": "https://panchjanya.com/2026/11/11/498511/utility-news/if-this-information-is-not-corrected-in-the-aadhaar-card-then-the-work-of-banks-and-government-schemes-may-get-stuck/",
-   "img": "https://panchjanya.com/wp-content/uploads/2025/11/aadhar-card-update.webp",
-   "d": "panchjanya.com",
-   "time": "20261111T053000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "Weather Update : इन राज्यों में अगले 5 दिन होगी झमाझम बारिश , 60 KM की रफ्तार से चलेंगी हवाएं , चक्रवात की आहट",
-   "u": "https://panchjanya.com/2026/11/11/498501/bharat/these-states-will-experience-heavy-rain-for-the-next-five-days-with-winds-reaching-speeds-of-up-to-60-km-h-and-a-cyclone-threat/",
-   "img": "https://panchjanya.com/wp-content/uploads/2026/11/aaj-ka-mausam.webp",
-   "d": "panchjanya.com",
-   "time": "20261111T053000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "सोनिया गांधी की किताब में अहमद पटेल को लेकर बड़ी गलती , RSS , अन्ना आंदोलन को लेकर भी रिसर्च में रह गई बड़ी खामी",
-   "u": "https://navbharattimes.indiatimes.com/india/sonia-gandhi-book-significant-research-flaws-found-regarding-ahmed-patel-rss-anna-movement/articleshow/135726316.cms",
-   "img": "https://static.langimg.com/nbt/thumb/135726375/sonia-gandhi-book-significant-research-flaws.jpg?imgsize=96424&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261111T053000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "शीतकाल के लिए बंद हुए केदारनाथ धाम के कपाट , ओंकारेश्वर मंदिर के लिए रवाना हुई बाबा केदार की पंचमुखी डोली",
-   "u": "https://panchjanya.com/2026/11/11/498502/bharat/uttarakhand/doors-of-kedarnath-dham-closed-for-the-winter-season/",
-   "img": "https://panchjanya.com/wp-content/uploads/2026/11/kedarnath-dham.webp",
-   "d": "panchjanya.com",
-   "time": "20261111T053000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "एआई की स्वदेशी शक्ति",
-   "u": "https://panchjanya.com/2026/11/11/498475/bharat/tamil-nadu/the-indigenous-power-of-ai/",
-   "img": "https://panchjanya.com/wp-content/uploads/2026/11/rajpal-rawat-1-18.webp",
-   "d": "panchjanya.com",
-   "time": "20261111T053000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "जिस दवा पर 2 . 5 लाख रुपये होते थे खर्च , अब 24 हजार में होगी उपलब्ध ; ये दवाएं हुईं इतनी सस्ती",
-   "u": "https://navbharattimes.indiatimes.com/india/revised-cancer-drug-price-list-2026-in-hindi-bevacizumab-trastuzumab-abiraterone-acetate/articleshow/135725376.cms",
-   "img": "https://static.langimg.com/nbt/thumb/135726287/cancer-drug-price-2026.jpg?imgsize=136567&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261111T053000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "रामपुर सीआरपीएफ कैंप पर हमले के आरोपी मोहम्मद शरीफ की गोली मारकर हत्या",
-   "u": "https://panchjanya.com/2026/11/11/498512/bharat/uttar-pradesh/rampur-crpf-camp-attack-accused-mohammad-sharif-shot-dead/",
-   "img": "https://panchjanya.com/wp-content/uploads/2026/11/rampur-crpf-camp-attack-mohammad-sharif.webp",
-   "d": "panchjanya.com",
-   "time": "20261111T053000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "HCL Vacancy 2026 : हिंदुस्तान कॉपर लिमिटेड के 19 ट्रेड में आई भर्ती , सिंपल 10वीं पास भी योग्य , कोई एग्जाम नहीं",
-   "u": "https://navbharattimes.indiatimes.com/education/jobs-junction/hcl-recruitment-2026-for-apprentice-171-post-10th-pass-can-also-apply-online-last-date-24-nov/articleshow/135714904.cms",
-   "img": "https://static.langimg.com/nbt/thumb/135715477/hcl-vacancy-2026-apply.jpg?imgsize=1775350&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261111T053000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "कराची के 1000 वर्ष पुराने  वरुण देव मंदिर  को टूरिस्ट टॉयलेट में बदला - karachi varun dev temple news",
-   "u": "https://www.punjabkesari.in/dharm/news/karachi-varun-dev-temple-news-2398248",
-   "img": "https://img.punjabkesari.in/multimedia/914/0/0X0/0/static.punjabkesari.in/2026_11image_08_58_248401137karachivarundevtemplen.jpg",
-   "d": "punjabkesari.in",
-   "time": "20261111T050000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "महिला की 9 शादियां उसके चरित्र का आकलन करने का आधार नहीं : हाईकोर्ट - high court landmark ruling on women",
-   "u": "https://www.punjabkesari.in/dharm/news/high-court-landmark-ruling-on-women-2398253",
-   "img": "https://img.punjabkesari.in/multimedia/914/0/0X0/0/static.punjabkesari.in/2026_11image_09_24_001949051highcourtlandmarkrulin.jpg",
-   "d": "punjabkesari.in",
-   "time": "20261111T050000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "इथेनॉल ब्लेंडिंग विवाद : केंद्रीय मंत्री प्रह्लाद जोशी ने कांग्रेस पर  तुष्टिकरण की राजनीति  का लगाया आरोप - ethanol blending row union minister joshi slams cong for appeasement politics",
-   "u": "https://www.punjabkesari.in/national/news/ethanol-blending-row-union-minister-joshi-slams-cong-for-appeasement-politics-2398252",
-   "img": "https://img.punjabkesari.in/multimedia/914/0/0X0/0/static.punjabkesari.in/2026_11image_09_10_270112070ethanol-blending-row-u.jpg",
-   "d": "punjabkesari.in",
-   "time": "20261111T050000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "After Brazil election , Lula national address pledges austerity and police repression",
-   "u": "https://www.wsws.org/en/articles/2026/11/11/tnjm-n11.html",
+   "t": "Upadrav se utsav pradesh : UP CM Yogi takes jibe at Samajwadi Party , says state becoming an investment destination",
+   "u": "https://news.webindia123.com/news/Articles/India/20261112/4518662.html",
    "img": "",
-   "d": "wsws.org",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
+   "d": "news.webindia123.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "AI Opportunity Fund Expands AI Skills Training Across Asia Pacific with 28 Phase Three Local Implementing Partners",
-   "u": "https://www.thehindu.com/brandhub/pr-release/ai-opportunity-fund-expands-ai-skills-training-across-asia-pacific-with-28-phase-three-local-implementing-partners/article71688144.ece",
+   "t": "UN Security Council to meet on  situation in the Middle East",
+   "u": "https://news.webindia123.com/news/Articles/World/20261112/4518644.html",
    "img": "",
-   "d": "thehindu.com",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
+   "d": "news.webindia123.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "Havells India Ltd Share Price Today , HAVELLS Share Price NSE , BSE",
-   "u": "https://www.businesstoday.in/stocks/havells-india-ltd-havells-share-price-362215",
+   "t": "RBI issues consolidated domestic money transfer rules ; retains Rs 50 , 000 cash NEFT cap",
+   "u": "https://www.prokerala.com/news/articles/a1835735.html",
    "img": "",
-   "d": "businesstoday.in",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
+   "d": "prokerala.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "Future B2B Names Jennifer Womble Vice President , Education Strategy",
-   "u": "http://www.jamaicantimes.com/news/279424021/future-b2b-names-jennifer-womble-vice-president-education-strategy",
+   "t": "Tiger Shroff firing case : MCOCA court extends police custody of five accused till November 16",
+   "u": "https://news.webindia123.com/news/Articles/Entertainment/20261112/4518647.html",
    "img": "",
-   "d": "jamaicantimes.com",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
+   "d": "news.webindia123.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "India garment makers rethink reliance on US after tariff shock",
-   "u": "https://ksevradio.com/india-garment-makers-rethink-reliance-on-us-after-tariff-shock/",
+   "t": "OP Rajbhar accuses Akhilesh Yadav of patronising goons after attacks on Dalits",
+   "u": "https://www.prokerala.com/news/articles/a1835757.html",
    "img": "",
-   "d": "ksevradio.com",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
+   "d": "prokerala.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "GPT Infraprojects shares rise 3 % as arm declared L1 for Rs 103 . 58 crore railway order",
-   "u": "https://www.businesstoday.in/markets/stocks/story/gpt-infraprojects-shares-rise-as-arm-declared-l1-for-rs-103-58-crore-railway-order-566775-2026-11-11",
+   "t": "Would like to make this story culminate in our homeland : Konyak Jamir co - ordinator of NGO that helped Oxford University return 39 Naga skulls to Kohima",
+   "u": "https://news.webindia123.com/news/Articles/India/20261112/4518660.html",
    "img": "",
-   "d": "businesstoday.in",
-   "time": "20261111T063000Z",
-   "cat": "vyapar"
+   "d": "news.webindia123.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "DXC Technology Explains How XDR Architectures Simplify Incident Response for Global Operations",
-   "u": "http://www.theusnews.com/news/279424299/dxc-technology-explains-how-xdr-architectures-simplify-incident-response-for-global-operations",
+   "t": "From Kismet to Dhurandhar and Ramayana : How Bollywood box office grew from ₹1 crore lifetime hauls to ₹100 crore in a day",
+   "u": "https://www.hindustantimes.com/entertainment/bollywood/from-kismet-to-dhurandhar-2-and-ramayana-bollywood-box-office-grew-from-1-crore-hits-to-100-crore-in-a-day-trimurti-ghajini-baahubali-dangal-pathaan-101794400450686.html",
    "img": "",
-   "d": "theusnews.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "d": "hindustantimes.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "House votes to set aside Hegseth impeachment",
-   "u": "https://www.wsws.org/en/articles/2026/11/11/wdrd-n11.html",
+   "t": "East Point College of Higher Education Inaugurates PG Programme for 2026 - 27 with a Week - Long Orientation Programme - India Education | Latest Education News | Global Educational News",
+   "u": "https://indiaeducationdiary.in/east-point-college-of-higher-education-inaugurates-pg-programme-for-2026-27-with-a-week-long-orientation-programme/",
    "img": "",
-   "d": "wsws.org",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
+   "d": "indiaeducationdiary.in",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   },
   {
-   "t": "Tattoo artists are carrying Rembrandt art into a new era and a new medium",
-   "u": "https://www.wvtf.org/2026-11-10/tattoo-artists-are-carrying-rembrandts-art-into-a-new-era-and-a-new-medium",
+   "t": "Raza Murad recalls how his mother raised four children against all odds on her 19th death anniversary",
+   "u": "https://www.prokerala.com/news/articles/a1835740.html",
    "img": "",
-   "d": "wvtf.org",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
-  },
-  {
-   "t": "US federal employees to work in Taiwan government offices under scheme to strengthen ties",
-   "u": "https://ksevradio.com/us-federal-employees-to-work-in-taiwan-government-offices-under-scheme-to-strengthen-ties/",
-   "img": "",
-   "d": "ksevradio.com",
-   "time": "20261111T063000Z",
-   "cat": "duniya"
-  },
-  {
-   "t": "प्राइमरी स्कूल की शिक्षिका की बेरहमी से हत्या , कांग्रेस नेत्री समेत 6 पर केस ; RTI को लेकर हुआ था विवाद",
-   "u": "https://www.livehindustan.com/uttar-pradesh/primary-school-female-teacher-brutally-murdered-fir-six-people-including-congress-female-leader-rti-dispute-201794376473407.html",
-   "img": "",
-   "d": "livehindustan.com",
-   "time": "20261111T063000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "दिल्ली में मिली महिला की सिर कटी लाश , हत्या की आशंका",
-   "u": "https://www.livehindustan.com/ncr/beheaded-women-body-found-in-delhis-burari-201794375747901.html",
-   "img": "",
-   "d": "livehindustan.com",
-   "time": "20261111T063000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "मदर डेयरी ने दिया झटका , 4 रुपये तक बढ़ाए दूध के दाम",
-   "u": "https://www.livehindustan.com/business/mother-dairy-hikes-milk-prices-by-upto-4-rs-per-litre-effective-thursday-check-detail-201794375025865.html",
-   "img": "",
-   "d": "livehindustan.com",
-   "time": "20261111T063000Z",
-   "cat": "bharat-hi"
+   "d": "prokerala.com",
+   "time": "20261112T070000Z",
+   "cat": "bharat-en"
   }
  ]
 }
