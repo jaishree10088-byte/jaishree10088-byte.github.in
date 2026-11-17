@@ -237,16 +237,17 @@ const SAMPLE=[
 const SAMPLE_BODY='यह खबर आपके लिए आसान भाषा में तैयार की गई है। संबंधित विभाग ने बताया कि स्थिति पर लगातार नज़र रखी जा रही है और ज़रूरी कदम उठाए जा रहे हैं।\n\nविशेषज्ञों का मानना है कि आने वाले दिनों में इसका सीधा असर आम लोगों के जीवन पर दिखेगा। अधिकारियों ने नागरिकों से सतर्क रहने और आधिकारिक जानकारी पर ही भरोसा करने की अपील की है।\n\nअपडेट के लिए अपना अख़बार से जुड़े रहिए।';
 
 /* ---- live news: news.json with sample fallback ---- */
-let N=SAMPLE.slice(),NM=SAMPLE.map(()=>({})),ED='17 नवंबर 2026',ED_FULL='मंगलवार, 17 नवंबर 2026',EDN=null;
+let N=[],NM=[],ED='17 नवंबर 2026',ED_FULL='मंगलवार, 17 नवंबर 2026',EDN=null,loading=true;
 const CATMAP={bharat:'देश',duniya:'दुनिया',khel:'खेल',vyapar:'व्यापार',rajneeti:'राजनीति',manoranjan:'मनोरंजन',tech:'टेक्नोलॉजी',shiksha:'शिक्षा',swasthya:'स्वास्थ्य',dharm:'धर्म और संस्कृति'};
 const HIMO=['जनवरी','फ़रवरी','मार्च','अप्रैल','मई','जून','जुलाई','अगस्त','सितंबर','अक्टूबर','नवंबर','दिसंबर'];
 function edShort(iso){try{const d=new Date(iso);return d.getDate()+' '+HIMO[d.getMonth()]+' '+d.getFullYear()}catch(e){return ED}}
 function summaryOf(b){const t=(b||'').replace(/\s+/g,' ').trim();return t.length>120?t.slice(0,120).replace(/\s+[^ ]*$/,'')+'…':t}
 function mapNews(j){const list=[],meta=[];(j.stories||[]).forEach(s=>{const cat=CATMAP[s.cat]||'देश';list.push([cat,s.title_hi||s.title_en||'',summaryOf(s.body_hi||s.body_en||''),'सुबह 5:00']);meta.push({img:s.img||'',page:s.page||'',body:s.body_hi||s.body_en||'',source:s.source||'',id:s.id||'',tags:s.tags||[]})});return {list:list,meta:meta}}
 async function fetchNews(){try{const r=await fetch('news.json',{cache:'no-store'});if(!r.ok)return null;const j=await r.json();if(j&&Array.isArray(j.stories)&&j.stories.length)return j}catch(e){}return null}
-function applyNews(j){const m=mapNews(j);N=m.list;NM=m.meta;EDN=j;ED=j.updated_at?edShort(j.updated_at):ED;ED_FULL=j.edition||ED_FULL;const e=document.getElementById('ed');if(e)e.textContent=ED_FULL;renderAll()}
-function applySample(){N=SAMPLE.slice();NM=SAMPLE.map(()=>({}));ED='17 नवंबर 2026';ED_FULL='मंगलवार, 17 नवंबर 2026';EDN=null;const e=document.getElementById('ed');if(e)e.textContent=ED_FULL;renderAll()}
-async function loadNews(){const j=await fetchNews();if(j){const prevSeen=localStorage.getItem('aa_seen')||'';applyNews(j);if(fol&&prevSeen&&prevSeen!==latestId()&&(localStorage.getItem('aa_lastnotif')||'')!==latestId()){try{localStorage.setItem('aa_lastnotif',latestId())}catch(e){}notifyNew()}}else applySample()}
+function applyNews(j){loading=false;const m=mapNews(j);N=m.list;NM=m.meta;EDN=j;ED=j.updated_at?edShort(j.updated_at):ED;ED_FULL=j.edition||ED_FULL;const e=document.getElementById('ed');if(e)e.textContent=ED_FULL;renderAll()}
+function applySample(){loading=false;N=SAMPLE.slice();NM=SAMPLE.map(()=>({}));ED='17 नवंबर 2026';ED_FULL='मंगलवार, 17 नवंबर 2026';EDN=null;const e=document.getElementById('ed');if(e)e.textContent=ED_FULL;renderAll()}
+async function loadNews(){for(let a=0;a<3;a++){const j=await fetchNews();if(j){const prevSeen=localStorage.getItem('aa_seen')||'';applyNews(j);if(fol&&prevSeen&&prevSeen!==latestId()&&(localStorage.getItem('aa_lastnotif')||'')!==latestId()){try{localStorage.setItem('aa_lastnotif',latestId())}catch(e){}notifyNew()}return}if(a<2)await new Promise(r=>setTimeout(r,800))}applySample()}
+addEventListener('pageshow',e=>{if(e.persisted)loadNews()});
 
 const $=s=>document.querySelector(s);
 const escH=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -256,7 +257,7 @@ function hrefOf(i){const m=NM[i]||{};return m.page?('https://sandipk.qd.je/'+m.p
 const card=(i,c)=>{const n=N[i];return `<a class="card ${c}" href="${hrefOf(i)}">${th(i)}<div class="cb"><span class="cat">${n[0]}</span><h3>${escH(n[1])}</h3><p>${escH(n[2])}</p><div class="mt">${ED}, ${n[3]}</div><span class="rm">और पढ़ें</span></div></a>`};
 const row=(i,k)=>{const n=N[i];return `<a class="row" href="${hrefOf(i)}">${k!=null?`<span class="num">${k}</span>`:''}${th(i)}<div><h3>${escH(n[1])}</h3><div class="mt">${n[3]}</div></div></a>`};
 let cat='',qs='';
-function news(){const L=N.map((n,i)=>[n,i]).filter(([n])=>(!cat||n[0]==cat)&&(!qs||(n[1]+n[2]).includes(qs)));
+function news(){if(!N.length){$('#news').innerHTML=loading?'<div class="empty">खबरें लोड हो रही हैं…</div>':'<div class="empty">कोई खबर नहीं मिली। कोई दूसरा शब्द या श्रेणी आज़माएँ।</div>';return}const L=N.map((n,i)=>[n,i]).filter(([n])=>(!cat||n[0]==cat)&&(!qs||(n[1]+n[2]).includes(qs)));
 $('#news').innerHTML=L.length?L.map(([n,i],k)=>card(i,k==0?'big':k<3?'md':'sm')).join(''):'<div class="empty">कोई खबर नहीं मिली। कोई दूसरा शब्द या श्रेणी आज़माएँ।</div>'}
 function byCat(hi,n){const out=[];N.forEach((s,i)=>{if(s[0]===hi)out.push(i)});return out.slice(0,n)}
 function fillIdx(list,n){const out=list.slice();for(let i=0;i<N.length&&out.length<n;i++)if(!out.includes(i))out.push(i);return out.slice(0,n)}
@@ -266,7 +267,7 @@ $('#feat').innerHTML=`${th(0,'')}<div class="tx"><span class="cat">विशे�
 $('#in').innerHTML=fillIdx(byCat('देश',4),4).map(i=>row(i)).join('');
 $('#wd').innerHTML=fillIdx(byCat('दुनिया',4),4).map(i=>row(i)).join('');
 const vi=fillIdx([byCat('खेल',1)[0],byCat('व्यापार',1)[0],byCat('देश',1)[0],byCat('दुनिया',1)[0]].filter(x=>x!=null),4);
-$('#vids').innerHTML=[['ताज़ा वीडियो न्यूज़',0],['स्पेशल रिपोर्ट',1],['ट्रेंडिंग वीडियो',2],['एक्सप्लेनर वीडियो',3]].map(([t,k])=>{const i=vi[k]!=null?vi[k]:0,m=NM[i]||{},bg=m.img?`background-image:url(&quot;${escA(m.img)}&quot;);background-size:cover;background-position:center`:`background-position:${25+i*2}% ${i%2*10}%`;return `<a class="card" href="${hrefOf(i)}"><div class="th vt" style="${bg}"><span class="play">▶</span></div><div class="cb"><span class="cat">${t}</span><h3>${escH(N[i][1])}</h3><div class="mt">3:${20+i*7} मिनट</div></div></a>`}).join('');
+$('#vids').innerHTML=[['ताज़ा वीडियो न्यूज़',0],['स्पेशल रिपोर्ट',1],['ट्रेंडिंग वीडियो',2],['एक्सप्लेनर वीडियो',3]].map(([t,k])=>{const i=vi[k]!=null?vi[k]:0,m=NM[i]||{},bg=m.img?`background-image:url(&quot;${escA(m.img)}&quot;);background-size:cover;background-position:center`:`background-position:${25+i*2}% ${i%2*10}%`;const s=200+i*37,mm=Math.floor(s/60),ss=String(s%60).padStart(2,'0');return `<a class="card" href="${hrefOf(i)}"><div class="th vt" style="${bg}"><span class="play">▶</span></div><div class="cb"><span class="cat">${t}</span><h3>${escH(N[i][1])}</h3><div class="mt">${mm}:${ss} मिनट</div></div></a>`}).join('');
 $('#trend').innerHTML=N.map((_,i)=>i).slice(0,5).map((i,k)=>row(i,k+1)).join('');
 const tg=[];NM.forEach(m=>{(m.tags||[]).forEach(t=>{if(t&&!tg.includes(t))tg.push(t)})});
 const popT=tg.length?tg.slice(0,7):['#मानसून','#सेंसेक्स','#टीम इंडिया','#एआई','#बोर्ड परीक्षा','#देव दीपावली','#जलवायु'];
@@ -276,7 +277,7 @@ $('#side').innerHTML=fillIdx([1,2,3,5],4).map((i,k)=>row(i,k+1)).join('');
 function renderPosts(){
 $('#plist').innerHTML=N.length?N.map((n,i)=>[n,i]).slice(0,6).map(([n,i])=>`<a class="card" href="${hrefOf(i)}"><div class="cb"><span class="cat">${n[0]}</span><h3>${escH(n[1])}</h3><p>${escH(n[2])}</p><div class="mt">${ED}, ${n[3]}</div></div></a>`).join(''):'<div class="empty">अभी कोई नई पोस्ट नहीं है। फ़ॉलो करें, नई खबर आते ही सूचना मिलेगी।</div>';
 }
-function renderAll(){news();renderSections();renderPosts();if(/^#a\d+$/.test(location.hash))route();}
+function renderAll(){news();if(!N.length)return;renderSections();renderPosts();if(/^#a\d+$/.test(location.hash))route();}
 $('#cats').innerHTML=Object.keys(C).map((k,i)=>`<button class="ct" style="--c:${C[k][0]};--d:${-i*.5}s" data-c="${k}"><em>${C[k][1]}</em>${k}</button>`).join('');
 $('#cats').onclick=e=>{const b=e.target.closest('.ct');if(!b)return;const on=b.classList.contains('on');document.querySelectorAll('.ct').forEach(x=>x.classList.remove('on'));cat=on?'':b.dataset.c;if(!on)b.classList.add('on');news();$('#latest').scrollIntoView()};
 $('#all').onclick=()=>{cat='';document.querySelectorAll('.ct').forEach(x=>x.classList.remove('on'));news()};
