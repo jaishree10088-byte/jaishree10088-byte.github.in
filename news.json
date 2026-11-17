@@ -1,196 +1,186 @@
 {
- "edition": "मंगलवार, 17 नवंबर 2026",
- "updated_at": "2026-11-17T05:00:00+05:30",
+ "edition": "मंगलवार, 17 नवंबर 2026 — रात 9 बजे",
+ "updated_at": "2026-11-17T21:00:00+05:30",
  "stories": [
   {
-   "id": "2026-11-17-bharat-1",
+   "body_en": "Prime Minister Narendra Modi, US President Donald Trump, Japan's Prime Minister Sanae Takaichi and Australia's Prime Minister Anthony Albanese met in Manila, the capital of the Philippines, on Tuesday for the Quad leaders' meeting. The meeting took place on the sidelines of the ASEAN and East Asia summits.\n\nDuring the meeting, Trump described Prime Minister Modi as a 'tough man'. Trump also said the United States would catch up with China in rare earths production within ten months. Earlier, Modi had presented a seven-point proposal at the ASEAN summit to deepen cooperation, from maritime security to critical minerals.",
+   "body_hi": "प्रधानमंत्री नरेंद्र मोदी, अमेरिका के राष्ट्रपति डोनाल्ड ट्रंप, जापान की प्रधानमंत्री साने ताकाइची और ऑस्ट्रेलिया के प्रधानमंत्री एंथनी अल्बनीज़ मंगलवार को फिलीपींस की राजधानी मनीला में क्वाड शिखर बैठक में मिले। यह बैठक आसियान और पूर्वी एशिया शिखर सम्मेलनों के इतर हुई।\n\nबैठक के दौरान ट्रंप ने प्रधानमंत्री मोदी को 'मजबूत नेता' बताया। ट्रंप ने यह भी कहा कि अमेरिका दुर्लभ खनिजों के उत्पादन में दस महीने के भीतर चीन की बराबरी कर लेगा। इससे पहले मोदी ने आसियान शिखर सम्मेलन में समुद्री सुरक्षा से लेकर अहम खनिजों तक सहयोग बढ़ाने के लिए सात सूत्रीय प्रस्ताव भी रखा।",
    "cat": "bharat",
-   "title_hi": "प्रधानमंत्री मोदी मनीला पहुंचे: आसियान-भारत और पूर्वी एशिया शिखर सम्मेलन में लेंगे भाग",
-   "title_en": "PM Modi arrives in Manila for ASEAN-India and East Asia summits",
-   "body_hi": "प्रधानमंत्री नरेंद्र मोदी सोमवार को तीन दिवसीय आधिकारिक यात्रा पर फिलीपींस की राजधानी मनीला पहुंचे। यात्रा के दौरान वे 23वें आसियान-भारत शिखर सम्मेलन और 21वें पूर्वी एशिया शिखर सम्मेलन में भाग लेंगे।\n\nमनीला पहुंचने पर प्रधानमंत्री का भव्य स्वागत किया गया। इन सम्मेलनों में क्षेत्रीय सुरक्षा, व्यापार और आर्थिक सहयोग जैसे अहम मुद्दों पर चर्चा होने की उम्मीद है, जिनसे दक्षिण-पूर्व एशिया और पूर्वी एशिया के देशों के साथ भारत के संबंध और मजबूत होंगे।",
-   "body_en": "Prime Minister Narendra Modi arrived in Manila, the capital of the Philippines, on Monday on a three-day official visit. During the visit, he will take part in the 23rd ASEAN-India Summit and the 21st East Asia Summit.\n\nThe Prime Minister received a grand welcome on his arrival in Manila. The summits are expected to discuss important issues such as regional security, trade and economic cooperation, which should further strengthen India's ties with Southeast Asian and East Asian nations.",
-   "source": "Free Press Journal",
-   "source_url": "https://www.freepressjournal.in/amp/world/pm-modi-arrives-in-manila-for-asean-india-and-east-asia-summits-as-quad-meeting-with-trump-expected-on-sidelines",
-   "img": "https://media.assettype.com/freepressjournal/2026-11-17/p4s1c5gt/Untitled-Design-2026-11-17T094508.629.jpg?rect=0%2C0%2C3900%2C2048&w=1200&auto=format%2Ccompress&ogImage=true",
+   "id": "2026-11-17-21-bharat-1",
+   "img": "https://cf-images.assettype.com/outlookindia/2026-11-17/tl9tzo9u/Quad-Leaders’-Meeting-in-Manila.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+   "source": "Outlook India",
+   "source_url": "https://www.outlookindia.com/international/india-news-live-updates-17-november-2026-cyclone-akvan-storm-intensifies-landfall-expected-on-andhra-coast-odisha-begins-evacuation-news-latest-updates",
    "tags": [
-    "#PMModi",
-    "#ASEAN",
+    "#Quad",
     "#Manila",
-    "#India",
-    "#TaazaKhabar"
-   ],
-   "page": "khabar/2026-11-17-bharat-1.html"
-  },
-  {
-   "id": "2026-11-17-bharat-2",
-   "cat": "bharat",
-   "title_hi": "चक्रवात अक्वान का खतरा: आंध्र प्रदेश के तट पर भारी बारिश और तेज हवाओं की चेतावनी",
-   "title_en": "Cyclone Akvan threatens Andhra Pradesh coast with heavy rain and strong winds",
-   "body_hi": "भारतीय मौसम विभाग ने चेतावनी दी है कि बंगाल की खाड़ी में बन रहा मौसम तंत्र 17 नवंबर को गंभीर चक्रवाती तूफान में बदल सकता है। इस तूफान को अक्वान नाम दिया गया है, और इसके आंध्र प्रदेश तथा आसपास के तटीय इलाकों में भारी बारिश और तेज हवाएं लाने की आशंका है।\n\nतटीय जिलों में प्रशासन को सतर्क रहने को कहा गया है। मछुआरों को समुद्र में न जाने की सलाह दी गई है, जबकि भारी बारिश से निचले इलाकों में जलभराव की स्थिति भी बन सकती है।",
-   "body_en": "The India Meteorological Department has warned that a weather system developing over the Bay of Bengal could intensify into a severe cyclonic storm on November 17. The storm, named Akvan, is expected to bring heavy rainfall and strong winds to parts of Andhra Pradesh and neighbouring coastal areas.\n\nAuthorities in coastal districts have been asked to stay alert. Fishermen have been advised not to venture into the sea, while heavy rain could also cause waterlogging in low-lying areas.",
-   "source": "NDTV Profit",
-   "source_url": "https://www.ndtvprofit.com/education/top-news-for-school-assembly-november-17-2026-cyclone-akvan-25-lakh-tablets-for-students-and-more-12334609",
-   "img": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/MSNBC/Components/Video/__NEW/nn_06bwi_storm_131011.jpg",
-   "tags": [
-    "#CycloneAkvan",
-    "#AndhraPradesh",
-    "#IMD",
-    "#Weather",
-    "#TaazaKhabar"
-   ],
-   "page": "khabar/2026-11-17-bharat-2.html"
-  },
-  {
-   "id": "2026-11-17-bharat-3",
-   "cat": "bharat",
-   "title_hi": "सोनिया गांधी ने संस्मरण 'बिलॉन्गिंग' जारी किया: परिवार पर लिखी गई कई बातें सच नहीं थीं",
-   "title_en": "Sonia Gandhi launches memoir 'Belonging': Much written about my family was not true",
-   "body_hi": "कांग्रेस संसदीय दल की अध्यक्ष सोनिया गांधी ने सोमवार को दिल्ली में अपने संस्मरण 'बिलॉन्गिंग: ए जर्नी ऑफ लव' का औपचारिक विमोचन किया। इस मौके पर राहुल गांधी और प्रियंका गांधी भी मौजूद रहे।\n\nसोनिया गांधी ने कहा कि उन्होंने यह किताब इसलिए लिखी क्योंकि उनके परिवार के बारे में बहुत कुछ ऐसा लिखा गया जो सच नहीं था, और वे अपनी भावनाएं साझा करना चाहती थीं। किताब में उन्होंने अपनी निजी यात्रा, पूर्व प्रधानमंत्री राजीव गांधी से विवाह और पूर्व प्रधानमंत्री इंदिरा गांधी से अपने संबंधों के बारे में लिखा है।",
-   "body_en": "Congress Parliamentary Party chairperson Sonia Gandhi formally launched her memoir 'Belonging: A Journey of Love' in Delhi on Monday. Rahul Gandhi and Priyanka Gandhi were present at the launch.\n\nSonia Gandhi said one reason she wrote the book was that much had been written about her family that was not true, and she wanted to share her feelings. In the book, she has written about her personal journey, her marriage to former prime minister Rajiv Gandhi and her relationship with former prime minister Indira Gandhi.",
-   "source": "The Economic Times",
-   "source_url": "https://economictimes.indiatimes.com/news/newsblogs/breaking-news-live-updates-november-16-chhath-festival-pm-modi-weather-delhi-aqi-rahul-gandhi-nvidia-trump-bjp-sonia-gandhi-congress-iran-war/liveblog/135869839.cms",
-   "img": "https://economictimes.indiatimes.com/thumb/msid-135869839,width-1200,height-900,resizemode-4,imglength-1522662/news/newsblogs/breaking-news-live-updates-november-16-chhath-festival-pm-modi-weather-delhi-aqi-rahul-gandhi-nvidia-trump-bjp-sonia-gandhi-congress-iran-war.jpg",
-   "tags": [
-    "#SoniaGandhi",
-    "#Memoir",
-    "#Belonging",
-    "#Congress",
-    "#TaazaKhabar"
-   ],
-   "page": "khabar/2026-11-17-bharat-3.html"
-  },
-  {
-   "id": "2026-11-17-duniya-1",
-   "cat": "duniya",
-   "title_hi": "चीन ने पुष्टि की: अमेरिका, रूस और चीन का पहला त्रिपक्षीय शिखर सम्मेलन 19 नवंबर को शेन्ज़ेन में",
-   "title_en": "China confirms first US-Russia-China trilateral summit on November 19 in Shenzhen",
-   "body_hi": "चीन ने पुष्टि की है कि अमेरिकी राष्ट्रपति डोनाल्ड ट्रंप, चीनी राष्ट्रपति शी जिनपिंग और रूसी राष्ट्रपति व्लादिमीर पुतिन 19 नवंबर को शेन्ज़ेन में अपना पहला त्रिपक्षीय शिखर सम्मेलन करेंगे। यह तीनों नेताओं की पहली ऐसी संयुक्त बैठक होगी।\n\nइस सम्मेलन पर पूरी दुनिया की नजर है, क्योंकि इसमें यूक्रेन युद्ध समेत कई बड़े वैश्विक मुद्दों पर चर्चा होने की संभावना है। ट्रंप ने कहा है कि वे चीन में शी से मुलाकात के दौरान यूक्रेन युद्ध पर चर्चा करने की योजना बना रहे हैं।",
-   "body_en": "China has confirmed that US President Donald Trump, Chinese President Xi Jinping and Russian President Vladimir Putin will hold their first trilateral summit on November 19 in Shenzhen. It will be the first such joint meeting of the three leaders.\n\nThe summit is being watched closely around the world, as discussions are likely to cover major global issues including the Ukraine war. Trump has said he plans to discuss the Ukraine war during his meeting with Xi in China.",
-   "source": "The Indian Express",
-   "source_url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-november-17-2026-china-us-russia-to-hold-their-first-trilateral-summit-on-november-19-10965249/",
-   "img": "https://images.indianexpress.com/2026/11/Today-News-Headlines-for-School-Assembly-November-17-2026.jpg",
-   "tags": [
-    "#TrilateralSummit",
-    "#China",
+    "#PMModi",
     "#Trump",
-    "#Putin",
+    "#TaazaKhabar"
+   ],
+   "title_en": "Quad leaders meet in Manila: Modi, Trump, Takaichi and Albanese hold talks; Trump calls Modi a 'tough man'",
+   "title_hi": "क्वाड शिखर बैठक: मनीला में मोदी-ट्रंप समेत चारों नेताओं की मुलाकात, ट्रंप ने मोदी को बताया 'मजबूत नेता'",
+   "page": "khabar/2026-11-17-21-bharat-1.html"
+  },
+  {
+   "body_en": "Delhi woke up to a hazy, chilly morning on Tuesday. The city's air quality index (AQI) stood at 242, which falls in the 'poor' category. Officials said weakening winds, falling temperatures and morning fog were trapping pollutants close to the ground.\n\nOfficials said the air could slip into the 'very poor' category from today itself. Pollution rises in Delhi every year with the onset of winter, and the situation this time is also raising concern.",
+   "body_hi": "दिल्ली में मंगलवार की सुबह धुंध और ठंड के साथ हुई। शहर की हवा की गुणवत्ता (AQI) 242 दर्ज की गई, जो 'खराब' श्रेणी में आती है। अधिकारियों का कहना है कि हवाएँ कमजोर पड़ने, तापमान गिरने और सुबह की धुंध के कारण प्रदूषक नीचे फँस रहे हैं।\n\nअधिकारियों के अनुसार आज से ही हवा 'बहुत खराब' श्रेणी में जा सकती है। सर्दियों की शुरुआत के साथ दिल्ली में हर साल प्रदूषण बढ़ता है, और इस बार भी हालात चिंता बढ़ा रहे हैं।",
+   "cat": "bharat",
+   "id": "2026-11-17-21-bharat-2",
+   "img": "https://images.indianexpress.com/2026/11/P1-Pollution-5col_20261117121339.jpg",
+   "source": "The Indian Express",
+   "source_url": "https://indianexpress.com/article/india/breaking-news-live-updates-india-17-november-2026-delhi-aqi-pollution-cyclone-akvan-odisha-modi-asean-fire-accident-mumbai-south-weather-10966073/",
+   "tags": [
+    "#DelhiAQI",
+    "#Pollution",
+    "#Delhi",
+    "#TaazaKhabar"
+   ],
+   "title_en": "Delhi air turns 'poor' again: AQI at 242, likely to slip into 'very poor'",
+   "title_hi": "दिल्ली की हवा फिर 'खराब': AQI 242 पर, 'बहुत खराब' श्रेणी में जाने की आशंका",
+   "page": "khabar/2026-11-17-21-bharat-2.html"
+  },
+  {
+   "body_en": "A major road accident took place in Tehri district of Uttarakhand on Tuesday. A bus carrying around 30 to 35 passengers fell about 100 metres into a ravine from a bridge near Gular Bazar.\n\nRescue teams from the SDRF posts at Byasi and Dhalwala reached the spot quickly and began the operation. About 25 injured people were pulled out and taken to hospital, while at least 6 passengers died.",
+   "body_hi": "उत्तराखंड के टिहरी जिले में मंगलवार को एक बड़ा सड़क हादसा हुआ। गुलर बाज़ार के पास एक पुल से करीब 30 से 35 यात्रियों को ले जा रही बस लगभग 100 मीटर नीचे खाई में गिर गई।\n\nब्यासी और धालवाला से एसडीआरएफ की टीमें तुरंत मौके पर पहुँचीं और बचाव अभियान शुरू किया। करीब 25 घायलों को बाहर निकालकर अस्पताल पहुँचाया गया है, जबकि कम से कम 6 यात्रियों की मौत हो गई।",
+   "cat": "bharat",
+   "id": "2026-11-17-21-bharat-3",
+   "img": "https://newsarenaindia.com/_next/image?url=https%3A%2F%2Fimages.newsarenaindia.com%2Frescue-workers-search-the-wreckage-after-a-bus-fell-into-a-gorge-in-tehri-district-killing-five-and-injuring-several-othersjpg_1763974318330.jpg&w=828&q=75",
+   "source": "The Indian Express",
+   "source_url": "https://indianexpress.com/article/india/breaking-news-live-updates-india-17-november-2026-delhi-aqi-pollution-cyclone-akvan-odisha-modi-asean-fire-accident-mumbai-south-weather-10966073/",
+   "tags": [
+    "#Tehri",
+    "#Uttarakhand",
+    "#RoadAccident",
+    "#TaazaKhabar"
+   ],
+   "title_en": "Tehri bus tragedy: Bus falls into gorge from bridge, at least 6 dead, 25 injured",
+   "title_hi": "टिहरी में बड़ा हादसा: पुल से खाई में गिरी बस, कम से कम 6 की मौत, 25 घायल",
+   "page": "khabar/2026-11-17-21-bharat-3.html"
+  },
+  {
+   "body_en": "Ukraine has struck the Crimean Bridge, which links Russia to Crimea. Sergei Aksyonov, the Russian-installed head of Crimea, said road and rail traffic on the bridge had been suspended after the attack. Ukrainian President Volodymyr Zelenskyy described it as an 'unprecedented operation' prepared over weeks.\n\nIn response, Russia struck bridges in Kyiv. Tensions over the bridge have risen again as the war between the two countries intensifies, since the bridge is a key supply route for Russia to Crimea.",
+   "body_hi": "यूक्रेन ने रूस को क्रीमिया से जोड़ने वाले क्रीमिया पुल पर हमला किया है। रूस द्वारा नियुक्त क्रीमिया के प्रमुख सर्गेई अक्स्योनोव ने बताया कि हमले के बाद पुल पर सड़क और रेल यातायात रोक दिया गया है। यूक्रेन के राष्ट्रपति वोलोदिमीर ज़ेलेंस्की ने इसे हफ्तों की तैयारी के बाद अंजाम दी गई 'अभूतपूर्व कार्रवाई' बताया।\n\nइसके जवाब में रूस ने कीव के पुलों पर हमले किए। दोनों देशों के बीच युद्ध तेज़ होने के साथ इस पुल को लेकर तनाव एक बार फिर बढ़ गया है, क्योंकि यह पुल रूस के लिए क्रीमिया तक आपूर्ति का अहम रास्ता है।",
+   "cat": "duniya",
+   "id": "2026-11-17-21-duniya-1",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2022/10/AP22281525202731.jpg?resize=1920%2C1440",
+   "source": "Outlook India",
+   "source_url": "https://www.outlookindia.com/international/india-news-live-updates-17-november-2026-cyclone-akvan-storm-intensifies-landfall-expected-on-andhra-coast-odisha-begins-evacuation-news-latest-updates",
+   "tags": [
+    "#Ukraine",
+    "#Russia",
+    "#Crimea",
     "#WorldNews"
    ],
-   "page": "khabar/2026-11-17-duniya-1.html"
+   "title_en": "Ukraine strikes Crimean Bridge: Traffic suspended after major damage; Russia hits Kyiv bridges in reply",
+   "title_hi": "यूक्रेन का बड़ा हमला: क्रीमिया पुल को भारी नुकसान, आवाजाही ठप; रूस ने कीव के पुलों पर किया पलटवार",
+   "page": "khabar/2026-11-17-21-duniya-1.html"
   },
   {
-   "id": "2026-11-17-duniya-2",
+   "body_en": "Malicious code distributed through Optimizely, a website optimisation platform, targeted visitors across 178 major websites around the world. The sites included big names such as CNN, BBC, Zoom and HSBC.\n\nThe attackers attempted to steal cryptocurrency and credit card data, and the code also infected iPhones. Experts say the attack shows how a flaw in a single platform can put a large number of websites at risk at the same time.",
+   "body_hi": "वेबसाइट ऑप्टिमाइज़ेशन प्लेटफॉर्म ऑप्टिमिज़ली के ज़रिए फैलाए गए दुर्भावनापूर्ण कोड ने दुनिया भर की 178 बड़ी वेबसाइटों के आगंतुकों को निशाना बनाया। इनमें CNN, BBC, ज़ूम और HSBC जैसी बड़ी साइटें शामिल हैं।\n\nहमलावरों ने क्रिप्टोकरेंसी और क्रेडिट कार्ड का डेटा चुराने की कोशिश की, और इस कोड से आईफ़ोन भी संक्रमित हुए। विशेषज्ञों का कहना है कि यह हमला दिखाता है कि एक ही प्लेटफॉर्म की खामी से कितनी बड़ी संख्या में साइटें एक साथ खतरे में पड़ सकती हैं।",
    "cat": "duniya",
-   "title_hi": "ईरान ने संयुक्त राष्ट्र के परमाणु निरीक्षण से इनकार किया, होर्मुज जलडमरूमध्य पर शांति प्रयास रुके",
-   "title_en": "Iran refuses UN nuclear inspection; peace efforts stall over Strait of Hormuz",
-   "body_hi": "ईरान ने अपने क्षतिग्रस्त परमाणु ठिकानों के संयुक्त राष्ट्र निरीक्षण से तब तक इनकार कर दिया है जब तक मध्य पूर्व में युद्ध स्थायी रूप से समाप्त नहीं होता और अमेरिका तेहरान की शर्तें पूरी नहीं करता। ईरान के उप विदेश मंत्री काज़ेम घरीबाबादी ने यह बात कही।\n\nइसी बीच, होर्मुज जलडमरूमध्य को फिर से खोलने को लेकर शांति प्रयास रुके हुए हैं। ईरान ने यह भी कहा है कि अमेरिका और इज़रायल की आक्रामकता से क्षेत्र में अशांति फैली है, जबकि ईरान ने बहरीन में अमेरिकी रडार प्रणाली पर ड्रोन हमले किए, जिन्हें रोक लिया गया।",
-   "body_en": "Iran has refused United Nations nuclear inspection of its damaged nuclear facilities until the war in the Middle East ends permanently and the US meets Tehran's conditions, Deputy Foreign Minister Kazem Gharibabadi said.\n\nMeanwhile, peace efforts to reopen the Strait of Hormuz have stalled. Iran has also said that US and Israeli aggression triggered turmoil in the region, while Iran launched drone attacks against a US radar system in Bahrain, which were intercepted.",
-   "source": "New Straits Times",
-   "source_url": "https://www.nst.com.my/newssummary/1401553",
-   "img": "https://cdn.elperiodicodelaenergia.com/1200w/2023/10/299870.jpg",
+   "id": "2026-11-17-21-duniya-2",
+   "img": "https://images.indianexpress.com/2026/11/Today-News-Headlines-for-School-Assembly-November-17-2026.jpg",
+   "source": "The Indian Express",
+   "source_url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-november-17-2026-china-us-russia-to-hold-their-first-trilateral-summit-on-november-19-10965249/",
    "tags": [
+    "#Cyberattack",
+    "#BBC",
+    "#CNN",
+    "#WorldNews"
+   ],
+   "title_en": "Major cyberattack: 178 top websites including BBC and CNN targeted to steal crypto and card data",
+   "title_hi": "बड़ा साइबर हमला: BBC, CNN समेत 178 बड़ी वेबसाइटों पर चोरी की कोशिश, क्रिप्टो और कार्ड डेटा निशाने पर",
+   "page": "khabar/2026-11-17-21-duniya-2.html"
+  },
+  {
+   "body_en": "Bahrain's armed forces said on Tuesday that their air defences intercepted and destroyed several Iranian aerial attacks before they reached their targets. It was described as the third such attempt in five days. Iran's Islamic Revolutionary Guards Corps said it had fired drones at a US military radar system at the Sheikh Isa base in Bahrain.\n\nAccording to Bahrain, there were no casualties or damage in the attack. Meanwhile, the third US aircraft carrier, the USS Theodore Roosevelt, has also arrived in West Asia, further increasing the American military presence in the region.",
+   "body_hi": "बहरीन की सशस्त्र सेनाओं ने मंगलवार को बताया कि उनकी वायु रक्षा प्रणाली ने कई ईरानी हवाई हमलों को लक्ष्य तक पहुँचने से पहले ही रोककर नष्ट कर दिया। यह पांच दिन में तीसरी ऐसी कोशिश बताई गई है। ईरान के इस्लामिक रिवॉल्यूशनरी गार्ड कॉर्प्स ने कहा कि उसने बहरीन के शेख ईसा बेस स्थित अमेरिकी सैन्य रडार प्रणाली पर ड्रोन दागे थे।\n\nबहरीन के अनुसार हमले में कोई हताहत या नुकसान नहीं हुआ। इस बीच अमेरिका का तीसरा विमानवाहक पोत यूएसएस थियोडोर रूज़वेल्ट भी पश्चिम एशिया पहुँच गया है, जिससे क्षेत्र में अमेरिकी सैन्य मौजूदगी और बढ़ गई है।",
+   "cat": "duniya",
+   "id": "2026-11-17-21-duniya-3",
+   "img": "https://media.assettype.com/gulfnews%2F2026-11-17%2F5oh31rhi%2Ftheodore.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+   "source": "Gulf News",
+   "source_url": "https://gulfnews.com/amp/story/uae%2Fusisrael-iran-war-what-uae-residents-need-to-know-today-nov-17-2026-1.500750084",
+   "tags": [
+    "#Bahrain",
     "#Iran",
-    "#Nuclear",
-    "#UN",
     "#MiddleEast",
     "#WorldNews"
    ],
-   "page": "khabar/2026-11-17-duniya-2.html"
+   "title_en": "Bahrain intercepts Iranian drone attack, third such attempt in five days; third US carrier arrives in region",
+   "title_hi": "बहरीन ने ईरानी ड्रोन हमले को नाकाम किया, पांच दिन में तीसरी कोशिश; तीसरा अमेरिकी विमानवाहक पोत भी पहुँचा",
+   "page": "khabar/2026-11-17-21-duniya-3.html"
   },
   {
-   "id": "2026-11-17-duniya-3",
-   "cat": "duniya",
-   "title_hi": "अमेरिकी रॉकेट वल्कन उड़ान के 10 मिनट बाद नाकाम, अमेज़न के 40 इंटरनेट उपग्रह नष्ट",
-   "title_en": "ULA Vulcan rocket fails minutes after liftoff, all 40 Amazon Leo satellites lost",
-   "body_hi": "अमेरिका में यूनाइटेड लॉन्च अलायंस का वल्कन रॉकेट फ्लोरिडा से उड़ान भरने के करीब 10 मिनट बाद नाकाम हो गया, जिससे उसमें सवार अमेज़न के सभी 40 लियो इंटरनेट उपग्रह नष्ट हो गए। यह रॉकेट बोइंग और लॉकहीड मार्टिन का संयुक्त उपक्रम है।\n\nयह हादसा अमेज़न की उपग्रह इंटरनेट परियोजना के लिए बड़ा झटका है। हादसे के कारणों की जांच की जा रही है, और अभी यह साफ नहीं है कि अगली उड़ान कब होगी।",
-   "body_en": "The United Launch Alliance's Vulcan rocket, a joint venture of Boeing and Lockheed Martin, failed nearly 10 minutes after liftoff from Florida, resulting in the loss of all 40 Amazon Leo internet satellites onboard.\n\nThe failure is a major setback for Amazon's satellite internet project. An investigation into the cause of the failure is under way, and it is not yet clear when the next flight will take place.",
-   "source": "The Indian Express",
-   "source_url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-november-17-2026-china-us-russia-to-hold-their-first-trilateral-summit-on-november-19-10965249/",
-   "img": "https://www.popsci.com/wp-content/uploads/2019/03/18/JVBK4Z2D6X4HMMCMEDV4E4DW4I.jpg?quality=85&w=768",
+   "body_en": "Cricket great Mahendra Singh Dhoni has announced his retirement from the Indian Premier League. From IPL 2027, he will take on the role of team mentor with Chennai Super Kings. The decision came on the retention deadline day ahead of IPL 2027.\n\nAjinkya Rahane has also retired from the IPL along with Dhoni. Chennai Super Kings have released Dhoni among several other players, while all ten franchises have announced their retention lists ahead of the mini-auction in Goa on December 16.",
+   "body_hi": "क्रिकेट के दिग्गज महेंद्र सिंह धोनी ने इंडियन प्रीमियर लीग से संन्यास की घोषणा कर दी है। IPL 2027 से वे चेन्नई सुपर किंग्स के टीम मेंटर की भूमिका निभाएँगे। यह फैसला IPL 2027 की रिटेंशन की अंतिम तारीख वाले दिन सामने आया।\n\nधोनी के साथ अजिंक्य रहाणे ने भी IPL से संन्यास ले लिया है। चेन्नई सुपर किंग्स ने धोनी समेत कई खिलाड़ियों को रिलीज़ कर दिया है, जबकि 16 दिसंबर को गोवा में होने वाली मिनी नीलामी से पहले सभी दस फ्रेंचाइज़ियों ने अपनी रिटेंशन सूची जारी कर दी है।",
+   "cat": "khel",
+   "id": "2026-11-17-21-khel-1",
+   "img": "https://cf-images.assettype.com/outlookindia/2024-05/3325493f-045c-40c2-80db-fd9d053c1909/GNX6yZpXIAAyuwi.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+   "source": "Outlook India",
+   "source_url": "https://www.outlookindia.com/sports/cricket/ipl-2027-retention-live-check-full-list-of-retained-and-released-players-mi-csk-rcb-kkr-dc-pbks-srh-rr-gt-lsg-highlights",
    "tags": [
-    "#VulcanRocket",
-    "#Amazon",
-    "#Space",
-    "#Satellite",
+    "#MSDhoni",
+    "#CSK",
+    "#IPL2027",
+    "#TaazaKhabar"
+   ],
+   "title_en": "MS Dhoni retires from IPL, to become Chennai Super Kings mentor",
+   "title_hi": "महेंद्र सिंह धोनी ने IPL से संन्यास लिया, अब चेन्नई सुपर किंग्स के मेंटर बनेंगे",
+   "page": "khabar/2026-11-17-21-khel-1.html"
+  },
+  {
+   "body_en": "Zimbabwe beat Afghanistan by 57 runs in the second Test in Sharjah to win the two-match Test series 1-0. It is Zimbabwe's first Test series win on foreign soil since their tour of Bangladesh in 2001.\n\nAfghanistan debutant Naseer Khan Maroofkhil batted for nearly six hours for an unbeaten 101, but his team were bowled out for 360. Maroofkhil became the first player since New Zealand's Bruce Taylor in 1965 to score a century and take a five-wicket haul on Test debut — he had also taken seven wickets in the first innings.",
+   "body_hi": "ज़िम्बाब्वे ने शारजाह में खेले गए दूसरे टेस्ट में अफ़ग़ानिस्तान को 57 रन से हराकर दो मैचों की टेस्ट सीरीज़ 1-0 से जीत ली। यह 2001 में बांग्लादेश दौरे के बाद ज़िम्बाब्वे की विदेशी धरती पर पहली टेस्ट सीरीज़ जीत है।\n\nअफ़ग़ानिस्तान के डेब्यूटेंट नसीर खान मारूफ़खिल ने लगभग छह घंटे बल्लेबाज़ी करते हुए नाबाद 101 रन बनाए, फिर भी उनकी टीम 360 रन पर सिमट गई। मारूफ़खिल 1965 में न्यूज़ीलैंड के ब्रूस टेलर के बाद टेस्ट डेब्यू पर शतक और पाँच विकेट लेने वाले पहले खिलाड़ी बने — उन्होंने पहली पारी में सात विकेट भी लिए थे।",
+   "cat": "khel",
+   "id": "2026-11-17-21-khel-2",
+   "img": "https://ss-i.thgim.com/public/incoming/j1awgd/article70185581.ece/alternates/LANDSCAPE_1200/G3tYL3xXwAES5y_.jpg",
+   "source": "Reuters",
+   "source_url": "https://www.reuters.com/sports/cricket/maroofkhil-defiance-vain-zimbabwe-edge-afghanistan-in-thriller-2026-11-17/",
+   "tags": [
+    "#Zimbabwe",
+    "#Afghanistan",
+    "#TestCricket",
     "#WorldNews"
    ],
-   "page": "khabar/2026-11-17-duniya-3.html"
+   "title_en": "Zimbabwe's historic win: Afghanistan lose by 57 runs despite debutant Maroofkhil's century; first away Test series win since 2001",
+   "title_hi": "ज़िम्बाब्वे की ऐतिहासिक जीत: डेब्यूटेंट मारूफ़खिल के शतक के बावजूद अफ़ग़ानिस्तान 57 रन से हारा, 2001 के बाद पहली विदेशी टेस्ट सीरीज़",
+   "page": "khabar/2026-11-17-21-khel-2.html"
   },
   {
-   "id": "2026-11-17-khel-1",
-   "cat": "khel",
-   "title_hi": "भारत ने न्यूज़ीलैंड को 22 रन से हराकर वनडे सीरीज़ 3-1 से जीती, सात साल बाद कीवी धरती पर जीत",
-   "title_en": "India clinch ODI series 3-1 in New Zealand with 22-run win in fifth ODI",
-   "body_hi": "भारत ने माउंट माउंगानुई में पांचवें और अंतिम वनडे में न्यूज़ीलैंड को 22 रन से हराकर पांच मैचों की सीरीज़ 3-1 से जीत ली। भारत ने पहले बल्लेबाज़ी करते हुए 209 रन बनाए, और गेंदबाज़ों ने इस छोटे लक्ष्य का सफल बचाव किया।\n\nअर्शदीप सिंह ने 30 रन देकर 3 विकेट लिए, जबकि मोहम्मद सिराज ने 2 विकेट चटकाए। यह न्यूज़ीलैंड में भारत की सात साल बाद पहली वनडे सीरीज़ जीत है — इससे पहले भारत ने 2009 और 2018-19 में वहां सीरीज़ जीती थी। अब दोनों टीमें 19 नवंबर से वेलिंग्टन में शुरू हो रही दो मैचों की टेस्ट सीरीज़ में भिड़ेंगी।",
-   "body_en": "India beat New Zealand by 22 runs in the fifth and final ODI at Mount Maunganui to clinch the five-match series 3-1. Batting first, India scored 209 runs, and the bowlers successfully defended the modest total.\n\nArshdeep Singh took 3 wickets for 30 runs, while Mohammed Siraj claimed 2 wickets. It is India's first ODI series win in New Zealand in seven years — India had previously won series there in 2009 and 2018-19. The two teams will now meet in a two-match Test series starting in Wellington on November 19.",
-   "source": "ICC",
-   "source_url": "https://www.icc-cricket.com/news/bowlers-guide-india-to-odi-series-win-over-new-zealand?appview=true",
-   "img": "https://images.icc-cricket.com/image/upload/t_ratio16_9-size20-webp/prd/ks01x99t4v926asi456c",
-   "tags": [
-    "#INDvsNZ",
-    "#Cricket",
-    "#TeamIndia",
-    "#ODI",
-    "#TaazaKhabar"
-   ],
-   "page": "khabar/2026-11-17-khel-1.html"
-  },
-  {
-   "id": "2026-11-17-khel-2",
-   "cat": "khel",
-   "title_hi": "जय शाह निर्विरोध दूसरी बार ICC अध्यक्ष चुने गए, बाली में बोर्ड बैठक में सर्वसम्मति",
-   "title_en": "Jay Shah re-elected unopposed as ICC chairman for a second term",
-   "body_hi": "अंतरराष्ट्रीय क्रिकेट परिषद (ICC) ने घोषणा की है कि जय शाह को दूसरी बार निर्विरोध अध्यक्ष चुना गया है। बाली में हुई ICC बोर्ड की बैठक में निदेशकों के प्रस्ताव पर सभी सदस्यों ने सर्वसम्मति से उनका समर्थन किया।\n\nजय शाह ने दिसंबर 2024 में पद संभाला था। उनका पहला कार्यकाल दिसंबर 2027 में पूरा होगा, जिसके बाद दूसरा कार्यकाल शुरू होगा। ICC ने कहा कि उनके नेतृत्व में क्रिकेट का वैश्विक विस्तार नई ऊंचाइयों तक पहुंच रहा है, और बोर्ड महिला क्रिकेट व एसोसिएट सदस्यों के अवसरों को प्राथमिकता देगा।",
-   "body_en": "The International Cricket Council (ICC) has announced that Jay Shah has been re-elected unopposed as chairman for a second term. At the ICC Board meeting in Bali, members unanimously endorsed him following a proposal by the directors.\n\nShah assumed office in December 2024. His first term will end in December 2027, after which his second term will begin. The ICC said that under his leadership, the global expansion of cricket continues to reach new heights, and the Board will prioritise women's cricket and opportunities for Associate Members.",
-   "source": "NDTV Sports",
-   "source_url": "https://sports.ndtv.com/cricket/jay-shah-re-appointed-unopposed-as-icc-chairman-for-second-term-12332047",
-   "img": "https://ddindia.co.in/wp-content/uploads/2025/01/GettyImages-2188384005.jpg",
-   "tags": [
-    "#JayShah",
-    "#ICC",
-    "#Cricket",
-    "#BCCI",
-    "#TaazaKhabar"
-   ],
-   "page": "khabar/2026-11-17-khel-2.html"
-  },
-  {
-   "id": "2026-11-17-vyapar-1",
+   "body_en": "Indian stock markets closed higher again on Tuesday. The Sensex rose 427 points to close at 82,532.19 and the Nifty gained 96 points to end at 25,387.40 — both at their highest levels since late February. The Bank Nifty also closed at a record 62,273.\n\nThe rally is being linked to softer crude oil prices and record foreign investor inflows. Foreign portfolio investors have put $9.53 billion into Indian shares so far in November, a record for a single month. The rupee also strengthened by 43 paise to close at 93.51 against the US dollar.",
+   "body_hi": "भारतीय शेयर बाज़ार मंगलवार को भी तेज़ी के साथ बंद हुआ। सेंसेक्स 427 अंक चढ़कर 82,532.19 पर और निफ्टी 96 अंक बढ़कर 25,387.40 पर बंद हुआ — दोनों ही फरवरी के अंत के बाद अपने सबसे ऊँचे स्तर पर हैं। बैंक निफ्टी भी 62,273 के रिकॉर्ड स्तर पर बंद हुआ।\n\nबाज़ार की इस तेज़ी के पीछे कच्चे तेल की कीमतों में नरमी और विदेशी निवेशकों का रिकॉर्ड निवेश बताया जा रहा है। नवंबर में अब तक विदेशी पोर्टफोलियो निवेशकों ने भारतीय शेयरों में 9.53 अरब डॉलर डाले हैं, जो किसी एक महीने का रिकॉर्ड है। रुपया भी 43 पैसे मज़बूत होकर 93.51 प्रति डॉलर पर बंद हुआ।",
    "cat": "vyapar",
-   "title_hi": "शेयर बाज़ार में तेज़ी: सेंसेक्स 512 अंक चढ़कर 82,105 पर, निफ्टी 25,291 के पार",
-   "title_en": "Sensex jumps 512 points to 82,105, Nifty closes at 25,291 as markets end higher",
-   "body_hi": "सोमवार को भारतीय शेयर बाज़ार बढ़त के साथ बंद हुए। बीएसई सेंसेक्स 512.34 अंक यानी 0.63 प्रतिशत बढ़कर 82,104.79 पर बंद हुआ, जबकि एनएसई निफ्टी 146.80 अंक चढ़कर 25,291.10 पर पहुंचा। बैंकिंग और एफएमसीजी शेयरों में खरीदारी से बाज़ार को सहारा मिला।\n\nविदेशी निवेशकों ने नवंबर में अब तक भारतीय शेयरों में रिकॉर्ड निवेश किया है — 2 से 13 नवंबर के बीच विदेशी पोर्टफोलियो निवेशकों ने शुद्ध 84,290 करोड़ रुपये डाले। हालांकि, थोक महंगाई के आंकड़े और रुपये की कमज़ोरी पर नज़र बनी हुई है। यह खबर केवल जानकारी के लिए है, निवेश की सलाह नहीं।",
-   "body_en": "Indian equity markets ended higher on Monday. The BSE Sensex rose 512.34 points, or 0.63 per cent, to close at 82,104.79, while the NSE Nifty gained 146.80 points to 25,291.10. Buying in banking and FMCG stocks supported the market.\n\nForeign investors have made record investments in Indian equities in November so far — foreign portfolio investors poured a net Rs 84,290 crore between November 2 and 13. However, wholesale inflation figures and the rupee's weakness remain in focus. This report is for information only, not investment advice.",
-   "source": "Moneycontrol",
-   "source_url": "https://www.moneycontrol.com/news/business/markets/stock-market-live-updates-nifty50-share-price-sensex-share-price-crude-fii-gift-nifty-rupee-latest-updates-16-11-2026-alpha-liveblog-14080684.html",
-   "img": "https://blogger.googleusercontent.com/img/a/AVvXsEjRlKPGYfrcAzOYCcStyeILNkwm5QC3SggjSU72PJnX1-BfWHuGzf4kxwDIbBU3De7MUDYGnIN6LRwFbv2NZtsfci6nGOK_DzltIDf9YCesxOhYq-lM_Vuka36gVeb3buXxiDT66pH5AkE0eqxdkMH1kSuTKIal7H7rMvRLHLqdPZxVmdHcuT8_EqDUQX4",
+   "id": "2026-11-17-21-vyapar-1",
+   "img": "https://bl-i.thgim.com/public/incoming/lyctba/article71708476.ece/alternates/FREE_1200/PO27_Stock_market.jpg",
+   "source": "The Hindu BusinessLine",
+   "source_url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-17th-november-2026/article71708442.ece/amp/",
    "tags": [
     "#Sensex",
     "#Nifty",
-    "#ShareBazaar",
     "#StockMarket",
     "#TaazaKhabar"
    ],
-   "page": "khabar/2026-11-17-vyapar-1.html"
+   "title_en": "Markets extend rally: Sensex at 82,532, Nifty at 25,387, highest since February; Bank Nifty hits record",
+   "title_hi": "शेयर बाज़ार में तेज़ी जारी: सेंसेक्स 82,532 और निफ्टी 25,387 पर, फरवरी के बाद सबसे ऊँचा स्तर; बैंक निफ्टी रिकॉर्ड पर",
+   "page": "khabar/2026-11-17-21-vyapar-1.html"
   },
   {
-   "id": "2026-11-17-vyapar-2",
+   "body_en": "American banking giant JPMorgan Chase said on Tuesday that its transactions were back to normal after a nationwide outage. The disruption to the bank's services had caused trouble for customers making payments and transactions.\n\nAccording to the bank, transactions are now running normally. The outage was felt across the country on Tuesday, after which the bank confirmed that the situation had returned to normal.",
+   "body_hi": "अमेरिका के बड़े बैंक JPMorgan Chase ने मंगलवार को कहा कि देशभर में हुई रुकावट के बाद उसके लेनदेन सामान्य हो गए हैं। बैंक की सेवाओं में आई इस दिक्कत से ग्राहकों को भुगतान और लेनदेन में परेशानी हुई थी।\n\nबैंक के अनुसार अब लेनदेन सामान्य रूप से हो रहे हैं। यह रुकावट मंगलवार को देशभर में महसूस की गई थी, जिसके बाद बैंक ने स्थिति सामान्य होने की जानकारी दी।",
    "cat": "vyapar",
-   "title_hi": "बेरोज़गारी दर घटकर 4.9% हुई, पर थोक महंगाई 12.29% के रिकॉर्ड स्तर पर",
-   "title_en": "Unemployment eases to 4.9% in October, but wholesale inflation hits record 12.29%",
-   "body_hi": "सांख्यिकी मंत्रालय के सर्वेक्षण के अनुसार, अक्टूबर में भारत की बेरोज़गारी दर सितंबर के 5 प्रतिशत से घटकर 4.9 प्रतिशत रह गई। खासकर ग्रामीण इलाकों में महिला श्रम शक्ति की भागीदारी बढ़ी है, जिससे रोज़गार के आंकड़ों में सुधार दिखा।\n\nदूसरी ओर, थोक महंगाई अक्टूबर में बढ़कर 12.29 प्रतिशत हो गई, जो मौजूदा शृंखला का सबसे ऊंचा स्तर है। ईंधन और बिजली की कीमतों में 32.84 प्रतिशत की तेज़ बढ़ोतरी इसका मुख्य कारण रही। खुदरा महंगाई भी 6.09 प्रतिशत पर पहुंचकर रिज़र्व बैंक की 2-6 प्रतिशत की सहनशील सीमा को पार कर चुकी है।",
-   "body_en": "India's unemployment rate eased to 4.9 per cent in October from 5 per cent in September, according to the Periodic Labour Force Survey released by the Ministry of Statistics and Programme Implementation. Female labour force participation improved, particularly in rural areas.\n\nOn the other hand, wholesale price inflation accelerated to 12.29 per cent in October, the highest in the current series. A sharp 32.84 per cent rise in fuel and power prices was the main driver. Retail inflation has also risen to 6.09 per cent, breaching the Reserve Bank of India's 2-6 per cent tolerance band.",
-   "source": "WION",
-   "source_url": "https://www.wionews.com/business-economy/indian-economy-watch-wpi-inflation-rises-unemployment-eases-foreign-inflows-lift-stock-markets-what-do-the-numbers-tell-us-1794827100228/amp",
-   "img": "https://img-cdn.publive.online/fit-in/1200x675/odishatv/media/post_attachments/uploadimage/library/16_9/16_9_0/Inflation__1661509449.webp",
+   "id": "2026-11-17-21-vyapar-2",
+   "img": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ieN0yS6E8agU/v0/1000x-1.jpg",
+   "source": "Outlook India",
+   "source_url": "https://www.outlookindia.com/international/india-news-live-updates-17-november-2026-cyclone-akvan-storm-intensifies-landfall-expected-on-andhra-coast-odisha-begins-evacuation-news-latest-updates",
    "tags": [
-    "#Berozgari",
-    "#Mehangai",
-    "#WPI",
-    "#IndianEconomy",
-    "#TaazaKhabar"
+    "#JPMorgan",
+    "#Banking",
+    "#WorldNews"
    ],
-   "page": "khabar/2026-11-17-vyapar-2.html"
+   "title_en": "JPMorgan Chase says transactions back to normal after nationwide outage",
+   "title_hi": "JPMorgan Chase में देशव्यापी रुकावट के बाद लेनदेन सामान्य, बैंक ने दी जानकारी",
+   "page": "khabar/2026-11-17-21-vyapar-2.html"
   }
  ]
 }
