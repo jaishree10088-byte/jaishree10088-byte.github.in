@@ -1,186 +1,181 @@
 {
- "edition": "मंगलवार, 17 नवंबर 2026 — रात 9 बजे",
- "updated_at": "2026-11-17T21:00:00+05:30",
+ "edition": "बुधवार, 18 नवंबर 2026 — सुबह 5 बजे",
+ "updated_at": "2026-11-18T05:00:00+05:30",
  "stories": [
   {
-   "body_en": "Prime Minister Narendra Modi, US President Donald Trump, Japan's Prime Minister Sanae Takaichi and Australia's Prime Minister Anthony Albanese met in Manila, the capital of the Philippines, on Tuesday for the Quad leaders' meeting. The meeting took place on the sidelines of the ASEAN and East Asia summits.\n\nDuring the meeting, Trump described Prime Minister Modi as a 'tough man'. Trump also said the United States would catch up with China in rare earths production within ten months. Earlier, Modi had presented a seven-point proposal at the ASEAN summit to deepen cooperation, from maritime security to critical minerals.",
-   "body_hi": "प्रधानमंत्री नरेंद्र मोदी, अमेरिका के राष्ट्रपति डोनाल्ड ट्रंप, जापान की प्रधानमंत्री साने ताकाइची और ऑस्ट्रेलिया के प्रधानमंत्री एंथनी अल्बनीज़ मंगलवार को फिलीपींस की राजधानी मनीला में क्वाड शिखर बैठक में मिले। यह बैठक आसियान और पूर्वी एशिया शिखर सम्मेलनों के इतर हुई।\n\nबैठक के दौरान ट्रंप ने प्रधानमंत्री मोदी को 'मजबूत नेता' बताया। ट्रंप ने यह भी कहा कि अमेरिका दुर्लभ खनिजों के उत्पादन में दस महीने के भीतर चीन की बराबरी कर लेगा। इससे पहले मोदी ने आसियान शिखर सम्मेलन में समुद्री सुरक्षा से लेकर अहम खनिजों तक सहयोग बढ़ाने के लिए सात सूत्रीय प्रस्ताव भी रखा।",
+   "body_en": "Cyclonic storm Akvan over the Bay of Bengal is gathering strength and is set to become a very severe cyclonic storm by the morning of November 19, the India Meteorological Department (IMD) said. It is expected to cross the Andhra Pradesh and Yanam coasts around noon on November 20, with sustained winds of 120-130 kmph and gusts reaching up to 145 kmph.\n\nOn Tuesday morning the storm lay about 610 km east of Chennai and was moving slowly north-northwestwards. Landfall could occur anywhere along the 540-km stretch between Nellore and Tuni. The IMD has issued an Orange warning for the Andhra Pradesh and adjoining south Odisha coasts, with heavy to very heavy rainfall expected on November 19 and 20. Chief Minister N. Chandrababu Naidu has reviewed preparedness. Akvan is the third cyclone to threaten the Andhra coast in a month.",
+   "body_hi": "बंगाल की खाड़ी में बना चक्रवाती तूफ़ान अकवन तेज़ी से ताकतवर हो रहा है। भारत मौसम विज्ञान विभाग (IMD) के अनुसार यह 19 नवंबर की सुबह तक अति भीषण चक्रवाती तूफ़ान बन जाएगा और 20 नवंबर को दोपहर के आसपास आंध्र प्रदेश और यनम के तट से टकराएगा। टकराव के समय हवाओं की रफ़्तार 120-130 किलोमीटर प्रति घंटा रह सकती है, जबकि झोंके 145 किलोमीटर प्रति घंटा तक पहुँच सकते हैं।\n\nमंगलवार सुबह तूफ़ान चेन्नई से करीब 610 किलोमीटर पूर्व में था और धीरे-धीरे उत्तर-पश्चिम की ओर बढ़ रहा था। संभावित लैंडफॉल नेल्लोर से तूनी के बीच 540 किलोमीटर लंबे तटीय हिस्से में कहीं भी हो सकता है। IMD ने आंध्र प्रदेश और दक्षिण ओडिशा के तट के लिए ऑरेंज चेतावनी जारी की है, जबकि 19-20 नवंबर को भारी से बहुत भारी बारिश का अनुमान है। मुख्यमंत्री एन. चंद्रबाबू नायडू ने तैयारियों की समीक्षा की है। यह एक महीने में आंध्र तट को खतरे में डालने वाला तीसरा तूफ़ान है।",
    "cat": "bharat",
-   "id": "2026-11-17-21-bharat-1",
-   "img": "https://cf-images.assettype.com/outlookindia/2026-11-17/tl9tzo9u/Quad-Leaders’-Meeting-in-Manila.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-   "source": "Outlook India",
-   "source_url": "https://www.outlookindia.com/international/india-news-live-updates-17-november-2026-cyclone-akvan-storm-intensifies-landfall-expected-on-andhra-coast-odisha-begins-evacuation-news-latest-updates",
+   "id": "2026-11-18-05-bharat-1",
+   "img": "https://th-i.thgim.com/public/news/national/andhra-pradesh/fxfxmi/article71710738.ece/alternates/LANDSCAPE_1200/Path.jpeg",
+   "source": "The Hindu",
+   "source_url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-akvan-540-km-of-andhra-and-yanam-coast-braces-for-november-20-landfall/article71710410.ece",
    "tags": [
-    "#Quad",
-    "#Manila",
+    "#CycloneAkvan",
+    "#AndhraPradesh",
+    "#IMD",
+    "#TaazaKhabar"
+   ],
+   "title_en": "Cyclone Akvan to hit Andhra coast on November 20 with winds up to 145 kmph; Orange alert issued",
+   "title_hi": "चक्रवात अकवन: 20 नवंबर को आंध्र तट से टकराएगा, 145 किमी/घंटा तक हवाएँ; ऑरेंज अलर्ट",
+   "page": "khabar/2026-11-18-05-bharat-1.html"
+  },
+  {
+   "body_en": "Prime Minister Narendra Modi unveiled nine initiatives to deepen India-ASEAN cooperation at the 23rd ASEAN-India Summit in Manila on Tuesday. The proposals include free e-visas for tourists from ASEAN countries, a long-term maritime cooperation plan, technical exchanges on nuclear energy and cooperation on critical minerals.\n\nModi said the future of the Indo-Pacific must be shaped by \"cooperation, not competition\". The other initiatives include a joint cyber-forensics training programme, an ASEAN-India Space Hackathon, youth exchanges, scholarships at Nalanda University and a creative partnership pavilion at WAVES 2027. The India-ASEAN partnership completes 35 years in 2027.",
+   "body_hi": "प्रधानमंत्री नरेंद्र मोदी ने मनीला में हुए 23वें आसियान-भारत शिखर सम्मेलन में भारत-आसियान साझेदारी मज़बूत करने के लिए नौ नई पहलें पेश कीं। इनमें आसियान देशों के पर्यटकों के लिए मुफ़्त ई-वीज़ा, दीर्घकालिक समुद्री सहयोग योजना, परमाणु ऊर्जा पर तकनीकी आदान-प्रदान और अहम खनिजों पर सहयोग शामिल है।\n\nमोदी ने कहा कि हिंद-प्रशांत क्षेत्र का भविष्य 'प्रतिस्पर्धा नहीं, सहयोग' से तय होना चाहिए। अन्य पहलों में साइबर फोरेंसिक प्रशिक्षण, आसियान-भारत अंतरिक्ष हैकाथॉन, युवा आदान-प्रदान, नालंदा विश्वविद्यालय में छात्रवृत्तियाँ और 2027 में होने वाले वेव्स सम्मेलन में रचनात्मक साझेदारी मंडप शामिल हैं। 2027 में भारत-आसियान साझेदारी के 35 साल पूरे होंगे।",
+   "cat": "bharat",
+   "id": "2026-11-18-05-bharat-2",
+   "img": "https://cf-images.assettype.com/outlookindia/2026-11-17/76of0kvv/HXUfFJubgAE5qVb.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+   "source": "Outlook India",
+   "source_url": "https://www.outlookindia.com/amp/story/national/from-free-e-visas-to-nuclear-energy-9-initiatives-pm-modi-proposed-to-asean",
+   "tags": [
+    "#ASEAN",
     "#PMModi",
-    "#Trump",
+    "#Manila",
     "#TaazaKhabar"
    ],
-   "title_en": "Quad leaders meet in Manila: Modi, Trump, Takaichi and Albanese hold talks; Trump calls Modi a 'tough man'",
-   "title_hi": "क्वाड शिखर बैठक: मनीला में मोदी-ट्रंप समेत चारों नेताओं की मुलाकात, ट्रंप ने मोदी को बताया 'मजबूत नेता'",
-   "page": "khabar/2026-11-17-21-bharat-1.html"
+   "title_en": "Modi offers ASEAN nine initiatives: free e-visas, maritime plan and nuclear energy cooperation",
+   "title_hi": "मोदी का आसियान को 9 सूत्रीय तोहफ़ा: मुफ़्त ई-वीज़ा, समुद्री सहयोग और परमाणु ऊर्जा पर साझेदारी",
+   "page": "khabar/2026-11-18-05-bharat-2.html"
   },
   {
-   "body_en": "Delhi woke up to a hazy, chilly morning on Tuesday. The city's air quality index (AQI) stood at 242, which falls in the 'poor' category. Officials said weakening winds, falling temperatures and morning fog were trapping pollutants close to the ground.\n\nOfficials said the air could slip into the 'very poor' category from today itself. Pollution rises in Delhi every year with the onset of winter, and the situation this time is also raising concern.",
-   "body_hi": "दिल्ली में मंगलवार की सुबह धुंध और ठंड के साथ हुई। शहर की हवा की गुणवत्ता (AQI) 242 दर्ज की गई, जो 'खराब' श्रेणी में आती है। अधिकारियों का कहना है कि हवाएँ कमजोर पड़ने, तापमान गिरने और सुबह की धुंध के कारण प्रदूषक नीचे फँस रहे हैं।\n\nअधिकारियों के अनुसार आज से ही हवा 'बहुत खराब' श्रेणी में जा सकती है। सर्दियों की शुरुआत के साथ दिल्ली में हर साल प्रदूषण बढ़ता है, और इस बार भी हालात चिंता बढ़ा रहे हैं।",
+   "body_en": "Bilkis Bano and her family have fled Gujarat, expressing fear and shock after the Supreme Court granted bail to two convicts in her case. On October 28, the court suspended the life sentences of Bipinchand Kanaiyalal Joshi and Pradip Ramanlal Modhiya, convicted in the 2002 Gujarat riots gang-rape and murder case. Bano said the order was passed without her being heard and that she fears for her family's safety.\n\nA bench of Justices M. M. Sundresh and Prasanna B. Varale noted that both men had spent more than 17 years in prison and that one of them is severely disabled, and suspended their sentences while their appeals against conviction remain pending. The court made clear that their convictions have not been set aside. In January 2024, the Supreme Court had quashed the premature release granted to the convicts.",
+   "body_hi": "बिल्किस बानो और उनका परिवार गुजरात छोड़कर चला गया है। सुप्रीम कोर्ट ने 28 अक्टूबर को 2002 के गुजरात दंगों के मामले में दो दोषियों — बिपिनचंद जोशी और प्रदीप मोढिया — की उम्रकैद की सज़ा निलंबित करके उन्हें ज़मानत दे दी थी, जिसके बाद बानो ने हैरानी और अविश्वास जताते हुए कहा कि यह आदेश बिना उन्हें सुने दिया गया और उन्हें अपने परिवार की सुरक्षा की चिंता है।\n\nजस्टिस एम. एम. सुंदरेश और जस्टिस प्रसन्ना वराले की पीठ ने कहा कि दोनों दोषी 17 साल से ज़्यादा समय जेल में बिता चुके हैं और उनमें से एक गंभीर रूप से दिव्यांग है, इसलिए अपील पर सुनवाई लंबित रहने तक सज़ा निलंबित की जाती है। अदालत ने साफ़ किया कि दोषसिद्धि रद्द नहीं हुई है और अपील पर बाद में सुनवाई होगी। 2024 में सुप्रीम कोर्ट ने इन दोषियों को दी गई समय-पूर्व रिहाई रद्द कर दी थी।",
    "cat": "bharat",
-   "id": "2026-11-17-21-bharat-2",
-   "img": "https://images.indianexpress.com/2026/11/P1-Pollution-5col_20261117121339.jpg",
-   "source": "The Indian Express",
-   "source_url": "https://indianexpress.com/article/india/breaking-news-live-updates-india-17-november-2026-delhi-aqi-pollution-cyclone-akvan-odisha-modi-asean-fire-accident-mumbai-south-weather-10966073/",
+   "id": "2026-11-18-05-bharat-3",
+   "img": "https://im.rediff.com/1200-630/news/2022/oct/18bilkis.jpg",
+   "source": "Rediff",
+   "source_url": "https://m.rediff.com/news/report/terrified-bilkis-bano-family-flee-guj-after-sc-grants-bail-to-2-convicts/20261117.htm",
    "tags": [
-    "#DelhiAQI",
-    "#Pollution",
-    "#Delhi",
+    "#BilkisBano",
+    "#SupremeCourt",
     "#TaazaKhabar"
    ],
-   "title_en": "Delhi air turns 'poor' again: AQI at 242, likely to slip into 'very poor'",
-   "title_hi": "दिल्ली की हवा फिर 'खराब': AQI 242 पर, 'बहुत खराब' श्रेणी में जाने की आशंका",
-   "page": "khabar/2026-11-17-21-bharat-2.html"
+   "title_en": "Bilkis Bano's family flees Gujarat in fear after Supreme Court grants bail to two convicts",
+   "title_hi": "बिल्किस बानो का परिवार डर के मारे गुजरात छोड़ गया, सुप्रीम कोर्ट से जमानत के बाद दोषियों को राहत पर सदमा",
+   "page": "khabar/2026-11-18-05-bharat-3.html"
   },
   {
-   "body_en": "A major road accident took place in Tehri district of Uttarakhand on Tuesday. A bus carrying around 30 to 35 passengers fell about 100 metres into a ravine from a bridge near Gular Bazar.\n\nRescue teams from the SDRF posts at Byasi and Dhalwala reached the spot quickly and began the operation. About 25 injured people were pulled out and taken to hospital, while at least 6 passengers died.",
-   "body_hi": "उत्तराखंड के टिहरी जिले में मंगलवार को एक बड़ा सड़क हादसा हुआ। गुलर बाज़ार के पास एक पुल से करीब 30 से 35 यात्रियों को ले जा रही बस लगभग 100 मीटर नीचे खाई में गिर गई।\n\nब्यासी और धालवाला से एसडीआरएफ की टीमें तुरंत मौके पर पहुँचीं और बचाव अभियान शुरू किया। करीब 25 घायलों को बाहर निकालकर अस्पताल पहुँचाया गया है, जबकि कम से कम 6 यात्रियों की मौत हो गई।",
-   "cat": "bharat",
-   "id": "2026-11-17-21-bharat-3",
-   "img": "https://newsarenaindia.com/_next/image?url=https%3A%2F%2Fimages.newsarenaindia.com%2Frescue-workers-search-the-wreckage-after-a-bus-fell-into-a-gorge-in-tehri-district-killing-five-and-injuring-several-othersjpg_1763974318330.jpg&w=828&q=75",
-   "source": "The Indian Express",
-   "source_url": "https://indianexpress.com/article/india/breaking-news-live-updates-india-17-november-2026-delhi-aqi-pollution-cyclone-akvan-odisha-modi-asean-fire-accident-mumbai-south-weather-10966073/",
-   "tags": [
-    "#Tehri",
-    "#Uttarakhand",
-    "#RoadAccident",
-    "#TaazaKhabar"
-   ],
-   "title_en": "Tehri bus tragedy: Bus falls into gorge from bridge, at least 6 dead, 25 injured",
-   "title_hi": "टिहरी में बड़ा हादसा: पुल से खाई में गिरी बस, कम से कम 6 की मौत, 25 घायल",
-   "page": "khabar/2026-11-17-21-bharat-3.html"
-  },
-  {
-   "body_en": "Ukraine has struck the Crimean Bridge, which links Russia to Crimea. Sergei Aksyonov, the Russian-installed head of Crimea, said road and rail traffic on the bridge had been suspended after the attack. Ukrainian President Volodymyr Zelenskyy described it as an 'unprecedented operation' prepared over weeks.\n\nIn response, Russia struck bridges in Kyiv. Tensions over the bridge have risen again as the war between the two countries intensifies, since the bridge is a key supply route for Russia to Crimea.",
-   "body_hi": "यूक्रेन ने रूस को क्रीमिया से जोड़ने वाले क्रीमिया पुल पर हमला किया है। रूस द्वारा नियुक्त क्रीमिया के प्रमुख सर्गेई अक्स्योनोव ने बताया कि हमले के बाद पुल पर सड़क और रेल यातायात रोक दिया गया है। यूक्रेन के राष्ट्रपति वोलोदिमीर ज़ेलेंस्की ने इसे हफ्तों की तैयारी के बाद अंजाम दी गई 'अभूतपूर्व कार्रवाई' बताया।\n\nइसके जवाब में रूस ने कीव के पुलों पर हमले किए। दोनों देशों के बीच युद्ध तेज़ होने के साथ इस पुल को लेकर तनाव एक बार फिर बढ़ गया है, क्योंकि यह पुल रूस के लिए क्रीमिया तक आपूर्ति का अहम रास्ता है।",
+   "body_en": "The United States carried out strikes on Iran's Qeshm Island in the Strait of Hormuz on Tuesday, targeting an Iranian missile launch site with precision munitions. A US military official said fighter jets hit a site belonging to Iran's Islamic Revolutionary Guard Corps (IRGC) in self-defence, in response to an Iranian drone attack on a US-operated radar system at Sheikh Isa Air Base in Bahrain.\n\nIranian officials said five to six explosions were heard on the island but caused no damage to residential, commercial or infrastructure areas. The Strait of Hormuz carries about one-fifth of the world's oil and liquefied natural gas. A third US aircraft carrier strike group has also entered the region, even as several vessels have reported attacks in and around the strait.",
+   "body_hi": "अमेरिका ने मंगलवार को होर्मुज़ जलडमरूमध्य में स्थित ईरान के केशम द्वीप पर एक मिसाइल लॉन्च ठिकाने पर हमला किया। अमेरिकी सैन्य अधिकारी के अनुसार लड़ाकू विमानों ने सटीक हथियारों से ईरानी रिवोल्यूशनरी गार्ड (IRGC) के ठिकाने को निशाना बनाया। यह हमला बहरीन में अमेरिकी रडार प्रणाली पर ईरान के ड्रोन हमले के जवाब में किया गया, जिसे अमेरिका ने 'आत्मरक्षा' बताया।\n\nईरानी अधिकारियों ने कहा कि द्वीप पर पाँच-छह धमाकों की आवाज़ें सुनी गईं, लेकिन रिहायशी या व्यावसायिक इलाकों और बुनियादी ढाँचे को कोई नुकसान नहीं हुआ। होर्मुज़ जलडमरूमध्य से दुनिया के तेल और गैस का करीब पाँचवाँ हिस्सा गुज़रता है। अमेरिका का तीसरा विमानवाहक पोत भी इस क्षेत्र में पहुँच चुका है, जबकि जलडमरूमध्य में कई जहाज़ों पर हमलों की खबरें आई हैं।",
    "cat": "duniya",
-   "id": "2026-11-17-21-duniya-1",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2022/10/AP22281525202731.jpg?resize=1920%2C1440",
-   "source": "Outlook India",
-   "source_url": "https://www.outlookindia.com/international/india-news-live-updates-17-november-2026-cyclone-akvan-storm-intensifies-landfall-expected-on-andhra-coast-odisha-begins-evacuation-news-latest-updates",
+   "id": "2026-11-18-05-duniya-1",
+   "img": "https://rismadarvoice.com/wp-content/uploads/2026/06/IMG-20260601-WA0001-420x280.jpg",
+   "source": "The Times of Israel",
+   "source_url": "https://www.timesofisrael.com/us-strikes-irans-qeshm-island-after-tehran-attacks-american-radar-site-in-bahrain/",
    "tags": [
-    "#Ukraine",
-    "#Russia",
-    "#Crimea",
+    "#QeshmIsland",
+    "#StraitOfHormuz",
     "#WorldNews"
    ],
-   "title_en": "Ukraine strikes Crimean Bridge: Traffic suspended after major damage; Russia hits Kyiv bridges in reply",
-   "title_hi": "यूक्रेन का बड़ा हमला: क्रीमिया पुल को भारी नुकसान, आवाजाही ठप; रूस ने कीव के पुलों पर किया पलटवार",
-   "page": "khabar/2026-11-17-21-duniya-1.html"
+   "title_en": "Tensions in Strait of Hormuz: US strikes missile site on Iran's Qeshm Island",
+   "title_hi": "होर्मुज़ जलडमरूमध्य में तनाव: अमेरिका ने ईरान के केशम द्वीप पर मिसाइल ठिकाने पर हमला किया",
+   "page": "khabar/2026-11-18-05-duniya-1.html"
   },
   {
-   "body_en": "Malicious code distributed through Optimizely, a website optimisation platform, targeted visitors across 178 major websites around the world. The sites included big names such as CNN, BBC, Zoom and HSBC.\n\nThe attackers attempted to steal cryptocurrency and credit card data, and the code also infected iPhones. Experts say the attack shows how a flaw in a single platform can put a large number of websites at risk at the same time.",
-   "body_hi": "वेबसाइट ऑप्टिमाइज़ेशन प्लेटफॉर्म ऑप्टिमिज़ली के ज़रिए फैलाए गए दुर्भावनापूर्ण कोड ने दुनिया भर की 178 बड़ी वेबसाइटों के आगंतुकों को निशाना बनाया। इनमें CNN, BBC, ज़ूम और HSBC जैसी बड़ी साइटें शामिल हैं।\n\nहमलावरों ने क्रिप्टोकरेंसी और क्रेडिट कार्ड का डेटा चुराने की कोशिश की, और इस कोड से आईफ़ोन भी संक्रमित हुए। विशेषज्ञों का कहना है कि यह हमला दिखाता है कि एक ही प्लेटफॉर्म की खामी से कितनी बड़ी संख्या में साइटें एक साथ खतरे में पड़ सकती हैं।",
+   "body_en": "Former Pakistan Prime Minister Imran Khan has warned in an open letter from jail that he may die in prison without proper medical treatment. The letter, shared on Monday by his lawyer Salman Safdar, says Khan has lost 85 per cent of the vision in his right eye and that his blood pressure reached 192-193 on November 10, putting him at risk of brain haemorrhage and cardiac arrest.\n\nThe 74-year-old appealed to Pakistan's top judges to ensure earlier court orders on his medical treatment and prison conditions are implemented. He alleged he has been kept in solitary confinement for up to 22 hours a day since December 20, 2025. Khan has been in Adiala jail since August 2023. A Pakistani minister dismissed the claims, saying doctors have declared his condition satisfactory.",
+   "body_hi": "पाकिस्तान के पूर्व प्रधानमंत्री इमरान ख़ान ने जेल से लिखे खुले पत्र में चेतावनी दी है कि इलाज न मिलने पर वह जेल में ही मर सकते हैं। उनके वकील सलमान सफ़दर ने सोमवार को यह पत्र साझा किया, जिसमें ख़ान ने कहा है कि उनकी दाहिनी आँख की रोशनी 85 प्रतिशत जा चुकी है और ब्लड प्रेशर 192-193 तक पहुँचने से उन्हें ब्रेन हेमरेज और हार्ट अटैक का ख़तरा है।\n\n74 वर्षीय ख़ान ने पाकिस्तान के शीर्ष न्यायाधीशों से अपील की है कि इलाज और जेल की स्थितियों पर पहले के अदालती आदेश लागू कराए जाएँ। उन्होंने कहा कि उन्हें 20 दिसंबर 2025 से रोज़ाना 22 घंटे तक एकांत कारावास में रखा जा रहा है। ख़ान अगस्त 2023 से अदियाला जेल में हैं। पाकिस्तान सरकार के एक मंत्री ने उनके दावों को तथ्यों के विपरीत बताते हुए कहा कि डॉक्टरों ने उनकी हालत संतोषजनक बताई है।",
    "cat": "duniya",
-   "id": "2026-11-17-21-duniya-2",
-   "img": "https://images.indianexpress.com/2026/11/Today-News-Headlines-for-School-Assembly-November-17-2026.jpg",
-   "source": "The Indian Express",
-   "source_url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-november-17-2026-china-us-russia-to-hold-their-first-trilateral-summit-on-november-19-10965249/",
+   "id": "2026-11-18-05-duniya-2",
+   "img": "https://thegulfindians.com/wp-content/uploads/2022/03/imran.jpg",
+   "source": "NDTV",
+   "source_url": "https://www.ndtv.com/world-news/ex-pakistan-prime-minister-imran-khans-warning-from-jail-says-may-not-return-alive-12334654/amp/1",
    "tags": [
-    "#Cyberattack",
-    "#BBC",
-    "#CNN",
+    "#ImranKhan",
+    "#Pakistan",
     "#WorldNews"
    ],
-   "title_en": "Major cyberattack: 178 top websites including BBC and CNN targeted to steal crypto and card data",
-   "title_hi": "बड़ा साइबर हमला: BBC, CNN समेत 178 बड़ी वेबसाइटों पर चोरी की कोशिश, क्रिप्टो और कार्ड डेटा निशाने पर",
-   "page": "khabar/2026-11-17-21-duniya-2.html"
+   "title_en": "Imran Khan's letter from jail: 'May not return alive', says 85% vision lost in one eye",
+   "title_hi": "जेल से इमरान ख़ान की चिट्ठी: 'शायद ज़िंदा न लौटूँ', आँख की रोशनी 85% गई, इलाज की गुहार",
+   "page": "khabar/2026-11-18-05-duniya-2.html"
   },
   {
-   "body_en": "Bahrain's armed forces said on Tuesday that their air defences intercepted and destroyed several Iranian aerial attacks before they reached their targets. It was described as the third such attempt in five days. Iran's Islamic Revolutionary Guards Corps said it had fired drones at a US military radar system at the Sheikh Isa base in Bahrain.\n\nAccording to Bahrain, there were no casualties or damage in the attack. Meanwhile, the third US aircraft carrier, the USS Theodore Roosevelt, has also arrived in West Asia, further increasing the American military presence in the region.",
-   "body_hi": "बहरीन की सशस्त्र सेनाओं ने मंगलवार को बताया कि उनकी वायु रक्षा प्रणाली ने कई ईरानी हवाई हमलों को लक्ष्य तक पहुँचने से पहले ही रोककर नष्ट कर दिया। यह पांच दिन में तीसरी ऐसी कोशिश बताई गई है। ईरान के इस्लामिक रिवॉल्यूशनरी गार्ड कॉर्प्स ने कहा कि उसने बहरीन के शेख ईसा बेस स्थित अमेरिकी सैन्य रडार प्रणाली पर ड्रोन दागे थे।\n\nबहरीन के अनुसार हमले में कोई हताहत या नुकसान नहीं हुआ। इस बीच अमेरिका का तीसरा विमानवाहक पोत यूएसएस थियोडोर रूज़वेल्ट भी पश्चिम एशिया पहुँच गया है, जिससे क्षेत्र में अमेरिकी सैन्य मौजूदगी और बढ़ गई है।",
+   "body_en": "India on Tuesday strongly condemned the attack on the Panama-flagged LPG tanker MT Tara Gas in the Strait of Hormuz on November 16. The Ministry of External Affairs said 21 of the 24 Indian nationals aboard had been safely evacuated ashore at Khasab in Oman, while two injured crew members were admitted to hospital and one Indian national remains missing.\n\nAccording to UK Maritime Trade Operations (UKMTO), the tanker was struck twice, sparking an engine-room fire and forcing the entire crew to abandon the vessel. The Indian Embassy in Oman is closely monitoring the search and rescue operations in coordination with Omani authorities. Responsibility for the attacks has not been established.",
+   "body_hi": "भारत ने होर्मुज़ जलडमरूमध्य में पनामा ध्वज वाले एलपीजी टैंकर एमटी तारा गैस पर 16 नवंबर को हुए हमले की कड़ी निंदा की है। विदेश मंत्रालय ने बताया कि जहाज़ पर सवार 24 भारतीयों में से 21 को ओमान के खसाब में सुरक्षित किनारे पर पहुँचा दिया गया है, जबकि दो घायल भारतीयों को अस्पताल में भर्ती कराया गया है और एक भारतीय अब भी लापता है।\n\nब्रिटिश समुद्री एजेंसी UKMTO के अनुसार टैंकर पर दो बार हमला हुआ, जिससे इंजन कक्ष में आग लग गई और पूरे दल को जहाज़ छोड़ना पड़ा। ओमान में भारतीय दूतावास ओमानी अधिकारियों के साथ मिलकर खोज और बचाव अभियान पर नज़र रख रहा है। हमले की ज़िम्मेदारी अभी तय नहीं हुई है।",
    "cat": "duniya",
-   "id": "2026-11-17-21-duniya-3",
-   "img": "https://media.assettype.com/gulfnews%2F2026-11-17%2F5oh31rhi%2Ftheodore.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-   "source": "Gulf News",
-   "source_url": "https://gulfnews.com/amp/story/uae%2Fusisrael-iran-war-what-uae-residents-need-to-know-today-nov-17-2026-1.500750084",
+   "id": "2026-11-18-05-duniya-3",
+   "img": "https://cf-images.assettype.com/newindianexpress%2F2026-11-03%2Fgir7wgpp%2FANI_20261103161740.jpg?rect=0%2C0%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+   "source": "The New Indian Express",
+   "source_url": "https://www.newindianexpress.com/india/2026/Nov/17/india-condemns-tanker-attack-in-strait-of-hormuz-one-indian-missing-two-injured",
    "tags": [
-    "#Bahrain",
-    "#Iran",
-    "#MiddleEast",
+    "#StraitOfHormuz",
+    "#MTTaraGas",
     "#WorldNews"
    ],
-   "title_en": "Bahrain intercepts Iranian drone attack, third such attempt in five days; third US carrier arrives in region",
-   "title_hi": "बहरीन ने ईरानी ड्रोन हमले को नाकाम किया, पांच दिन में तीसरी कोशिश; तीसरा अमेरिकी विमानवाहक पोत भी पहुँचा",
-   "page": "khabar/2026-11-17-21-duniya-3.html"
+   "title_en": "Tanker attacked in Hormuz: India condemns strike, 21 Indians evacuated, one missing",
+   "title_hi": "होर्मुज़ में टैंकर पर हमला: भारत ने निंदा की, 21 भारतीय सुरक्षित निकाले गए, एक लापता",
+   "page": "khabar/2026-11-18-05-duniya-3.html"
   },
   {
-   "body_en": "Cricket great Mahendra Singh Dhoni has announced his retirement from the Indian Premier League. From IPL 2027, he will take on the role of team mentor with Chennai Super Kings. The decision came on the retention deadline day ahead of IPL 2027.\n\nAjinkya Rahane has also retired from the IPL along with Dhoni. Chennai Super Kings have released Dhoni among several other players, while all ten franchises have announced their retention lists ahead of the mini-auction in Goa on December 16.",
-   "body_hi": "क्रिकेट के दिग्गज महेंद्र सिंह धोनी ने इंडियन प्रीमियर लीग से संन्यास की घोषणा कर दी है। IPL 2027 से वे चेन्नई सुपर किंग्स के टीम मेंटर की भूमिका निभाएँगे। यह फैसला IPL 2027 की रिटेंशन की अंतिम तारीख वाले दिन सामने आया।\n\nधोनी के साथ अजिंक्य रहाणे ने भी IPL से संन्यास ले लिया है। चेन्नई सुपर किंग्स ने धोनी समेत कई खिलाड़ियों को रिलीज़ कर दिया है, जबकि 16 दिसंबर को गोवा में होने वाली मिनी नीलामी से पहले सभी दस फ्रेंचाइज़ियों ने अपनी रिटेंशन सूची जारी कर दी है।",
+   "body_en": "Pakistan edged India by one wicket off the final ball in a thrilling Asia Cup Cricket for the Blind 2026 clash at Bashundhara Sports City, Dhaka. Batting first, India posted 179/6 in 20 overs, with T. Durga Rao unbeaten on 61, Sanjay Kumar Shah scoring 30 and Dunna Venkateshwararao adding 26.\n\nIn reply, Pakistan chased down the target, finishing on 180/9 in 20 overs, thanks to Nisar Ali's 64 and Muhammad Safdar's 31. Dunna Venkateshwararao took 2 wickets for 14 runs for India, but Pakistan held their nerve to win on the last ball.",
+   "body_hi": "ढाका में खेले गए ब्लाइंड एशिया कप 2026 के रोमांचक मुकाबले में पाकिस्तान ने भारत को आख़िरी गेंद पर एक विकेट से हरा दिया। भारत ने पहले बल्लेबाज़ी करते हुए 20 ओवर में 179/6 बनाए — टी. दुर्गा राव ने नाबाद 61, संजय कुमार शाह ने 30 और दुन्ना वेंकटेश्वरराव ने 26 रन बनाए।\n\nजवाब में पाकिस्तान ने निसार अली के 64 और मुहम्मद सफ़दर के 31 रनों की बदौलत 20 ओवर में 180/9 बनाकर मैच जीत लिया। भारत की ओर से दुन्ना वेंकटेश्वरराव ने 14 रन देकर 2 विकेट लिए, लेकिन आख़िरी गेंद पर पाकिस्तान ने जीत हासिल कर ली।",
    "cat": "khel",
-   "id": "2026-11-17-21-khel-1",
-   "img": "https://cf-images.assettype.com/outlookindia/2024-05/3325493f-045c-40c2-80db-fd9d053c1909/GNX6yZpXIAAyuwi.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-   "source": "Outlook India",
-   "source_url": "https://www.outlookindia.com/sports/cricket/ipl-2027-retention-live-check-full-list-of-retained-and-released-players-mi-csk-rcb-kkr-dc-pbks-srh-rr-gt-lsg-highlights",
+   "id": "2026-11-18-05-khel-1",
+   "img": "https://img.cricketnmore.com/uploads/2026/11/pakistan-edge-india-by-one-wicket-in-last-ball-thriller-in-asia-cup-cricket-for-the-blind-md.jpeg",
+   "source": "Cricketnmore",
+   "source_url": "https://www.cricketnmore.com/cricket-news/pakistan-edge-india-by-one-wicket-in-last-ball-thriller-in-asia-cup-cricket-for-the-blind-208421",
    "tags": [
-    "#MSDhoni",
-    "#CSK",
-    "#IPL2027",
+    "#BlindCricket",
+    "#AsiaCup",
+    "#INDvPAK",
     "#TaazaKhabar"
    ],
-   "title_en": "MS Dhoni retires from IPL, to become Chennai Super Kings mentor",
-   "title_hi": "महेंद्र सिंह धोनी ने IPL से संन्यास लिया, अब चेन्नई सुपर किंग्स के मेंटर बनेंगे",
-   "page": "khabar/2026-11-17-21-khel-1.html"
+   "title_en": "Blind Asia Cup: Pakistan edge India by one wicket in last-ball thriller",
+   "title_hi": "ब्लाइंड एशिया कप: आख़िरी गेंद पर पाकिस्तान ने भारत को एक विकेट से हराया",
+   "page": "khabar/2026-11-18-05-khel-1.html"
   },
   {
-   "body_en": "Zimbabwe beat Afghanistan by 57 runs in the second Test in Sharjah to win the two-match Test series 1-0. It is Zimbabwe's first Test series win on foreign soil since their tour of Bangladesh in 2001.\n\nAfghanistan debutant Naseer Khan Maroofkhil batted for nearly six hours for an unbeaten 101, but his team were bowled out for 360. Maroofkhil became the first player since New Zealand's Bruce Taylor in 1965 to score a century and take a five-wicket haul on Test debut — he had also taken seven wickets in the first innings.",
-   "body_hi": "ज़िम्बाब्वे ने शारजाह में खेले गए दूसरे टेस्ट में अफ़ग़ानिस्तान को 57 रन से हराकर दो मैचों की टेस्ट सीरीज़ 1-0 से जीत ली। यह 2001 में बांग्लादेश दौरे के बाद ज़िम्बाब्वे की विदेशी धरती पर पहली टेस्ट सीरीज़ जीत है।\n\nअफ़ग़ानिस्तान के डेब्यूटेंट नसीर खान मारूफ़खिल ने लगभग छह घंटे बल्लेबाज़ी करते हुए नाबाद 101 रन बनाए, फिर भी उनकी टीम 360 रन पर सिमट गई। मारूफ़खिल 1965 में न्यूज़ीलैंड के ब्रूस टेलर के बाद टेस्ट डेब्यू पर शतक और पाँच विकेट लेने वाले पहले खिलाड़ी बने — उन्होंने पहली पारी में सात विकेट भी लिए थे।",
+   "body_en": "Madhya Pradesh captain Rajat Patidar smashed an unbeaten 135 off just 48 balls against Assam in the Syed Mushtaq Ali Trophy at New Chandigarh, setting a tournament record with 13 sixes in a single innings. He reached his century in only 41 balls, hitting eight fours along the way.\n\nPatidar became the first Madhya Pradesh batter to score a century in the tournament's history. His knock powered Madhya Pradesh to 250/6, their highest-ever T20 total, before Assam were bowled out for 119 in a 131-run win. It is also the highest individual T20 score by a batter at No. 5 or below in men's cricket.",
+   "body_hi": "मध्य प्रदेश के कप्तान रजत पाटीदार ने सैयद मुश्ताक अली ट्रॉफ़ी में असम के ख़िलाफ़ 48 गेंदों में नाबाद 135 रन ठोककर रिकॉर्ड बना दिया। न्यू चंडीगढ़ में खेले गए मैच में उनकी पारी में 13 छक्के और 8 चौके शामिल थे — एक पारी में सबसे ज़्यादा छक्कों का टूर्नामेंट रिकॉर्ड। उन्होंने सिर्फ़ 41 गेंदों में शतक पूरा किया।\n\nपाटीदार मध्य प्रदेश के पहले बल्लेबाज़ बने जिन्होंने इस टूर्नामेंट में शतक लगाया। उनकी पारी की बदौलत मध्य प्रदेश ने 250/6 का अपना सर्वोच्च टी20 स्कोर बनाया और असम को 119 पर समेटकर 131 रन से जीत दर्ज की। पाँचवें नंबर या उससे नीचे बल्लेबाज़ी करते हुए यह पुरुष टी20 क्रिकेट का सर्वोच्च व्यक्तिगत स्कोर भी है।",
    "cat": "khel",
-   "id": "2026-11-17-21-khel-2",
-   "img": "https://ss-i.thgim.com/public/incoming/j1awgd/article70185581.ece/alternates/LANDSCAPE_1200/G3tYL3xXwAES5y_.jpg",
-   "source": "Reuters",
-   "source_url": "https://www.reuters.com/sports/cricket/maroofkhil-defiance-vain-zimbabwe-edge-afghanistan-in-thriller-2026-11-17/",
+   "id": "2026-11-18-05-khel-2",
+   "img": "https://static.toiimg.com/thumb/msid-135908652,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "source": "The Times of India",
+   "source_url": "https://timesofindia.indiatimes.com/sports/cricket/news/syed-mushtaq-ali-trophy-rajat-patidar-sets-record-for-most-sixes-with-an-unbeaten-135-off-48-balls/articleshow/135908578.cms",
    "tags": [
-    "#Zimbabwe",
-    "#Afghanistan",
-    "#TestCricket",
-    "#WorldNews"
-   ],
-   "title_en": "Zimbabwe's historic win: Afghanistan lose by 57 runs despite debutant Maroofkhil's century; first away Test series win since 2001",
-   "title_hi": "ज़िम्बाब्वे की ऐतिहासिक जीत: डेब्यूटेंट मारूफ़खिल के शतक के बावजूद अफ़ग़ानिस्तान 57 रन से हारा, 2001 के बाद पहली विदेशी टेस्ट सीरीज़",
-   "page": "khabar/2026-11-17-21-khel-2.html"
-  },
-  {
-   "body_en": "Indian stock markets closed higher again on Tuesday. The Sensex rose 427 points to close at 82,532.19 and the Nifty gained 96 points to end at 25,387.40 — both at their highest levels since late February. The Bank Nifty also closed at a record 62,273.\n\nThe rally is being linked to softer crude oil prices and record foreign investor inflows. Foreign portfolio investors have put $9.53 billion into Indian shares so far in November, a record for a single month. The rupee also strengthened by 43 paise to close at 93.51 against the US dollar.",
-   "body_hi": "भारतीय शेयर बाज़ार मंगलवार को भी तेज़ी के साथ बंद हुआ। सेंसेक्स 427 अंक चढ़कर 82,532.19 पर और निफ्टी 96 अंक बढ़कर 25,387.40 पर बंद हुआ — दोनों ही फरवरी के अंत के बाद अपने सबसे ऊँचे स्तर पर हैं। बैंक निफ्टी भी 62,273 के रिकॉर्ड स्तर पर बंद हुआ।\n\nबाज़ार की इस तेज़ी के पीछे कच्चे तेल की कीमतों में नरमी और विदेशी निवेशकों का रिकॉर्ड निवेश बताया जा रहा है। नवंबर में अब तक विदेशी पोर्टफोलियो निवेशकों ने भारतीय शेयरों में 9.53 अरब डॉलर डाले हैं, जो किसी एक महीने का रिकॉर्ड है। रुपया भी 43 पैसे मज़बूत होकर 93.51 प्रति डॉलर पर बंद हुआ।",
-   "cat": "vyapar",
-   "id": "2026-11-17-21-vyapar-1",
-   "img": "https://bl-i.thgim.com/public/incoming/lyctba/article71708476.ece/alternates/FREE_1200/PO27_Stock_market.jpg",
-   "source": "The Hindu BusinessLine",
-   "source_url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-17th-november-2026/article71708442.ece/amp/",
-   "tags": [
-    "#Sensex",
-    "#Nifty",
-    "#StockMarket",
+    "#RajatPatidar",
+    "#SMAT",
+    "#Cricket",
     "#TaazaKhabar"
    ],
-   "title_en": "Markets extend rally: Sensex at 82,532, Nifty at 25,387, highest since February; Bank Nifty hits record",
-   "title_hi": "शेयर बाज़ार में तेज़ी जारी: सेंसेक्स 82,532 और निफ्टी 25,387 पर, फरवरी के बाद सबसे ऊँचा स्तर; बैंक निफ्टी रिकॉर्ड पर",
-   "page": "khabar/2026-11-17-21-vyapar-1.html"
+   "title_en": "Rajat Patidar's storm: unbeaten 135 off 48 balls with 13 sixes, SMAT record",
+   "title_hi": "रजत पाटीदार का तूफ़ान: 48 गेंदों में नाबाद 135, 13 छक्कों से सैयद मुश्ताक अली ट्रॉफ़ी में रिकॉर्ड",
+   "page": "khabar/2026-11-18-05-khel-2.html"
   },
   {
-   "body_en": "American banking giant JPMorgan Chase said on Tuesday that its transactions were back to normal after a nationwide outage. The disruption to the bank's services had caused trouble for customers making payments and transactions.\n\nAccording to the bank, transactions are now running normally. The outage was felt across the country on Tuesday, after which the bank confirmed that the situation had returned to normal.",
-   "body_hi": "अमेरिका के बड़े बैंक JPMorgan Chase ने मंगलवार को कहा कि देशभर में हुई रुकावट के बाद उसके लेनदेन सामान्य हो गए हैं। बैंक की सेवाओं में आई इस दिक्कत से ग्राहकों को भुगतान और लेनदेन में परेशानी हुई थी।\n\nबैंक के अनुसार अब लेनदेन सामान्य रूप से हो रहे हैं। यह रुकावट मंगलवार को देशभर में महसूस की गई थी, जिसके बाद बैंक ने स्थिति सामान्य होने की जानकारी दी।",
+   "body_en": "Amazon has announced plans to invest an additional $7 billion in renewable energy projects in India by 2030, on top of $4 billion already contracted in the country. The company also unveiled four new utility-scale wind and solar projects with a combined capacity of 934 MW — a 234 MW wind farm in Karnataka, its largest wind project contracted in Asia, a 200 MW hybrid project also in Karnataka, a 300 MW solar project in Madhya Pradesh and a 200 MW solar project in Rajasthan.\n\nOnce operational, Amazon's contracted renewable energy capacity in India will exceed 2 gigawatts — enough electricity for the annual needs of more than 3.5 million Indian households. The company has also set a global goal to cut the carbon intensity of the electricity powering its operations by 65% by 2030.",
+   "body_hi": "अमेज़न ने 2030 तक भारत में अक्षय ऊर्जा परियोजनाओं में 7 अरब डॉलर का अतिरिक्त निवेश करने की घोषणा की है। यह निवेश पहले से अनुबंधित 4 अरब डॉलर के अलावा होगा। कंपनी ने 934 मेगावाट क्षमता की चार नई पवन और सौर परियोजनाओं की भी घोषणा की है — कर्नाटक में 234 मेगावाट का पवन फार्म, जो एशिया में उसका अब तक का सबसे बड़ा पवन प्रोजेक्ट है, कर्नाटक में ही 200 मेगावाट की हाइब्रिड परियोजना, मध्य प्रदेश में 300 मेगावाट सौर और राजस्थान में 200 मेगावाट सौर परियोजना।\n\nएक बार चालू होने पर अमेज़न की भारत में अनुबंधित अक्षय ऊर्जा क्षमता 2 गीगावाट से ज़्यादा हो जाएगी — इतनी बिजली, जो 35 लाख से ज़्यादा भारतीय घरों की सालाना ज़रूरत के बराबर है। कंपनी ने 2030 तक अपने कामकाज में इस्तेमाल होने वाली बिजली की कार्बन तीव्रता 65 प्रतिशत घटाने का वैश्विक लक्ष्य भी तय किया है।",
    "cat": "vyapar",
-   "id": "2026-11-17-21-vyapar-2",
-   "img": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ieN0yS6E8agU/v0/1000x-1.jpg",
-   "source": "Outlook India",
-   "source_url": "https://www.outlookindia.com/international/india-news-live-updates-17-november-2026-cyclone-akvan-storm-intensifies-landfall-expected-on-andhra-coast-odisha-begins-evacuation-news-latest-updates",
+   "id": "2026-11-18-05-vyapar-1",
+   "img": "https://static.toiimg.com/thumb/msid-135919662,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "source": "The Times of India",
+   "source_url": "https://timesofindia.indiatimes.com/business/india-business/7-billion-green-boost-amazon-invests-big-in-indias-renewable-energy-landscape/articleshow/135918924.cms",
    "tags": [
-    "#JPMorgan",
-    "#Banking",
-    "#WorldNews"
+    "#Amazon",
+    "#RenewableEnergy",
+    "#TaazaKhabar"
    ],
-   "title_en": "JPMorgan Chase says transactions back to normal after nationwide outage",
-   "title_hi": "JPMorgan Chase में देशव्यापी रुकावट के बाद लेनदेन सामान्य, बैंक ने दी जानकारी",
-   "page": "khabar/2026-11-17-21-vyapar-2.html"
+   "title_en": "Amazon to invest $7 billion in renewable energy in India by 2030",
+   "title_hi": "अमेज़न भारत में हरित ऊर्जा पर 2030 तक 7 अरब डॉलर लगाएगा, 934 मेगावाट की नई परियोजनाएँ",
+   "page": "khabar/2026-11-18-05-vyapar-1.html"
+  },
+  {
+   "body_en": "Rating agency ICRA has projected India's GDP growth at 7.5% in the July-September quarter of FY27, a five-quarter low, down from 7.8% in the preceding quarter. Weaker monsoon rainfall weighed on agricultural output, while industrial and services activity remained resilient. The estimate is higher than the Reserve Bank's Monetary Policy Committee forecast of 7.2% for the quarter.\n\nICRA estimates farm sector growth at just 0.2% in the quarter, against 3.6% in Q1, while industry is seen growing 7.2% and services 9.1%. The agency expects full-year FY27 growth to moderate to 7.1%. The government is scheduled to release the official July-September GDP data on November 30.",
+   "body_hi": "रेटिंग एजेंसी ICRA का अनुमान है कि जुलाई-सितंबर 2026 तिमाही में भारत की GDP वृद्धि 7.5 प्रतिशत रहेगी — अप्रैल-जून की 7.8 प्रतिशत से कम और पाँच तिमाहियों में सबसे धीमी। कमज़ोर मानसून से कृषि उत्पादन पर असर पड़ा है, जबकि उद्योग और सेवा क्षेत्रों की गतिविधि मज़बूत बनी हुई है। यह अनुमान रिज़र्व बैंक की मौद्रिक नीति समिति के 7.2 प्रतिशत के पूर्वानुमान से ज़्यादा है।\n\nICRA के अनुसार कृषि क्षेत्र की वृद्धि इस तिमाही में सिर्फ़ 0.2 प्रतिशत रह सकती है, जबकि उद्योग 7.2 और सेवा क्षेत्र 9.1 प्रतिशत की दर से बढ़ सकता है। एजेंसी को पूरे वित्त वर्ष 2026-27 में GDP वृद्धि 7.1 प्रतिशत रहने की उम्मीद है। सरकार जुलाई-सितंबर के आधिकारिक आँकड़े 30 नवंबर को जारी करेगी।",
+   "cat": "vyapar",
+   "id": "2026-11-18-05-vyapar-2",
+   "img": "https://img.etimg.com/thumb/msid-135918228,width-1200,height-900,imgsize-124108,overlay-economictimes/articleshow.jpg",
+   "source": "The Economic Times",
+   "source_url": "https://economictimes.indiatimes.com/news/economy/indicators/india-gdp-growth-q2-fy27-icra-forecast-75-percent-five-quarter-low-weak-monsoon-inflation-icra-report/articleshow/135917680.cms",
+   "tags": [
+    "#GDP",
+    "#IndianEconomy",
+    "#ICRA",
+    "#TaazaKhabar"
+   ],
+   "title_en": "ICRA projects GDP growth at 7.5% in July-September, a five-quarter low",
+   "title_hi": "ICRA का अनुमान: जुलाई-सितंबर में GDP वृद्धि 7.5% पर, पाँच तिमाहियों में सबसे धीमी",
+   "page": "khabar/2026-11-18-05-vyapar-2.html"
   }
  ]
 }
