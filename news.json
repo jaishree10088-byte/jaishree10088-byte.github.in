@@ -1,181 +1,186 @@
 {
- "edition": "बुधवार, 18 नवंबर 2026 — सुबह 5 बजे",
- "updated_at": "2026-11-18T05:00:00+05:30",
+ "edition": "बुधवार, 18 नवंबर 2026 — सुबह 9 बजे",
+ "updated_at": "2026-11-18T09:00:00+05:30",
  "stories": [
   {
-   "body_en": "Cyclonic storm Akvan over the Bay of Bengal is gathering strength and is set to become a very severe cyclonic storm by the morning of November 19, the India Meteorological Department (IMD) said. It is expected to cross the Andhra Pradesh and Yanam coasts around noon on November 20, with sustained winds of 120-130 kmph and gusts reaching up to 145 kmph.\n\nOn Tuesday morning the storm lay about 610 km east of Chennai and was moving slowly north-northwestwards. Landfall could occur anywhere along the 540-km stretch between Nellore and Tuni. The IMD has issued an Orange warning for the Andhra Pradesh and adjoining south Odisha coasts, with heavy to very heavy rainfall expected on November 19 and 20. Chief Minister N. Chandrababu Naidu has reviewed preparedness. Akvan is the third cyclone to threaten the Andhra coast in a month.",
-   "body_hi": "बंगाल की खाड़ी में बना चक्रवाती तूफ़ान अकवन तेज़ी से ताकतवर हो रहा है। भारत मौसम विज्ञान विभाग (IMD) के अनुसार यह 19 नवंबर की सुबह तक अति भीषण चक्रवाती तूफ़ान बन जाएगा और 20 नवंबर को दोपहर के आसपास आंध्र प्रदेश और यनम के तट से टकराएगा। टकराव के समय हवाओं की रफ़्तार 120-130 किलोमीटर प्रति घंटा रह सकती है, जबकि झोंके 145 किलोमीटर प्रति घंटा तक पहुँच सकते हैं।\n\nमंगलवार सुबह तूफ़ान चेन्नई से करीब 610 किलोमीटर पूर्व में था और धीरे-धीरे उत्तर-पश्चिम की ओर बढ़ रहा था। संभावित लैंडफॉल नेल्लोर से तूनी के बीच 540 किलोमीटर लंबे तटीय हिस्से में कहीं भी हो सकता है। IMD ने आंध्र प्रदेश और दक्षिण ओडिशा के तट के लिए ऑरेंज चेतावनी जारी की है, जबकि 19-20 नवंबर को भारी से बहुत भारी बारिश का अनुमान है। मुख्यमंत्री एन. चंद्रबाबू नायडू ने तैयारियों की समीक्षा की है। यह एक महीने में आंध्र तट को खतरे में डालने वाला तीसरा तूफ़ान है।",
+   "body_en": "Congress leader Rahul Gandhi has said that India is sitting on an economic disaster. Speaking at Columbia University in New York, he pointed to widespread unemployment and weaknesses in the education system. He said many young Indians, particularly from middle-class families, were frustrated because they could not see promising career opportunities or a secure future.\n\nGandhi also questioned the sharp rise in election campaign spending, claiming that the money spent was 20 to 50 times higher than in previous campaigns. He said the scale of spending had left him shocked.",
+   "body_hi": "कांग्रेस नेता राहुल गांधी ने कहा है कि भारत एक आर्थिक आपदा के मुहाने पर बैठा है। न्यूयॉर्क के कोलंबिया विश्वविद्यालय में बोलते हुए उन्होंने व्यापक बेरोज़गारी और शिक्षा व्यवस्था की कमज़ोरियों की ओर इशारा किया। उन्होंने कहा कि देश के कई युवा, ख़ासकर मध्यम वर्ग के परिवारों से आने वाले, निराश हैं क्योंकि उन्हें आगे कोई अच्छा करियर या सुरक्षित भविष्य नहीं दिख रहा।\n\nराहुल गांधी ने चुनाव प्रचार के खर्च पर भी सवाल उठाए और दावा किया कि चुनावों में खर्च पहले के मुकाबले 20 से 50 गुना तक बढ़ गया है। उन्होंने कहा कि यह हालत देखकर वह हैरान रह गए थे।",
    "cat": "bharat",
-   "id": "2026-11-18-05-bharat-1",
-   "img": "https://th-i.thgim.com/public/news/national/andhra-pradesh/fxfxmi/article71710738.ece/alternates/LANDSCAPE_1200/Path.jpeg",
-   "source": "The Hindu",
-   "source_url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-akvan-540-km-of-andhra-and-yanam-coast-braces-for-november-20-landfall/article71710410.ece",
+   "id": "2026-11-18-09-bharat-1",
+   "img": "https://images.news9live.com/wp-content/uploads/2026/11/Rahul-Gandhi-says-India-sitting-on-economic-disaster-at-Colombia-University.png",
+   "source": "News9Live",
+   "source_url": "https://www.news9live.com/india/breaking-news-live-updates-todays-news-headlines-november-18-2026-3025541",
    "tags": [
-    "#CycloneAkvan",
-    "#AndhraPradesh",
-    "#IMD",
+    "#RahulGandhi",
+    "#ColumbiaUniversity",
+    "#Berozgari",
     "#TaazaKhabar"
    ],
-   "title_en": "Cyclone Akvan to hit Andhra coast on November 20 with winds up to 145 kmph; Orange alert issued",
-   "title_hi": "चक्रवात अकवन: 20 नवंबर को आंध्र तट से टकराएगा, 145 किमी/घंटा तक हवाएँ; ऑरेंज अलर्ट",
-   "page": "khabar/2026-11-18-05-bharat-1.html"
+   "title_en": "Rahul Gandhi at Columbia University: 'India sitting on economic disaster', flags jobs and education crisis",
+   "title_hi": "राहुल गांधी का कोलंबिया में बड़ा बयान: 'भारत आर्थिक आपदा के मुहाने पर', बेरोज़गारी और शिक्षा पर चिंता",
+   "page": "khabar/2026-11-18-09-bharat-1.html"
   },
   {
-   "body_en": "Prime Minister Narendra Modi unveiled nine initiatives to deepen India-ASEAN cooperation at the 23rd ASEAN-India Summit in Manila on Tuesday. The proposals include free e-visas for tourists from ASEAN countries, a long-term maritime cooperation plan, technical exchanges on nuclear energy and cooperation on critical minerals.\n\nModi said the future of the Indo-Pacific must be shaped by \"cooperation, not competition\". The other initiatives include a joint cyber-forensics training programme, an ASEAN-India Space Hackathon, youth exchanges, scholarships at Nalanda University and a creative partnership pavilion at WAVES 2027. The India-ASEAN partnership completes 35 years in 2027.",
-   "body_hi": "प्रधानमंत्री नरेंद्र मोदी ने मनीला में हुए 23वें आसियान-भारत शिखर सम्मेलन में भारत-आसियान साझेदारी मज़बूत करने के लिए नौ नई पहलें पेश कीं। इनमें आसियान देशों के पर्यटकों के लिए मुफ़्त ई-वीज़ा, दीर्घकालिक समुद्री सहयोग योजना, परमाणु ऊर्जा पर तकनीकी आदान-प्रदान और अहम खनिजों पर सहयोग शामिल है।\n\nमोदी ने कहा कि हिंद-प्रशांत क्षेत्र का भविष्य 'प्रतिस्पर्धा नहीं, सहयोग' से तय होना चाहिए। अन्य पहलों में साइबर फोरेंसिक प्रशिक्षण, आसियान-भारत अंतरिक्ष हैकाथॉन, युवा आदान-प्रदान, नालंदा विश्वविद्यालय में छात्रवृत्तियाँ और 2027 में होने वाले वेव्स सम्मेलन में रचनात्मक साझेदारी मंडप शामिल हैं। 2027 में भारत-आसियान साझेदारी के 35 साल पूरे होंगे।",
+   "body_en": "Defence Minister Rajnath Singh and External Affairs Minister S. Jaishankar will be in Japan on November 18 and 19 to take part in the fourth India-Japan 2+2 Dialogue, the Ministry of External Affairs announced. Singh arrived in Tokyo on Wednesday to participate in the India-Japan security dialogue.\n\nIn this format, the defence and foreign ministers of both countries sit together to discuss defence cooperation, regional security and the situation in the Indo-Pacific. The dialogue comes at a time when the defence partnership between India and Japan continues to grow stronger.",
+   "body_hi": "रक्षा मंत्री राजनाथ सिंह और विदेश मंत्री एस. जयशंकर 18 और 19 नवंबर को जापान में चौथे भारत-जापान 2+2 संवाद में हिस्सा लेंगे। विदेश मंत्रालय ने इस यात्रा की घोषणा की है। राजनाथ सिंह बुधवार सुबह टोक्यो पहुँच गए, जहाँ वह भारत-जापान सुरक्षा संवाद में भाग लेंगे।\n\nइस प्रारूप में दोनों देशों के रक्षा और विदेश मंत्री एक साथ बैठकर रक्षा सहयोग, क्षेत्रीय सुरक्षा और हिंद-प्रशांत क्षेत्र की स्थिति पर बातचीत करते हैं। यह संवाद ऐसे समय हो रहा है जब भारत और जापान के बीच रक्षा साझेदारी लगातार मज़बूत हो रही है।",
    "cat": "bharat",
-   "id": "2026-11-18-05-bharat-2",
-   "img": "https://cf-images.assettype.com/outlookindia/2026-11-17/76of0kvv/HXUfFJubgAE5qVb.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-   "source": "Outlook India",
-   "source_url": "https://www.outlookindia.com/amp/story/national/from-free-e-visas-to-nuclear-energy-9-initiatives-pm-modi-proposed-to-asean",
+   "id": "2026-11-18-09-bharat-2",
+   "img": "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20220909051450.jpg",
+   "source": "Times Now",
+   "source_url": "https://www.timesnownews.com/education/school-assembly-news-headlines-today-nov-18-top-national-international-sports-updates-thought-of-the-day-article-156527977",
    "tags": [
-    "#ASEAN",
-    "#PMModi",
-    "#Manila",
+    "#IndiaJapan",
+    "#RajnathSingh",
+    "#Jaishankar",
     "#TaazaKhabar"
    ],
-   "title_en": "Modi offers ASEAN nine initiatives: free e-visas, maritime plan and nuclear energy cooperation",
-   "title_hi": "मोदी का आसियान को 9 सूत्रीय तोहफ़ा: मुफ़्त ई-वीज़ा, समुद्री सहयोग और परमाणु ऊर्जा पर साझेदारी",
-   "page": "khabar/2026-11-18-05-bharat-2.html"
+   "title_en": "India-Japan 2+2 Dialogue: Rajnath Singh, Jaishankar in Tokyo for two-day talks on defence and foreign policy",
+   "title_hi": "भारत-जापान 2+2 संवाद: राजनाथ सिंह और जयशंकर टोक्यो में, रक्षा और विदेश नीति पर दो दिन की बातचीत",
+   "page": "khabar/2026-11-18-09-bharat-2.html"
   },
   {
-   "body_en": "Bilkis Bano and her family have fled Gujarat, expressing fear and shock after the Supreme Court granted bail to two convicts in her case. On October 28, the court suspended the life sentences of Bipinchand Kanaiyalal Joshi and Pradip Ramanlal Modhiya, convicted in the 2002 Gujarat riots gang-rape and murder case. Bano said the order was passed without her being heard and that she fears for her family's safety.\n\nA bench of Justices M. M. Sundresh and Prasanna B. Varale noted that both men had spent more than 17 years in prison and that one of them is severely disabled, and suspended their sentences while their appeals against conviction remain pending. The court made clear that their convictions have not been set aside. In January 2024, the Supreme Court had quashed the premature release granted to the convicts.",
-   "body_hi": "बिल्किस बानो और उनका परिवार गुजरात छोड़कर चला गया है। सुप्रीम कोर्ट ने 28 अक्टूबर को 2002 के गुजरात दंगों के मामले में दो दोषियों — बिपिनचंद जोशी और प्रदीप मोढिया — की उम्रकैद की सज़ा निलंबित करके उन्हें ज़मानत दे दी थी, जिसके बाद बानो ने हैरानी और अविश्वास जताते हुए कहा कि यह आदेश बिना उन्हें सुने दिया गया और उन्हें अपने परिवार की सुरक्षा की चिंता है।\n\nजस्टिस एम. एम. सुंदरेश और जस्टिस प्रसन्ना वराले की पीठ ने कहा कि दोनों दोषी 17 साल से ज़्यादा समय जेल में बिता चुके हैं और उनमें से एक गंभीर रूप से दिव्यांग है, इसलिए अपील पर सुनवाई लंबित रहने तक सज़ा निलंबित की जाती है। अदालत ने साफ़ किया कि दोषसिद्धि रद्द नहीं हुई है और अपील पर बाद में सुनवाई होगी। 2024 में सुप्रीम कोर्ट ने इन दोषियों को दी गई समय-पूर्व रिहाई रद्द कर दी थी।",
+   "body_en": "Air quality in Delhi-NCR has improved slightly. The Commission for Air Quality Management (CAQM) withdrew the Stage III restrictions under the Graded Response Action Plan with immediate effect on November 17, after Delhi's average air quality index (AQI) improved to 204.\n\nHowever, fresh readings on Wednesday morning show the air is still far from healthy. According to the Central Pollution Control Board, AIIMS recorded an AQI of 278, which falls in the 'Poor' category, while Anand Vihar recorded 206 and the India Gate area remained 'Moderate'.",
+   "body_hi": "दिल्ली-एनसीआर में हवा की हालत में थोड़ा सुधार हुआ है। वायु गुणवत्ता प्रबंधन आयोग (CAQM) ने 17 नवंबर को GRAP के तीसरे चरण की पाबंदियाँ तुरंत प्रभाव से हटा दीं, क्योंकि दिल्ली का औसत वायु गुणवत्ता सूचकांक (AQI) सुधरकर 204 पर आ गया था।\n\nहालाँकि बुधवार सुबह की ताज़ा रीडिंग बताती है कि हवा अब भी सेहतमंद नहीं है। केंद्रीय प्रदूषण नियंत्रण बोर्ड के अनुसार AIIMS में AQI 278 दर्ज हुआ, जो 'खराब' श्रेणी में आता है, जबकि आनंद विहार में 206 और इंडिया गेट के आसपास 'मध्यम' स्तर रहा।",
    "cat": "bharat",
-   "id": "2026-11-18-05-bharat-3",
-   "img": "https://im.rediff.com/1200-630/news/2022/oct/18bilkis.jpg",
-   "source": "Rediff",
-   "source_url": "https://m.rediff.com/news/report/terrified-bilkis-bano-family-flee-guj-after-sc-grants-bail-to-2-convicts/20261117.htm",
+   "id": "2026-11-18-09-bharat-3",
+   "img": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1SAqao.img",
+   "source": "News9Live",
+   "source_url": "https://www.news9live.com/india/breaking-news-live-updates-todays-news-headlines-november-18-2026-3025541",
    "tags": [
-    "#BilkisBano",
-    "#SupremeCourt",
+    "#DelhiAQI",
+    "#Pradushan",
+    "#GRAP",
     "#TaazaKhabar"
    ],
-   "title_en": "Bilkis Bano's family flees Gujarat in fear after Supreme Court grants bail to two convicts",
-   "title_hi": "बिल्किस बानो का परिवार डर के मारे गुजरात छोड़ गया, सुप्रीम कोर्ट से जमानत के बाद दोषियों को राहत पर सदमा",
-   "page": "khabar/2026-11-18-05-bharat-3.html"
+   "title_en": "Delhi air improves slightly: GRAP Stage III curbs lifted, but AIIMS AQI still 278 in 'Poor' category",
+   "title_hi": "दिल्ली में हवा थोड़ी सुधरी: GRAP-3 की पाबंदियाँ हटीं, पर AIIMS में AQI अब भी 278 — 'खराब' श्रेणी में",
+   "page": "khabar/2026-11-18-09-bharat-3.html"
   },
   {
-   "body_en": "The United States carried out strikes on Iran's Qeshm Island in the Strait of Hormuz on Tuesday, targeting an Iranian missile launch site with precision munitions. A US military official said fighter jets hit a site belonging to Iran's Islamic Revolutionary Guard Corps (IRGC) in self-defence, in response to an Iranian drone attack on a US-operated radar system at Sheikh Isa Air Base in Bahrain.\n\nIranian officials said five to six explosions were heard on the island but caused no damage to residential, commercial or infrastructure areas. The Strait of Hormuz carries about one-fifth of the world's oil and liquefied natural gas. A third US aircraft carrier strike group has also entered the region, even as several vessels have reported attacks in and around the strait.",
-   "body_hi": "अमेरिका ने मंगलवार को होर्मुज़ जलडमरूमध्य में स्थित ईरान के केशम द्वीप पर एक मिसाइल लॉन्च ठिकाने पर हमला किया। अमेरिकी सैन्य अधिकारी के अनुसार लड़ाकू विमानों ने सटीक हथियारों से ईरानी रिवोल्यूशनरी गार्ड (IRGC) के ठिकाने को निशाना बनाया। यह हमला बहरीन में अमेरिकी रडार प्रणाली पर ईरान के ड्रोन हमले के जवाब में किया गया, जिसे अमेरिका ने 'आत्मरक्षा' बताया।\n\nईरानी अधिकारियों ने कहा कि द्वीप पर पाँच-छह धमाकों की आवाज़ें सुनी गईं, लेकिन रिहायशी या व्यावसायिक इलाकों और बुनियादी ढाँचे को कोई नुकसान नहीं हुआ। होर्मुज़ जलडमरूमध्य से दुनिया के तेल और गैस का करीब पाँचवाँ हिस्सा गुज़रता है। अमेरिका का तीसरा विमानवाहक पोत भी इस क्षेत्र में पहुँच चुका है, जबकि जलडमरूमध्य में कई जहाज़ों पर हमलों की खबरें आई हैं।",
+   "body_en": "Ukraine struck the Kerch Bridge linking Russia to occupied Crimea on Tuesday, using drones and missiles. The main arch of the bridge's road section collapsed into the sea, leaving a large gap in the structure. Ukraine's military said the roadway is now out of action, while the railway section is still standing, though its arch is damaged.\n\nPresident Volodymyr Zelenskyy described the strike as a seven-stage 'unprecedented operation'. Kremlin spokesman Dmitry Peskov said the bridge would be rebuilt and would be even better than before. Two people were killed in the attack, according to Crimea's Russian-installed governor. The 19-km bridge was built after Russia annexed Crimea in 2014 and is a key supply route for Russian forces.",
+   "body_hi": "यूक्रेन ने मंगलवार को ड्रोन और मिसाइलों से रूस को क्रीमिया से जोड़ने वाले केर्च पुल पर बड़ा हमला किया। हमले में पुल के सड़क वाले हिस्से का मुख्य मेहराब (आर्च) टूटकर समंदर में गिर गया और सड़क पर बड़ा गैप बन गया। यूक्रेन की सेना ने कहा कि सड़क मार्ग अब इस्तेमाल के लायक नहीं रहा, जबकि रेल वाला हिस्सा खड़ा है, हालाँकि उसका मेहराब भी क्षतिग्रस्त हुआ है।\n\nराष्ट्रपति वोलोदिमीर ज़ेलेंस्की ने इसे सात चरणों वाला 'अभूतपूर्व अभियान' बताया। रूस के राष्ट्रपति कार्यालय के प्रवक्ता दिमित्री पेस्कोव ने कहा कि पुल को पहले से भी बेहतर बनाकर फिर से खड़ा किया जाएगा। क्रीमिया के रूस-नियुक्त गवर्नर के अनुसार हमले में दो लोगों की मौत हुई है। यह 19 किलोमीटर लंबा पुल 2014 में क्रीमिया पर कब्ज़े के बाद बनाया गया था और रूसी सेना के लिए अहम आपूर्ति मार्ग है।",
    "cat": "duniya",
-   "id": "2026-11-18-05-duniya-1",
-   "img": "https://rismadarvoice.com/wp-content/uploads/2026/06/IMG-20260601-WA0001-420x280.jpg",
-   "source": "The Times of Israel",
-   "source_url": "https://www.timesofisrael.com/us-strikes-irans-qeshm-island-after-tehran-attacks-american-radar-site-in-bahrain/",
-   "tags": [
-    "#QeshmIsland",
-    "#StraitOfHormuz",
-    "#WorldNews"
-   ],
-   "title_en": "Tensions in Strait of Hormuz: US strikes missile site on Iran's Qeshm Island",
-   "title_hi": "होर्मुज़ जलडमरूमध्य में तनाव: अमेरिका ने ईरान के केशम द्वीप पर मिसाइल ठिकाने पर हमला किया",
-   "page": "khabar/2026-11-18-05-duniya-1.html"
-  },
-  {
-   "body_en": "Former Pakistan Prime Minister Imran Khan has warned in an open letter from jail that he may die in prison without proper medical treatment. The letter, shared on Monday by his lawyer Salman Safdar, says Khan has lost 85 per cent of the vision in his right eye and that his blood pressure reached 192-193 on November 10, putting him at risk of brain haemorrhage and cardiac arrest.\n\nThe 74-year-old appealed to Pakistan's top judges to ensure earlier court orders on his medical treatment and prison conditions are implemented. He alleged he has been kept in solitary confinement for up to 22 hours a day since December 20, 2025. Khan has been in Adiala jail since August 2023. A Pakistani minister dismissed the claims, saying doctors have declared his condition satisfactory.",
-   "body_hi": "पाकिस्तान के पूर्व प्रधानमंत्री इमरान ख़ान ने जेल से लिखे खुले पत्र में चेतावनी दी है कि इलाज न मिलने पर वह जेल में ही मर सकते हैं। उनके वकील सलमान सफ़दर ने सोमवार को यह पत्र साझा किया, जिसमें ख़ान ने कहा है कि उनकी दाहिनी आँख की रोशनी 85 प्रतिशत जा चुकी है और ब्लड प्रेशर 192-193 तक पहुँचने से उन्हें ब्रेन हेमरेज और हार्ट अटैक का ख़तरा है।\n\n74 वर्षीय ख़ान ने पाकिस्तान के शीर्ष न्यायाधीशों से अपील की है कि इलाज और जेल की स्थितियों पर पहले के अदालती आदेश लागू कराए जाएँ। उन्होंने कहा कि उन्हें 20 दिसंबर 2025 से रोज़ाना 22 घंटे तक एकांत कारावास में रखा जा रहा है। ख़ान अगस्त 2023 से अदियाला जेल में हैं। पाकिस्तान सरकार के एक मंत्री ने उनके दावों को तथ्यों के विपरीत बताते हुए कहा कि डॉक्टरों ने उनकी हालत संतोषजनक बताई है।",
-   "cat": "duniya",
-   "id": "2026-11-18-05-duniya-2",
-   "img": "https://thegulfindians.com/wp-content/uploads/2022/03/imran.jpg",
-   "source": "NDTV",
-   "source_url": "https://www.ndtv.com/world-news/ex-pakistan-prime-minister-imran-khans-warning-from-jail-says-may-not-return-alive-12334654/amp/1",
-   "tags": [
-    "#ImranKhan",
-    "#Pakistan",
-    "#WorldNews"
-   ],
-   "title_en": "Imran Khan's letter from jail: 'May not return alive', says 85% vision lost in one eye",
-   "title_hi": "जेल से इमरान ख़ान की चिट्ठी: 'शायद ज़िंदा न लौटूँ', आँख की रोशनी 85% गई, इलाज की गुहार",
-   "page": "khabar/2026-11-18-05-duniya-2.html"
-  },
-  {
-   "body_en": "India on Tuesday strongly condemned the attack on the Panama-flagged LPG tanker MT Tara Gas in the Strait of Hormuz on November 16. The Ministry of External Affairs said 21 of the 24 Indian nationals aboard had been safely evacuated ashore at Khasab in Oman, while two injured crew members were admitted to hospital and one Indian national remains missing.\n\nAccording to UK Maritime Trade Operations (UKMTO), the tanker was struck twice, sparking an engine-room fire and forcing the entire crew to abandon the vessel. The Indian Embassy in Oman is closely monitoring the search and rescue operations in coordination with Omani authorities. Responsibility for the attacks has not been established.",
-   "body_hi": "भारत ने होर्मुज़ जलडमरूमध्य में पनामा ध्वज वाले एलपीजी टैंकर एमटी तारा गैस पर 16 नवंबर को हुए हमले की कड़ी निंदा की है। विदेश मंत्रालय ने बताया कि जहाज़ पर सवार 24 भारतीयों में से 21 को ओमान के खसाब में सुरक्षित किनारे पर पहुँचा दिया गया है, जबकि दो घायल भारतीयों को अस्पताल में भर्ती कराया गया है और एक भारतीय अब भी लापता है।\n\nब्रिटिश समुद्री एजेंसी UKMTO के अनुसार टैंकर पर दो बार हमला हुआ, जिससे इंजन कक्ष में आग लग गई और पूरे दल को जहाज़ छोड़ना पड़ा। ओमान में भारतीय दूतावास ओमानी अधिकारियों के साथ मिलकर खोज और बचाव अभियान पर नज़र रख रहा है। हमले की ज़िम्मेदारी अभी तय नहीं हुई है।",
-   "cat": "duniya",
-   "id": "2026-11-18-05-duniya-3",
-   "img": "https://cf-images.assettype.com/newindianexpress%2F2026-11-03%2Fgir7wgpp%2FANI_20261103161740.jpg?rect=0%2C0%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-   "source": "The New Indian Express",
-   "source_url": "https://www.newindianexpress.com/india/2026/Nov/17/india-condemns-tanker-attack-in-strait-of-hormuz-one-indian-missing-two-injured",
-   "tags": [
-    "#StraitOfHormuz",
-    "#MTTaraGas",
-    "#WorldNews"
-   ],
-   "title_en": "Tanker attacked in Hormuz: India condemns strike, 21 Indians evacuated, one missing",
-   "title_hi": "होर्मुज़ में टैंकर पर हमला: भारत ने निंदा की, 21 भारतीय सुरक्षित निकाले गए, एक लापता",
-   "page": "khabar/2026-11-18-05-duniya-3.html"
-  },
-  {
-   "body_en": "Pakistan edged India by one wicket off the final ball in a thrilling Asia Cup Cricket for the Blind 2026 clash at Bashundhara Sports City, Dhaka. Batting first, India posted 179/6 in 20 overs, with T. Durga Rao unbeaten on 61, Sanjay Kumar Shah scoring 30 and Dunna Venkateshwararao adding 26.\n\nIn reply, Pakistan chased down the target, finishing on 180/9 in 20 overs, thanks to Nisar Ali's 64 and Muhammad Safdar's 31. Dunna Venkateshwararao took 2 wickets for 14 runs for India, but Pakistan held their nerve to win on the last ball.",
-   "body_hi": "ढाका में खेले गए ब्लाइंड एशिया कप 2026 के रोमांचक मुकाबले में पाकिस्तान ने भारत को आख़िरी गेंद पर एक विकेट से हरा दिया। भारत ने पहले बल्लेबाज़ी करते हुए 20 ओवर में 179/6 बनाए — टी. दुर्गा राव ने नाबाद 61, संजय कुमार शाह ने 30 और दुन्ना वेंकटेश्वरराव ने 26 रन बनाए।\n\nजवाब में पाकिस्तान ने निसार अली के 64 और मुहम्मद सफ़दर के 31 रनों की बदौलत 20 ओवर में 180/9 बनाकर मैच जीत लिया। भारत की ओर से दुन्ना वेंकटेश्वरराव ने 14 रन देकर 2 विकेट लिए, लेकिन आख़िरी गेंद पर पाकिस्तान ने जीत हासिल कर ली।",
-   "cat": "khel",
-   "id": "2026-11-18-05-khel-1",
-   "img": "https://img.cricketnmore.com/uploads/2026/11/pakistan-edge-india-by-one-wicket-in-last-ball-thriller-in-asia-cup-cricket-for-the-blind-md.jpeg",
-   "source": "Cricketnmore",
-   "source_url": "https://www.cricketnmore.com/cricket-news/pakistan-edge-india-by-one-wicket-in-last-ball-thriller-in-asia-cup-cricket-for-the-blind-208421",
-   "tags": [
-    "#BlindCricket",
-    "#AsiaCup",
-    "#INDvPAK",
-    "#TaazaKhabar"
-   ],
-   "title_en": "Blind Asia Cup: Pakistan edge India by one wicket in last-ball thriller",
-   "title_hi": "ब्लाइंड एशिया कप: आख़िरी गेंद पर पाकिस्तान ने भारत को एक विकेट से हराया",
-   "page": "khabar/2026-11-18-05-khel-1.html"
-  },
-  {
-   "body_en": "Madhya Pradesh captain Rajat Patidar smashed an unbeaten 135 off just 48 balls against Assam in the Syed Mushtaq Ali Trophy at New Chandigarh, setting a tournament record with 13 sixes in a single innings. He reached his century in only 41 balls, hitting eight fours along the way.\n\nPatidar became the first Madhya Pradesh batter to score a century in the tournament's history. His knock powered Madhya Pradesh to 250/6, their highest-ever T20 total, before Assam were bowled out for 119 in a 131-run win. It is also the highest individual T20 score by a batter at No. 5 or below in men's cricket.",
-   "body_hi": "मध्य प्रदेश के कप्तान रजत पाटीदार ने सैयद मुश्ताक अली ट्रॉफ़ी में असम के ख़िलाफ़ 48 गेंदों में नाबाद 135 रन ठोककर रिकॉर्ड बना दिया। न्यू चंडीगढ़ में खेले गए मैच में उनकी पारी में 13 छक्के और 8 चौके शामिल थे — एक पारी में सबसे ज़्यादा छक्कों का टूर्नामेंट रिकॉर्ड। उन्होंने सिर्फ़ 41 गेंदों में शतक पूरा किया।\n\nपाटीदार मध्य प्रदेश के पहले बल्लेबाज़ बने जिन्होंने इस टूर्नामेंट में शतक लगाया। उनकी पारी की बदौलत मध्य प्रदेश ने 250/6 का अपना सर्वोच्च टी20 स्कोर बनाया और असम को 119 पर समेटकर 131 रन से जीत दर्ज की। पाँचवें नंबर या उससे नीचे बल्लेबाज़ी करते हुए यह पुरुष टी20 क्रिकेट का सर्वोच्च व्यक्तिगत स्कोर भी है।",
-   "cat": "khel",
-   "id": "2026-11-18-05-khel-2",
-   "img": "https://static.toiimg.com/thumb/msid-135908652,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "id": "2026-11-18-09-duniya-1",
+   "img": "https://static.toiimg.com/thumb/msid-135944251,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
    "source": "The Times of India",
-   "source_url": "https://timesofindia.indiatimes.com/sports/cricket/news/syed-mushtaq-ali-trophy-rajat-patidar-sets-record-for-most-sixes-with-an-unbeaten-135-off-48-balls/articleshow/135908578.cms",
+   "source_url": "https://timesofindia.indiatimes.com/world/europe/ukraine-strikes-putins-prized-crimean-bridge-destroys-central-road-section-ahead-of-us-china-meet/articleshow/135944199.cms",
    "tags": [
-    "#RajatPatidar",
-    "#SMAT",
-    "#Cricket",
-    "#TaazaKhabar"
+    "#Ukraine",
+    "#CrimeanBridge",
+    "#Russia",
+    "#WorldNews"
    ],
-   "title_en": "Rajat Patidar's storm: unbeaten 135 off 48 balls with 13 sixes, SMAT record",
-   "title_hi": "रजत पाटीदार का तूफ़ान: 48 गेंदों में नाबाद 135, 13 छक्कों से सैयद मुश्ताक अली ट्रॉफ़ी में रिकॉर्ड",
-   "page": "khabar/2026-11-18-05-khel-2.html"
+   "title_en": "Ukraine strikes Crimean Bridge: road section collapses into sea; Russia vows to rebuild it",
+   "title_hi": "यूक्रेन ने क्रीमिया पुल पर बड़ा हमला किया: सड़क वाला हिस्सा समंदर में गिरा, रूस बोला — फिर से बनाएँगे",
+   "page": "khabar/2026-11-18-09-duniya-1.html"
   },
   {
-   "body_en": "Amazon has announced plans to invest an additional $7 billion in renewable energy projects in India by 2030, on top of $4 billion already contracted in the country. The company also unveiled four new utility-scale wind and solar projects with a combined capacity of 934 MW — a 234 MW wind farm in Karnataka, its largest wind project contracted in Asia, a 200 MW hybrid project also in Karnataka, a 300 MW solar project in Madhya Pradesh and a 200 MW solar project in Rajasthan.\n\nOnce operational, Amazon's contracted renewable energy capacity in India will exceed 2 gigawatts — enough electricity for the annual needs of more than 3.5 million Indian households. The company has also set a global goal to cut the carbon intensity of the electricity powering its operations by 65% by 2030.",
-   "body_hi": "अमेज़न ने 2030 तक भारत में अक्षय ऊर्जा परियोजनाओं में 7 अरब डॉलर का अतिरिक्त निवेश करने की घोषणा की है। यह निवेश पहले से अनुबंधित 4 अरब डॉलर के अलावा होगा। कंपनी ने 934 मेगावाट क्षमता की चार नई पवन और सौर परियोजनाओं की भी घोषणा की है — कर्नाटक में 234 मेगावाट का पवन फार्म, जो एशिया में उसका अब तक का सबसे बड़ा पवन प्रोजेक्ट है, कर्नाटक में ही 200 मेगावाट की हाइब्रिड परियोजना, मध्य प्रदेश में 300 मेगावाट सौर और राजस्थान में 200 मेगावाट सौर परियोजना।\n\nएक बार चालू होने पर अमेज़न की भारत में अनुबंधित अक्षय ऊर्जा क्षमता 2 गीगावाट से ज़्यादा हो जाएगी — इतनी बिजली, जो 35 लाख से ज़्यादा भारतीय घरों की सालाना ज़रूरत के बराबर है। कंपनी ने 2030 तक अपने कामकाज में इस्तेमाल होने वाली बिजली की कार्बन तीव्रता 65 प्रतिशत घटाने का वैश्विक लक्ष्य भी तय किया है।",
-   "cat": "vyapar",
-   "id": "2026-11-18-05-vyapar-1",
-   "img": "https://static.toiimg.com/thumb/msid-135919662,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-   "source": "The Times of India",
-   "source_url": "https://timesofindia.indiatimes.com/business/india-business/7-billion-green-boost-amazon-invests-big-in-indias-renewable-energy-landscape/articleshow/135918924.cms",
-   "tags": [
-    "#Amazon",
-    "#RenewableEnergy",
-    "#TaazaKhabar"
-   ],
-   "title_en": "Amazon to invest $7 billion in renewable energy in India by 2030",
-   "title_hi": "अमेज़न भारत में हरित ऊर्जा पर 2030 तक 7 अरब डॉलर लगाएगा, 934 मेगावाट की नई परियोजनाएँ",
-   "page": "khabar/2026-11-18-05-vyapar-1.html"
-  },
-  {
-   "body_en": "Rating agency ICRA has projected India's GDP growth at 7.5% in the July-September quarter of FY27, a five-quarter low, down from 7.8% in the preceding quarter. Weaker monsoon rainfall weighed on agricultural output, while industrial and services activity remained resilient. The estimate is higher than the Reserve Bank's Monetary Policy Committee forecast of 7.2% for the quarter.\n\nICRA estimates farm sector growth at just 0.2% in the quarter, against 3.6% in Q1, while industry is seen growing 7.2% and services 9.1%. The agency expects full-year FY27 growth to moderate to 7.1%. The government is scheduled to release the official July-September GDP data on November 30.",
-   "body_hi": "रेटिंग एजेंसी ICRA का अनुमान है कि जुलाई-सितंबर 2026 तिमाही में भारत की GDP वृद्धि 7.5 प्रतिशत रहेगी — अप्रैल-जून की 7.8 प्रतिशत से कम और पाँच तिमाहियों में सबसे धीमी। कमज़ोर मानसून से कृषि उत्पादन पर असर पड़ा है, जबकि उद्योग और सेवा क्षेत्रों की गतिविधि मज़बूत बनी हुई है। यह अनुमान रिज़र्व बैंक की मौद्रिक नीति समिति के 7.2 प्रतिशत के पूर्वानुमान से ज़्यादा है।\n\nICRA के अनुसार कृषि क्षेत्र की वृद्धि इस तिमाही में सिर्फ़ 0.2 प्रतिशत रह सकती है, जबकि उद्योग 7.2 और सेवा क्षेत्र 9.1 प्रतिशत की दर से बढ़ सकता है। एजेंसी को पूरे वित्त वर्ष 2026-27 में GDP वृद्धि 7.1 प्रतिशत रहने की उम्मीद है। सरकार जुलाई-सितंबर के आधिकारिक आँकड़े 30 नवंबर को जारी करेगी।",
-   "cat": "vyapar",
-   "id": "2026-11-18-05-vyapar-2",
-   "img": "https://img.etimg.com/thumb/msid-135918228,width-1200,height-900,imgsize-124108,overlay-economictimes/articleshow.jpg",
+   "body_en": "The leaders of the four Quad nations announced five key outcomes at the seventh Quad Leaders' Summit in Manila. Prime Minister Narendra Modi, US President Donald Trump, Australian Prime Minister Anthony Albanese and Japanese Prime Minister Sanae Takaichi reaffirmed their commitment to a free, open and prosperous Indo-Pacific.\n\nThe outcomes include holding the inaugural Quad Business Leaders' Forum in Mumbai in early 2027, counterterrorism cooperation, maritime surveillance collaboration, protection of undersea cable connectivity and enhanced cyber cooperation. Trump also announced an $85 million 'Super Intelligence accelerator' for trusted AI ecosystems. It was the first in-person Quad leaders' meeting since 2024.",
+   "body_hi": "मनीला में हुए सातवें क्वाड शिखर सम्मेलन में चारों देशों के नेताओं ने पाँच बड़े फैसले लिए। प्रधानमंत्री नरेंद्र मोदी, अमेरिकी राष्ट्रपति डोनाल्ड ट्रंप, ऑस्ट्रेलिया के प्रधानमंत्री एंथनी अल्बानीज़ और जापान की प्रधानमंत्री साने ताकाइची ने हिंद-प्रशांत क्षेत्र को स्वतंत्र, खुला और समृद्ध बनाए रखने की प्रतिबद्धता दोहराई।\n\nफ़ैसलों में 2027 की शुरुआत में मुंबई में पहला क्वाड बिज़नेस लीडर्स फ़ोरम आयोजित करना, आतंकवाद-रोधी सहयोग, समुद्री निगरानी में साझेदारी, समुद्र के नीचे केबल संपर्क की सुरक्षा और साइबर सहयोग बढ़ाना शामिल हैं। ट्रंप ने भरोसेमंद AI तकनीक के लिए 85 मिलियन डॉलर के 'सुपर इंटेलिजेंस एक्सेलेरेटर' की भी घोषणा की। 2024 के बाद यह नेताओं की पहली आमने-सामने की क्वाड बैठक थी।",
+   "cat": "duniya",
+   "id": "2026-11-18-09-duniya-2",
+   "img": "https://img.etimg.com/thumb/msid-135933179,width-1200,height-900,imgsize-329012,overlay-economictimes/articleshow.jpg",
    "source": "The Economic Times",
-   "source_url": "https://economictimes.indiatimes.com/news/economy/indicators/india-gdp-growth-q2-fy27-icra-forecast-75-percent-five-quarter-low-weak-monsoon-inflation-icra-report/articleshow/135917680.cms",
+   "source_url": "https://economictimes.indiatimes.com/news/india/quad-leaders-unveil-5-outcomes-at-manila-summit-india-to-host-business-leaders-forum-in-2027/articleshow/135933181.cms",
    "tags": [
-    "#GDP",
-    "#IndianEconomy",
-    "#ICRA",
+    "#QuadSummit",
+    "#Manila",
+    "#Modi",
+    "#WorldNews"
+   ],
+   "title_en": "Quad summit in Manila: five key outcomes, Mumbai to host Business Leaders' Forum in 2027",
+   "title_hi": "मनीला में क्वाड शिखर सम्मेलन: पाँच बड़े फैसले, 2027 में मुंबई में होगा बिज़नेस लीडर्स फ़ोरम",
+   "page": "khabar/2026-11-18-09-duniya-2.html"
+  },
+  {
+   "body_en": "A Russian military transport aircraft crashed in western Siberia, killing all 19 people on board. According to the Russian Defence Ministry, the Antonov An-12 went down in an unpopulated area near the village of Yagunovo, close to the city of Kemerovo, about 3,000 kilometres east of Moscow.\n\nPreliminary findings point to a possible technical malfunction. A commission from the Russian Aerospace Forces is working at the crash site to establish the circumstances, while Russia's Investigative Committee has opened a separate inquiry into possible violations of flight safety regulations. The An-12 is a Soviet-built, four-engine turboprop transport aircraft that has been in service since the late 1950s.",
+   "body_hi": "रूस के पश्चिमी साइबेरिया में एक सैन्य परिवहन विमान दुर्घटनाग्रस्त हो गया, जिसमें सवार सभी 19 लोगों की मौत हो गई। रूसी रक्षा मंत्रालय के अनुसार एंटोनोव An-12 विमान केमेरोवो शहर के पास यागुनोवो गाँव के नज़दीक एक निर्जन इलाके में गिरा। यह जगह मॉस्को से करीब 3,000 किलोमीटर पूर्व में है।\n\nशुरुआती जाँच में तकनीकी खराबी को हादसे की संभावित वजह बताया गया है। रूसी एयरोस्पेस बलों का एक आयोग दुर्घटनास्थल पर हालात की जाँच कर रहा है, जबकि रूस की जाँच समिति ने उड़ान सुरक्षा नियमों के उल्लंघन की आशंका पर अलग से जाँच शुरू की है। An-12 सोवियत काल का चार इंजन वाला टर्बोप्रॉप विमान है, जो 1950 के दशक के अंत से सेवा में है।",
+   "cat": "duniya",
+   "id": "2026-11-18-09-duniya-3",
+   "img": "https://img.etimg.com/thumb/msid-135945415,width-1200,height-900,imgsize-25486,overlay-etdefence/articleshow.jpg",
+   "source": "The Economic Times",
+   "source_url": "https://economictimes.indiatimes.com/news/defence/russia-military-plane-crash-kills-19-in-siberia-equipment-failure-suspected/articleshow/135945416.cms",
+   "tags": [
+    "#Russia",
+    "#PlaneCrash",
+    "#Siberia",
+    "#WorldNews"
+   ],
+   "title_en": "Russian military plane crashes in Siberia: all 19 aboard An-12 killed; technical fault suspected",
+   "title_hi": "साइबेरिया में रूसी सैन्य विमान हादसा: An-12 गिरा, सवार सभी 19 लोगों की मौत; तकनीकी खराबी की आशंका",
+   "page": "khabar/2026-11-18-09-duniya-3.html"
+  },
+  {
+   "body_en": "Mahendra Singh Dhoni has ended his IPL playing career. Chennai Super Kings confirmed on Tuesday that Dhoni will take over as the franchise's Team Mentor from the 2027 season. Dhoni played 17 seasons for CSK, and under his captaincy the team became one of the most successful franchises in IPL history.\n\nHis final IPL appearance came against Gujarat Titans in the 2025 season, and he missed the 2026 edition because of a calf injury. Former teammates Suresh Raina, Rinku Singh, Matheesha Pathirana and Tilak Varma paid tribute to him, saying, 'Once a captain, forever our Thala.'",
+   "body_hi": "महेंद्र सिंह धोनी ने IPL में अपने खेल करियर को अलविदा कह दिया है। चेन्नई सुपर किंग्स ने मंगलवार को पुष्टि की कि धोनी 2027 सीज़न से टीम के मेंटर की भूमिका निभाएँगे। धोनी ने CSK के लिए 17 सीज़न खेले और उनकी कप्तानी में टीम IPL की सबसे सफल फ्रेंचाइज़ियों में से एक बनी।\n\nधोनी का आख़िरी IPL मैच 2025 सीज़न में गुजरात टाइटन्स के खिलाफ था, और पिंडली की चोट के कारण वह 2026 का सीज़न नहीं खेल पाए थे। उनके साथी रहे सुरेश रैना, रिंकू सिंह, मथीशा पथिराना और तिलक वर्मा ने उन्हें श्रद्धांजलि देते हुए कहा — 'एक बार कप्तान, हमेशा हमारे थाला।'",
+   "cat": "khel",
+   "id": "2026-11-18-09-khel-1",
+   "img": "https://www.tribuneindia.com/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9tZWRpYWQ0ZDEwNmEwLWUyZTYtMTFmMS1hMTc4LTA3OWEzYTA3ZTExMS5qcGc=",
+   "source": "The Tribune",
+   "source_url": "https://www.tribuneindia.com/news/sports/once-a-captain-forever-our-thala-raina-rinku-pathirana-pay-tribute-to-dhoni/",
+   "tags": [
+    "#MSDhoni",
+    "#CSK",
+    "#IPL",
     "#TaazaKhabar"
    ],
-   "title_en": "ICRA projects GDP growth at 7.5% in July-September, a five-quarter low",
-   "title_hi": "ICRA का अनुमान: जुलाई-सितंबर में GDP वृद्धि 7.5% पर, पाँच तिमाहियों में सबसे धीमी",
-   "page": "khabar/2026-11-18-05-vyapar-2.html"
+   "title_en": "MS Dhoni retires from IPL, becomes Chennai Super Kings mentor; Raina, Rinku pay tribute",
+   "title_hi": "धोनी ने IPL को अलविदा कहा: अब CSK के मेंटर बनेंगे, रैना-रिंकू बोले — 'हमेशा हमारे थाला'",
+   "page": "khabar/2026-11-18-09-khel-1.html"
+  },
+  {
+   "body_en": "The two-match Test series between India and New Zealand begins on Thursday, November 19, at the Basin Reserve in Wellington. The second Test will be played in Christchurch from November 27. India are fourth in the World Test Championship standings on 51.52 percent, behind New Zealand on 72.22, so every point matters for India.\n\nBowling coach Morne Morkel has said the bowlers must take collective responsibility to finish their overs in time and avoid losing points for a slow over rate. Captain Shubman Gill has confirmed the playing XI will have four seam bowling options. Jasprit Bumrah returns after not playing a Test in 2026, while Gurnoor Brar has taken Kuldeep Yadav's place in the squad.",
+   "body_hi": "भारत और न्यूज़ीलैंड के बीच दो टेस्ट की सीरीज़ गुरुवार, 19 नवंबर से वेलिंग्टन के बेसिन रिज़र्व में शुरू होगी। दूसरा टेस्ट 27 नवंबर से क्राइस्टचर्च में खेला जाएगा। विश्व टेस्ट चैंपियनशिप में भारत 51.52 प्रतिशत अंकों के साथ चौथे स्थान पर है, जबकि न्यूज़ीलैंड 72.22 प्रतिशत के साथ आगे है, इसलिए भारत को हर अंक की ज़रूरत है।\n\nभारतीय गेंदबाज़ी कोच मोर्ने मॉर्केल ने कहा है कि गेंदबाज़ों को सामूहिक ज़िम्मेदारी लेनी होगी ताकि ओवर समय पर पूरे हों और धीमी ओवर गति के कारण अंक न कटें। कप्तान शुभमन गिल ने चार तेज़ गेंदबाज़ों के साथ उतरने की पुष्टि की है। जसप्रीत बुमराह 2026 में कोई टेस्ट नहीं खेलने के बाद वापसी कर रहे हैं, जबकि गुरनूर बरार ने कुलदीप यादव की जगह ली है।",
+   "cat": "khel",
+   "id": "2026-11-18-09-khel-2",
+   "img": "https://assets.telegraphindia.com/telegraph/2025/May/1746630515_shubman-gill-1.jpg",
+   "source": "Sportskeeda",
+   "source_url": "https://www.sportskeeda.com/cricket/news-need-take-responsibility-india-coach-s-huge-request-bowlers-ahead-nz-vs-ind-2026-1st-test",
+   "tags": [
+    "#INDvsNZ",
+    "#TestCricket",
+    "#Bumrah",
+    "#TaazaKhabar"
+   ],
+   "title_en": "India vs New Zealand 1st Test from tomorrow: Bumrah returns as Gill picks four seamers",
+   "title_hi": "भारत-न्यूज़ीलैंड पहला टेस्ट कल से: बुमराह की वापसी, चार तेज़ गेंदबाज़ों के साथ उतरेंगे गिल",
+   "page": "khabar/2026-11-18-09-khel-2.html"
+  },
+  {
+   "body_en": "Indian equity markets closed at nine-month highs on Tuesday. The BSE Sensex advanced 427.40 points, or 0.52%, to close at 82,532.19, while the NSE Nifty gained 96.30 points, or 0.38%, to settle at 25,387.40. Both benchmarks ended at their highest closing levels since February 2026. The Bank Nifty touched an all-time high for the second straight session.\n\nForeign portfolio investors were net buyers of equities worth ₹4,195 crore on Tuesday, taking their net investments in November so far to ₹88,362 crore. Axis Bank, Reliance Industries, State Bank of India, TCS and Adani Ports were among the biggest gainers on the Sensex, rising around 2% each. Gift Nifty signals a weak opening for Wednesday morning.",
+   "body_hi": "मंगलवार को भारतीय शेयर बाज़ार 9 महीने की ऊँचाई पर बंद हुआ। BSE सेंसेक्स 427.40 अंक (0.52%) चढ़कर 82,532.19 पर और NSE निफ्टी 96.30 अंक (0.38%) बढ़कर 25,387.40 पर बंद हुआ। दोनों सूचकांक फरवरी 2026 के बाद के अपने सबसे ऊँचे बंद स्तर पर रहे। बैंक निफ्टी लगातार दूसरे सत्र में अपने सर्वकालिक उच्च स्तर पर पहुँचा।\n\nविदेशी पोर्टफोलियो निवेशकों ने मंगलवार को ₹4,195 करोड़ के शेयर खरीदे, जिससे नवंबर में अब तक उनका कुल निवेश ₹88,362 करोड़ हो गया है। एक्सिस बैंक, रिलायंस इंडस्ट्रीज़, SBI, TCS और अडानी पोर्ट्स सेंसेक्स के सबसे बड़े गेनर्स में रहे, जिनमें करीब 2% की बढ़त दर्ज हुई। बुधवार सुबह गिफ्ट निफ्टी के संकेतों से बाज़ार की कमज़ोर शुरुआत का अनुमान है।",
+   "cat": "vyapar",
+   "id": "2026-11-18-09-vyapar-1",
+   "img": "https://img.etimg.com/thumb/msid-135943957,width-1200,height-900,imgsize-198594,overlay-etmarkets/articleshow.jpg",
+   "source": "The Economic Times",
+   "source_url": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-nifty-hit-9-month-highs-as-bank-stocks-lead-market-rally/articleshow/135943938.cms",
+   "tags": [
+    "#Sensex",
+    "#Nifty",
+    "#ShareBazaar",
+    "#TaazaKhabar"
+   ],
+   "title_en": "Sensex, Nifty hit 9-month highs as bank stocks lead rally; foreign investors buy ₹4,195 crore",
+   "title_hi": "सेंसेक्स-निफ्टी 9 महीने की ऊँचाई पर: सेंसेक्स 82,532, बैंक शेयरों की अगुवाई; विदेशी निवेशकों ने ₹4,195 करोड़ डाले",
+   "page": "khabar/2026-11-18-09-vyapar-1.html"
+  },
+  {
+   "body_en": "Chipmaker Nvidia reported revenue of $115.8 billion for the third quarter of fiscal 2027, more than double the revenue in the corresponding period last year. The company's profit and revenue both beat analysts' estimates, and its shares jumped 4% in extended trading. Nvidia also raised its revenue guidance for the fiscal year ending January 2028.\n\nMeanwhile, Nvidia chairman Harvey Jones said the board had unanimously accepted Huang's resignation and has no intention of reinstating him as CEO. Former CEO Jensen Huang had recently signalled interest in returning to lead the company.",
+   "body_hi": "चिप कंपनी Nvidia ने वित्त वर्ष 2027 की तीसरी तिमाही में 115.8 अरब डॉलर का राजस्व दर्ज किया, जो पिछले साल की समान अवधि से दोगुने से भी ज़्यादा है। कंपनी का मुनाफ़ा और राजस्व दोनों विश्लेषकों के अनुमानों से बेहतर रहे, जिसके बाद उसके शेयर विस्तारित कारोबार में 4% चढ़ गए। कंपनी ने जनवरी 2028 में समाप्त होने वाले वित्त वर्ष के लिए राजस्व अनुमान भी बढ़ा दिया है।\n\nइस बीच Nvidia के चेयरमैन हार्वे जोन्स ने कहा कि बोर्ड ने सर्वसम्मति से हुआंग का इस्तीफ़ा स्वीकार किया है और उन्हें CEO के रूप में बहाल करने का कोई इरादा नहीं है। पूर्व CEO जेनसन हुआंग ने हाल में कंपनी की कमान में लौटने की इच्छा जताई थी।",
+   "cat": "vyapar",
+   "id": "2026-11-18-09-vyapar-2",
+   "img": "https://images.etnownews.com/thumb/msid-156527994,thumbsize-28754,width-1280,height-720,resizemode-75/156527994.jpg",
+   "source": "ET Now",
+   "source_url": "https://www.etnownews.com/markets/nvidia-jensen-huang-stock-market-today-gift-nifty-crude-brent-fii-fo-asian-market-us-market-us-dollar-november-18-2026-article-156527994",
+   "tags": [
+    "#Nvidia",
+    "#JensenHuang",
+    "#ShareBazaar",
+    "#TaazaKhabar"
+   ],
+   "title_en": "Nvidia revenue more than doubles to $115.8 billion; board rules out Jensen Huang's return",
+   "title_hi": "Nvidia की कमाई दोगुनी: तिमाही राजस्व 115.8 अरब डॉलर, बोर्ड ने जेनसन हुआंग की वापसी से इनकार किया",
+   "page": "khabar/2026-11-18-09-vyapar-2.html"
   }
  ]
 }
