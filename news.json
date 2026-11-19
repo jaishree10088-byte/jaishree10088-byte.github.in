@@ -1,186 +1,176 @@
 {
- "edition": "गुरुवार, 19 नवंबर 2026 — सुबह 9 बजे",
- "updated_at": "2026-11-19T09:00:00+05:30",
+ "edition": "गुरुवार, 19 नवंबर 2026 — दोपहर 1 बजे",
+ "updated_at": "2026-11-19T13:00:00+05:30",
  "stories": [
   {
-   "body_en": "The self-enumeration portal for the 2027 Census has changed how people record religions listed under 'Other'. Instead of a drop-down menu, the portal now shows 76 entries as predictive text suggestions as users type.\n\nMore than 200 entries that appeared in an earlier list have been dropped from the portal. The change is part of the preparations for the next Census, for which the self-enumeration option lets households fill in their details online.",
-   "body_hi": "जनगणना 2027 के लिए स्व-गणना पोर्टल में 'अन्य' धर्मों को दर्ज करने का तरीका बदल गया है। अब ड्रॉप-डाउन मेनू की जगह टाइप करते ही 76 प्रविष्टियाँ सुझाव के रूप में दिखने लगी हैं।\n\nपहले की सूची में मौजूद 200 से ज़्यादा प्रविष्टियों को पोर्टल से हटा दिया गया है। यह बदलाव अगली जनगणना की तैयारियों का हिस्सा है, जिसमें स्व-गणना विकल्प से परिवार अपना विवरण ऑनलाइन भर सकेंगे।",
+   "body_en": "Severe cyclonic storm Akvan is moving towards India's eastern coast, and the Odisha government has evacuated nearly 50,000 people to safety. Chief Minister Mohan Charan Majhi chaired a high-level review of preparedness and said the state is targeting zero casualties, with large-scale evacuations under way across Ganjam, Gajapati, Kandhamal, Rayagada, Koraput and Malkangiri.\n\nThe storm is likely to make landfall between Narsapur in Andhra Pradesh and Puri in Odisha, with wind speeds expected around 100 kmph. The weather department has warned of extremely heavy rainfall across 11 districts on Thursday and Friday, schools have been closed for three days, and 448 of the 3,000 designated cyclone shelters have been made operational, backed by Rs 20 crore in immediate relief funds.",
+   "body_hi": "गंभीर चक्रवाती तूफ़ान अक्वान पूर्वी तट की ओर बढ़ रहा है, जिसके मद्देनज़र ओडिशा सरकार ने अब तक करीब 50,000 लोगों को सुरक्षित स्थानों पर पहुँचा दिया है। मुख्यमंत्री मोहन चरण माझी ने तैयारियों की उच्चस्तरीय समीक्षा बैठक की अध्यक्षता की और कहा कि राज्य का लक्ष्य शून्य हताहत का है।\n\nमौसम विभाग के अनुसार तूफ़ान आंध्र प्रदेश के नरसापुर और ओडिशा के पुरी के बीच तट से टकरा सकता है, जहाँ हवा की रफ़्तार करीब 100 किलोमीटर प्रति घंटा रह सकती है। गुरुवार और शुक्रवार को 11 ज़िलों में अत्यंत भारी बारिश की चेतावनी है, स्कूल तीन दिन बंद रखे गए हैं और 3,000 चक्रवात आश्रय स्थलों में से 448 को चालू कर दिया गया है।",
    "cat": "bharat",
-   "id": "2026-11-19-09-bharat-1",
-   "img": "https://th-i.thgim.com/public/incoming/gq9khy/article70958116.ece/alternates/LANDSCAPE_660/_NGP2116.jpg",
+   "id": "2026-11-19-13-bharat-1",
+   "img": "https://odisha.newsroom.in/wp-content/uploads/2026/11/cyclone-akvan.jpg",
+   "source": "The Indian Express",
+   "source_url": "https://indianexpress.com/article/india/today-india-breaking-news-live-updates-19-november-2026-cyclone-akvan-odisha-evacuation-trump-xi-putin-shenzhen-summit-delhi-aqi-today-10969193/",
+   "tags": [
+    "#CycloneAkvan",
+    "#Odisha",
+    "#TaazaKhabar"
+   ],
+   "title_en": "Cyclone Akvan: Odisha moves 50,000 people to safety as storm nears coast",
+   "title_hi": "चक्रवात अक्वान: ओडिशा में 50,000 लोग सुरक्षित जगहों पर, तट के पास तेज़ हवाओं का अलर्ट",
+   "page": "khabar/2026-11-19-13-bharat-1.html"
+  },
+  {
+   "body_en": "A fast-track court has ordered the framing of charges in the NEET paper leak case, clearing the decks for the high-profile trial to formally get under way on November 25.\n\nThe case concerns one of the country's largest medical entrance examinations, so lakhs of aspirants and their families are watching the proceedings closely. With charges now framed, the trial will move to the stage of witness statements and examination of evidence.",
+   "body_hi": "NEET पेपर लीक मामले में फास्ट-ट्रैक कोर्ट ने आरोप तय करने का आदेश दे दिया है, जिससे इस बहुचर्चित मामले की औपचारिक सुनवाई का रास्ता साफ़ हो गया है। अदालत के आदेश के बाद मुकदमा 25 नवंबर से शुरू होगा।\n\nयह मामला देश की सबसे बड़ी मेडिकल प्रवेश परीक्षाओं में से एक से जुड़ा है, इसलिए लाखों परीक्षार्थियों और उनके परिवारों की नज़र इस सुनवाई पर टिकी है। आरोप तय होने के बाद अब गवाहों के बयान और सबूतों की जाँच के चरण आगे बढ़ेंगे।",
+   "cat": "bharat",
+   "id": "2026-11-19-13-bharat-2",
+   "img": "https://images.mid-day.com/images/images/2026/may/gurugram-three.jpg",
+   "source": "The Indian Express",
+   "source_url": "https://indianexpress.com/article/india/today-india-breaking-news-live-updates-19-november-2026-cyclone-akvan-odisha-evacuation-trump-xi-putin-shenzhen-summit-delhi-aqi-today-10969193/",
+   "tags": [
+    "#NEET",
+    "#PaperLeak",
+    "#TaazaKhabar"
+   ],
+   "title_en": "NEET paper leak case: Fast-track court orders framing of charges, trial from November 25",
+   "title_hi": "NEET पेपर लीक मामला: फास्ट-ट्रैक कोर्ट ने आरोप तय करने का आदेश दिया, 25 नवंबर से सुनवाई",
+   "page": "khabar/2026-11-19-13-bharat-2.html"
+  },
+  {
+   "body_en": "Prime Minister Narendra Modi is scheduled to inaugurate the Annual General Meeting and Annual Convention of the Federation of Indian Chambers of Commerce and Industry (FICCI) at Bharat Mandapam, New Delhi, on Thursday and address the gathering. The convention is themed 'Bharat 2047'.\n\nMore than 2,500 delegates, including industry leaders, chief executives, diplomats and policymakers, are expected to attend. The year 2026-27 marks FICCI's centenary year, as the chamber completes 100 years of its establishment on 7 April 2027.",
+   "body_hi": "प्रधानमंत्री नरेंद्र मोदी आज नई दिल्ली के भारत मंडपम में भारतीय वाणिज्य एवं उद्योग महासंघ (FICCI) के शताब्दी वर्ष के वार्षिक सम्मेलन का उद्घाटन करेंगे और सभा को संबोधित करेंगे। सम्मेलन का विषय 'भारत 2047' है।\n\nइस सम्मेलन में उद्योग जगत के दिग्गजों, मुख्य कार्यकारी अधिकारियों, राजनयिकों और नीति-निर्माताओं सहित 2,500 से ज़्यादा प्रतिनिधियों के शामिल होने की उम्मीद है। FICCI 2026-27 में अपने स्थापना के 100 वर्ष पूरे कर रहा है, और संस्था की स्थापना 7 अप्रैल 1927 को हुई थी।",
+   "cat": "bharat",
+   "id": "2026-11-19-13-bharat-3",
+   "img": "https://kjcdn.gumlet.io/media/96016/viksit-bharat.jpg",
+   "source": "CrackTarget",
+   "source_url": "https://cracktarget.com/current-affairs-19-november-2026/",
+   "tags": [
+    "#FICCI",
+    "#Bharat2047",
+    "#TaazaKhabar"
+   ],
+   "title_en": "PM Modi to inaugurate FICCI's centenary-year convention 'Bharat 2047' today",
+   "title_hi": "पीएम मोदी आज FICCI के शताब्दी वर्ष सम्मेलन 'भारत 2047' का उद्घाटन करेंगे",
+   "page": "khabar/2026-11-19-13-bharat-3.html"
+  },
+  {
+   "body_en": "US President Donald Trump, Chinese President Xi Jinping and Russian President Vladimir Putin will hold a first-ever trilateral summit in Shenzhen, China, on Thursday. Beijing has described the meeting as having 'groundbreaking significance'.\n\nOn Wednesday, Xi welcomed Trump with a rare airport reception, and Trump and Putin met for the first time in over a year. US officials said the three leaders are likely to discuss, among other issues, the war in Ukraine, the situation in Iran, global energy stability and nuclear arms control.",
+   "body_hi": "अमेरिका के राष्ट्रपति डोनाल्ड ट्रंप, चीन के राष्ट्रपति शी जिनपिंग और रूस के राष्ट्रपति व्लादिमीर पुतिन आज चीन के शेनझेन शहर में पहली बार त्रिपक्षीय शिखर बैठक करेंगे। बीजिंग ने इस बैठक को 'अभूतपूर्व महत्त्व' वाला बताया है।\n\nबुधवार को शी जिनपिंग ने हवाई अड्डे पर ट्रंप का दुर्लभ स्वागत किया, जबकि ट्रंप और पुतिन की एक साल से ज़्यादा समय बाद पहली मुलाक़ात भी हुई। अधिकारियों के अनुसार तीनों नेता यूक्रेन युद्ध, ईरान की स्थिति, वैश्विक ऊर्जा स्थिरता और परमाणु हथियार नियंत्रण जैसे मुद्दों पर चर्चा कर सकते हैं।",
+   "cat": "duniya",
+   "id": "2026-11-19-13-duniya-1",
+   "img": "https://media.pink.rs/images/4dea4bcfe-4f14-40e7-adc3-a76de80661c0/0,0,1920,1080/676",
    "source": "The Hindu",
    "source_url": "https://www.thehindu.com/news/morning-digest-november-19-2026/article71717709.ece",
    "tags": [
-    "#Census2027",
-    "#Janaganana",
-    "#Bharat",
-    "#TaazaKhabar"
-   ],
-   "title_en": "Census 2027: 'Other' religions now appear as predictive text, over 200 older entries dropped",
-   "title_hi": "जनगणना 2027: 'अन्य' धर्म अब सुझाव के रूप में दिखेंगे, 200 से ज़्यादा पुरानी प्रविष्टियाँ हटीं",
-   "page": "khabar/2026-11-19-09-bharat-1.html"
-  },
-  {
-   "body_en": "Prime Minister Narendra Modi met Prince William and Princess Catherine in New Delhi on Wednesday. The meeting focused on taking India-U.K. ties forward under the Comprehensive Strategic Partnership between the two countries.\n\nThe leaders exchanged views on cooperation in areas including defence and health. The royal couple is on a visit to India, and the meeting underlined the growing engagement between New Delhi and London.",
-   "body_hi": "प्रधानमंत्री नरेंद्र मोदी ने बुधवार को नई दिल्ली में प्रिंस विलियम और प्रिंसेस कैथरीन से मुलाकात की। बैठक में भारत-ब्रिटेन व्यापक रणनीतिक साझेदारी के तहत दोनों देशों के संबंधों को और मज़बूत करने पर चर्चा हुई।\n\nनेताओं ने रक्षा और स्वास्थ्य समेत कई क्षेत्रों में सहयोग पर विचार साझा किए। शाही दंपति भारत यात्रा पर हैं, और यह मुलाकात नई दिल्ली व लंदन के बीच बढ़ते संपर्क को दर्शाती है।",
-   "cat": "bharat",
-   "id": "2026-11-19-09-bharat-2",
-   "img": "https://www.essexchambers.co.uk/wp-content/uploads/2025/05/national-flag-united-kingdom-great-britain-union-jack-with-republic-india-national-flag-background-2048x1365.jpg",
-   "source": "The Hindu",
-   "source_url": "https://www.thehindu.com/news/morning-digest-november-19-2026/article71717709.ece",
-   "tags": [
-    "#Modi",
-    "#PrinceWilliam",
-    "#IndiaUK",
-    "#TaazaKhabar"
-   ],
-   "title_en": "PM Modi meets Prince and Princess of Wales, discusses boosting India-U.K. ties",
-   "title_hi": "पीएम मोदी प्रिंस विलियम और प्रिंसेस कैथरीन से मिले, भारत-ब्रिटेन संबंध बढ़ाने पर चर्चा",
-   "page": "khabar/2026-11-19-09-bharat-2.html"
-  },
-  {
-   "body_en": "India and Canada could announce a defence agreement during Prime Minister Narendra Modi's official visit in December. India's High Commissioner to Ottawa, Dinesh K. Patnaik, indicated that the pact is under consideration as the two countries rebuild ties.\n\nThe possible agreement would mark a fresh step in the India-Canada relationship after a period of strain. Details of the visit and the agreement are expected to be worked out in the coming weeks.",
-   "body_hi": "प्रधानमंत्री नरेंद्र मोदी की दिसंबर में होने वाली आधिकारिक यात्रा के दौरान भारत और कनाडा एक रक्षा समझौते की घोषणा कर सकते हैं। ओटावा में भारत के उच्चायुक्त दिनेश के. पटनायक ने संकेत दिया कि दोनों देशों के बीच संबंधों को फिर से मज़बूत करने की दिशा में इस समझौते पर विचार हो रहा है।\n\nयह संभावित समझौता कुछ समय से तनावपूर्ण रहे भारत-कनाडा संबंधों में एक नया कदम होगा। यात्रा और समझौते का ब्योरा आने वाले हफ़्तों में तय होने की उम्मीद है।",
-   "cat": "bharat",
-   "id": "2026-11-19-09-bharat-3",
-   "img": "https://th-i.thgim.com/public/incoming/la4o1h/article71718472.ece/alternates/LANDSCAPE_1200/iStock-1093161848.jpg",
-   "source": "The Hindu",
-   "source_url": "https://www.thehindu.com/news/morning-digest-november-19-2026/article71717709.ece",
-   "tags": [
-    "#IndiaCanada",
-    "#RakshaSamjhauta",
-    "#Modi",
-    "#TaazaKhabar"
-   ],
-   "title_en": "India and Canada eye defence pact during PM Modi's December visit",
-   "title_hi": "दिसंबर में पीएम मोदी की यात्रा के दौरान भारत-कनाडा रक्षा समझौते की उम्मीद",
-   "page": "khabar/2026-11-19-09-bharat-3.html"
-  },
-  {
-   "body_en": "The International Court of Justice will deliver its judgment on Thursday in the case alleging genocide against Myanmar's Rohingya people. The judgment is set to be read from 10 a.m. Hague time for up to 90 minutes.\n\nIn Bangladesh, the 1.2 million Rohingya living in the sprawling Cox's Bazar refugee settlement since fleeing violence in 2017 will be closely following the ruling. The case, brought by The Gambia, is one of the most closely watched at the World Court.",
-   "body_hi": "अंतरराष्ट्रीय न्यायालय गुरुवार को म्यांमार के रोहिंग्या लोगों के खिलाफ कथित नरसंहार के मामले में अपना फ़ैसला सुनाएगा। हेग समयानुसार सुबह 10 बजे से फ़ैसला पढ़ा जाएगा, जो 90 मिनट तक चल सकता है।\n\nबांग्लादेश में 2017 की हिंसा से भागकर कॉक्स बाज़ार के विशाल शरणार्थी शिविर में रह रहे 12 लाख रोहिंग्या इस फ़ैसले पर बारीकी से नज़र रखेंगे। गाम्बिया की ओर से दायर यह मामला विश्व न्यायालय के सबसे चर्चित मामलों में से एक है।",
-   "cat": "duniya",
-   "id": "2026-11-19-09-duniya-1",
-   "img": "https://images.firstpost.com/wp-content/uploads/2020/01/rohingya-ap1.jpeg?im=Resize,width=720,aspect=fit,type=normal",
-   "source": "NDTV",
-   "source_url": "https://www.ndtv.com/world-news?page=7",
-   "tags": [
-    "#Rohingya",
-    "#ICJ",
-    "#Myanmar",
+    "#TrumpXiPutin",
+    "#Shenzhen",
     "#WorldNews"
    ],
-   "title_en": "World Court to rule today on Myanmar's alleged Rohingya genocide",
-   "title_hi": "म्यांमार में रोहिंग्या नरसंहार के आरोप पर विश्व न्यायालय आज सुनाएगा फ़ैसला",
-   "page": "khabar/2026-11-19-09-duniya-1.html"
+   "title_en": "Trump, Xi and Putin to hold first-ever trilateral summit in Shenzhen today",
+   "title_hi": "शेनझेन में आज ट्रंप, शी और पुतिन की पहली त्रिपक्षीय शिखर बैठक",
+   "page": "khabar/2026-11-19-13-duniya-1.html"
   },
   {
-   "body_en": "Three oil tankers caught fire after hitting mines east of the Strait of Hormuz, one of the world's most important oil shipping routes. Iran's Revolutionary Guards said in a statement that passage through the strategic waterway must be coordinated with Iranian authorities.\n\nThe incident has raised fresh concern about shipping safety in the Gulf region. The Strait of Hormuz carries a large share of the world's seaborne oil, and any disruption there is watched closely by energy markets.",
-   "body_hi": "दुनिया के सबसे अहम तेल मार्गों में से एक, होर्मुज़ जलडमरूमध्य के पूर्व में खदानों से टकराने के बाद तीन तेल टैंकरों में आग लग गई। ईरान के रिवोल्यूशनरी गार्ड्स ने बयान में कहा कि इस रणनीतिक जलमार्ग से गुज़रने के लिए ईरानी अधिकारियों से समन्वय ज़रूरी है।\n\nइस घटना से खाड़ी क्षेत्र में जहाज़रानी की सुरक्षा को लेकर नई चिंता बढ़ गई है। होर्मुज़ जलडमरूमध्य से दुनिया के समुद्री तेल का बड़ा हिस्सा गुज़रता है, इसलिए वहाँ कोई भी बाधा ऊर्जा बाज़ारों की नज़र में रहती है।",
+   "body_en": "Traffic was temporarily suspended over the Crimean Bridge after another attack, Sergei Aksyonov, Crimea's Russian-installed governor, said on Telegram, adding that an assessment of the damage was under way. The attack is the third this week on the bridge.\n\nEarlier this week, on November 17, Ukrainian drones and missiles destroyed the central road section of the bridge, forcing part of it to crumble into the sea. The 19-kilometre bridge connects mainland Russia with Crimea, which Russia annexed in 2014, and is a key supply route for Russian forces as well as a symbol of President Vladimir Putin's rule.",
+   "body_hi": "रूस के कब्ज़े वाले क्रीमिया के प्रमुख सर्गेई अक्स्योनोव ने कहा है कि क्रीमिया पुल पर एक और हमले के बाद यातायात अस्थायी रूप से रोक दिया गया है और नुकसान का आकलन किया जा रहा है। यह एक हफ़्ते में पुल पर तीसरा हमला है।\n\nइससे पहले 17 नवंबर को यूक्रेनी ड्रोन और मिसाइलों ने पुल के सड़क वाले हिस्से को भारी नुकसान पहुँचाया था, जिससे उसका एक हिस्सा समुद्र में गिर गया था। 19 किलोमीटर लंबा यह पुल रूस की मुख्य भूमि को क्रीमिया से जोड़ता है और रूसी सेना के लिए अहम आपूर्ति मार्ग है।",
    "cat": "duniya",
-   "id": "2026-11-19-09-duniya-2",
-   "img": "https://jarayid.com/_next/image?url=https%3A%2F%2Fi.arabi21.com%2Farabi21%2F1200x630%2F820211102230637.jpg&w=3840&q=75",
-   "source": "NDTV",
-   "source_url": "https://www.ndtv.com/world-news?page=7",
+   "id": "2026-11-19-13-duniya-2",
+   "img": "https://assets.maestronewsroom.com/media/30f6532d-717b-4366-9158-9c455299fcd9/1795047044307-b42af12ce67ed42a.jpg",
+   "source": "Arab News",
+   "source_url": "https://www.arabnews.com/world/third-attack-in-a-week-suspends-traffic-over-crimean-bridge-russian-official-says-3012816",
    "tags": [
-    "#Hormuz",
-    "#OilTanker",
-    "#Iran",
+    "#CrimeaBridge",
+    "#Ukraine",
     "#WorldNews"
    ],
-   "title_en": "Three oil tankers catch fire after hitting mines east of Strait of Hormuz",
-   "title_hi": "होर्मुज़ जलडमरूमध्य के पास खदान से टकराकर तीन तेल टैंकरों में आग लगी",
-   "page": "khabar/2026-11-19-09-duniya-2.html"
+   "title_en": "Third attack in a week suspends traffic over Crimean Bridge",
+   "title_hi": "क्रीमिया पुल पर एक हफ़्ते में तीसरा हमला, यातायात अस्थायी रूप से बंद",
+   "page": "khabar/2026-11-19-13-duniya-2.html"
   },
   {
-   "body_en": "Bangladesh has deployed hundreds of paramilitary troops across the country as unrest grows over the planned return of former Prime Minister Sheikh Hasina. Security has been stepped up nationwide, with forces on alert in major towns.\n\nA petrol bomb killed an activist in the former prime minister's hometown, and 37 branches of Grameen Bank were targeted in arson attacks. Authorities say they are monitoring the situation closely as tensions continue.",
-   "body_hi": "पूर्व प्रधानमंत्री शेख हसीना की वापसी की योजना को लेकर बढ़ती अशांति के बीच बांग्लादेश ने देशभर में सैकड़ों अर्धसैनिक जवान तैनात कर दिए हैं। प्रमुख शहरों में सुरक्षा बढ़ा दी गई है और बल अलर्ट पर हैं।\n\nपूर्व प्रधानमंत्री के गृहनगर में पेट्रोल बम से एक कार्यकर्ता की मौत हो गई, जबकि ग्रामीण बैंक की 37 शाखाओं को आगज़नी का निशाना बनाया गया। अधिकारी कहते हैं कि तनाव जारी रहने के बीच हालात पर कड़ी नज़र रखी जा रही है।",
-   "cat": "duniya",
-   "id": "2026-11-19-09-duniya-3",
-   "img": "https://image.bastillepost.com/1200x/wp-content/uploads/global/2025/11/9a49d8d71b633da22fe7e87de3d39ee7_Bangladesh_Politics_18218.jpg.webp",
-   "source": "Dawn",
-   "source_url": "https://www.dawn.com/newspaper/international",
-   "tags": [
-    "#Bangladesh",
-    "#Hasina",
-    "#Dhaka",
-    "#WorldNews"
-   ],
-   "title_en": "Bangladesh deploys paramilitary as unrest grows over Hasina's return",
-   "title_hi": "हसीना की वापसी पर बढ़ती अशांति के बीच बांग्लादेश में अर्धसैनिक बल तैनात",
-   "page": "khabar/2026-11-19-09-duniya-3.html"
-  },
-  {
-   "body_en": "India made a strong start on the opening day of the first Test against New Zealand at the Basin Reserve in Wellington. Captain Shubman Gill won the toss and chose to bowl first, and the pace attack reduced the hosts to 60 for 4 by lunch.\n\nJasprit Bumrah led the way with three wickets, including captain Tom Latham for a duck with his third ball of the match. Henry Nicholls and Glenn Phillips then fought back with an unbeaten stand, taking New Zealand to 140 for 5 at tea, with Nicholls on 66 and Phillips on 42.",
-   "body_hi": "वेलिंगटन के बेसिन रिज़र्व में न्यूज़ीलैंड के खिलाफ पहले टेस्ट के पहले दिन भारत ने मज़बूत शुरुआत की। कप्तान शुभमन गिल ने टॉस जीतकर पहले गेंदबाज़ी चुनी और तेज़ गेंदबाज़ों ने मेज़बान टीम को लंच तक 60 रन पर 4 विकेट पर ला दिया।\n\nजसप्रीत बुमराह ने तीन विकेट लेकर अगुवाई की, जिनमें कप्तान टॉम लैथम का मैच की तीसरी ही गेंद पर शून्य पर विकेट भी शामिल है। इसके बाद हेनरी निकोल्स और ग्लेन फ़िलिप्स ने नाबाद साझेदारी से पलटवार किया और चाय तक न्यूज़ीलैंड को 140 रन पर 5 विकेट तक पहुँचा दिया — निकोल्स 66 और फ़िलिप्स 42 रन पर नाबाद हैं।",
+   "body_en": "Mahendra Singh Dhoni has retired from the Indian Premier League as a player. Chennai Super Kings announced on November 17 that the 45-year-old will take over as the team's mentor from the 2027 season. The announcement came on the deadline day for the IPL 2027 retentions.\n\nDhoni had been associated with CSK since the tournament's first season in 2008 and led the franchise to five IPL titles. He missed the entire 2026 season due to a calf injury and has battled a recurring knee issue since 2023. CSK owner Rupa Gurunath revealed that Dhoni conveyed his decision during a video call on player retentions, quietly saying his name should be added to the list of released players.",
+   "body_hi": "महेंद्र सिंह धोनी ने IPL में खिलाड़ी के तौर पर अपने करियर को अलविदा कह दिया है। चेन्नई सुपर किंग्स ने 17 नवंबर को घोषणा की कि 45 वर्षीय धोनी 2027 सीज़न से टीम के मेंटर की भूमिका निभाएँगे। यह घोषणा IPL 2027 की रिटेंशन सूची की आख़िरी तारीख़ पर हुई।\n\nधोनी 2008 के पहले सीज़न से CSK से जुड़े थे और उन्होंने टीम को पाँच IPL ख़िताब दिलाए। पिंडली की चोट के कारण वे पूरा 2026 सीज़न नहीं खेल पाए थे। CSK की मालकिन रूपा गुरुनाथ ने बताया कि रिटेंशन पर हुई एक वीडियो कॉल में धोनी ने ख़ुद कहा था कि रिलीज़ सूची में उनका नाम भी जोड़ दिया जाए।",
    "cat": "khel",
-   "id": "2026-11-19-09-khel-1",
-   "img": "https://im.rediff.com/1200-630/cricket/2026/nov/19nicholls1.jpg",
-   "source": "Rediff",
-   "source_url": "https://www.rediff.com/cricket/report/india-vs-new-zealand-1st-test-day-1-report-bumrah-strikes-early/20261119.htm",
+   "id": "2026-11-19-13-khel-1",
+   "img": "https://th-i.thgim.com/public/incoming/bfu44z/article71711226.ece/alternates/LANDSCAPE_1200/4871_23_3_2026_8_31_1_1_RSR_8622.JPG",
+   "source": "The Hindu",
+   "source_url": "https://www.thehindu.com/sport/cricket/chennai-super-kings-ms-dhoni-team-mentor-retire-nov-17-2026/article71711142.ece",
    "tags": [
-    "#INDvsNZ",
-    "#Bumrah",
-    "#WellingtonTest",
+    "#Dhoni",
+    "#CSK",
     "#TaazaKhabar"
    ],
-   "title_en": "Wellington Test, Day 1: Bumrah's three wickets put India on top, New Zealand 140/5 at tea",
-   "title_hi": "वेलिंगटन टेस्ट, पहला दिन: बुमराह के तीन विकेटों से भारत आगे, चाय तक न्यूज़ीलैंड 140/5",
-   "page": "khabar/2026-11-19-09-khel-1.html"
+   "title_en": "Dhoni retires from IPL as player, to become CSK mentor",
+   "title_hi": "धोनी ने IPL से खेल के तौर पर संन्यास लिया, अब CSK के मेंटर बनेंगे",
+   "page": "khabar/2026-11-19-13-khel-1.html"
   },
   {
-   "body_en": "Jay Shah has been re-elected unopposed as chairman of the International Cricket Council for a second two-year term after the ICC Board meetings in Bali. His re-election keeps an Indian at the helm of world cricket's governing body.\n\nThe ICC Board also confirmed India as host of the 2029 Champions Trophy from October 9 to 28, and as co-host of the 2031 ODI World Cup with Bangladesh. England will stage the 2029 and 2031 World Test Championship finals.",
-   "body_hi": "जय शाह बाली में हुई आईसीसी बोर्ड की बैठकों के बाद सर्वसम्मति से दूसरे दो साल के कार्यकाल के लिए अंतरराष्ट्रीय क्रिकेट परिषद के अध्यक्ष फिर चुने गए हैं। उनके फिर चुने जाने से विश्व क्रिकेट की सर्वोच्च संस्था की कमान भारतीय के हाथों में बनी रहेगी।\n\nआईसीसी बोर्ड ने यह भी पुष्टि की है कि भारत 9 से 28 अक्टूबर 2029 तक चैंपियंस ट्रॉफ़ी की मेज़बानी करेगा और बांग्लादेश के साथ मिलकर 2031 वनडे विश्व कप की सह-मेज़बानी करेगा। इंग्लैंड 2029 और 2031 विश्व टेस्ट चैंपियनशिप फ़ाइनल की मेज़बानी करेगा।",
+   "body_en": "New Zealand captain Tom Latham was dismissed for a duck off Jasprit Bumrah on Day 1 of the first Test at Basin Reserve, Wellington. It was his 15th duck as a Test opener, drawing him level with former India batter Virender Sehwag on that unwanted tally.\n\nLatham faced just two deliveries before Bumrah had him caught off the third ball of the first over. With 15 ducks as a Test opener, he now sits alongside Sehwag in third place on the all-time list. New Zealand ended the opening day on 243 for 5.",
+   "body_hi": "न्यूज़ीलैंड के कप्तान टॉम लैथम वेलिंगटन टेस्ट के पहले दिन जसप्रीत बुमराह की गेंद पर शून्य पर आउट हो गए। यह टेस्ट ओपनर के तौर पर उनका 15वाँ शून्य था, जिससे उन्होंने वीरेंद्र सहवाग के रिकॉर्ड की बराबरी कर ली।\n\nलैथम पहली ही ओवर की तीसरी गेंद पर आउट हुए, जब उन्होंने सिर्फ़ दो गेंदें खेली थीं। इस अनचाहे रिकॉर्ड में वे सहवाग के साथ संयुक्त रूप से तीसरे स्थान पर आ गए हैं। मैच में न्यूज़ीलैंड ने पहले दिन का खेल 243/5 पर समाप्त किया।",
    "cat": "khel",
-   "id": "2026-11-19-09-khel-2",
-   "img": "https://ddindia.co.in/wp-content/uploads/2025/01/GettyImages-2188384005.jpg",
-   "source": "FreeJobAlert",
-   "source_url": "https://user.freejobalert.com/current-affairs",
+   "id": "2026-11-19-13-khel-2",
+   "img": "https://media.crictracker.com/media/attachments/1795041610866_Shubman-Gill-and-Tom-Latham.jpeg",
+   "source": "CricTracker",
+   "source_url": "https://www.crictracker.com/cricket-news/tom-latham-equals-virender-sehwag-in-ducks-tally-as-test-opener-after-wellington-dismissal-4787/",
    "tags": [
-    "#JayShah",
-    "#ICC",
-    "#ChampionsTrophy",
+    "#Latham",
+    "#INDvNZ",
     "#TaazaKhabar"
    ],
-   "title_en": "Jay Shah re-elected ICC chairman; India to host 2029 Champions Trophy, co-host 2031 World Cup",
-   "title_hi": "जय शाह फिर बने आईसीसी अध्यक्ष; भारत 2029 चैंपियंस ट्रॉफ़ी का मेज़बान, 2031 विश्व कप का सह-मेज़बान",
-   "page": "khabar/2026-11-19-09-khel-2.html"
+   "title_en": "Latham equals Sehwag: 15th duck as a Test opener",
+   "title_hi": "लैथम ने सहवाग की बराबरी की: टेस्ट ओपनर के तौर पर 15वाँ शून्य",
+   "page": "khabar/2026-11-19-13-khel-2.html"
   },
   {
-   "body_en": "Indian equity markets are set for a weak start on Thursday after both benchmark indices fell on Wednesday, ending a two-day run of gains. The Sensex declined 500.38 points, or 0.61 per cent, to close at 82,031.81, while the Nifty 50 fell 159.45 points, or 0.63 per cent, to 25,227.95.\n\nGIFT Nifty was trading near 25,149 to 25,164, pointing to a lower opening. Global cues are mixed: minutes of the US Federal Reserve's October meeting suggest further interest-rate increases may be needed, and AI company Anthropic has priced its IPO at $83 a share, valuing it at about $1.5 trillion.",
-   "body_hi": "बुधवार को दोनों प्रमुख सूचकांकों के गिरने के बाद गुरुवार को भारतीय शेयर बाज़ार की शुरुआत कमज़ोर रहने के संकेत हैं। सेंसेक्स 500.38 अंक यानी 0.61 प्रतिशत गिरकर 82,031.81 पर बंद हुआ, जबकि निफ़्टी 50 159.45 अंक यानी 0.63 प्रतिशत गिरकर 25,227.95 पर रहा।\n\nगिफ़्ट निफ़्टी 25,149 से 25,164 के आसपास था, जो निचली शुरुआत का संकेत देता है। वैश्विक संकेत मिले-जुले हैं: अमेरिकी फ़ेडरल रिज़र्व की अक्टूबर बैठक के ब्योरे से लगता है कि आगे ब्याज़ दरें और बढ़ सकती हैं, और एआई कंपनी एंथ्रॉपिक ने अपने आईपीओ का दाम 83 डॉलर प्रति शेयर तय किया है, जिससे उसका मूल्यांकन करीब 1.5 ट्रिलियन डॉलर बैठता है।",
+   "body_en": "Indian equity benchmarks began Thursday's session on a weak note. The Sensex opened at 82,074.16 and the Nifty at 25,186.80, and both slipped in early trade as IT stocks dragged — the Sensex shedding about 230 points and the Nifty 78 points — after hawkish signals from the minutes of the US Federal Reserve meeting and a stronger dollar dampened risk appetite.\n\nThe market recovered before midday, with auto stocks leading the rally: the Sensex climbed 408 points to 82,439.94 and the Nifty rose 129 points to 25,357.30 by 11.58 am. Infosys fell 2.49 per cent, while foreign institutional investors had bought equities worth Rs 5,866.78 crore on Wednesday.",
+   "body_hi": "गुरुवार को भारतीय शेयर बाज़ार की शुरुआत कमज़ोर रही। सेंसेक्स 82,074.16 पर और निफ़्टी 25,186.80 पर खुले, और सुबह के कारोबार में IT शेयरों के दबाव में दोनों सूचकांक गिर गए — सेंसेक्स करीब 230 अंक और निफ़्टी 78 अंक नीचे आ गए। अमेरिकी फ़ेडरल रिज़र्व की बैठक के ब्योरे से ब्याज दरों को लेकर सख़्त संकेत मिले थे।\n\nहालाँकि दोपहर से पहले बाज़ार संभल गया और ऑटो शेयरों की अगुवाई में सेंसेक्स 408 अंक चढ़कर 82,439.94 और निफ़्टी 129 अंक बढ़कर 25,357.30 पर पहुँच गए। इन्फोसिस 2.49 प्रतिशत गिरा, जबकि विदेशी संस्थागत निवेशकों ने बुधवार को 5,866.78 करोड़ रुपये के शेयर खरीदे थे।",
    "cat": "vyapar",
-   "id": "2026-11-19-09-vyapar-1",
-   "img": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-309578,resizemode-75,msid-67597755/wealth/invest/lesson-from-2018-is-that-valuations-matter-nimesh-shah.jpg",
-   "source": "NDTV Profit",
-   "source_url": "https://www.ndtvprofit.com/markets/stock-market-today-all-you-need-to-know-going-into-trade-on-nov-19-12346130/amp/1",
+   "id": "2026-11-19-13-vyapar-1",
+   "img": "https://bl-i.thgim.com/public/incoming/l7uvfz/article71717176.ece/alternates/LANDSCAPE_1200/stock%20market%20graph.jpg",
+   "source": "The Hindu BusinessLine",
+   "source_url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-19th-november-2026/article71717151.ece",
    "tags": [
     "#Sensex",
     "#Nifty",
-    "#ShareBazaar",
     "#TaazaKhabar"
    ],
-   "title_en": "Sensex, Nifty end lower; GIFT Nifty signals weak opening as Fed minutes, Anthropic IPO weigh",
-   "title_hi": "सेंसेक्स-निफ़्टी गिरकर बंद, गिफ़्ट निफ़्टी से कमज़ोर शुरुआत के संकेत; फ़ेड ब्योरा और एंथ्रॉपिक आईपीओ चर्चा में",
-   "page": "khabar/2026-11-19-09-vyapar-1.html"
+   "title_en": "Sensex, Nifty open weak then recover on auto stocks; IT shares drag",
+   "title_hi": "सेंसेक्स-निफ़्टी कमज़ोर खुले, फिर ऑटो शेयरों के दम पर संभले; IT शेयरों पर दबाव",
+   "page": "khabar/2026-11-19-13-vyapar-1.html"
   },
   {
-   "body_en": "SpiceJet's board has approved a proposal to raise up to Rs 5,500 crore to strengthen the airline's financial position. The funds are meant to rebuild capacity and support the carrier's revival plans.\n\nThe decision comes as the airline works to expand its fleet and steady its operations. The board's approval is the first step, and the fundraising plan will now move ahead in line with market conditions and regulatory requirements.",
-   "body_hi": "स्पाइसजेट के बोर्ड ने एयरलाइन की वित्तीय स्थिति मज़बूत करने के लिए 5,500 करोड़ रुपये तक जुटाने के प्रस्ताव को मंज़ूरी दे दी है। यह रकम क्षमता फिर से बढ़ाने और कंपनी की पुनरुद्धार योजनाओं को सहारा देने के लिए है।\n\nयह फ़ैसला ऐसे समय आया है जब एयरलाइन अपने बेड़े के विस्तार और संचालन को स्थिर करने पर काम कर रही है। बोर्ड की मंज़ूरी पहला कदम है, और धन जुटाने की योजना अब बाज़ार की स्थिति व नियामकीय ज़रूरतों के अनुसार आगे बढ़ेगी।",
+   "body_en": "Artificial intelligence company Anthropic has made a blockbuster $81.3 billion public market debut, overtaking SpaceX's record to become the largest IPO in market history. Anthropic priced its much-anticipated IPO at $83 a share, giving the company a market value of around $1.5 trillion.\n\nThe debut has sparked discussion in India too — Uday Kotak said Anthropic's rise to a $1.5 trillion valuation puts Indian companies' competitiveness in focus.",
+   "body_hi": "आर्टिफ़िशियल इंटेलिजेंस कंपनी एंथ्रॉपिक ने 81.3 अरब डॉलर के पब्लिक मार्केट डेब्यू के साथ स्पेसएक्स का रिकॉर्ड तोड़ दिया है। यह अब तक का सबसे बड़ा IPO बन गया है। कंपनी के शेयर 83 डॉलर प्रति शेयर के भाव पर जारी हुए, जिससे उसका बाज़ार मूल्य करीब 1.5 ट्रिलियन डॉलर आँका गया।\n\nएंथ्रॉपिक के इस बड़े डेब्यू पर भारतीय उद्योग जगत में भी चर्चा है — कोटक महिंद्रा बैंक के उदय कोटक ने कहा कि कंपनी का 1.5 ट्रिलियन डॉलर तक पहुँचना भारतीय कंपनियों की प्रतिस्पर्धा क्षमता पर सवाल खड़े करता है।",
    "cat": "vyapar",
-   "id": "2026-11-19-09-vyapar-2",
-   "img": "https://www.agniban.com/wp-content/uploads/2021/03/spicejet-1.jpg",
-   "source": "The Hindu BusinessLine",
-   "source_url": "https://www.thehindubusinessline.com/multimedia/audio/bl-morning-report-november-19-2026/article71715810.ece",
+   "id": "2026-11-19-13-vyapar-2",
+   "img": "https://cdn.aitimes.com/news/photo/202611/216932_221101_2015.jpg",
+   "source": "Business Today",
+   "source_url": "https://www.businesstoday.in/latest",
    "tags": [
-    "#SpiceJet",
-    "#Aviation",
-    "#Vyapar",
+    "#Anthropic",
+    "#IPO",
     "#TaazaKhabar"
    ],
-   "title_en": "SpiceJet board approves raising up to Rs 5,500 crore to fund revival",
-   "title_hi": "स्पाइसजेट बोर्ड ने पुनरुद्धार के लिए 5,500 करोड़ रुपये जुटाने को मंज़ूरी दी",
-   "page": "khabar/2026-11-19-09-vyapar-2.html"
+   "title_en": "Anthropic's $81.3 billion IPO smashes SpaceX's market debut record",
+   "title_hi": "एंथ्रॉपिक का 81.3 अरब डॉलर का IPO: स्पेसएक्स का रिकॉर्ड टूटा",
+   "page": "khabar/2026-11-19-13-vyapar-2.html"
+  },
+  {
+   "body_en": "After a 13-year wait, Grand Theft Auto VI launched worldwide on Thursday. The game went live first in New Zealand at midnight local time and is rolling out around the world as each market reaches midnight. The first reviews have been glowing, with critics calling it a 'masterpiece', a 'knockout' and 'revolutionary'.\n\nReview aggregator Metacritic gave the game a score of 99 out of 100 — a mark previously matched by only one other title, Nintendo's 1998 classic 'The Legend of Zelda: Ocarina of Time'. Analysts estimate GTA VI could generate $3.2 billion in sales by the end of the year, and the game received eight nominations at The Game Awards, which takes place on December 10.",
+   "body_hi": "13 साल के इंतज़ार के बाद Grand Theft Auto VI आज दुनियाभर में लॉन्च हो गया। यह खेल सबसे पहले न्यूज़ीलैंड में आधी रात को उपलब्ध हुआ और फिर दुनिया के हर बाज़ार में घड़ी के हिसाब से जारी हो रहा है। पहले समीक्षाओं में इसे 'मास्टरपीस', 'नॉकआउट' और 'क्रांतिकारी' कहा गया है।\n\nसमीक्षाओं के एग्रीगेटर Metacritic पर खेल को 99/100 अंक मिले हैं — यह उपलब्धि इससे पहले सिर्फ़ 1998 के 'द लीजेंड ऑफ़ ज़ेल्डा: ओकारिना ऑफ़ टाइम' ने हासिल की थी। विश्लेषकों का अनुमान है कि यह खेल साल के अंत तक 3.2 अरब डॉलर की बिक्री कर सकता है, और इसे द गेम अवॉर्ड्स में आठ नामांकन मिले हैं।",
+   "cat": "khaas",
+   "id": "2026-11-19-13-khaas-1",
+   "img": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-11-19/wjf2cdn4/http___doc_afp_com_D7XB6YH.jpeg?width=1200&height=630&q=60&format=auto&ogImage=true&",
+   "source": "Khaleej Times",
+   "source_url": "https://www.khaleejtimes.com/entertainment/gaming/gta-6-launch-near-perfect-reviews-from-gamers-gameplay?amp=1",
+   "tags": [
+    "#GTAVI",
+    "#Gaming",
+    "#TaazaKhabar"
+   ],
+   "title_en": "GTA VI launches worldwide to near-perfect reviews, Metacritic 99/100",
+   "title_hi": "GTA VI दुनियाभर में लॉन्च, Metacritic पर 99/100 — आलोचकों ने कहा 'मास्टरपीस'",
+   "page": "khabar/2026-11-19-13-khaas-1.html"
   }
  ]
 }
