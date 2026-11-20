@@ -1,168 +1,186 @@
 {
- "edition": "शुक्रवार, 20 नवंबर 2026 — शाम 5 बजे",
- "updated_at": "2026-11-20T17:00:00+05:30",
+ "edition": "शुक्रवार, 20 नवंबर 2026 — रात 9 बजे",
+ "updated_at": "2026-11-20T21:00:00+05:30",
  "stories": [
   {
-   "body_en": "Indian national Nikhil Gupta is scheduled to be sentenced in a US court on Friday in connection with the alleged plot to assassinate Khalistani separatist Gurpatwant Singh Pannun. Pannun is also expected to be present at the hearing.\n\nThe case has been a talking point in India-US relations for a long time, and today's hearing is being closely watched in both countries.",
-   "body_hi": "भारतीय नागरिक निखिल गुप्ता की सज़ा पर आज अमेरिका की एक अदालत में सुनवाई होनी है। उन पर खालिस्तानी अलगाववादी गुरपतवंत सिंह पन्नून की हत्या की कथित साज़िश रचने का आरोप है। सुनवाई में पन्नून के भी मौजूद रहने की उम्मीद है।\n\nयह मामला भारत-अमेरिका संबंधों में लंबे समय से चर्चा का विषय बना हुआ है, और आज की सुनवाई पर दोनों देशों की नज़रें टिकी हैं।",
+   "body_en": "Cyclonic storm Akvan made landfall on the north Andhra Pradesh–south Odisha coast early on Friday. According to the weather department, the storm crossed the coast near Gopalpur between 7:30 and 8:30 in the morning and then weakened into a deep depression.\n\nMore than three lakh people in Odisha had already been moved to safe locations, and 9,341 shelters were readied in the affected districts. As many as 47 trains were cancelled. So far there are no reports of major damage or loss of life.",
+   "body_hi": "चक्रवाती तूफान अक्वान शुक्रवार सुबह उत्तरी आंध्र प्रदेश और दक्षिण ओडिशा के तट से टकराया। मौसम विभाग के मुताबिक तूफान सुबह साढ़े सात से साढ़े आठ बजे के बीच गोपालपुर के पास तट से गुज़रा और उसके बाद कमज़ोर पड़कर गहरे दबाव (डीप डिप्रेशन) में बदल गया।\n\nओडिशा में तीन लाख से ज़्यादा लोगों को पहले ही सुरक्षित स्थानों पर पहुँचा दिया गया था और प्रभावित ज़िलों में 9,341 आश्रय शिविर तैयार किए गए थे। 47 ट्रेनें रद्द करनी पड़ीं। अब तक बड़े नुकसान या जान-माल की हानि की कोई खबर नहीं है।",
    "cat": "bharat",
-   "id": "2026-11-20-17-bharat-1",
-   "img": "https://im.rediff.com/1200-630/news/2024/jun/18nikhil-gupta1.jpg",
-   "source": "The Indian Express",
-   "source_url": "https://indianexpress.com/article/india/today-india-breaking-news-live-updates-20-november-2026-gangster-naseem-durrani-encounter-delhi-aqi-cyclone-akvan-nikhil-gupta-sentencing-accident-pollution-south-weather-odisha-chennai-10970814/",
+   "id": "2026-11-20-21-bharat-1",
+   "img": "https://cf-images.assettype.com/outlookindia/2026-11-20/lgp46fvo/14287813841794658674.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+   "source": "Outlook India",
+   "source_url": "https://www.outlookindia.com/national/breaking-news-india-world-live-updates-20-november-2026-cyclone-akvan-rajasthan-bhilwara-zp-panchayat-election-results",
    "tags": [
-    "#NikhilGupta",
-    "#PannunCase",
-    "#USCourt",
+    "#CycloneAkvan",
+    "#Odisha",
+    "#IMD",
     "#TaazaKhabar"
    ],
-   "title_en": "Nikhil Gupta sentencing hearing in US court today; Pannun expected to attend",
-   "title_hi": "अमेरिका में निखिल गुप्ता की सज़ा पर आज सुनवाई, पन्नून भी रहेंगे मौजूद",
-   "page": "khabar/2026-11-20-17-bharat-1.html"
+   "title_en": "Cyclone Akvan makes landfall near Gopalpur; over 3 lakh people moved to safety in Odisha",
+   "title_hi": "चक्रवात अक्वान ओडिशा तट से टकराया, 3 लाख लोग सुरक्षित जगहों पर पहुँचाए गए",
+   "page": "khabar/2026-11-20-21-bharat-1.html"
   },
   {
-   "body_en": "A two-and-a-half-year-old female cheetah brought from Botswana, KOMG 3, has given birth to four healthy cubs in the wild at Madhya Pradesh's Kuno National Park. All four cubs are reported to be healthy.\n\nWith this, India's total cheetah population has risen to 62, including 43 born in India. Union Environment Minister Bhupender Yadav called it a landmark moment for Project Cheetah, while Madhya Pradesh Chief Minister Mohan Yadav also congratulated the team.",
-   "body_hi": "बोत्सवाना से लाई गई ढाई साल की मादा चीता KOMG 3 ने मध्य प्रदेश के कूनो राष्ट्रीय उद्यान के जंगल में चार स्वस्थ शावकों को जन्म दिया है। चारों शावक स्वस्थ बताए गए हैं।\n\nइसके साथ भारत में चीतों की कुल संख्या 62 हो गई है, जिनमें 43 का जन्म भारत में हुआ है। केंद्रीय पर्यावरण मंत्री भूपेंद्र यादव ने इसे प्रोजेक्ट चीता के लिए ऐतिहासिक उपलब्धि बताया, जबकि मध्य प्रदेश के मुख्यमंत्री मोहन यादव ने भी बधाई दी।",
+   "body_en": "Prime Minister Narendra Modi inaugurated the first Shanghai Cooperation Organisation (SCO) Civilisational Dialogue Forum at the historic Purana Qila in New Delhi on Friday evening. The three-day forum, running from November 20 to 22, brings together scholars and cultural representatives from all 10 member states.\n\nPakistan's climate change minister Musadik Masood Malik arrived in Delhi for the forum, becoming the first Pakistani leader to visit India in more than three years. His visit has drawn criticism from the Congress.",
+   "body_hi": "प्रधानमंत्री नरेंद्र मोदी ने शुक्रवार शाम दिल्ली के ऐतिहासिक पुराना क़िला में पहले शंघाई सहयोग संगठन (एससीओ) सभ्यता संवाद मंच का उद्घाटन किया। 20 से 22 नवंबर तक चलने वाले इस तीन दिवसीय मंच में सभी 10 सदस्य देशों के विद्वान और सांस्कृतिक प्रतिनिधि शामिल हो रहे हैं।\n\nपाकिस्तान के जलवायु परिवर्तन मंत्री मुसादिक मसूद मलिक इस मंच के लिए दिल्ली पहुँचे — तीन साल से ज़्यादा समय में भारत आने वाले पहले पाकिस्तानी नेता। उनकी यात्रा पर कांग्रेस ने सरकार पर सवाल भी उठाए हैं।",
    "cat": "bharat",
-   "id": "2026-11-20-17-bharat-2",
-   "img": "https://images.indianexpress.com/2026/11/cheetah_5b99f6.jpg",
-   "source": "The Indian Express",
-   "source_url": "https://indianexpress.com/article/india/cheetah-from-botswana-is-kunos-latest-mom-4-cubs-take-indias-population-to-62-10971264/",
+   "id": "2026-11-20-21-bharat-2",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/4/41/Purana_Qila.jpg",
+   "source": "Outlook India",
+   "source_url": "https://www.outlookindia.com/national/breaking-news-india-world-live-updates-20-november-2026-cyclone-akvan-rajasthan-bhilwara-zp-panchayat-election-results",
    "tags": [
-    "#ProjectCheetah",
-    "#Kuno",
-    "#CheetahCubs",
+    "#SCOForum",
+    "#PuranaQila",
+    "#PMModi",
     "#TaazaKhabar"
    ],
-   "title_en": "Four cubs born to Botswana cheetah at Kuno; India's cheetah count rises to 62",
-   "title_hi": "कूनो में खुशखबरी: बोत्सवाना की चीता ने दिए चार शावक, भारत में चीतों की संख्या 62 हुई",
-   "page": "khabar/2026-11-20-17-bharat-2.html"
+   "title_en": "PM Modi inaugurates first SCO Civilisational Dialogue Forum at Purana Qila; Pakistan minister in Delhi",
+   "title_hi": "पुराना क़िला में एससीओ सभ्यता संवाद मंच का उद्घाटन, पाकिस्तान के मंत्री भी दिल्ली पहुँचे",
+   "page": "khabar/2026-11-20-21-bharat-2.html"
   },
   {
-   "body_en": "Savitri Devi, the mother of Uttar Pradesh Chief Minister Yogi Adityanath, died at the age of 91 at her ancestral home in Panchur village in Uttarakhand's Pauri Garhwal district on Friday morning. Her brother Mahendra said she had been having breathing difficulties and breathed her last at around 11.50 am.\n\nDespite receiving the news of his mother's death, the Chief Minister completed his engagements in Gorakhpur on Friday. Prime Minister Narendra Modi spoke to him on the phone and offered condolences. The last rites are likely to take place in Haridwar on Saturday.",
-   "body_hi": "उत्तर प्रदेश के मुख्यमंत्री योगी आदित्यनाथ की माँ सावित्री देवी का शुक्रवार सुबह उत्तराखंड के पौड़ी गढ़वाल ज़िले के पंचूर गाँव स्थित पैतृक घर में निधन हो गया। वे 91 वर्ष की थीं। भाई महेंद्र ने बताया कि उन्हें साँस लेने में तकलीफ़ थी और सुबह करीब 11:50 बजे उन्होंने अंतिम साँस ली।\n\nमाँ के निधन की खबर मिलने के बावजूद मुख्यमंत्री ने गोरखपुर में अपना कार्यक्रम पूरा किया। प्रधानमंत्री नरेंद्र मोदी ने फोन पर शोक जताया। अंतिम संस्कार शनिवार को हरिद्वार में होने की संभावना है।",
+   "body_en": "The Congress put up a strong showing in Rajasthan's panchayati raj elections, winning 14 of the 22 panchayat samitis in Jaipur district. The BJP managed majorities only in Chomu and Sambhar.\n\nFormer chief minister Ashok Gehlot said the results reflect growing public dissatisfaction with the BJP government in rural areas. Counting for zila parishad and panchayat samiti seats across the state is under way.",
+   "body_hi": "राजस्थान पंचायती राज चुनावों की गिनती में कांग्रेस ने जयपुर ज़िले में मज़बूत प्रदर्शन किया है। पार्टी ने ज़िले की 22 पंचायत समितियों में से 14 पर जीत हासिल की, जबकि भाजपा को चोमू और सांभर में ही बहुमत मिला।\n\nपूर्व मुख्यमंत्री अशोक गहलोत ने कहा कि नतीजे ग्रामीण इलाकों में भाजपा सरकार के प्रति बढ़ती नाराज़गी को दिखाते हैं। राज्य भर में ज़िला परिषद और पंचायत समितियों की गिनती जारी है।",
    "cat": "bharat",
-   "id": "2026-11-20-17-bharat-3",
-   "img": "https://akm-img-a-in.tosshub.com/aajtak/styles/medium_crop_simple/public/images/story/202205/yogi_adityanath_2.jpg",
-   "source": "The Times of India",
-   "source_url": "https://timesofindia.indiatimes.com/city/dehradun/up-cm-yogi-adityanaths-mother-passes-away-at-91-in-uttarakhands-pauri/articleshow/136017037.cms",
+   "id": "2026-11-20-21-bharat-3",
+   "img": "https://i0.wp.com/www.khaspress.com/wp-content/uploads/2026/05/Rajasthan-Panchayat-Chunav.png?fit=1376%2C768&ssl=1",
+   "source": "Outlook India",
+   "source_url": "https://www.outlookindia.com/national/breaking-news-india-world-live-updates-20-november-2026-cyclone-akvan-rajasthan-bhilwara-zp-panchayat-election-results",
    "tags": [
-    "#SavitriDevi",
-    "#YogiAdityanath",
-    "#Uttarakhand",
+    "#Rajasthan",
+    "#PanchayatElection",
+    "#Congress",
     "#TaazaKhabar"
    ],
-   "title_en": "CM Yogi Adityanath's mother Savitri Devi dies at 91; last rites likely in Haridwar",
-   "title_hi": "सीएम योगी आदित्यनाथ की माँ सावित्री देवी का 91 साल की उम्र में निधन, हरिद्वार में होगा अंतिम संस्कार",
-   "page": "khabar/2026-11-20-17-bharat-3.html"
+   "title_en": "Rajasthan panchayat polls: Congress dominates Jaipur, wins 14 of 22 panchayat samitis",
+   "title_hi": "राजस्थान पंचायत चुनाव: जयपुर में कांग्रेस का दबदबा, 22 में से 14 पंचायत समितियाँ जीतीं",
+   "page": "khabar/2026-11-20-21-bharat-3.html"
   },
   {
-   "body_en": "Just hours after the leaders of the United States, China and Russia met for trilateral talks in Shenzhen, Russia launched a major overnight missile and drone attack on Ukraine. Kyiv said Russia fired at least 100 missiles — an unusually large number — along with around 400 drones.\n\nEight people were killed and at least 28 injured in the attack, according to Ukrainian authorities. Three bridges in Kyiv were damaged and power was knocked out in several regions. Poland said fighter jets were scrambled after its airspace was violated during the attack.",
-   "body_hi": "अमेरिका, चीन और रूस के नेताओं की शेनझेन में त्रिपक्षीय मुलाक़ात के कुछ ही घंटों बाद रूस ने रात में यूक्रेन पर बड़ा मिसाइल और ड्रोन हमला किया। यूक्रेन के अनुसार कम से कम 100 मिसाइलें दागी गईं और करीब 400 ड्रोन भी हमले में शामिल थे।\n\nहमले में आठ लोगों की मौत और कम से कम 28 के घायल होने की खबर है। कीव के तीन पुल क्षतिग्रस्त हुए और कई इलाकों में बिजली गुल हो गई। पोलैंड ने भी अपने हवाई क्षेत्र में उल्लंघन के बाद लड़ाकू विमान उड़ाए।",
+   "body_en": "US President Donald Trump has said he will not make a decision about the next step in the Iran war until the new year, adding that he is not rushing into any decision.\n\nMeanwhile, Senate Republicans blocked a measure directing Trump to end the Iran war or win congressional approval to continue it. The resolution failed by a vote of 51 to 48.",
+   "body_hi": "अमेरिकी राष्ट्रपति डोनाल्ड ट्रंप ने कहा है कि ईरान युद्ध को लेकर अगले क़दम पर वह नए साल से पहले कोई फ़ैसला नहीं लेंगे। उन्होंने कहा कि वह किसी फ़ैसले में जल्दबाज़ी नहीं कर रहे हैं।\n\nइस बीच अमेरिकी सीनेट में रिपब्लिकन सांसदों ने उस प्रस्ताव को रोक दिया, जिसमें ट्रंप को ईरान युद्ध खत्म करने या जारी रखने के लिए कांग्रेस की मंज़ूरी लेने का निर्देश था। प्रस्ताव 51 के मुक़ाबले 48 मतों से गिर गया।",
    "cat": "duniya",
-   "id": "2026-11-20-17-duniya-1",
-   "img": "https://media.cnn.com/api/v1/images/stellar/videothumbnails/64261910-58344095-generated-thumbnail.jpg?c=16x9&q=w_800,c_fill",
-   "source": "CNN",
-   "source_url": "https://www.cnn.com/2026/11/20/europe/russia-ukraine-putin-trump-intl-hnk?cid=external-feeds_iluminar_meta",
+   "id": "2026-11-20-21-duniya-1",
+   "img": "https://www.justsecurity.org/wp-content/uploads/2017/10/GettyImages-73086221-1-e1512768873185.jpg",
+   "source": "Just Security",
+   "source_url": "https://www.justsecurity.org/165471/early-edition-november-20-2026/",
    "tags": [
-    "#RussiaUkraine",
+    "#IranWar",
+    "#Trump",
+    "#USSenate",
+    "#WorldNews"
+   ],
+   "title_en": "Trump puts Iran war decision off until new year; US Senate blocks measure to end war",
+   "title_hi": "ईरान पर फ़ैसला नए साल तक टला, अमेरिकी सीनेट ने युद्ध रोकने का प्रस्ताव खारिज किया",
+   "page": "khabar/2026-11-20-21-duniya-1.html"
+  },
+  {
+   "body_en": "Russia launched overnight strikes on the Ukrainian capital Kyiv, targeting bridges and killing eight people, according to Kyiv Mayor Vitali Klitschko. Twenty-eight people were injured across attacks on nine regions.\n\nPoland's defence minister said Russia violated Polish airspace overnight with three objects, allegedly two missiles and one drone. The incursions came as Poland prepared to hold military exercises with allies of Ukraine.",
+   "body_hi": "रूस ने शुक्रवार रात यूक्रेन की राजधानी कीव पर बड़े हमले किए, जिनमें पुलों को निशाना बनाया गया। कीव के मेयर विताली क्लित्स्को के मुताबिक हमलों में आठ लोगों की मौत हो गई, जबकि नौ क्षेत्रों में 28 लोग घायल हुए।\n\nउधर पोलैंड के रक्षा मंत्री ने कहा कि रूस ने रात में तीन चीज़ों — कथित तौर पर दो मिसाइलों और एक ड्रोन — के साथ पोलैंड के हवाई क्षेत्र का उल्लंघन किया। यह घटना ऐसे समय हुई जब पोलैंड यूक्रेन के सहयोगियों के साथ सैन्य अभ्यास की तैयारी कर रहा था।",
+   "cat": "duniya",
+   "id": "2026-11-20-21-duniya-2",
+   "img": "https://cms.otravo.com/app/uploads/2019/06/Kiev-Oekra%C3%AFne.jpg",
+   "source": "Just Security",
+   "source_url": "https://www.justsecurity.org/165471/early-edition-november-20-2026/",
+   "tags": [
     "#Ukraine",
     "#Kyiv",
+    "#Russia",
     "#WorldNews"
    ],
-   "title_en": "Hours after Shenzhen summit, Russia launches massive strikes on Ukraine with 100-plus missiles",
-   "title_hi": "शिखर सम्मेलन के कुछ घंटे बाद यूक्रेन पर रूस का बड़ा हमला, 100 से ज़्यादा मिसाइलें दागीं",
-   "page": "khabar/2026-11-20-17-duniya-1.html"
+   "title_en": "Russian overnight strikes hit Kyiv bridges, kill 8; Poland reports airspace violation",
+   "title_hi": "कीव पर रूस का रातभर हमला, 8 की मौत; पोलैंड के हवाई क्षेत्र में भी घुसपैठ",
+   "page": "khabar/2026-11-20-21-duniya-2.html"
   },
   {
-   "body_en": "German airline Lufthansa plans to cut 1,000 jobs at its flagship airline as it struggles to turn the unit around. In a letter to employees, the management said the energy shock from the Middle East war and persistently high fuel costs had made the situation worse.\n\nThe cuts will come at the Frankfurt and Munich hubs, amounting to around 2.5 per cent of the roughly 40,000 employees there. The airline lost an average of 20 million euros a month in the first nine months of 2026.",
-   "body_hi": "जर्मनी की एयरलाइन लुफ्थांसा अपनी मुख्य एयरलाइन में 1,000 नौकरियाँ घटाने की तैयारी कर रही है। कर्मचारियों को लिखे पत्र में कहा गया है कि मध्य-पूर्व युद्ध से पैदा हुए ऊर्जा संकट और ईंधन की ऊँची कीमतों ने कंपनी की हालत और बिगाड़ दी है।\n\nये पद फ्रैंकफर्ट और म्यूनिख हब से घटाए जाएँगे, जो वहाँ के करीब 40,000 कर्मचारियों का लगभग ढाई प्रतिशत है। साल के पहले नौ महीनों में एयरलाइन को औसतन हर महीने 20 मिलियन यूरो का घाटा हुआ है।",
-   "cat": "duniya",
-   "id": "2026-11-20-17-duniya-2",
-   "img": "https://www.malaymail.com/malaymail/uploads/images/2026/11/20/375400.webp",
-   "source": "Malay Mail",
-   "source_url": "https://www.malaymail.com/news/money/2026/11/20/lufthansa-to-cut-1000-jobs-as-turnaround-falters-amid-rising-fuel-costs/244119",
-   "tags": [
-    "#Lufthansa",
-    "#Jobs",
-    "#Germany",
-    "#WorldNews"
-   ],
-   "title_en": "Lufthansa to cut 1,000 jobs as high fuel costs deepen flagship airline's losses",
-   "title_hi": "लुफ्थांसा 1,000 नौकरियाँ घटाएगा, ईंधन की महँगाई और घाटे से जूझ रही एयरलाइन",
-   "page": "khabar/2026-11-20-17-duniya-2.html"
-  },
-  {
-   "body_en": "Indian shuttler Lakshya Sen stormed into the semifinals of the Hong Kong Open Super 500 with a three-game win over former world champion Loh Kean Yew of Singapore, 21-17, 10-21, 21-13, on Friday. It is his third successive semifinal on the tour.\n\nIn men's doubles, Satwiksairaj Rankireddy and Chirag Shetty beat China's Hu Ke Yuan and Lin Xiang Yi 21-12, 13-21, 21-16. Meanwhile, Rakshitha Ramraj's dream run in women's singles ended in the quarterfinals with a defeat to Thailand's Pornpawee Chochuwong.",
-   "body_hi": "भारतीय शटलर लक्ष्य सेन ने हांगकांग ओपन सुपर 500 के क्वार्टर फ़ाइनल में सिंगापुर के पूर्व विश्व चैंपियन लोह कीन यू को 21-17, 10-21, 21-13 से हराकर सेमीफ़ाइनल में जगह बनाई। यह उनका लगातार तीसरा सेमीफ़ाइनल है।\n\nपुरुष युगल में सात्विकसाईराज रंकीरेड्डी और चिराग शेट्टी ने चीन की जोड़ी हू के युआन और लिन शियांग यी को 21-12, 13-21, 21-16 से हराया। वहीं रक्षिता रामराज का महिला एकल में शानदार सफ़र क्वार्टर फ़ाइनल में थाईलैंड की पोरनपावी चोचुवोंग से हार के साथ खत्म हुआ।",
+   "body_en": "India bowled New Zealand out for 368 in the first innings of the opening Test in Wellington. Henry Nicholls remained unbeaten on 175, while Glenn Phillips scored 118. Jasprit Bumrah took four wickets and Akash Deep claimed three.\n\nIn reply, India made a solid start, reaching 52 without losing a wicket. The second and final Test begins in Christchurch on November 27.",
+   "body_hi": "वेलिंग्टन में पहले टेस्ट में भारत ने न्यूज़ीलैंड की पहली पारी 368 रन पर समेट दी। हेनरी निकोल्स 175 रन बनाकर नाबाद रहे, जबकि ग्लेन फ़िलिप्स ने 118 रन की पारी खेली। जसप्रीत बुमराह ने 4 विकेट लिए और आकाश दीप को 3 सफलताएँ मिलीं।\n\nजवाब में भारत ने बिना विकेट गंवाए 52 रन बनाकर मज़बूत शुरुआत की है। दूसरा और अंतिम टेस्ट 27 नवंबर से क्राइस्टचर्च में खेला जाएगा।",
    "cat": "khel",
-   "id": "2026-11-20-17-khel-1",
-   "img": "https://www.tribuneindia.com/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9tZWRpYWE3YTM1YzIwLWU0YzQtMTFmMS05NjM3LTViY2YwYzFjMTk4YS5qcGc=",
-   "source": "The Tribune",
-   "source_url": "https://www.tribuneindia.com/news/sports/lakshya-sen-satwik-chirag-enter-semifinals-of-hong-kong-open/",
+   "id": "2026-11-20-21-khel-1",
+   "img": "https://images.mykhel.com/img/2026/11/bumrah-test-vs-nz-16221795145849.jpg",
+   "source": "myKhel",
+   "source_url": "https://www.mykhel.com/news/sports-news-bulletin-november-20-india-bundle-out-kiwis-ms-dhoni-room-opened-rakshitha-stuns-olym-459565.html",
    "tags": [
-    "#HongKongOpen",
-    "#Badminton",
-    "#LakshyaSen",
+    "#INDvsNZ",
+    "#TestCricket",
+    "#Bumrah",
     "#TaazaKhabar"
    ],
-   "title_en": "Hong Kong Open: Lakshya Sen and Satwik-Chirag reach semifinals; Rakshitha's run ends",
-   "title_hi": "हांगकांग ओपन: लक्ष्य सेन और सात्विक-चिराग सेमीफ़ाइनल में, रक्षिता का सफ़र थमा",
-   "page": "khabar/2026-11-20-17-khel-1.html"
+   "title_en": "Wellington Test: India bowl New Zealand out for 368; Nicholls unbeaten on 175, Bumrah takes 4",
+   "title_hi": "वेलिंग्टन टेस्ट: भारत ने न्यूज़ीलैंड को 368 पर समेटा, निकोल्स का नाबाद 175, बुमराह के 4 विकेट",
+   "page": "khabar/2026-11-20-21-khel-1.html"
   },
   {
-   "body_en": "Indian stock markets staged a strong comeback on Friday, erasing the morning's sharp losses. The Sensex closed 897.96 points, or 1.08 per cent, higher at 83,919.71, while the Nifty ended 286.30 points, or 1.12 per cent, higher at 25,800.60.\n\nThe Sensex had fallen as much as 618 points in early trade before buying in IT and banking shares turned the tide. Foreign investors' continued buying also supported the rally, and Bank Nifty crossed 64,600 for the first time ever.",
-   "body_hi": "भारतीय शेयर बाज़ार ने शुक्रवार को दिन की शुरुआती गिरावट से शानदार वापसी की। सेंसेक्स 897.96 अंक यानी 1.08 प्रतिशत चढ़कर 83,919.71 पर बंद हुआ, जबकि निफ़्टी 286.30 अंक यानी 1.12 प्रतिशत चढ़कर 25,800.60 पर बंद हुआ।\n\nसुबह सेंसेक्स 618 अंक तक गिरा था, लेकिन आईटी और बैंक शेयरों में खरीदारी से बाज़ार संभल गया। विदेशी निवेशकों की लगातार खरीदारी ने भी रैली को सहारा दिया, और बैंक निफ़्टी पहली बार 64,600 के पार गया।",
-   "cat": "vyapar",
-   "id": "2026-11-20-17-vyapar-1",
-   "img": "https://images.moneycontrol.com/static-mcnews/2026/11/20261114035749_market_up_higher.jpg",
-   "source": "Moneycontrol",
-   "source_url": "https://www.moneycontrol.com/news/business/markets/sensex-rises-650-pts-from-day-s-low-nifty-reclaims-25-500-key-reasons-behind-sharp-market-reversal-14085422.html/amp",
+   "body_en": "India A staged a superb recovery against Nepal in the Asia Cup Rising Stars match in Doha. The team was in trouble at 42 for 3 before Kumar Kushagra scored 117 off 102 balls and captain Tilak Varma made 107 off 113.\n\nThe pair added 206 runs for the fourth wicket and took the team towards a strong total. The match is an important warm-up ahead of Sunday's game against Pakistan.",
+   "body_hi": "दोहा में एशिया कप राइज़िंग स्टार्स के मुक़ाबले में भारत-A ने नेपाल के ख़िलाफ़ शुरुआती झटकों से शानदार वापसी की। टीम 42 रन पर 3 विकेट गंवाकर मुश्किल में थी, तभी कुमार कुशाग्र ने 102 गेंदों पर 117 रन और कप्तान तिलक वर्मा ने 113 गेंदों पर 107 रन बनाए।\n\nदोनों ने चौथे विकेट के लिए 206 रन की साझेदारी की और टीम को मज़बूत स्कोर की ओर बढ़ाया। यह मुक़ाबला रविवार को पाकिस्तान के ख़िलाफ़ होने वाले मैच से पहले टीम के लिए अहम अभ्यास है।",
+   "cat": "khel",
+   "id": "2026-11-20-21-khel-2",
+   "img": "https://images.thedailyjagran.com/images/2026/11/20/template/image/INDSCRSSS-1795180634796.webp",
+   "source": "The Daily Jagran",
+   "source_url": "https://www.thedailyjagran.com/cricket/news/asia-cup-rising-stars-kumar-kushagra-hits-century-to-rescue-india-a-after-early-setback-against-nepal-watch-10337050",
    "tags": [
-    "#Sensex",
-    "#Nifty",
+    "#AsiaCupRisingStars",
+    "#TilakVarma",
+    "#Kushagra",
+    "#TaazaKhabar"
+   ],
+   "title_en": "Asia Cup Rising Stars: Kushagra and Tilak hit centuries as India A fight back against Nepal",
+   "title_hi": "एशिया कप राइज़िंग स्टार्स: कुशाग्र और तिलक के शतकों से भारत-A ने नेपाल के ख़िलाफ़ वापसी की",
+   "page": "khabar/2026-11-20-21-khel-2.html"
+  },
+  {
+   "body_en": "The Indian rupee closed at 92.67 per US dollar on Friday, its largest single-day gain in over a month, after ending the previous session at 93.29. Strong buying by overseas investors in Indian stocks supported the currency.\n\nForeign investors have poured more than 12 billion dollars into Indian stocks so far in November. The rupee also moved past the 93-per-dollar level during intraday trade.",
+   "body_hi": "भारतीय रुपया शुक्रवार को डॉलर के मुक़ाबले एक महीने से ज़्यादा समय में सबसे बड़ी एकदिनी बढ़त के साथ 92.67 पर बंद हुआ, जबकि पिछले दिन यह 93.29 पर था। भारतीय शेयरों में विदेशी निवेशकों की मज़बूत ख़रीदारी से रुपये को सहारा मिला।\n\nनवंबर में अब तक विदेशी निवेशक भारतीय शेयरों में 12 अरब डॉलर से ज़्यादा डाल चुके हैं। बाज़ार में यह भी देखा गया कि रुपया दिन के दौरान 93 के स्तर से नीचे भी गया।",
+   "cat": "vyapar",
+   "id": "2026-11-20-21-vyapar-1",
+   "img": "https://bl-i.thgim.com/public/incoming/slytbe/article71720713.ece/alternates/FREE_1200/stock%20market%20graph.jpg",
+   "source": "The Hindu BusinessLine",
+   "source_url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-20th-november-2026/article71720685.ece/amp/",
+   "tags": [
+    "#Rupee",
+    "#Dollar",
+    "#FII",
+    "#TaazaKhabar"
+   ],
+   "title_en": "Rupee sees largest single-day gain in over a month, closes at 92.67 per dollar",
+   "title_hi": "रुपया एक महीने में सबसे ज़्यादा मज़बूत, डॉलर के मुक़ाबले 92.67 पर बंद",
+   "page": "khabar/2026-11-20-21-vyapar-1.html"
+  },
+  {
+   "body_en": "Crystal Crop Protection's IPO was subscribed 8.55 times on the final day of bidding, with institutional investors leading the demand.\n\nThe strong response has raised expectations around the company's market listing. The IPO's success also reflects investor interest in new issues in the stock market.",
+   "body_hi": "क्रिस्टल क्रॉप प्रोटेक्शन के आईपीओ को अंतिम दिन बोली के दौरान कुल 8.55 गुना अभिदान मिला। मांग में संस्थागत निवेशकों की हिस्सेदारी सबसे ज़्यादा रही।\n\nइस मज़बूत प्रतिक्रिया से कंपनी की बाज़ार में लिस्टिंग को लेकर उम्मीदें बढ़ गई हैं। आईपीओ की यह सफलता शेयर बाज़ार में नए इश्यू को लेकर निवेशकों की दिलचस्पी को भी दिखाती है।",
+   "cat": "vyapar",
+   "id": "2026-11-20-21-vyapar-2",
+   "img": "https://im.rediff.com/money/2024/sep/07ipo-gamble1.jpg?w=670&h=900",
+   "source": "The Hindu BusinessLine",
+   "source_url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-20th-november-2026/article71720685.ece/amp/",
+   "tags": [
+    "#IPO",
+    "#CrystalCrop",
     "#ShareMarket",
     "#TaazaKhabar"
    ],
-   "title_en": "Markets stage strong comeback: Sensex closes 898 points up at 83,920, Nifty above 25,800",
-   "title_hi": "बाज़ार की ज़बरदस्त वापसी: सेंसेक्स 898 अंक चढ़कर 83,920 पर बंद, निफ़्टी 25,800 के पार",
-   "page": "khabar/2026-11-20-17-vyapar-1.html"
+   "title_en": "Crystal Crop Protection IPO subscribed 8.55 times on final day; institutions lead demand",
+   "title_hi": "क्रिस्टल क्रॉप प्रोटेक्शन का आईपीओ अंतिम दिन 8.55 गुना भरा, संस्थागत निवेशक आगे",
+   "page": "khabar/2026-11-20-21-vyapar-2.html"
   },
   {
-   "body_en": "AI company Anthropic's shares closed 17 per cent higher on their first day of trading on the Nasdaq on Thursday, in what is being described as the largest initial public offering in history. Investors embraced the debut even as broader Wall Street indexes slid.\n\nThe Nasdaq-100 fell 2.21 per cent to close at 26,517.05, while the S&P 500 dropped 2.02 per cent to 7,175.83, as the wider tech sell-off continued.",
-   "body_hi": "एआई कंपनी एंथ्रॉपिक के शेयर गुरुवार को नैस्डैक पर अपने पहले कारोबारी दिन 17 प्रतिशत की बढ़त के साथ बंद हुए। इसे इतिहास के सबसे बड़े आईपीओ में से एक माना जा रहा है। व्यापक बाज़ार में गिरावट के बावजूद निवेशकों ने कंपनी के शेयरों को हाथोंहाथ लिया।\n\nउधर नैस्डैक-100 में 2.21 प्रतिशत की गिरावट के साथ यह 26,517.05 पर बंद हुआ, जबकि एसएंडपी 500 भी 2.02 प्रतिशत गिरकर 7,175.83 पर बंद हुआ।",
-   "cat": "vyapar",
-   "id": "2026-11-20-17-vyapar-2",
-   "img": "https://framerusercontent.com/images/1qcW1oM4WPx22rZmGr5eX70BCIo.jpeg?scale-down-to=512&width=2752&height=1536",
-   "source": "The Hindu",
-   "source_url": "https://www.thehindu.com/news/morning-digest-november-20-2026/article71721983.ece",
-   "tags": [
-    "#Anthropic",
-    "#IPO",
-    "#Nasdaq",
-    "#WorldNews"
-   ],
-   "title_en": "Anthropic shares jump 17% on Nasdaq debut in record IPO",
-   "title_hi": "एंथ्रॉपिक की नैस्डैक पर धमाकेदार एंट्री, पहले दिन शेयर 17% चढ़ा",
-   "page": "khabar/2026-11-20-17-vyapar-2.html"
-  },
-  {
-   "body_en": "Union Agriculture Minister Shivraj Singh Chouhan dedicated India's first indigenous H5N1 bird flu vaccine for chickens to the nation in Bhopal on Friday. The inactivated vaccine was developed by the ICAR-National Institute of High Security Animal Diseases (NIHSAD).\n\nThe vaccine targets the H5N1 clade 2.3.2.1a strain, which is responsible for most bird flu outbreaks in Indian poultry. Trials showed it protects chickens for up to six months and prevents the disease from spreading to other birds kept in contact with vaccinated ones.",
-   "body_hi": "केंद्रीय कृषि मंत्री शिवराज सिंह चौहान ने शुक्रवार को भोपाल में देश की पहली स्वदेशी H5N1 बर्ड फ़्लू वैक्सीन राष्ट्र को समर्पित की। इसे भोपाल स्थित ICAR-राष्ट्रीय उच्च सुरक्षा पशु रोग संस्थान (NIHSAD) ने तैयार किया है।\n\nयह निष्क्रिय (inactivated) वैक्सीन H5N1 के क्लेड 2.3.2.1a स्ट्रेन से बचाव करती है, जो भारत में मुर्गियों में बर्ड फ़्लू के ज़्यादातर मामलों के लिए ज़िम्मेदार है। परीक्षणों में इससे छह महीने तक सुरक्षा मिली और टीका लगी मुर्गियों से बीमारी का फैलाव भी रुका।",
+   "body_en": "After years of anticipation, the much-awaited Grand Theft Auto VI has finally launched. Gamers across the world got their first taste of the blockbuster game this week, making it one of the biggest stories of the week.\n\nThe launch of GTA VI is being seen as the biggest event in the gaming world this year. Fans had long been waiting for its new characters and story.",
+   "body_hi": "सालों के इंतज़ार के बाद बहुप्रतीक्षित गेम ग्रैंड थेफ्ट ऑटो VI आख़िरकार लॉन्च हो गया है। दुनियाभर के गेमर्स को इस हफ़्ते इस ब्लॉकबस्टर गेम का पहला अनुभव मिला, और यह इस हफ़्ते की सबसे बड़ी ख़बरों में से एक रहा।\n\nGTA VI की लॉन्चिंग गेमिंग की दुनिया की इस साल की सबसे बड़ी घटना मानी जा रही है। प्रशंसक लंबे समय से इसके नए किरदारों और कहानी का इंतज़ार कर रहे थे।",
    "cat": "khaas",
-   "id": "2026-11-20-17-khaas-1",
-   "img": "https://media.assettype.com/deccanherald%2F2026-11-20%2F55gtadp4%2F2025newsmlRC2KVFAGDSRF1042556134.jpeg?rect=0%2C0%2C3500%2C1838&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop",
-   "source": "Deccan Herald",
-   "source_url": "https://www.deccanherald.com/india/icar-nihsad-develops-indias-first-indigenous-h5n1-vaccine-to-protect-chickens-from-bird-flu-4225306",
+   "id": "2026-11-20-21-khaas-1",
+   "img": "https://www.rockstargames.com/VI/_next/static/media/featured.0y5yxwenpsgc3.jpg?akim=1&imdensity=1&imwidth=3840",
+   "source": "News18",
+   "source_url": "https://www.news18.com/india/news-this-week-november-16-20-xi-trump-putin-summit-myanmar-genocide-verdict-gta-vi-launch-top-updates-10434426.html",
    "tags": [
-    "#H5N1",
-    "#BirdFlu",
-    "#Vaccine",
+    "#GTAVI",
+    "#Gaming",
+    "#Rockstar",
     "#TaazaKhabar"
    ],
-   "title_en": "India's first indigenous H5N1 bird flu vaccine dedicated to the nation; protects poultry for six months",
-   "title_hi": "देश की पहली स्वदेशी H5N1 बर्ड फ़्लू वैक्सीन राष्ट्र को समर्पित, मुर्गियों को छह महीने तक सुरक्षा",
-   "page": "khabar/2026-11-20-17-khaas-1.html"
+   "title_en": "The wait is over: GTA VI finally launches, gamers worldwide get their first taste",
+   "title_hi": "इंतज़ार खत्म: GTA VI आख़िरकार लॉन्च, दुनियाभर के गेमर्स को पहला अनुभव",
+   "page": "khabar/2026-11-20-21-khaas-1.html"
   }
  ]
 }
