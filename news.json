@@ -1,150 +1,168 @@
 {
- "edition": "रविवार, 22 नवंबर 2026 — सुबह 9 बजे",
- "updated_at": "2026-11-22T09:00:00+05:30",
+ "edition": "रविवार, 22 नवंबर 2026 — दोपहर 1 बजे",
+ "updated_at": "2026-11-22T13:00:00+05:30",
  "stories": [
   {
-   "id": "2026-11-22-09-bharat-1",
+   "body_en": "Prime Minister Narendra Modi on Saturday inaugurated the Nitish Setu bridge over the Ganga river in Bihar's Vaishali district. The six-lane extradosed cable-stayed bridge is about 19.7 kilometres long and has been built at a cost of around Rs 4,280 crore. It connects Kachhi Dargah in Patna district with Bidupur in Vaishali district.\n\nThe main bridge spans 9.76 kilometres, with approach roads of about 10 kilometres on either side. The bridge has been named in honour of former Bihar chief minister Nitish Kumar. During the visit, the Prime Minister also inaugurated and laid the foundation stones for development projects worth around Rs 34,470 crore in the state. The bridge is expected to speed up travel between north and south Bihar and cut journey times.",
+   "body_hi": "प्रधानमंत्री नरेंद्र मोदी ने शनिवार को बिहार के वैशाली जिले में गंगा नदी पर बने ‘नीतीश सेतु’ का उद्घाटन किया। यह छह लेन का एक्स्ट्राडोज़्ड केबल-स्टेड पुल करीब 19.7 किलोमीटर लंबा है और इसे लगभग 4,280 करोड़ रुपये की लागत से बनाया गया है। पुल पटना जिले के कच्ची दरगाह को वैशाली जिले के बिदुपुर से जोड़ता है।\n\nपुल का मुख्य हिस्सा 9.76 किलोमीटर लंबा है, जबकि दोनों ओर की पहुंच सड़कें करीब 10 किलोमीटर की हैं। इस पुल का नाम बिहार के पूर्व मुख्यमंत्री नीतीश कुमार के सम्मान में रखा गया है। प्रधानमंत्री ने इस दौरान राज्य में करीब 34,470 करोड़ रुपये की विकास परियोजनाओं का उद्घाटन और शिलान्यास भी किया। इस पुल से उत्तर और दक्षिण बिहार के बीच आवागमन तेज़ होगा और यात्रा का समय कम होगा।",
    "cat": "bharat",
-   "title_hi": "कोटा में बड़ा हादसा: श्रद्धालुओं का वाहन खड़े ट्रक से टकराया, 9 की मौत",
-   "title_en": "Nine pilgrims killed as their vehicle rams into parked truck near Kota",
-   "body_hi": "राजस्थान के कोटा जिले में रविवार सुबह एक दर्दनाक सड़क हादसे में नौ श्रद्धालुओं की मौत हो गई और कई अन्य घायल हो गए। पुलिस के अनुसार श्रद्धालुओं को ले जा रहा वाहन कोटा-उदयपुर राजमार्ग पर शंभूपुरा के पास सड़क किनारे खड़े एक ट्रक से टकरा गया।\n\nहादसे की खबर मिलते ही पुलिस और राहत दल मौके पर पहुंचे और घायलों को नजदीकी अस्पताल पहुंचाया गया। पुलिस ने मामला दर्ज कर हादसे के कारणों की जांच शुरू कर दी है।",
-   "body_en": "At least nine pilgrims were killed and several others injured in a road accident near Kota in Rajasthan on Sunday morning. Police said the vehicle carrying the pilgrims rammed into a truck parked on the Kota-Udaipur highway near Shambhupura.\n\nPolice and rescue teams reached the spot soon after the accident and rushed the injured to a nearby hospital. Police have registered a case and begun investigating the cause of the crash.",
-   "source": "Times Now",
-   "source_url": "https://www.timesnownews.com/india/breaking-news-live-india-world-news-us-iran-war-russia-ukraine-updates-delhi-weather-aqi-cyclone-akvan-latest-updates-liveblog-156522071",
-   "img": "https://images.timesnownews.com/thumb/msid-156522071,thumbsize-4195565,width-1280,height-720,resizemode-75/156522071.jpg",
+   "id": "2026-11-22-13-bharat-1",
+   "img": "https://cf-images.assettype.com/newindianexpress%2F2026-11-21%2Fpwclives%2FNitishModiPTI.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+   "source": "The New Indian Express",
+   "source_url": "https://www.newindianexpress.com/states/bihar/2026/Nov/21/pm-modi-inaugurates-rs-4280-crore-nitish-setu-bridge-over-ganga-in-bihar",
    "tags": [
-    "#Kota",
-    "#Rajasthan",
-    "#RoadAccident",
-    "#TaazaKhabar"
-   ],
-   "page": "khabar/2026-11-22-09-bharat-1.html"
-  },
-  {
-   "id": "2026-11-22-09-bharat-2",
-   "cat": "bharat",
-   "title_hi": "लखनऊ में कौशल दीक्षांत समारोह: PM मोदी बोले — ITI को IIT जैसा ही सम्मान मिले",
-   "title_en": "PM Modi at Lucknow skill convocation: ITI graduates deserve the same respect as IIT alumni",
-   "body_hi": "प्रधानमंत्री नरेंद्र मोदी ने शनिवार को लखनऊ में पांचवें राष्ट्रीय कौशल दीक्षांत समारोह में कहा कि दुनिया को सिर्फ डिग्रीधारियों की नहीं, हुनरमंद युवाओं की जरूरत है। उन्होंने कहा कि आईटीआई के छात्र देश के भविष्य के लिए उतने ही अहम हैं जितने आईआईटी के छात्र।\n\nप्रधानमंत्री ने कहा कि 2014 के बाद से देश में करीब 5,000 नए आईटीआई बने हैं, आईटीआई में पढ़ने वालों की संख्या पांच लाख से ज्यादा बढ़ी है और लड़कियों की संख्या ढाई गुना से अधिक हुई है। उन्होंने बताया कि एआई असिस्टेंट, ड्रोन तकनीशियन और सेमीकंडक्टर समेत 30 से ज्यादा नए जमाने के ट्रेड शुरू किए गए हैं, और भारत 2027 में ग्रेटर नोएडा में वर्ल्डस्किल्स प्रतियोगिता की मेजबानी करेगा।",
-   "body_en": "Prime Minister Narendra Modi said on Saturday at the fifth National Kaushal Deekshant Samaroh in Lucknow that the world needs skilled young people, not merely degree-holders. He said students of Industrial Training Institutes are as important to the country's future as those of the Indian Institutes of Technology.\n\nThe Prime Minister said nearly 5,000 new ITIs have been set up since 2014, enrolment in ITIs has risen by more than five lakh, and the number of girl students has grown more than two and a half times. He said over 30 new-age trades — including AI Assistant, Drone Technician and Semiconductor Technician — have been introduced, and India will host the 2027 WorldSkills Competition in Greater Noida.",
-   "source": "The Hindu",
-   "source_url": "https://www.thehindu.com/news/national/uttar-pradesh/world-needs-skilled-youth-not-merely-degree-holders-says-pm-modi/article71729144.ece",
-   "img": "https://th-i.thgim.com/public/incoming/cqtiz2/article71729336.ece/alternates/LANDSCAPE_1200/20261121478L.jpg",
-   "tags": [
-    "#KaushalDeekshant",
-    "#SkillIndia",
+    "#NitishSetu",
+    "#Bihar",
     "#PMModi",
     "#TaazaKhabar"
    ],
-   "page": "khabar/2026-11-22-09-bharat-2.html"
+   "title_en": "PM Modi inaugurates Nitish Setu in Bihar: 19.7-km six-lane bridge over the Ganga built at Rs 4,280 crore",
+   "title_hi": "बिहार में ‘नीतीश सेतु’ का उद्घाटन: गंगा पर 19.7 किमी का छह लेन पुल, ₹4,280 करोड़ की लागत",
+   "page": "khabar/2026-11-22-13-bharat-1.html"
   },
   {
-   "id": "2026-11-22-09-bharat-3",
+   "body_en": "Nepal Prime Minister Balendra Shah arrived in India on Sunday for a two-day state visit from November 22 to 23. It is his first bilateral foreign visit since he took office in March 2026. He is accompanied by a 34-member delegation, including Finance Minister Swarnim Wagle and Foreign Minister Shishir Khanal.\n\nDelegation-level talks with Prime Minister Narendra Modi are scheduled for Monday, with energy cooperation, connectivity, trade, tourism and infrastructure expected to feature prominently. During the visit, Shah will call on President Droupadi Murmu, pay tribute to Mahatma Gandhi at Rajghat and take part in the Nepal-India Business Forum. The two leaders are also expected to jointly inaugurate several energy-related projects.",
+   "body_hi": "नेपाल के प्रधानमंत्री बालेंद्र शाह रविवार को दो दिन की राजकीय यात्रा पर भारत पहुंचे। यह यात्रा 22 से 23 नवंबर तक चलेगी और मार्च 2026 में पद संभालने के बाद से उनकी पहली द्विपक्षीय विदेश यात्रा है। उनके साथ वित्त मंत्री स्वर्णिम वाग्ले और विदेश मंत्री शिशिर खनाल समेत 34 सदस्यों का प्रतिनिधिमंडल आया है।\n\nप्रधानमंत्री मोदी के साथ प्रतिनिधिमंडल स्तर की बातचीत सोमवार को होगी, जिसमें ऊर्जा सहयोग, संपर्क, व्यापार, पर्यटन और बुनियादी ढांचे पर चर्चा होने की उम्मीद है। यात्रा के दौरान शाह राष्ट्रपति द्रौपदी मुर्मू से मिलेंगे, राजघाट पर महात्मा गांधी को श्रद्धांजलि देंगे और नेपाल-भारत व्यापार मंच में हिस्सा लेंगे। दोनों नेता कई ऊर्जा परियोजनाओं का संयुक्त उद्घाटन भी कर सकते हैं।",
    "cat": "bharat",
-   "title_hi": "ओडिशा में बनेगा साइबर कमांड सेंटर: ₹249.39 करोड़ मंजूर, AI से होगी साइबर अपराध की निगरानी",
-   "title_en": "Odisha approves Rs 249.39 crore Cyber Command Centre to fight online crime",
-   "body_hi": "ओडिशा सरकार ने साइबर अपराध से लड़ने के लिए ओडिशा साइबर कमांड सेंटर (O3C) बनाने की मंजूरी दे दी है। मुख्यमंत्री मोहन चरण माझी ने इसके लिए 249.39 करोड़ रुपये की राशि मंजूर की है। यह केंद्र 2026-27 से 2029-30 तक चार साल में तैयार किया जाएगा।\n\nकेंद्र में चार इकाइयां होंगी — साइबर क्राइम मुख्यालय, राज्य साइबर क्राइम पुलिस स्टेशन, साइबर संसाधन केंद्र और एआई आधारित भविष्यवाणी पुलिसिंग व डेटा विश्लेषण केंद्र। इसका मकसद ऑनलाइन वित्तीय धोखाधड़ी और महिलाओं व बच्चों के खिलाफ साइबर अपराधों पर लगाम लगाना है।",
-   "body_en": "The Odisha government has approved the setting up of an Odisha Cyber Command Centre (O3C) to strengthen the fight against rising cybercrime. Chief Minister Mohan Charan Majhi sanctioned Rs 249.39 crore for the centre, which will be built over four years from 2026-27 to 2029-30.\n\nThe centre will have four wings — a Cyber Crime Headquarters, a State Cyber Crime Police Station, a Cyber Resource Centre, and an AI-based Predictive Policing and Data Analytics Centre. It aims to curb online financial fraud and cyber offences against women and children.",
-   "source": "The New Indian Express",
-   "source_url": "https://www.newindianexpress.com/states/odisha/2026/Nov/22/odisha-to-set-up-rs-249-crore-cyber-command-centre-2",
-   "img": "https://cf-images.assettype.com/newindianexpress%2F2026-11-22%2Femxikoco%2FOdisha-Police.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+   "id": "2026-11-22-13-bharat-2",
+   "img": "https://static.toiimg.com/thumb/msid-136069424,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "source": "The Times of India",
+   "source_url": "https://timesofindia.indiatimes.com/india/balen-shahs-india-visit-whats-on-the-agenda-as-nepal-pm-makes-first-official-trip/articleshow/136069363.cms",
    "tags": [
-    "#Odisha",
-    "#CyberCrime",
-    "#CyberSecurity",
+    "#Nepal",
+    "#BalenShah",
+    "#IndiaNepal",
     "#TaazaKhabar"
    ],
-   "page": "khabar/2026-11-22-09-bharat-3.html"
+   "title_en": "Nepal PM Balendra Shah begins two-day India visit, talks with PM Modi on Monday",
+   "title_hi": "नेपाल के PM बालेंद्र शाह दो दिन की भारत यात्रा पर, PM मोदी से सोमवार को बातचीत",
+   "page": "khabar/2026-11-22-13-bharat-2.html"
   },
   {
-   "id": "2026-11-22-09-duniya-1",
+   "body_en": "India has crossed the one-crore mark in HPV vaccine doses administered under its national vaccination campaign. The milestone has been reached in less than nine months since the campaign began.\n\nOfficials said the drive has covered nearly 87 per cent of the annual target set for 14-year-old girls. The HPV vaccination campaign aims to protect women against cervical cancer, and at this pace the programme is moving swiftly towards its goal.",
+   "body_hi": "भारत ने राष्ट्रीय टीकाकरण अभियान के तहत एचपीवी वैक्सीन की एक करोड़ से ज्यादा खुराकें लगाने का बड़ा मुकाम हासिल कर लिया है। यह उपलब्धि अभियान शुरू होने के नौ महीने से भी कम समय में मिली है।\n\nअधिकारियों के अनुसार अभियान ने 14 साल की लड़कियों के लिए तय वार्षिक लक्ष्य का करीब 87 प्रतिशत हिस्सा पूरा कर लिया है। एचपीवी टीकाकरण का मकसद महिलाओं में गर्भाशय ग्रीवा के कैंसर से बचाव करना है, और इस रफ्तार से अभियान अपने लक्ष्य की ओर तेज़ी से बढ़ रहा है।",
+   "cat": "bharat",
+   "id": "2026-11-22-13-bharat-3",
+   "img": "https://images.careerindia.com/img/2026/11/school-assebly-news-headlines-november-22-1200-40891795321484.jpg",
+   "source": "Career India",
+   "source_url": "https://www.careerindia.com/news/school-assembly-news-headlines-today-november-22-2026-national-international-education-sports-069007.html",
+   "tags": [
+    "#HPV",
+    "#Vaccination",
+    "#Health",
+    "#TaazaKhabar"
+   ],
+   "title_en": "India crosses one-crore mark in HPV vaccination in under nine months",
+   "title_hi": "भारत में HPV टीकाकरण का बड़ा मुकाम: एक करोड़ से ज्यादा खुराकें लगीं",
+   "page": "khabar/2026-11-22-13-bharat-3.html"
+  },
+  {
+   "body_en": "Iran's Islamic Revolutionary Guard Corps has claimed it shot down two American drones — an MQ-9 and an MQ-1 Predator — over the Strait of Hormuz. Iran had earlier claimed a missile and drone attack on US military bases in Bahrain, saying it targeted two Patriot air defence radars.\n\nMeanwhile, strikes by the Iran-backed Houthi group on Saudi Arabia have continued. Saudi Arabia issued a danger alert for the Mecca province before lifting it moments later. Iranian Foreign Minister Abbas Araghchi said Tehran could reopen the strait if its demands are met, but ruled out transferring its stockpile of 60 per cent enriched uranium abroad.",
+   "body_hi": "ईरान के इस्लामिक रिवॉल्यूशनरी गार्ड कॉर्प्स ने दावा किया है कि उसने होर्मुज जलडमरूमध्य के ऊपर दो अमेरिकी ड्रोन — एक एमक्यू-9 और एक एमक्यू-1 प्रीडेटर — मार गिराए हैं। इससे पहले ईरान ने बहरीन में अमेरिकी ठिकानों पर मिसाइल और ड्रोन हमले का भी दावा किया था, जिसमें दो पैट्रियट वायु रक्षा रडारों को निशाना बनाने की बात कही गई थी।\n\nइसी बीच ईरान समर्थित हूती समूह के सऊदी अरब पर हमले भी जारी हैं। सऊदी अरब ने मक्का प्रांत के लिए खतरे की चेतावनी जारी की थी, जिसे कुछ देर बाद वापस ले लिया गया। ईरान के विदेश मंत्री अब्बास अरागची ने कहा है कि अगर तेहरान की मांगें मानी जाएं तो जलडमरूमध्य फिर से खोला जा सकता है, लेकिन उन्होंने 60 प्रतिशत समृद्ध यूरेनियम के भंडार को देश से बाहर भेजने से इनकार कर दिया है।",
    "cat": "duniya",
-   "title_hi": "खाड़ी में तनाव और बढ़ा: ईरान का दावा — बहरीन में अमेरिकी ठिकानों पर मिसाइल-ड्रोन हमला",
-   "title_en": "Iran claims missile-drone attack on US bases in Bahrain as Gulf tensions rise",
-   "body_hi": "ईरान के इस्लामिक रिवॉल्यूशनरी गार्ड कॉर्प्स (IRGC) ने दावा किया है कि उसने बहरीन में अमेरिकी सैन्य ठिकानों पर मिसाइल और ड्रोन से हमला किया है। ईरान का कहना है कि उसने दो अमेरिकी पैट्रियट वायु रक्षा रडारों को निशाना बनाया। बहरीन के अधिकारियों ने बताया कि एक औद्योगिक परिसर पर हमला हुआ, आग लगी और संपत्ति को नुकसान पहुंचा, लेकिन कोई हताहत नहीं हुआ।\n\nईरान ने इस हमले को अमेरिकी ड्रोनों द्वारा उसके हवाई क्षेत्र के कथित उल्लंघन और हेंगम द्वीप पर रडार ठिकाने पर हमले का जवाब बताया है। इसी बीच होर्मुज जलडमरूमध्य में दो तेल टैंकरों पर भी हमले की खबर है, जिससे दुनिया की तेल आपूर्ति को लेकर चिंता बढ़ गई है।",
-   "body_en": "Iran's Islamic Revolutionary Guard Corps (IRGC) has claimed it carried out a missile and drone attack on US military bases in Bahrain, saying it targeted two American Patriot air defence radars. Bahraini authorities said an industrial facility was struck, causing a fire and material damage, but no casualties.\n\nIran described the attack as retaliation for what it called violations of its airspace by US drones and an attack on a radar installation on Hengam Island. Two oil tankers were also reported hit in the Strait of Hormuz, raising concerns over global oil supplies through the strategic waterway.",
-   "source": "The Times of India",
-   "source_url": "https://timesofindia.indiatimes.com/world/middle-east/two-patriot-radars-hit-iran-launches-missile-drone-attack-on-us-bases-in-bahrain/articleshow/136066291.cms",
-   "img": "https://static.toiimg.com/thumb/msid-136066309,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "id": "2026-11-22-13-duniya-1",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6b027df9-1795325433.jpg?resize=1920%2C1440",
+   "source": "Al Jazeera",
+   "source_url": "https://www.aljazeera.com/amp/news/liveblog/2026/11/21/iran-war-live-iran-targets-us-military-in-bahrain-houthi-strikes-continue",
    "tags": [
     "#Iran",
-    "#Bahrain",
-    "#MiddleEast",
+    "#Gulf",
+    "#Hormuz",
     "#WorldNews"
    ],
-   "page": "khabar/2026-11-22-09-duniya-1.html"
+   "title_en": "Gulf tensions continue: Iran claims it downed two US drones as Houthi strikes go on",
+   "title_hi": "खाड़ी में तनाव जारी: ईरान का दावा — दो अमेरिकी ड्रोन मार गिराए, हूती हमले भी जारी",
+   "page": "khabar/2026-11-22-13-duniya-1.html"
   },
   {
-   "id": "2026-11-22-09-duniya-2",
+   "body_en": "A powerful magnitude 6.8 earthquake struck central Peru on Friday, with tremors felt as far as the capital, Lima. The quake was centred in the Andean region of Junin at a depth of about 129 kilometres. Residents in Lima rushed out of their homes as a precaution, and the country's Congress building was evacuated.\n\nInitial reports indicated no deaths or major damage. Junin lies around 320 kilometres east of Lima and is home to several mining operations. Both Peru's Geophysical Institute and the German Research Centre for Geosciences recorded the magnitude at 6.8.",
+   "body_hi": "मध्य पेरू में शुक्रवार को 6.8 तीव्रता का शक्तिशाली भूकंप आया, जिसके झटके राजधानी लीमा तक महसूस किए गए। भूकंप का केंद्र एंडीज क्षेत्र के हुनिन प्रांत में करीब 129 किलोमीटर की गहराई में था। लीमा में लोग एहतियात के तौर पर अपने घरों से बाहर निकल आए और देश की संसद की इमारत भी खाली कराई गई।\n\nशुरुआती रिपोर्टों के अनुसार भूकंप से किसी की मौत या बड़े नुकसान की खबर नहीं है। हुनिन प्रांत लीमा से करीब 320 किलोमीटर पूर्व में स्थित है और वहां कई खनन परियोजनाएं भी हैं। पेरू के भूभौतिकी संस्थान और जर्मन रिसर्च सेंटर फॉर जियोसाइंसेज़ दोनों ने भूकंप की तीव्रता 6.8 दर्ज की है।",
    "cat": "duniya",
-   "title_hi": "गाज़ा में हमले के बाद हमास ने मध्यस्थों से तुरंत बैठक बुलाने की मांग की",
-   "title_en": "Hamas urges ceasefire mediators to meet urgently after Gaza strike kills three",
-   "body_hi": "गाज़ा शहर में शनिवार को हुए एक हमले में तीन लोगों की मौत के बाद हमास ने युद्धविराम के मध्यस्थों और गारंटर देशों से तुरंत बैठक बुलाने की मांग की है। हमास का कहना है कि हमले में खाद्य सामग्री ले जा रहा एक वाहन निशाना बना।\n\nदूसरी ओर इजरायली सेना ने कहा है कि उसने गाज़ा शहर के तेल अल-हवा इलाके में तीन इस्लामिक जिहाद लड़ाकों को मारा है, जो उसके अनुसार राहतकर्मी बनकर घूम रहे थे। इस घटना से पहले से नाजुक चल रही युद्धविराम व्यवस्था पर फिर सवाल उठ गए हैं।",
-   "body_en": "Hamas has urged ceasefire mediators and guarantor countries to convene an urgent meeting after an Israeli strike in Gaza City killed three people on Saturday. Hamas said the strike hit a vehicle carrying food supplies.\n\nThe Israeli military said it killed three Palestinian Islamic Jihad operatives in the Tel al-Hawa neighbourhood of Gaza City, alleging they were posing as aid workers. The incident has raised fresh questions over the already fragile ceasefire arrangement.",
-   "source": "The Times of India",
-   "source_url": "https://timesofindia.indiatimes.com/world/middle-east/us-iran-war-live-updates-donald-trump-khamenei-houthi-saudi-tensions-strait-of-hormuz-latest-news/liveblog/136038144.cms",
-   "img": "https://static.toiimg.com/thumb/msid-136038144,width-1280,height-720,imgsize-265602,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "id": "2026-11-22-13-duniya-2",
+   "img": "https://bl-i.thgim.com/public/incoming/631uu2/article71727474.ece/alternates/LANDSCAPE_1200/Screenshot%202434.png",
+   "source": "The Hindu BusinessLine",
+   "source_url": "https://www.thehindubusinessline.com/news/world/peru-hit-by-magnitude-68-earthquake-no-immediate-damage-reported/article71727426.ece",
    "tags": [
-    "#Gaza",
-    "#Ceasefire",
-    "#Hamas",
+    "#Peru",
+    "#Earthquake",
+    "#Lima",
     "#WorldNews"
    ],
-   "page": "khabar/2026-11-22-09-duniya-2.html"
+   "title_en": "Magnitude 6.8 earthquake strikes central Peru, sends Lima residents onto streets",
+   "title_hi": "पेरू में 6.8 तीव्रता का भूकंप, राजधानी लीमा में लोग सड़कों पर निकले",
+   "page": "khabar/2026-11-22-13-duniya-2.html"
   },
   {
-   "id": "2026-11-22-09-khel-1",
+   "body_en": "India declared their first innings at 720/9 on day four of the opening Test in Wellington, taking a 352-run lead over New Zealand. KL Rahul made 136 and Rishabh Pant scored 128, while Shubman Gill fell for 98. It is the highest team total ever recorded on New Zealand soil.\n\nBy stumps, New Zealand had reached 119/2 in their second innings and still trail India by 233 runs. Devon Conway was unbeaten on 59 and Rachin Ravindra on 27. Jasprit Bumrah dismissed captain Tom Latham for a second duck in the match, and Henry Nicholls also departed. New Zealand must now bat through the final day to save the match.",
+   "body_hi": "वेलिंग्टन में पहले टेस्ट के चौथे दिन भारत ने अपनी पहली पारी 720/9 पर घोषित कर न्यूजीलैंड पर 352 रन की बढ़त बना ली थी। केएल राहुल ने 136 और ऋषभ पंत ने 128 रन बनाए, जबकि शुभमन गिल 98 रन पर आउट हुए। यह न्यूजीलैंड की धरती पर किसी भी टीम का सबसे बड़ा टेस्ट स्कोर है।\n\nदिन के अंत तक न्यूजीलैंड ने दूसरी पारी में 119/2 का स्कोर बना लिया और वह अब भी भारत से 233 रन पीछे है। डेवोन कॉनवे 59 और रचिन रवींद्र 27 रन बनाकर नाबाद हैं। जसप्रीत बुमराह ने कप्तान टॉम लैथम को दूसरी बार शून्य पर आउट किया, जबकि हेनरी निकोल्स भी पवेलियन लौटे। अब आखिरी दिन न्यूजीलैंड को मैच बचाने के लिए पूरी पारी खेलनी होगी।",
    "cat": "khel",
-   "title_hi": "वेलिंग्टन टेस्ट: भारत ने 720/9 पर पारी घोषित की — पंत के 128, 352 रन की बढ़त",
-   "title_en": "India declare at 720/9 in Wellington as Pant's 128 powers a 352-run lead",
-   "body_hi": "वेलिंग्टन में पहले टेस्ट के चौथे दिन भारत ने अपनी पहली पारी 720/9 पर घोषित कर न्यूजीलैंड पर 352 रन की भारी बढ़त बना ली। यह न्यूजीलैंड के खिलाफ किसी भी टीम का सबसे बड़ा स्कोर है और न्यूजीलैंड की धरती पर किसी मेहमान टीम का सबसे बड़ा टेस्ट स्कोर भी है। ऋषभ पंत ने 153 गेंदों पर 128 रन बनाए, जिसमें 10 चौके और 6 छक्के शामिल रहे।\n\nपंत ने अपने शतक के साथ कई रिकॉर्ड बनाए — वह चारों SENA देशों में शतक लगाने वाले पहले एशियाई विकेटकीपर बने और टेस्ट में छक्कों के मामले में ब्रेंडन मैकुलम को पीछे छोड़कर 108 छक्कों के साथ दूसरे नंबर पर पहुंच गए। केएल राहुल ने 136 और ध्रुव जुरेल ने 78 रन बनाए। न्यूजीलैंड ने पहली पारी में 368 रन बनाए थे।",
-   "body_en": "India declared their first innings at 720/9 on day four of the opening Test in Wellington, taking a commanding 352-run lead over New Zealand. It is the highest-ever team total against New Zealand and the highest by any visiting side on New Zealand soil. Rishabh Pant struck 128 off 153 balls, hitting 10 fours and six sixes.\n\nPant's century set several records — he became the first Asian wicketkeeper to score hundreds in all four SENA countries and moved past Brendon McCullum to second place on the all-time list of Test sixes with 108. KL Rahul made 136 and Dhruv Jurel scored 78. New Zealand had made 368 in their first innings.",
-   "source": "ABP Live",
-   "source_url": "https://news.abplive.com/sports/cricket/rishabh-pant-and-kl-rahul-hit-hundreds-india-declare-with-352-run-lead-over-new-zealand-1876984",
-   "img": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/11/22/e3a44fc1cd1f6d2f4d3f5e83457d29e317953123836581468_original.jpg?impolicy=abp_cdn&imwidth=1200",
+   "id": "2026-11-22-13-khel-1",
+   "img": "https://media.assettype.com/deccanherald%2F2026-11-22%2F00zlggcz%2FHXr7pQxasAAHTYu.jpg?rect=0%2C0%2C800%2C420&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop",
+   "source": "Deccan Herald",
+   "source_url": "https://www.deccanherald.com/sports/cricket/india-vs-new-zealand-rishabh-pant-smashes-century-as-visitors-dominate-4227211",
    "tags": [
     "#INDvsNZ",
-    "#RishabhPant",
+    "#WellingtonTest",
     "#Cricket",
     "#TaazaKhabar"
    ],
-   "page": "khabar/2026-11-22-09-khel-1.html"
+   "title_en": "Wellington Test: New Zealand 119/2 at stumps on day four, still 233 behind India",
+   "title_hi": "वेलिंग्टन टेस्ट: चौथे दिन स्टंप्स तक न्यूजीलैंड 119/2, भारत से 233 रन पीछे",
+   "page": "khabar/2026-11-22-13-khel-1.html"
   },
   {
-   "id": "2026-11-22-09-vyapar-1",
-   "cat": "vyapar",
-   "title_hi": "बाज़ार: सेंसेक्स-निफ्टी नौ महीने के उच्च स्तर पर बंद, बैंक शेयरों की अगुवाई में चौथे हफ्ते भी बढ़त",
-   "title_en": "Sensex, Nifty close at nine-month highs as bank stocks lead a fourth straight weekly gain",
-   "body_hi": "भारतीय शेयर बाज़ार ने 20 नवंबर को खत्म हुए हफ्ते में जोरदार बढ़त दर्ज की। सेंसेक्स 83,919.71 पर और निफ्टी 50 25,800.60 पर बंद हुए — दोनों नौ महीने के उच्च स्तर पर हैं। बैंक शेयरों की अगुवाई में बाज़ार ने लगातार चौथे हफ्ते बढ़त दर्ज की।\n\nइस दौरान रुपया डॉलर के मुकाबले मजबूत होकर 92.67 पर पहुंचा, जबकि ब्रेंट कच्चा तेल हफ्ते में 3.4 प्रतिशत गिरकर करीब 92.57 डॉलर प्रति बैरल पर आ गया। अगले हफ्ते बाज़ार के लिए नवंबर F&O एक्सपायरी और गुरु नानक जयंती पर 24 नवंबर की छुट्टी अहम रहेगी।",
-   "body_en": "Indian stock markets closed the week ended November 20 at nine-month highs. The Sensex settled at 83,919.71 and the Nifty 50 at 25,800.60, with banking stocks leading the rally to a fourth consecutive weekly gain.\n\nThe rupee strengthened to 92.67 against the US dollar during the week, while Brent crude fell 3.4 per cent to about $92.57 a barrel. Next week, traders will watch the November F&O expiry, advanced to Monday, November 23, and a market holiday on November 24 for Guru Nanak Jayanti.",
-   "source": "The Sunday Guardian",
-   "source_url": "https://sundayguardianlive.com/business/sensex-nifty-end-week-at-nine-month-highs-as-bank-stocks-lead-rally-325649/",
-   "img": "https://sundayguardianlive.com/wp-content/uploads/2026/11/pic-4.jpg",
+   "body_en": "Two-time defending champions India beat South Korea 2-1 in the Women's Asian Champions Trophy in Bhopal to register their second consecutive win. Mumtaz Khan scored in the 30th minute and Sunelita Toppo added another from a penalty corner in the 34th minute. Youngeun Hong pulled one back for South Korea in the 56th minute.\n\nWith the win, India have six points from two matches and jointly lead the table with Japan. India had beaten Malaysia 4-1 in their tournament opener, and their next match is against Thailand on Sunday.",
+   "body_hi": "दो बार की चैंपियन भारतीय महिला हॉकी टीम ने भोपाल में महिला एशियन चैंपियंस ट्रॉफी में दक्षिण कोरिया को 2-1 से हराकर लगातार दूसरी जीत दर्ज की। मुमताज़ खान ने 30वें मिनट में और सुनेलिता टोप्पो ने 34वें मिनट में पेनल्टी कॉर्नर से गोल किए। दक्षिण कोरिया की ओर से योंगयून होंग ने 56वें मिनट में एक गोल वापस किया।\n\nइस जीत के साथ भारत के दो मैचों में छह अंक हो गए हैं और टीम जापान के साथ तालिका में संयुक्त रूप से शीर्ष पर है। भारत ने अपने पहले मैच में मलेशिया को 4-1 से हराया था और अब उसका अगला मुकाबला रविवार को थाईलैंड से होगा।",
+   "cat": "khel",
+   "id": "2026-11-22-13-khel-2",
+   "img": "https://www.tribuneindia.com/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9tZWRpYWRlNTEzNTgwLWU1YzgtMTFmMS05NjM3LTViY2YwYzFjMTk4YS5qcGc=",
+   "source": "The Tribune",
+   "source_url": "https://www.tribuneindia.com/news/asian-champions-trophy-2026/india-beat-south-korea-2-1-to-register-2nd-consecutive-win-in-asian-champions-trophy-womens-hockey/amp",
    "tags": [
-    "#Sensex",
-    "#Nifty",
+    "#Hockey",
+    "#AsianChampionsTrophy",
+    "#TeamIndia",
+    "#TaazaKhabar"
+   ],
+   "title_en": "Women's Asian Champions Trophy: India beat South Korea 2-1 for second straight win",
+   "title_hi": "महिला एशियन चैंपियंस ट्रॉफी: भारत ने दक्षिण कोरिया को 2-1 से हराया, लगातार दूसरी जीत",
+   "page": "khabar/2026-11-22-13-khel-2.html"
+  },
+  {
+   "body_en": "Foreign portfolio investors have poured a record sum into Indian equities in November. Between November 1 and 20, FPIs invested Rs 1,13,719 crore in Indian equities, the highest monthly inflow ever recorded. Foreign investors remained net buyers through November, barring the Diwali Muhurat trading session.\n\nAnalysts attribute the surge to weakening enthusiasm for AI-linked stocks globally, with investors turning towards diversified markets such as India. Financial services, particularly banks, have attracted the largest share of the inflows. The rupee has also strengthened to 92.66 against the US dollar during the period.",
+   "body_hi": "विदेशी पोर्टफोलियो निवेशकों ने नवंबर में भारतीय शेयरों में रिकॉर्ड निवेश किया है। 1 से 20 नवंबर के बीच विदेशी निवेशकों ने भारतीय इक्विटी में 1,13,719 करोड़ रुपये डाले, जो अब तक का सबसे बड़ा मासिक निवेश है। दीवाली मुहूर्त कारोबार को छोड़कर विदेशी निवेशक पूरे नवंबर में शुद्ध खरीदार बने रहे।\n\nविश्लेषकों के अनुसार दुनिया भर में एआई से जुड़े शेयरों के प्रति उत्साह कम होने से निवेशक भारत जैसे विविध बाज़ारों की ओर बढ़ रहे हैं। वित्तीय सेवाओं, खासकर बैंकों को सबसे ज्यादा निवेश मिला है। इसी दौरान रुपया डॉलर के मुकाबले मजबूत होकर 92.66 पर पहुंच गया है।",
+   "cat": "vyapar",
+   "id": "2026-11-22-13-vyapar-1",
+   "img": "https://media.assettype.com/freepressjournal/2026-11-22/e1sdprq2/AI-to-India’s-Market-Rise.png",
+   "source": "The Free Press Journal",
+   "source_url": "https://www.freepressjournal.in/business/fpi-buying-hits-record-113-lakh-crore-in-november-is-india-emerging-as-a-new-favourite-as-ai-trade-weakens",
+   "tags": [
+    "#FPI",
     "#ShareMarket",
+    "#Sensex",
     "#TaazaKhabar"
    ],
-   "page": "khabar/2026-11-22-09-vyapar-1.html"
+   "title_en": "Record FPI inflows: Rs 1.13 lakh crore pumped into Indian equities in November",
+   "title_hi": "विदेशी निवेशकों का रिकॉर्ड: नवंबर में भारतीय शेयरों में ₹1.13 लाख करोड़ का निवेश",
+   "page": "khabar/2026-11-22-13-vyapar-1.html"
   },
   {
-   "id": "2026-11-22-09-vyapar-2",
+   "body_en": "Indian stock markets will trade for only four days next week. The BSE and NSE will remain closed on November 24 for Guru Nanak Jayanti, leaving trading sessions on November 23, 25, 26 and 27. The November futures and options expiry falls on Monday, November 23.\n\nOn Friday, the Sensex had risen 897.96 points to close at 83,919.71, while the Nifty gained 286.30 points to end at 25,800.60. Markets will now watch whether the Nifty can cross the 26,000 mark, while the HSBC Flash India PMI due on Monday will also be tracked by investors.",
+   "body_hi": "भारतीय शेयर बाज़ार में अगले हफ्ते सिर्फ चार दिन कारोबार होगा। बीएसई और एनएसई 24 नवंबर को गुरु नानक जयंती के मौके पर बंद रहेंगे, इसलिए 23, 25, 26 और 27 नवंबर को ही कारोबार होगा। नवंबर महीने के फ्यूचर्स और ऑप्शंस की एक्सपायरी सोमवार, 23 नवंबर को होगी।\n\nइससे पहले शुक्रवार को सेंसेक्स 897.96 अंक चढ़कर 83,919.71 पर और निफ्टी 286.30 अंक बढ़कर 25,800.60 पर बंद हुए थे। बाज़ार अब निफ्टी के 26,000 के स्तर की ओर देख रहा है, जबकि सोमवार को जारी होने वाला एचएसबीसी फ्लैश इंडिया पीएमआई भी निवेशकों की नज़र में रहेगा।",
    "cat": "vyapar",
-   "title_hi": "भारत-कनाडा व्यापार समझौते का छठा दौर पूरा, साल के अंत तक सौदा पक्का करने का लक्ष्य",
-   "title_en": "India, Canada conclude sixth round of trade pact talks, aim to finish deal by year-end",
-   "body_hi": "भारत और कनाडा ने प्रस्तावित व्यापक आर्थिक साझेदारी समझौते (CEPA) पर बातचीत का छठा दौर पूरा कर लिया है। वाणिज्य मंत्रालय के अनुसार नई दिल्ली में 11 से 20 नवंबर तक चली इस दस दिन की बातचीत में वस्तुओं और सेवाओं के व्यापार, मूल के नियम, निवेश और बौद्धिक संपदा जैसे मुद्दों पर चर्चा हुई।\n\nदोनों देशों के नेताओं ने इस साल के अंत तक बातचीत पूरी करने का लक्ष्य रखा है। भारतीय दल की अगुवाई मुख्य वार्ताकार बृज मोहन मिश्रा ने की, जबकि कनाडा के दल का नेतृत्व मैरी-कैथरीन स्पीयर्स ने किया।",
-   "body_en": "India and Canada have concluded the sixth round of negotiations for a proposed Comprehensive Economic Partnership Agreement (CEPA). According to the commerce ministry, the ten-day round in New Delhi from November 11 to 20 covered trade in goods and services, rules of origin, investment and intellectual property.\n\nLeaders of both countries have set the aim of concluding the negotiations by the end of this year. The Indian delegation was led by chief negotiator Brij Mohan Mishra, while the Canadian team was headed by chief negotiator Mary-Catherine Speirs.",
-   "source": "Business Standard",
-   "source_url": "https://www.business-standard.com/amp/economy/news/india-canada-conclude-sixth-round-of-talks-for-proposed-trade-pact-126112100793_1.html",
-   "img": "https://bsmedia.business-standard.com/_media/bs/img/article/2023-09/19/thumb/fitandfill/1200X628/1695144519-1834.jpg",
+   "id": "2026-11-22-13-vyapar-2",
+   "img": "https://images.goodreturns.in/img/2026/11/stockmarketholidaysnovember242026-26041795312903.jpg",
+   "source": "Goodreturns",
+   "source_url": "https://www.goodreturns.in/news/stock-market-holidays-why-bse-nse-trading-closed-for-3-days-next-week-sensex-nifty-weekly-outlook-1548801.html",
    "tags": [
-    "#IndiaCanada",
-    "#CEPA",
-    "#TradeDeal",
+    "#ShareMarket",
+    "#Nifty",
+    "#MarketHoliday",
     "#TaazaKhabar"
    ],
-   "page": "khabar/2026-11-22-09-vyapar-2.html"
+   "title_en": "Markets to trade only four days next week, closed on November 24 for Guru Nanak Jayanti",
+   "title_hi": "अगले हफ्ते शेयर बाज़ार में सिर्फ चार दिन कारोबार, 24 नवंबर को गुरु नानक जयंती की छुट्टी",
+   "page": "khabar/2026-11-22-13-vyapar-2.html"
   }
  ]
 }
