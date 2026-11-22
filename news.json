@@ -1,186 +1,150 @@
 {
- "edition": "रविवार, 22 नवंबर 2026 — सुबह 5 बजे",
- "updated_at": "2026-11-22T05:00:00+05:30",
+ "edition": "रविवार, 22 नवंबर 2026 — सुबह 9 बजे",
+ "updated_at": "2026-11-22T09:00:00+05:30",
  "stories": [
   {
-   "body_en": "Prime Minister Narendra Modi on Saturday inaugurated 'Nitish Setu', a six-lane cable-stayed bridge over the Ganga in Bihar's Vaishali district. Built at a cost of around Rs 4,280 crore, the bridge links Kachchi Dargah in Patna district with Bidupur in Vaishali. The 19.7-km connectivity corridor includes a 9.76-km main bridge over the river and about 10 km of approach roads.\n\nThe Prime Minister also inaugurated and laid foundation stones for development projects worth around Rs 34,470 crore in Bihar on the occasion. The naming of the bridge after former chief minister Nitish Kumar drew political debate — RJD leader Tejashwi Yadav said an earlier proposal was to name it after freedom fighter Akshayvat Rai.",
-   "body_hi": "प्रधानमंत्री नरेंद्र मोदी ने शनिवार को बिहार के वैशाली जिले में गंगा नदी पर बने छह लेन के केबल पुल 'नीतीश सेतु' का उद्घाटन किया। लगभग 4,280 करोड़ रुपये की लागत से बना यह पुल पटना जिले के कच्ची दरगाह को वैशाली के बिदुपुर से जोड़ता है। कुल 19.7 किलोमीटर लंबे इस संपर्क मार्ग में गंगा पर 9.76 किलोमीटर का मुख्य पुल और करीब 10 किलोमीटर की संपर्क सड़कें शामिल हैं।\n\nप्रधानमंत्री ने इसी मौके पर बिहार में करीब 34,470 करोड़ रुपये की विकास परियोजनाओं का उद्घाटन और शिलान्यास भी किया। पुल का नाम पूर्व मुख्यमंत्री नीतीश कुमार के नाम पर रखने को लेकर राजनीतिक बहस भी हुई — आरजेडी नेता तेजस्वी यादव ने कहा कि इस पुल का नाम स्वतंत्रता सेनानी अक्षयवट राय के नाम पर रखने का प्रस्ताव पहले से था।",
+   "id": "2026-11-22-09-bharat-1",
    "cat": "bharat",
-   "id": "2026-11-22-05-bharat-1",
-   "img": "https://th-i.thgim.com/public/incoming/3rhky2/article71728649.ece/alternates/LANDSCAPE_1200/PTI11_21_2026_000225B.jpg",
-   "source": "The Hindu",
-   "source_url": "https://www.thehindu.com/news/national/bihar/bihars-development-list-is-so-long-that-it-cannot-be-counted-in-one-visit-to-the-state-pm/article71727971.ece",
+   "title_hi": "कोटा में बड़ा हादसा: श्रद्धालुओं का वाहन खड़े ट्रक से टकराया, 9 की मौत",
+   "title_en": "Nine pilgrims killed as their vehicle rams into parked truck near Kota",
+   "body_hi": "राजस्थान के कोटा जिले में रविवार सुबह एक दर्दनाक सड़क हादसे में नौ श्रद्धालुओं की मौत हो गई और कई अन्य घायल हो गए। पुलिस के अनुसार श्रद्धालुओं को ले जा रहा वाहन कोटा-उदयपुर राजमार्ग पर शंभूपुरा के पास सड़क किनारे खड़े एक ट्रक से टकरा गया।\n\nहादसे की खबर मिलते ही पुलिस और राहत दल मौके पर पहुंचे और घायलों को नजदीकी अस्पताल पहुंचाया गया। पुलिस ने मामला दर्ज कर हादसे के कारणों की जांच शुरू कर दी है।",
+   "body_en": "At least nine pilgrims were killed and several others injured in a road accident near Kota in Rajasthan on Sunday morning. Police said the vehicle carrying the pilgrims rammed into a truck parked on the Kota-Udaipur highway near Shambhupura.\n\nPolice and rescue teams reached the spot soon after the accident and rushed the injured to a nearby hospital. Police have registered a case and begun investigating the cause of the crash.",
+   "source": "Times Now",
+   "source_url": "https://www.timesnownews.com/india/breaking-news-live-india-world-news-us-iran-war-russia-ukraine-updates-delhi-weather-aqi-cyclone-akvan-latest-updates-liveblog-156522071",
+   "img": "https://images.timesnownews.com/thumb/msid-156522071,thumbsize-4195565,width-1280,height-720,resizemode-75/156522071.jpg",
    "tags": [
-    "#NitishSetu",
-    "#Bihar",
+    "#Kota",
+    "#Rajasthan",
+    "#RoadAccident",
+    "#TaazaKhabar"
+   ],
+   "page": "khabar/2026-11-22-09-bharat-1.html"
+  },
+  {
+   "id": "2026-11-22-09-bharat-2",
+   "cat": "bharat",
+   "title_hi": "लखनऊ में कौशल दीक्षांत समारोह: PM मोदी बोले — ITI को IIT जैसा ही सम्मान मिले",
+   "title_en": "PM Modi at Lucknow skill convocation: ITI graduates deserve the same respect as IIT alumni",
+   "body_hi": "प्रधानमंत्री नरेंद्र मोदी ने शनिवार को लखनऊ में पांचवें राष्ट्रीय कौशल दीक्षांत समारोह में कहा कि दुनिया को सिर्फ डिग्रीधारियों की नहीं, हुनरमंद युवाओं की जरूरत है। उन्होंने कहा कि आईटीआई के छात्र देश के भविष्य के लिए उतने ही अहम हैं जितने आईआईटी के छात्र।\n\nप्रधानमंत्री ने कहा कि 2014 के बाद से देश में करीब 5,000 नए आईटीआई बने हैं, आईटीआई में पढ़ने वालों की संख्या पांच लाख से ज्यादा बढ़ी है और लड़कियों की संख्या ढाई गुना से अधिक हुई है। उन्होंने बताया कि एआई असिस्टेंट, ड्रोन तकनीशियन और सेमीकंडक्टर समेत 30 से ज्यादा नए जमाने के ट्रेड शुरू किए गए हैं, और भारत 2027 में ग्रेटर नोएडा में वर्ल्डस्किल्स प्रतियोगिता की मेजबानी करेगा।",
+   "body_en": "Prime Minister Narendra Modi said on Saturday at the fifth National Kaushal Deekshant Samaroh in Lucknow that the world needs skilled young people, not merely degree-holders. He said students of Industrial Training Institutes are as important to the country's future as those of the Indian Institutes of Technology.\n\nThe Prime Minister said nearly 5,000 new ITIs have been set up since 2014, enrolment in ITIs has risen by more than five lakh, and the number of girl students has grown more than two and a half times. He said over 30 new-age trades — including AI Assistant, Drone Technician and Semiconductor Technician — have been introduced, and India will host the 2027 WorldSkills Competition in Greater Noida.",
+   "source": "The Hindu",
+   "source_url": "https://www.thehindu.com/news/national/uttar-pradesh/world-needs-skilled-youth-not-merely-degree-holders-says-pm-modi/article71729144.ece",
+   "img": "https://th-i.thgim.com/public/incoming/cqtiz2/article71729336.ece/alternates/LANDSCAPE_1200/20261121478L.jpg",
+   "tags": [
+    "#KaushalDeekshant",
+    "#SkillIndia",
     "#PMModi",
     "#TaazaKhabar"
    ],
-   "title_en": "PM Modi inaugurates Nitish Setu, India's longest river bridge over the Ganga in Bihar",
-   "title_hi": "बिहार को मिला देश का सबसे लंबा नदी पुल: PM मोदी ने गंगा पर 'नीतीश सेतु' का उद्घाटन किया",
-   "page": "khabar/2026-11-22-05-bharat-1.html"
+   "page": "khabar/2026-11-22-09-bharat-2.html"
   },
   {
-   "body_en": "Twenty flights were cancelled and four diverted at Ranchi's Birsa Munda Airport on Saturday as Cyclone Akvan brought poor visibility and rain to eastern India. Visibility at the airport fell to around 1,000 metres, below the 1,200–1,500 metres required for safe take-offs and landings. Six of the cancelled services were Air India Express flights.\n\nThe cyclone had crossed the Odisha coast near Gopalpur on Friday morning with winds of 70–80 kmph, gusting to 90 kmph, before weakening into a low-pressure area. Heavy rain continued across the region — Chaibasa in West Singhbhum recorded 344 mm of rainfall in 24 hours. The weather office expects conditions to improve from Sunday, with clear sunshine likely from November 23.",
-   "body_hi": "चक्रवात अकवन के असर से शनिवार को रांची के बिरसा मुंडा हवाई अड्डे पर 20 उड़ानें रद्द कर दी गईं और 4 उड़ानों का रास्ता बदलना पड़ा। हवाई अड्डे पर दृश्यता घटकर करीब 1,000 मीटर रह गई थी, जबकि सुरक्षित उड़ान के लिए 1,200 से 1,500 मीटर दृश्यता जरूरी होती है। रद्द उड़ानों में छह एयर इंडिया एक्सप्रेस की सेवाएँ भी शामिल थीं।\n\nचक्रवात ने शुक्रवार सुबह ओडिशा के गोपालपुर के पास तट पार किया था, जहाँ हवाएँ 70-80 किलोमीटर प्रति घंटे की रफ्तार से चलीं। इसके बाद यह कमजोर होकर निम्न दबाव क्षेत्र में बदल गया, लेकिन पूर्वी भारत में भारी बारिश जारी रही — पश्चिम सिंहभूम के चाईबासा में 24 घंटे में 344 मिलीमीटर बारिश दर्ज हुई। मौसम विभाग के अनुसार रविवार से मौसम सुधरने लगेगा और 23 नवंबर से साफ धूप निकलने की संभावना है।",
+   "id": "2026-11-22-09-bharat-3",
    "cat": "bharat",
-   "id": "2026-11-22-05-bharat-2",
-   "img": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-11/21/thumb/fitandfill/1200X628/1795249521-9815.JPG",
-   "source": "Business Standard",
-   "source_url": "https://www.business-standard.com/amp/india-news/cyclone-akvan-disrupts-air-traffic-14-flights-cancelled-in-ranchi-126112100382_1.html",
+   "title_hi": "ओडिशा में बनेगा साइबर कमांड सेंटर: ₹249.39 करोड़ मंजूर, AI से होगी साइबर अपराध की निगरानी",
+   "title_en": "Odisha approves Rs 249.39 crore Cyber Command Centre to fight online crime",
+   "body_hi": "ओडिशा सरकार ने साइबर अपराध से लड़ने के लिए ओडिशा साइबर कमांड सेंटर (O3C) बनाने की मंजूरी दे दी है। मुख्यमंत्री मोहन चरण माझी ने इसके लिए 249.39 करोड़ रुपये की राशि मंजूर की है। यह केंद्र 2026-27 से 2029-30 तक चार साल में तैयार किया जाएगा।\n\nकेंद्र में चार इकाइयां होंगी — साइबर क्राइम मुख्यालय, राज्य साइबर क्राइम पुलिस स्टेशन, साइबर संसाधन केंद्र और एआई आधारित भविष्यवाणी पुलिसिंग व डेटा विश्लेषण केंद्र। इसका मकसद ऑनलाइन वित्तीय धोखाधड़ी और महिलाओं व बच्चों के खिलाफ साइबर अपराधों पर लगाम लगाना है।",
+   "body_en": "The Odisha government has approved the setting up of an Odisha Cyber Command Centre (O3C) to strengthen the fight against rising cybercrime. Chief Minister Mohan Charan Majhi sanctioned Rs 249.39 crore for the centre, which will be built over four years from 2026-27 to 2029-30.\n\nThe centre will have four wings — a Cyber Crime Headquarters, a State Cyber Crime Police Station, a Cyber Resource Centre, and an AI-based Predictive Policing and Data Analytics Centre. It aims to curb online financial fraud and cyber offences against women and children.",
+   "source": "The New Indian Express",
+   "source_url": "https://www.newindianexpress.com/states/odisha/2026/Nov/22/odisha-to-set-up-rs-249-crore-cyber-command-centre-2",
+   "img": "https://cf-images.assettype.com/newindianexpress%2F2026-11-22%2Femxikoco%2FOdisha-Police.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
    "tags": [
-    "#CycloneAkvan",
-    "#Ranchi",
-    "#Jharkhand",
+    "#Odisha",
+    "#CyberCrime",
+    "#CyberSecurity",
     "#TaazaKhabar"
    ],
-   "title_en": "Cyclone Akvan disrupts air travel: 20 flights cancelled at Ranchi airport, four diverted",
-   "title_hi": "चक्रवात अकवन का असर: रांची हवाई अड्डे पर 20 उड़ानें रद्द, 4 का रास्ता बदला",
-   "page": "khabar/2026-11-22-05-bharat-2.html"
+   "page": "khabar/2026-11-22-09-bharat-3.html"
   },
   {
-   "body_en": "Prime Minister Narendra Modi on Friday inaugurated the first Shanghai Cooperation Organisation (SCO) Civilisational Dialogue Forum at the historic Purana Qila in New Delhi. The three-day forum, running from November 20 to 22, brings together scholars, historians and cultural representatives from SCO member countries, observers and dialogue partners — including Pakistan minister Musadik Malik.\n\nThe Prime Minister said that at a time when parts of the world face war and instability, dialogue between civilisations is the strongest guarantee of peace. Before the inauguration, he visited the 'Mahabharat Scroll Pavilion — Anant' and 'Astitva', an exhibition on Delhi's history. The forum follows a proposal made by the Prime Minister at the SCO summit in Tianjin in 2025.",
-   "body_hi": "प्रधानमंत्री नरेंद्र मोदी ने शुक्रवार को दिल्ली के ऐतिहासिक पुराना किला में पहले शंघाई सहयोग संगठन (SCO) सभ्यता संवाद मंच का उद्घाटन किया। 20 से 22 नवंबर तक चलने वाले इस तीन दिवसीय मंच में SCO सदस्य देशों, पर्यवेक्षक देशों और संवाद साझेदारों के विद्वान, इतिहासकार और सांस्कृतिक प्रतिनिधि हिस्सा ले रहे हैं — पाकिस्तान के मंत्री मुसादिक मलिक भी शामिल हुए।\n\nप्रधानमंत्री ने कहा कि जब दुनिया के कई हिस्सों में युद्ध और अस्थिरता है, तब सभ्यताओं के बीच संवाद ही शांति की सबसे मजबूत गारंटी है। उद्घाटन से पहले उन्होंने 'महाभारत स्क्रॉल पवेलियन — अनंत' और दिल्ली के इतिहास पर आधारित प्रदर्शनी 'अस्तित्व' का भी दौरा किया। यह मंच प्रधानमंत्री के 2025 में तियानजिन SCO शिखर सम्मेलन में दिए गए प्रस्ताव पर बना है।",
-   "cat": "bharat",
-   "id": "2026-11-22-05-bharat-3",
-   "img": "https://janmabhumi.in/wp-content/uploads/2025/08/pm-2-2048x1552.webp",
-   "source": "NDTV",
-   "source_url": "https://www.ndtv.com/india-news/pm-narendra-modi-inaugurates-first-sco-civilisation-dialogue-forum-in-delhi-12354953?pfrom=top_widget_trending",
-   "tags": [
-    "#SCO",
-    "#PuranaQila",
-    "#PMModi",
-    "#TaazaKhabar"
-   ],
-   "title_en": "PM Modi inaugurates first SCO Civilisational Dialogue Forum at Purana Qila",
-   "title_hi": "पुराना किला में SCO सभ्यता संवाद मंच: PM मोदी बोले — संवाद ही दुनिया को दिशा दे सकता है",
-   "page": "khabar/2026-11-22-05-bharat-3.html"
-  },
-  {
-   "body_en": "A magnitude 6.9 earthquake shook the Andes in central Peru on Friday evening, with tremors felt in the capital Lima. The US Geological Survey said the quake struck at 7:09 pm local time, with its epicentre 34 kilometres north of Junin at a depth of 108 kilometres. Germany's GFZ research centre measured the magnitude at 6.8.\n\nPeru's Geophysical Institute said there were no immediate reports of damage or casualties. The quake's considerable depth limited its impact at the surface, and the situation was reported stable.",
-   "body_hi": "दक्षिण अमेरिकी देश पेरू के मध्य एंडीज क्षेत्र में शुक्रवार शाम 6.9 तीव्रता का भूकंप आया, जिसके झटके राजधानी लीमा तक महसूस किए गए। अमेरिकी भूवैज्ञानिक सर्वेक्षण (USGS) के अनुसार भूकंप स्थानीय समय शाम 7:09 बजे आया और इसका केंद्र जूनिन से 34 किलोमीटर उत्तर में, 108 किलोमीटर की गहराई में था। जर्मन शोध केंद्र जीएफजेड ने इसकी तीव्रता 6.8 बताई है।\n\nपेरू के भूभौतिकी संस्थान ने कहा है कि भूकंप से किसी के हताहत होने या नुकसान की शुरुआती खबर नहीं मिली है। भूकंप का केंद्र काफी गहराई में होने से सतह पर असर कम रहा, और हालात स्थिर बताए जा रहे हैं।",
+   "id": "2026-11-22-09-duniya-1",
    "cat": "duniya",
-   "id": "2026-11-22-05-duniya-1",
-   "img": "https://th-i.thgim.com/public/incoming/p4oads/article71727131.ece/alternates/LANDSCAPE_1200/Screenshot%202434.png",
-   "source": "The Hindu",
-   "source_url": "https://www.thehindu.com/news/international/peru-andes-earthquake-toll-updates-november-21-2026/article71727128.ece",
+   "title_hi": "खाड़ी में तनाव और बढ़ा: ईरान का दावा — बहरीन में अमेरिकी ठिकानों पर मिसाइल-ड्रोन हमला",
+   "title_en": "Iran claims missile-drone attack on US bases in Bahrain as Gulf tensions rise",
+   "body_hi": "ईरान के इस्लामिक रिवॉल्यूशनरी गार्ड कॉर्प्स (IRGC) ने दावा किया है कि उसने बहरीन में अमेरिकी सैन्य ठिकानों पर मिसाइल और ड्रोन से हमला किया है। ईरान का कहना है कि उसने दो अमेरिकी पैट्रियट वायु रक्षा रडारों को निशाना बनाया। बहरीन के अधिकारियों ने बताया कि एक औद्योगिक परिसर पर हमला हुआ, आग लगी और संपत्ति को नुकसान पहुंचा, लेकिन कोई हताहत नहीं हुआ।\n\nईरान ने इस हमले को अमेरिकी ड्रोनों द्वारा उसके हवाई क्षेत्र के कथित उल्लंघन और हेंगम द्वीप पर रडार ठिकाने पर हमले का जवाब बताया है। इसी बीच होर्मुज जलडमरूमध्य में दो तेल टैंकरों पर भी हमले की खबर है, जिससे दुनिया की तेल आपूर्ति को लेकर चिंता बढ़ गई है।",
+   "body_en": "Iran's Islamic Revolutionary Guard Corps (IRGC) has claimed it carried out a missile and drone attack on US military bases in Bahrain, saying it targeted two American Patriot air defence radars. Bahraini authorities said an industrial facility was struck, causing a fire and material damage, but no casualties.\n\nIran described the attack as retaliation for what it called violations of its airspace by US drones and an attack on a radar installation on Hengam Island. Two oil tankers were also reported hit in the Strait of Hormuz, raising concerns over global oil supplies through the strategic waterway.",
+   "source": "The Times of India",
+   "source_url": "https://timesofindia.indiatimes.com/world/middle-east/two-patriot-radars-hit-iran-launches-missile-drone-attack-on-us-bases-in-bahrain/articleshow/136066291.cms",
+   "img": "https://static.toiimg.com/thumb/msid-136066309,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
    "tags": [
-    "#Earthquake",
-    "#Peru",
-    "#Andes",
-    "#WorldNews"
-   ],
-   "title_en": "Magnitude 6.9 earthquake shakes Peru's Andes; tremors felt in Lima, no casualties reported",
-   "title_hi": "पेरू के एंडीज में 6.9 तीव्रता का भूकंप: राजधानी लीमा तक झटके, किसी के हताहत होने की खबर नहीं",
-   "page": "khabar/2026-11-22-05-duniya-1.html"
-  },
-  {
-   "body_en": "Tensions in the Gulf show no sign of easing. On Saturday night, Bahrain's interior ministry issued a warning of a possible threat and advised residents to move to the nearest safe location. Earlier on Wednesday, Iran struck Kuwait's Ali Al Salem Air Base — which hosts US forces — and several targets in Bahrain.\n\nKuwait's military said its air defences intercepted incoming drones with no damage reported on the ground, while Bahrain said it had repelled several Iranian attacks. The strikes came after US fighter jets hit a missile launch site on Iran's Qeshm Island in the Strait of Hormuz. In the strait, an attack on a tanker left one crew member of the UAE oil firm ADNOC missing and 11 injured.",
-   "body_hi": "खाड़ी में तनाव कम होने का नाम नहीं ले रहा है। शनिवार रात बहरीन के गृह मंत्रालय ने संभावित खतरे की चेतावनी जारी करते हुए लोगों को नजदीकी सुरक्षित स्थान पर जाने की सलाह दी। इससे पहले बुधवार को ईरान ने कुवैत के अली अल सलेम हवाई अड्डे — जहाँ अमेरिकी सेनाएँ तैनात हैं — और बहरीन में कई ठिकानों पर हमले किए थे।\n\nकुवैत की सेना ने कहा कि उसकी वायु रक्षा प्रणाली ने आने वाले ड्रोनों को रोक लिया और जमीन पर नुकसान की खबर नहीं है, जबकि बहरीन ने भी कई ईरानी हमलों को नाकाम करने का दावा किया। ये हमले अमेरिका द्वारा होरमुज जलडमरूमध्य में ईरान के केश्म द्वीप पर मिसाइल ठिकाने पर की गई कार्रवाई के जवाब में हुए। होरमुज में एक तेल टैंकर पर हमले के बाद संयुक्त अरब अमीरात की तेल कंपनी एडनॉक का एक चालक दल का सदस्य लापता है और 11 घायल हुए हैं।",
-   "cat": "duniya",
-   "id": "2026-11-22-05-duniya-2",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-18T071442Z_913088351_RC27QOA8QSRZ_RTRMADP_3_IRAN-CRISIS-1795018749.jpg?resize=1200%2C630",
-   "source": "Al Jazeera",
-   "source_url": "https://www.aljazeera.com/amp/news/2026/11/18/kuwait-bahrain-face-new-iran-attacks-after-us-strike-on-qeshm-island",
-   "tags": [
-    "#Bahrain",
     "#Iran",
-    "#Gulf",
+    "#Bahrain",
+    "#MiddleEast",
     "#WorldNews"
    ],
-   "title_en": "Gulf tensions persist: Bahrain issues threat warning after Iranian strikes on Kuwait and Bahrain",
-   "title_hi": "खाड़ी में तनाव जारी: बहरीन ने जारी की खतरे की चेतावनी, ईरान के हमलों के बाद अलर्ट",
-   "page": "khabar/2026-11-22-05-duniya-2.html"
+   "page": "khabar/2026-11-22-09-duniya-1.html"
   },
   {
-   "body_en": "India tightened their grip on the first Test against New Zealand in Wellington on day four. By around 5 am IST, India had reached 574 for 5, stretching their lead to 206 runs. Rishabh Pant was unbeaten on 92 and closing in on a century, with Dhruv Jurel keeping him company.\n\nEarlier, nightwatchman Anshul Kamboj played a brisk cameo of 38 off 42 balls to take India past 500 before falling to Glenn Phillips. India had ended day three on 486 for 4, built on KL Rahul's 136 and Shubman Gill's 98. New Zealand scored 368 in their first innings.",
-   "body_hi": "वेलिंग्टन में न्यूजीलैंड के खिलाफ पहले टेस्ट के चौथे दिन भारत ने अपनी पकड़ और मजबूत कर ली है। सुबह करीब 5 बजे तक भारत का स्कोर 574/5 था और बढ़त 206 रन की हो चुकी थी। ऋषभ पंत 92 रन बनाकर नाबाद थे और शतक के करीब पहुँच चुके थे, जबकि ध्रुव जुरेल उनका साथ निभा रहे थे।\n\nइससे पहले नाइटवॉचमैन अंशुल कंबोज ने 42 गेंदों पर 38 रनों की तेज पारी खेली और भारत को 500 के पार पहुँचाया, फिर ग्लेन फिलिप्स की गेंद पर आउट हुए। तीसरे दिन केएल राहुल के 136 और शुभमन गिल के 98 रनों की बदौलत भारत 486/4 पर था। न्यूजीलैंड ने पहली पारी में 368 रन बनाए थे।",
+   "id": "2026-11-22-09-duniya-2",
+   "cat": "duniya",
+   "title_hi": "गाज़ा में हमले के बाद हमास ने मध्यस्थों से तुरंत बैठक बुलाने की मांग की",
+   "title_en": "Hamas urges ceasefire mediators to meet urgently after Gaza strike kills three",
+   "body_hi": "गाज़ा शहर में शनिवार को हुए एक हमले में तीन लोगों की मौत के बाद हमास ने युद्धविराम के मध्यस्थों और गारंटर देशों से तुरंत बैठक बुलाने की मांग की है। हमास का कहना है कि हमले में खाद्य सामग्री ले जा रहा एक वाहन निशाना बना।\n\nदूसरी ओर इजरायली सेना ने कहा है कि उसने गाज़ा शहर के तेल अल-हवा इलाके में तीन इस्लामिक जिहाद लड़ाकों को मारा है, जो उसके अनुसार राहतकर्मी बनकर घूम रहे थे। इस घटना से पहले से नाजुक चल रही युद्धविराम व्यवस्था पर फिर सवाल उठ गए हैं।",
+   "body_en": "Hamas has urged ceasefire mediators and guarantor countries to convene an urgent meeting after an Israeli strike in Gaza City killed three people on Saturday. Hamas said the strike hit a vehicle carrying food supplies.\n\nThe Israeli military said it killed three Palestinian Islamic Jihad operatives in the Tel al-Hawa neighbourhood of Gaza City, alleging they were posing as aid workers. The incident has raised fresh questions over the already fragile ceasefire arrangement.",
+   "source": "The Times of India",
+   "source_url": "https://timesofindia.indiatimes.com/world/middle-east/us-iran-war-live-updates-donald-trump-khamenei-houthi-saudi-tensions-strait-of-hormuz-latest-news/liveblog/136038144.cms",
+   "img": "https://static.toiimg.com/thumb/msid-136038144,width-1280,height-720,imgsize-265602,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "tags": [
+    "#Gaza",
+    "#Ceasefire",
+    "#Hamas",
+    "#WorldNews"
+   ],
+   "page": "khabar/2026-11-22-09-duniya-2.html"
+  },
+  {
+   "id": "2026-11-22-09-khel-1",
    "cat": "khel",
-   "id": "2026-11-22-05-khel-1",
-   "img": "https://files.prokerala.com/news/photos/imgs/1024/wellington-india-s-rishabh-pant-in-action-on-day-2-of-the-1st-test-1130858.jpg",
-   "source": "NDTV Sports",
-   "source_url": "https://sports.ndtv.com/new-zealand-vs-india-2026-27/india-vs-new-zealand-live-score-1st-test-day-4-ind-vs-nz-2026-cricket-match-updates-rishabh-pant-anshul-kamboj-12359965",
+   "title_hi": "वेलिंग्टन टेस्ट: भारत ने 720/9 पर पारी घोषित की — पंत के 128, 352 रन की बढ़त",
+   "title_en": "India declare at 720/9 in Wellington as Pant's 128 powers a 352-run lead",
+   "body_hi": "वेलिंग्टन में पहले टेस्ट के चौथे दिन भारत ने अपनी पहली पारी 720/9 पर घोषित कर न्यूजीलैंड पर 352 रन की भारी बढ़त बना ली। यह न्यूजीलैंड के खिलाफ किसी भी टीम का सबसे बड़ा स्कोर है और न्यूजीलैंड की धरती पर किसी मेहमान टीम का सबसे बड़ा टेस्ट स्कोर भी है। ऋषभ पंत ने 153 गेंदों पर 128 रन बनाए, जिसमें 10 चौके और 6 छक्के शामिल रहे।\n\nपंत ने अपने शतक के साथ कई रिकॉर्ड बनाए — वह चारों SENA देशों में शतक लगाने वाले पहले एशियाई विकेटकीपर बने और टेस्ट में छक्कों के मामले में ब्रेंडन मैकुलम को पीछे छोड़कर 108 छक्कों के साथ दूसरे नंबर पर पहुंच गए। केएल राहुल ने 136 और ध्रुव जुरेल ने 78 रन बनाए। न्यूजीलैंड ने पहली पारी में 368 रन बनाए थे।",
+   "body_en": "India declared their first innings at 720/9 on day four of the opening Test in Wellington, taking a commanding 352-run lead over New Zealand. It is the highest-ever team total against New Zealand and the highest by any visiting side on New Zealand soil. Rishabh Pant struck 128 off 153 balls, hitting 10 fours and six sixes.\n\nPant's century set several records — he became the first Asian wicketkeeper to score hundreds in all four SENA countries and moved past Brendon McCullum to second place on the all-time list of Test sixes with 108. KL Rahul made 136 and Dhruv Jurel scored 78. New Zealand had made 368 in their first innings.",
+   "source": "ABP Live",
+   "source_url": "https://news.abplive.com/sports/cricket/rishabh-pant-and-kl-rahul-hit-hundreds-india-declare-with-352-run-lead-over-new-zealand-1876984",
+   "img": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/11/22/e3a44fc1cd1f6d2f4d3f5e83457d29e317953123836581468_original.jpg?impolicy=abp_cdn&imwidth=1200",
    "tags": [
     "#INDvsNZ",
     "#RishabhPant",
     "#Cricket",
     "#TaazaKhabar"
    ],
-   "title_en": "Wellington Test, Day 4: Pant nears century as India reach 574/5, lead past 200",
-   "title_hi": "वेलिंग्टन टेस्ट, चौथा दिन: पंत शतक के करीब, भारत 574/5 — बढ़त 200 के पार",
-   "page": "khabar/2026-11-22-05-khel-1.html"
+   "page": "khabar/2026-11-22-09-khel-1.html"
   },
   {
-   "body_en": "Cricket Australia on Saturday gave its 'unanimous support' to Pat Cummins to remain Test captain. The board said it unequivocally rejects any implication that Cummins' integrity has been compromised. The decision came amid questions over his captaincy following fresh claims about the 2018 ball-tampering controversy on the South Africa tour.\n\nCummins said captaining Australia carries an awesome responsibility that he never takes lightly. The board has ruled out reopening its original investigation and has instead set up an independent forum where players and staff from the 2018 tour can share their experiences. Fast bowler Josh Hazlewood has also backed Cummins openly. The decision settles speculation ahead of the home Test series against New Zealand in December.",
-   "body_hi": "क्रिकेट ऑस्ट्रेलिया ने शनिवार को पैट कमिंस को टेस्ट कप्तान बनाए रखने का फैसला करते हुए उन्हें अपना 'सर्वसम्मत समर्थन' दिया। बोर्ड ने कहा कि वह किसी भी इस तरह के संकेत को सिरे से खारिज करता है कि कमिंस की ईमानदारी से समझौता हुआ है। यह फैसला 2018 के दक्षिण अफ्रीका दौरे के बॉल-टैम्परिंग विवाद पर नए दावों के बाद कमिंस की कप्तानी पर उठे सवालों के बीच आया है।\n\nकमिंस ने कहा कि ऑस्ट्रेलिया की कप्तानी एक बड़ी जिम्मेदारी है और वह इसे कभी हल्के में नहीं लेते। बोर्ड ने पुरानी जाँच दोबारा खोलने से इनकार करते हुए 2018 के दौरे से जुड़े खिलाड़ियों और स्टाफ के लिए एक स्वतंत्र मंच बनाया है, जहाँ वे अपने अनुभव साझा कर सकेंगे। तेज गेंदबाज जोश हेजलवुड ने भी कमिंस का खुलकर समर्थन किया है। दिसंबर में न्यूजीलैंड के खिलाफ घरेलू टेस्ट सीरीज़ से पहले यह फैसला कप्तानी को लेकर चल रही अटकलों पर विराम लगाता है।",
-   "cat": "khel",
-   "id": "2026-11-22-05-khel-2",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-13T003005Z_680998989_UP1EMBD01E3D9_RTRMADP_3_CRICKET-SANDPAPERGATE-1795250752.jpg?resize=1920%2C1440",
-   "source": "Al Jazeera",
-   "source_url": "https://www.aljazeera.com/amp/sports/2026/11/21/cummins-wins-cricket-australias-unanimous-support-as-test-captain-sandpapergate",
-   "tags": [
-    "#PatCummins",
-    "#Australia",
-    "#Cricket",
-    "#TaazaKhabar"
-   ],
-   "title_en": "Pat Cummins to stay Australia Test captain as Cricket Australia gives unanimous support",
-   "title_hi": "पैट कमिंस ही रहेंगे ऑस्ट्रेलिया के टेस्ट कप्तान: क्रिकेट ऑस्ट्रेलिया ने दिया 'सर्वसम्मत समर्थन'",
-   "page": "khabar/2026-11-22-05-khel-2.html"
-  },
-  {
-   "body_en": "The Indian rupee has climbed to a seven-month high against the US dollar, closing at 92.67 on Friday. The currency gained 1.66 percent, or 157 paise, over the week. Heavy buying by foreign institutional investors supported the rupee — FIIs have made cumulative net investments of nearly Rs 1,11,950 crore in Indian equities so far in November.\n\nThe Sensex and Nifty also closed the week at nine-month highs, while the Bank Nifty touched a fresh record of 64,680.80. Easing crude oil prices and the return of foreign investment are seen as the key drivers of the market's strength.",
-   "body_hi": "भारतीय रुपया डॉलर के मुकाबले सात महीने के उच्चतम स्तर पर पहुँच गया है। शुक्रवार को रुपया 92.67 प्रति डॉलर पर बंद हुआ — हफ्ते भर में इसमें 1.66 प्रतिशत यानी 157 पैसे की मजबूती आई। विदेशी संस्थागत निवेशकों की भारी आवक ने रुपये को सहारा दिया है; नवंबर में अब तक विदेशी निवेशकों ने भारतीय शेयरों में करीब 1,11,950 करोड़ रुपये का शुद्ध निवेश किया है।\n\nइसी हफ्ते सेंसेक्स और निफ्टी नौ महीने के उच्चतम स्तर पर बंद हुए और बैंक निफ्टी ने 64,680.80 का नया रिकॉर्ड बनाया। कच्चे तेल की कीमतों में नरमी और विदेशी निवेश की वापसी को बाजार की मजबूती की बड़ी वजह माना जा रहा है।",
+   "id": "2026-11-22-09-vyapar-1",
    "cat": "vyapar",
-   "id": "2026-11-22-05-vyapar-1",
-   "img": "https://www.theworldvoice.com/Encyc/2026/1/23/rupee-dollar_202601231555074237_H@@IGHT_428_W@@IDTH_758.jpg",
-   "source": "Moneycontrol",
-   "source_url": "https://www.moneycontrol.com/news/photos/business/stocks/four-weeks-of-gains-sensex-nifty-scale-9-month-highs-on-record-fii-buying-14085940.html",
+   "title_hi": "बाज़ार: सेंसेक्स-निफ्टी नौ महीने के उच्च स्तर पर बंद, बैंक शेयरों की अगुवाई में चौथे हफ्ते भी बढ़त",
+   "title_en": "Sensex, Nifty close at nine-month highs as bank stocks lead a fourth straight weekly gain",
+   "body_hi": "भारतीय शेयर बाज़ार ने 20 नवंबर को खत्म हुए हफ्ते में जोरदार बढ़त दर्ज की। सेंसेक्स 83,919.71 पर और निफ्टी 50 25,800.60 पर बंद हुए — दोनों नौ महीने के उच्च स्तर पर हैं। बैंक शेयरों की अगुवाई में बाज़ार ने लगातार चौथे हफ्ते बढ़त दर्ज की।\n\nइस दौरान रुपया डॉलर के मुकाबले मजबूत होकर 92.67 पर पहुंचा, जबकि ब्रेंट कच्चा तेल हफ्ते में 3.4 प्रतिशत गिरकर करीब 92.57 डॉलर प्रति बैरल पर आ गया। अगले हफ्ते बाज़ार के लिए नवंबर F&O एक्सपायरी और गुरु नानक जयंती पर 24 नवंबर की छुट्टी अहम रहेगी।",
+   "body_en": "Indian stock markets closed the week ended November 20 at nine-month highs. The Sensex settled at 83,919.71 and the Nifty 50 at 25,800.60, with banking stocks leading the rally to a fourth consecutive weekly gain.\n\nThe rupee strengthened to 92.67 against the US dollar during the week, while Brent crude fell 3.4 per cent to about $92.57 a barrel. Next week, traders will watch the November F&O expiry, advanced to Monday, November 23, and a market holiday on November 24 for Guru Nanak Jayanti.",
+   "source": "The Sunday Guardian",
+   "source_url": "https://sundayguardianlive.com/business/sensex-nifty-end-week-at-nine-month-highs-as-bank-stocks-lead-rally-325649/",
+   "img": "https://sundayguardianlive.com/wp-content/uploads/2026/11/pic-4.jpg",
    "tags": [
-    "#Rupee",
-    "#Dollar",
-    "#FII",
+    "#Sensex",
+    "#Nifty",
+    "#ShareMarket",
     "#TaazaKhabar"
    ],
-   "title_en": "Rupee hits seven-month high of 92.67 against the dollar as foreign investors pour in record funds",
-   "title_hi": "रुपया सात महीने के उच्चतम स्तर पर: डॉलर के मुकाबले 92.67, विदेशी निवेशकों ने नवंबर में ₹1.12 लाख करोड़ डाले",
-   "page": "khabar/2026-11-22-05-vyapar-1.html"
+   "page": "khabar/2026-11-22-09-vyapar-1.html"
   },
   {
-   "body_en": "Bitcoin has fallen to its lowest level in more than two years. It slumped 6 percent in the US on Friday and another 5.7 percent in Asia on Saturday to $55,533, its weakest since September 2024. The cryptocurrency has lost more than half its value since peaking above $126,000 in October 2025.\n\nBitcoin's slide triggered the liquidation of roughly $2 billion in leveraged long bets over 24 hours. Analysts point to a hack at the Binance exchange in late October, Democratic victories in the US midterm elections and heavy selling in technology stocks as key pressures behind the fall.",
-   "body_hi": "बिटकॉइन दो साल से ज्यादा के निचले स्तर पर आ गया है। शुक्रवार को अमेरिका में 6 प्रतिशत और शनिवार को एशिया में 5.7 प्रतिशत गिरकर यह 55,533 डॉलर पर पहुँच गया — सितंबर 2024 के बाद का सबसे निचला स्तर। अक्टूबर 2025 में 1,26,000 डॉलर से ऊपर के शिखर से यह अपनी आधी से ज्यादा कीमत गँवा चुका है।\n\nबिटकॉइन की गिरावट से 24 घंटे में करीब 2 अरब डॉलर के लीवरेज वाले दांव डूब गए। दबाव की वजहों में अक्टूबर के अंत में बिनांस एक्सचेंज पर हुआ साइबर हमला, अमेरिका के मध्यावधि चुनावों में डेमोक्रेट्स की जीत और तकनीकी शेयरों में भारी बिकवाली मानी जा रही है।",
+   "id": "2026-11-22-09-vyapar-2",
    "cat": "vyapar",
-   "id": "2026-11-22-05-vyapar-2",
-   "img": "https://cdn.publish0x.com/prod/fs/images/9e4655ac1751d011414b64dda1aaf622cb18a0ca8f0a237baccf8b75e66cfa37.jpeg",
-   "source": "Moneycontrol",
-   "source_url": "https://www.moneycontrol.com/news/cryptocurrency/bitcoin-falls-to-more-than-2-year-low-as-global-markets-sink-14086068.html/amp",
+   "title_hi": "भारत-कनाडा व्यापार समझौते का छठा दौर पूरा, साल के अंत तक सौदा पक्का करने का लक्ष्य",
+   "title_en": "India, Canada conclude sixth round of trade pact talks, aim to finish deal by year-end",
+   "body_hi": "भारत और कनाडा ने प्रस्तावित व्यापक आर्थिक साझेदारी समझौते (CEPA) पर बातचीत का छठा दौर पूरा कर लिया है। वाणिज्य मंत्रालय के अनुसार नई दिल्ली में 11 से 20 नवंबर तक चली इस दस दिन की बातचीत में वस्तुओं और सेवाओं के व्यापार, मूल के नियम, निवेश और बौद्धिक संपदा जैसे मुद्दों पर चर्चा हुई।\n\nदोनों देशों के नेताओं ने इस साल के अंत तक बातचीत पूरी करने का लक्ष्य रखा है। भारतीय दल की अगुवाई मुख्य वार्ताकार बृज मोहन मिश्रा ने की, जबकि कनाडा के दल का नेतृत्व मैरी-कैथरीन स्पीयर्स ने किया।",
+   "body_en": "India and Canada have concluded the sixth round of negotiations for a proposed Comprehensive Economic Partnership Agreement (CEPA). According to the commerce ministry, the ten-day round in New Delhi from November 11 to 20 covered trade in goods and services, rules of origin, investment and intellectual property.\n\nLeaders of both countries have set the aim of concluding the negotiations by the end of this year. The Indian delegation was led by chief negotiator Brij Mohan Mishra, while the Canadian team was headed by chief negotiator Mary-Catherine Speirs.",
+   "source": "Business Standard",
+   "source_url": "https://www.business-standard.com/amp/economy/news/india-canada-conclude-sixth-round-of-talks-for-proposed-trade-pact-126112100793_1.html",
+   "img": "https://bsmedia.business-standard.com/_media/bs/img/article/2023-09/19/thumb/fitandfill/1200X628/1695144519-1834.jpg",
    "tags": [
-    "#Bitcoin",
-    "#Crypto",
-    "#Markets",
+    "#IndiaCanada",
+    "#CEPA",
+    "#TradeDeal",
     "#TaazaKhabar"
    ],
-   "title_en": "Bitcoin falls to more than two-year low at $55,533 as $2 billion in bets are wiped out",
-   "title_hi": "बिटकॉइन दो साल के निचले स्तर पर: $55,533 तक लुढ़का, 24 घंटे में $2 अरब के दांव डूबे",
-   "page": "khabar/2026-11-22-05-vyapar-2.html"
-  },
-  {
-   "body_en": "Rockstar Games' 'Grand Theft Auto VI' has set a record as the biggest entertainment launch in history, with $3.79 billion in retail sales on its first day. The game had already sold 32.5 million units before release — another record. The figure is higher than the entire lifetime box-office collection of Hollywood's top-grossing film, 'Avengers: Endgame'.\n\nGTA VI's first-day earnings are nearly five times the roughly $800 million its predecessor GTA V made on day one in 2013. With a score of 99 on review aggregator Metacritic, it is also the highest-rated game ever. The game launched on November 19 for PlayStation 5 and Xbox Series X|S.",
-   "body_hi": "रॉकस्टार गेम्स के 'ग्रैंड थेफ्ट ऑटो VI' ने पहले ही दिन 3.79 अरब डॉलर की बिक्री दर्ज करके मनोरंजन के इतिहास की सबसे बड़ी लॉन्च बनने का रिकॉर्ड तोड़ दिया है। खेल के रिलीज से पहले ही 3.25 करोड़ प्रतियाँ बिक चुकी थीं — यह भी एक रिकॉर्ड है। यह आँकड़ा हॉलीवुड की सबसे ज्यादा कमाई वाली फिल्म 'एवेंजर्स: एंडगेम' की कुल कमाई से भी ज्यादा है।\n\nGTA VI की पहले दिन की कमाई उसके पहले वाले खेल GTA V से लगभग पाँच गुना ज्यादा है, जिसने 2013 में पहले दिन करीब 80 करोड़ डॉलर कमाए थे। समीक्षा साइट मेटाक्रिटिक पर 99 अंक के साथ यह अब तक का सबसे ज्यादा रेटिंग वाला खेल भी बन गया है। यह खेल 19 नवंबर को प्लेस्टेशन 5 और एक्सबॉक्स सीरीज़ X|S पर जारी हुआ था।",
-   "cat": "khaas",
-   "id": "2026-11-22-05-khaas-1",
-   "img": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/Grand%20Theft%20Auto%20VI.jpg",
-   "source": "The Daily Star",
-   "source_url": "https://www.thedailystar.net/news/technology/news/grand-theft-auto-vi-takes-record-38-bn-first-day-4329286",
-   "tags": [
-    "#GTAVI",
-    "#Gaming",
-    "#Rockstar",
-    "#TaazaKhabar"
-   ],
-   "title_en": "GTA VI makes $3.79 billion on day one, the biggest entertainment launch in history",
-   "title_hi": "GTA VI ने पहले ही दिन $3.79 अरब कमाए: मनोरंजन इतिहास की सबसे बड़ी लॉन्च",
-   "page": "khabar/2026-11-22-05-khaas-1.html"
+   "page": "khabar/2026-11-22-09-vyapar-2.html"
   }
  ]
 }
