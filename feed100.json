@@ -1,806 +1,286 @@
 {
- "updated_at": "2026-11-23T21:08:03+05:30",
- "count": 100,
+ "updated_at": "2026-11-24T05:11:38+05:30",
+ "count": 35,
  "items": [
   {
-   "t": "Avengers : Doomsday  runtime revealed by co - director Joe Russo , and it vastly different from that of 2019  Endgame",
-   "u": "https://economictimes.indiatimes.com/magazines/panache/avengers-doomsday-runtime-revealed-by-co-director-joe-russo-and-its-vastly-different-from-that-of-2019s-endgame/articleshow/136087219.cms",
-   "img": "https://img.etimg.com/thumb/msid-136087253,width-1200,height-675,imgsize-36954,overlay-etpanache/articleshow.jpg",
-   "d": "economictimes.indiatimes.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
+   "t": "Almost showtime for Packer Micah Parsons , Wednesday debut possible | 95 . 3 The Score",
+   "u": "https://www.953thescore.com/2026/11/23/almost-showtime-for-packers-micah-parsons-wednesday-debut-possible/",
+   "img": "https://v4.dailysportspage.com/cumulus/image/885861/600/400/",
+   "d": "953thescore.com",
+   "time": "20261123T223000Z",
+   "cat": "khel"
+  },
+  {
+   "t": "49ers release Brandon Aiyuk after dramatic contract standoff",
+   "u": "https://www.pressdemocrat.com/2026/11/23/brandon-aiyuk-49ers-contract-released-free-agent/",
+   "img": "https://www.pressdemocrat.com/wp-content/uploads/2025/12/BNG-L-49ERS-0725-5.jpg",
+   "d": "pressdemocrat.com",
+   "time": "20261123T223000Z",
+   "cat": "khel"
+  },
+  {
+   "t": "100 Years Ago : November 23 , 2026",
+   "u": "https://www.wicz.com/community/100-years-ago/100-years-ago-november-23-2026/article_cde070f1-76f0-4800-bf53-b4bb1a62da14.html",
+   "img": "https://bloximages.chicago2.vip.townnews.com/wicz.com/content/tncms/assets/v3/editorial/0/fe/0fe62fb9-285c-5e18-8299-bb4424909b40/676055b3a43a8.image.jpg?crop=640%2C336%2C0%2C11",
+   "d": "wicz.com",
+   "time": "20261123T223000Z",
+   "cat": "khel"
+  },
+  {
+   "t": "IMAX To Screen Super Bowl LXI Nationwide",
+   "u": "https://khow.iheart.com/content/2026-11-23-imax-to-screen-super-bowl-lxi-nationwide/",
+   "img": "https://i.iheart.com/v3/re/assets.getty/6b04953aaa0f667afff9031c?ops=gravity(%22north%22),fit(1200,675),quality(65)",
+   "d": "khow.iheart.com",
+   "time": "20261123T223000Z",
+   "cat": "khel"
+  },
+  {
+   "t": "The Real - Life Wardrobe of Michael Bennett , Who Traded the NFL for Furniture Design",
+   "u": "https://www.gq.com/story/real-life-wardrobe-michael-bennett",
+   "img": "https://media.gq.com/photos/6b04aa8f7caa32c455ecf224/16:9/w_1280,c_limit/RLW-Social%20Template.jpg",
+   "d": "gq.com",
+   "time": "20261123T223000Z",
+   "cat": "khel"
+  },
+  {
+   "t": "Tottenham keeping tabs on Samu Aghehowa",
+   "u": "https://www.caughtoffside.com/2026/11/23/tottenham-track-spanish-international-with-49-goals-in-85-appearances/",
+   "img": "https://icdn.caughtoffside.com/2026/08/COS-FeaturedHero-Image-Templates-19-1.jpg",
+   "d": "caughtoffside.com",
+   "time": "20261123T223000Z",
+   "cat": "khel"
+  },
+  {
+   "t": "Week 11 MNF : Bengals - Commanders Preview , Prop Picks , Prediction",
+   "u": "https://www.953thescore.com/2026/11/23/week-11-mnf-bengals-commanders-preview-prop-picks-prediction/",
+   "img": "https://v4.dailysportspage.com/cumulus/image/885865/600/400/",
+   "d": "953thescore.com",
+   "time": "20261123T223000Z",
+   "cat": "khel"
+  },
+  {
+   "t": "Arsenal handed boost in their pursuit of Antonio Nusa",
+   "u": "https://www.caughtoffside.com/2026/11/23/liverpool-face-competition-as-e80m-attacking-sensation-favours-move-to-arsenal/",
+   "img": "https://icdn.caughtoffside.com/2026/11/COS-Featured_Hero-Image-Templates-35.jpg",
+   "d": "caughtoffside.com",
+   "time": "20261123T223000Z",
+   "cat": "khel"
+  },
+  {
+   "t": "Xabi Alonso faces Chelsea dressing - room unrest after players question his training methods",
+   "u": "https://www.caughtoffside.com/2026/11/23/alarming-report-claims-why-chelsea-players-are-reportedly-unhappy-with-xabi-alonso/",
+   "img": "https://icdn.caughtoffside.com/2026/10/COS-FeaturedHero-Image-Templates-4-1792751585.jpg",
+   "d": "caughtoffside.com",
+   "time": "20261123T223000Z",
+   "cat": "khel"
+  },
+  {
+   "t": "Chelsea and Tottenham keen on a move for Joao Felix",
+   "u": "https://www.caughtoffside.com/2026/11/23/chelsea-and-tottenham-join-european-race-for-e45m-rated-attacker/",
+   "img": "https://icdn.caughtoffside.com/2025/07/COS-FeaturedHero-Image-Templates-142.jpg",
+   "d": "caughtoffside.com",
+   "time": "20261123T223000Z",
+   "cat": "khel"
+  },
+  {
+   "t": "49ers confirm extension for decade - long GM John Lynch",
+   "u": "https://www.pressdemocrat.com/2026/11/23/49ers-john-lynch-lands-contract-extension-before-win-in-mexico/",
+   "img": "https://www.pressdemocrat.com/wp-content/uploads/2026/07/BNG-L-49ERS-0529-21-e1783622800148-1.jpg",
+   "d": "pressdemocrat.com",
+   "time": "20261123T223000Z",
+   "cat": "khel"
+  },
+  {
+   "t": "Big Ten rankings : Oregon (!) on top as nightmare CFP scenario looms",
+   "u": "https://www.pressdemocrat.com/2026/11/23/big-ten-bids-cfp-rankings-ucla-oregon/",
+   "img": "https://www.pressdemocrat.com/wp-content/uploads/2026/01/BNG-L-HOTLINE-1024.jpg",
+   "d": "pressdemocrat.com",
+   "time": "20261123T223000Z",
+   "cat": "khel"
+  },
+  {
+   "t": "Revisiting the regular - season history of modern Chiefs - Bills rivalry",
+   "u": "https://www.1047thecave.com/revisiting-the-regular-season-history-of-modern-chiefs-bills-rivalry/",
+   "img": "https://www.1047thecave.com/wp-content/uploads/2026/11/gettyimages-1963509750-scaled.webp",
+   "d": "1047thecave.com",
+   "time": "20261123T223000Z",
+   "cat": "khel"
   },
   {
-   "t": "How Kim Jong Un gets away with building nukes and ghosting Trump",
-   "u": "https://www.livemint.com/global/how-kim-jong-un-gets-away-with-building-nukes-and-ghosting-trump-11795397191350.html",
-   "img": "https://www.livemint.com/lm-img/img/2026/11/23/600x338/im-02982449_1795397196829_PuAe_1795397206258_zPSx_5d856b1a-3859-43f5-be57-b70ddeab41a1_UjNv.jpg",
-   "d": "livemint.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
+   "t": "Chelsea and Newcastle keen on signing Jaedon Donkor",
+   "u": "https://www.caughtoffside.com/2026/11/23/chelsea-and-newcastle-prepare-january-battle-for-highly-rated-scottish-teenage-sensation/",
+   "img": "https://icdn.caughtoffside.com/2026/09/arsenal-fc-v-chelsea-fc-premier-league-2026-27-10.jpg",
+   "d": "caughtoffside.com",
+   "time": "20261123T223000Z",
+   "cat": "khel"
   },
   {
-   "t": "Settle Tata stand off out of court to avoid reputational damage , says ex SEBI chief M Damodaran",
-   "u": "https://www.businesstoday.in/latest/corporate/story/settle-tata-stand-off-out-of-court-to-avoid-reputational-damage-says-ex-sebi-chief-m-damodaran-568974-2026-11-23",
-   "img": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202611/6b03af1fa7f25-turning-to-market-taxation--damodaran-called-for-scraping-the-ltcg-tax-on-foreign-investors--arguing-231230476-16x9.jpg",
-   "d": "businesstoday.in",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
+   "t": "Okanagan MP fights for cadets | Abbotsford News",
+   "u": "https://abbynews.com/2026/11/23/okanagan-mp-fights-for-cadets/",
+   "img": "https://abbynews.com/wp-content/uploads/sites/6/2026/11/261126-VMS-cadet.jpg",
+   "d": "abbynews.com",
+   "time": "20261123T223000Z",
+   "cat": "khel"
   },
   {
-   "t": "The Hindu Data team analyses the Anthropic IPO",
-   "u": "https://www.thehindu.com/data/data-viewpoint-on-anthropic-ipo/article71733208.ece",
-   "img": "https://th-i.thgim.com/public/incoming/bse30m/article71733223.ece/alternates/LANDSCAPE_1200/2026-11-20T163306Z_460204442_RC22ROAU8AOI_RTRMADP_3_USA-IPO-ANTHROPIC.JPG",
-   "d": "thehindu.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
+   "t": "New York Toy Fair brings out the best in toys",
+   "u": "https://www.timesherald.com/2026/11/23/new-york-toy-fair-brings-out-the-best-in-toys/",
+   "img": "https://www.timesherald.com/wp-content/uploads/2026/11/toy-test-2026-nee-doh-112226.jpeg",
+   "d": "timesherald.com",
+   "time": "20261123T213000Z",
+   "cat": "khel"
   },
   {
-   "t": "Delhi AQI today , November 23 : Air quality turns hazardous at 456 , pollution 20 times above WHO limit",
-   "u": "https://www.livemint.com/news/india/delhi-aqi-today-november-23-air-quality-turns-hazardous-at-456-pollution-20-times-above-who-limit-11795402252647.html",
-   "img": "https://www.livemint.com/lm-img/img/2026/11/23/600x338/Delhi_AQI_23_Nov_1795402643332_fN8v_1795402647923_sIBR_66cac223-1f16-4ba2-9be3-8d5da827897e_Ti6o.jpg",
-   "d": "livemint.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
+   "t": "FIFA picks US to co - host 2031 Women World Cup and united kingdom for 2035 edition",
+   "u": "https://wgan.com/news/030030-fifa-picks-us-to-co-host-2031-womens-world-cup-and-uk-for-2035-edition/",
+   "img": "https://news.sagacom.com/wp-content/blogs.dir/3/files/2026/11/AP26327543485466-620x400.jpg",
+   "d": "wgan.com",
+   "time": "20261123T213000Z",
+   "cat": "khel"
   },
   {
-   "t": "Stock market outlook today , 23 Nov : Sensex , Nifty prediction - DJIA , S & P , NASDAQ , GIFT Nifty , Kospi , Nikkei , Taiwan cues",
-   "u": "https://www.livemint.com/market/stock-market-news/stock-market-outlook-today-23-nov-sensex-nifty-prediction-djia-s-p-nasdaq-gift-nifty-kospi-nikkei-taiwan-cues-11795394068928.html",
-   "img": "https://www.livemint.com/lm-img/img/2026/11/23/600x338/Global_Markets_Bull_Bear_and_Asia_1795396026169_LHxD_1795396030011_XYCn_d81e6824-4ff6-42e0-9c6e-17e704e9a684_57wH.png",
-   "d": "livemint.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
+   "t": "Broadmeadow Magic to host Lions FC in national quarter - final | Newcastle Herald",
+   "u": "https://www.newcastleherald.com.au/story/9396371/broadmeadow-magic-to-host-lions-fc-in-national-quarter-final/",
+   "img": "https://www.newcastleherald.com.au/images/transform/v1/crop/frm/AVQVfAtGgzehhK8J9F6uCU/f61a5f83-c60e-49dc-8527-3ffdae25a7a8.jpg/r0_36_1920_1044_w1200_h630_fmax.jpg",
+   "d": "newcastleherald.com.au",
+   "time": "20261123T213000Z",
+   "cat": "khel"
   },
   {
-   "t": "Carney , opposition leaders trade comedic jabs at press gallery dinner",
-   "u": "https://www.cinaradio.com/2026/11/22/carney-opposition-leaders-trade-comedic-jabs-at-press-gallery-dinner/",
-   "img": "https://i.cbc.ca/ais/dcb903a2-c31e-49e4-ac73-0d3859cae4fa,1795398121842/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C197%2C3778%2C2125%29%3B",
-   "d": "cinaradio.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
+   "t": "Echidna | Why handwriting is a challenge for year 12 exam markers | The Advocate",
+   "u": "https://www.theadvocate.com.au/story/9396209/echidna-why-handwriting-is-a-challenge-for-year-12-exam-markers/",
+   "img": "https://www.theadvocate.com.au/images/transform/v1/crop/frm/231012065/836b53a0-826c-4f53-9323-dc34ba8fce42.jpg/r0_36_1920_1044_w1200_h630_fmax.jpg",
+   "d": "theadvocate.com.au",
+   "time": "20261123T213000Z",
+   "cat": "khel"
   },
   {
-   "t": "MSCI Discussed Avoiding Indonesia Downgrade With Prabowo , Dalio",
-   "u": "https://www.livemint.com/market/msci-discussed-avoiding-indonesia-downgrade-with-prabowo-dalio-11795402315648.html",
-   "img": "https://www.livemint.com/lm-img/img/2024/12/06/600x338/market1_1733465997762_1733466008348.jpg",
-   "d": "livemint.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
+   "t": "I Came to Steamboat to Ski . I Stayed for Everything Else .",
+   "u": "https://matadornetwork.com/read/steamboat-springs-off-the-slopes/",
+   "img": "https://cdn1.matadornetwork.com/blogs/1/2026/10/StemboatSpringslead1-1200x900.jpg",
+   "d": "matadornetwork.com",
+   "time": "20261123T213000Z",
+   "cat": "khel"
   },
   {
-   "t": "The fault lines threatening democracy",
-   "u": "https://www.livemint.com/opinion/columns/the-fault-lines-threatening-democracy-11795359705968.html",
-   "img": "https://www.livemint.com/lm-img/img/2026/11/22/600x338/PTI10-13-2026-000310A-0_1791900677429_brBv_1795362557991_Brmp_8dc8d183-62a0-416c-a136-ebe20bf1ede0_ZgwS.jpg",
-   "d": "livemint.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
+   "t": "Ohio Traffic Safety Office launches Project Plan Ahead ahead of Thanksgiving Weekend",
+   "u": "https://www.whio.com/news/local/state-offering-rideshare-credit-thanksgiving-weekend/FYODLPBPQJCFZN4F3F2YYSQ6DI/",
+   "img": "https://cmg-cmg-tv-10040-prod.cdn.arcpublishing.com/resizer/v2/https%3A%2F%2Fcloudfront-us-east-1.images.arcpublishing.com%2Fcmg%2FKHBSUKLKEJCQNMJIU6X7ZZHRZM.jpg?auth=084f77b0efb29186347d73174b102425c00754614c686c47d55c1acee2c3bab3&smart=true",
+   "d": "whio.com",
+   "time": "20261123T213000Z",
+   "cat": "khel"
   },
   {
-   "t": "Japan - Europe spacecraft BepiColombo begins orbit of Mercury , with a glitch reported",
-   "u": "https://www.thehindu.com/sci-tech/science/japan-europe-spacecraft-bepicolombo-begins-orbit-of-mercury-with-a-glitch-reported/article71733234.ece",
-   "img": "https://th-i.thgim.com/public/incoming/xgolxv/article71733250.ece/alternates/LANDSCAPE_1200/Mercury_Mission_87335.jpg",
-   "d": "thehindu.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
+   "t": "United States picked by FIFA to co - host 2031 Women World Cup",
+   "u": "https://www.dailyfreeman.com/2026/11/23/usa-2031-womens-world-cup-hosts/",
+   "img": "https://www.dailyfreeman.com/wp-content/uploads/2026/11/Women8217s_WCup_Hosts_85466.jpg",
+   "d": "dailyfreeman.com",
+   "time": "20261123T213000Z",
+   "cat": "khel"
   },
   {
-   "t": "Mint Quick Edit | Listen to exporters to create more jobs in India",
-   "u": "https://www.livemint.com/opinion/online-views/mint-quick-edit-listen-to-exporters-to-create-more-jobs-in-india-11795362088861.html",
-   "img": "https://www.livemint.com/lm-img/img/2026/11/22/600x338/2-0-1382223513-trade--9--0_1679774191416_1795363075285_g5qS_a47da4f7-813b-4631-a9e3-e18a57f6541b_wfXt.jpg",
-   "d": "livemint.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
+   "t": "Disney , ESPN and NFL take Super Bowl to IMAX theaters",
+   "u": "https://b975.com/2026/11/23/disney-espn-and-nfl-take-super-bowl-to-imax-theaters/",
+   "img": "https://storage.googleapis.com/media.mwcradio.com/mimesis/2026-11/23/2026-11-23T201515Z_1_LYNXNPEMAM1L1_RTROPTP_3_WALT-DISNEY-RESULTS.JPG",
+   "d": "b975.com",
+   "time": "20261123T213000Z",
+   "cat": "khel"
   },
   {
-   "t": "FULL SPEECH | Carney roasts opposition , Trump at press gallery dinner",
-   "u": "https://www.cinaradio.com/2026/11/22/full-speech-carney-roasts-opposition-trump-at-press-gallery-dinner/",
-   "img": "https://i.cbc.ca/ais/debfd770-eebf-4bab-82ec-a11932f75fde,1795397071340/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C197%2C3778%2C2125%29%3B",
-   "d": "cinaradio.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
+   "t": "Cowichan Bulldogs honour longtime volunteer , Cookie Grandma",
+   "u": "https://sookenewsmirror.com/2026/11/22/cowichan-bulldogs-honour-longtime-volunteer-cookie-grandma/",
+   "img": "https://sookenewsmirror.com/wp-content/uploads/sites/21/2026/11/football.jpg",
+   "d": "sookenewsmirror.com",
+   "time": "20261123T213000Z",
+   "cat": "khel"
   },
   {
-   "t": "Indian supply chains may have $500 billion in inventory tied up : Kinaxis CEO",
-   "u": "https://www.thehindu.com/business/indian-supply-chains-may-have-500-billion-in-inventory-tied-up-kinaxis-ceo/article71729188.ece",
-   "img": "https://www.thehindu.com/theme/images/og-image.png",
-   "d": "thehindu.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
+   "t": "What New on Netflix in December 2026",
+   "u": "https://wkdq.com/ixp/442/p/netflix-new-titles-december-2026/",
+   "img": "https://townsquare.media/site/442/files/2026/11/attachment-ufp25_r7_rec709_2p4gamma_6188x3240_20260831-0616962_r6-1.jpg?&q=75&format=natural",
+   "d": "wkdq.com",
+   "time": "20261123T213000Z",
+   "cat": "khel"
   },
   {
-   "t": "OpenAI : OpenAI scientist proposes industry AI limits tied to model intelligence metric",
-   "u": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-scientist-proposes-industry-ai-limits-tied-to-model-intelligence-metric/articleshow/136087667.cms",
-   "img": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-1882562,resizemode-75,msid-136087667/tech/artificial-intelligence/openai-scientist-proposes-industry-ai-limits-tied-to-model-intelligence-metric.jpg",
-   "d": "economictimes.indiatimes.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
+   "t": "Woman , 2 children killed in fiery Tucson crash ; baby survives",
+   "u": "https://www.kvoa.com/news/local/woman-2-children-killed-in-fiery-tucson-crash-baby-survives/article_3965be75-9f50-46ee-8b5c-280cc1211a7c.html",
+   "img": "https://bloximages.newyork1.vip.townnews.com/kvoa.com/content/tncms/assets/v3/editorial/7/a6/7a62e839-fed6-4831-a60c-3ee3af065fb5/6b012eca3aff7.image.jpg?crop=1920%2C1008%2C0%2C35",
+   "d": "kvoa.com",
+   "time": "20261123T213000Z",
+   "cat": "khel"
   },
   {
-   "t": "Perfetti Van Melle to close 2026 at ₹4 , 000 crore revenue ; tough year ahead , says MD",
-   "u": "https://www.livemint.com/companies/news/perfetti-van-melle-to-close-2026-with-4-000-crore-revenue-tough-year-ahead-md-fmcg-chocolate-cocoa-confectionery-11795337168596.html",
-   "img": "https://www.livemint.com/lm-img/img/2026/11/22/600x338/Nikhil_Sharma_c_1795346855283_OwrA_1795346860183_5Ee6_9bf7933e-c6c2-4cdd-a362-3ab25a701190_1VGr.jpg",
-   "d": "livemint.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
+   "t": "Rayo is its fans , and the fans are Rayo",
+   "u": "https://morningstaronline.co.uk/article/rayo-its-fans-fans-are-rayo",
+   "img": "https://morningstaronline.co.uk/sites/default/files/styles/wide/public/2026-11/AP26324556886539.jpg.webp?itok=pGyK43le",
+   "d": "morningstaronline.co.uk",
+   "time": "20261123T213000Z",
+   "cat": "khel"
   },
   {
-   "t": "Showdown ahead of November 26 meet : Chandrasekaran backs Tata Sons IPO , Noel Tata flags conflict",
-   "u": "https://www.businesstoday.in/latest/corporate/story/showdown-ahead-of-november-26-meet-chandrasekaran-backs-tata-sons-ipo-noel-tata-flags-conflict-568968-2026-11-23",
-   "img": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202611/6b03a60c451e3-the-listing-also-carries-major-financial-implications-for-the-shapoorji-pallonji-group--which-holds-233346947-16x9.png",
-   "d": "businesstoday.in",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
+   "t": "St . Pat blows away Loomis to claim state championship - The North Platte Bulletin",
+   "u": "https://northplattebulletin.com/st-pats-blows-away-loomis-to-win-state-championship/",
+   "img": "https://northplattebulletin.com/wp-content/uploads/2026/11/Brecton-Collins-breaks-free-cr.jpg",
+   "d": "northplattebulletin.com",
+   "time": "20261123T213000Z",
+   "cat": "khel"
   },
   {
-   "t": "It time for monetary policy in India to act and contain inflationary expectations",
-   "u": "https://www.livemint.com/opinion/online-views/its-time-for-monetary-policy-in-india-to-act-and-contain-inflationary-expectations-11795361112974.html",
-   "img": "https://www.livemint.com/lm-img/img/2026/11/22/600x338/2-0-77181716-Computer-Shop-5C--0_1681475130656_1795361314269_bHK1_0bb8931b-8715-4d40-a421-2a788fbfc489_Imcw.jpg",
-   "d": "livemint.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
+   "t": "Reports : UCLA QB Ty Dieffenbach has minor hip injury",
+   "u": "http://www.bostonstar.com/news/279450910/reports-ucla-qb-ty-dieffenbach-has-minor-hip-injury",
+   "img": "https://chitra-api.kreatio.com/api/v1/wps/f64e0c7/0ac3834d-13ac-4829-9e4a-c9c52e60d864/0/ZWM4OGRlMjUtZDA-600x315.jpg",
+   "d": "bostonstar.com",
+   "time": "20261123T213000Z",
+   "cat": "khel"
   },
   {
-   "t": "US senator - elect El - Sayed opposes funding Pakistan military",
-   "u": "https://ianslive.in/us-senator-elect-el-sayed-opposes-funding-pakistans-military--20261123074503",
-   "img": "https://d2lnbwhcsmj8tp.cloudfront.net/ianslive_watermark/202611234021867.jpg",
-   "d": "ianslive.in",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
+   "t": "Craig Peterson , 66 , of Charles City",
+   "u": "https://kchanews.com/2026/11/23/craig-peterson-66-of-charles-city/",
+   "img": "https://kchanews.com/wp-content/uploads/sites/25/2026/11/Peterson-Craig-scaled.jpeg",
+   "d": "kchanews.com",
+   "time": "20261123T213000Z",
+   "cat": "khel"
   },
   {
-   "t": "Gold silver ratio climbs to 85 . 7 : Is silver now relatively cheaper for long term investors ?",
-   "u": "https://www.businesstoday.in/personal-finance/story/gold-silver-ratio-climbs-to-85-7-is-silver-now-relatively-cheaper-for-long-term-investors-568961-2026-11-23",
-   "img": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202611/6b031d4165ab1-gold--silver-rates-2250089-16x9.jpg",
-   "d": "businesstoday.in",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
+   "t": "Leander Film Festival 2026 : The Biggest Titles From an Impressive Inaugural Class",
+   "u": "https://www.denofgeek.com/movies/leander-film-festival-2026-impressive-inaugural-class/",
+   "img": "https://www.denofgeek.com/wp-content/uploads/2026/11/Leander-Film-Festival.jpg?fit=2048%2C1365",
+   "d": "denofgeek.com",
+   "time": "20261123T213000Z",
+   "cat": "khel"
   },
   {
-   "t": "BJP hits back at Gaurav Gogoi , accuses Congress of political frustration",
-   "u": "https://www.sentinelassam.com/cities/guwahati-city/bjp-hits-back-at-gaurav-gogoi-accuses-congress-of-political-frustration",
-   "img": "https://media.assettype.com/sentinelassam-english%2F2024-09-12%2Fme0fzyq5%2Fgaurav-gogoi-161344-16x9.jpg?&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-   "d": "sentinelassam.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Tata Steel to buy 26 . 38 % stake in APL Apollo for Rs 15 , 510 crore ; open offer to follow ; stocks in focus",
-   "u": "https://www.businesstoday.in/markets/stocks/story/tata-steel-to-buy-26-38-stake-in-apl-apollo-for-rs-15510-crore-open-offer-to-follow-stocks-in-focus-568973-2026-11-23",
-   "img": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202611/6b03aedf7cd25-tata-steel-will-also-make-an-open-offer-for-an-additional-26-per-cent-stake-in-apl-apollo-tubes-ltd-231126169-16x9.jpeg",
-   "d": "businesstoday.in",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Sijubari residents struggle with year - round waterlogging in Guwahati",
-   "u": "https://www.sentinelassam.com/cities/guwahati-city/sijubari-residents-struggle-with-year-round-waterlogging-in-guwahati",
-   "img": "https://media.assettype.com/sentinelassam-english%2F2026-11-22%2F6vo9i3kg%2FSijubari-residents-struggle-with-year-round-waterlogging.jpeg.jpg?&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-   "d": "sentinelassam.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "electrical infrastructure : Global electrical infrastructure spending to reach $32 trillion over next decade : UBS",
-   "u": "https://economictimes.indiatimes.com/tech/technology/global-electrical-infrastructure-spending-to-reach-32-trillion-over-next-decade-ubs/articleshow/136087595.cms",
-   "img": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-671322,resizemode-75,msid-136087595/tech/technology/global-electrical-infrastructure-spending-to-reach-32-trillion-over-next-decade-ubs.jpg",
-   "d": "economictimes.indiatimes.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Tata Sons works on IPO listing plan at Rs 18L cr valuation , report says ; Tata Chemicals , Tata Invest in focus",
-   "u": "https://www.businesstoday.in/markets/stocks/story/tata-sons-works-on-ipo-listing-plan-at-rs-18l-cr-valuation-report-says-tata-chemicals-tata-invest-in-focus-568971-2026-11-23",
-   "img": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202611/6b03a7f39453b-tata-chemicals-held-a-253-per-cent-stake-in-tata-sons--while-tata-investment-corporation-held-008-234154237-16x9.jpg",
-   "d": "businesstoday.in",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Noel Tata seeks deferral of November 26 Tata Sons board meeting amid listing face off",
-   "u": "https://www.businesstoday.in/latest/story/tata-sons-board-meeting-delay-noel-tata-rbi-listing-row-568969-2026-11-23",
-   "img": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202611/tata-trusts-chairman-noel-tata-151842805-original-sixteen-to-nine.jpeg",
-   "d": "businesstoday.in",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Bisleri packaged water fails 2 lab tests for toxic compounds , FSSAI sanctions prosecution",
-   "u": "https://www.businesstoday.in/india/story/bisleris-packaged-water-fails-2-lab-tests-for-toxic-compounds-fssai-sanctions-prosecution-568962-2026-11-23",
-   "img": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202611/6b038fefbe262-the-regulatory-action-places-intense-scrutiny-on-a-market-leader-whose-brand-identity-is-built-aroun-235926449-16x9.jpeg",
-   "d": "businesstoday.in",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Delhi Traffic Police issues 8 , 027 PUCC challans , impounds 321 end - of - life vehicles under GRAP",
-   "u": "https://www.thehindu.com/incoming/delhi-traffic-police-issues-8027-pucc-challans-impounds-321-end-of-life-vehicles-under-grap/article71732131.ece",
-   "img": "https://th-i.thgim.com/public/incoming/g6mng4/article71732413.ece/alternates/LANDSCAPE_1200/Traffic%20Pathshala%20New%20Delhi%205.JPG",
-   "d": "thehindu.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Top stocks to watch today : Tata Steel , APL Apollo Tubes , Maruti Suzuki , RVNL , Waaree Energies & 17 others in focus",
-   "u": "https://www.livemint.com/market/stock-market-news/top-stocks-to-watch-today-tata-steel-apl-apollo-tubes-maruti-suzuki-rvnl-waaree-energies-17-others-in-focus-11795399384907.html",
-   "img": "https://www.livemint.com/lm-img/img/2026/11/23/600x338/Bullish_Markets_Tata_Apollo_Maruti_RVNL_Waaree_179_1795400488967_sTvr_1795400489137_8f5J_26a09025-4b6c-4792-adde-473c91395629_zcdn.png",
-   "d": "livemint.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Keralam Health department aims for zero preventable maternal , child deaths",
-   "u": "https://www.thehindu.com/news/national/kerala/keralam-health-department-aims-for-zero-preventable-maternal-childdeaths/article71728330.ece",
-   "img": "https://th-i.thgim.com/public/incoming/m0fiou/article71731248.ece/alternates/LANDSCAPE_1200/iStock-1132264405.jpg",
-   "d": "thehindu.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Unbundling motor cover : let spread the joy !",
-   "u": "https://www.thehindu.com/business/Industry/unbundling-motor-cover-lets-spread-the-joy/article71730682.ece",
-   "img": "https://th-i.thgim.com/public/news/national/y6srt7/article71730694.ece/alternates/LANDSCAPE_1200/iStock-1289221226.jpg",
-   "d": "thehindu.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "technology outages : US intelligence chief predicts more tech outages as systems undergo upgrades",
-   "u": "https://economictimes.indiatimes.com/tech/technology/us-intelligence-chief-predicts-more-tech-outages-as-systems-undergo-upgrades/articleshow/136087528.cms",
-   "img": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-3779026,resizemode-75,msid-136087528/tech/technology/us-intelligence-chief-predicts-more-tech-outages-as-systems-undergo-upgrades.jpg",
-   "d": "economictimes.indiatimes.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "The decade India turned the tide on poverty",
-   "u": "https://www.livemint.com/opinion/online-views/the-decade-india-turned-the-tide-on-poverty-11795330711619.html",
-   "img": "https://www.livemint.com/lm-img/img/2026/11/22/600x338/poor_1733187662019_1795345697428_IzHu_c0c5bc6f-3b4d-4fa4-be6d-909e5d063064_apOU.jpg",
-   "d": "livemint.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "BT BIG STORY : India growth story faces a twin squeeze from inflation and the rupee",
-   "u": "https://www.businesstoday.in/latest/economy/story/bt-big-story-indias-growth-story-faces-a-twin-squeeze-from-inflation-and-the-rupee-568837-2026-11-20",
-   "img": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202611/6b00470837a73-experts-point-out-that-if-oil-prices-continue-to-rise--there-will-be-more-pressure-on-the-rupee--inf-201134857-16x9.jpg",
-   "d": "businesstoday.in",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "U . S . trade chief sees progress in trade talks but faults Canada for Beijing - friendly moves",
-   "u": "https://www.cinaradio.com/2026/11/22/u-s-trade-chief-sees-progress-in-trade-talks-but-faults-canada-for-beijing-friendly-moves/",
-   "img": "https://i.cbc.ca/ais/3c017eec-eb38-472d-9560-b29819813be0,1795401723924/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C72%2C4753%2C2673%29%3B",
-   "d": "cinaradio.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Superintelligence is ...: Meta AI chief says atomic bomb discovery is  homework problem  vs Riemann proof",
-   "u": "https://www.businesstoday.in/technology/story/superintelligence-is-meta-ai-chief-says-atomic-bomb-discovery-is-homework-problem-vs-riemann-proof-568963-2026-11-23",
-   "img": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202611/6b0394858e816-criticising-what-he-called-lazy-thinking--the-assumption-that-artificial-superintelligence-is-ine-231900579-16x9.jpg",
-   "d": "businesstoday.in",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Indian shares set to open higher on foreign inflows as AI selloff persists",
-   "u": "https://www.livemint.com/market/indian-shares-set-to-open-higher-on-foreign-inflows-as-ai-selloff-persists-11795402774674.html",
-   "img": "https://www.livemint.com/lm-img/img/2026/11/23/600x338/INDIA-BSE-10_1718252822146_1795402799559_srJm_c3a0952d-036e-406d-9682-00938ebf25e8_vFE8.jpg",
-   "d": "livemint.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Today Horoscope Prediction – 23rd November , 2026 : Leo , Libra , etc Zodiac Sunshine Birthday Forecast",
-   "u": "https://www.sentinelassam.com/more-news/horoscope/todays-horoscope-prediction-23rd-november-2026-leo-libra-etc-zodiac-sunshine-birthday-forecast",
-   "img": "https://media.assettype.com/english-sentinelassam%2Fimport%2Fh-upload%2F2023%2F11%2F22%2F492853-454761-234636-ezgifcom-webp-to-jpg1.webp?&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-   "d": "sentinelassam.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
-  },
-  {
-   "t": "Dylan Larkin trade grades in Red Wings - Canadiens blockbuster",
-   "u": "https://www.sbnation.com/nhl/1137096/dylan-larkin-trade-grades-red-wings-canadiens-nhl",
-   "img": "https://platform.sbnation.com/wp-content/uploads/sites/2/2026/11/gettyimages-2302137705.jpg?quality=90&strip=all&crop=10.325520457427%2C13.645964943021%2C78.44009912475%2C62.566744273048",
-   "d": "sbnation.com",
-   "time": "20261123T033000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Money laundering laws another  perfect storm  for house prices",
-   "u": "https://www.macrobusiness.com.au/2026/11/money-laundering-laws-another-perfect-storm-for-house-prices/",
-   "img": "https://api.macrobusiness.com.au/wp-content/uploads/2024/01/Money-Laundering-660x396.png",
-   "d": "macrobusiness.com.au",
-   "time": "20261123T033000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Terrible : British PM Burnham EU deal slammed",
-   "u": "https://www.thecourier.com.au/story/9396445/terrible-british-pm-burnhams-eu-deal-slammed/",
-   "img": "https://www.thecourier.com.au/images/transform/v1/crop/frm/silverstone-feed-data/399bd024-a1ba-4a5d-90f2-034bee50079e.jpg/r0_90_800_510_w1200_h630_fmax.jpg",
-   "d": "thecourier.com.au",
-   "time": "20261123T033000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "5 Cool Gadgets For Star Trek Fans You Can Find On Amazon",
-   "u": "https://www.bgr.com/2322765/cool-gadgets-for-star-trek-fans/",
-   "img": "https://www.bgr.com/img/gallery/5-cool-gadgets-for-star-trek-fans-you-can-find-on-amazon/l-intro-1795180097.jpg",
-   "d": "bgr.com",
-   "time": "20261123T033000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "The Lawyer Guide Chooses Singapore as Its Next Test of Legal Discovery",
-   "u": "https://www.cantechletter.com/newswires/the-lawyer-guide-chooses-singapore-as-its-next-test-of-legal-discovery/",
-   "img": "https://api.newsfilecorp.com/newsinfo/325194/531",
-   "d": "cantechletter.com",
-   "time": "20261123T033000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Treasury Finalizes 401 ( k ) Auto - Enrollment Rules for Plan Years After 2027",
-   "u": "http://www.mexicostar.com/news/279449392/treasury-finalizes-401k-auto-enrollment-rules-for-plan-years-after-2027",
-   "img": "https://chitra-api.kreatio.com/api/v1/wps/e98ffa4/275b637d-082d-47f3-b946-4cffae161984/0/M2E0YTQ2ZWEtMWQ-600x315.jpg",
-   "d": "mexicostar.com",
-   "time": "20261123T033000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Spy in touch with China during affair with Nvidia chief",
-   "u": "https://www.bendigoadvertiser.com.au/story/9396499/spy-in-touch-with-china-during-affair-with-nvidia-chief/",
-   "img": "https://www.bendigoadvertiser.com.au/images/transform/v1/crop/frm/silverstone-feed-data/228db0fe-db55-448b-a189-124065b066e8.jpg/r0_90_800_510_w1200_h630_fmax.jpg",
-   "d": "bendigoadvertiser.com.au",
-   "time": "20261123T033000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Kansas City tiny pantry relocates after six years",
-   "u": "https://www.kmbc.com/article/kansas-city-tiny-pantry-relocates-north-cross-church/74503003",
-   "img": "https://kubrick.htvapps.com/vidthumb/688ca0a5-d427-4472-8089-2f6243a44edd/956bb7bf-eb0b-4514-a1a7-bca2c2f57196.jpg?crop=0.814xw%3A0.815xh%3B0.103xw%2C0",
-   "d": "kmbc.com",
-   "time": "20261123T033000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "China announces measures to steady stock market",
-   "u": "http://www.argentinastar.com/news/279449437/china-announces-measures-to-steady-stock-market",
-   "img": "https://chitra-api.kreatio.com/api/v1/wps/24ad1c9/c780cc85-fb6f-455d-b024-dea91257f1fe/0/XxjwshE000002-20261123-CBMFN0A002-600x315.jpg",
-   "d": "argentinastar.com",
-   "time": "20261123T033000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "In South Korea , a  Swedish massage  can mean more than a massage",
-   "u": "https://asianews.network/in-south-korea-a-swedish-massage-can-mean-more-than-a-massage/",
-   "img": "https://asianews.network/wp-content/uploads/2026/11/news-p.v1.20261117.2924d5ef51064a97abdd17a6215ff2f6_P1.jpg",
-   "d": "asianews.network",
-   "time": "20261123T033000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Retail sales volumes rebound with $561m boost in September quarter",
-   "u": "https://www.interest.co.nz/business/141195/statistics-nz%E2%80%99s-retail-trade-survey-finds-seasonally-adjusted-retail-sales-volumes",
-   "img": "https://www.interest.co.nzas%20they%20refuel%20their%20vehicle%20at%20a%20petrol%20station.%22%20/%3E",
-   "d": "interest.co.nz",
-   "time": "20261123T033000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Explore Christmas markets around the world this holiday season",
-   "u": "https://www.wpbf.com/article/christmas-markets-around-the-world-2026/74493104",
-   "img": "https://kubrick.htvapps.com/htv-prod/images/52e1195d-ba85-41a1-81e4-623e446fe5a1.jpg?crop=1.00xw%3A0.847xh%3B0%2C0.153xh",
-   "d": "wpbf.com",
-   "time": "20261123T033000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "India champions Diamond Trade and fairer rules at UN",
-   "u": "https://newsindiatimes.com/india-champions-diamond-trade-and-fairer-rules-at-un/",
-   "img": "https://newsindiatimes.com/wp-content/uploads/2026/11/P.-Harish-at-Arria-Formula-on-Natural-Resources-and-Conflict-UN.jpg",
-   "d": "newsindiatimes.com",
-   "time": "20261123T033000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "North Kansas City Mistletowne Market kicks off holidays",
-   "u": "https://www.kmbc.com/article/north-kansas-city-mistletowne-market-holiday-shopping-2026/74503109",
-   "img": "https://kubrick.htvapps.com/vidthumb/e6b371e4-820a-4fac-8b59-346393c7b940/bba489a0-95d5-4ade-a9f0-17be9391af9c.jpg?crop=0.794xw%3A0.794xh%3B0.0931xw%2C0",
-   "d": "kmbc.com",
-   "time": "20261123T033000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Nepal police open organised - crime probe into 21 . 75kg gold seizure",
-   "u": "https://asianews.network/nepal-police-open-organised-crime-probe-into-21-75kg-gold-seizure/",
-   "img": "https://asianews.network/wp-content/uploads/2026/11/thumb-36.jpg",
-   "d": "asianews.network",
-   "time": "20261123T033000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Mexican forces arrest suspected cartel leader El Chapo Isidro",
-   "u": "http://www.argentinastar.com/news/279447455/mexican-forces-arrest-suspected-cartel-leader-el-chapo-isidro",
-   "img": "https://chitra-api.kreatio.com/api/v1/wps/74e8454/14655c8b-5cdd-4154-acf2-217afc6efe73/1/6-mexico-600x315.jpg",
-   "d": "argentinastar.com",
-   "time": "20261123T033000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Solar Lighting Tech : केबल से अंधेरे कमरों में पहुंचेगी छत की असली धूप , बिना बिजली - बैटरी चलेगी सोलर लाइटिंग तकनीक , समझें कैसे",
-   "u": "https://navbharattimes.indiatimes.com/tech/gadgets-news/parans-solar-lighting-fiber-optic-cable-natural-sunlight-dark-rooms-without-electricity-battery-how-it-works/articleshow/136087052.cms",
-   "img": "https://static.langimg.com/nbt/thumb/136087052/parans-solar-lighting-fiber-optic-cable-natural-sunlight-dark-rooms-without-electricity-battery-how-it-works.jpg?imgsize=1674358&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "दीपिका पादुकोण को एक्टिंग सिखाने के लिए अनुपम खेर ने अपनी मेड को बुलाया था , झाड़ू लगाते हुए हो गई थीं रुआंसी - anupam kher recalls once he asked deepika padukone to play a maid she left frustrated and nearly in tears",
-   "u": "https://navbharattimes.indiatimes.com/entertainment/news-from-bollywood/anupam-kher-recalls-once-he-asked-deepika-padukone-to-play-a-maid-she-left-frustrated-and-nearly-in-tears/articleshow/136087406.cms",
-   "img": "https://static.langimg.com/nbt/thumb/136087489/anupam-kher-recalls-once-he-asked-deepika-padukone-to-play-a-maid.jpg?imgsize=225863&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "कांग्रेस को 10000000 वोट , 90 विधानसभा सीट , तेलंगाना चुनाव के लिए CM रेवंत रेड्डी ने टारगेट फिक्स किया",
-   "u": "https://navbharattimes.indiatimes.com/state/telangana/hyderabad/congress-to-win-90-seats-in-telangana-assembly-in-next-polls-cm-revanth-reddy-fix-target/articleshow/136087130.cms",
-   "img": "https://static.langimg.com/nbt/thumb/136087185/revanth-reddy-2.jpg?imgsize=1410192&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "हिमाचली युवती को दिल दे बैठा इंग्लैंड का युवक , परिवार के साथ पहुंचा मंडी , हिंदू रीति रिवाज से की शादी",
-   "u": "https://navbharattimes.indiatimes.com/state/himachal-pradesh/shimla/germany-groom-marries-himachali-bride-in-traditional-hindu-wedding-in-karsog-of-mandi/articleshow/136087383.cms",
-   "img": "https://static.langimg.com/nbt/thumb/136087402/himachali-marriage.jpg?imgsize=711677&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "झारखंडः अर्जुन मुंडा की मां का निधन , कई महीनों से चल रही थीं बीमार , टाटा मोटर्स अस्पताल में ली अंतिम सांस",
-   "u": "https://navbharattimes.indiatimes.com/state/jharkhand/jamshedpur/arjun-munda-mother-passes-away-she-was-ill-for-several-months/articleshow/136086738.cms",
-   "img": "https://static.langimg.com/nbt/thumb/136086780/arjun-munda-mother-passes-away.jpg?imgsize=171488&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "भारत - नेपाल रिश्तों को नई शुरुआत की दरकार ... पीएम मोदी और बालेन शाह की बातचीत में इन मुद्दों पर रहेगी नजर",
-   "u": "https://navbharattimes.indiatimes.com/india/balen-shah-india-visit-bilateral-meeting-with-pm-modi-trade-energy-and-border-issues/articleshow/136087617.cms",
-   "img": "https://static.langimg.com/nbt/thumb/136087858/balen-shah-1.jpg?imgsize=106550&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "भोपाल के ऐशबाग में 1986 के बने जर्जर 600 जनता क्वार्टरों को तोड़ने की कार्रवाई शुरू , भारी पुलिस बल और JCB मशीनें तैनात",
-   "u": "https://navbharattimes.indiatimes.com/state/madhya-pradesh/bhopal/bhopal-aishbagh-600-janta-quarters-demolition-heavy-police-force-jcb/articleshow/136087535.cms",
-   "img": "https://static.langimg.com/nbt/thumb/136087633/jcb-machines-demolish-dilapidated-janta-quarters-bhopal.jpg?imgsize=187652&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "UP Chunav 2027 : वोटर लिस्ट से कटे 18 . 8 लाख नाम जोड़े गए , बीजेपी कार्यकर्ता घर - घर लेकर जा रहे फॉर्म 6",
-   "u": "https://navbharattimes.indiatimes.com/state/uttar-pradesh/ghaziabad/uttar-pradesh-matdata-suchi-bjp-workers-with-form-6/articleshow/136087375.cms",
-   "img": "https://static.langimg.com/nbt/thumb/136087441/cm-yogi.jpg?imgsize=119472&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "काउंटी ग्रुप ने Noida – Greater Noida Expressway के पास 5 एकड़ जमीन खरीदी , सेक्टर 150 में बनेगा लग्जरी हाउसिंग प्रोजेक्ट",
-   "u": "https://navbharattimes.indiatimes.com/real-estate/county-group-buys-5-acre-land-sector-150-noida-luxury-housing-project/articleshow/136017130.cms",
-   "img": "https://static.langimg.com/nbt/thumb/136018106/county-group-new-project-in-noida.jpg?imgsize=2804476&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "अपनी पसंद के कपड़े पहनने पर ससुराल में होती है रोक - टोक , तो इन 5 तरीकों से संभालें बात",
-   "u": "https://navbharattimes.indiatimes.com/lifestyle/relationship/how-to-deal-with-in-laws-who-control-working-womens-office-outfits-after-marriage/articleshow/136024253.cms",
-   "img": "https://static.langimg.com/nbt/thumb/136024253/how-to-deal-with-in-laws-who-control-working-womens-office-outfits-after-marriage.jpg?imgsize=388455&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "Delhi NCR Latest AQI : प्रदूषण को हराने में ... दिल्ली अभी दूर , CAQM के रिपोर्ट कार्ड में कई लक्ष्य अधूरे",
-   "u": "https://navbharattimes.indiatimes.com/metro/delhi/other-news/delhi-ncr-latest-aqi-caqm-pollution-report-card-delhi-misses-pollution-control-targets/articleshow/136086838.cms",
-   "img": "https://static.langimg.com/nbt/thumb/136086885/delhi-pollution-report-card.jpg?imgsize=775876&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "माथे पर तिलक गले में माला ... उज्बेकिस्तान के मुस्लिम राष्ट्रपति की बेटी का भारत में दिखा अलग अंदाज",
-   "u": "https://navbharattimes.indiatimes.com/india/president-uzbekistan-shavkat-mirziyoyev-daughter-saida-mirziyoyeva-posted-namaste-india-on-x/articleshow/136087149.cms",
-   "img": "https://static.langimg.com/nbt/thumb/136087173/saida-mirziyoyeva.jpg?imgsize=2049367&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "थलपति विजय पूरा करने जा रहे एक और वादा , तमिलनाडु में पोंगल से साल में 3 बार फ्री गैस सिलेंडर देने की तैयारी - thalapathy vijay fulfil another promise tamil nadu people get 3 free lpg cylinders from pongal",
-   "u": "https://navbharattimes.indiatimes.com/state/tamil-nadu/chennai/thalapathy-vijay-fulfil-another-promise-tamil-nadu-people-get-3-free-lpg-cylinders-from-pongal/articleshow/136086962.cms",
-   "img": "https://static.langimg.com/nbt/thumb/136087123/cm-vijay.jpg?imgsize=353621&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "Lal Kitab Singh Rashifal 2027 : छठे भाव के राहु दिलाएंगे शत्रुओं पर विजय , पर अष्टम शनि से रहना होगा सावधान ! जानें सिंह राशि का पूरा हाल",
-   "u": "https://hindi.webdunia.com/horoscope-2027/lal-kitab-singh-rashifal-2027-leo-yearly-horoscope-remedies-126112100043_1.html",
-   "img": "https://wd-image.webdunia.com/processimg/1200x628/webp/_media/hi/img/article/2026-11/21/thumb/16_9/1795258844-3125.jpg",
-   "d": "hindi.webdunia.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "आठ साल की यात्रा के बाद बुध ग्रह की कक्षा में पहुंचा बेपीकोलोंबो मिशन",
-   "u": "https://hindi.webdunia.com/latest-deutsche-welle-news/bepicolombo-mission-enters-mercury-orbit-esa-jaxa-8-year-journey-126112300005_1.html",
-   "img": "https://wd-image.webdunia.com/processimg/1200x628/webp/_media/hi/img/article/2026-11/23/thumb/16_9/1795402315-2091.jpg",
-   "d": "hindi.webdunia.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "Climate Summit : जीवाश्म ईंधन और फंडिंग के पेंच में फंसा COP31 , जलवायु समझौते पर सहमति नहीं",
-   "u": "https://navbharattimes.indiatimes.com/india/cop31-climate-summit-ends-without-fossil-fuel-deal-india-flags-climate-finance-concerns/articleshow/136087553.cms",
-   "img": "https://static.langimg.com/nbt/thumb/136087612/cop31-climate-summit.jpg?imgsize=686343&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "बेटा , यह क्या हाल बना रखा है , सीएम योगी ने पाती में किया मां को याद , भावुक होकर बताया वो किस्सा",
-   "u": "https://navbharattimes.indiatimes.com/state/uttar-pradesh/lucknow/cm-yogi-emotional-letter-mother/articleshow/136087116.cms",
-   "img": "https://static.langimg.com/nbt/thumb/136087358/cm-yogi-emotional-letter-mother.jpg?imgsize=247453&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "ज्यादा रेंज और अपग्रेटेड लुक - फीचर्स के साथ जल्द आएगी MG Windsor EV Facelift 2027 , टॉप सेलिंग ईवी का दिखेगा जलवा",
-   "u": "https://navbharattimes.indiatimes.com/auto/ev/mg-windsor-ev-facelift-arriving-in-2027-with-larger-61kwh-battery-pack-extended-range-and-comprehensive-styling-updates/articleshow/136087831.cms",
-   "img": "https://static.langimg.com/nbt/thumb/136087831/mg-windsor-ev-facelift-arriving-in-2027-with-larger-61kwh-battery-pack-extended-range-and-comprehensive-styling-updates.jpg?imgsize=1605603&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "Top News 23 November : आज मोदी - बालेंद्र शाह की अहम बैठक , ट्रंप की ईरान को चेतावनी",
-   "u": "https://hindi.webdunia.com/national-hindi-news/top-news-23-november-pm-modi-balendra-shah-meet-cti-letter-snowfall-trump-iran-126112300004_1.html",
-   "img": "https://wd-image.webdunia.com/processimg/1200x628/webp/_media/hi/img/article/2026-11/22/thumb/16_9/1795347562-0988.jpg",
-   "d": "hindi.webdunia.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "ईरान ने पहली बार दिखाया नया मिसाइल लॉन्चर , 2 लिक्विड फ्यूल मिसाइलें एक साथ दागने में सक्षम , US - इजरायल को खतरा",
-   "u": "https://navbharattimes.indiatimes.com/world/middle-east/iran-reveals-new-missile-launcher-can-fire-2-liquid-fuel-missiles/articleshow/136086756.cms",
-   "img": "https://static.langimg.com/nbt/thumb/136086904/iran-missile.jpg?imgsize=809006&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "Delhi Crime : प्रॉपर्टी डीलर को किडनैप कर पिस्टल तानी , टिल्लू गैंग का बदमाश पवन उर्फ मक्खी गिरफ्तार",
-   "u": "https://navbharattimes.indiatimes.com/metro/delhi/crime/delhi-police-arrested-tillu-gang-member-pawan-alias-makhi-in-a-property-dealer-kidnapping-and-extortion-case/articleshow/136087098.cms",
-   "img": "https://static.langimg.com/nbt/thumb/136087170/delhi-police-arrested-tillu-gang-member-pawan.jpg?imgsize=2414995&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "नोएल टाटा के विरोध के बावजूद होगी टाटा संस की लिस्टिंग , कंपनी ने शुरू की तैयारी , कितनी होगी वैल्यू ?",
-   "u": "https://navbharattimes.indiatimes.com/business/business-news/tata-sons-starts-preparation-for-listing-despite-noel-tata-opposition/articleshow/136087054.cms",
-   "img": "https://static.langimg.com/nbt/thumb/136087148/tata-sons-vs-tata-trusts.jpg?imgsize=392254&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "Aaj ka panchang : आज का शुभ मुहूर्त : 23 नवंबर 2026 : सोमवार का पंचांग और शुभ समय",
-   "u": "https://hindi.webdunia.com/astrology-muhurat/today-daily-muhurat-126112100040_1.html",
-   "img": "https://wd-image.webdunia.com/processimg/1200x628/webp/_media/hi/img/article/2026-01/31/thumb/16_9/1769843523-1728.jpg",
-   "d": "hindi.webdunia.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "23 November Birthday : आपको 23 नवंबर , 2026 के लिए जन्मदिन की बधाई !",
-   "u": "https://hindi.webdunia.com/birthday-astrology/today-happy-birthday-126112100035_1.html",
-   "img": "https://wd-image.webdunia.com/processimg/1200x628/webp/_media/hi/img/article/2026-01/22/thumb/16_9/1769071028-9945.jpg",
-   "d": "hindi.webdunia.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "कौन हैं हीमा निनामा , जिनकी वर्ल्ड क्लास फुटबॉटर डेविड बेकहम ने की तारीफ",
-   "u": "https://navbharattimes.indiatimes.com/state/madhya-pradesh/jhabua/david-beckham-praises-jhabua-tribal-girl-heema-ninama-child-marriage-unicef/articleshow/136086770.cms",
-   "img": "https://static.langimg.com/nbt/thumb/136087026/david-beckham-praises-jhabua-girl-heema-ninama.jpg?imgsize=274322&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "Weekly Horoscope : 23 से 29 नवंबर का साप्ताहिक राशिफल , आखिरी सप्ताह किसके लिए लाएगा खुशियां ? जानें अपना भविष्यफल",
-   "u": "https://hindi.webdunia.com/astrology-zodiac-signs/weekly-horoscope-23-november-to-29-november-2026-126112000021_1.html",
-   "img": "https://wd-image.webdunia.com/processimg/1200x628/webp/_media/hi/img/article/2026-11/20/thumb/16_9/1795159680-2313.jpg",
-   "d": "hindi.webdunia.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "हिंदू परंपरा के खिलाफ फिर सुप्रीम कोर्ट पहुंची थलपति विजय की तमिलनाडु सरकार , अब दाखिल की पुनर्विचार याचिका",
-   "u": "https://navbharattimes.indiatimes.com/india/thalapathy-vijay-tamil-nadu-govt-files-review-petition-over-supreme-court-nod-to-light-lamp-at-thiruparankundram-hill/articleshow/136087653.cms",
-   "img": "https://static.langimg.com/nbt/thumb/136087702/cm-joseph-vijay-tamilnadu.jpg?imgsize=2003629&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "Aaj Ka Rashifal : आज 23 नवंबर , 2026 का दैनिक राशिफल : मेष से मीन तक 12 राशियों का भविष्यफल",
-   "u": "https://hindi.webdunia.com/astrology-zodiac-signs/today-23-november-horoscope-in-hindi-2026-126112100030_1.html",
-   "img": "https://wd-image.webdunia.com/processimg/1200x628/webp/_media/hi/img/article/2026-01/22/thumb/16_9/1769072114-1008.jpg",
-   "d": "hindi.webdunia.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "Israel Political Deadlock , इजरायल में नए पीएम पर फंसा पेंच , नेतन्याहू - आइजेनकॉट की साझा सरकार पर बातचीत बेनतीजा खत्म - benjamin netanyahu gadi eisenkot unity govt likud yashar talks israel political deadlock - Middle - east News",
-   "u": "https://navbharattimes.indiatimes.com/world/middle-east/benjamin-netanyahu-gadi-eisenkot-unity-govt-likud-yashar-talks-israel-political-deadlock/articleshow/136087155.cms",
-   "img": "https://static.langimg.com/nbt/thumb/136087178/israel-news.jpg?imgsize=141636&resizemode=75",
-   "d": "navbharattimes.indiatimes.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "आज का राशिफल 23 नवंबर , 2026 - सभी मूलांक वालों के लिए कैसा रहेगा",
-   "u": "https://www.punjabkesari.in/dharm/news/ank-jyotish-rashifal-2402007",
-   "img": "https://img.punjabkesari.in/multimedia/914/0/0X0/0/static.punjabkesari.in/2026_11image_14_33_413812963numerology.jpg",
-   "d": "punjabkesari.in",
-   "time": "20261123T023000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "प्रतिभा के बावजूद  उपेक्षा के शिकार भारतीय वैज्ञानिक ! - indian scientists are victims of neglect despite their talent",
-   "u": "https://www.punjabkesari.in/article/news/indian-scientists-are-victims-of-neglect-despite-their-talent-2402128",
-   "img": "https://img.punjabkesari.in/multimedia/914/0/0X0/0/static.punjabkesari.in/2026_11image_04_16_526967216riddhipratimbasu.jpg",
-   "d": "punjabkesari.in",
-   "time": "20261123T023000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "Tarot Card Rashifal ( 23rd November ): टैरो कार्ड्स से करें अपने भविष्य के दर्शन",
-   "u": "https://www.punjabkesari.in/dharm/news/tarot-card-rashifal-2402010",
-   "img": "https://img.punjabkesari.in/multimedia/914/0/0X0/0/static.punjabkesari.in/2026_11image_14_46_472967085tarro.jpg",
-   "d": "punjabkesari.in",
-   "time": "20261123T023000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "सोनिया गांधी की किताब का महत्व - importance of sonia gandhi s book",
-   "u": "https://www.punjabkesari.in/blogs/news/importance-of-sonia-gandhi-s-book-2402130",
-   "img": "https://img.punjabkesari.in/multimedia/914/0/0X0/0/static.punjabkesari.in/2026_11image_05_56_522220343importanceofsoniagandh.jpg",
-   "d": "punjabkesari.in",
-   "time": "20261123T023000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "आज का राशिफल - 23 नवंबर 2026 - aaj ka rashifal",
-   "u": "https://www.punjabkesari.in/dharm/news/aaj-ka-rashifal-2402041",
-   "img": "https://img.punjabkesari.in/multimedia/914/0/0X0/0/static.punjabkesari.in/2026_11image_16_15_403473057aajkarashifal.jpg",
-   "d": "punjabkesari.in",
-   "time": "20261123T023000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "जब सच सोशल मीडिया का पहला शिकार बन जाता है - when truth becomes the first victim of social media",
-   "u": "https://www.punjabkesari.in/blogs/news/when-truth-becomes-the-first-victim-of-social-media-2402129",
-   "img": "https://img.punjabkesari.in/multimedia/914/0/0X0/0/static.punjabkesari.in/2026_11image_05_53_551354167riprelationships.jpg",
-   "d": "punjabkesari.in",
-   "time": "20261123T023000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "क्यों हो रहे हैं जवान लड़कियों के तलाक ? - why are young girls getting divorced",
-   "u": "https://www.punjabkesari.in/blogs/news/why-are-young-girls-getting-divorced-2402131",
-   "img": "https://img.punjabkesari.in/multimedia/914/0/0X0/0/static.punjabkesari.in/2026_11image_06_00_195419426divorced.jpg",
-   "d": "punjabkesari.in",
-   "time": "20261123T023000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "नवी मुंबई में आग का तांडव : तेल गोदाम धू - धू कर जला , लपटों की चपेट में आईं प्लाईवुड और कूरियर कंपनियां",
-   "u": "https://www.punjabkesari.in/national/news/fire-breaks-out-in-navi-mumbai-2402132",
-   "img": "https://img.punjabkesari.in/multimedia/914/0/0X0/0/static.punjabkesari.in/2026_11image_06_06_303690054firebreaksoutinnavimum.jpg",
-   "d": "punjabkesari.in",
-   "time": "20261123T023000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "आज का पंचांग - 23 नवंबर , 2026 - aaj ka panchang",
-   "u": "https://www.punjabkesari.in/dharm/news/aaj-ka-panchang-2402134",
-   "img": "https://img.punjabkesari.in/multimedia/914/0/0X0/0/static.punjabkesari.in/2026_11image_07_21_424764131panchang.jpg",
-   "d": "punjabkesari.in",
-   "time": "20261123T023000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "लव राशिफल 23 नवंबर - लब कहें ना कहें बोलती है नज़र प्यार नहीं छुपतायार छुपाने से",
-   "u": "https://www.punjabkesari.in/dharm/news/love-rashifal-2402028",
-   "img": "https://img.punjabkesari.in/multimedia/914/0/0X0/0/static.punjabkesari.in/2026_11image_15_41_539624095loverashifal.jpg",
-   "d": "punjabkesari.in",
-   "time": "20261123T023000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "Aaj Ka Good Luck ( 23rd November 2026 ): आज का गुडलक , 12 राशियों के लिए शुभ संकेत और उपाय",
-   "u": "https://www.punjabkesari.in/dharm/news/aaj-ka-good-luck-2402017",
-   "img": "https://img.punjabkesari.in/multimedia/914/0/0X0/0/static.punjabkesari.in/2026_11image_15_07_363676045aajkagoodluck.jpg",
-   "d": "punjabkesari.in",
-   "time": "20261123T023000Z",
-   "cat": "bharat-hi"
-  },
-  {
-   "t": "Juniper Green shares in focus as arm commissions 42 MW solar project",
-   "u": "https://www.businesstoday.in/markets/stocks/story/juniper-green-shares-in-focus-as-arm-commissions-42-mw-solar-project-568972-2026-11-23",
+   "t": "New Zealand captain Tom Latham is celebrating the tenacity of batter Daryl Mitchell during the drawn first cricket test against India in Wellington - 24 - Nov - 2026",
+   "u": "https://home.nzcity.co.nz/news/article.aspx?id=458608",
    "img": "",
-   "d": "businesstoday.in",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
+   "d": "home.nzcity.co.nz",
+   "time": "20261123T223000Z",
+   "cat": "khel"
   },
   {
-   "t": "Fugitive criminals need a new hideout since the UAE started extraditing them",
-   "u": "https://www.livemint.com/global/fugitive-criminals-need-a-new-hideout-since-the-uae-started-extraditing-them-11795396744758.html",
+   "t": "Local News : Monday , November 23 , 2026 – Silver City Radio",
+   "u": "https://silvercityradio.com/local-news-monday-november-23-2026/",
    "img": "",
-   "d": "livemint.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
+   "d": "silvercityradio.com",
+   "time": "20261123T213000Z",
+   "cat": "khel"
   },
   {
-   "t": "Has the AI bubble already burst ?",
-   "u": "https://www.livemint.com/global/has-the-ai-bubble-already-burst-11795394872180.html",
+   "t": "Earnest Greene III named SEC Offensive Lineman of the Week a second time",
+   "u": "https://sicemdawgs.com/2026/11/earnest-greene-iii-named-sec-offensive-lineman-of-the-week-a-second-time/",
    "img": "",
-   "d": "livemint.com",
-   "time": "20261123T033000Z",
-   "cat": "bharat-en"
+   "d": "sicemdawgs.com",
+   "time": "20261123T213000Z",
+   "cat": "khel"
   },
   {
-   "t": "China tech innovation engine powers a connected Asia - Pacific",
-   "u": "https://en.people.cn/n3/2026/1123/c90000-20521916.html",
+   "t": "5 shimmering makeup finds for the holiday season ahead",
+   "u": "https://theprovince.com/life/fashion-beauty/5-shimmering-makeup-finds-for-the-holiday-season-ahead/wcm/3d2ed4ba-fb85-47a0-92d1-e13b173878e5",
    "img": "",
-   "d": "en.people.cn",
-   "time": "20261123T033000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Rakell or Rust ? Why Senators are looking at the Pittsburgh Penguins",
-   "u": "https://ottawacitizen.com:443/ottawa-senators/ottawa-senators-trade-options",
-   "img": "",
-   "d": "ottawacitizen.com",
-   "time": "20261123T033000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Single - digit inflation : Nigeria test after 14 . 06 % October",
-   "u": "https://punchng.com/single-digit-test-of-dropping-inflation/",
-   "img": "",
-   "d": "punchng.com",
-   "time": "20261123T033000Z",
-   "cat": "vyapar"
-  },
-  {
-   "t": "Is the AI Stock Market Boom Coming to an End ?",
-   "u": "https://newsonjapan.com/article/151486.php",
-   "img": "",
-   "d": "newsonjapan.com",
-   "time": "20261123T033000Z",
-   "cat": "vyapar"
+   "d": "theprovince.com",
+   "time": "20261123T213000Z",
+   "cat": "khel"
   }
  ]
 }
