@@ -1,189 +1,186 @@
 {
- "edition": "मंगलवार, 24 नवंबर 2026 — सुबह 9 बजे",
- "updated_at": "2026-11-24T09:00:00+05:30",
+ "edition": "मंगलवार, 24 नवंबर 2026 — दोपहर 1 बजे",
+ "updated_at": "2026-11-24T13:00:00+05:30",
  "stories": [
   {
-   "body_en": "A 5.3-magnitude earthquake struck Nepal's Koshi Province early on Tuesday morning at around 7:02 am IST. The epicentre was near Lelep, at a depth of about 20 kilometres, according to India's National Centre for Seismology. The US Geological Survey measured the quake at 5.4, while Nepal's own monitoring centre put it at 5.6.\n\nTremors were felt across Bihar, North Bengal and Meghalaya in India, as well as in Bhutan, Bangladesh and parts of China. A separate 2.5-magnitude tremor was recorded hours earlier in Assam's Karbi Anglong district. No casualties were reported in the initial updates.",
-   "body_hi": "मंगलवार सुबह करीब 7 बजकर 2 मिनट पर नेपाल के कोशी प्रांत में 5.3 तीव्रता का भूकंप आया। भूकंप का केंद्र लेलेप के पास था और इसकी गहराई जमीन से करीब 20 किलोमीटर नीचे बताई गई है। अमेरिकी भूगर्भ सर्वेक्षण ने इसकी तीव्रता 5.4 आंकी है, जबकि नेपाल के अपने केंद्र ने इसे 5.6 बताया है।\n\nभूकंप के झटके भारत के बिहार, उत्तरी बंगाल और मेघालय के साथ-साथ भूटान, बांग्लादेश और चीन के कुछ हिस्सों में भी महसूस किए गए। इससे कुछ घंटे पहले असम के कार्बी आंगलोंग जिले में 2.5 तीव्रता का अलग झटका भी दर्ज हुआ। शुरुआती खबरों में किसी के हताहत होने की सूचना नहीं है।",
+   "id": "2026-11-24-13-bharat-1",
    "cat": "bharat",
-   "id": "2026-11-24-09-bharat-1",
-   "img": "https://uit.no/Content/877000/cache=20250104090603/transformation=kompJpgHighTommy/mp12003346-nepal-earthquakes.jpg",
-   "source": "NDTV",
-   "source_url": "https://www.ndtv.com/world-news/5-3-magnitude-earthquake-hits-nepal-tremors-felt-across-india-bhutan-china-12368620",
+   "title_hi": "राष्ट्रपति मुर्मू की ओडिशा यात्रा शुरू — आज कटक में बाली जात्रा में शामिल होंगी",
+   "title_en": "President Murmu begins two-day Odisha visit, to attend Bali Jatra in Cuttack",
+   "body_hi": "राष्ट्रपति द्रौपदी मुर्मू ने मंगलवार को ओडिशा की दो दिन की यात्रा शुरू की। वे आज कटक में बाली जात्रा महोत्सव में शामिल होंगी। यह पूर्वी भारत के सबसे बड़े व्यापार और सांस्कृतिक मेलों में से एक है, जो इस क्षेत्र के प्राचीन समुद्री व्यापार से जुड़ा है।\n\nबुधवार को राष्ट्रपति भुवनेश्वर में होम्योपैथी पर राष्ट्रीय वैज्ञानिक सम्मेलन में शामिल होंगी। यह यात्रा इस महोत्सव के सांस्कृतिक महत्व और पारंपरिक चिकित्सा पद्धतियों पर बढ़ते राष्ट्रीय ध्यान को दर्शाती है।",
+   "body_en": "President Droupadi Murmu began a two-day visit to Odisha on Tuesday. She will attend the Bali Jatra festival in Cuttack today, one of eastern India's largest trade and cultural fairs, which celebrates the region's ancient maritime trade links.\n\nOn Wednesday, the President will attend the National Scientific Convention on Homoeopathy in Bhubaneswar. The visit underlines the festival's cultural importance and the growing national focus on traditional systems of medicine.",
+   "source": "Saachi Baat",
+   "source_url": "https://saachibaat.com/politics/todays-top-news-24-november-2026/",
+   "img": "https://ommcomnews.com/wp-content/uploads/2026/08/baliyatra.jpg",
    "tags": [
-    "#भूकंप",
-    "#नेपाल",
-    "#Earthquake",
-    "#Bihar",
+    "#BaliJatra",
+    "#PresidentMurmu",
+    "#Odisha",
     "#TaazaKhabar"
    ],
-   "title_en": "5.3-magnitude earthquake hits Nepal early morning; tremors felt across Bihar, Bengal, Bhutan and China",
-   "title_hi": "नेपाल में सुबह 5.3 तीव्रता का भूकंप — बिहार-बंगाल तक झटके महसूस",
-   "page": "khabar/2026-11-24-09-bharat-1.html"
+   "page": "khabar/2026-11-24-13-bharat-1.html"
   },
   {
-   "body_en": "Prime Minister Narendra Modi and Nepal Prime Minister Balendra Shah on Monday virtually flagged off the Saryu-Kamala Express, the first direct passenger train between Ayodhya and Janakpur Dham in Nepal. The train will cover the 604-kilometre distance in around 19 hours, linking two major religious destinations.\n\nThe inaugural special left Ayodhya Dham on Monday afternoon and will reach Janakpur at 10 am on Tuesday, with the return service departing Janakpur the same day. Regular weekly services begin on November 28. The two countries also signed eight agreements, and India announced a Rs 15,000-crore package for Nepal.",
-   "body_hi": "प्रधानमंत्री नरेंद्र मोदी और नेपाल के प्रधानमंत्री बालेन्द्र शाह ने सोमवार को वीडियो कॉन्फ्रेंसिंग के जरिए सरयू-कमला एक्सप्रेस को हरी झंडी दिखाई। यह अयोध्या और नेपाल के जनकपुर धाम के बीच चलने वाली पहली सीधी यात्री ट्रेन है। ट्रेन करीब 604 किलोमीटर की दूरी लगभग 19 घंटे में तय करेगी।\n\nउद्घाटन विशेष ट्रेन सोमवार दोपहर अयोध्या धाम से रवाना हुई और मंगलवार सुबह 10 बजे जनकपुर पहुंचेगी। वापसी की ट्रेन आज जनकपुर से चलेगी। नियमित साप्ताहिक सेवा 28 नवंबर से शुरू होगी। दोनों देशों के बीच आठ समझौतों पर भी हस्ताक्षर हुए और नेपाल के लिए 15,000 करोड़ रुपये के पैकेज की घोषणा की गई।",
+   "id": "2026-11-24-13-bharat-2",
    "cat": "bharat",
-   "id": "2026-11-24-09-bharat-2",
-   "img": "https://images.indianexpress.com/2026/11/nepal-train-1.jpg",
-   "source": "The Indian Express",
-   "source_url": "https://indianexpress.com/article/india/india-nepal-train-service-pm-modi-balendra-shah-flag-off-ayodhya-janakpur-saryu-kamala-express-10972887/",
+   "title_hi": "ICMR के पोषण सर्वे में एनीमिया पहले से कम, फिर भी महिलाओं-बच्चों में ऊंचा",
+   "title_en": "ICMR nutrition survey finds anaemia lower than before, still high among women and children",
+   "body_hi": "भारतीय आयुर्विज्ञान अनुसंधान परिषद (ICMR) के संपदा पोषण सर्वेक्षण 2023–25 में 35 राज्यों और केंद्र शासित प्रदेशों के 183 जिलों में दो लाख से अधिक लोगों को शामिल किया गया। इसमें पहले के राष्ट्रीय सर्वेक्षणों की तुलना में एनीमिया का स्तर कम पाया गया।\n\nनिष्कर्षों के अनुसार, 12 से 59 महीने के बच्चों में 42 प्रतिशत, किशोरियों में 46 प्रतिशत और प्रजनन आयु की महिलाओं में 56 प्रतिशत एनीमिया पाया गया। यह बड़ा सर्वेक्षण सरकार को पोषण कार्यक्रमों की योजना बनाने के लिए नए आंकड़े देता है।",
+   "body_en": "The Indian Council of Medical Research's SAMPADA nutrition survey for 2023–25 covered more than two lakh people across 183 districts in 35 states and union territories. It found anaemia levels lower than in earlier national surveys.\n\nAccording to the findings, anaemia was found in 42 percent of children aged 12 to 59 months, 46 percent of adolescent girls and 56 percent of women of reproductive age. The large survey gives the government fresh data to plan nutrition programmes.",
+   "source": "Saachi Baat",
+   "source_url": "https://saachibaat.com/politics/todays-top-news-24-november-2026/",
+   "img": "https://balrakshabharat.org/wp-content/uploads/2022/08/27-scaled-1.webp",
    "tags": [
-    "#SaryuKamalaExpress",
-    "#Ayodhya",
-    "#Nepal",
-    "#IndianRailways",
+    "#ICMR",
+    "#Poshan",
+    "#Swasthya",
     "#TaazaKhabar"
    ],
-   "title_en": "Saryu-Kamala Express flagged off: first direct train links Ayodhya and Janakpur in Nepal",
-   "title_hi": "अयोध्या–जनकपुर सरयू-कमला एक्सप्रेस शुरू — 604 किमी का सफर अब सीधी ट्रेन से",
-   "page": "khabar/2026-11-24-09-bharat-2.html"
+   "page": "khabar/2026-11-24-13-bharat-2.html"
   },
   {
-   "body_en": "A report has claimed that the personal data of voters submitted to the Election Commission of India was exposed on its Citizen Service Portal for at least three years. According to the report by Charchagram, a civic-tech initiative, details submitted through Form 6 — the application for registration as an elector — were visible to anyone with a login on the portal.\n\nForm 6 is the form through which citizens apply to enrol as voters. The report says the flaw put the personal information of lakhs of voters at risk. There was no immediate official response from the Election Commission on the claim.",
-   "body_hi": "एक रिपोर्ट में दावा किया गया है कि चुनाव आयोग के नागरिक सेवा पोर्टल पर मतदाताओं का निजी डेटा कम से कम तीन साल से खुला पड़ा था। नागरिक-तकनीक पहल 'चर्चाग्राम' की रिपोर्ट के मुताबिक, फॉर्म 6 के जरिए मतदाता के रूप में पंजीकरण के लिए जमा की गई जानकारी पोर्टल पर लॉगिन करने वाले किसी भी व्यक्ति को दिख जाती थी।\n\nफॉर्म 6 वह आवेदन है जिससे कोई नागरिक मतदाता सूची में अपना नाम दर्ज कराता है। रिपोर्ट में कहा गया है कि इस खामी से लाखों मतदाताओं की निजी जानकारी जोखिम में थी। चुनाव आयोग की ओर से इस पर अभी कोई आधिकारिक बयान सामने नहीं आया है।",
+   "id": "2026-11-24-13-bharat-3",
    "cat": "bharat",
-   "id": "2026-11-24-09-bharat-3",
-   "img": "https://imagesvs.oneindia.com/hi/img/2018/06/1-1527923455.jpg",
+   "title_hi": "सुप्रीम कोर्ट की सख्त टिप्पणी — अवैध निर्माण में नगर निकायों की 'सक्रिय मिलीभगत'",
+   "title_en": "Supreme Court flags 'active connivance' of civic bodies in illegal constructions",
+   "body_hi": "सुप्रीम कोर्ट ने सोमवार को कहा कि अवैध निर्माण अक्सर नगर निकायों की सक्रिय मिलीभगत से फलते-फूलते हैं। अदालत ने कहा कि ऐसे उल्लंघन इस उम्मीद में जारी रहते हैं कि राज्य सरकारें अंततः इन ढांचों को नियमित कर देंगी, खासकर चुनावों से पहले।\n\nये टिप्पणियां भवन उपनियमों के उल्लंघन से जुड़े मामलों की सुनवाई के दौरान आईं। इस टिप्पणी से अवैध निर्माण को बेरोकटोक बढ़ने देने में नगर निकायों की भूमिका पर ध्यान गया है।",
+   "body_en": "The Supreme Court on Monday observed that unauthorised constructions often flourish with the active connivance of civic authorities. The court said such violations continue in the hope that state governments will eventually regularise the structures, particularly ahead of elections.\n\nThe remarks came while the court was hearing matters related to building bye-law violations. The observation puts the spotlight on the role of municipal bodies in allowing illegal construction to grow unchecked.",
    "source": "The Hindu",
    "source_url": "https://www.thehindu.com/news/morning-digest-november-24-2026/article71736183.ece",
+   "img": "https://settlexlaw.in/courts/supreme-court-exterior.webp",
    "tags": [
-    "#ElectionCommission",
-    "#VoterData",
-    "#Privacy",
+    "#SupremeCourt",
+    "#AvaidhNirman",
+    "#NagarNikay",
     "#TaazaKhabar"
    ],
-   "title_en": "Voters' personal data was exposed on Election Commission portal for three years, report claims",
-   "title_hi": "चुनाव आयोग के पोर्टल पर तीन साल से खुला था मतदाताओं का निजी डेटा — रिपोर्ट का दावा",
-   "page": "khabar/2026-11-24-09-bharat-3.html"
+   "page": "khabar/2026-11-24-13-bharat-3.html"
   },
   {
-   "body_en": "Former Bangladesh prime minister Sheikh Hasina plans to return to Bangladesh from exile in India on December 16, her spokesperson said. This is the first time she has set a specific date for her return, and reports say she intends to travel on the state carrier.\n\nHasina has been living in exile in India since last year. Bangladesh's interim government has already warned that she will be arrested if she returns. The announcement of a date has therefore put the issue back in focus in both countries.",
-   "body_hi": "बांग्लादेश की पूर्व प्रधानमंत्री शेख हसीना 16 दिसंबर को भारत से बांग्लादेश लौटने की योजना बना रही हैं। उनके प्रवक्ता ने यह जानकारी दी है। यह पहली बार है जब हसीना ने वापसी के लिए कोई तय तारीख बताई है। खबरों के मुताबिक, वह सरकारी विमान से ढाका जाएंगी।\n\nहसीना पिछले साल से भारत में निर्वासन में रह रही हैं। बांग्लादेश की अंतरिम सरकार पहले ही चेतावनी दे चुकी है कि अगर वह लौटती हैं तो उन्हें गिरफ्तार किया जाएगा। ऐसे में 16 दिसंबर की तारीख ने दोनों देशों के बीच इस मुद्दे पर नई हलचल पैदा कर दी है।",
+   "id": "2026-11-24-13-duniya-1",
    "cat": "duniya",
-   "id": "2026-11-24-09-duniya-1",
-   "img": "https://im.rediff.com/news/2024/nov/10hasina.jpg?width=840&height=450&fr=money",
-   "source": "The Economic Times",
-   "source_url": "https://economictimes.indiatimes.com/news/international/world-news",
-   "tags": [
-    "#SheikhHasina",
-    "#Bangladesh",
-    "#Dhaka",
-    "#WorldNews"
-   ],
-   "title_en": "Sheikh Hasina plans return to Bangladesh on December 16, spokesperson says",
-   "title_hi": "शेख हसीना 16 दिसंबर को बांग्लादेश लौटने की तैयारी में — प्रवक्ता ने तारीख बताई",
-   "page": "khabar/2026-11-24-09-duniya-1.html"
-  },
-  {
-   "body_en": "China is set to launch its Shenzhou-24 spacecraft on Wednesday, carrying Pakistani astronaut Zeeshan Ali — the first foreigner to visit China's space station. The mission marks another milestone in China's crewed space programme.\n\nIt is also a historic moment for Pakistan, as one of its citizens will travel to orbit for the first time. The crew will carry out scientific experiments and maintenance work aboard the space station during the mission.",
-   "body_hi": "चीन बुधवार को अपना शेनझोउ-24 अंतरिक्ष यान लॉन्च करने जा रहा है। इस मिशन में पाकिस्तानी अंतरिक्ष यात्री ज़ीशान अली भी शामिल होंगे, जो चीन के अंतरिक्ष स्टेशन पर जाने वाले पहले विदेशी नागरिक होंगे।\n\nयह उड़ान चीन के मानवयुक्त अंतरिक्ष कार्यक्रम के लिए एक और बड़ा कदम मानी जा रही है। पाकिस्तान के लिए भी यह ऐतिहासिक मौका है, क्योंकि उसका कोई नागरिक पहली बार कक्षा में जाएगा। मिशन के दौरान चालक दल अंतरिक्ष स्टेशन पर वैज्ञानिक प्रयोग और रखरखाव का काम करेगा।",
-   "cat": "duniya",
-   "id": "2026-11-24-09-duniya-2",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Launch_of_Shenzhou_13.jpg/1280px-Launch_of_Shenzhou_13.jpg",
-   "source": "The Economic Times",
-   "source_url": "https://economictimes.indiatimes.com/news/international/world-news",
-   "tags": [
-    "#Shenzhou24",
-    "#China",
-    "#Space",
-    "#Pakistan",
-    "#WorldNews"
-   ],
-   "title_en": "China to launch Shenzhou-24 on Wednesday with Pakistani astronaut, first foreigner on its space station",
-   "title_hi": "चीन बुधवार को लॉन्च करेगा शेनझोउ-24 — पाकिस्तानी अंतरिक्ष यात्री भी होंगे सवार",
-   "page": "khabar/2026-11-24-09-duniya-2.html"
-  },
-  {
-   "body_en": "The UN climate summit COP31 in Antalya, Türkiye, ended without a final declaration after deep divisions among countries over fossil fuel phaseouts, carbon capture and climate finance. Delegates could not agree on a consensus decision to tackle global warming.\n\nIt is only the third time since 1995 that a climate summit has ended without an agreed outcome. Observers say the failure reflects a widening trust gap between countries even as global temperatures keep rising.",
-   "body_hi": "तुर्किए के अंताल्या में हुई संयुक्त राष्ट्र जलवायु शिखर बैठक COP31 बिना किसी अंतिम घोषणा के समाप्त हो गई। जीवाश्म ईंधन को चरणबद्ध तरीके से खत्म करने, कार्बन कैप्चर और जलवायु वित्त पर देशों के बीच गहरे मतभेद सामने आए।\n\nयह 1995 के बाद से सिर्फ तीसरी बार है जब कोई जलवायु शिखर बैठक बिना सहमति के खत्म हुई है। जानकारों का कहना है कि बढ़ते वैश्विक तापमान के बीच देशों के बीच भरोसे की कमी इस नाकामी की सबसे बड़ी वजह रही।",
-   "cat": "duniya",
-   "id": "2026-11-24-09-duniya-3",
-   "img": "https://npr.brightspotcdn.com/dims4/default/f79f551/2147483647/strip/true/crop/1180x664+0+0/resize/1760x990!/format/webp/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fcache%2F27%2F38%2F1055542738-1180.jpg",
-   "source": "Business Standard",
-   "source_url": "https://www.business-standard.com/amp/world-news",
-   "tags": [
-    "#COP31",
-    "#Climate",
-    "#Antalya",
-    "#WorldNews"
-   ],
-   "title_en": "COP31 climate summit ends without final declaration as fossil fuel divide deepens",
-   "title_hi": "COP31 बिना किसी अंतिम घोषणा के खत्म — जीवाश्म ईंधन पर सहमति नहीं बनी",
-   "page": "khabar/2026-11-24-09-duniya-3.html"
-  },
-  {
-   "body_en": "The World Chess Championship match opens today at the Fondation Martin Bodmer in Cologny, near Geneva, where India's D. Gukesh takes on Uzbekistan's Javokhir Sindarov. Both players are just 20 years old, making this the youngest World Championship match in history.\n\nGeneva is regarded as the global capital of peace, but over the next three weeks it will witness an intense battle on the chessboard as the two young grandmasters fight for the world title.",
-   "body_hi": "विश्व शतरंज चैंपियनशिप का मुकाबला आज से स्विट्जरलैंड के कोलोन्य में शुरू हो रहा है। भारत के डी. गुकेश का सामना उज्बेकिस्तान के जावोखिर सिंदारोव से होगा। दोनों खिलाड़ी महज 20 साल के हैं, इसलिए यह इतिहास की सबसे युवा विश्व चैंपियनशिप होगी।\n\nमुकाबला जिनेवा के पास फोंडेशन मार्टिन बोडमर में खेला जाएगा। शांति की वैश्विक राजधानी कहे जाने वाले जिनेवा में अगले तीन हफ्तों तक शतरंज की बिसात पर कड़ी जंग देखने को मिलेगी।",
-   "cat": "khel",
-   "id": "2026-11-24-09-khel-1",
-   "img": "https://www.expresskerala.com/news/wp-content/uploads/2024/12/D-Gukesh.jpg",
-   "source": "The Hindu",
-   "source_url": "https://www.thehindu.com/news/morning-digest-november-24-2026/article71736183.ece",
-   "tags": [
-    "#Gukesh",
-    "#Chess",
-    "#WorldChessChampionship",
-    "#TaazaKhabar"
-   ],
-   "title_en": "World Chess Championship opens today: Gukesh vs Sindarov, the youngest title match in history",
-   "title_hi": "विश्व शतरंज चैंपियनशिप आज से — गुकेश बनाम सिंदारोव, इतिहास का सबसे युवा मुकाबला",
-   "page": "khabar/2026-11-24-09-khel-1.html"
-  },
-  {
-   "body_en": "India A face the UAE in their third and final Group B match of the ACC Men's Asia Cup Rising Stars 2026 in Doha on Tuesday, in a must-win game for Tilak Varma's side. The match begins at 10:30 am IST at the University of Doha for Science and Technology.\n\nIndia A suffered a shock 48-run defeat to Pakistan A on Sunday, but their 306-run win over Nepal — powered by hundreds from Tilak Varma and Kumar Kushagra — leaves them second in the group with 2 points and a net run rate of +2.580. A big win over the UAE will guarantee a semifinal spot, while a defeat could knock them out.",
-   "body_hi": "एशिया कप राइजिंग स्टार्स 2026 में इंडिया A का आज UAE से मुकाबला है, और यह टीम के लिए करो या मरो का मैच है। दोहा में सुबह 10:30 बजे से शुरू हो रहे इस ग्रुप B के आखिरी मैच में जीत सेमीफाइनल की उम्मीदें जिंदा रखेगी।\n\nतिलक वर्मा की कप्तानी वाली इंडिया A को रविवार को पाकिस्तान A से 48 रन से हार मिली थी, लेकिन नेपाल पर 306 रन की बड़ी जीत से टीम के 2 अंक और +2.580 का नेट रन रेट है। UAE को बड़े अंतर से हराने पर सेमीफाइनल पक्का हो जाएगा, जबकि हारने पर टीम बाहर भी हो सकती है।",
-   "cat": "khel",
-   "id": "2026-11-24-09-khel-2",
-   "img": "https://img-cdn.publive.online/fit-in/1280x960/newsdrum-in/media/media_files/2025/08/02/akash-deep-oval-test-2025-08-02-18-31-27.jpg",
-   "source": "News18",
-   "source_url": "https://www.news18.com/cricket/how-can-india-a-qualify-for-semifinals-of-asia-cup-rising-stars-2026-ind-a-vs-uae-ws-l-10438092.html",
-   "tags": [
-    "#IndiaA",
-    "#AsiaCupRisingStars",
-    "#Cricket",
-    "#TaazaKhabar"
-   ],
-   "title_en": "India A face must-win clash against UAE today to keep Asia Cup Rising Stars semifinal hopes alive",
-   "title_hi": "इंडिया A के लिए आज करो या मरो — UAE से जीत सेमीफाइनल का रास्ता खोलेगी",
-   "page": "khabar/2026-11-24-09-khel-2.html"
-  },
-  {
-   "body_en": "Indian stock markets suffered a sharp sell-off on Monday, with the Sensex plunging 1,484 points to close at 82,436 — its worst single-day fall in more than four months. The Nifty lost 451 points to end at 25,350, and investors lost a little over Rs 5 lakh crore in a single session.\n\nThe slide was blamed on a global sell-off in AI-linked stocks and profit-taking after a nearly 15 per cent rally over the past month. Selling was heaviest in banking, financial services and metal stocks, while Tata Steel slumped 8.16 per cent after announcing its Rs 15,510-crore APL Apollo deal. IT stocks bucked the trend and rose.",
-   "body_hi": "सोमवार को शेयर बाजार में भारी गिरावट आई। सेंसेक्स 1,484 अंक गिरकर 82,436 पर बंद हुआ, जो चार महीने से ज्यादा समय की सबसे बड़ी एक दिन की गिरावट है। निफ्टी भी 451 अंक टूटकर 25,350 पर बंद हुआ। एक ही दिन में निवेशकों की दौलत करीब 5 लाख करोड़ रुपये घट गई।\n\nवैश्विक स्तर पर एआई शेयरों में बिकवाली और महीने भर की करीब 15 प्रतिशत की तेजी के बाद मुनाफावसूली को गिरावट की वजह बताया गया। बैंकिंग और धातु शेयरों में सबसे ज्यादा बिकवाली हुई, जबकि टाटा स्टील एपीएल अपोलो सौदे की घोषणा के बाद 8.16 प्रतिशत टूटा। आईटी शेयरों में हालांकि तेजी रही।",
-   "cat": "vyapar",
-   "id": "2026-11-24-09-vyapar-1",
-   "img": "https://static.toiimg.com/thumb/msid-136117117,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "title_hi": "संदिग्ध विमान ने दक्षिण कोरिया के हवाई क्षेत्र में घुसपैठ की — द्वीप के लोग आश्रय में",
+   "title_en": "Suspected aircraft breaches South Korean airspace, island residents told to take shelter",
+   "body_hi": "दक्षिण कोरिया ने मंगलवार को कहा कि एक संदिग्ध विमान ने पूर्वी द्वीप उल्लेउंग के पास उसके हवाई क्षेत्र का उल्लंघन किया। इसके बाद अधिकारियों ने निवासियों को आश्रय लेने का आदेश दिया और लड़ाकू विमान रवाना किए गए।\n\nइस घटना से कोरियाई प्रायद्वीप में तनाव बढ़ गया है, जहां हवाई क्षेत्र के उल्लंघन को गंभीर सुरक्षा मामला माना जाता है। दक्षिण कोरियाई अधिकारियों ने कहा कि वे स्थिति पर बारीकी से नजर रखे हुए हैं।",
+   "body_en": "South Korea said on Tuesday that a suspected aircraft breached its airspace near the eastern island of Ulleung, prompting authorities to order residents to take shelter. Fighter jets were scrambled in response to the alert.\n\nThe incident raised tensions on the Korean peninsula, where airspace violations are treated as serious security matters. South Korean authorities said they were monitoring the situation closely.",
    "source": "The Times of India",
-   "source_url": "https://timesofindia.indiatimes.com/business/india-business/sensex-slides-1484-points-as-global-market-weakness-weighs-on-d-street-investors/articleshow/136117104.cms",
+   "source_url": "https://timesofindia.indiatimes.com/india/latest-india-world-news-live-updates-today-breaking-news-november-24-2026/liveblog/136113590.cms",
+   "img": "https://img.sbs.co.kr/newimg/news/20220720/201683761_1280.jpg",
    "tags": [
-    "#Sensex",
-    "#StockMarket",
-    "#Nifty",
+    "#SouthKorea",
+    "#Airspace",
+    "#WorldNews",
     "#TaazaKhabar"
    ],
-   "title_en": "Sensex slides 1,484 points in worst fall in four months; investors lose over Rs 5 lakh crore",
-   "title_hi": "सेंसेक्स 1,484 अंक टूटा — चार महीने की सबसे बड़ी गिरावट, निवेशकों के ₹5 लाख करोड़ डूबे",
-   "page": "khabar/2026-11-24-09-vyapar-1.html"
+   "page": "khabar/2026-11-24-13-duniya-1.html"
   },
   {
-   "body_en": "Nvidia has reinstated co-founder Jensen Huang as its chief executive with immediate effect, sending its shares up 33 per cent. The Nasdaq surged 6.5 per cent overnight and Asian markets rallied sharply on Tuesday morning.\n\nIndian stock markets, however, remain closed on Tuesday for Guru Nanak Jayanti. GIFT Nifty traded about 100 points higher in early trade, signalling a positive start when trading resumes on Wednesday, November 25. Brent crude traded below 90 dollars a barrel.",
-   "body_hi": "एनवीडिया ने अपने सह-संस्थापक जेनसन हुआंग को तत्काल प्रभाव से मुख्य कार्यकारी अधिकारी के रूप में वापस ला लिया है। इस घोषणा के बाद कंपनी के शेयर 33 प्रतिशत उछल गए और नैस्डेक में रातोंरात 6.5 प्रतिशत की तेजी आई। एशियाई बाजारों में भी मंगलवार सुबह अच्छी बढ़त देखी गई।\n\nभारत में शेयर बाजार आज गुरु नानक जयंती के मौके पर बंद है। गिफ्ट निफ्टी करीब 100 अंक ऊपर कारोबार कर रहा है, जो वैश्विक तेजी का संकेत है। बीएसई और एनएसई में कारोबार बुधवार 25 नवंबर से फिर शुरू होगा।",
+   "id": "2026-11-24-13-duniya-2",
+   "cat": "duniya",
+   "title_hi": "ट्रंप ने आयोवा संयंत्र में विस्फोटक नष्ट करने की योजना रोकी — अदालत के फैसले का इंतजार",
+   "title_en": "Trump halts planned detonation of explosive material at Iowa plant pending court ruling",
+   "body_hi": "अमेरिकी राष्ट्रपति डोनाल्ड ट्रंप ने सोमवार को सेना को आयोवा के एक गोला-बारूद संयंत्र में 68 बैरल खराब हुए लेड एज़ाइड को विस्फोट से नष्ट करने की योजना रोकने का आदेश दिया। यह रोक तब तक रहेगी जब तक संघीय अपील अदालत इस अभियान को मंजूरी नहीं दे देती।\n\nलेड एज़ाइड एक विस्फोटक पदार्थ है, और नियोजित विस्फोट को लेकर सुरक्षा की चिंताएं जताई गई थीं। अब अदालत का फैसला तय करेगा कि यह निपटान होगा या नहीं और कैसे होगा।",
+   "body_en": "US President Donald Trump on Monday ordered the military to pause plans to detonate 68 barrels of degraded lead azide at an ammunition plant in Iowa. The pause will stay in place until a federal appeals court approves the operation.\n\nLead azide is an explosive material, and the planned detonation had raised safety concerns. The court's ruling will now decide whether and how the disposal goes ahead.",
+   "source": "The Times of India",
+   "source_url": "https://timesofindia.indiatimes.com/india/latest-india-world-news-live-updates-today-breaking-news-november-24-2026/liveblog/136113590.cms",
+   "img": "https://i.gadgets360cdn.com/large/donald_trump_full_1479983497422.png?downsize=400:*",
+   "tags": [
+    "#DonaldTrump",
+    "#America",
+    "#Iowa",
+    "#WorldNews"
+   ],
+   "page": "khabar/2026-11-24-13-duniya-2.html"
+  },
+  {
+   "id": "2026-11-24-13-duniya-3",
+   "cat": "duniya",
+   "title_hi": "इंडोनेशिया के कारखाने में भीषण आग — कई मजदूर लापता, बचाव अभियान जारी",
+   "title_en": "Major fire at Indonesia factory leaves several missing, rescue operations under way",
+   "body_hi": "इंडोनेशिया में एक औद्योगिक इकाई में भीषण आग लग गई, जिसमें कई लोग हताहत हुए और कई मजदूर लापता बताए जा रहे हैं। आग के फैलते ही आपातकालीन दलों ने बचाव अभियान शुरू कर दिया।\n\nअधिकारी आग के कारणों की जांच कर रहे हैं। इस घटना ने एक बार फिर क्षेत्र के कारखानों में औद्योगिक सुरक्षा मानकों पर सवाल खड़े कर दिए हैं।",
+   "body_en": "A major fire broke out at an industrial facility in Indonesia, causing multiple casualties and leaving several workers missing. Emergency teams launched rescue operations as the blaze spread through the plant.\n\nAuthorities are investigating the cause of the fire. The incident has once again raised questions about industrial safety standards at factories in the region.",
+   "source": "Careerindia",
+   "source_url": "https://www.careerindia.com/news/school-assembly-news-headlines-today-november-24-2026-national-international-education-sports-069097.html",
+   "img": "https://media.asiaone.com/sites/default/files/inline-images/Screenshot%202024-11-01%20135920.png",
+   "tags": [
+    "#Indonesia",
+    "#FactoryFire",
+    "#WorldNews",
+    "#TaazaKhabar"
+   ],
+   "page": "khabar/2026-11-24-13-duniya-3.html"
+  },
+  {
+   "id": "2026-11-24-13-khel-1",
+   "cat": "khel",
+   "title_hi": "वेलिंगटन टेस्ट ड्रॉ — मिचेल-फिलिप्स की जुझारू साझेदारी से भारत जीत से चूका",
+   "title_en": "New Zealand battle to a draw in Wellington Test as Mitchell-Phillips stand frustrates India",
+   "body_hi": "वेलिंगटन में भारत और न्यूजीलैंड के बीच पहला टेस्ट सोमवार को ड्रॉ रहा। न्यूजीलैंड ने आखिरी दिन बल्लेबाजी करते हुए 239 रन पर 5 विकेट पर पारी समाप्त की। भारत ने पहली पारी में 720 रन पर 9 विकेट पर पारी घोषित कर 352 रनों की बढ़त ली थी।\n\nडेरिल मिचेल और ग्लेन फिलिप्स ने 43 ओवर तक साथ बल्लेबाजी करते हुए नाबाद 63 रनों की साझेदारी से मैच बचा लिया। 15 ओवर बाकी रहते ही दोनों टीमों ने हाथ मिला लिए। कप्तान शुभमन गिल ने कहा कि तेज गेंदबाज थक गए थे और क्राइस्टचर्च में शुक्रवार से शुरू हो रहे दूसरे टेस्ट के लिए उन्हें तरोताजा रखना था।",
+   "body_en": "The first Test between India and New Zealand at Wellington ended in a draw on Monday after New Zealand batted out the final day to finish on 239 for five. India had declared a mammoth 720 for nine in the first innings, taking a lead of 352 runs.\n\nDaryl Mitchell and Glenn Phillips batted together for 43 overs in an unbroken 63-run stand to save the match. The teams shook hands with 15 overs still left, a decision captain Shubman Gill explained by saying his fast bowlers were tired and needed to stay fresh for the second Test in Christchurch from Friday.",
+   "source": "Dawn",
+   "source_url": "https://www.dawn.com/news/2046638/new-zealand-battle-to-239-5-to-draw-first-test-against-india",
+   "img": "https://assets.telegraphindia.com/telegraph/e4e9eac1-ed18-43d8-9acb-40e538d393b3.jpg",
+   "tags": [
+    "#INDvsNZ",
+    "#TestCricket",
+    "#WellingtonTest",
+    "#TaazaKhabar"
+   ],
+   "page": "khabar/2026-11-24-13-khel-1.html"
+  },
+  {
+   "id": "2026-11-24-13-khel-2",
+   "cat": "khel",
+   "title_hi": "2031 महिला विश्व कप की मेजबानी अमेरिका-मैक्सिको समेत चार देशों को, 2035 ब्रिटेन में",
+   "title_en": "USA, Mexico, Costa Rica and Jamaica to host 2031 Women's World Cup; UK gets 2035",
+   "body_hi": "अमेरिका, मैक्सिको, कोस्टा रिका और जमैका संयुक्त रूप से 2031 महिला विश्व कप की मेजबानी करेंगे, जबकि 2035 का संस्करण ब्रिटेन में होगा। इस घोषणा से महिला टूर्नामेंट का बढ़ता आकार साफ दिखता है, जो अब उत्तरी और मध्य अमेरिका के चार देशों में बंटा होगा।\n\n2031 का संस्करण पहला महिला विश्व कप होगा जिसकी मेजबानी चार देशों में होगी। इससे रिकॉर्ड दर्शकों और क्षेत्र में महिला फुटबॉल को बड़ी बढ़त मिलने की उम्मीद है।",
+   "body_en": "The United States, Mexico, Costa Rica and Jamaica will jointly host the 2031 Women's World Cup, while the United Kingdom will host the 2035 edition. The announcement confirms the growing scale of the women's tournament, which will now be shared across four nations in North and Central America.\n\nThe 2031 edition will be the first Women's World Cup hosted across four countries. The decision is expected to bring record crowds and a major boost to women's football in the region.",
+   "source": "The Times of India",
+   "source_url": "https://timesofindia.indiatimes.com/india/latest-india-world-news-live-updates-today-breaking-news-november-24-2026/liveblog/136113590.cms",
+   "img": "https://cdn.uc.assets.prezly.com/27f2ddbb-50e1-47d1-a1c5-6f7054d05f0a/-/preview/1500x1000/-/format/auto/%2BH23992-_F6A6418-Edit-16x9-1163150.jpg",
+   "tags": [
+    "#WomensWorldCup",
+    "#FIFA",
+    "#Football",
+    "#TaazaKhabar"
+   ],
+   "page": "khabar/2026-11-24-13-khel-2.html"
+  },
+  {
+   "id": "2026-11-24-13-vyapar-1",
    "cat": "vyapar",
-   "id": "2026-11-24-09-vyapar-2",
-   "img": "https://images.moneycontrol.com/static-mcnews/2026/11/20261103082702_market_up_higher.jpg",
+   "title_hi": "गुरु नानक जयंती पर शेयर बाजार बंद — नैस्डैक की 6.5% तेजी से गिफ्ट निफ्टी ऊपर",
+   "title_en": "Markets shut for Guru Nanak Jayanti; GIFT Nifty up as Nasdaq surges 6.5 percent",
+   "body_hi": "गुरु नानक जयंती (प्रकाश गुरपुरब) के कारण मंगलवार को भारतीय शेयर बाजार बंद रहे। एनएसई और बीएसई पर इक्विटी और डेरिवेटिव में कारोबार दिन भर के लिए रुका रहा और बुधवार, 25 नवंबर से फिर शुरू होगा।\n\nयह छुट्टी सोमवार की तेज गिरावट के अगले दिन पड़ी, जब सेंसेक्स 1,483.72 अंक गिरकर 82,435.99 और निफ्टी 450.95 अंक गिरकर 25,349.65 पर बंद हुआ था। इस बीच, वैश्विक बाजारों में तेजी के चलते गिफ्ट निफ्टी सुबह ऊंचा कारोबार कर रहा था — नैस्डैक रातोंरात 6.5 प्रतिशत चढ़ा था। मल्टी कमोडिटी एक्सचेंज शाम 5 बजे से अपने शाम के सत्र में कारोबार फिर शुरू करेगा।",
+   "body_en": "Indian stock markets remained closed on Tuesday on account of Guru Nanak Jayanti, also known as Prakash Gurpurb. Trading in equity and equity derivatives on the NSE and BSE stayed suspended for the day, and will resume on Wednesday, November 25.\n\nThe holiday came a day after a sharp fall on Monday, when the Sensex dropped 1,483.72 points to 82,435.99 and the Nifty fell 450.95 points to 25,349.65. Meanwhile, GIFT Nifty traded higher in the morning as global markets rallied, with the Nasdaq surging 6.5 percent overnight. The Multi Commodity Exchange will resume trading in its evening session from 5 pm.",
    "source": "Moneycontrol",
    "source_url": "https://www.moneycontrol.com/news/business/markets/gift-nifty-up-100-pts-as-nasdaq-surges-6-5-asian-markets-rally-sensex-nifty-shut-for-guru-nanak-jayanti-14087578.html",
+   "img": "https://images.moneycontrol.com/static-mcnews/2026/11/20261103082702_market_up_higher.jpg",
    "tags": [
-    "#Nvidia",
-    "#JensenHuang",
-    "#StockMarket",
+    "#ShareBazaar",
+    "#Sensex",
+    "#GuruNanakJayanti",
     "#TaazaKhabar"
    ],
-   "title_en": "Nvidia reinstates Jensen Huang as CEO, shares surge 33%; Indian markets shut for Guru Nanak Jayanti",
-   "title_hi": "एनवीडिया में जेनसन हुआंग की वापसी — शेयर 33% उछले, पर भारतीय बाजार आज बंद",
-   "page": "khabar/2026-11-24-09-vyapar-2.html"
+   "page": "khabar/2026-11-24-13-vyapar-1.html"
+  },
+  {
+   "id": "2026-11-24-13-khaas-1",
+   "cat": "khaas",
+   "title_hi": "ग्रीस ने सात साल के जीर्णोद्धार के बाद सबसे पुराना एक्रोपोलिस संग्रहालय फिर खोला",
+   "title_en": "Greece reopens oldest Acropolis Museum after seven-year restoration",
+   "body_hi": "ग्रीस ने सोमवार को एथेंस में एक्रोपोलिस संग्रहालय को सात साल तक चले 62 लाख यूरो के जीर्णोद्धार के बाद फिर से खोल दिया। 1874 में स्थापित यह संग्रहालय आधुनिक ग्रीस का सबसे पुराना संग्रहालय है।\n\nइसके फिर से खुलने से देश के सबसे महत्वपूर्ण सांस्कृतिक संस्थानों में से एक तक जनता की पहुंच बहाल हो गई है, जो प्राचीन एक्रोपोलिस की छाया में स्थित है। जीर्णोद्धार कार्य से इमारत और इसकी दीर्घाएं ग्रीस और दुनिया भर के आगंतुकों के लिए नए सिरे से तैयार हुई हैं।",
+   "body_en": "Greece reopened the Acropolis Museum in Athens on Monday after a seven-year restoration costing 6.2 million euros. The museum, which dates back to 1874, is the oldest museum in modern Greece.\n\nThe reopening restores public access to one of the country's most important cultural institutions, which stands in the shadow of the ancient Acropolis. The restoration work has refreshed the building and its galleries for visitors from Greece and around the world.",
+   "source": "The Times of India",
+   "source_url": "https://timesofindia.indiatimes.com/india/latest-india-world-news-live-updates-today-breaking-news-november-24-2026/liveblog/136113590.cms",
+   "img": "https://images.musement.com/cover/0144/52/thumb_14351396_cover_header.jpeg?w=1200&auto=format",
+   "tags": [
+    "#Acropolis",
+    "#Greece",
+    "#Museum",
+    "#TaazaKhabar"
+   ],
+   "page": "khabar/2026-11-24-13-khaas-1.html"
   }
  ]
 }
