@@ -1,186 +1,189 @@
 {
- "edition": "मंगलवार, 24 नवंबर 2026 — सुबह 5 बजे",
- "updated_at": "2026-11-24T05:00:00+05:30",
+ "edition": "मंगलवार, 24 नवंबर 2026 — सुबह 9 बजे",
+ "updated_at": "2026-11-24T09:00:00+05:30",
  "stories": [
   {
-   "body_en": "Prime Minister Narendra Modi and Nepal Prime Minister Balendra Shah on Monday virtually flagged off the Saryu-Kamala Express, connecting Ayodhya in Uttar Pradesh with Janakpur Dham in Nepal. The new train service is expected to improve passenger connectivity, tourism and cultural exchanges between the two countries.\n\nIndia also announced a Rs 15,000 crore aid package for Nepal, alongside eight MoUs covering development cooperation, an IIT offshore campus and a cross-border rail link. PM Modi described the India-Nepal bond as deep and spiritual, saying India's Ram is incomplete without Nepal.",
-   "body_hi": "प्रधानमंत्री नरेंद्र मोदी और नेपाल के प्रधानमंत्री बालेन्द्र शाह ने सोमवार को सरयू-कमला एक्सप्रेस को वर्चुअली हरी झंडी दिखाई। यह ट्रेन उत्तर प्रदेश के अयोध्या को नेपाल के जनकपुर धाम से जोड़ेगी, जिससे यात्री आवागमन, पर्यटन और सांस्कृतिक आदान-प्रदान को बढ़ावा मिलेगा।\n\nभारत ने नेपाल के लिए 15,000 करोड़ रुपये के सहायता पैकेज की भी घोषणा की। इसके साथ विकास सहयोग, आईआईटी के विदेशी कैंपस और सीमा-पार रेल लिंक समेत आठ समझौतों पर हस्ताक्षर हुए। प्रधानमंत्री मोदी ने कहा कि भारत और नेपाल का रिश्ता गहरा और आध्यात्मिक है — नेपाल के बिना भारत के राम अधूरे हैं।",
+   "body_en": "A 5.3-magnitude earthquake struck Nepal's Koshi Province early on Tuesday morning at around 7:02 am IST. The epicentre was near Lelep, at a depth of about 20 kilometres, according to India's National Centre for Seismology. The US Geological Survey measured the quake at 5.4, while Nepal's own monitoring centre put it at 5.6.\n\nTremors were felt across Bihar, North Bengal and Meghalaya in India, as well as in Bhutan, Bangladesh and parts of China. A separate 2.5-magnitude tremor was recorded hours earlier in Assam's Karbi Anglong district. No casualties were reported in the initial updates.",
+   "body_hi": "मंगलवार सुबह करीब 7 बजकर 2 मिनट पर नेपाल के कोशी प्रांत में 5.3 तीव्रता का भूकंप आया। भूकंप का केंद्र लेलेप के पास था और इसकी गहराई जमीन से करीब 20 किलोमीटर नीचे बताई गई है। अमेरिकी भूगर्भ सर्वेक्षण ने इसकी तीव्रता 5.4 आंकी है, जबकि नेपाल के अपने केंद्र ने इसे 5.6 बताया है।\n\nभूकंप के झटके भारत के बिहार, उत्तरी बंगाल और मेघालय के साथ-साथ भूटान, बांग्लादेश और चीन के कुछ हिस्सों में भी महसूस किए गए। इससे कुछ घंटे पहले असम के कार्बी आंगलोंग जिले में 2.5 तीव्रता का अलग झटका भी दर्ज हुआ। शुरुआती खबरों में किसी के हताहत होने की सूचना नहीं है।",
    "cat": "bharat",
-   "id": "2026-11-24-05-bharat-1",
-   "img": "https://eminentnews.com/_next/image?url=https%3A%2F%2Fmy-ten-media-bucket-2026.s3.ap-south-1.amazonaws.com%2Fsocial_media_task%2Fnews-img-1782748234858-v7y6x6.jpg&w=828&q=75",
-   "source": "Jagran Josh",
-   "source_url": "https://www.jagranjosh.com/lite/articles/school-assembly-news-headlines-november-24-2026-kamla-express-super-tet-spicejet-ferrari-296-and-other-news-1800019603-1",
+   "id": "2026-11-24-09-bharat-1",
+   "img": "https://uit.no/Content/877000/cache=20250104090603/transformation=kompJpgHighTommy/mp12003346-nepal-earthquakes.jpg",
+   "source": "NDTV",
+   "source_url": "https://www.ndtv.com/world-news/5-3-magnitude-earthquake-hits-nepal-tremors-felt-across-india-bhutan-china-12368620",
    "tags": [
-    "#IndiaNepal",
+    "#भूकंप",
+    "#नेपाल",
+    "#Earthquake",
+    "#Bihar",
+    "#TaazaKhabar"
+   ],
+   "title_en": "5.3-magnitude earthquake hits Nepal early morning; tremors felt across Bihar, Bengal, Bhutan and China",
+   "title_hi": "नेपाल में सुबह 5.3 तीव्रता का भूकंप — बिहार-बंगाल तक झटके महसूस",
+   "page": "khabar/2026-11-24-09-bharat-1.html"
+  },
+  {
+   "body_en": "Prime Minister Narendra Modi and Nepal Prime Minister Balendra Shah on Monday virtually flagged off the Saryu-Kamala Express, the first direct passenger train between Ayodhya and Janakpur Dham in Nepal. The train will cover the 604-kilometre distance in around 19 hours, linking two major religious destinations.\n\nThe inaugural special left Ayodhya Dham on Monday afternoon and will reach Janakpur at 10 am on Tuesday, with the return service departing Janakpur the same day. Regular weekly services begin on November 28. The two countries also signed eight agreements, and India announced a Rs 15,000-crore package for Nepal.",
+   "body_hi": "प्रधानमंत्री नरेंद्र मोदी और नेपाल के प्रधानमंत्री बालेन्द्र शाह ने सोमवार को वीडियो कॉन्फ्रेंसिंग के जरिए सरयू-कमला एक्सप्रेस को हरी झंडी दिखाई। यह अयोध्या और नेपाल के जनकपुर धाम के बीच चलने वाली पहली सीधी यात्री ट्रेन है। ट्रेन करीब 604 किलोमीटर की दूरी लगभग 19 घंटे में तय करेगी।\n\nउद्घाटन विशेष ट्रेन सोमवार दोपहर अयोध्या धाम से रवाना हुई और मंगलवार सुबह 10 बजे जनकपुर पहुंचेगी। वापसी की ट्रेन आज जनकपुर से चलेगी। नियमित साप्ताहिक सेवा 28 नवंबर से शुरू होगी। दोनों देशों के बीच आठ समझौतों पर भी हस्ताक्षर हुए और नेपाल के लिए 15,000 करोड़ रुपये के पैकेज की घोषणा की गई।",
+   "cat": "bharat",
+   "id": "2026-11-24-09-bharat-2",
+   "img": "https://images.indianexpress.com/2026/11/nepal-train-1.jpg",
+   "source": "The Indian Express",
+   "source_url": "https://indianexpress.com/article/india/india-nepal-train-service-pm-modi-balendra-shah-flag-off-ayodhya-janakpur-saryu-kamala-express-10972887/",
+   "tags": [
     "#SaryuKamalaExpress",
-    "#PMModi",
+    "#Ayodhya",
+    "#Nepal",
+    "#IndianRailways",
     "#TaazaKhabar"
    ],
-   "title_en": "Modi, Nepal PM flag off Saryu-Kamala Express; India announces Rs 15,000 crore aid package",
-   "title_hi": "मोदी और नेपाल के पीएम ने सरयू-कमला एक्सप्रेस को हरी झंडी दिखाई, भारत ने 15,000 करोड़ की मदद का एलान किया",
-   "page": "khabar/2026-11-24-05-bharat-1.html"
+   "title_en": "Saryu-Kamala Express flagged off: first direct train links Ayodhya and Janakpur in Nepal",
+   "title_hi": "अयोध्या–जनकपुर सरयू-कमला एक्सप्रेस शुरू — 604 किमी का सफर अब सीधी ट्रेन से",
+   "page": "khabar/2026-11-24-09-bharat-2.html"
   },
   {
-   "body_en": "Manipur Chief Minister Yumnam Khemchand Singh met Anal tribal bodies after a spurious liquor tragedy in Chandel district claimed 17 lives and left many others hospitalised. The state government is in touch with civil society organisations in the affected area.\n\nOfficials said the victims had consumed illicit liquor, and an investigation is under way to trace those who made and sold it. The incident has renewed concern over the sale of spurious alcohol in the state's hill districts.",
-   "body_hi": "मणिपुर के मुख्यमंत्री युमनम खेमचंद सिंह ने चंदेल जिले में जहरीली शराब से 17 लोगों की मौत के बाद अनल जनजातीय संगठनों से मुलाकात की। इस हादसे में कई लोग अस्पताल में भर्ती हैं, और राज्य सरकार प्रभावित इलाके के नागरिक संगठनों के संपर्क में है।\n\nअधिकारियों ने बताया कि पीड़ितों ने अवैध शराब पी थी, और इसे बनाने व बेचने वालों का पता लगाने के लिए जांच चल रही है। इस घटना ने पहाड़ी जिलों में नकली शराब की बिक्री को लेकर चिंता फिर बढ़ा दी है।",
+   "body_en": "A report has claimed that the personal data of voters submitted to the Election Commission of India was exposed on its Citizen Service Portal for at least three years. According to the report by Charchagram, a civic-tech initiative, details submitted through Form 6 — the application for registration as an elector — were visible to anyone with a login on the portal.\n\nForm 6 is the form through which citizens apply to enrol as voters. The report says the flaw put the personal information of lakhs of voters at risk. There was no immediate official response from the Election Commission on the claim.",
+   "body_hi": "एक रिपोर्ट में दावा किया गया है कि चुनाव आयोग के नागरिक सेवा पोर्टल पर मतदाताओं का निजी डेटा कम से कम तीन साल से खुला पड़ा था। नागरिक-तकनीक पहल 'चर्चाग्राम' की रिपोर्ट के मुताबिक, फॉर्म 6 के जरिए मतदाता के रूप में पंजीकरण के लिए जमा की गई जानकारी पोर्टल पर लॉगिन करने वाले किसी भी व्यक्ति को दिख जाती थी।\n\nफॉर्म 6 वह आवेदन है जिससे कोई नागरिक मतदाता सूची में अपना नाम दर्ज कराता है। रिपोर्ट में कहा गया है कि इस खामी से लाखों मतदाताओं की निजी जानकारी जोखिम में थी। चुनाव आयोग की ओर से इस पर अभी कोई आधिकारिक बयान सामने नहीं आया है।",
    "cat": "bharat",
-   "id": "2026-11-24-05-bharat-2",
-   "img": "https://img.etimg.com/photo/65498029.cms",
-   "source": "The Economic Times",
-   "source_url": "https://economictimes.indiatimes.com/news/india",
+   "id": "2026-11-24-09-bharat-3",
+   "img": "https://imagesvs.oneindia.com/hi/img/2018/06/1-1527923455.jpg",
+   "source": "The Hindu",
+   "source_url": "https://www.thehindu.com/news/morning-digest-november-24-2026/article71736183.ece",
    "tags": [
-    "#Manipur",
-    "#Chandel",
-    "#SpuriousLiquor",
+    "#ElectionCommission",
+    "#VoterData",
+    "#Privacy",
     "#TaazaKhabar"
    ],
-   "title_en": "Manipur spurious liquor tragedy claims 17 lives; CM meets Anal tribal bodies",
-   "title_hi": "मणिपुर में जहरीली शराब से 17 की मौत, मुख्यमंत्री ने अनल जनजातीय संगठनों से मुलाकात की",
-   "page": "khabar/2026-11-24-05-bharat-2.html"
+   "title_en": "Voters' personal data was exposed on Election Commission portal for three years, report claims",
+   "title_hi": "चुनाव आयोग के पोर्टल पर तीन साल से खुला था मतदाताओं का निजी डेटा — रिपोर्ट का दावा",
+   "page": "khabar/2026-11-24-09-bharat-3.html"
   },
   {
-   "body_en": "Prime Minister Narendra Modi inaugurated an Artificial Intelligence centre at the Indian Institute of Technology (IIT) Patna and launched a research park project worth Rs 400 crore. The initiatives aim to strengthen research, innovation and advanced technology education in Bihar.\n\nThe AI centre is expected to support work in emerging technologies and skill development, while the research park will connect academic research with industry. Officials said the projects will create new opportunities for students and researchers in the region.",
-   "body_hi": "प्रधानमंत्री नरेंद्र मोदी ने भारतीय प्रौद्योगिकी संस्थान (आईआईटी) पटना में आर्टिफिशियल इंटेलिजेंस (एआई) केंद्र का उद्घाटन किया और 400 करोड़ रुपये की शोध पार्क परियोजना की शुरुआत की। इन पहलों का मकसद बिहार में शोध, नवाचार और उन्नत तकनीकी शिक्षा को मजबूत करना है।\n\nएआई केंद्र उभरती तकनीकों और कौशल विकास में काम को बढ़ावा देगा, जबकि शोध पार्क अकादमिक शोध को उद्योग से जोड़ेगा। अधिकारियों ने कहा कि इन परियोजनाओं से क्षेत्र के छात्रों और शोधकर्ताओं के लिए नए अवसर बनेंगे।",
-   "cat": "bharat",
-   "id": "2026-11-24-05-bharat-3",
-   "img": "https://www.simplilearn.com/ice9/banners/optimized/iit-patna-1068x664.webp",
-   "source": "Education Times",
-   "source_url": "https://www.educationtimes.com/news/school-assembly-news-headlines-for-24-november-2026-top-indian-international-sports-and-business-news/articleshow/136100381.cms",
-   "tags": [
-    "#IITPatna",
-    "#AI",
-    "#PMModi",
-    "#TaazaKhabar"
-   ],
-   "title_en": "PM Modi inaugurates AI centre at IIT Patna, launches Rs 400 crore research park",
-   "title_hi": "पीएम मोदी ने आईआईटी पटना में एआई केंद्र का उद्घाटन किया, 400 करोड़ के शोध पार्क की शुरुआत",
-   "page": "khabar/2026-11-24-05-bharat-3.html"
-  },
-  {
-   "body_en": "A major fire at a candy factory in Indonesia's Banten province has killed at least 24 people, while rescue teams continue searching for missing workers. The blaze broke out at the factory and spread rapidly, trapping workers inside.\n\nEmergency teams are working at the site to find survivors and identify the victims. Authorities have begun an investigation into the cause of the fire, and the death toll may rise as the search continues.",
-   "body_hi": "इंडोनेशिया के बैंटन प्रांत में एक कैंडी फैक्ट्री में लगी भीषण आग में कम से कम 24 लोगों की मौत हो गई है, जबकि बचाव दल लापता कर्मचारियों की तलाश में जुटे हैं। आग फैक्ट्री में लगी और तेजी से फैल गई, जिससे कई कर्मचारी अंदर फंस गए।\n\nआपातकालीन दल मौके पर जीवित बचे लोगों को खोजने और मृतकों की पहचान करने में लगे हैं। अधिकारियों ने आग के कारणों की जांच शुरू कर दी है, और तलाश जारी रहने से मृतकों की संख्या बढ़ सकती है।",
+   "body_en": "Former Bangladesh prime minister Sheikh Hasina plans to return to Bangladesh from exile in India on December 16, her spokesperson said. This is the first time she has set a specific date for her return, and reports say she intends to travel on the state carrier.\n\nHasina has been living in exile in India since last year. Bangladesh's interim government has already warned that she will be arrested if she returns. The announcement of a date has therefore put the issue back in focus in both countries.",
+   "body_hi": "बांग्लादेश की पूर्व प्रधानमंत्री शेख हसीना 16 दिसंबर को भारत से बांग्लादेश लौटने की योजना बना रही हैं। उनके प्रवक्ता ने यह जानकारी दी है। यह पहली बार है जब हसीना ने वापसी के लिए कोई तय तारीख बताई है। खबरों के मुताबिक, वह सरकारी विमान से ढाका जाएंगी।\n\nहसीना पिछले साल से भारत में निर्वासन में रह रही हैं। बांग्लादेश की अंतरिम सरकार पहले ही चेतावनी दे चुकी है कि अगर वह लौटती हैं तो उन्हें गिरफ्तार किया जाएगा। ऐसे में 16 दिसंबर की तारीख ने दोनों देशों के बीच इस मुद्दे पर नई हलचल पैदा कर दी है।",
    "cat": "duniya",
-   "id": "2026-11-24-05-duniya-1",
-   "img": "https://media.asiaone.com/sites/default/files/inline-images/Screenshot%202024-11-01%20135920.png",
-   "source": "Education Times",
-   "source_url": "https://www.educationtimes.com/news/school-assembly-news-headlines-for-24-november-2026-top-indian-international-sports-and-business-news/articleshow/136100381.cms",
+   "id": "2026-11-24-09-duniya-1",
+   "img": "https://im.rediff.com/news/2024/nov/10hasina.jpg?width=840&height=450&fr=money",
+   "source": "The Economic Times",
+   "source_url": "https://economictimes.indiatimes.com/news/international/world-news",
    "tags": [
-    "#Indonesia",
-    "#FactoryFire",
-    "#Banten",
+    "#SheikhHasina",
+    "#Bangladesh",
+    "#Dhaka",
     "#WorldNews"
    ],
-   "title_en": "Indonesia factory fire kills 24, rescuers search for missing workers",
-   "title_hi": "इंडोनेशिया की फैक्ट्री में आग से 24 की मौत, लापता कर्मचारियों की तलाश जारी",
-   "page": "khabar/2026-11-24-05-duniya-1.html"
+   "title_en": "Sheikh Hasina plans return to Bangladesh on December 16, spokesperson says",
+   "title_hi": "शेख हसीना 16 दिसंबर को बांग्लादेश लौटने की तैयारी में — प्रवक्ता ने तारीख बताई",
+   "page": "khabar/2026-11-24-09-duniya-1.html"
   },
   {
-   "body_en": "The COP31 climate summit in Antalya, Turkiye, has ended without a consensus climate deal, with countries remaining divided over measures to address fossil fuel consumption and global warming. Negotiators could not agree on a final text on phasing out fossil fuels.\n\nThe breakdown has drawn criticism from several countries, including Pacific island nations, which expressed despair at the lack of progress. India had pressed for the concerns of the Global South to be reflected in the talks, and the outcome leaves the future of climate action uncertain.",
-   "body_hi": "तुर्किए के अंताल्या में हुआ COP31 जलवायु शिखर सम्मेलन बिना किसी आम सहमति के समाप्त हो गया। जीवाश्म ईंधन के इस्तेमाल और ग्लोबल वार्मिंग से निपटने के उपायों पर देश बंटे रहे, और वार्ताकार जीवाश्म ईंधन को चरणबद्ध तरीके से खत्म करने पर अंतिम मसौदे पर सहमत नहीं हो सके।\n\nइस नाकामी की कई देशों ने आलोचना की है, जिनमें प्रशांत द्वीपीय देश भी शामिल हैं, जिन्होंने प्रगति न होने पर निराशा जताई। भारत ने वार्ता में ग्लोबल साउथ की चिंताओं को शामिल करने पर जोर दिया था, और इस नतीजे से जलवायु कार्रवाई का भविष्य अनिश्चित हो गया है।",
+   "body_en": "China is set to launch its Shenzhou-24 spacecraft on Wednesday, carrying Pakistani astronaut Zeeshan Ali — the first foreigner to visit China's space station. The mission marks another milestone in China's crewed space programme.\n\nIt is also a historic moment for Pakistan, as one of its citizens will travel to orbit for the first time. The crew will carry out scientific experiments and maintenance work aboard the space station during the mission.",
+   "body_hi": "चीन बुधवार को अपना शेनझोउ-24 अंतरिक्ष यान लॉन्च करने जा रहा है। इस मिशन में पाकिस्तानी अंतरिक्ष यात्री ज़ीशान अली भी शामिल होंगे, जो चीन के अंतरिक्ष स्टेशन पर जाने वाले पहले विदेशी नागरिक होंगे।\n\nयह उड़ान चीन के मानवयुक्त अंतरिक्ष कार्यक्रम के लिए एक और बड़ा कदम मानी जा रही है। पाकिस्तान के लिए भी यह ऐतिहासिक मौका है, क्योंकि उसका कोई नागरिक पहली बार कक्षा में जाएगा। मिशन के दौरान चालक दल अंतरिक्ष स्टेशन पर वैज्ञानिक प्रयोग और रखरखाव का काम करेगा।",
    "cat": "duniya",
-   "id": "2026-11-24-05-duniya-2",
-   "img": "https://theturkiyetimes.com/_next/image?url=https%3A%2F%2Fcdn.theturkiyetimes.com%2Ftheturkiyetimes%2Fpublic%2Farticles%2F1e21b10bd2d542f7b7737c818116e4ec.avif&w=640&q=75",
-   "source": "Jagran Josh",
-   "source_url": "https://www.jagranjosh.com/lite/articles/school-assembly-news-headlines-november-24-2026-kamla-express-super-tet-spicejet-ferrari-296-and-other-news-1800019603-1",
+   "id": "2026-11-24-09-duniya-2",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Launch_of_Shenzhou_13.jpg/1280px-Launch_of_Shenzhou_13.jpg",
+   "source": "The Economic Times",
+   "source_url": "https://economictimes.indiatimes.com/news/international/world-news",
+   "tags": [
+    "#Shenzhou24",
+    "#China",
+    "#Space",
+    "#Pakistan",
+    "#WorldNews"
+   ],
+   "title_en": "China to launch Shenzhou-24 on Wednesday with Pakistani astronaut, first foreigner on its space station",
+   "title_hi": "चीन बुधवार को लॉन्च करेगा शेनझोउ-24 — पाकिस्तानी अंतरिक्ष यात्री भी होंगे सवार",
+   "page": "khabar/2026-11-24-09-duniya-2.html"
+  },
+  {
+   "body_en": "The UN climate summit COP31 in Antalya, Türkiye, ended without a final declaration after deep divisions among countries over fossil fuel phaseouts, carbon capture and climate finance. Delegates could not agree on a consensus decision to tackle global warming.\n\nIt is only the third time since 1995 that a climate summit has ended without an agreed outcome. Observers say the failure reflects a widening trust gap between countries even as global temperatures keep rising.",
+   "body_hi": "तुर्किए के अंताल्या में हुई संयुक्त राष्ट्र जलवायु शिखर बैठक COP31 बिना किसी अंतिम घोषणा के समाप्त हो गई। जीवाश्म ईंधन को चरणबद्ध तरीके से खत्म करने, कार्बन कैप्चर और जलवायु वित्त पर देशों के बीच गहरे मतभेद सामने आए।\n\nयह 1995 के बाद से सिर्फ तीसरी बार है जब कोई जलवायु शिखर बैठक बिना सहमति के खत्म हुई है। जानकारों का कहना है कि बढ़ते वैश्विक तापमान के बीच देशों के बीच भरोसे की कमी इस नाकामी की सबसे बड़ी वजह रही।",
+   "cat": "duniya",
+   "id": "2026-11-24-09-duniya-3",
+   "img": "https://npr.brightspotcdn.com/dims4/default/f79f551/2147483647/strip/true/crop/1180x664+0+0/resize/1760x990!/format/webp/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fcache%2F27%2F38%2F1055542738-1180.jpg",
+   "source": "Business Standard",
+   "source_url": "https://www.business-standard.com/amp/world-news",
    "tags": [
     "#COP31",
     "#Climate",
-    "#FossilFuels",
+    "#Antalya",
     "#WorldNews"
    ],
-   "title_en": "COP31 ends in deadlock as fossil fuel phase-out stalls",
-   "title_hi": "COP31 बिना सहमति के खत्म, जीवाश्म ईंधन पर फैसला अटका",
-   "page": "khabar/2026-11-24-05-duniya-2.html"
+   "title_en": "COP31 climate summit ends without final declaration as fossil fuel divide deepens",
+   "title_hi": "COP31 बिना किसी अंतिम घोषणा के खत्म — जीवाश्म ईंधन पर सहमति नहीं बनी",
+   "page": "khabar/2026-11-24-09-duniya-3.html"
   },
   {
-   "body_en": "Pakistan Shaheens beat India A by 48 runs in the Asia Cup Rising Stars 2026 clash in Doha and confirmed their place in the semi-final. India A captain Tilak Varma scored a century, completing it in 148 balls, but his slow knock could not save the side.\n\nChasing the target, India A were left needing 55 runs from the final 18 balls with just one wicket in hand, and finished well short. Pakistan, led by Abdul Samad, had earlier beaten the UAE by 61 runs in the tournament.",
-   "body_hi": "पाकिस्तान शाहीन ने दोहा में एशिया कप राइजिंग स्टार्स 2026 के मुकाबले में भारत ए को 48 रन से हराकर सेमीफाइनल में जगह पक्की कर ली। भारत ए के कप्तान तिलक वर्मा ने 148 गेंदों में शतक लगाया, लेकिन उनकी धीमी पारी टीम को बचा नहीं सकी।\n\nलक्ष्य का पीछा करते हुए भारत ए को आखिरी 18 गेंदों में 55 रन चाहिए थे और सिर्फ एक विकेट बचा था, और टीम लक्ष्य से काफी पीछे रह गई। अब्दुल समद की अगुआई वाली पाकिस्तान टीम ने इससे पहले टूर्नामेंट में यूएई को 61 रन से हराया था।",
+   "body_en": "The World Chess Championship match opens today at the Fondation Martin Bodmer in Cologny, near Geneva, where India's D. Gukesh takes on Uzbekistan's Javokhir Sindarov. Both players are just 20 years old, making this the youngest World Championship match in history.\n\nGeneva is regarded as the global capital of peace, but over the next three weeks it will witness an intense battle on the chessboard as the two young grandmasters fight for the world title.",
+   "body_hi": "विश्व शतरंज चैंपियनशिप का मुकाबला आज से स्विट्जरलैंड के कोलोन्य में शुरू हो रहा है। भारत के डी. गुकेश का सामना उज्बेकिस्तान के जावोखिर सिंदारोव से होगा। दोनों खिलाड़ी महज 20 साल के हैं, इसलिए यह इतिहास की सबसे युवा विश्व चैंपियनशिप होगी।\n\nमुकाबला जिनेवा के पास फोंडेशन मार्टिन बोडमर में खेला जाएगा। शांति की वैश्विक राजधानी कहे जाने वाले जिनेवा में अगले तीन हफ्तों तक शतरंज की बिसात पर कड़ी जंग देखने को मिलेगी।",
    "cat": "khel",
-   "id": "2026-11-24-05-khel-1",
-   "img": "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2026/11/untitled-design-2026-11-22t145327-1795358497.jpg",
-   "source": "India TV News",
-   "source_url": "https://www.indiatvnews.com/amp/sports/cricket/ind-vs-pak-asia-cup-rising-stars-live-score-india-vs-pakistan-latest-match-updates-scorecards-playing-xis-reactions-vaibhav-sooryavanshi-abhishek-1060086",
-   "tags": [
-    "#INDvsPAK",
-    "#AsiaCupRisingStars",
-    "#TilakVarma",
-    "#TaazaKhabar"
-   ],
-   "title_en": "Pakistan beat India by 48 runs in Asia Cup Rising Stars; Tilak Varma's century in vain",
-   "title_hi": "एशिया कप राइजिंग स्टार्स में पाकिस्तान ने भारत को 48 रन से हराया, तिलक वर्मा का शतक बेकार",
-   "page": "khabar/2026-11-24-05-khel-1.html"
-  },
-  {
-   "body_en": "India's D Gukesh begins his World Chess Championship title defence against Uzbekistan's Javokhir Sindarov on November 24 in Geneva, Switzerland. The championship match will decide the world champion in classical chess.\n\nGukesh, the reigning world champion, will look to hold on to his crown against the young challenger from Uzbekistan. The match is one of the biggest events on the chess calendar this year.",
-   "body_hi": "भारत के डी गुकेश आज 24 नवंबर से स्विट्जरलैंड के जिनेवा में उज्बेकिस्तान के जावोखिर सिंदारोव के खिलाफ अपने विश्व शतरंज चैंपियनशिप खिताब का बचाव शुरू करेंगे। यह मुकाबला क्लासिकल शतरंज के विश्व चैंपियन का फैसला करेगा।\n\nमौजूदा विश्व चैंपियन गुकेश उज्बेकिस्तान के युवा चुनौतीकर्ता के खिलाफ अपना ताज बचाने की कोशिश करेंगे। यह मुकाबला इस साल शतरंज कैलेंडर की सबसे बड़ी स्पर्धाओं में से एक है।",
-   "cat": "khel",
-   "id": "2026-11-24-05-khel-2",
-   "img": "https://images.mid-day.com/images/images/2024/dec/dukesh-t_d.jpg",
-   "source": "Education Times",
-   "source_url": "https://www.educationtimes.com/news/school-assembly-news-headlines-for-24-november-2026-top-indian-international-sports-and-business-news/articleshow/136100381.cms",
+   "id": "2026-11-24-09-khel-1",
+   "img": "https://www.expresskerala.com/news/wp-content/uploads/2024/12/D-Gukesh.jpg",
+   "source": "The Hindu",
+   "source_url": "https://www.thehindu.com/news/morning-digest-november-24-2026/article71736183.ece",
    "tags": [
     "#Gukesh",
-    "#WorldChessChampionship",
     "#Chess",
+    "#WorldChessChampionship",
     "#TaazaKhabar"
    ],
-   "title_en": "Gukesh begins World Chess Championship title defence against Sindarov in Geneva",
-   "title_hi": "गुकेश आज से जिनेवा में विश्व शतरंज खिताब का बचाव शुरू करेंगे",
-   "page": "khabar/2026-11-24-05-khel-2.html"
+   "title_en": "World Chess Championship opens today: Gukesh vs Sindarov, the youngest title match in history",
+   "title_hi": "विश्व शतरंज चैंपियनशिप आज से — गुकेश बनाम सिंदारोव, इतिहास का सबसे युवा मुकाबला",
+   "page": "khabar/2026-11-24-09-khel-1.html"
   },
   {
-   "body_en": "Indian stock markets suffered their worst day in two months on Monday, with the Sensex plunging 1,483.72 points, or 1.77 per cent, to settle at 82,435.99, and the Nifty falling 450.95 points to 25,349.65. Investors lost about Rs 5.19 lakh crore in market value in a single session.\n\nThe sell-off was driven by profit booking after a strong four-week rally, with banking and metal stocks among the biggest losers. Tata Steel fell over 8 per cent, while ICICI Bank and Axis Bank also declined sharply. The markets remain closed on Tuesday, November 24, for Guru Nanak Jayanti.",
-   "body_hi": "भारतीय शेयर बाजार में सोमवार को दो महीनों का सबसे बड़ा गिरावट का दिन रहा — सेंसेक्स 1,483.72 अंक यानी 1.77 प्रतिशत गिरकर 82,435.99 पर बंद हुआ, और निफ्टी 450.95 अंक गिरकर 25,349.65 पर आ गया। एक ही दिन में निवेशकों की संपत्ति करीब 5.19 लाख करोड़ रुपये घट गई।\n\nचार हफ्तों की तेज बढ़त के बाद मुनाफावसूली से यह बिकवाली हुई, जिसमें बैंकिंग और धातु शेयर सबसे ज्यादा गिरे। टाटा स्टील 8 प्रतिशत से ज्यादा टूटा, जबकि आईसीआईसीआई बैंक और एक्सिस बैंक में भी भारी गिरावट आई। गुरु नानक जयंती के कारण मंगलवार, 24 नवंबर को बाजार बंद रहेंगे।",
+   "body_en": "India A face the UAE in their third and final Group B match of the ACC Men's Asia Cup Rising Stars 2026 in Doha on Tuesday, in a must-win game for Tilak Varma's side. The match begins at 10:30 am IST at the University of Doha for Science and Technology.\n\nIndia A suffered a shock 48-run defeat to Pakistan A on Sunday, but their 306-run win over Nepal — powered by hundreds from Tilak Varma and Kumar Kushagra — leaves them second in the group with 2 points and a net run rate of +2.580. A big win over the UAE will guarantee a semifinal spot, while a defeat could knock them out.",
+   "body_hi": "एशिया कप राइजिंग स्टार्स 2026 में इंडिया A का आज UAE से मुकाबला है, और यह टीम के लिए करो या मरो का मैच है। दोहा में सुबह 10:30 बजे से शुरू हो रहे इस ग्रुप B के आखिरी मैच में जीत सेमीफाइनल की उम्मीदें जिंदा रखेगी।\n\nतिलक वर्मा की कप्तानी वाली इंडिया A को रविवार को पाकिस्तान A से 48 रन से हार मिली थी, लेकिन नेपाल पर 306 रन की बड़ी जीत से टीम के 2 अंक और +2.580 का नेट रन रेट है। UAE को बड़े अंतर से हराने पर सेमीफाइनल पक्का हो जाएगा, जबकि हारने पर टीम बाहर भी हो सकती है।",
+   "cat": "khel",
+   "id": "2026-11-24-09-khel-2",
+   "img": "https://img-cdn.publive.online/fit-in/1280x960/newsdrum-in/media/media_files/2025/08/02/akash-deep-oval-test-2025-08-02-18-31-27.jpg",
+   "source": "News18",
+   "source_url": "https://www.news18.com/cricket/how-can-india-a-qualify-for-semifinals-of-asia-cup-rising-stars-2026-ind-a-vs-uae-ws-l-10438092.html",
+   "tags": [
+    "#IndiaA",
+    "#AsiaCupRisingStars",
+    "#Cricket",
+    "#TaazaKhabar"
+   ],
+   "title_en": "India A face must-win clash against UAE today to keep Asia Cup Rising Stars semifinal hopes alive",
+   "title_hi": "इंडिया A के लिए आज करो या मरो — UAE से जीत सेमीफाइनल का रास्ता खोलेगी",
+   "page": "khabar/2026-11-24-09-khel-2.html"
+  },
+  {
+   "body_en": "Indian stock markets suffered a sharp sell-off on Monday, with the Sensex plunging 1,484 points to close at 82,436 — its worst single-day fall in more than four months. The Nifty lost 451 points to end at 25,350, and investors lost a little over Rs 5 lakh crore in a single session.\n\nThe slide was blamed on a global sell-off in AI-linked stocks and profit-taking after a nearly 15 per cent rally over the past month. Selling was heaviest in banking, financial services and metal stocks, while Tata Steel slumped 8.16 per cent after announcing its Rs 15,510-crore APL Apollo deal. IT stocks bucked the trend and rose.",
+   "body_hi": "सोमवार को शेयर बाजार में भारी गिरावट आई। सेंसेक्स 1,484 अंक गिरकर 82,436 पर बंद हुआ, जो चार महीने से ज्यादा समय की सबसे बड़ी एक दिन की गिरावट है। निफ्टी भी 451 अंक टूटकर 25,350 पर बंद हुआ। एक ही दिन में निवेशकों की दौलत करीब 5 लाख करोड़ रुपये घट गई।\n\nवैश्विक स्तर पर एआई शेयरों में बिकवाली और महीने भर की करीब 15 प्रतिशत की तेजी के बाद मुनाफावसूली को गिरावट की वजह बताया गया। बैंकिंग और धातु शेयरों में सबसे ज्यादा बिकवाली हुई, जबकि टाटा स्टील एपीएल अपोलो सौदे की घोषणा के बाद 8.16 प्रतिशत टूटा। आईटी शेयरों में हालांकि तेजी रही।",
    "cat": "vyapar",
-   "id": "2026-11-24-05-vyapar-1",
-   "img": "https://assets-news-bcdn.dailyhunt.in/cmd/resize/1200x630_75/fetchdata20/images/82/ab/3b/82ab3b92fa3af03ae3c76053d5f7f2f7243b85987d9417fd4a2e17e9d9a9e19d.webp",
-   "source": "Dailyhunt",
-   "source_url": "https://m.dailyhunt.in/news/india/english/capital%20market-epaper-capmar/sensex%20tanks%201484%20points%20nifty%20slips%20below%2025400%20tata%20steel%20plunges%208-newsid-n734737630",
+   "id": "2026-11-24-09-vyapar-1",
+   "img": "https://static.toiimg.com/thumb/msid-136117117,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "source": "The Times of India",
+   "source_url": "https://timesofindia.indiatimes.com/business/india-business/sensex-slides-1484-points-as-global-market-weakness-weighs-on-d-street-investors/articleshow/136117104.cms",
    "tags": [
     "#Sensex",
+    "#StockMarket",
     "#Nifty",
-    "#ShareMarket",
     "#TaazaKhabar"
    ],
-   "title_en": "Sensex tanks 1,484 points, Nifty slips below 25,400; markets shut today for Guru Nanak Jayanti",
-   "title_hi": "सेंसेक्स 1,484 अंक टूटा, निफ्टी 25,400 के नीचे; गुरु नानक जयंती पर आज बाजार बंद",
-   "page": "khabar/2026-11-24-05-vyapar-1.html"
+   "title_en": "Sensex slides 1,484 points in worst fall in four months; investors lose over Rs 5 lakh crore",
+   "title_hi": "सेंसेक्स 1,484 अंक टूटा — चार महीने की सबसे बड़ी गिरावट, निवेशकों के ₹5 लाख करोड़ डूबे",
+   "page": "khabar/2026-11-24-09-vyapar-1.html"
   },
   {
-   "body_en": "India's net oil and gas import bill rose 60 per cent year-on-year to $16 billion in October, reflecting higher energy imports. The sharp rise adds to the country's import costs at a time when global crude prices remain sensitive to geopolitical tensions.\n\nThe increase comes even as domestic companies plan large bond sales ahead of the Reserve Bank of India's next policy decision on December 4. Energy imports remain one of the largest components of India's import bill.",
-   "body_hi": "भारत का शुद्ध तेल और गैस आयात बिल अक्टूबर में साल-दर-साल 60 प्रतिशत बढ़कर 16 अरब डॉलर हो गया, जो ऊर्जा आयात में तेज बढ़ोतरी को दिखाता है। यह बढ़ोतरी ऐसे समय में आई है जब वैश्विक कच्चे तेल की कीमतें भू-राजनीतिक तनाव को लेकर संवेदनशील बनी हुई हैं।\n\nयह बढ़ोतरी तब हुई है जब घरेलू कंपनियां भारतीय रिजर्व बैंक के 4 दिसंबर के अगले नीतिगत फैसले से पहले बड़े पैमाने पर बॉन्ड बिक्री की योजना बना रही हैं। ऊर्जा आयात भारत के आयात बिल के सबसे बड़े हिस्सों में से एक बना हुआ है।",
+   "body_en": "Nvidia has reinstated co-founder Jensen Huang as its chief executive with immediate effect, sending its shares up 33 per cent. The Nasdaq surged 6.5 per cent overnight and Asian markets rallied sharply on Tuesday morning.\n\nIndian stock markets, however, remain closed on Tuesday for Guru Nanak Jayanti. GIFT Nifty traded about 100 points higher in early trade, signalling a positive start when trading resumes on Wednesday, November 25. Brent crude traded below 90 dollars a barrel.",
+   "body_hi": "एनवीडिया ने अपने सह-संस्थापक जेनसन हुआंग को तत्काल प्रभाव से मुख्य कार्यकारी अधिकारी के रूप में वापस ला लिया है। इस घोषणा के बाद कंपनी के शेयर 33 प्रतिशत उछल गए और नैस्डेक में रातोंरात 6.5 प्रतिशत की तेजी आई। एशियाई बाजारों में भी मंगलवार सुबह अच्छी बढ़त देखी गई।\n\nभारत में शेयर बाजार आज गुरु नानक जयंती के मौके पर बंद है। गिफ्ट निफ्टी करीब 100 अंक ऊपर कारोबार कर रहा है, जो वैश्विक तेजी का संकेत है। बीएसई और एनएसई में कारोबार बुधवार 25 नवंबर से फिर शुरू होगा।",
    "cat": "vyapar",
-   "id": "2026-11-24-05-vyapar-2",
-   "img": "https://newsarenaindia.com/_next/image?url=https%3A%2F%2Fimages.newsarenaindia.com%2F%2Frefinerynaijpg_1735133463305.jpg&w=1920&q=75",
-   "source": "Education Times",
-   "source_url": "https://www.educationtimes.com/news/school-assembly-news-headlines-for-24-november-2026-top-indian-international-sports-and-business-news/articleshow/136100381.cms",
+   "id": "2026-11-24-09-vyapar-2",
+   "img": "https://images.moneycontrol.com/static-mcnews/2026/11/20261103082702_market_up_higher.jpg",
+   "source": "Moneycontrol",
+   "source_url": "https://www.moneycontrol.com/news/business/markets/gift-nifty-up-100-pts-as-nasdaq-surges-6-5-asian-markets-rally-sensex-nifty-shut-for-guru-nanak-jayanti-14087578.html",
    "tags": [
-    "#OilImports",
-    "#CrudeOil",
-    "#IndianEconomy",
+    "#Nvidia",
+    "#JensenHuang",
+    "#StockMarket",
     "#TaazaKhabar"
    ],
-   "title_en": "India's oil and gas import bill jumps 60% to $16 billion in October",
-   "title_hi": "भारत का तेल-गैस आयात बिल 60% बढ़कर अक्टूबर में 16 अरब डॉलर हुआ",
-   "page": "khabar/2026-11-24-05-vyapar-2.html"
-  },
-  {
-   "body_en": "Guru Nanak Jayanti, the Prakash Gurpurb of Sri Guru Nanak Dev, is being observed across the country on Tuesday, November 24. Devotees are visiting gurdwaras for prayers, kirtan and langar, and Prime Minister Narendra Modi attended a Shabad Kirtan event in Delhi on the occasion.\n\nThe festival marks the birth anniversary of Guru Nanak Dev, the founder of Sikhism. Stock markets, along with equity and derivatives trading, remain closed for the day on account of the holiday, and trading will resume on Wednesday, November 25.",
-   "body_hi": "मंगलवार, 24 नवंबर को देश भर में श्री गुरु नानक देव का प्रकाश पर्व, गुरु नानक जयंती मनाई जा रही है। श्रद्धालु गुरुद्वारों में प्रार्थना, कीर्तन और लंगर के लिए जुट रहे हैं, और प्रधानमंत्री नरेंद्र मोदी ने दिल्ली में इस अवसर पर आयोजित शबद कीर्तन कार्यक्रम में हिस्सा लिया।\n\nयह पर्व सिख धर्म के संस्थापक गुरु नानक देव की जयंती के रूप में मनाया जाता है। इस छुट्टी के कारण शेयर बाजार तथा इक्विटी और डेरिवेटिव कारोबार आज बंद रहेंगे, और कारोबार बुधवार, 25 नवंबर से फिर शुरू होगा।",
-   "cat": "khaas",
-   "id": "2026-11-24-05-khaas-1",
-   "img": "https://feeds.abplive.com/onecms/images/uploaded-images/2025/11/05/d47af00dca3ab608fbb434da2144199117623202981011301_9.jpg",
-   "source": "Business Today",
-   "source_url": "https://www.businesstoday.in/amp/markets/stocks/story/stock-market-holiday-on-november-24-are-nse-bse-closed-for-guru-nanak-jayanti-569145-2026-11-23",
-   "tags": [
-    "#GuruNanakJayanti",
-    "#PrakashGurpurb",
-    "#Gurpurab",
-    "#TaazaKhabar"
-   ],
-   "title_en": "Guru Nanak Jayanti today; markets closed for Prakash Gurpurb",
-   "title_hi": "आज गुरु नानक जयंती, प्रकाश पर्व पर बाजार बंद",
-   "page": "khabar/2026-11-24-05-khaas-1.html"
+   "title_en": "Nvidia reinstates Jensen Huang as CEO, shares surge 33%; Indian markets shut for Guru Nanak Jayanti",
+   "title_hi": "एनवीडिया में जेनसन हुआंग की वापसी — शेयर 33% उछले, पर भारतीय बाजार आज बंद",
+   "page": "khabar/2026-11-24-09-vyapar-2.html"
   }
  ]
 }
