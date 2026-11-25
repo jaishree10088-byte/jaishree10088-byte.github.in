@@ -1,277 +1,285 @@
 {
- "updated_at": "2026-11-25T09:07:19+05:30",
- "count": 34,
+ "updated_at": "2026-11-25T13:05:07+05:30",
+ "count": 35,
  "items": [
   {
-   "t": "Paula Fala Kata jailed for rape and aggravated indecency | Bega District News",
-   "u": "https://www.begadistrictnews.com.au/story/9397773/paula-fala-kata-jailed-for-rape-and-aggravated-indecency/",
-   "img": "https://www.begadistrictnews.com.au/images/transform/v1/crop/frm/168477620/9b0494ae-fbcd-42a6-a5c1-eb26286cb1c5.jpg/r1621_1153_3947_2374_w1200_h630_fmax.jpg",
-   "d": "begadistrictnews.com.au",
-   "time": "20261125T024500Z",
+   "t": "A 6 - way race for the Big Ten title , plus other chaotic scenarios as conference play winds down",
+   "u": "https://www.texarkanagazette.com/news/2026/nov/24/a-6-way-race-for-the-big-ten-title-plus-other/",
+   "img": "https://wehco.media.clients.ellingtoncms.com/imports/adg/img/2026/11/25/214146325_214146325-6208dd278ae54338962250ed7b62eb67_t1200.jpg?57a0c2296240c280e9492005c3cad63e7cbe80f4",
+   "d": "texarkanagazette.com",
+   "time": "20261125T064500Z",
+   "cat": "khel"
+  },
+  {
+   "t": "Martha Ford , former Lions owner with link to auto giants , dies at 101",
+   "u": "https://www.azfamily.com/2026/11/25/martha-ford-former-lions-owner-with-link-auto-giants-dies-101/",
+   "img": "https://gray-kpho-prod.gtv-cdn.com/resizer/v2/YDAZ4WX7SFGMPB66ISMOUOZV24.jpg?auth=70720d1e75e3668ea4fd4f702185d163c95a6226e5701c1db4f98088c54d2809&smart=true",
+   "d": "azfamily.com",
+   "time": "20261125T064500Z",
+   "cat": "khel"
+  },
+  {
+   "t": "Lucknow Development Authority : Uttar Pradesh CM Yogi Adityanath Advocates Expansion of LDA Jurisdiction to Enhance Lucknow Development , ETRealty",
+   "u": "https://realty.economictimes.indiatimes.com/news/infrastructure/uttar-pradesh-cm-emphasises-need-to-expand-jurisdiction-of-lda-to-cover-entire-lucknow-district/136147201",
+   "img": "https://etimg.etb2bimg.com/thumb/msid-136147201,imgsize-85688,width-1200,height=627,overlay-etrealty,resizemode-75/infrastructure/uttar-pradesh-cm-emphasises-need-to-expand-jurisdiction-of-lda-to-cover-entire-lucknow-district.jpg",
+   "d": "realty.economictimes.indiatimes.com",
+   "time": "20261125T064500Z",
+   "cat": "khel"
+  },
+  {
+   "t": "Usman Khawaja offers Sandpapergate peace proposal to Cricket Australia CEO Todd Greenberg",
+   "u": "https://www.abc.net.au/news/2026-11-25/usman-khawaja-offers-sandpapergate-peace-proposal/107426926",
+   "img": "https://live-production.wcms.abc-cdn.net.au/da289d0e9a86dce977c2e8b4f18a78e5?impolicy=wcms_watermark_news&cropH=2057&cropW=3657&xPos=0&yPos=0&imformat=generic",
+   "d": "abc.net.au",
+   "time": "20261125T064500Z",
+   "cat": "khel"
+  },
+  {
+   "t": "Inside Rikers Island as jail staff cooks 6 , 000 lbs . of turkey and all the fixings for Thanksgiving",
+   "u": "http://www.thegazette.com/news/national/inside-rikers-island-as-jail-staff-cooks-6-000-lbs-of-turkey-and-all-the/article_e28fd611-ba4a-54ac-a5b5-59e7cb69cb1a.html",
+   "img": "https://bloximages.chicago2.vip.townnews.com/thegazette.com/content/tncms/assets/v3/editorial/8/fe/8fe5f679-da66-54fc-a5d6-455541905e28/6b066d5eab0dc.image.jpg?crop=7054%2C3703%2C0%2C499",
+   "d": "thegazette.com",
+   "time": "20261125T054500Z",
+   "cat": "khel"
+  },
+  {
+   "t": "China launches Shenzhou - 24 carrying Pakistani astronaut to Tiangong space station",
+   "u": "https://www.orissapost.com/china-launches-shenzhou-24-carrying-pakistani-astronaut-to-tiangong-space-station/",
+   "img": "https://www.orissapost.com/wp-content/uploads/2026/11/Pakistan-Astronut.jpg",
+   "d": "orissapost.com",
+   "time": "20261125T054500Z",
+   "cat": "khel"
+  },
+  {
+   "t": "USA to host Copa America ahead of 2028 LA Olympics",
+   "u": "https://tribune.com.pk/story/2642228/usa-to-host-copa-america-ahead-of-2028-la-olympics",
+   "img": "https://i.tribune.com.pk/media/images/whatsapp-image-2026-11-24-at-11-09-45-pm1795583394-0/whatsapp-image-2026-11-24-at-11-09-45-pm1795583394-0-640x480.webp",
+   "d": "tribune.com.pk",
+   "time": "20261125T054500Z",
+   "cat": "khel"
+  },
+  {
+   "t": "What the 49ers Can Expect from their Rookies in the Playoff Run",
+   "u": "https://www.si.com/nfl/49ers/onsi/what-49ers-can-expect-their-rookies-playoff-run",
+   "img": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_172,w_6026,h_3389/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_49ers/01m87qfv2qe5hh0mvjmk.jpg",
+   "d": "si.com",
+   "time": "20261125T054500Z",
+   "cat": "khel"
+  },
+  {
+   "t": "Trump awards Rudy Giuliani the Medal of Freedom",
+   "u": "https://www.thehindu.com/news/international/trump-awards-rudy-giuliani-the-medal-of-freedom/article71741081.ece",
+   "img": "https://th-i.thgim.com/public/incoming/ldzbly/article71741099.ece/alternates/LANDSCAPE_1200/HX6vkyLXYAE005-.jpg",
+   "d": "thehindu.com",
+   "time": "20261125T054500Z",
+   "cat": "khel"
+  },
+  {
+   "t": "West Virginia stands between No . 2 Utah , perfect regular season",
+   "u": "https://www.921theticket.com/2026/11/24/west-virginia-stands-between-no-2-utah-perfect-regular-season/",
+   "img": "https://v4.dailysportspage.com/cumulus/image/886084/600/400/",
+   "d": "921theticket.com",
+   "time": "20261125T054500Z",
+   "cat": "khel"
+  },
+  {
+   "t": "No . 3 Texas rolls into College Station , anticipates best from Texas A & M",
+   "u": "http://www.oklahomacitysun.com/news/279452949/no-3-texas-rolls-into-college-station-anticipates-best-from-texas-am",
+   "img": "https://chitra-api.kreatio.com/api/v1/wps/854d5d8/337517b8-b488-4664-a5ad-d3a992d9309c/0/MGJiY2FhOWQtOTN-600x315.jpg",
+   "d": "oklahomacitysun.com",
+   "time": "20261125T054500Z",
+   "cat": "khel"
+  },
+  {
+   "t": "Bellisari dominates as Miami escapes Kalamazoo with a victory",
+   "u": "https://www.miamistudent.net/article/2026/11/bellisari-dominates-as-miami-escapes-kalamazoo-with-a-victory",
+   "img": "https://snworksceo.imgix.net/tms/948fc9d0-f7da-47eb-9c5d-a48ce022347f.sized-1000x1000.jpg",
+   "d": "miamistudent.net",
+   "time": "20261125T054500Z",
+   "cat": "khel"
+  },
+  {
+   "t": "San Jose Sharks reluctant to deal Michael Misa for Simon Edvinsson",
+   "u": "https://www.mercurynews.com/2026/11/24/san-jose-sharks-michael-misa-simon-edvinsson-detroit-red-wings/",
+   "img": "https://www.mercurynews.com/wp-content/uploads/2026/03/BNG-L-SHARKS-0320-23.jpg",
+   "d": "mercurynews.com",
+   "time": "20261125T054500Z",
+   "cat": "khel"
+  },
+  {
+   "t": "Three Texas A & M players listed as questionable for Lone Star Showdown",
+   "u": "https://www.kbtx.com/2026/11/25/three-texas-am-players-listed-questionable-lone-star-showdown/",
+   "img": "https://gray-kbtx-prod.gtv-cdn.com/resizer/v2/5PCL6RCFVZGM7NFK7RPTCTHGRU.JPG?auth=978122b020f483f6c585f374ae54cd6e550fa22c661829688e8b5683390ac57b&smart=true",
+   "d": "kbtx.com",
+   "time": "20261125T054500Z",
+   "cat": "khel"
+  },
+  {
+   "t": "ADB Medicals installs DNA equipment at Nuguchi",
+   "u": "https://thebftonline.com/article/adb-medicals-installs-dna-equipment-at-nuguchi",
+   "img": "https://thebftonline.com/og/article/adb-medicals-installs-dna-equipment-at-nuguchi.jpg?v=71195-d2yw7i",
+   "d": "thebftonline.com",
+   "time": "20261125T054500Z",
+   "cat": "khel"
+  },
+  {
+   "t": "FIFA U - 17 World Cup 2026 : Uganda Cubs in must win situation against New Caledonia prior to knock out round",
+   "u": "https://kawowo.com/2026/11/25/fifa-u-17-world-cup-2026-uganda-cubs-in-must-win-situation-against-new-caledonia-prior-to-knock-out-round/",
+   "img": "https://kawowo.com/wp-content/uploads/2026/11/Uganda-U17-national-team.jpg",
+   "d": "kawowo.com",
+   "time": "20261125T054500Z",
+   "cat": "khel"
+  },
+  {
+   "t": "Martha Ford , a link between auto giants Ford and Firestone , dies at 101",
+   "u": "https://www.asiaone.com:443/world/martha-ford-link-between-auto-giants-ford-and-firestone-dies-101",
+   "img": "https://media.asiaone.com/sites/default/files/styles/article_top_image/public/original_images/Nov2026/20261125_MarthaFord_AP.jpg?itok=3kn207PQ",
+   "d": "asiaone.com",
+   "time": "20261125T054500Z",
+   "cat": "khel"
+  },
+  {
+   "t": "Wisconsin tries to take Paul Bunyan Axe back from Minnesota",
+   "u": "https://www.921theticket.com/2026/11/24/wisconsin-tries-to-take-paul-bunyans-axe-back-from-minnesota/",
+   "img": "https://v4.dailysportspage.com/cumulus/image/886081/600/400/",
+   "d": "921theticket.com",
+   "time": "20261125T054500Z",
+   "cat": "khel"
+  },
+  {
+   "t": "Stanbic Bank ranked among the best",
+   "u": "https://thebftonline.com/article/stanbic-bank-ranked-among-the-best",
+   "img": "https://thebftonline.com/og/article/stanbic-bank-ranked-among-the-best.jpg?v=71196-1am979j",
+   "d": "thebftonline.com",
+   "time": "20261125T054500Z",
+   "cat": "khel"
+  },
+  {
+   "t": "No . 13 Iowa vying for Big Ten title game , first must handle No . 25 Nebraska",
+   "u": "https://www.921theticket.com/2026/11/24/no-13-iowa-vying-for-big-ten-title-game-first-must-handle-no-25-nebraska/",
+   "img": "https://v4.dailysportspage.com/cumulus/image/886068/600/400/",
+   "d": "921theticket.com",
+   "time": "20261125T054500Z",
    "cat": "khel"
   },
   {
    "t": "CFP rankings : Texas , Tennessee pass Alabama , enter top 5",
-   "u": "http://www.stlouisstar.com/news/279452944/cfp-rankings-texas-tennessee-pass-alabama-enter-top-5",
+   "u": "http://www.cincinnatisun.com/news/279452944/cfp-rankings-texas-tennessee-pass-alabama-enter-top-5",
    "img": "https://chitra-api.kreatio.com/api/v1/wps/0476d3e/5c1880e9-4971-434a-92e5-4bd22ec5edab/0/MTBhZTIyZWUtZmY-600x315.jpg",
-   "d": "stlouisstar.com",
-   "time": "20261125T024500Z",
+   "d": "cincinnatisun.com",
+   "time": "20261125T054500Z",
    "cat": "khel"
   },
   {
-   "t": "All 8 Mark Wahlberg Movies Officially Being Removed From Streaming In The Next 2 Weeks",
-   "u": "https://screenrant.com/mark-wahlberg-movies-leaving-streaming-november-2026/",
-   "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/01/mark-wahlberg-as-marcus-luttrell-looking-focused-in-lone-survivor.jpg?&fit=crop",
-   "d": "screenrant.com",
-   "time": "20261125T024500Z",
+   "t": "Mining Chamber demands 30 % of mineral royalties for host communities",
+   "u": "https://thebftonline.com/article/mining-chamber-demands-30-of-mineral-royalties-for-host-communities",
+   "img": "https://thebftonline.com/og/article/mining-chamber-demands-30-of-mineral-royalties-for-host-communities.jpg?v=71191-si8m0y",
+   "d": "thebftonline.com",
+   "time": "20261125T054500Z",
+   "cat": "khel"
+  },
+  {
+   "t": "MICROFINANCE SECTOR REFORMS : Veep urges BoG to pull weaker community banks along",
+   "u": "https://thebftonline.com/article/microfinance-sector-reforms-veep-urges-bog-to-pull-weaker-community-banks-along",
+   "img": "https://thebftonline.com/og/article/microfinance-sector-reforms-veep-urges-bog-to-pull-weaker-community-banks-along.jpg?v=71192-10cu1nq",
+   "d": "thebftonline.com",
+   "time": "20261125T054500Z",
+   "cat": "khel"
+  },
+  {
+   "t": "Proposed TSMC chip plant in Brazos County could be first of several",
+   "u": "https://www.kbtx.com/2026/11/25/proposed-tsmc-chip-plant-brazos-county-could-be-first-several/",
+   "img": "https://gray-kbtx-prod.gtv-cdn.com/resizer/v2/FPQNC2KWAJBVPODWKAI43JRFTQ.png?auth=e15809b0eba2ff506a6c396998807604a51c520613a774a8bc4714bf4645d4c1&smart=true",
+   "d": "kbtx.com",
+   "time": "20261125T054500Z",
+   "cat": "khel"
+  },
+  {
+   "t": "Blackhawks vs . Kraken Time , TV & Live Stream – 11 / 25 / 2026 | Rip City Radio 620 Portland",
+   "u": "https://ripcityradio.iheart.com/content/2026-11-25-blackhawks-vs-kraken-time-tv-live-stream-11252026/",
+   "img": "https://i.iheart.com/v3/re/assets.getty/6b06646a6b399b98d8281665?ops=gravity(%22north%22),fit(1200,675),quality(65)",
+   "d": "ripcityradio.iheart.com",
+   "time": "20261125T054500Z",
    "cat": "khel"
   },
   {
    "t": "Can Josh Allen , Bills maintain regular - season mastery of Chiefs ?",
-   "u": "https://www.ktop1490.com/2026/11/24/can-josh-allen-bills-maintain-regular-season-mastery-of-chiefs/",
+   "u": "https://www.921theticket.com/2026/11/24/can-josh-allen-bills-maintain-regular-season-mastery-of-chiefs/",
    "img": "https://v4.dailysportspage.com/cumulus/image/886040/600/400/",
-   "d": "ktop1490.com",
-   "time": "20261125T024500Z",
+   "d": "921theticket.com",
+   "time": "20261125T054500Z",
    "cat": "khel"
   },
   {
-   "t": "Cairns Is On Road To 2032",
-   "u": "https://www.miragenews.com/cairns-is-on-road-to-2032-1783329/",
-   "img": "https://www.cairns.qld.gov.au/__data/assets/image/0006/755367/varieties/card.jpg",
-   "d": "miragenews.com",
-   "time": "20261125T024500Z",
+   "t": "No . 20 Florida tries to extend win streak , end rival FSU bowl hopes",
+   "u": "http://www.floridastatesman.com/news/279453064/no-20-florida-tries-to-extend-win-streak-end-rival-fsu-bowl-hopes",
+   "img": "https://chitra-api.kreatio.com/api/v1/wps/5e94917/ed0a2f45-e365-44b6-88fd-7087cf9e30e7/0/NWVlZWMyM2ItZGE-600x315.jpg",
+   "d": "floridastatesman.com",
+   "time": "20261125T054500Z",
    "cat": "khel"
   },
   {
-   "t": "Nick Mangold moves 1 step closer towards Hall of Fame enshrinement in 2027",
-   "u": "https://thejetpress.com/nick-mangold-moves-closer-towards-hall-of-fame-enshrinement-2027-01m87b6cme8g",
-   "img": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_5115,h_2877/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/30/01m87c8x3sh0xdet5btc.jpg",
-   "d": "thejetpress.com",
-   "time": "20261125T024500Z",
+   "t": "DWTS Finale : Who Won Season 35 ?",
+   "u": "https://www.thewrap.com/creative-content/tv-shows/dancing-with-the-stars-finale-season-35-winner/",
+   "img": "https://www.thewrap.com/wp-content/uploads/2026/11/HX8KcL0XsAAiNIi-e1795576911599.jpeg",
+   "d": "thewrap.com",
+   "time": "20261125T054500Z",
    "cat": "khel"
   },
   {
-   "t": "No school has clinched the Big Ten Championship Game after latest College Football Playoff ranking update",
-   "u": "https://www.el-balad.com/17069801",
-   "img": "https://www.el-balad.com/uploads/2026/11/25/big-10-championship-game-44740715_1200w.webp",
-   "d": "el-balad.com",
-   "time": "20261125T024500Z",
+   "t": "Lions owner Martha Firestone Ford dies at 101",
+   "u": "https://www.921theticket.com/2026/11/24/lions-owner-martha-firestone-ford-dies-at-101/",
+   "img": "https://v4.dailysportspage.com/cumulus/image/886079/600/400/",
+   "d": "921theticket.com",
+   "time": "20261125T054500Z",
    "cat": "khel"
   },
   {
-   "t": "Kingdom Keys : 3 Keys to a Chiefs victory over the Bills in Week 12",
-   "u": "https://www.arrowheadpride.com/kansas-city-chiefs-analysis/217437/kingdom-keys-3-keys-chiefs-victory-over-bills-week-12",
-   "img": "https://platform.arrowheadpride.com/wp-content/uploads/sites/12/2026/01/gettyimages-2185303402.jpg?quality=90&strip=all&crop=0%2C10.748634757804%2C100%2C78.502730484392",
-   "d": "arrowheadpride.com",
-   "time": "20261125T024500Z",
+   "t": "Quick Hits | Mafe Challenges NFL Leaders ; Big Three Still Setting Pace ; Bengals In Hall Hunt",
+   "u": "https://www.bengals.com/news/quick-hits-boye-mafe-challenges-nfl-leaders-joe-burrow-tee-higgins-jamarr-chase",
+   "img": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/bengals/bscp0wlbhekifjino3jp",
+   "d": "bengals.com",
+   "time": "20261125T054500Z",
    "cat": "khel"
   },
   {
-   "t": "Senegal reinstated as 2025 African champions , Morocco to contest decision",
-   "u": "https://wardheernews.com/senegal-reinstated-as-2025-african-champions-morocco-to-contest-decision/",
-   "img": "https://wardheernews.com/wp-content/uploads/2026/01/Senegal-wins-2025-Africa-Cup-of-Nations.jpg",
-   "d": "wardheernews.com",
-   "time": "20261125T024500Z",
+   "t": "Carolyn Ann ( Everhart ) Moore",
+   "u": "https://www.bryantimes.com/obituaries/carolyn-ann-everhart-moore/article_2d27db68-4c7f-49f1-b94c-afba22dc5961.html",
+   "img": "https://bloximages.chicago2.vip.townnews.com/bryantimes.com/content/tncms/assets/v3/editorial/d/4e/d4eafac3-c47c-42f6-a061-9888ba73c19d/6b05c7617a1a1.image.jpg?crop=688%2C361%2C0%2C212",
+   "d": "bryantimes.com",
+   "time": "20261125T054500Z",
    "cat": "khel"
   },
   {
-   "t": "Cowboys counting on playmakers to tame Joe Milton , Eagles",
-   "u": "https://www.ktop1490.com/2026/11/24/cowboys-counting-on-playmakers-to-tame-joe-milton-eagles/",
-   "img": "https://v4.dailysportspage.com/cumulus/image/886013/600/400/",
-   "d": "ktop1490.com",
-   "time": "20261125T024500Z",
+   "t": "Is the Third Time the Charm for Eli Manning Hall of Fame Case ?",
+   "u": "https://www.si.com/nfl/giants/onsi/eli-manning-hall-of-fame-class-of-2027-third-year-eligibility-01m87wxq2zvy",
+   "img": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_5478,h_3081/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/giants_country/01m87z3vamcwa8tetpae.jpg",
+   "d": "si.com",
+   "time": "20261125T054500Z",
    "cat": "khel"
   },
   {
-   "t": "The journey continues : Gulf Shores welcoming Hillcrest for semifinal clash between unbeatens",
-   "u": "http://www.gulfcoastmedia.com/stories/the-journey-continues-gulf-shores-welcoming-hillcrest-for-semifinal-clash-between-unbeatens,357854",
-   "img": "https://beta.creativecirclecdn.com/gulfcoast/original/20261123-213912-a1d-GulfShores-v-McAdory-2ndRoundPlayoff-Football%2726_24.jpg",
-   "d": "gulfcoastmedia.com",
-   "time": "20261125T024500Z",
+   "t": "Ghana : Parliament Disability Caucus Congratulates Black Challenge On World Cup Triumph",
+   "u": "https://allafrica.com/stories/202611250048.html",
+   "img": "",
+   "d": "allafrica.com",
+   "time": "20261125T064500Z",
    "cat": "khel"
   },
   {
-   "t": "Boise State Is Officially Unranked By CFP Committee",
-   "u": "https://mix106radio.com/ixp/737/p/boise-state-is-officially-unranked-2026/",
-   "img": "https://townsquare.media/site/737/files/2026/11/attachment-gettyimages-2303577566.jpg?&q=75&format=natural",
-   "d": "mix106radio.com",
-   "time": "20261125T024500Z",
+   "t": "Chris Hemsworth felt like  the odd one out  on Avengers Doomsday set with younger Marvel stars , calls experience  oddly uncomfortable",
+   "u": "https://www.hindustantimes.com/entertainment/hollywood/chris-hemsworth-says-he-felt-like-the-odd-one-out-on-avengers-doomsday-set-with-next-generation-of-marvel-stars-robert-downey-jr-chris-evans-101795582636516.html",
+   "img": "",
+   "d": "hindustantimes.com",
+   "time": "20261125T064500Z",
    "cat": "khel"
   },
   {
-   "t": "Bournemouth 7s Festival and how it began as it turns 20",
-   "u": "https://www.bournemouthecho.co.uk/news/26743945.bournemouth-7s-festival-began-turns-20/",
-   "img": "https://www.bournemouthecho.co.uk/resources/images/6269282.jpg?type=og-image",
-   "d": "bournemouthecho.co.uk",
-   "time": "20261125T024500Z",
-   "cat": "khel"
-  },
-  {
-   "t": "Dallas Stars emerge as unexpected winners in Canadien Dylan Larkin trade",
-   "u": "https://blackoutdallas.com/dallas-stars-emerge-as-unexpected-winners-in-canadiens-dylan-larkin-trade",
-   "img": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_4000,h_2250/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/124/01m87tedhg2wnm382b3s.jpg",
-   "d": "blackoutdallas.com",
-   "time": "20261125T024500Z",
-   "cat": "khel"
-  },
-  {
-   "t": "Ervilin Myles faces aggravated assault , weapon on school property charges after incident",
-   "u": "https://www.mysuncoast.com/2026/11/25/mother-charged-after-allegedly-assaulting-school-band-director-pulling-out-loaded-gun/",
-   "img": "https://gray-wwsb-prod.gtv-cdn.com/resizer/v2/HQW4VQIB2RHZ3FBNUFIDGSN45A.png?auth=e0bfb0bc6206a9de03f6eb657fe57f19c7fd79b21a7c170e8d37c7253867b86f&smart=true",
-   "d": "mysuncoast.com",
-   "time": "20261125T024500Z",
-   "cat": "khel"
-  },
-  {
-   "t": "Abbey Weitzeil Announces US Open Will Be First LCM Meet In Two Years",
-   "u": "https://swimswam.com/abbey-weitzeil-announces-us-open-will-be-first-lcm-meet-in-two-years/",
-   "img": "https://swimswam.com/wp-content/uploads/2024/07/Abbey-Weitzeil-By-Jack-Spitser-DSC07085-scaled.jpg",
-   "d": "swimswam.com",
-   "time": "20261125T024500Z",
-   "cat": "khel"
-  },
-  {
-   "t": "Penn State notes : Campbell accepts blame for not calling a late timeout",
-   "u": "https://www.delcotimes.com/2026/11/24/penn-state-notes-campbell-accepts-blame-for-not-calling-a-late-timeout/",
-   "img": "https://www.delcotimes.com/wp-content/uploads/2026/11/REG-Z-PennStateRutgersConversion-01.jpg",
-   "d": "delcotimes.com",
-   "time": "20261125T024500Z",
-   "cat": "khel"
-  },
-  {
-   "t": "A conversation with R . E . M . Mike Mills , Northeast Class of  76 | Georgia Public Broadcasting",
-   "u": "https://www.gpb.org/news/2026/11/23/conversation-rems-mike-mills-northeast-class-of-76",
-   "img": "https://www.gpb.org/sites/default/files/styles/three_two_702x468/public/2026-11/mikemills111_1.jpg?h=a6a24b22&itok=yOKB0y3t",
-   "d": "gpb.org",
-   "time": "20261125T024500Z",
-   "cat": "khel"
-  },
-  {
-   "t": "Fourth Las Vegas Grand Prix said to match 2025 performance",
-   "u": "https://igamingbusiness.com/casino/f1-las-vegas-2026/",
-   "img": "https://igamingbusiness.com/wp-content/uploads/2023/01/race-92193_1920.jpg",
-   "d": "igamingbusiness.com",
-   "time": "20261125T024500Z",
-   "cat": "khel"
-  },
-  {
-   "t": "LSU Board Member  Not Worried  About SEC Eliminating LSU From SEC , But Knows What LSU Must Do Better",
-   "u": "https://www.tigerrag.com/lsu-board-member-not-worried-about-sec-eliminating-lsu-from-sec-but-knows-what-lsu-must-do-better/",
-   "img": "https://www.tigerrag.com/wp-content/uploads/CollisTempleJr_LSUAthletics.jpg",
-   "d": "tigerrag.com",
-   "time": "20261125T023000Z",
-   "cat": "khel"
-  },
-  {
-   "t": "Blue Jackets hope to get their share of breaks in Devils rematch",
-   "u": "http://www.ohiostandard.com/news/279452878/blue-jackets-hope-to-get-their-share-of-breaks-in-devils-rematch",
-   "img": "https://chitra-api.kreatio.com/api/v1/wps/d2318ad/86eeac9f-a24b-4908-9dcb-829179ef4cb3/0/NWRlMDgzNDMtOTZ-600x315.jpg",
-   "d": "ohiostandard.com",
-   "time": "20261125T023000Z",
-   "cat": "khel"
-  },
-  {
-   "t": "Flyers bring season - long win streak to game vs . struggling Capitals",
-   "u": "http://www.coloradostar.com/news/279452857/flyers-bring-season-long-win-streak-to-game-vs-struggling-capitals",
-   "img": "https://chitra-api.kreatio.com/api/v1/wps/eadb253/2d593827-4a7a-4d75-a321-10b8ef0d8c2b/0/MzI2NjU4YWMtOTY-600x315.jpg",
-   "d": "coloradostar.com",
-   "time": "20261125T023000Z",
-   "cat": "khel"
-  },
-  {
-   "t": "James  Jim  Richard MacDonald",
-   "u": "http://www.messagemedia.co/aitkin/milestones/obituaries/james-jim-richard-macdonald/article_478538e3-b30c-5d7b-b4bf-6a5ec9f3dfc3.html",
-   "img": "https://bloximages.newyork1.vip.townnews.com/messagemedia.co/content/tncms/assets/v3/editorial/3/8a/38a5ca89-bd69-5f72-9d0e-b83c4eb2ff25/6b06176bc0ce5.image.jpg?crop=1206%2C633%2C0%2C463",
-   "d": "messagemedia.co",
-   "time": "20261125T023000Z",
-   "cat": "khel"
-  },
-  {
-   "t": "Raise the Future brings adoptive families together at Boondocks",
-   "u": "https://www.ksl.com:443/article/51647550/raise-the-future-brings-adoptive-families-together-at-boondocks",
-   "img": "https://img.ksl.com/slc/3209/320948/32094816.jpeg?filter=kslv2/responsive_story_lg",
-   "d": "ksl.com",
-   "time": "20261125T023000Z",
-   "cat": "khel"
-  },
-  {
-   "t": "Ray Guy Award voters shank finalist list with Daniel Sparks omission",
-   "u": "https://augustafreepress.com/news/ray-guy-award-voters-shank-finalist-list-with-daniel-sparks-omission/",
-   "img": "https://augustafreepress.com/wp-content/uploads/2024/09/daniel-sparks-uva-football.jpg",
-   "d": "augustafreepress.com",
-   "time": "20261125T023000Z",
-   "cat": "khel"
-  },
-  {
-   "t": "India to field top athletes for inaugural BIMSTEC Under - 23 Athletics Championships 2026",
-   "u": "http://www.africaleader.com/news/279452698/india-to-field-top-athletes-for-inaugural-bimstec-under-23-athletics-championships-2026",
-   "img": "https://chitra-api.kreatio.com/api/v1/wps/c350bf9/e74cee0d-a367-41ba-a6b7-02e7dae9d008/0/ANI-20261124195706-600x315.jpg",
-   "d": "africaleader.com",
-   "time": "20261125T023000Z",
-   "cat": "khel"
-  },
-  {
-   "t": "Miami doesnt move in new College Football Playoff rankings",
-   "u": "https://www.sun-sentinel.com/2026/11/24/um-playoff-ranks/",
-   "img": "https://www.sun-sentinel.com/wp-content/uploads/2026/11/TFL-L-Virginia-Tech-Miami-Football_269334949.jpg",
-   "d": "sun-sentinel.com",
-   "time": "20261125T023000Z",
-   "cat": "khel"
-  },
-  {
-   "t": "One goal short , one more chance : PNG Bilums chase FIFA World Cup dream",
-   "u": "https://www.rnz.co.nz/news/pacific/2770238/one-goal-short-one-more-chance-png-bilums-chase-fifa-world-cup-dream",
-   "img": "https://media.rnztools.nz/rnz/image/upload/s--NFmZC_El--/t_tohu-badge-facebook/f_auto/q_auto/4JEMECN_491d7f3152a36fe04eb9458a81a12527_avif",
-   "d": "rnz.co.nz",
-   "time": "20261125T023000Z",
-   "cat": "khel"
-  },
-  {
-   "t": "Health officials , food experts give tips for safe food handling as Thanksgiving approaches",
-   "u": "https://www.ksl.com:443/article/51647928/health-officials-food-experts-give-reminders-ahead-of-thanksgiving-on-how-to-handle-food",
-   "img": "https://img.ksl.com/slc/3209/320961/32096132.jpeg?filter=kslv2/responsive_story_lg",
-   "d": "ksl.com",
-   "time": "20261125T023000Z",
-   "cat": "khel"
-  },
-  {
-   "t": "Have You Seen This ? Have a very Bear Bachmeier Christmas",
-   "u": "https://www.ksl.com:443/article/51647964/have-you-seen-this-have-a-very-bear-bachmeier-christmas",
-   "img": "https://img.ksl.com/slc/3209/320962/32096223.jpeg?filter=kslv2/responsive_story_lg",
-   "d": "ksl.com",
-   "time": "20261125T023000Z",
-   "cat": "khel"
-  },
-  {
-   "t": "November 24 Locker Room with Savion Williams",
-   "u": "https://www.1039wvbo.com/2026/11/24/november-24-locker-room-with-savion-williams/",
-   "img": "https://www.wfrv.com/wp-content/uploads/sites/70/2026/11/AP26234753803870.jpg",
-   "d": "1039wvbo.com",
-   "time": "20261125T023000Z",
-   "cat": "khel"
-  },
-  {
-   "t": "Home Sweet Home : Vikings Volunteer with Habitat for Humanity for Annual  Build Week",
-   "u": "https://www.vikings.com/news/home-sweet-home-volunteering-habitat-for-humanity-build-week-2026",
-   "img": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/vikings/ebbefbbk4nu6qqo8mis9",
-   "d": "vikings.com",
-   "time": "20261125T023000Z",
-   "cat": "khel"
-  },
-  {
-   "t": "Yarbrough - Some reflections on my birthday - Statesboro Herald",
-   "u": "https://www.statesboroherald.com/local/yarbrough-some-reflections-on-my-birthday/",
-   "img": "https://statesboroherald.cdn-anvilcms.net/media/images/2025/08/11/images/Dick_Yarbrough_Color.max-640x480.jpg",
-   "d": "statesboroherald.com",
-   "time": "20261125T023000Z",
-   "cat": "khel"
-  },
-  {
-   "t": "Hawkin status up in the air for Friday , but Rodriguez wants Mountaineers to relish  opportunity to prove ourselves",
-   "u": "https://wvmetronews.com/2026/11/24/hawkins-status-up-in-the-air-for-friday-but-rodriguez-wants-mountaineers-to-relish-opportunity-to-prove-ourselves/",
-   "img": "https://wvmetronews.com/wp-content/uploads/2026/11/2026-11-21T201312Z_1988218441_MT1USATODAY30414279_RTRMADP_3_NCAA-FOOTBALL-HOUSTON-AT-WEST-VIRGINIA-scaled.jpg",
-   "d": "wvmetronews.com",
-   "time": "20261125T023000Z",
+   "t": "SOBHA Townpark : The Evolution of Community Living on Hosur Road",
+   "u": "https://aninews.in/news/business/sobha-townpark-the-evolution-of-community-living-on-hosur-road20261125100324/",
+   "img": "",
+   "d": "aninews.in",
+   "time": "20261125T054500Z",
    "cat": "khel"
   }
  ]
